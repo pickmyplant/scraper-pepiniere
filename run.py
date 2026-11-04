@@ -35,7 +35,7 @@ def main():
     fichier_log = journal()
     log = logging.getLogger("scraper")
     ids = [x.strip() for x in args.ids.split(",") if x.strip()]
-    plantes = lire_plantes(args.plantes, ids or None)
+    plantes = lire_plantes(args.plantes, ids or None, config.FICHIER_EQUIVALENCES)
     manquants = set(ids) - {p.id for p in plantes}
     if manquants:
         log.warning("IDs absents du fichier plantes : %s", ", ".join(sorted(manquants)))

@@ -23,6 +23,20 @@ Fichiers produits :
 
 `data/plantes_test.csv` est un export des onglets Plantes (ID, Nom commun, Autres noms, Synonymes, Genre, Espèce) et Fiches (colonne Variétés, une variété par ligne au format « Nom = particularités »).
 
+## Équivalences de variétés
+
+Quand le site écrit une variété autrement que l'onglet Fiches (traduction, orthographe), ajoutez une ligne dans `data/equivalences_varietes.csv` :
+
+```
+ID,Nom sur le site,Nom dans Fiches
+P084,Soeur Agnes,Sister Agnes
+```
+
+- `ID` vide : l'équivalence vaut pour toutes les plantes.
+- `Nom dans Fiches` doit être écrit exactement comme dans la colonne Variétés.
+
+La ligne relevée prend alors le nom de Fiches (Variété = Sister Agnes, Nom latin = Nerium oleander 'Sister Agnes'). Pas besoin de toucher au code.
+
 ## Organisation
 
 | Fichier | Rôle |

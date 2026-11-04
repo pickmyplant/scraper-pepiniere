@@ -20,5 +20,7 @@ MAX_FICHES_PAR_PLANTE = 60
 
 # Fichiers
 FICHIER_PLANTES = "data/plantes_test.csv"
+# Équivalences de noms de variétés (site -> Fiches)
+FICHIER_EQUIVALENCES = "data/equivalences_varietes.csv"
 DOSSIER_CACHE = "cache"
 DOSSIER_LOGS = "logs"

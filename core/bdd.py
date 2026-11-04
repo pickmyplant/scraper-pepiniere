@@ -1,5 +1,6 @@
 """Lecture de la BDD Plante (export CSV des onglets Plantes + colonne Variétés de Fiches)."""
 import csv
+import os
 import re
 from dataclasses import dataclass, field
 
@@ -45,7 +46,25 @@ def lire_varietes(texte):
     return res
 
 
-def lire_plantes(chemin, ids=None):
+def lire_equivalences(chemin):
+    """Table « Nom sur le site » -> « Nom dans Fiches ». ID vide = valable pour toutes les plantes."""
+    if not chemin or not os.path.exists(chemin):
+        return []
+    with open(chemin, encoding="utf-8", newline="") as f:
+        return [(r["ID"].strip(), r["Nom sur le site"].strip(), r["Nom dans Fiches"].strip())
+                for r in csv.DictReader(f) if r.get("Nom sur le site") and r.get("Nom dans Fiches")]
+
+
+def _appliquer_equivalences(plante, equivalences):
+    for id_, site, fiches in equivalences:
+        if id_ and id_ != plante.id:
+            continue
+        for v in plante.varietes:
+            if v.nom.strip().lower() == fiches.lower() and site not in v.synonymes:
+                v.synonymes.append(site)
+
+
+def lire_plantes(chemin, ids=None, equivalences=None):
     with open(chemin, encoding="utf-8", newline="") as f:
         plantes = [
             Plante(
@@ -61,4 +80,7 @@ def lire_plantes(chemin, ids=None):
         ]
     if ids:
         plantes = [p for p in plantes if p.id in ids]
+    eq = lire_equivalences(equivalences)
+    for p in plantes:
+        _appliquer_equivalences(p, eq)
     return plantes
