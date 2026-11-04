@@ -1,2 +1,46 @@
 # scraper-pepiniere
-Relevé des offres de pépinières pour le comparateur BDD Plante
+
+Relevé des offres de pépinières pour le comparateur BDD Plante. Le script produit un TSV au format de l'onglet **Offres**.
+
+## Lancer
+
+```bash
+pip install requests
+python run.py --ids P006,P007,P013,P084,P116
+```
+
+Options :
+- `--plantes` : CSV d'entrée (par défaut `data/plantes_test.csv`, voir plus bas) ;
+- `--sortie` : fichier de sortie (par défaut `offres_promessedefleurs_test.tsv`) ;
+- `--pepiniere` : adaptateur à utiliser (par défaut `promessedefleurs`).
+
+Fichiers produits :
+- `offres_promessedefleurs_test.tsv` : les lignes à coller dans Offres, en **ajout uniquement** ;
+- `offres_promessedefleurs_test_anomalies.tsv` : ce qui n'a pas pu être relevé, avec la raison ;
+- `logs/releve_*.log` : le journal de chaque requête et de chaque erreur (non versionné).
+
+## Entrée
+
+`data/plantes_test.csv` est un export des onglets Plantes (ID, Nom commun, Autres noms, Synonymes, Genre, Espèce) et Fiches (colonne Variétés, une variété par ligne au format « Nom = particularités »).
+
+## Organisation
+
+| Fichier | Rôle |
+|---|---|
+| `config.py` | plafonds de lignes, délais (3 à 5 s), User-Agent, timeouts |
+| `core/http.py` | client poli : robots.txt, une requête à la fois, arrêt sur 403, 429 ou captcha |
+| `core/bdd.py` | lecture de la BDD |
+| `core/matching.py` | rapprochement par nom latin et variétés de Fiches |
+| `core/formatting.py` | colonnes Offres : prix `34,90`, Contenant, Hauteur ou forme |
+| `core/export.py` | export TSV |
+| `adapters/promessedefleurs.py` | sitemap public, puis JSON-LD de chaque fiche produit |
+
+## Règles appliquées
+
+- Une ligne par format en stock et par fiche produit (une fiche = une variété). Toutes les fiches sont lues. Le plafond est `MAX_LIGNES_PAR_PRODUIT = 8` ; au-delà, on garde des formats répartis du plus petit au plus grand.
+- **Nom latin** : « Genre espèce 'Variété' » quand la fiche porte une variété, sinon « Genre espèce ».
+- Les mélanges de plusieurs plantes sont exclus. Un lot ou un mélange de la même espèce est gardé, avec une mention dans Notes.
+- Statut toujours « À vérifier ». Frais de port et Lien affilié restent vides.
+- Si le site renvoie 403, 429 ou un captcha, le script s'arrête sans rien tenter d'autre (code de sortie 2).
+
+Pour ajouter une pépinière, créez `adapters/<nom>.py` avec une classe `Adaptateur` qui expose `releve(plante, date)` et renvoie `(offres, anomalies)`, puis déclarez-la dans `run.py`.
