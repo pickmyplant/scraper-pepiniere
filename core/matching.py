@@ -100,7 +100,11 @@ def variete_du_titre(plante, titre):
                     break
             if reste:
                 break
-    reste = (reste or "").strip(" '\"‘’")
+    # Un nom commun de la plante entre parenthèses n'est pas une variété :
+    # « Fruit de la passion (Grenadille) - Passiflora edulis » = espèce type
+    communs = {norm(n) for n in [plante.nom_commun] + plante.autres_noms}
+    reste = re.sub(r"\(([^)]*)\)", lambda m: "" if norm(m.group(1)) in communs else m.group(0), reste or "")
+    reste = re.sub(r"\s+", " ", reste).strip(" '\"‘’")
     if not reste:
         return "", True  # espèce type
     return reste, False
