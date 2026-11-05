@@ -20,6 +20,7 @@ class Plante:
     genre: str
     espece: str
     varietes: list  # [Variete]
+    equivalences_latin: list = field(default_factory=list)  # noms latins écrits autrement sur les sites, validés
 
     @property
     def nom_latin(self):
@@ -64,7 +65,19 @@ def _appliquer_equivalences(plante, equivalences):
                 v.synonymes.append(site)
 
 
-def lire_plantes(chemin, ids=None, equivalences=None):
+def lire_equivalences_latin(chemin):
+    """Table « Nom latin sur le site » validée par l'utilisatrice : ID -> [noms]."""
+    if not chemin or not os.path.exists(chemin):
+        return {}
+    res = {}
+    with open(chemin, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            if r.get("ID") and r.get("Nom latin sur le site"):
+                res.setdefault(r["ID"].strip(), []).append(r["Nom latin sur le site"].strip())
+    return res
+
+
+def lire_plantes(chemin, ids=None, equivalences=None, equivalences_latin=None):
     with open(chemin, encoding="utf-8", newline="") as f:
         plantes = [
             Plante(
@@ -81,6 +94,8 @@ def lire_plantes(chemin, ids=None, equivalences=None):
     if ids:
         plantes = [p for p in plantes if p.id in ids]
     eq = lire_equivalences(equivalences)
+    eql = lire_equivalences_latin(equivalences_latin)
     for p in plantes:
         _appliquer_equivalences(p, eq)
+        p.equivalences_latin = eql.get(p.id, [])
     return plantes

@@ -20,8 +20,19 @@ def contient(texte_norm, motif):
 
 
 def noms_latins(plante):
-    """Nom accepté + synonymes latins de la BDD."""
-    return [plante.nom_latin] + plante.synonymes_latins
+    """Nom accepté + synonymes latins de la BDD + équivalences validées (data/equivalences_latin.csv)."""
+    return [plante.nom_latin] + plante.synonymes_latins + list(getattr(plante, "equivalences_latin", []))
+
+
+def equivalence_utilisee(plante, textes):
+    """Équivalence validée trouvée sur la fiche alors que les noms de la BDD n'y sont pas (sinon None)."""
+    tn = norm(" ".join(textes))
+    if any(contient(tn, n) for n in [plante.nom_latin] + plante.synonymes_latins):
+        return None
+    for n in getattr(plante, "equivalences_latin", []):
+        if contient(tn, n):
+            return n
+    return None
 
 
 def variete_fiches(plante, texte):

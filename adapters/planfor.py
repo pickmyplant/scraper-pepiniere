@@ -171,6 +171,9 @@ class Adaptateur:
         textes = [nom, h1, desc]
         notes_page = []
         approche = None if M.latin_sur_fiche(plante, textes) else M.latin_approche(plante, textes)
+        equiv = M.equivalence_utilisee(plante, textes)
+        if equiv:
+            notes_page.append(f"Nom latin écrit « {equiv} » sur la fiche (équivalence validée)")
         if approche:
             notes_page.append(f"Nom latin écrit « {approche} » sur la fiche")
         elif not M.latin_sur_fiche(plante, textes):

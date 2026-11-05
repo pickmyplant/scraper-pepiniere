@@ -13,22 +13,6 @@ P063	https://www.planfor.fr/achat,agapanthe-enigma,7539,FR	Nom latin Agapanthus 
 P063	https://www.planfor.fr/achat,agapanthe-purple-cloud,7522,FR	Nom latin Agapanthus praecox absent de la fiche « Agapanthe 'Purple Cloud' / Agapanthus Purple Cloud » : aucun prix relevé
 P063	https://www.planfor.fr/achat,agapanthe-rose,9814,FR	Nom latin Agapanthus praecox absent de la fiche « Agapanthe rose / Agapanthus rosea » : aucun prix relevé
 P065	https://www.planfor.fr/achat,oiseau-du-paradis,9018,FR	Nom latin Caesalpinia pulcherrima absent de la fiche « Oiseau du paradis / Caesalpinia Gilliesii » : aucun prix relevé
-P071	https://www.planfor.fr/achat,bergamotier-bergamote,8326,FR	Nom latin Citrus japonica absent de la fiche « Bergamotier, Bergamote / Citrus bergamia » : aucun prix relevé
-P071	https://www.planfor.fr/achat,cedratier-main-de-bouddha,7676,FR	Nom latin Citrus japonica absent de la fiche « Cédratier Main de Bouddha / Citrus medica sarcodactylis 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,chinotto-mandarinier-chinois,8410,FR	Nom latin Citrus japonica absent de la fiche « Chinotto, Mandarinier chinois / Citrus myrtifolia » : aucun prix relevé
-P071	https://www.planfor.fr/achat,citron-caviar-citronnier-caviar,9931,FR	Nom latin Citrus japonica absent de la fiche « Citron caviar, Citronnier caviar / Microcitrus australasica 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,citron-caviar-de-papouasie,8389,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Citron Caviar de Papouasie / Citrus wintersii »)
-P071	https://www.planfor.fr/achat,citronnier-des-4-saisons,2047,FR	Nom latin Citrus japonica absent de la fiche « Citronnier des 4 saisons / Citrus limon 4 saisons 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,citronnier-doux,8419,FR	Nom latin Citrus japonica absent de la fiche « Citronnier doux / Citrus limetta Pursha » : aucun prix relevé
-P071	https://www.planfor.fr/achat,citron-vert-citronnier-vert,1270,FR	Nom latin Citrus japonica absent de la fiche « Citron vert, Citronnier vert / Citrus aurantifolia 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,citron-yuzu-citronnier-yuzu,9920,FR	Nom latin Citrus japonica absent de la fiche « Citron Yuzu, Citronnier Yuzu / Citrus x junos » : aucun prix relevé
-P071	https://www.planfor.fr/achat,clementinier,1271,FR	Nom latin Citrus japonica absent de la fiche « Clémentinier / Citrus clementina 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,combava,1273,FR	Nom latin Citrus japonica absent de la fiche « Combava / Citrus hystrix 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,kumquat,1272,FR	Nom latin Citrus japonica absent de la fiche « Kumquat / Citrus fortunella » : aucun prix relevé
-P071	https://www.planfor.fr/achat,mandarinier,9919,FR	Nom latin Citrus japonica absent de la fiche « Mandarinier / Citrus reticulata 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,oranger,1275,FR	Nom latin Citrus japonica absent de la fiche « Oranger / Citrus sinensis 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,oranger-sanguin,8299,FR	Nom latin Citrus japonica absent de la fiche « Oranger sanguin / Citrus sinensis Sanguinea 1 » : aucun prix relevé
-P071	https://www.planfor.fr/achat,pomelo,1276,FR	Nom latin Citrus japonica absent de la fiche « Pomelo / Citrus paradisi » : aucun prix relevé
 P073	https://www.planfor.fr/achat,ail-decoratif-bleu-allium-caeruleum-azureum,B681,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Ail décoratif bleu - Allium Caeruleum Azureum / »)
 P073	https://www.planfor.fr/achat,ciboulette,9932,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Ciboulette / Allium schoenoprasum »)
 P074	https://www.planfor.fr/achat,pavot-islande,9808,FR	Nom latin Papaver somniferum absent de la fiche « Pavot d'Islande / Papaver nudicaule » : aucun prix relevé
@@ -111,3 +95,18 @@ P079	https://www.planfor.fr/achat,chene-vert,1349,FR	Nom latin Quercus rotundifo
 P079	https://www.planfor.fr/achat,chene-vert-de-californie,9991,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Chêne vert de Californie / Quercus agrifolia »)
 P079	https://www.planfor.fr/achat,chene-vert-truffier,1796,FR	Nom latin Quercus rotundifolia absent de la fiche « Chêne vert TRUFFIER / Quercus ilex - Tuber Melanosporum » : aucun prix relevé
 P079	https://www.planfor.fr/achat,chene-zeen-chene-des-canaries,8461,FR	Nom latin Quercus rotundifolia absent de la fiche « Chêne zéen, Chêne des Canaries / Quercus canariensis » : aucun prix relevé
+P071	https://www.planfor.fr/achat,bergamotier-bergamote,8326,FR	Nom latin Citrus japonica absent de la fiche « Bergamotier, Bergamote / Citrus bergamia » : aucun prix relevé
+P071	https://www.planfor.fr/achat,cedratier-main-de-bouddha,7676,FR	Nom latin Citrus japonica absent de la fiche « Cédratier Main de Bouddha / Citrus medica sarcodactylis 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,chinotto-mandarinier-chinois,8410,FR	Nom latin Citrus japonica absent de la fiche « Chinotto, Mandarinier chinois / Citrus myrtifolia » : aucun prix relevé
+P071	https://www.planfor.fr/achat,citron-caviar-citronnier-caviar,9931,FR	Nom latin Citrus japonica absent de la fiche « Citron caviar, Citronnier caviar / Microcitrus australasica 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,citron-caviar-de-papouasie,8389,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Citron Caviar de Papouasie / Citrus wintersii »)
+P071	https://www.planfor.fr/achat,citronnier-des-4-saisons,2047,FR	Nom latin Citrus japonica absent de la fiche « Citronnier des 4 saisons / Citrus limon 4 saisons 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,citronnier-doux,8419,FR	Nom latin Citrus japonica absent de la fiche « Citronnier doux / Citrus limetta Pursha » : aucun prix relevé
+P071	https://www.planfor.fr/achat,citron-vert-citronnier-vert,1270,FR	Nom latin Citrus japonica absent de la fiche « Citron vert, Citronnier vert / Citrus aurantifolia 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,citron-yuzu-citronnier-yuzu,9920,FR	Nom latin Citrus japonica absent de la fiche « Citron Yuzu, Citronnier Yuzu / Citrus x junos » : aucun prix relevé
+P071	https://www.planfor.fr/achat,clementinier,1271,FR	Nom latin Citrus japonica absent de la fiche « Clémentinier / Citrus clementina 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,combava,1273,FR	Nom latin Citrus japonica absent de la fiche « Combava / Citrus hystrix 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,mandarinier,9919,FR	Nom latin Citrus japonica absent de la fiche « Mandarinier / Citrus reticulata 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,oranger,1275,FR	Nom latin Citrus japonica absent de la fiche « Oranger / Citrus sinensis 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,oranger-sanguin,8299,FR	Nom latin Citrus japonica absent de la fiche « Oranger sanguin / Citrus sinensis Sanguinea 1 » : aucun prix relevé
+P071	https://www.planfor.fr/achat,pomelo,1276,FR	Nom latin Citrus japonica absent de la fiche « Pomelo / Citrus paradisi » : aucun prix relevé
