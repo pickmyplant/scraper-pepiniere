@@ -7,6 +7,10 @@ USER_AGENT = "scraper-pepiniere/0.1 (comparateur de prix BDD Plante; robot de te
 DELAI_MIN_S = 3.0
 DELAI_MAX_S = 5.0
 TIMEOUT_S = 30
+# Délais propres à un site (min, max), quand le site le permet (pas de Crawl-delay) et sur accord de l'utilisatrice
+DELAIS_PAR_SITE = {
+    "planfor": (1.0, 2.0),
+}
 # Une seule nouvelle tentative en cas de coupure réseau (pas pour 403/429)
 PAUSE_AVANT_NOUVEL_ESSAI_S = 5.0
 

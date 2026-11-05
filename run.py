@@ -13,7 +13,7 @@ from core.bdd import lire_plantes
 from core.export import ecrire_tsv
 from core.http import Bloque
 
-ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs"}
+ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs", "planfor": "adapters.planfor"}
 
 
 def journal():
@@ -29,9 +29,10 @@ def main():
     ap.add_argument("--pepiniere", default="promessedefleurs", choices=ADAPTATEURS)
     ap.add_argument("--ids", default="", help="IDs séparés par des virgules (défaut : toutes les plantes du CSV)")
     ap.add_argument("--plantes", default=config.FICHIER_PLANTES)
-    ap.add_argument("--sortie", default="offres_promessedefleurs_test.tsv")
+    ap.add_argument("--sortie", default=None, help="défaut : offres_<pepiniere>_test.tsv")
     args = ap.parse_args()
 
+    args.sortie = args.sortie or f"offres_{args.pepiniere}_test.tsv"
     fichier_log = journal()
     log = logging.getLogger("scraper")
     ids = [x.strip() for x in args.ids.split(",") if x.strip()]
