@@ -20,6 +20,11 @@ class Plante:
     genre: str
     espece: str
     varietes: list  # [Variete]
+    # Espèce horticole sans nom d'espèce sur les fiches (ex. Gazania × hybrida) :
+    # on accepte les fiches qui ne portent que le genre
+    genre_seul: bool = False
+    # Noms latins des autres plantes du même genre (leurs fiches ne sont pas pour celle-ci)
+    autres_especes_du_genre: list = field(default_factory=list)
 
     @property
     def nom_latin(self):
@@ -75,9 +80,14 @@ def lire_plantes(chemin, ids=None, equivalences=None):
                 genre=r["Genre"].strip(),
                 espece=r["Espèce"].strip(),
                 varietes=lire_varietes(r.get("Variétés")),
+                genre_seul=(r.get("Genre seul") or "").strip().lower() in ("oui", "x", "1"),
             )
             for r in csv.DictReader(f)
         ]
+    for p in plantes:
+        if p.genre_seul:
+            p.autres_especes_du_genre = [n for q in plantes if q is not p and q.genre == p.genre
+                                         for n in [q.nom_latin] + q.synonymes_latins]
     if ids:
         plantes = [p for p in plantes if p.id in ids]
     eq = lire_equivalences(equivalences)

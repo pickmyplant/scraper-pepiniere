@@ -44,7 +44,14 @@ def est_candidat(plante, titre, url):
         return "latin"
     if contient(tn, plante.genre) and variete_fiches(plante, f"{titre} {slug}"):
         return "genre+variete"
+    if plante.genre_seul and contient(tn, plante.genre) and not autre_espece(plante, tn):
+        return "genre seul"
     return None
+
+
+def autre_espece(plante, texte_norm):
+    """Vrai si le texte nomme une autre espèce du même genre présente dans la BDD."""
+    return any(contient(texte_norm, n) for n in plante.autres_especes_du_genre)
 
 
 def candidat_nom_commun(plante, titre):

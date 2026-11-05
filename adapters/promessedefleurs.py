@@ -29,6 +29,7 @@ class Adaptateur:
     def __init__(self):
         self.http = ClientPoli(BASE)
         self.entrees = None
+        self.pages = {}  # url -> HTML, pour ce relevé seulement
 
     # ---------- sitemap ----------
     def _sitemap(self):
@@ -90,7 +91,10 @@ class Adaptateur:
         log.info("%s %s : %d fiche(s) candidate(s)", plante.id, plante.nom_latin, len(cands))
         for url, titre_sm, mode in cands:
             try:
-                page = self.http.get(url).text
+                # Une fiche déjà lue pendant ce relevé (pour une autre plante) n'est pas redemandée
+                if url not in self.pages:
+                    self.pages[url] = self.http.get(url).text
+                page = self.pages[url]
             except InterditParRobots:
                 anomalies.append((url, "Interdit par robots.txt, non lu"))
                 continue
@@ -123,9 +127,13 @@ class Adaptateur:
 
         var_fiches = M.variete_fiches(plante, nom)
         if not M.latin_sur_fiche(plante, textes):
-            if M.contient(M.norm(" ".join(textes)), plante.genre) and var_fiches:
+            tn = M.norm(" ".join(textes))
+            if M.contient(tn, plante.genre) and var_fiches:
                 notes_prod.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var_fiches} de l'onglet Fiches")
+            elif plante.genre_seul and M.contient(tn, plante.genre) and not M.autre_espece(plante, tn):
+                notes_prod.append(f"Espèce non précisée sur la fiche (genre {plante.genre} seul) : "
+                                  f"rattaché à {plante.nom_latin}")
             else:
                 return [], [(url, f"Nom latin {plante.nom_latin} absent de la fiche « {nom} » : aucun prix relevé")]
 
