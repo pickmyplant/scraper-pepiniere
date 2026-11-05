@@ -71,6 +71,9 @@ class Adaptateur:
                     res.append(u)
 
         ajouter(self._chercher(f"{plante.genre} {espece}"))
+        if not res:  # synonymes latins de la BDD (ex. Solanum rantonnetii pour Lycianthes rantonnetii)
+            for syn in plante.synonymes_latins[:2]:
+                ajouter(self._chercher(re.sub(r"[×x]\s+", "", syn).strip()))
         if not res:
             for v in plante.varietes:
                 if M.norm(v.nom) not in M.VARIETES_IGNOREES and len(M.norm(v.nom)) >= 4:
