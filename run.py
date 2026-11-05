@@ -18,11 +18,14 @@ from core.http import Bloque
 ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs", "planfor": "adapters.planfor"}
 
 
-def journal():
+def journal(silencieux=False):
     os.makedirs(config.DOSSIER_LOGS, exist_ok=True)
     fichier = os.path.join(config.DOSSIER_LOGS, f"releve_{dt.datetime.now():%Y-%m-%d_%H%M%S}.log")
+    ecran = logging.StreamHandler()
+    if silencieux:  # à l'écran : seulement avertissements et erreurs ; tout le détail reste dans logs/
+        ecran.setLevel(logging.WARNING)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.FileHandler(fichier, encoding="utf-8"), logging.StreamHandler()])
+                        handlers=[logging.FileHandler(fichier, encoding="utf-8"), ecran])
     return fichier
 
 
@@ -37,13 +40,14 @@ def main():
                          "pour le bouton « Importer un relevé » de la Sheet")
     ap.add_argument("--par", default="Claude A", help="qui fait le relevé (pour le registre)")
     ap.add_argument("--remarques", default="", help="remarques pour le registre")
+    ap.add_argument("--silencieux", action="store_true", help="n'afficher que les avertissements et erreurs")
     args = ap.parse_args()
 
     if args.releve:
         os.makedirs("releves", exist_ok=True)
         args.sortie = os.path.join("releves", f"{args.releve}.tsv")
     args.sortie = args.sortie or f"offres_{args.pepiniere}_test.tsv"
-    fichier_log = journal()
+    fichier_log = journal(args.silencieux)
     log = logging.getLogger("scraper")
     ids = [x.strip() for x in args.ids.split(",") if x.strip()]
     plantes = lire_plantes(args.plantes, ids or None, config.FICHIER_EQUIVALENCES, config.FICHIER_EQUIVALENCES_LATIN)

@@ -38,6 +38,7 @@ Pour économiser des tokens, Claude ne recopie plus les lignes dans la Sheet : c
    python run.py --pepiniere planfor --plantes data/plantes_P081-P120.csv --releve PLF-2026-11-06-A4 --par "Claude A"
    ```
    Cela produit `releves/PLF-2026-11-06-A4.tsv`, le fichier d'anomalies et la fiche `releves/PLF-2026-11-06-A4.json`.
+   En une seule commande (relevé silencieux, résumé, commit et push) : `outils/lot.sh PLF-2026-11-06-A4 data/plantes_P081-P120.csv`.
 2. Résumé compact à relire, sans tout afficher : `python outils/resume.py releves/PLF-2026-11-06-A4.tsv`
 3. Commit et push, puis l'utilisatrice clique sur **Relevés > Importer un relevé…** dans la Sheet et saisit l'identifiant (ou `ID@branche` pour une autre branche).
    Le script vérifie le registre, remplace les anciennes lignes s'il s'agit d'une mise à jour (même pépinière et mêmes plantes), ajoute tout en un seul bloc et remplit l'onglet « Relevés ».

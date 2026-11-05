@@ -1,5 +1,7 @@
 # Passation : comparateur de prix BDD Plante
 
+**Pour démarrer une session, lire d'abord `DEMARRAGE.md` (court).** Ce document-ci sert de référence.
+
 Ce document permet à une autre session Claude (second compte) de reprendre ou de compléter le travail sans repartir de zéro. Le prompt à coller est en bas de page.
 
 ## Où en est le projet (05/11/2026)
@@ -85,7 +87,7 @@ ID | Plante | Variété | Pépinière | Lien du produit | Prix | Devise | Conten
 
 > Travaille uniquement dans le dépôt GitHub `pickmyplant/scraper-pepiniere`. Ne touche à aucun autre dépôt, en particulier celui du site de la BDD Plante. Ne commite aucune clé, aucun mot de passe ni aucune donnée personnelle.
 >
-> Commence par lire `PASSATION.md` et `README.md` sur la branche `claude/vibrant-keller-jibr76`. Ils contiennent tout le contexte, les règles de conduite et les décisions déjà prises. Applique-les sans les remettre en question.
+> Commence par lire `DEMARRAGE.md` sur la branche `claude/vibrant-keller-jibr76` (court). Ne lis `PASSATION.md` ou `README.md` qu'en cas de doute précis. Applique les règles et décisions sans les remettre en question.
 >
 > Lis ensuite les onglets Règles, Réservations et Questions de la Google Sheet « Coordination Claude – Comparateur pépinières (Sheet) » (ID `1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM`) avec le connecteur Google Sheets. Tu es **Claude B**. Respecte ses règles : réserve ta pépinière et tes plantes dans l'onglet Réservations avant de commencer, ne touche pas à ce que Claude A a réservé, et ajoute une ligne dans Journal à chaque étape et dans Découvertes pour chaque découverte, sans modifier les lignes de l'autre.
 >
@@ -95,4 +97,4 @@ ID | Plante | Variété | Pépinière | Lien du produit | Prix | Devise | Conten
 > - « Ajoute un adaptateur pour la pépinière X (URL). Commence par le rapport d'étude du site (robots.txt, sitemap, JSON-LD, API), puis attends mon feu vert. »
 > - ou « Lance l'adaptateur Promesse de Fleurs sur les plantes P120 à P160. »]
 >
-> Livraison : d'abord le rapport ou le plan, puis attends mon accord. Ensuite le code, lancé sur un petit échantillon. Termine par un tableau des lignes obtenues et la liste de ce qui n'a pas pu être relevé, avec la raison. N'écris dans Google Sheets (onglet Offres, ajout de lignes uniquement) qu'après mon accord, et vérifie d'abord qu'il n'y a pas de doublons.
+> Livraison : pour un nouveau site, d'abord le rapport, puis attends mon accord. Pour un lot, `outils/lot.sh <ID> data/plantes_<lot>.csv` puis donne-moi l'identifiant pour le bouton « Importer un relevé ». N'écris jamais toi-même dans l'onglet Offres. Réponses concises : résumé court et seulement les cas à vérifier.
