@@ -22,6 +22,10 @@ BASE = "https://www.planfor.fr"
 RECHERCHE = BASE + "/index.php?action=formulaire_recherche&motclef={q}&page=1"
 # Début de la partie « format » dans le nom d'une offre
 DEBUT_FORMAT = re.compile(r"(Photos? disponibles?|Jeune plant|Plante en |Plant |Plants |Lot de|Excellent|Livraison|Racines? nues?|Godet|Motte)")
+# Noms de variété trop génériques pour une recherche (ils ramènent des dizaines de produits sans rapport)
+VARIETES_GENERIQUES = {"alba", "rosea", "rubra", "lutea", "variegata", "nana", "compacta", "pendula", "aurea",
+                       "purpurea", "plena", "flore pleno", "pink", "white", "red", "blue", "yellow", "mix",
+                       "melange", "dwarf"}
 PROMO = re.compile(r"Offre exceptionnelle\s*-\s*(\d+)\s*%\s*", re.I)
 
 
@@ -70,17 +74,23 @@ class Adaptateur:
                 if u not in res:
                     res.append(u)
 
+        # Le moteur de Planfor trouve mal les recherches à deux mots (« Erythrina crista-galli » : 0),
+        # mais un seul mot (« Erythrina ») suffit : d'où la recherche par genre seul.
+        # Le nom latin est de toute façon vérifié sur chaque fiche.
         ajouter(self._chercher(f"{plante.genre} {espece}"))
         if not res:  # synonymes latins de la BDD (ex. Solanum rantonnetii pour Lycianthes rantonnetii)
             for syn in plante.synonymes_latins[:2]:
                 ajouter(self._chercher(re.sub(r"[×x]\s+", "", syn).strip()))
         if not res:
-            for v in plante.varietes:
-                if M.norm(v.nom) not in M.VARIETES_IGNOREES and len(M.norm(v.nom)) >= 4:
-                    ajouter(self._chercher(v.nom))
+            ajouter(self._chercher(plante.genre))
         if not res:
             for n in [plante.nom_commun] + plante.autres_noms[:2]:
                 ajouter(self._chercher(n))
+        if not res:
+            for v in plante.varietes:
+                nv = M.norm(v.nom)
+                if nv not in M.VARIETES_IGNOREES and nv not in VARIETES_GENERIQUES and len(nv) >= 4:
+                    ajouter(self._chercher(v.nom))
         return res[: config.MAX_FICHES_PAR_PLANTE]
 
     # ---------- fiche ----------
