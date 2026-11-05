@@ -3,6 +3,7 @@ P001	Grenadille		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Passiflor
 P002	Barbadine		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Passiflora quadrangularis	
 P003	Avocatier	Bacon	Planfor	https://www.planfor.fr/achat,avocatier-bacon,8277,FR	75,20	EUR	Pot 7 L	En stock		05/11/2026		À vérifier		Persea americana 'Bacon'	80-100 cm
 P003	Avocatier	Bacon	Planfor	https://www.planfor.fr/achat,avocatier-bacon,8277,FR	79,50	EUR	Pot 7 L	En stock		05/11/2026		À vérifier		Persea americana 'Bacon'	100-120 cm
+P003	Avocatier	Ettinger	Planfor	https://www.planfor.fr/achat,avocatier-ettinger,9747,FR		EUR		Rupture		05/11/2026		À vérifier	Aucune offre en vente sur la fiche (produit indisponible)	Persea americana 'Ettinger'	
 P003	Avocatier	Fuerte	Planfor	https://www.planfor.fr/achat,avocatier-fuerte,8334,FR	75,20	EUR	Pot 7 L	En stock		05/11/2026		À vérifier		Persea americana 'Fuerte'	80-100 cm
 P003	Avocatier	Fuerte	Planfor	https://www.planfor.fr/achat,avocatier-fuerte,8334,FR	79,50	EUR	Pot 7 L	En stock		05/11/2026		À vérifier	Livraison par transporteur sur rendez-vous	Persea americana 'Fuerte'	100-120 cm
 P003	Avocatier	Hass	Planfor	https://www.planfor.fr/achat,avocatier-hass,8331,FR	75,20	EUR	Pot 7 L	En stock		05/11/2026		À vérifier		Persea americana 'Hass'	80-100 cm
@@ -20,7 +21,7 @@ P015	Figuier lyre		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Ficus l
 P016	Dieffenbachia		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Dieffenbachia seguine	
 P017	Cordyline		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Cordyline fruticosa	
 P018	Taro		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Colocasia esculenta	
-P019	Croton	Espèce type	Planfor	https://www.planfor.fr/achat,croton,5738,FR	11,31	EUR	Pot	En stock		05/11/2026		À vérifier		Codiaeum variegatum	20-30 cm
+P019	Croton	Espèce type	Planfor	https://www.planfor.fr/achat,croton,5738,FR	11,31	EUR	Pot 12 cm	En stock		05/11/2026		À vérifier		Codiaeum variegatum	20-30 cm
 P020	Plante araignée		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Chlorophytum comosum	
 P021	Gazania		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Gazania rigens	
 P022	Hédychium blanc		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Hedychium coronarium	
@@ -32,7 +33,7 @@ P027	Oiseau de paradis		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	St
 P028	Syngonium		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Syngonium podophyllum	
 P029	Philodendron Xanadu		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Thaumatophyllum xanadu	
 P030	Misère		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Tradescantia zebrina	
-P031	Zamioculcas	Espèce type	Planfor	https://www.planfor.fr/achat,zamioculcas,8205,FR	22,67	EUR		En stock		05/11/2026		À vérifier	Format non reconnu : « Zamioculcas Plante en pot - Diamètre du pot: 17 cm Hauteur de la plante: 60/80 cm »	Zamioculcas zamiifolia	
+P031	Zamioculcas	Espèce type	Planfor	https://www.planfor.fr/achat,zamioculcas,8205,FR	22,67	EUR	Pot 17 cm	En stock		05/11/2026		À vérifier		Zamioculcas zamiifolia	60-80 cm
 P032	Gingembre		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Zingiber officinale	
 P033	Cocotier		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Cocos nucifera	
 P034	Dragonnier		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Dracaena draco	
@@ -42,4 +43,5 @@ P037	Pandanus		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Pandanus te
 P038	Mimosa résineux	Espèce type	Planfor	https://www.planfor.fr/achat,mimosa-des-4-saisons,7758,FR	5,95	EUR	Godet	En stock		05/11/2026		À vérifier		Acacia retinodes	20-30 cm
 P038	Mimosa résineux	Espèce type	Planfor	https://www.planfor.fr/achat,mimosa-des-4-saisons,7758,FR	21,10	EUR	Pot 1 L	En stock		05/11/2026		À vérifier		Acacia retinodes	80-100 cm
 P039	Frangipanier		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Plumeria rubra	
-P040	Goyavier fraise		Planfor			EUR				05/11/2026		À vérifier	Non trouvé	Psidium cattleyanum	
+P040	Goyavier fraise	Espèce type	Planfor	https://www.planfor.fr/achat,goyavier-de-chine-goyavier-cerise,7859,FR	31,92	EUR	Pot 3 L	En stock		05/11/2026		À vérifier	Nom latin écrit « Psidium cattleianum » sur la fiche	Psidium cattleyanum	30-50 cm
+P040	Goyavier fraise	Espèce type	Planfor	https://www.planfor.fr/achat,goyavier-de-chine-goyavier-cerise,7859,FR	31,92	EUR	Pot 3 L	En stock		05/11/2026		À vérifier	Nom latin écrit « Psidium cattleianum » sur la fiche	Psidium cattleyanum	25-40 cm

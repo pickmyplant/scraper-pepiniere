@@ -1,16 +1,15 @@
 ID	URL	Raison
-P001	https://www.planfor.fr/achat,canna-black-knight,B632,FR	Pas de données produit (JSON-LD)
+P001	https://www.planfor.fr/achat,canna-black-knight,B632,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Canna 'Black Knight' »)
 P002	https://www.planfor.fr/achat,chene-a-gros-glands,9996,FR	Nom latin Passiflora quadrangularis absent de la fiche « Chêne à gros glands / Quercus macrocarpa » : aucun prix relevé
 P002	https://www.planfor.fr/achat,cypres-de-lambert,1581,FR	Nom latin Passiflora quadrangularis absent de la fiche « Cyprès de Lambert / Cupressus macrocarpa » : aucun prix relevé
 P002	https://www.planfor.fr/achat,prunier-du-natal,7733,FR	Nom latin Passiflora quadrangularis absent de la fiche « Prunier du Natal / Carissa macrocarpa » : aucun prix relevé
 P002	https://www.planfor.fr/achat,azara-a-petites-feuilles-panachees,9016,FR	Nom latin Passiflora quadrangularis absent de la fiche « Azara à petites feuilles panachées / Azara microphylla Argenteovariegata » : aucun prix relevé
-P002	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD)
+P002	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Bambou Fargesia rufa Variegata / Fargesia rufa Variegata »)
 P002	https://www.planfor.fr/achat,cornouiller-des-pagodes-panache,0082,FR	Nom latin Passiflora quadrangularis absent de la fiche « Cornouiller des pagodes panaché / Cornus Controversa Variegata » : aucun prix relevé
-P002	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD)
+P002	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Escallonia organiensis Aureovariegata / Escallonia organiensis Aureova »)
 P002	https://www.planfor.fr/achat,lierre-de-colchide-dentata-var,9091,FR	Nom latin Passiflora quadrangularis absent de la fiche « Lierre de Colchide 'Dentata Var.' / Hedera colchica Dentata Variegata » : aucun prix relevé
-P002	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD)
-P002	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD)
-P003	https://www.planfor.fr/achat,avocatier-ettinger,9747,FR	Pas de données produit (JSON-LD)
+P002	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Maqui à feuilles panachées / Aristotelia chilensis Variegata »)
+P002	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Weigelia florida 'Variegata' / Weigelia florida Variegata »)
 P008	https://www.planfor.fr/achat,bebe-arbre-pour-un-mariage,B194,FR	Nom latin Aglaonema commutatum absent de la fiche « Bébé arbre pour un mariage » : aucun prix relevé
 P008	https://www.planfor.fr/achat,bebe-chene-pour-un-mariage,B180,FR	Nom latin Aglaonema commutatum absent de la fiche « Bébé Chêne pour un mariage » : aucun prix relevé
 P008	https://www.planfor.fr/achat,bebe-eucalyptus-pour-un-mariage,B190,FR	Nom latin Aglaonema commutatum absent de la fiche « Bébé Eucalyptus pour un mariage » : aucun prix relevé
@@ -19,7 +18,7 @@ P008	https://www.planfor.fr/achat,bebe-hetre-pour-un-mariage,B192,FR	Nom latin A
 P008	https://www.planfor.fr/achat,bebe-olivier-pour-un-mariage,B181,FR	Nom latin Aglaonema commutatum absent de la fiche « Bébé Olivier pour un mariage » : aucun prix relevé
 P008	https://www.planfor.fr/achat,bebe-pin-pour-un-mariage,B182,FR	Nom latin Aglaonema commutatum absent de la fiche « Bébé Pin pour un mariage » : aucun prix relevé
 P008	https://www.planfor.fr/achat,cheque-cadeau-mariage,B0019,FR	Nom latin Aglaonema commutatum absent de la fiche « Chèque Cadeau Mariage » : aucun prix relevé
-P008	https://www.planfor.fr/achat,hamac-support-starset-candy-amazonas,N172,FR	Pas de données produit (JSON-LD)
+P008	https://www.planfor.fr/achat,hamac-support-starset-candy-amazonas,N172,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Hamac + Support - Starset Candy - Amazonas »)
 P008	https://www.planfor.fr/achat,hamac-support-starset-kolibri-amazonas,N173,FR	Nom latin Aglaonema commutatum absent de la fiche « Hamac + Support - Starset Kolibri - Amazonas » : aucun prix relevé
 P009	https://www.planfor.fr/achat,photinia-tricolore-pink-crispy,7728,FR	Nom latin Alpinia purpurata absent de la fiche « Photinia tricolore 'Pink Crispy' / Photinia serratifolia serrulata Pink Crispy » : aucun prix relevé
 P009	https://www.planfor.fr/achat,rince-bouteille-rose,7734,FR	Nom latin Alpinia purpurata absent de la fiche « Rince-bouteille rose / Callistemon viminalis 'Hot Pink' » : aucun prix relevé
@@ -27,21 +26,21 @@ P009	https://www.planfor.fr/achat,arbre-a-papillons-rose-pink-delight,3905,FR	No
 P009	https://www.planfor.fr/achat,azalee-japonaise-pink-spider,7855,FR	Nom latin Alpinia purpurata absent de la fiche « Azalée japonaise 'Pink Spider' / Azalea japonica 'Pink Spider' » : aucun prix relevé
 P009	https://www.planfor.fr/achat,buisson-de-beaute-pink-cloud,9127,FR	Nom latin Alpinia purpurata absent de la fiche « Buisson de beauté 'Pink Cloud' / Kolkwitzia amabilis Pink Cloud » : aucun prix relevé
 P009	https://www.planfor.fr/achat,camelia-automne-plantation-pink,1656,FR	Nom latin Alpinia purpurata absent de la fiche « Camélia d'automne 'Plantation Pink' / Camellia sasanqua Plantation Pink » : aucun prix relevé
-P009	https://www.planfor.fr/achat,canna-pink-furority,B520,FR	Pas de données produit (JSON-LD)
-P009	https://www.planfor.fr/achat,clethre-pink-spire,9028,FR	Pas de données produit (JSON-LD)
+P009	https://www.planfor.fr/achat,canna-pink-furority,B520,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Canna 'Pink Furority' »)
+P009	https://www.planfor.fr/achat,clethre-pink-spire,9028,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Clèthre 'Pink Spire' / Clethra alnifolia Pink Spire »)
 P009	https://www.planfor.fr/achat,jardiniere-de-printemps-spring-pink-fairy,7658,FR	Nom latin Alpinia purpurata absent de la fiche « Jardinière de printemps 'Spring Pink Fairy' / Spring Pink Fairy » : aucun prix relevé
 P009	https://www.planfor.fr/achat,jardiniere-de-printemps-spring-pink-glossy,7656,FR	Nom latin Alpinia purpurata absent de la fiche « Jardinière de printemps 'Spring Pink Glossy' / Spring Pink Glossy » : aucun prix relevé
 P009	https://www.planfor.fr/achat,jardiniere-hiver-winter-pinky-moka,7642,FR	Nom latin Alpinia purpurata absent de la fiche « Jardinière d'hiver 'Winter Pinky Moka' / Winter Pinky Moka » : aucun prix relevé
-P009	https://www.planfor.fr/achat,lis-trompette-pink-perfection,B662,FR	Pas de données produit (JSON-LD)
+P009	https://www.planfor.fr/achat,lis-trompette-pink-perfection,B662,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Lis trompette 'Pink Perfection' »)
 P009	https://www.planfor.fr/achat,myrtille-a-fruits-roses-pink-lemonade,2052,FR	Nom latin Alpinia purpurata absent de la fiche « Myrtille à fruits roses 'Pink Lemonade' / Vaccinium ashei Pink Lemonade » : aucun prix relevé
 P010	https://www.planfor.fr/achat,azara-a-petites-feuilles-panachees,9016,FR	Nom latin Alpinia zerumbet absent de la fiche « Azara à petites feuilles panachées / Azara microphylla Argenteovariegata » : aucun prix relevé
-P010	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD)
+P010	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Bambou Fargesia rufa Variegata / Fargesia rufa Variegata »)
 P010	https://www.planfor.fr/achat,cornouiller-des-pagodes-panache,0082,FR	Nom latin Alpinia zerumbet absent de la fiche « Cornouiller des pagodes panaché / Cornus Controversa Variegata » : aucun prix relevé
-P010	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD)
+P010	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Escallonia organiensis Aureovariegata / Escallonia organiensis Aureova »)
 P010	https://www.planfor.fr/achat,lierre-de-colchide-dentata-var,9091,FR	Nom latin Alpinia zerumbet absent de la fiche « Lierre de Colchide 'Dentata Var.' / Hedera colchica Dentata Variegata » : aucun prix relevé
-P010	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD)
-P010	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD)
-P010	https://www.planfor.fr/achat,bouleau-nain,7702,FR	Pas de données produit (JSON-LD)
+P010	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Maqui à feuilles panachées / Aristotelia chilensis Variegata »)
+P010	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Weigelia florida 'Variegata' / Weigelia florida Variegata »)
+P010	https://www.planfor.fr/achat,bouleau-nain,7702,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Bouleau nain / Betula nana »)
 P010	https://www.planfor.fr/achat,bruyere-naine-limoncello,7817,FR	Nom latin Alpinia zerumbet absent de la fiche « Bruyère naine Limoncello / Erica nana Limoncello » : aucun prix relevé
 P010	https://www.planfor.fr/achat,fraisier-colossus-fraisier-geant,8418,FR	Nom latin Alpinia zerumbet absent de la fiche « Fraisier 'Colossus', Fraisier géant / Fragaria X ananassa Colossus » : aucun prix relevé
 P010	https://www.planfor.fr/achat,fraisier-framberry-fraise-framboise,7895,FR	Nom latin Alpinia zerumbet absent de la fiche « Fraisier 'Framberry', Fraise-Framboise / Fragaria × ananassa Framberry » : aucun prix relevé
@@ -55,40 +54,40 @@ P010	https://www.planfor.fr/achat,saule-pourpre-nain,2218,FR	Nom latin Alpinia z
 P010	https://www.planfor.fr/achat,thuya-orient-aurea-nana,9215,FR	Nom latin Alpinia zerumbet absent de la fiche « Thuya d'Orient 'Aurea Nana' / Thuja orientalis Aurea Nana » : aucun prix relevé
 P010	https://www.planfor.fr/achat,tomate-ananas,G120,FR	Nom latin Alpinia zerumbet absent de la fiche « Tomate Ananas / » : aucun prix relevé
 P011	https://www.planfor.fr/achat,azara-a-petites-feuilles-panachees,9016,FR	Nom latin Hymenocallis littoralis absent de la fiche « Azara à petites feuilles panachées / Azara microphylla Argenteovariegata » : aucun prix relevé
-P011	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD)
+P011	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Bambou Fargesia rufa Variegata / Fargesia rufa Variegata »)
 P011	https://www.planfor.fr/achat,cornouiller-des-pagodes-panache,0082,FR	Nom latin Hymenocallis littoralis absent de la fiche « Cornouiller des pagodes panaché / Cornus Controversa Variegata » : aucun prix relevé
-P011	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD)
+P011	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Escallonia organiensis Aureovariegata / Escallonia organiensis Aureova »)
 P011	https://www.planfor.fr/achat,lierre-de-colchide-dentata-var,9091,FR	Nom latin Hymenocallis littoralis absent de la fiche « Lierre de Colchide 'Dentata Var.' / Hedera colchica Dentata Variegata » : aucun prix relevé
-P011	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD)
-P011	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD)
+P011	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Maqui à feuilles panachées / Aristotelia chilensis Variegata »)
+P011	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Weigelia florida 'Variegata' / Weigelia florida Variegata »)
 P014	https://www.planfor.fr/achat,petite-pervenche-blanche,8263,FR	Nom latin Catharanthus roseus absent de la fiche « Petite Pervenche blanche / Vinca minor alba » : aucun prix relevé
 P014	https://www.planfor.fr/achat,petite-pervenche-bleue,8262,FR	Nom latin Catharanthus roseus absent de la fiche « Petite Pervenche bleue / Vinca minor » : aucun prix relevé
 P014	https://www.planfor.fr/achat,petite-pervenche-pourpre,9789,FR	Nom latin Catharanthus roseus absent de la fiche « Petite Pervenche pourpre / Vinca minor purpurea » : aucun prix relevé
 P015	https://www.planfor.fr/achat,azara-a-petites-feuilles-panachees,9016,FR	Nom latin Ficus lyrata absent de la fiche « Azara à petites feuilles panachées / Azara microphylla Argenteovariegata » : aucun prix relevé
-P015	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD)
+P015	https://www.planfor.fr/achat,bambou-fargesia-rufa-variegata,9222,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Bambou Fargesia rufa Variegata / Fargesia rufa Variegata »)
 P015	https://www.planfor.fr/achat,cornouiller-des-pagodes-panache,0082,FR	Nom latin Ficus lyrata absent de la fiche « Cornouiller des pagodes panaché / Cornus Controversa Variegata » : aucun prix relevé
-P015	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD)
+P015	https://www.planfor.fr/achat,escallonia-organiensis-aureovariegata,1375,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Escallonia organiensis Aureovariegata / Escallonia organiensis Aureova »)
 P015	https://www.planfor.fr/achat,lierre-de-colchide-dentata-var,9091,FR	Nom latin Ficus lyrata absent de la fiche « Lierre de Colchide 'Dentata Var.' / Hedera colchica Dentata Variegata » : aucun prix relevé
-P015	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD)
-P015	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD)
+P015	https://www.planfor.fr/achat,maqui-a-feuilles-panachees,9266,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Maqui à feuilles panachées / Aristotelia chilensis Variegata »)
+P015	https://www.planfor.fr/achat,weigelia-florida-variegata,1043,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Weigelia florida 'Variegata' / Weigelia florida Variegata »)
 P016	https://www.planfor.fr/achat,plante-artificielle-ficus-exotica-mica,PA39,FR	Nom latin Dieffenbachia seguine absent de la fiche « Plante Artificielle - Ficus exotica - MICA » : aucun prix relevé
-P016	https://www.planfor.fr/achat,dahlia-decoratif-white-perfection,B536,FR	Pas de données produit (JSON-LD)
-P016	https://www.planfor.fr/achat,lis-trompette-pink-perfection,B662,FR	Pas de données produit (JSON-LD)
-P017	https://www.planfor.fr/achat,fauteuil-suspendu-130x100cm-panama-kiwi,N315,FR	Pas de données produit (JSON-LD)
+P016	https://www.planfor.fr/achat,dahlia-decoratif-white-perfection,B536,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Dahlia Décoratif 'White Perfection' / »)
+P016	https://www.planfor.fr/achat,lis-trompette-pink-perfection,B662,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Lis trompette 'Pink Perfection' »)
+P017	https://www.planfor.fr/achat,fauteuil-suspendu-130x100cm-panama-kiwi,N315,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Fauteuil Suspendu 130x100cm - Panama Kiwi »)
 P017	https://www.planfor.fr/achat,kiwi-a-chair-jaune,7799,FR	Nom latin Cordyline fruticosa absent de la fiche « Kiwi à chair jaune / Actinidia deliciosa » : aucun prix relevé
 P017	https://www.planfor.fr/achat,kiwi-arctique-panache,7566,FR	Nom latin Cordyline fruticosa absent de la fiche « Kiwi arctique panaché / Actinidia kolomikta » : aucun prix relevé
 P017	https://www.planfor.fr/achat,kiwi-autofertile,2357,FR	Nom latin Cordyline fruticosa absent de la fiche « Kiwi autofertile / Actinidia chinensis » : aucun prix relevé
 P017	https://www.planfor.fr/achat,kiwi-jaune-a-coeur-rouge,8325,FR	Nom latin Cordyline fruticosa absent de la fiche « Kiwi jaune à coeur rouge / Actinidia deliciosa yellow red » : aucun prix relevé
 P017	https://www.planfor.fr/achat,charme-commun-charmille,1646,FR	Nom latin Cordyline fruticosa absent de la fiche « Charme commun, Charmille / Carpinus betulus » : aucun prix relevé
-P017	https://www.planfor.fr/achat,dahlia-cactus-cha-cha,B526,FR	Pas de données produit (JSON-LD)
-P017	https://www.planfor.fr/achat,plancha-sur-chariot-finesta-63-cook-in-garden,N532,FR	Pas de données produit (JSON-LD)
+P017	https://www.planfor.fr/achat,dahlia-cactus-cha-cha,B526,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Dahlia Cactus 'Cha Cha' »)
+P017	https://www.planfor.fr/achat,plancha-sur-chariot-finesta-63-cook-in-garden,N532,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Plancha sur Chariot - Finesta 63 - Cook'in Garden »)
 P017	https://www.planfor.fr/achat,pommier-belchard-chantecler,0106,FR	Nom latin Cordyline fruticosa absent de la fiche « Pommier 'Belchard Chantecler' / Malus pumila Belchard Chantecler » : aucun prix relevé
 P018	https://www.planfor.fr/achat,pommier-coccinella-courtarou,7849,FR	Nom latin Colocasia esculenta absent de la fiche « Pommier Coccinella 'Courtarou' / Malus coccinella 'Courtarou' » : aucun prix relevé
 P020	https://www.planfor.fr/achat,croton,5738,FR	Nom latin Chlorophytum comosum absent de la fiche « Croton / Codiaeum variegatum » : aucun prix relevé
 P020	https://www.planfor.fr/achat,jasmin-etoile-panache,9254,FR	Nom latin Chlorophytum comosum absent de la fiche « Jasmin étoilé panaché / Trachelospermum jasminoides 'Variegatum' » : aucun prix relevé
 P020	https://www.planfor.fr/achat,lin-de-nouvelle-zelande-panache,2006,FR	Nom latin Chlorophytum comosum absent de la fiche « Lin de nouvelle Zélande panaché / Phormium tenax Variegatum » : aucun prix relevé
 P020	https://www.planfor.fr/achat,pittospore-a-petites-feuilles-panachees,7731,FR	Nom latin Chlorophytum comosum absent de la fiche « Pittospore à petites feuilles panachées / Pittosporum tenuifolium 'Variegatum' » : aucun prix relevé
-P030	https://www.planfor.fr/achat,lavatere-burgundy-wine,9129,FR	Pas de données produit (JSON-LD)
+P030	https://www.planfor.fr/achat,lavatere-burgundy-wine,9129,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Lavatère 'Burgundy Wine' / Lavatera Burgundy Wine »)
 P030	https://www.planfor.fr/achat,rosier-burgundy-ice,8052,FR	Nom latin Tradescantia zebrina absent de la fiche « Rosier 'Burgundy Ice' / Rosa Burgundy Ice » : aucun prix relevé
 P032	https://www.planfor.fr/achat,gingembre-japonais,7793,FR	Nom latin Zingiber officinale absent de la fiche « Gingembre japonais / Zingiber mioga » : aucun prix relevé
 P033	https://www.planfor.fr/achat,palmier-de-la-reine-cocotier-plumeux,8271,FR	Nom latin Cocos nucifera absent de la fiche « Palmier de la Reine, Cocotier plumeux / Arecastrum romanzoffianum, Syagrus romanzoffiana » : aucun prix relevé
@@ -98,12 +97,11 @@ P035	https://www.planfor.fr/achat,pourpier-vivace-carmin,8492,FR	Nom latin Hibis
 P035	https://www.planfor.fr/achat,pourpier-vivace-orange,9751,FR	Nom latin Hibiscus rosa-sinensis absent de la fiche « Pourpier vivace orange / Delosperma cooperi Flammea » : aucun prix relevé
 P035	https://www.planfor.fr/achat,pourpier-vivace-rouge,9771,FR	Nom latin Hibiscus rosa-sinensis absent de la fiche « Pourpier vivace rouge / Delosperma cooperi rubra » : aucun prix relevé
 P036	https://www.planfor.fr/achat,cotoneaster-rampant,479,FR	Nom latin Chrysobalanus icaco absent de la fiche « Cotoneaster rampant / Cotoneaster horizontalis » : aucun prix relevé
-P036	https://www.planfor.fr/achat,houx-red-tips,7626,FR	Pas de données produit (JSON-LD)
+P036	https://www.planfor.fr/achat,houx-red-tips,7626,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Houx 'Red Tips' / Ilex aquifolium Red Tips Speck 02 »)
 P037	https://www.planfor.fr/achat,bambou-sasa-veitchii,9379,FR	Nom latin Pandanus tectorius absent de la fiche « Bambou Sasa veitchii / Sasa veitchii » : aucun prix relevé
 P037	https://www.planfor.fr/achat,vigne-vierge-de-veitch,9179,FR	Nom latin Pandanus tectorius absent de la fiche « Vigne vierge de Veitch / Parthenocissus tricuspidata Veitchii » : aucun prix relevé
 P037	https://www.planfor.fr/achat,hemerocalle-orange-lis-un-jour,8441,FR	Nom latin Pandanus tectorius absent de la fiche « Hémérocalle orange, Lis dun jour / Hemerocallis aureus » : aucun prix relevé
-P039	https://www.planfor.fr/achat,frangipanier,8721,FR	Pas de données produit (JSON-LD)
-P039	https://www.planfor.fr/achat,frangipanier-blanc,1085,FR	Pas de données produit (JSON-LD)
-P039	https://www.planfor.fr/achat,frangipanier-rose,1088,FR	Pas de données produit (JSON-LD)
-P040	https://www.planfor.fr/achat,goyavier-fraise,8336,FR	Pas de données produit (JSON-LD)
-P040	https://www.planfor.fr/achat,goyavier-de-chine-goyavier-cerise,7859,FR	Nom latin Psidium cattleyanum absent de la fiche « Goyavier de Chine, Goyavier cerise / Psidium cattleianum » : aucun prix relevé
+P039	https://www.planfor.fr/achat,frangipanier,8721,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Frangipanier / Plumeria »)
+P039	https://www.planfor.fr/achat,frangipanier-blanc,1085,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Frangipanier blanc / Plumeria alba »)
+P039	https://www.planfor.fr/achat,frangipanier-rose,1088,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Frangipanier rose / Plumeria rosea »)
+P040	https://www.planfor.fr/achat,goyavier-fraise,8336,FR	Pas de données produit (JSON-LD) et nom latin non vérifié (« Goyavier fraise / Psidium guajava fresa »)

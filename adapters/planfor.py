@@ -21,7 +21,7 @@ NOM = "Planfor"
 BASE = "https://www.planfor.fr"
 RECHERCHE = BASE + "/index.php?action=formulaire_recherche&motclef={q}&page=1"
 # Début de la partie « format » dans le nom d'une offre
-DEBUT_FORMAT = re.compile(r"(Photos? disponibles?|Jeune plant|Plant |Plants |Lot de|Excellent|Livraison|Racines? nues?|Godet|Motte)")
+DEBUT_FORMAT = re.compile(r"(Photos? disponibles?|Jeune plant|Plante en |Plant |Plants |Lot de|Excellent|Livraison|Racines? nues?|Godet|Motte)")
 PROMO = re.compile(r"Offre exceptionnelle\s*-\s*(\d+)\s*%\s*", re.I)
 
 
