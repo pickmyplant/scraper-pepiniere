@@ -109,3 +109,28 @@ def variete_du_titre(plante, titre):
 def latin_sur_fiche(plante, textes):
     tn = norm(" ".join(textes))
     return any(contient(tn, n) for n in noms_latins(plante))
+
+
+def _distance(a, b):
+    """Distance d'édition (Levenshtein) entre deux mots courts."""
+    prec = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cour = [i]
+        for j, cb in enumerate(b, 1):
+            cour.append(min(prec[j] + 1, cour[j - 1] + 1, prec[j - 1] + (ca != cb)))
+        prec = cour
+    return prec[-1]
+
+
+def latin_approche(plante, textes, tolerance=2):
+    """Nom latin écrit un peu autrement sur la fiche (même genre, épithète à 1 ou 2 lettres près).
+    Renvoie le nom tel qu'écrit sur la fiche, ou None."""
+    genre = norm(plante.genre)
+    espece = norm(plante.espece)
+    if not genre or len(espece) < 5:
+        return None
+    mots = norm(" ".join(textes)).split()
+    for i in range(len(mots) - 1):
+        if mots[i] == genre and 0 < _distance(mots[i + 1], espece) <= tolerance:
+            return f"{plante.genre} {mots[i + 1]}"
+    return None

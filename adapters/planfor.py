@@ -137,15 +137,30 @@ class Adaptateur:
 
     def _analyser(self, plante, url, page, aujourdhui):
         p = self._produit(page)
-        if not p:
-            return [], [(url, "Pas de données produit (JSON-LD)")]
-        nom = _texte(p.get("name"))
         h1 = " ".join(_texte(x) for x in re.findall(r"<h1[^>]*>(.*?)</h1>", page, re.S))
         latin_h1 = h1.split("/", 1)[1].strip() if "/" in h1 else ""
+        if not p:
+            # Fiche sans offre en vente (ni données produit ni bouton panier) : produit indisponible
+            approche = None if M.latin_sur_fiche(plante, [h1]) else M.latin_approche(plante, [h1])
+            if M.latin_sur_fiche(plante, [h1]) or approche:
+                var, connue = self._variete(plante, "", latin_h1)
+                notes = ["Aucune offre en vente sur la fiche (produit indisponible)"]
+                if approche:
+                    notes.insert(0, f"Nom latin écrit « {approche} » sur la fiche")
+                if var and not connue:
+                    notes.append(f"Variété trouvée : {var} (absente de l'onglet Fiches)")
+                nl = f"{plante.nom_latin} '{var}'" if var else plante.nom_latin
+                return [Offre(plante.id, plante.nom_commun, var or "Espèce type", NOM, url, "", "EUR", "",
+                              "Rupture", "", aujourdhui, "", "À vérifier", " ; ".join(notes), nl, "")], []
+            return [], [(url, f"Pas de données produit (JSON-LD) et nom latin non vérifié (« {h1} »)")]
+        nom = _texte(p.get("name"))
         desc = _texte(p.get("description"))
         textes = [nom, h1, desc]
         notes_page = []
-        if not M.latin_sur_fiche(plante, textes):
+        approche = None if M.latin_sur_fiche(plante, textes) else M.latin_approche(plante, textes)
+        if approche:
+            notes_page.append(f"Nom latin écrit « {approche} » sur la fiche")
+        elif not M.latin_sur_fiche(plante, textes):
             var = M.variete_fiches(plante, h1)
             if M.contient(M.norm(" ".join(textes)), plante.genre) and var:
                 notes_page.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "

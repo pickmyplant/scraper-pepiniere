@@ -74,6 +74,9 @@ def contenant(desc):
     if m:
         a, b = m.group(1), m.group(2)
         return f"Pot {_fr(_nombre(a))} à {_fr(_nombre(b))} L" if b else f"Pot {_fr(_nombre(a))} L"
+    m = re.search(r"diam[eè]tre du pot\s*:?\s*([\d.,]+)\s*cm", dl)
+    if m:
+        return f"Pot {m.group(1)} cm"
     m = re.search(r"pot\s*(?:de\s*)?([\d.,]+)\s*(?:/\s*([\d.,]+)\s*)?cm", dl)
     if m:
         return f"Pot {m.group(1)}{'/' + m.group(2) if m.group(2) else ''} cm"
