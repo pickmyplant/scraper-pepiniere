@@ -65,7 +65,7 @@ function convertirLigne_(cellules) {
   var prix = String(v[COL_PRIX]).trim();
   if (prix) v[COL_PRIX] = Number(prix.replace(',', '.'));
   var d = String(v[COL_DATE]).match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
-  if (d) v[COL_DATE] = new Date(Number(d[3]), Number(d[2]) - 1, Number(d[1]));
+  if (d) v[COL_DATE] = new Date(Number(d[3]), Number(d[2]) - 1, Number(d[1]), 12);  // midi : pas de décalage de fuseau
   return v;
 }
 
@@ -146,6 +146,7 @@ function importerReleve() {
     // 3. Ajout en un seul bloc
     var debut = offres.getLastRow() + 1;
     offres.getRange(debut, 1, lignes.length, COLONNES.length).setValues(lignes);
+    offres.getRange(debut, COL_DATE + 1, lignes.length, 1).setNumberFormat('dd/MM/yyyy');
     var fin = debut + lignes.length - 1;
 
     // 4. Registre
@@ -155,9 +156,10 @@ function importerReleve() {
         ' ancienne(s) ligne(s) ' + fiche.pepiniere + ' supprimée(s).';
     }
     var d = fiche.date.split('/');
-    registre.appendRow([id, fiche.pepiniere, new Date(Number(d[2]), Number(d[1]) - 1, Number(d[0])),
+    registre.appendRow([id, fiche.pepiniere, new Date(Number(d[2]), Number(d[1]) - 1, Number(d[0]), 12),
       fiche.par, fiche.plantes.join(', '), debut + '-' + fin, lignes.length,
       fiche.fichier + ' (branche ' + branche + ')', remarques]);
+    registre.getRange(registre.getLastRow(), 3).setNumberFormat('dd/MM/yyyy');
 
     ui.alert('Import terminé : lignes ' + debut + ' à ' + fin + ' de « Offres »' +
       (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.');

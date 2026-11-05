@@ -9,6 +9,15 @@ Ce document permet à une autre session Claude (second compte) de reprendre ou d
 - Premier adaptateur : **Promesse de Fleurs**. Testé sur 5 plantes (P006, P007, P013, P084, P116) : 64 requêtes, aucun blocage, 89 lignes produites.
 - Ces 89 lignes ont été **ajoutées** à l'onglet Offres de la Google Sheet « BDD Plante » (lignes 61 à 149), avec l'accord de l'utilisatrice.
 
+## État actuel (fin de session du 05/11/2026, Claude A)
+
+- **Planfor** (adaptateur `adapters/planfor.py`, délai 1 à 2 s) : P001 à P080 relevés et dans Offres ; P081 relevé en test (Non trouvé). **Prochain lot : P082 à P120** (puis P081 à revoir selon la question Tamarix).
+- **Promesse de Fleurs** : confié à Claude B (Ugo), Claude A n'y touche plus.
+- **Mes Arbustes** : abandonné (Cloudflare).
+- **Écriture dans Offres** : uniquement par le bouton « Relevés > Importer un relevé… » de la BDD (`outils/import_releve.gs`, testé et validé). Lancer le relevé avec `--releve <ID>` (ex. `PLF-AAAA-MM-JJ-A5`), relire avec `python outils/resume.py releves/<ID>.tsv`, commit et push, puis demander à l'utilisatrice de cliquer.
+- **Données d'entrée** : `data/plantes_<lot>.csv` (colonnes ID, Nom commun, Autres noms, Synonymes, Genre, Espèce, Variétés). Lire la BDD seulement pour les lignes du lot (Plantes A:F ; Fiches colonne AB, jointure par ID car les lignes ne sont pas alignées). Claude B a déjà extrait certains lots sur sa branche `claude/pepiniere-ugo-p001-p040` (`data/plantes_P041-P080.csv`…) : les réutiliser si elles existent.
+- **Économie de tokens** (objectif en cours) : ne pas relire tout Offres ni tout le Journal ; lire les onglets Règles, Réservations et Questions de la Sheet de coordination ; une session par lot.
+
 ## Ce qu'on sait du site Promesse de Fleurs
 
 - La recherche du site est interdite par robots.txt (`/catalogsearch/`, `*keywords=`, `*page=`, filtres). On ne l'utilise pas.
