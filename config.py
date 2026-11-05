@@ -13,6 +13,10 @@ DELAIS_PAR_SITE = {
 }
 # Une seule nouvelle tentative en cas de coupure réseau (pas pour 403/429)
 PAUSE_AVANT_NOUVEL_ESSAI_S = 5.0
+# 503 : pause puis une seule nouvelle tentative ; la page est sautée si l'erreur persiste,
+# et le relevé s'arrête quand ce nombre de pages de suite reste en 503
+PAUSE_APRES_503_S = 30.0
+MAX_PAGES_503_DE_SUITE = 2
 
 # Plafonds de lignes
 # Par fiche produit (une fiche = une variété) : au-delà, formats les mieux répartis

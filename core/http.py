@@ -20,6 +20,10 @@ class InterditParRobots(Exception):
     pass
 
 
+class PageEnErreur(Exception):
+    """Erreur ponctuelle du serveur sur une page (503 après une nouvelle tentative) : page sautée."""
+
+
 class Robots:
     """Lecture de robots.txt pour le groupe « * » (jokers * et $ gérés)."""
 
@@ -77,6 +81,7 @@ class ClientPoli:
         self.session.headers.update({"User-Agent": config.USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"})
         self._derniere = 0.0
         self.nb_requetes = 0
+        self.pages_503_de_suite = 0
         self.robots = Robots(self._get(self.base + "/robots.txt", verifier_robots=False).text)
         if self.robots.crawl_delay > self.delai_min:
             log.info("robots.txt demande Crawl-delay %.0f s : délai relevé", self.robots.crawl_delay)
@@ -109,8 +114,21 @@ class ClientPoli:
             self._derniere = time.time()
             self.nb_requetes += 1
             log.info("GET %s -> %s (%.1f s, %d o)", url, r.status_code, time.time() - t0, len(r.content))
-            if r.status_code in (403, 429, 503):
+            if r.status_code in (403, 429):
                 raise Bloque(f"HTTP {r.status_code} sur {url}")
+            if r.status_code == 503:
+                # Décision d'Ugo (05/11/2026) : un 503 isolé est une erreur de page. Une seule
+                # nouvelle tentative après une pause, puis la page est sautée ; arrêt si plusieurs
+                # pages de suite restent en 503.
+                if essai == 1:
+                    log.warning("503 sur %s : pause de %.0f s puis une seule nouvelle tentative",
+                                url, config.PAUSE_APRES_503_S)
+                    time.sleep(config.PAUSE_APRES_503_S)
+                    continue
+                self.pages_503_de_suite += 1
+                if self.pages_503_de_suite >= config.MAX_PAGES_503_DE_SUITE:
+                    raise Bloque(f"HTTP 503 sur {self.pages_503_de_suite} pages de suite (dernière : {url})")
+                raise PageEnErreur(f"HTTP 503 deux fois sur {url}")
             if r.status_code >= 500 and essai == 1:
                 time.sleep(config.PAUSE_AVANT_NOUVEL_ESSAI_S)
                 continue
@@ -118,6 +136,7 @@ class ClientPoli:
             debut = r.text[:20000].lower()
             if ("captcha" in debut and "application/ld+json" not in r.text) or "cf-challenge" in debut:
                 raise Bloque(f"Captcha / défi anti-robot sur {url}")
+            self.pages_503_de_suite = 0
             return r
 
     def get(self, url):

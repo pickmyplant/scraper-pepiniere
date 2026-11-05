@@ -118,7 +118,8 @@ class Adaptateur:
             except Exception as e:  # réseau, HTTP 404…  (Bloque remonte via run.py)
                 if e.__class__.__name__ == "Bloque":
                     raise
-                anomalies.append((url, f"Erreur de lecture : {e.__class__.__name__}"))
+                detail = f" ({e})" if e.__class__.__name__ == "PageEnErreur" else ""
+                anomalies.append((url, f"Erreur de lecture : {e.__class__.__name__}{detail}"))
                 continue
             o, a = self._analyser(plante, url, page, mode, aujourdhui)
             offres += o
