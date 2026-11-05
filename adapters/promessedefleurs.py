@@ -11,6 +11,8 @@ import logging
 import os
 import re
 
+import csv
+
 import config
 from core import matching as M
 from core.formatting import (Offre, contenant, forme, hauteur, lot, prix_fr, repartis,
@@ -30,6 +32,19 @@ class Adaptateur:
         self.http = ClientPoli(BASE)
         self.entrees = None
         self.pages = {}  # url -> HTML, pour ce relevé seulement
+        self.acceptees = self._lire_acceptees()
+
+    @staticmethod
+    def _lire_acceptees():
+        """(ID, URL) -> (variété sur le site, nom dans Fiches, raison)."""
+        chemin = getattr(config, "FICHIER_FICHES_ACCEPTEES", "")
+        if not chemin or not os.path.exists(chemin):
+            return {}
+        with open(chemin, encoding="utf-8", newline="") as f:
+            return {(r["ID"].strip(), r["URL"].strip()): (r["Variété sur le site"].strip(),
+                                                          (r.get("Nom dans Fiches") or "").strip(),
+                                                          (r.get("Raison") or "").strip())
+                    for r in csv.DictReader(f) if r.get("ID") and r.get("URL")}
 
     # ---------- sitemap ----------
     def _sitemap(self):
@@ -61,6 +76,8 @@ class Adaptateur:
         vus, res = set(), []
         for url, titre in self._sitemap():
             mode = M.est_candidat(plante, titre, url)
+            if not mode and (plante.id, url) in self.acceptees:
+                mode = "acceptée"
             if mode and url not in vus:
                 vus.add(url)
                 res.append((url, titre, mode))
@@ -126,7 +143,12 @@ class Adaptateur:
         notes_prod = []
 
         var_fiches = M.variete_fiches(plante, nom)
-        if not M.latin_sur_fiche(plante, textes):
+        acceptee = self.acceptees.get((plante.id, url))
+        if acceptee:
+            v_site, v_fiches, raison = acceptee
+            precision = f" (Fiches : {v_fiches})" if v_fiches else ""
+            notes_prod.append(f"Fiche acceptée malgré un nom écrit autrement : {raison}{precision}")
+        elif not M.latin_sur_fiche(plante, textes):
             tn = M.norm(" ".join(textes))
             if M.contient(tn, plante.genre) and var_fiches:
                 notes_prod.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
@@ -137,7 +159,9 @@ class Adaptateur:
             else:
                 return [], [(url, f"Nom latin {plante.nom_latin} absent de la fiche « {nom} » : aucun prix relevé")]
 
-        if M.est_melange(nom):
+        if acceptee:
+            variete, connue = acceptee[0], False
+        elif M.est_melange(nom):
             notes_prod.append(f"Lot/mélange de la même espèce (« {nom} »)")
             variete, connue = "Mélange", False
         else:

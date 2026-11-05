@@ -47,6 +47,17 @@ P084,Soeur Agnes,Sister Agnes
 
 La ligne relevée prend alors le nom de Fiches (Variété = Sister Agnes, Nom latin = Nerium oleander 'Sister Agnes'). Pas besoin de toucher au code.
 
+## Fiches acceptées malgré un nom écrit autrement
+
+Quand une fiche est écartée parce que le site écrit le nom autrement (variété « Camilla » pour « Camille », espèce mal orthographiée…), ajoutez-la dans `data/fiches_acceptees.csv` :
+
+```
+ID,URL,Variété sur le site,Nom dans Fiches,Raison
+P016,https://www.promessedefleurs.com/…/dieffenbachia-maculata-camilla.html,Camilla,Camille,nom de variété écrit autrement que dans Fiches
+```
+
+La variété est relevée telle qu'écrite sur le site ; la note le signale, et l'onglet Fiches est complété ensuite (nouvelle variété ou synonyme). Une espèce différente du même genre, qui n'est pas un vrai synonyme, n'est jamais acceptée.
+
 ## Organisation
 
 | Fichier | Rôle |
