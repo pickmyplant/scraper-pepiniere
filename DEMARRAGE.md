@@ -15,7 +15,7 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 
 ## Faire un lot (5 étapes)
 1. Sheet de coordination `1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM` : lire seulement Règles, Réservations, Questions ; ajouter une ligne « En cours » dans Réservations.
-2. `data/plantes_<lot>.csv` (ID, Nom commun, Autres noms, Synonymes, Genre, Espèce, Variétés) : lire dans la BDD `1-jgpIhnAYTMXQ6DMYipqoll3DNkgdMOpCRoqwdwnUqM` seulement les lignes du lot (Plantes A:F ; Fiches colonne AB, jointure par ID).
+2. Extraire le lot sans le lire : `python outils/extraire_lot.py P082 P120` (onglet Export de la BDD publié en CSV, lien dans `BDD_EXPORT_URL`). Secours : lire seulement `Export!A<n>:G<m>` avec le connecteur (une ligne par plante, déjà jointe). Ne jamais afficher la colonne Variétés en entier : elle est très longue.
 3. Une seule commande, qui lance le relevé, affiche le résumé, fait le commit et le push :
    ```bash
    outils/lot.sh PLF-AAAA-MM-JJ-A5 data/plantes_<lot>.csv
