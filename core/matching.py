@@ -8,7 +8,8 @@ MOTS_MELANGE = ("collection", "duo", "trio", "kit", "melange", "assortiment", "m
 
 def norm(texte):
     """Minuscules, sans accents ni ponctuation ; le signe hybride (× ou x isolé) est retiré."""
-    t = unicodedata.normalize("NFKD", (texte or "").lower()).encode("ascii", "ignore").decode()
+    t = re.sub(r"[’‘]", "'", texte or "")  # apostrophe typographique = apostrophe simple
+    t = unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode()
     t = re.sub(r"[^a-z0-9]+", " ", t)
     t = re.sub(r"(^| )x(?= )", " ", t)
     return re.sub(r"\s+", " ", t).strip()
@@ -65,21 +66,22 @@ def est_melange(titre):
 
 
 def _tokens(texte):
-    return [t for t in re.split(r"\s+", texte.replace("'", " ").replace("’", " ")) if t]
+    """Mots du texte (les apostrophes séparent les mots), avec leur position de fin."""
+    return [(m.group(0), m.end()) for m in re.finditer(r"[^\s'’]+", texte)]
 
 
 def _apres(segment, motif):
-    """Texte (casse d'origine) qui suit `motif` dans `segment`, ou None si absent.
+    """Texte (casse et apostrophes d'origine) qui suit `motif` dans `segment`, ou None si absent.
     Les mots composés (« Laurier-rose ») sont comparés morceau par morceau."""
     toks = _tokens(segment)
-    sous = [(m, i) for i, t in enumerate(toks) for m in norm(t).split()]
+    sous = [(m, i) for i, (t, _) in enumerate(toks) for m in norm(t).split()]
     cible = norm(motif).split()
     if not cible:
         return None
     for k in range(len(sous) - len(cible) + 1):
         if [m for m, _ in sous[k:k + len(cible)]] == cible:
-            dernier = sous[k + len(cible) - 1][1]
-            return " ".join(toks[dernier + 1:]).strip(" -–,'\"")
+            fin = toks[sous[k + len(cible) - 1][1]][1]
+            return segment[fin:].strip(" -–,'’\"")
     return None
 
 
@@ -89,23 +91,30 @@ def variete_du_titre(plante, titre):
     if v:
         return v, True
     segments = [s.strip() for s in re.split(r"\s[-–]\s?|\s?[-–]\s|,", titre) if s.strip()]
-    reste = None
-    for seg in segments:
+    reste, segs_latins = None, set()
+    for i, seg in enumerate(segments):
         for n in noms_latins(plante) + [plante.genre]:
             r = _apres(seg, n)
             if r is not None:
                 reste = r
+                if not r and n != plante.genre:
+                    segs_latins.add(i)
                 break
         if reste:
             break
-    if not reste:
-        for seg in segments:
+    # « Strelitzia reginae - Oiseau de Paradis » : nom latin en tête, la suite n'est qu'un
+    # nom commun -> espèce type. « Laurier-rose Rouge Simple - Nerium oleander » : la variété
+    # suit le nom commun.
+    if not reste and 0 not in segs_latins:
+        for i, seg in enumerate(segments):
+            if i in segs_latins:
+                continue
             for n in sorted([plante.nom_commun] + plante.autres_noms, key=len, reverse=True):
                 r = _apres(seg, n)
-                if r:
+                if r is not None:  # le nom commun le plus long qui correspond l'emporte
                     reste = r
                     break
-            if reste:
+            if reste is not None:
                 break
     # Un nom commun de la plante entre parenthèses n'est pas une variété :
     # « Fruit de la passion (Grenadille) - Passiflora edulis » = espèce type
