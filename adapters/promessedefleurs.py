@@ -151,6 +151,10 @@ class Adaptateur:
             notes_prod.append(f"Fiche acceptée malgré un nom écrit autrement : {raison}{precision}")
         elif not M.latin_sur_fiche(plante, textes):
             tn = M.norm(" ".join(textes))
+            autre = M.autre_espece_nommee(plante, nom, h1)
+            if autre:
+                return [], [(url, f"Autre espèce du même genre sur la fiche « {nom} » ({plante.genre} {autre}) : "
+                                  f"pas un synonyme de {plante.nom_latin}, non retenue")]
             if M.contient(tn, plante.genre) and var_fiches:
                 notes_prod.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var_fiches} de l'onglet Fiches")

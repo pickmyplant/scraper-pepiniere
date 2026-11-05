@@ -43,10 +43,41 @@ def est_candidat(plante, titre, url):
     tn = norm(f"{titre} {slug}")
     if any(contient(tn, n) for n in noms_latins(plante)):
         return "latin"
-    if contient(tn, plante.genre) and variete_fiches(plante, f"{titre} {slug}"):
+    if contient(tn, plante.genre) and variete_fiches(plante, f"{titre} {slug}") \
+            and not autre_espece_nommee(plante, titre):
         return "genre+variete"
     if plante.genre_seul and contient(tn, plante.genre) and not autre_espece(plante, tn):
         return "genre seul"
+    return None
+
+
+SUFFIXES_LATINS = ("us", "a", "um", "is", "ii", "ae", "es", "ensis", "oides", "ana", "iana")
+MOTS_FRANCAIS = {"nain", "naine", "panache", "panachee", "geant", "geante", "hybride", "rouge", "blanc",
+                 "blanche", "jaune", "rose", "bleu", "bleue", "en", "de", "du", "des", "a", "la", "le",
+                 "les", "et", "pot", "mini", "mottes", "graines", "racines", "tige", "nues", "plena"}
+
+
+def autre_espece_nommee(plante, *textes):
+    """Nom d'espèce du même genre écrit sur la fiche et qui n'est pas celui de la plante
+    (ni un de ses synonymes) : « Yucca gloriosa Variegata » pour Yucca gigantea.
+    Une autre espèce du même genre, qui n'est pas un vrai synonyme, n'est jamais retenue."""
+    a_moi = {norm(n).split()[1] for n in noms_latins(plante) if len(norm(n).split()) > 1}
+    genre = norm(plante.genre)
+    for texte in textes:
+        mots = re.findall(r"[^\s'’\"()\-,]+", texte or "")
+        for k, g in enumerate(mots[:-1]):
+            if norm(g) != genre:
+                continue
+            suivant = mots[k + 1]
+            if suivant.lower() in ("x", "×") and k + 2 < len(mots):  # hybride : Musa x paradisiaca
+                suivant = mots[k + 2]
+            if not suivant[:1].islower():
+                continue
+            ep = norm(suivant)
+            if ep in ("subsp", "var", "f", "cv") or ep in a_moi or ep in MOTS_FRANCAIS:
+                continue
+            if ep.endswith(SUFFIXES_LATINS) and len(ep) > 3:
+                return suivant
     return None
 
 
@@ -92,15 +123,20 @@ def variete_du_titre(plante, titre):
         return v, True
     segments = [s.strip() for s in re.split(r"\s[-–]\s?|\s?[-–]\s|,", titre) if s.strip()]
     reste, segs_latins = None, set()
-    for i, seg in enumerate(segments):
-        for n in noms_latins(plante) + [plante.genre]:
-            r = _apres(seg, n)
-            if r is not None:
-                reste = r
-                if not r and n != plante.genre:
-                    segs_latins.add(i)
+    # 1) Nom latin complet dans un segment ; 2) à défaut seulement, le genre seul
+    # (« Yucca pied d'éléphant - Yucca elephantipes » : le nom latin complet l'emporte)
+    for noms in (noms_latins(plante), [plante.genre]):
+        for i, seg in enumerate(segments):
+            for n in noms:
+                r = _apres(seg, n)
+                if r is not None:
+                    reste = r
+                    if not r and n != plante.genre:
+                        segs_latins.add(i)
+                    break
+            if reste:
                 break
-        if reste:
+        if reste or segs_latins:
             break
     # « Strelitzia reginae - Oiseau de Paradis » : nom latin en tête, la suite n'est qu'un
     # nom commun -> espèce type. « Laurier-rose Rouge Simple - Nerium oleander » : la variété
