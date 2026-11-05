@@ -57,6 +57,11 @@ ID | Plante | Variété | Pépinière | Lien du produit | Prix | Devise | Conten
 
 ## Pour éviter les conflits entre les deux comptes
 
+**Document de coordination (Google Docs)** : « Coordination Claude – Comparateur pépinières »,
+ID `1xBP17AeTDRVC86GzNqxWDZ6n0m06w4lxILCR9_l09Q8`
+(https://docs.google.com/document/d/1xBP17AeTDRVC86GzNqxWDZ6n0m06w4lxILCR9_l09Q8/edit).
+Chaque Claude le lit avant de commencer, y réserve sa pépinière et ses plantes, puis y note ses avancées et ses découvertes. Claude A = compte 1, Claude B = compte 2.
+
 - Chaque compte travaille sur **sa propre branche** (par exemple `claude/pepiniere-<nom>`), jamais sur la branche de l'autre.
 - Les deux comptes se répartissent le travail : des pépinières différentes, ou des lots de plantes différents. Ils ne doivent jamais relever la même plante dans la même pépinière.
 - Un seul relevé à la fois par pépinière : deux sessions sur le même site doubleraient la charge et ne respecteraient plus le délai entre requêtes.
@@ -69,6 +74,8 @@ ID | Plante | Variété | Pépinière | Lien du produit | Prix | Devise | Conten
 > Travaille uniquement dans le dépôt GitHub `pickmyplant/scraper-pepiniere`. Ne touche à aucun autre dépôt, en particulier celui du site de la BDD Plante. Ne commite aucune clé, aucun mot de passe ni aucune donnée personnelle.
 >
 > Commence par lire `PASSATION.md` et `README.md` sur la branche `claude/vibrant-keller-jibr76`. Ils contiennent tout le contexte, les règles de conduite et les décisions déjà prises. Applique-les sans les remettre en question.
+>
+> Lis ensuite le Google Doc « Coordination Claude – Comparateur pépinières » (ID `1xBP17AeTDRVC86GzNqxWDZ6n0m06w4lxILCR9_l09Q8`) avec le connecteur Google Docs ou Drive. Tu es **Claude B**. Respecte ses règles : réserve ta pépinière et tes plantes dans la section 2 avant de commencer, ne touche pas à ce que Claude A a réservé, et note chaque avancée et chaque découverte dans le journal, sans effacer ce qu'a écrit l'autre.
 >
 > Crée ta propre branche à partir de `claude/vibrant-keller-jibr76` et travaille uniquement dessus. Un autre compte Claude travaille en parallèle sur ce projet : ne touche pas à ses branches.
 >
