@@ -4,8 +4,10 @@ Exemple : python run.py --ids P006,P007,P013,P084,P116
 """
 import argparse
 import datetime as dt
+import json
 import logging
 import os
+import subprocess
 import sys
 
 import config
@@ -30,8 +32,16 @@ def main():
     ap.add_argument("--ids", default="", help="IDs séparés par des virgules (défaut : toutes les plantes du CSV)")
     ap.add_argument("--plantes", default=config.FICHIER_PLANTES)
     ap.add_argument("--sortie", default=None, help="défaut : offres_<pepiniere>_test.tsv")
+    ap.add_argument("--releve", default=None,
+                    help="identifiant du relevé (ex. PLF-2026-11-06-A4) : écrit releves/<ID>.tsv et releves/<ID>.json "
+                         "pour le bouton « Importer un relevé » de la Sheet")
+    ap.add_argument("--par", default="Claude A", help="qui fait le relevé (pour le registre)")
+    ap.add_argument("--remarques", default="", help="remarques pour le registre")
     args = ap.parse_args()
 
+    if args.releve:
+        os.makedirs("releves", exist_ok=True)
+        args.sortie = os.path.join("releves", f"{args.releve}.tsv")
     args.sortie = args.sortie or f"offres_{args.pepiniere}_test.tsv"
     fichier_log = journal()
     log = logging.getLogger("scraper")
@@ -62,6 +72,30 @@ def main():
             f.write("\t".join(a) + "\n")
     log.info("%d ligne(s) écrite(s) dans %s ; %d anomalie(s) ; %d requête(s) ; journal : %s",
              len(offres), args.sortie, len(anomalies), ad.http.nb_requetes, fichier_log)
+    if args.releve:
+        ecrire_fiche_releve(args, module, plantes, offres)
+
+
+def ecrire_fiche_releve(args, module, plantes, offres):
+    """Fiche lue par le bouton d'import de la Sheet (Apps Script)."""
+    try:
+        branche = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], capture_output=True,
+                                 text=True, check=True).stdout.strip()
+    except Exception:
+        branche = ""
+    fiche = {
+        "releve": args.releve,
+        "pepiniere": getattr(module, "NOM", args.pepiniere),
+        "date": dt.date.today().strftime("%d/%m/%Y"),
+        "par": args.par,
+        "plantes": [p.id for p in plantes],
+        "nb_lignes": len(offres),
+        "fichier": args.sortie.replace(os.sep, "/"),
+        "branche": branche,
+        "remarques": args.remarques,
+    }
+    with open(os.path.join("releves", f"{args.releve}.json"), "w", encoding="utf-8") as f:
+        json.dump(fiche, f, ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":

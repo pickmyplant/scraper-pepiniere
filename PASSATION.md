@@ -65,7 +65,8 @@ Chaque Claude le lit avant de commencer, y réserve sa pépinière et ses plante
 - Chaque compte travaille sur **sa propre branche** (par exemple `claude/pepiniere-<nom>`), jamais sur la branche de l'autre.
 - Les deux comptes se répartissent le travail : des pépinières différentes, ou des lots de plantes différents. Ils ne doivent jamais relever la même plante dans la même pépinière.
 - Un seul relevé à la fois par pépinière : deux sessions sur le même site doubleraient la charge et ne respecteraient plus le délai entre requêtes.
-- **Écrire dans Offres sans tout relire** (décision du 05/11/2026) :
+- **Écrire dans Offres via le bouton d'import** (décision du 05/11/2026, pour économiser des tokens) : lancer le relevé avec `--releve <ID>`, relire seulement `python outils/resume.py releves/<ID>.tsv`, commit et push, puis demander à l'utilisatrice de cliquer sur **Relevés > Importer un relevé…** dans la Sheet. Ne plus recopier les lignes avec le connecteur. Voir le README.
+- Méthode de secours, sans le bouton. **Écrire dans Offres sans tout relire** (décision du 05/11/2026) :
   1. lire seulement l'onglet **« Relevés »** de la Sheet, le registre qui contient une ligne par écriture dans Offres ;
   2. si la même pépinière y a déjà un relevé pour ces plantes, c'est une **mise à jour** : lire seulement les colonnes A (ID) et D (Pépinière) d'Offres, lancer `python outils/remplacement.py ids.json pepinieres.json "<Pépinière>" P001,P002`, supprimer les lignes indiquées (requêtes fournies par l'outil), puis ajouter les nouvelles lignes en bas ;
   3. sinon, ajouter simplement en bas ;

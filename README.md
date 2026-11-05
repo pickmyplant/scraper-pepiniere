@@ -29,9 +29,22 @@ Fichiers produits :
 
 `data/plantes_test.csv` est un export des onglets Plantes (ID, Nom commun, Autres noms, Synonymes, Genre, Espèce) et Fiches (colonne Variétés, une variété par ligne au format « Nom = particularités »).
 
-## Écriture dans la Google Sheet
+## Écriture dans la Google Sheet (bouton d'import)
 
-On ne relit jamais tout l'onglet Offres. On consulte d'abord le registre « Relevés ». Pour une mise à jour (même pépinière, mêmes plantes), `outils/remplacement.py` indique les anciennes lignes à supprimer, à partir des seules colonnes ID et Pépinière. Le détail est dans `PASSATION.md`.
+Pour économiser des tokens, Claude ne recopie plus les lignes dans la Sheet : c'est la Sheet qui les importe elle-même depuis GitHub.
+
+1. Relevé avec un identifiant :
+   ```bash
+   python run.py --pepiniere planfor --plantes data/plantes_P081-P120.csv --releve PLF-2026-11-06-A4 --par "Claude A"
+   ```
+   Cela produit `releves/PLF-2026-11-06-A4.tsv`, le fichier d'anomalies et la fiche `releves/PLF-2026-11-06-A4.json`.
+2. Résumé compact à relire, sans tout afficher : `python outils/resume.py releves/PLF-2026-11-06-A4.tsv`
+3. Commit et push, puis l'utilisatrice clique sur **Relevés > Importer un relevé…** dans la Sheet et saisit l'identifiant (ou `ID@branche` pour une autre branche).
+   Le script vérifie le registre, remplace les anciennes lignes s'il s'agit d'une mise à jour (même pépinière et mêmes plantes), ajoute tout en un seul bloc et remplit l'onglet « Relevés ».
+
+Installation du bouton (une seule fois) : copier `outils/import_releve.gs` dans la Sheet (Extensions > Apps Script), enregistrer, recharger la Sheet, puis **Relevés > Configurer le jeton GitHub** avec un jeton GitHub « fine-grained » en lecture seule (Contents : Read-only) sur ce dépôt. Le jeton reste dans les propriétés du script, jamais dans le dépôt.
+
+Sans le bouton, l'ancienne méthode reste possible : registre « Relevés », puis `outils/remplacement.py` pour une mise à jour (voir `PASSATION.md`).
 
 ## Équivalences de variétés
 
