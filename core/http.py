@@ -25,6 +25,7 @@ class Robots:
 
     def __init__(self, texte):
         self.regles = []  # (allow: bool, regex, longueur)
+        self.crawl_delay = 0.0
         groupe_actif = False
         dans_agents = False
         for ligne in texte.splitlines():
@@ -41,6 +42,12 @@ class Robots:
                     groupe_actif = True
                 continue
             dans_agents = False
+            if groupe_actif and cle == "crawl-delay":
+                try:
+                    self.crawl_delay = max(self.crawl_delay, float(val))
+                except ValueError:
+                    pass
+                continue
             if not groupe_actif or cle not in ("allow", "disallow") or not val:
                 continue
             if not val.startswith("/") and not val.startswith("*"):
@@ -61,16 +68,23 @@ class Robots:
 
 
 class ClientPoli:
-    def __init__(self, base_url):
+    def __init__(self, base_url, delai_min=None, delai_max=None):
+        """Délais propres au site (sinon ceux de config) ; le Crawl-delay de robots.txt est toujours respecté."""
         self.base = base_url.rstrip("/")
+        self.delai_min = config.DELAI_MIN_S if delai_min is None else delai_min
+        self.delai_max = config.DELAI_MAX_S if delai_max is None else delai_max
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": config.USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"})
         self._derniere = 0.0
         self.nb_requetes = 0
         self.robots = Robots(self._get(self.base + "/robots.txt", verifier_robots=False).text)
+        if self.robots.crawl_delay > self.delai_min:
+            log.info("robots.txt demande Crawl-delay %.0f s : délai relevé", self.robots.crawl_delay)
+            self.delai_min = self.robots.crawl_delay
+            self.delai_max = max(self.delai_max, self.delai_min + 1)
 
     def _attendre(self):
-        delai = random.uniform(config.DELAI_MIN_S, config.DELAI_MAX_S)
+        delai = random.uniform(self.delai_min, self.delai_max)
         reste = self._derniere + delai - time.time()
         if reste > 0:
             time.sleep(reste)
@@ -95,7 +109,7 @@ class ClientPoli:
             self._derniere = time.time()
             self.nb_requetes += 1
             log.info("GET %s -> %s (%.1f s, %d o)", url, r.status_code, time.time() - t0, len(r.content))
-            if r.status_code in (403, 429):
+            if r.status_code in (403, 429, 503):
                 raise Bloque(f"HTTP {r.status_code} sur {url}")
             if r.status_code >= 500 and essai == 1:
                 time.sleep(config.PAUSE_AVANT_NOUVEL_ESSAI_S)

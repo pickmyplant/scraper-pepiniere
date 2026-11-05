@@ -69,7 +69,7 @@ def _fr(nb):
 def contenant(desc):
     """« Pot de 2L/3L (…) » -> « Pot 2 à 3 L » ; « Godet de 8/9 cm » -> « Godet 8/9 cm »."""
     d = desc or ""
-    dl = d.lower()
+    dl = re.sub(r"\s*litres?\b", "l", d.lower())
     m = re.search(r"pot\s*(?:de\s*)?([\d.,]+)\s*l?(?:\s*(?:/|à|-)\s*([\d.,]+))?\s*l\b", dl)
     if m:
         a, b = m.group(1), m.group(2)
@@ -82,6 +82,8 @@ def contenant(desc):
         return f"Godet {m.group(1).replace(' ', '')} cm"
     if "godet" in dl:
         return "Godet"
+    if "conteneur" in dl:
+        return "Conteneur"
     if "racines nues" in dl or "racine nue" in dl:
         return "Racines nues"
     if "motte" in dl:
