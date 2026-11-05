@@ -166,6 +166,8 @@ class Adaptateur:
 
         if acceptee:
             variete, connue = acceptee[0], False
+        elif M.est_melange(nom) and M.autre_plante_dans_titre(plante, nom):
+            return [], [(url, f"Mélange de plusieurs plantes (« {nom} ») : exclu")]
         elif M.est_melange(nom):
             notes_prod.append(f"Lot/mélange de la même espèce (« {nom} »)")
             variete, connue = "Mélange", False

@@ -91,6 +91,20 @@ def candidat_nom_commun(plante, titre):
     return any(contient(tn, n) for n in [plante.nom_commun] + plante.autres_noms)
 
 
+def autre_plante_dans_titre(plante, titre):
+    """Un autre nom latin « Genre espèce » (genre différent) dans le titre d'un lot :
+    « Duo 5 Lippia nodiflora et 5 Achillea crithmifolia » mélange deux plantes."""
+    genre = norm(plante.genre)
+    a_moi = {norm(n) for n in noms_latins(plante)}
+    for g, ep in re.findall(r"\b([A-Z][a-z]+)\s+([a-z][a-z-]{3,})\b", titre or ""):
+        if norm(f"{g} {ep}") in a_moi:
+            continue
+        if norm(g) != genre and ep.endswith(tuple(x for x in SUFFIXES_LATINS if x != "es")) \
+                and norm(ep) not in MOTS_FRANCAIS:
+            return f"{g} {ep}"
+    return None
+
+
 def est_melange(titre):
     tn = norm(titre)
     return any(contient(tn, m) for m in MOTS_MELANGE)
