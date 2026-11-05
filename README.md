@@ -29,6 +29,10 @@ Fichiers produits :
 
 `data/plantes_test.csv` est un export des onglets Plantes (ID, Nom commun, Autres noms, Synonymes, Genre, Espèce) et Fiches (colonne Variétés, une variété par ligne au format « Nom = particularités »).
 
+## Écriture dans la Google Sheet
+
+On ne relit jamais tout l'onglet Offres. On consulte d'abord le registre « Relevés ». Pour une mise à jour (même pépinière, mêmes plantes), `outils/remplacement.py` indique les anciennes lignes à supprimer, à partir des seules colonnes ID et Pépinière. Le détail est dans `PASSATION.md`.
+
 ## Équivalences de variétés
 
 Quand le site écrit une variété autrement que l'onglet Fiches (traduction, orthographe), ajoutez une ligne dans `data/equivalences_varietes.csv` :

@@ -65,7 +65,12 @@ Chaque Claude le lit avant de commencer, y réserve sa pépinière et ses plante
 - Chaque compte travaille sur **sa propre branche** (par exemple `claude/pepiniere-<nom>`), jamais sur la branche de l'autre.
 - Les deux comptes se répartissent le travail : des pépinières différentes, ou des lots de plantes différents. Ils ne doivent jamais relever la même plante dans la même pépinière.
 - Un seul relevé à la fois par pépinière : deux sessions sur le même site doubleraient la charge et ne respecteraient plus le délai entre requêtes.
-- Avant d'ajouter des lignes dans Offres, relire l'onglet pour ne pas créer de doublons (même ID, même pépinière, même lien, même contenant, même date).
+- **Écrire dans Offres sans tout relire** (décision du 05/11/2026) :
+  1. lire seulement l'onglet **« Relevés »** de la Sheet, le registre qui contient une ligne par écriture dans Offres ;
+  2. si la même pépinière y a déjà un relevé pour ces plantes, c'est une **mise à jour** : lire seulement les colonnes A (ID) et D (Pépinière) d'Offres, lancer `python outils/remplacement.py ids.json pepinieres.json "<Pépinière>" P001,P002`, supprimer les lignes indiquées (requêtes fournies par l'outil), puis ajouter les nouvelles lignes en bas ;
+  3. sinon, ajouter simplement en bas ;
+  4. après l'écriture, ajouter une ligne dans « Relevés ». Pour une mise à jour, noter dans les Remarques de l'ancien relevé « P0xx remplacé par <Relevé> le <date> ».
+- Les lignes « Non trouvé » s'écrivent aussi dans Offres.
 
 ---
 
