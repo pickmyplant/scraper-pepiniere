@@ -1,0 +1,17 @@
+{
+ "releve": "ARB-2026-11-07-A1",
+ "pepiniere": "Arborescence",
+ "date": "07/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005"
+ ],
+ "nb_lignes": 13,
+ "fichier": "releves/ARB-2026-11-07-A1.tsv",
+ "branche": "ccr-e42ebbe4-dkefaq",
+ "remarques": ""
+}
