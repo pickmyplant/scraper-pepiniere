@@ -30,6 +30,17 @@ BASE = "https://www.clorofila.ma"
 SITEMAP = BASE + "/product-sitemap.xml"
 DEVISE = "MAD"
 ATTR_HAUTEUR = ("hauteur", "taille")
+FICHES_VALIDEES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "fiches_validees.csv")
+
+
+def _fiches_validees():
+    """(ID, URL) des fiches sans nom latin acceptées par l'utilisatrice (data/fiches_validees.csv)."""
+    import csv
+    try:
+        with open(FICHES_VALIDEES, newline="", encoding="utf-8") as f:
+            return {(r["ID"].strip(), r["URL"].strip().rstrip("/")) for r in csv.DictReader(f)}
+    except FileNotFoundError:
+        return set()
 
 
 def _texte(x):
@@ -181,6 +192,9 @@ class Adaptateur:
             if M.contient(tn, plante.genre) and var:
                 notes_page.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var} de l'onglet Fiches")
+            elif (plante.id, url.rstrip("/")) in _fiches_validees():
+                notes_page.append(f"Nom latin absent de la fiche « {nom} » ; fiche validée par l'utilisatrice "
+                                  "(data/fiches_validees.csv)")
             elif M.contient(tn, plante.genre) and M.candidat_nom_commun(plante, nom):
                 notes_page.append(f"Espèce non précisée sur la fiche (genre {plante.genre} seul, "
                                   f"titre « {nom} ») : à confirmer")
