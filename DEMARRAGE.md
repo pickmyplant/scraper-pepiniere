@@ -6,12 +6,17 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Seulement le dépôt `pickmyplant/scraper-pepiniere`, sur sa propre branche (Claude A : `claude/vibrant-keller-jibr76`).
 - Rien de secret ou de personnel dans les commits.
 - robots.txt respecté, une requête à la fois ; sur 403, 429, 503 ou captcha : arrêt et on prévient, sans contourner.
-- **Jamais d'écriture directe dans l'onglet Offres** : l'utilisatrice clique sur Relevés > Importer un relevé.
+- Écriture dans Offres : bouton Relevés > Importer un relevé, ou directement avec le connecteur (autorisé le 07/11/2026), puis une ligne dans l'onglet Relevés.
 - Questions à trancher : une ligne dans l'onglet Questions, sans décider seul.
 
 ## État (05/11/2026)
 - Planfor (Claude A) : P001-P081 faits ; **prochain lot P082-P120**.
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
+- Arborescence (arborescence.ma, `adapters/arborescence.py`, préfixe `ARB`) : essai P001-P005 fait le 07/11/2026 (ARB-2026-11-07-A1, Offres 615-627).
+  Décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
+  une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.
+- 07/11/2026 : l'utilisatrice autorise aussi l'écriture directe dans Offres avec le connecteur Google Sheets
+  (ajout en bas + une ligne dans l'onglet Relevés de la BDD).
 
 ## Faire un lot (5 étapes)
 1. Sheet de coordination `1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM` : lire seulement Règles, Réservations, Questions ; ajouter une ligne « En cours » dans Réservations.
