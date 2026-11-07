@@ -15,7 +15,8 @@ from core.bdd import lire_plantes
 from core.export import ecrire_tsv
 from core.http import Bloque
 
-ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs", "planfor": "adapters.planfor"}
+ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs", "planfor": "adapters.planfor",
+               "clorofila": "adapters.clorofila"}
 
 
 def journal(silencieux=False):
