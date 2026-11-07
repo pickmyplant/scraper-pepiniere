@@ -151,6 +151,7 @@ class Adaptateur:
         for n in sorted(M.noms_latins(plante) + [plante.genre] + ([approche] if approche else []),
                         key=len, reverse=True):
             titre = re.sub(r"\(?\s*" + re.escape(n) + r"\s*\)?", " ", titre, flags=re.I)
+        titre = re.sub(r"\([^()]*\)", " ", titre)  # parenthèses : nom latin, parfois mal écrit (« psidum »)
         titre = re.sub(r"\(\s*\)|\s+", " ", titre).strip(" -–,()")
         v, connue = M.variete_du_titre(plante, titre)
         if v and not connue:
