@@ -197,6 +197,10 @@ class Adaptateur:
             if M.contient(M.norm(latin_h1), plante.genre) and var:
                 notes_page.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var} de l'onglet Fiches")
+            elif M.norm(plante.genre) in [M.norm(latin_h1)] + [M.norm(x) for x in re.findall(r"\(([^)]*)\)", h1)]:
+                # Fiche au seul nom de genre (« CORDYLINE », « PHALANGIUM (CHLOROPHYTUM) ») : gardée (décision du 07/11/2026)
+                notes_page.append(f"Espèce non précisée sur la fiche (genre {plante.genre} seul, "
+                                  f"titre « {h1} ») : à confirmer")
             else:
                 return [], [(url, f"Nom latin {plante.nom_latin} absent de la fiche « {h1} » : aucun prix relevé")]
         if M.est_melange(h1):

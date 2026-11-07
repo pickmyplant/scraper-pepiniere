@@ -25,7 +25,7 @@ fi
 
 python outils/resume.py "releves/$ID.tsv"
 
-git add "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV"
+git add data/equivalences_latin.csv adapters/ "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV"
 git commit -q -m "Relevé $ID ($PEP, $(basename "$CSV" .csv))"
 BR="$(git rev-parse --abbrev-ref HEAD)"
 for t in 2 4 8 16 0; do
