@@ -190,6 +190,9 @@ class Adaptateur:
             notes_page.append(f"Lot/mélange de la même espèce (« {nom} »)")
 
         variete, connue = self._variete(plante, nom, desc)
+        if variete and not connue and re.fullmatch(r"[A-Z][a-z]+ [a-z]+", variete) \
+                and variete.split()[0].lower() != plante.genre.lower():
+            return [], [(url, f"Autre plante sur la fiche « {nom} » ({variete}) : aucun prix relevé")]
         if variete and not connue:
             notes_page.append(f"Variété trouvée : {variete} (absente de l'onglet Fiches)")
         nom_latin = f"{plante.nom_latin} '{variete}'" if variete else plante.nom_latin
