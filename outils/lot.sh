@@ -2,13 +2,14 @@
 # Relevé d'un lot en une commande : relevé silencieux, résumé compact, commit et push.
 # Usage : outils/lot.sh <ID_RELEVE> <CSV_PLANTES> [pepiniere] [par]
 #   ex. : outils/lot.sh PLF-2026-11-06-A5 data/plantes_P082-P120.csv
-# Pépinière déduite du préfixe (PLF = planfor, PDF = promessedefleurs) si non donnée.
+# Pépinière déduite du préfixe (PLF = planfor, PDF = promessedefleurs, MPE = mapepiniere) si non donnée.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 ID="${1:?ID du relevé manquant}"; CSV="${2:?CSV des plantes manquant}"
 case "${3:-${ID%%-*}}" in
   PLF|planfor) PEP=planfor ;;
   PDF|promessedefleurs) PEP=promessedefleurs ;;
+  MPE|mapepiniere) PEP=mapepiniere ;;
   *) echo "Pépinière inconnue : ${3:-${ID%%-*}}" >&2; exit 1 ;;
 esac
 PAR="${4:-Claude A}"
