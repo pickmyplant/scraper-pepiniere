@@ -1,0 +1,13 @@
+{
+ "releve": "PLF-2026-11-05-A4",
+ "pepiniere": "Planfor",
+ "date": "05/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P081"
+ ],
+ "nb_lignes": 1,
+ "fichier": "releves/PLF-2026-11-05-A4.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": "Test du bouton d'import (1 plante)."
+}

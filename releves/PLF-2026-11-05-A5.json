@@ -1,0 +1,17 @@
+{
+ "releve": "PLF-2026-11-05-A5",
+ "pepiniere": "Planfor",
+ "date": "05/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P082",
+  "P083",
+  "P084",
+  "P085",
+  "P086"
+ ],
+ "nb_lignes": 21,
+ "fichier": "releves/PLF-2026-11-05-A5.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
