@@ -15,8 +15,15 @@ from core.bdd import lire_plantes
 from core.export import ecrire_tsv
 from core.http import Bloque
 
-ADAPTATEURS = {"promessedefleurs": "adapters.promessedefleurs", "planfor": "adapters.planfor",
-               "clorofila": "adapters.clorofila"}
+
+def _adaptateurs():
+    """Tout fichier adapters/<nom>.py est un adaptateur : rien à déclarer ici (évite les conflits entre branches)."""
+    dossier = os.path.join(os.path.dirname(os.path.abspath(__file__)), "adapters")
+    return {f[:-3]: f"adapters.{f[:-3]}" for f in sorted(os.listdir(dossier))
+            if f.endswith(".py") and not f.startswith("_")}
+
+
+ADAPTATEURS = _adaptateurs()
 
 
 def journal(silencieux=False):

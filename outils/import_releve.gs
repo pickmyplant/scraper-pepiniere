@@ -10,7 +10,9 @@
  *  3. si la même pépinière a déjà des lignes pour ces plantes dans « Offres » (mise à jour),
  *     demande confirmation puis supprime ces anciennes lignes ;
  *  4. ajoute toutes les nouvelles lignes en un seul bloc en bas de « Offres » ;
- *  5. ajoute une ligne dans « Relevés ».
+ *  5. ajoute une ligne dans « Relevés » ;
+ *  6. ajoute une ligne « Terminé » dans l'onglet Réservations de la Sheet de coordination
+ *     (si l'écriture échoue, l'import reste fait et le message le signale).
  *
  * Le jeton GitHub (lecture seule, dépôt pickmyplant/scraper-pepiniere) est stocké dans les
  * propriétés du script via le menu « Relevés > Configurer le jeton GitHub ». Il n'est jamais écrit
@@ -21,6 +23,8 @@ var DEPOT = 'pickmyplant/scraper-pepiniere';
 var BRANCHE_PAR_DEFAUT = 'claude/vibrant-keller-jibr76';
 var ONGLET_OFFRES = 'Offres';
 var ONGLET_REGISTRE = 'Relevés';
+var COORDINATION_ID = '1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM';
+var ONGLET_RESERVATIONS = 'Réservations';
 var COLONNES = ['ID', 'Plante', 'Variété', 'Pépinière', 'Lien du produit', 'Prix', 'Devise', 'Contenant',
   'Disponibilité', 'Frais de port', 'Relevé le', 'Lien affilié', 'Statut', 'Notes', 'Nom latin',
   'Hauteur ou forme'];
@@ -137,6 +141,31 @@ function trouverReleve_(id) {
   return origine || trouves[0];
 }
 
+/**
+ * Ajoute une ligne « Terminé » dans Réservations (Sheet de coordination), en reprenant la
+ * pépinière et les plantes de la dernière réservation qui cite cet identifiant.
+ */
+function marquerTermine_(id, fiche, debut, fin) {
+  var onglet = SpreadsheetApp.openById(COORDINATION_ID).getSheetByName(ONGLET_RESERVATIONS);
+  if (!onglet) throw new Error('onglet ' + ONGLET_RESERVATIONS + ' introuvable');
+  var pepiniere = fiche.pepiniere, plantes = '';
+  var n = onglet.getLastRow();
+  if (n > 1) {
+    var lignes = onglet.getRange(2, 1, n - 1, 6).getDisplayValues();
+    for (var i = lignes.length - 1; i >= 0; i--) {
+      if (lignes[i][5].indexOf(id) >= 0) { pepiniere = lignes[i][2]; plantes = lignes[i][3]; break; }
+    }
+  }
+  if (!plantes) {
+    var ps = fiche.plantes.slice().sort();
+    plantes = ps.length > 1 ? ps[0] + ' à ' + ps[ps.length - 1] : ps.join('');
+  }
+  var date = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'dd/MM/yyyy');
+  onglet.appendRow([date, fiche.par, pepiniere, plantes, 'Terminé',
+    'Offres ' + debut + '-' + fin + ' (' + id + '), importé par le bouton']);
+  onglet.getRange(onglet.getLastRow(), 1).setNumberFormat('@').setValue(date);
+}
+
 function importerReleve() {
   var ui = SpreadsheetApp.getUi();
   var r = ui.prompt('Importer un relevé',
@@ -213,8 +242,17 @@ function importerReleve() {
       fiche.fichier + ' (branche ' + branche + ')', remarques]);
     registre.getRange(registre.getLastRow(), 3).setNumberFormat('dd/MM/yyyy');
 
+    var reservation;
+    try {
+      marquerTermine_(id, fiche, debut, fin);
+      reservation = '\nRéservations : ligne « Terminé » ajoutée.';
+    } catch (e2) {
+      reservation = '\nRéservations : ligne « Terminé » NON ajoutée (' + e2.message + ').';
+    }
+
     ui.alert('Import terminé : lignes ' + debut + ' à ' + fin + ' de « Offres »' +
-      (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.');
+      (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.' +
+      reservation);
   } catch (e) {
     ui.alert('Import interrompu, rien n\'a été écrit après l\'erreur : ' + e.message);
   } finally {
