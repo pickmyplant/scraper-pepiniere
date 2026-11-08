@@ -152,7 +152,11 @@ class Adaptateur:
             except Exception as e:
                 if e.__class__.__name__ == "Bloque":
                     raise
-                anomalies.append((url, f"Erreur de lecture : {e.__class__.__name__}"))
+                code = getattr(getattr(e, "response", None), "status_code", None)
+                if code in (404, 410):
+                    anomalies.append((url, f"Fiche retirée du site (HTTP {code}, URL de l'ancien sitemap)"))
+                else:
+                    anomalies.append((url, f"Erreur de lecture : {e.__class__.__name__}"))
                 continue
             final = _sans_ancre(r.url)
             if not FICHE.match(final):
@@ -213,7 +217,8 @@ class Adaptateur:
             notes_page.append(f"Lot/mélange de la même espèce (« {h1} »)")
 
         variete, connue = M.variete_du_titre(plante, latin)
-        variete = re.sub(r"[®™]", "", variete).strip(" '\"‘’")
+        variete = re.sub(r"[®™*]", "", variete)
+        variete = re.sub(r"^(?:var\.?|ssp\.?|subsp\.?)\s+", "", variete.strip(" '\"‘’"), flags=re.I).strip(" '\"‘’")
         if variete and not connue:
             notes_page.append(f"Variété trouvée : {variete} (absente de l'onglet Fiches)")
         nom_latin = f"{plante.nom_latin} '{variete}'" if variete else plante.nom_latin
