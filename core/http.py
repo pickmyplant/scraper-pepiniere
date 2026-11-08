@@ -115,7 +115,8 @@ class ClientPoli:
                 time.sleep(config.PAUSE_AVANT_NOUVEL_ESSAI_S)
                 continue
             r.raise_for_status()
-            debut = r.text[:20000].lower()
+            # Les réglages reCAPTCHA invisible (v3) d'un formulaire ne sont pas un défi : on les ignore
+            debut = re.sub(r'"recaptcha":\{"type":"v3"', "", r.text[:20000].lower())
             if ("captcha" in debut and "application/ld+json" not in r.text) or "cf-challenge" in debut:
                 raise Bloque(f"Captcha / défi anti-robot sur {url}")
             return r
