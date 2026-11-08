@@ -1,0 +1,531 @@
+ID,Nom commun,Autres noms,Synonymes,Genre,Espèce,Variétés
+P301,Pittospore du Japon,"Pittosporum, Pitósporo japonés, Japanese mock orange",Euonymus tobira,Pittosporum,tobira,"Espèce type = 2,5 à 4 m ; Rusticité : -5 °C (RHS H3)
+Variegatum = feuilles bordées de blanc crème, 1,5 à 2,5 m, RHS AGM ; très sensible aux taches foliaires (UF/IFAS) ; Rusticité : 1 °C (RHS H2)
+Nanum = nain, buissonnant et dense, 0,5 à 1 m, croissance lente ; Rusticité : -5 °C (RHS H3)
+Wheeler's Dwarf = forme naine en coussin dense, plus large que haute (NC State)
+Mojo = feuilles panachées blanc crème, compact, plus rustique (NC State)
+Compacta = port compact, faible inflammabilité (NC State)"
+P302,Citronnier,"Citron, Limonier, Hamed, Lemon",Citrus limon ; Citrus limona ; Citrus × limonum ; Citrus medica var. limonum ; Citrus × meyeri,Citrus,× limon,"Eureka = presque sans épines, précoce et productif, fruits toute l'année surtout de la fin de l'hiver au début de l'été ; moins vigoureux, plus sensible au froid, vie plus courte (UC Riverside)
+Lisbon = très vigoureux et épineux, feuillage dense, récolte principale en hiver et au début du printemps (UC Riverside) ; résiste mieux au gel, au vent et à la chaleur (Wikifarmer)
+Fino = variété espagnole aussi appelée Primofiori ou Mesero, épineuse, très précoce et productive (Wikifarmer)
+Verna = variété espagnole sans épines, tardive, fruits qui tiennent longtemps sur l'arbre (Wikifarmer)
+Meyer = hybride cédratier × (mandarinier × pomelo) (NC State), compact et épineux, fruits ronds jaune orangé plus sucrés, plus rustique (NC State) ; Rusticité : 1 °C (RHS H2)
+Ponderosa = petit arbre aux grandes fleurs et aux gros fruits bosselés (NC State)"
+P303,Oranger doux,"Oranger, Orange douce, Limoun, Sweet orange",Citrus × aurantium Sweet Orange Group ; Citrus sinensis ; Citrus × aurantium var. sinensis ; Citrus × aurantium subsp. sinensis,Citrus,× sinensis,"Washington = orange navel sans pépins, gros fruit facile à peler, maturité de novembre à janvier, se conserve sur l'arbre ; fleurs sans pollen viable (UC Riverside)
+Navelina = navel sans pépins, 2,5 à 4 m ; Rusticité : 1 °C (RHS H2)
+Sanguinelli = orange sanguine espagnole à chair sucrée et juteuse, 4 à 8 m ; Rusticité : -5 °C (RHS H3)"
+P304,Thuya de Berbérie,"Araar, Arar, Thuya articulé, Thuya d'Algérie, Ciprés de Cartagena, Sandarac tree, Sandarac gum-tree",Thuja articulata ; Callitris articulata ; Cupressus articulata ; Callitris quadrivalvis ; Callitris macrostachya ; Callitris triquetra ; Cupressus triquetra ; Juniperus cunninghamii,Tetraclinis,articulata,Espèce type = conifère dressé ; Rusticité : -1 °C (American Conifer Society)
+P305,Euphorbe résinifère,"Euphorbe de l'Atlas, Euphorbium, Resin spurge",Tithymalus resinifer ; Euphorbia resinifera var. chlorosoma ; Euphorbia resinifera var. typica,Euphorbia,resinifera,"Espèce type = coussin de tiges vert glauque ; Fleurs : jaune (World of Succulents)
+Compacta = forme plus compacte (Llifle)
+Monstruosa = nombreuses petites ramifications serrées le long des tiges (Llifle)"
+P306,Chêne vert,"Yeuse, Chêne yeuse, Encina, Holm oak, Holly oak",Quercus sempervirens ; Quercus smilax ; Quercus ilicifolia ; Quercus pseudoilex ; Quercus variifolia,Quercus,ilex,Espèce type = arbre persistant à feuilles ovales à lancéolées ; Rusticité : -10 °C (RHS H4)
+P307,Chêne-liège,"Alcornoque, Cork oak",Quercus occidentalis ; Quercus suberosa ; Quercus corticosa ; Quercus mitis ; Quercus sardoa ; Quercus cintrana ; Quercus subera,Quercus,suber,Espèce type = arbre persistant à écorce liégeuse ; Rusticité : -8 °C (Temperate Plants Database)
+P308,Cèdre de l'Atlas,"Cèdre bleu, Arz, Atlas cedar, Blue Atlas cedar",Cedrus libani subsp. atlantica ; Cedrus libani var. atlantica ; Cedrus libani var. glauca ; Cedrus africana ; Abies atlantica ; Pinus atlantica,Cedrus,atlantica,"Espèce type = conifère vert à bleuté ; Rusticité : -20 °C (RHS H6 ; NC State zone 6a)
+Glauca = aiguilles bleu acier cireuses, port pyramidal ouvert, RHS AGM ; Rusticité : -20 °C (RHS H6)
+Glauca Pendula = rameaux retombants, aiguilles bleu acier, à palisser ou laisser en cascade, 1 à 3,7 m selon la conduite, RHS AGM (Gardenia ; NC State)
+Fastigiata = forme étroite et colonnaire, aiguilles gris-bleu (NC State)
+Argentea = aiguilles bleu argenté (NC State)
+Aurea = aiguilles jaunâtres, rare en pépinière (NC State)"
+P309,Pistachier de l'Atlas,"Bétoum, Betoum, Atlas pistachio, Mount Atlas mastic tree",Pistacia mutica ; Pistacia cabulica ; Pistacia chia ; Pistacia choulettei ; Lentiscus atlantica ; Lentiscus mutica ; Terebinthus atlanticus,Pistacia,atlantica,Espèce type = arbre caduc à couronne arrondie ; Rusticité : -5 °C (Temperate Plants Database)
+P310,Jujubier sauvage,"Sedra, Nbeg (fruit), Jujubier lotus, Lotus jujube",Rhamnus lotus,Ziziphus,lotus,"Espèce type = arbuste épineux caduc ; Rusticité : -15 °C (revue Ziziphus lotus, PMC 2023)"
+P311,Jujubier,"Jujube, Datte chinoise, Chinese date, Common jujube",Rhamnus zizyphus ; Ziziphus zizyphus ; Ziziphus vulgaris ; Ziziphus sativa ; Ziziphus sinensis ; Rhamnus lucida ; Rhamnus vulgaris ; Girtanneria jujuba ; Zizyphon jujubum ; Jububa mediterranea,Ziziphus,jujuba,"Espèce type = arbre épineux à fruits petits à moyens (NC State)
+Li = gros fruits de 25 à 30 g, à manger frais, mi-saison, récolte étalée ; grand arbre (NMSU)
+Lang = fruits de 15 à 18 g en forme de poire, surtout pour le séchage ; grand arbre presque sans épines adulte (NMSU)
+Sherwood = fruits de 17 à 18 g, frais ou secs, tardif, très productif ; Rusticité : zone USDA 7a (NMSU)
+Sugar Cane = petits fruits de 9 à 11 g très sucrés, frais ou secs, précoce ; épineux (NMSU)
+Honeyjar = petits fruits de 6,5 à 8 g, précoce, à manger frais (NMSU)
+Inermis = variété botanique sans épines (Temperate Plants Database)"
+P312,Genévrier de Phénicie,"Sabine de Phénicie, Sabina mora, Sabina negra, Sabina común, Arâr, Phoenician juniper",Juniperus terminalis ; Juniperus tetragona ; Sabina phoenicea ; Sabinella phoenicea ; Cupressus tetragona ; Juniperus bacciformis ; Juniperus divaricata ; Juniperus formosa ; Juniperus langoldiana ; Juniperus malacocarpa ; Juniperus myosuros ; Juniperus myurus ; Sabina bacciformis,Juniperus,phoenicea,"Espèce type = cônes globuleux, répandue dans toute l'aire (Conifer Society)
+Turbinata = forme des dunes côtières, cônes ovales en toupie, aujourd'hui espèce à part entière pour POWO (Conifer Society ; The Gymnosperm Database)"
+P313,Rétama blanc,"Retama, Retama blanca, Bridal broom, Bridal veil broom",Genista monosperma ; Lygos monosperma ; Spartium monospermum ; Spartium gracile ; Genista defoliata ; Spartium clusii ; Spartium dubium ; Spartium rhodorhizoides ; Spartium rostratum ; Spartium semperflorens ; Spartium webbii,Retama,monosperma,
+P314,Euphorbe arborescente,"Euphorbe en arbre, Lleterassa, Tree spurge",Esula dendroides ; Euphorbion dendroideum ; Tithymalus dendroides ; Euphorbia divaricata ; Euphorbia laeta ; Tithymalus arboreus ; Tithymalus laetus,Euphorbia,dendroides,
+P315,Anthyllide barbe-de-Jupiter,"Barbe de Jupiter, Arbuste d'argent, Jupiter's beard, Jove's beard, Silver bush",,Anthyllis,barba-jovis,
+P316,Limoniastrum,"Grand statice, Limoniastre, Lavande de mer, Salado, Zita, Large statice",Statice monopetala ; Limonium monopetalum ; Bubania monopetala ; Limonium siculum ; Taxanthema monopetalum ; Limoniastrum articulatum,Limoniastrum,monopetalum,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1,3 m ; Fleurs : rose, violet
+Carnaval = cultivar plus résistant au froid (Wikipedia) ; Fleurs : magenta"
+P317,Criste marine,"Fenouil marin, Rock samphire, Sea fennel, Samphire",,Crithmum,maritimum,
+P318,Lotier de Crète,"Lotier argenté, Cuernecillo de mar, Cretan trefoil",Lotus argenteus ; Trifolium creticum ; Lotus commutatus ; Lotus salzmannii ; Lotus sericeus ; Lotus carthaginiensis ; Lotus obtusatus ; Lotus varians,Lotus,creticus,
+P319,Cinéraire maritime,"Cinéraire, Séneçon cinéraire, Dusty miller, Silver ragwort",Senecio cineraria ; Cineraria maritima ; Othonna maritima ; Senecio bicolor subsp. cineraria ; Senecio gibbosus subsp. cineraria ; Senecio maritimus,Jacobaea,maritima,"Espèce type = touffe argentée découpée, 0,5 à 1 m (Wikipedia) ; Fleurs : jaune
+Silver Dust = 25 à 30 cm, feuilles très finement découpées ; AGM RHS (NC State ; Wikipedia)
+Cirrus = 20 cm, compacte, feuilles entières peu découpées (NC State)
+New Look = 25 cm, compacte, grandes feuilles larges (NC State)
+Candicans = 40 à 60 cm, grandes feuilles lobées, pour bouquets (NC State)
+Quicksilver = 20 à 30 cm, compacte, feuilles découpées (NC State)
+Silver Queen = 20 cm, compacte, feuilles blanc argenté dentelées (NC State)
+Silver Lace = feuillage très fin, en dentelle (NC State)"
+P320,Coprosma,"Taupata, Mirror bush, Looking-glass plant, New Zealand laurel",Coprosma baueriana ; Coprosma retusa ; Coprosma stockii,Coprosma,repens,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 8 m ; Fleurs : blanc, vert
+Picturata = feuilles à centre crème à jaune verdâtre ; AGM RHS (Trees and Shrubs Online ; Wikipedia)
+Marble Queen = feuillage panaché ; AGM RHS (Wikipedia)
+Variegata = feuilles bordées de crème à jaune (Trees and Shrubs Online)
+Pacific Night = feuillage rouge-pourpre foncé brillant, 1 à 1,5 m, pied mâle sans baies ; Rusticité : -5 °C (RHS H3)
+Coppershine = hybride au feuillage cuivré (Trees and Shrubs Online)"
+P321,Arbre de Noël néo-zélandais,"Pohutukawa, Métrosideros, New Zealand Christmas tree, Iron tree",Metrosideros tomentosa ; Nania tomentosa,Metrosideros,excelsa,"Espèce type = fleurs rouge cramoisi (Wikipedia) ; Fleurs : rouge
+Aurea = fleurs jaunes, sélectionné en 1947 (Wikipedia) ; Fleurs : jaune
+Variegata = variété au feuillage panachées de vert et jaune et aux fleurs rouge. (Wikipedia) ; Fleurs : rouge ; Feuilles : vert, jaune
+Mini Christmas = forme naine d'environ 1 m (Wikipedia)
+White Caps = fleurs blanches (Wikipedia) ; Fleurs : blanc"
+P322,Orgueil de Madère,"Vipérine de Madère, Pride of Madeira",Argyrexias candicans ; Echium brachyanthum ; Echium cynoglossoides ; Echium densiflorum ; Echium macrophyllum ; Echium maderense ; Echium marianum ; Echium pallidum ; Echium pavonianum ; Echium truncatum,Echium,candicans,
+P323,Bignone du Cap,"Técoma du Cap, Bignone capensis, Cape honeysuckle",Tecoma capensis ; Bignonia capensis ; Gelseminum capense ; Tecomaria petersii,Tecomaria,capensis,"Espèce type = fleurs orange à rouge orangé (NC State) ; Fleurs : orange
+Aurea = fleurs jaunes, plus tolérante à la chaleur (NC State) ; Fleurs : jaune
+Apricot = port plus compact (NC State) ; Fleurs : abricot
+Salmonea = fleurs orange à rose saumon (NC State) ; Fleurs : saumon
+Coccinea = fleurs rouge vif (NC State) ; Fleurs : rouge"
+P324,Euryops,"Euryops à feuilles grises, Grey-leaved euryops, Golden shrub daisy, Wolharpuisbos",Othonna pectinata ; Jacobaeastrum pectinatum,Euryops,pectinatus,"Espèce type = feuillage gris argenté découpé (RHS) ; Fleurs : jaune ; Feuilles : gris
+Viridis = feuillage vert, 1,2 à 1,8 m, tolérance modérée au sel (NC State) ; Fleurs : jaune ; Feuilles : vert
+Silver Sunshine = hybride né spontanément à Kirstenbosch, d'E. pectinatus et sans doute d'E. abrotanifolius ; jusqu'à 1,5 m, feuilles gris argenté veloutées en peigne, couvertes de fleurs jaunes de mars à septembre en Afrique du Sud ; supporte sécheresse d'été, plein soleil et vent ; bouturage seulement, en automne, enracinement en 4 semaines environ (PlantZAfrica) ; Fleurs : jaune ; Feuilles : gris"
+P325,Rince-bouteille,"Callistemon, Goupillon, Crimson bottlebrush, Lemon bottlebrush",Callistemon citrinus ; Callistemon lanceolatus ; Callistemon laevis ; Metrosideros citrina,Melaleuca,citrina,"Espèce type = épis rouge vif (RHS)
+Splendens = épis cramoisis d'environ 15 cm, rameaux fins et retombants, RHS AGM ; Rusticité : -5 °C (RHS H3) ; Fleurs : rouge
+Firebrand = arbuste bas et étalé, environ 0,5 m sur plus de 1 m, jeunes pousses roses (ANPSA) ; Fleurs : rose cramoisi
+Endeavour = cultivar populaire (ANPSA) ; Fleurs : rouge (NC State)
+Reeves Pink = Fleurs : rose (NC State)
+White Anzac = étamines à anthères jaunes (NC State) ; Fleurs : blanc
+Mauve Mist = Fleurs : mauve (NC State)"
+P326,Sauge du Mexique,"Sauge velours, Mexican bush sage, Velvet sage",Salvia bicolor,Salvia,leucantha,"Espèce type = calices pourpres et fleurs blanches (NC State)
+All Purple = fleurs entièrement pourpres (NC State) ; Fleurs : violet
+Midnight = sans doute synonyme de All Purple (NC State) ; Fleurs : violet
+Santa Barbara = forme compacte, calices pourpres et pétales rose lavande (NC State) ; Fleurs : violet, rose
+Danielle's Dream = Fleurs : rose et blanc (NC State)
+White Mischief = Fleurs : blanc (NC State)"
+P327,Sauge de Greg,"Sauge d'automne, Autumn sage, Texas sage",,Salvia,greggii,"Espèce type = fleurs rouges, roses ou blanches selon les populations (NC State)
+Wild Thing = plus rustique que l'espèce (NC State) ; Fleurs : rose
+Furman's Red = Fleurs : rouge (NC State)
+Dark Dancer = floraison abondante (NC State) ; Fleurs : bordeaux
+Lipstick = Fleurs : magenta (NC State)
+Elk Pomegranate = Fleurs : framboise (NC State)"
+P328,Sauge à petites feuilles,"Sauge cassis, Sauge Hot Lips, Baby sage, Blackcurrant sage, Graham's sage",Salvia grahamii ; Salvia lemmonii ; Salvia neurepia ; Salvia obtusa ; Salvia odoratissima,Salvia,microphylla,"Espèce type = Fleurs : rouge profond (RHS)
+Hot Lips = hybride Salvia × jamensis, RHS AGM ; fleurs rouges en début d'été, bicolores rouge et blanc en juillet-août, parfois toutes blanches à l'automne ; Rusticité : -15 °C (RHS H5) ; Fleurs : rouge, blanc
+Flower Child = Fleurs : rose bonbon (NC State)
+San Carlos Festival = port compact (NC State) ; Fleurs : rouge violacé"
+P329,Tulbaghia,"Ail de société, Tulbaghie, Society garlic",Omentaria violacea ; Tulbaghia cepacea var. maritima ; Tulbaghia cepacea var. robustior,Tulbaghia,violacea,"Espèce type = Fleurs : lilas (UF/IFAS)
+Silver Lace = feuilles rayées de crème, fleurs plus grandes (UF/IFAS ; Cornucopia) ; Fleurs : lilas
+Tricolor = panachure rose et blanche (UF/IFAS)"
+P330,Tritoma,"Kniphofia, Tritome, Red hot poker, Torch lily",Tritoma uvaria ; Aloe uvaria ; Veltheimia uvaria ; Kniphofia alooides ; Kniphofia burchellii,Kniphofia,uvaria,"Espèce type = épis rouges virant au jaune (NC State)
+Flamenco = longue floraison, attire les colibris (NC State) ; Fleurs : rouge, orange, jaune
+Papaya Popsicle = compacte, environ 50 cm (NC State) ; Fleurs : orange
+Lemon Popsicle = plus petite, floraison de juin à juillet (UC Master Gardeners) ; Fleurs : jaune
+Limelight = floraison de juillet à août (UC Master Gardeners) ; Fleurs : vert
+POCO Orange = naine, environ 50 cm en fleur (Clemson) ; Fleurs : orange"
+P331,Brachychiton à feuilles de peuplier,"Kurrajong, Arbre bouteille, Braquiquito, Bottle tree",Poecilodermis populnea ; Sterculia diversifolia,Brachychiton,populneus,
+P332,Arbre flamme,"Flamboyant d'Australie, Brachychiton à feuilles d'érable, Illawarra flame tree, Flame tree, Flame kurrajong",Sterculia acerifolia ; Chichaea acerifolia ; Clompanus acerifolia,Brachychiton,acerifolius,Espèce type = fleurs rouge écarlate (Wikipedia)
+P333,Tipuana,"Tipa, Tipu, Palissandre de Bolivie, Tipu tree, Pride of Bolivia, Rosewood",Machaerium tipu ; Tipuana speciosa ; Tipuana tipa,Tipuana,tipu,Espèce type = fleurs jaune-orangé (African Legacy)
+P334,Palmier bleu du Mexique,"Palmier bleu, Brahea bleu, Mexican blue palm, Blue hesper palm",Erythea armata ; Glaucothea armata ; Brahea clara ; Brahea elegans ; Brahea glauca ; Brahea roezlii,Brahea,armata,Espèce type = feuillage bleu argenté (Llifle)
+P335,Palmier abricot,"Butia, Palmier à gelée, Cocotier du Brésil, Pindo palm, Jelly palm",Cocos odorata ; Butia capitata var. odorata ; Butia capitata var. nehrlingiana,Butia,odorata,"Espèce type = palmes bleutées, fruits jaune-orangé (Wikipedia)
+Pulposa = type à gros fruits cultivé comme fruitier (Wikipedia)"
+P336,Palmier jupon,"Palmier de Californie, Palmier jupon de Californie, Palmier jupon du Mexique (var. robusta), Palmier du désert, Palmier à filaments, Washingtonia, California fan palm, Mexican fan palm (var. robusta), Desert fan palm, Cotton palm",Brahea filifera ; Pritchardia filifera ; Neowashingtonia filifera ; Livistona filamentosa ; Washingtonia robusta (= var. robusta) ; Neowashingtonia robusta ; Washingtonia sonorae ; Washingtonia gracilis,Washingtonia,filifera,"Espèce type = stipe épais, 9 à 15 m, feuilles gris-vert à longs filaments, pétiole peu armé ; climat sec (Wikipedia ; UF/IFAS) ; Rusticité : -10 °C (Wikipedia)
+var. robusta = palmier jupon du Mexique, ancien Washingtonia robusta ; stipe fin et très haut, 21 à 30 m, d'environ 60 cm à la base et 20 cm au sommet ; palmes vert vif, pétioles armés d'épines acérées ; croissance rapide ; tolérance limitée à la sécheresse, vit près de l'eau ; supporte les climats chauds et humides comme la Floride ; envahissante en Californie (UF/IFAS ; Wikipedia ; Cal-IPC) ; Rusticité : -7 °C (UF/IFAS) ; Fleurs : rose, orange
+Filibusta = hybride entre l'espèce type et la var. robusta, aux caractères intermédiaires (Wikipedia)"
+P337,,,,,,
+P338,Leucophyllum,"Sauge du Texas, Cenizo, Texas sage, Texas ranger, Barometer bush, Texas silverleaf",Terania frutescens,Leucophyllum,frutescens,"Espèce type = feuillage gris argenté ; Fleurs : violet (NC State)
+Compacta = nain, environ 1,2 à 1,5 m (NC State ; Arizona-Sonora Desert Museum) ; Fleurs : rose
+Green Cloud = feuillage vert, 1,8 à 2,4 m (Arizona-Sonora Desert Museum) ; Fleurs : magenta
+White Cloud = feuillage gris (NC State) ; Fleurs : blanc
+Heavenly Cloud = feuillage clairsemé, jusqu'à 1,8 m (NC State ; Arizona-Sonora Desert Museum) ; Fleurs : magenta"
+P339,Hespéraloé,"Yucca rouge, Faux yucca à fleurs rouges, Red yucca, Hummingbird yucca, Coral yucca",Yucca parviflora ; Hesperaloe engelmannii ; Hesperaloe yuccifolia ; Aloe yuccifolia,Hesperaloe,parviflora,"Espèce type = fleurs corail à rouge rosé ; Fleurs : rouge, rose (NC State)
+Brakelights = fleurs rouge vif (NC State) ; Fleurs : rouge
+Desert Son = fleurs jaunes (NC State) ; Fleurs : jaune
+Perpa = fleurs rouges dedans comme dehors (NC State) ; Fleurs : rouge"
+P340,Yucca rostrata,"Yucca à bec, Yucca bleu, Beaked yucca, Big Bend yucca, Blue beaked yucca",Yucca linearis ; Yucca rostrata var. linearis,Yucca,rostrata,"Espèce type = rosette bleu-vert argenté sur tronc, jusqu'à 4,6 m (NC State) ; Fleurs : blanc
+Sapphire Skies = feuillage plus argenté, environ 1,5 m (NC State)"
+P341,Dasylirion,"Arbre à herbe du Mexique, Sotol, Mexican grass tree",,Dasylirion,longissimum,
+P342,Dodonée,"Dodonée visqueuse, Hop bush, Hopbush, Romerillo",Ptelea viscosa ; Dodonaea arabica ; Dodonaea bialata ; Dodonaea jamaicensis ; Dodonaea eriocarpa,Dodonaea,viscosa,"Espèce type = feuillage vert ; capsules ornementales sur les pieds femelles (ANPSA)
+Purpurea = la plus répandue en culture : feuillage pourpre rouge, redevient vert à l'ombre complète ; Rusticité : -5 °C (RHS H3) ; Fleurs : jaune verdâtre (UF/IFAS ; RHS)"
+P343,Micocoulier de Provence,"Micocoulier, Falabreguier, Almez, Lledoner, Nettle tree, European hackberry, Mediterranean hackberry",Celtis alpina ; Celtis eriocarpa ; Celtis excelsa ; Celtis kotschyana ; Celtis lutea ; Celtis serrata,Celtis,australis,
+P344,Frêne à feuilles étroites,"Frêne oxyphylle, Frêne du Midi, Fresno, Narrow-leaved ash, Claret ash",Fraxinus rotundifolia,Fraxinus,angustifolia,"Espèce type = jusqu'à 25 m ; feuillage jaune doré à l'automne ; samares ailées (RHS)
+Raywood = clone mâle sans fruits, plus compact, couronne ovale ; feuillage rouge pourpre à l'automne ; Rusticité : -15 °C (RHS H5) ; Fleurs : rouge (World Plants ; Van den Berk)"
+P345,Arbre aux perruques,"Arbre à perruque, Fustet, Sumac fustet, Smoke tree, Smokebush",Cotinus cinereus ; Cotinus coriarius ; Cotinus ellipticus ; Rhus cotinus,Cotinus,coggygria,"Espèce type = feuillage bleu-vert, panaches rose fumée (NC State) ; Fleurs : rose
+Royal Purple = feuillage pourpre très foncé, presque noir, en saison ; reverdit à l'ombre ; moins rustique que Nordine (NC State ; UConn)
+Velvet Cloak = feuillage pourpre foncé, automne rouge orangé (UConn)
+Nordine = l'une des formes pourpres les plus rustiques, automne jaune orangé (UConn)
+Notcutt's Variety = feuillage pourpre intense (UConn)
+Daydream = compact, environ 3 m, feuillage vert, panaches très fournis (UConn) ; Fleurs : crème
+Golden Spirit ou 'Ancot = feuillage doré (NC State)
+Pink Champagne = feuilles orange rosé (NC State)
+Autres variétés = Grace (hybride avec C. obovatus) : voir Arbre aux perruques hybride (P360)"
+P346,Savonnier,"Savonnier de Chine, Arbre aux lanternes, Golden rain tree, Pride of India",Koelreuteria apiculata ; Koelreuteria chinensis ; Koelreuteria japonica ; Sapindus chinensis,Koelreuteria,paniculata,"Espèce type = arbre en parasol de 9 à 12 m ; Rusticité : -20 °C (NC State ; Ebben) ; Fleurs : jaune
+Fastigiata = port étroit et dressé, environ 9 m de haut pour 1,2 à 2 m de large, idéal en rue étroite (NC State ; UF/IFAS)
+September = floraison plus tardive, d'août à septembre, moins rustique (NC State)
+Coral Sun = jeunes pousses rose corail puis orange, tiges rouges, AGM de la RHS ; Rusticité : -15 °C (RHS H5)"
+P347,Cyprès de l'Arizona,"Cyprès bleu de l'Arizona, Arizonica, Arizona cypress, Ciprés de Arizona",Cupressus arizonica ; Callitropsis arizonica ; Neocupressus arizonica ; Cupressus arizonica var. bonita ; Cupressus arizonica f. glauca ; Cupressus arizonica var. compacta,Hesperocyparis,arizonica,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 18 m
+Blue Ice = port colonnaire à conique, feuillage bleu-blanc vif, plus de 12 m sur 2,5 à 4 m (RHS), rattaché à Hesperocyparis glabra ; Rusticité : -15 °C (RHS H5)
+Carolina Sapphire = feuillage bleu électrique, cultivé comme sapin de Noël (NC State ; USDA NRCS)
+Blue Pyramid = 7 à 8 m, bleu poudré à argenté, écorce acajou qui s'exfolie (NC State)
+Glauca = 9 à 15 m, gris argenté à bleu-vert poudré, pyramidal (NC State)
+Limelight = feuillage jaune citron à vert lime, port étroit et dressé (NC State)
+Sulfurea = jaune soufre à chartreuse, compact, 3 à 4,5 m (NC State)
+Silver Smoke = feuillage plumeux gris argenté (NC State)"
+P348,Pistachier,"Pistachier vrai, Pistache, Pistachero, Pistachio",,Pistacia,vera,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 10 m
+Kerman = variété femelle commerciale de référence : grosses noix, coque bien ouverte, floraison tardive, forte production alternée (CRFG) ; besoin en froid d'au moins 700 h, beaucoup de fruits vides en culture sèche (CMA El Chaparrillo)
+Larnaka = femelle précoce, 400 à 600 h de froid, bonne productivité en sec, moins de fruits vides, calibre moyen (CMA El Chaparrillo)
+Mateur = femelle précoce et vigoureuse, pour zones peu gelées (CMA El Chaparrillo)
+Kastel = femelle tardive, bon calibre, meilleurs rendements en irrigué (CMA El Chaparrillo)
+Avdat = femelle précoce et vigoureuse, pour zones peu gelées (CMA El Chaparrillo)
+Peters = mâle, bon producteur de pollen, pollinisateur de Kerman (CRFG) ; floraison d'environ 3 semaines en avril-mai, un jeune pied pollinise 5 à 8 femelles (Promesse de fleurs)
+C Especial = mâle précoce, pollinisateur de Larnaka et d'Aegina (CMA El Chaparrillo)"
+P349,Plaqueminier kaki,"Kaki, Plaqueminier du Japon, Caqui, Japanese persimmon, Persimmon",,Diospyros,kaki,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 9 m ; Fleurs : crème, rose
+Fuyu = non astringent, se mange ferme comme une pomme ; arbre plus petit, fruit moyen et assez carré (University of Arizona) ; très beau feuillage d'automne (NC State)
+Hachiya = astringent jusqu'à maturité complète, gros fruit conique, arbre vigoureux, sans graines (University of Arizona ; UC Davis)
+Rojo Brillante = variété dominante en Espagne, gros calibre et bon goût ; astringente, vendue ferme après désastringence (Persimon) ou blette (Mercasa)
+Triumph = astringente, surtout cultivée en Andalousie, vendue sous le nom Sharon en Israël (Mercasa)
+Jiro = couleur d'automne spectaculaire, fruits qui restent sur l'arbre jusqu'en hiver (NC State)
+Hana Gosho = croissance verticale vigoureuse, bonne charpente (NC State)"
+P350,Feijoa,"Goyavier-ananas, Goyavier du Brésil, Feijoa, Pineapple guava",Acca sellowiana ; Orthostemon sellowianus ; Feijoa obovata ; Feijoa schenckiana ; Feijoa coolidegii,Feijoa,sellowiana,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 6 m ; Fleurs : blanc, rouge
+Apollo = fruit moyen à gros, ovale, mi-saison à tardif, autofertile, environ 2,4 m (CRFG)
+Coolidge = autofertile, saveur discrète, le plus planté en Californie (CRFG)
+Mammoth = gros fruit de très bonne qualité, chair un peu granuleuse, environ 3 m, autofertile (CRFG)
+Nazemetz = gros fruit en poire, chair qui ne noircit pas, mûr de fin octobre à mi-décembre (CRFG)
+Triumph = fruit court et rebondi, saveur vive, mi-saison, pollinise Mammoth (CRFG)
+Unique = la seule variété vraiment autofertile selon UF/IFAS
+Precocious = longue floraison, recommandé comme pollinisateur (UF/IFAS)"
+P351,Faux poivrier,"Poivrier rose, Poivrier d'Amérique, Arbre à poivre, Pimentero falso, Pebrer bord, California pepper tree, Peruvian pepper tree",,Schinus,molle,
+P352,Parkinsonia,"Épine de Jérusalem, Palo verde, Espino de Jerusalén, Jerusalem thorn, Mexican palo verde",,Parkinsonia,aculeata,
+P353,Agastache rugueuse,"Menthe coréenne, Hysope coréenne, Korean mint, Wrinkled giant hyssop",Agastache formosana ; Cedronella japonica ; Elsholtzia monostachys ; Lophanthus formosanus ; Lophanthus rugosus,Agastache,rugosa,"Espèce type = épis violets à lavande, feuilles à odeur de réglisse (NC State) ; Fleurs : violet
+Autres variétés = les hybrides avec l'Agastache fenouil (Blue Fortune, Black Adder, Blue Boa, Little Adder…) sont dans la fiche Agastache hybride (P358)"
+P354,Oiseau de paradis mexicain,"Caesalpinia du Mexique, Tabachín del monte, Mexican bird of paradise, Mexican holdback, Mexican caesalpinia",Caesalpinia mexicana ; Poinciana mexicana ; Poincianella mexicana ; Caesalpinia robinsoniana ; Erythrostemon robinsonianus,Erythrostemon,mexicanus,
+P355,Alstroemère hybride,"Lis des Incas, Alstroemeria, Peruvian lily, Lily of the Incas",,Alstroemeria,Hybrides horticoles,"Inca Ice = série Inca de Könst Alstroemeria (Pays-Bas), nom de code 'Koice' ; environ 65 cm, tiges de 60 à 75 cm ; pétales externes abricot rosé très pâle, pétales internes crème à jaune clair marqués de brun pourpre ; floraison de juin aux gelées (Promesse de Fleurs) ; Rusticité : -9 °C (zone 8b, Promesse de Fleurs) ; Fleurs : rose, jaune
+India Snow = cultivar à fleurs blanches, sans description trouvée dans une source fiable ; Fleurs : blanc
+Inca Bandit = nain, 38 à 45 cm, saumon foncé à rouge bordeaux (NC State ; The Plant Company) ; Fleurs : rouge
+Inca Sweety = nain, 30 cm, blanc et rose à rose tendre (NC State ; The Plant Company) ; Fleurs : rose, blanc
+Inca Vienna = compact, rose tendre et crème (The Plant Company) ; Fleurs : rose, crème
+Inca Desert = compact, jaune doré nuancé d'abricot (The Plant Company) ; Fleurs : jaune, orange
+Inca Sundance = hybride moderne compact de 30 à 40 cm, jaune vif finement marqué ; de la fin du printemps à l'automne (The Plant Company) ; Fleurs : jaune
+Inticancha Moon = compact et florifère, blanc crème à jaune tendre (The Plant Company) ; Fleurs : crème, jaune
+Princess Fabiana = série Princess, 25 à 30 cm, crème (NC State) ; Fleurs : crème
+Indian Summer = 60 à 70 cm, orange-jaune, feuillage panaché (NC State) ; Fleurs : orange, jaune
+Colorita Ariane = nain, jaune (NC State) ; Fleurs : jaune
+Dr. Salter's Hybrids = mélange saumon, rose, rouge, jaune, orange et pourpre (NC State)"
+P357,Capucine hybride,"Capucine naine du commerce, Capucine de jardin, Nasturtium",,Tropaeolum,Hybrides horticoles,"Série Tip Top = série naine et précoce d'environ 25 cm, en abricot, or, écarlate et mélange ; feuilles vert d'eau (University of Wisconsin). Tip Top Rose, lauréate All-America Selections 2020, rose vif presque rouge qui ne pâlit pas, environ 35 cm sur 45 cm (Gardenia ; Fine Gardening) ; Fleurs : orange, jaune, rouge, rose
+Tip Top Alaska = Alaska amélioré, panachure des feuilles plus régulière, floraison plus précoce ; saumon, écarlate, rouges et mélange (University of Wisconsin) ; rangée sous T. majus par la RHS ; Fleurs : orange, rouge
+Baby Rose = série Baby, naine, feuilles vert foncé, petites fleurs rose foncé ; 20 à 30 cm de haut et de large (University of Wisconsin ; Ball) ; lauréate All-America Selections 2019 et médaille d'or Fleuroselect (Gardenia) ; Fleurs : rose
+Alaska = feuilles très panachées de crème, fleurs simples cerise, cramoisi, orange, saumon ou jaune (University of Wisconsin) ; rangée sous T. majus par la RHS ; Fleurs : rouge, orange, jaune
+Empress of India = ancienne variété compacte, feuilles vert foncé, fleurs cramoisies ; idéale en pot (University of Wisconsin) ; Fleurs : rouge
+Tom Thumb = série naine, environ 30 cm, port buissonnant, grandes fleurs jaune vif, orange et rouges de l'été au début de l'automne (RHS ; University of Wisconsin) ; Rusticité : RHS H3, environ -5 à +1 °C (RHS) ; Fleurs : jaune, rouge, orange
+Black Velvet = série Tom Thumb, compacte, environ 20 cm, fleurs bordeaux foncé (University of Wisconsin ; RHS) ; Fleurs : rouge
+Peach Melba = série Jewel, naine, fleurs jaune crème marquées d'orange à la gorge (University of Wisconsin ; RHS) ; Fleurs : crème, orange, jaune
+Whirlybird = compact, 30 à 45 cm, fleurs semi-doubles sans éperon, bien à plat au-dessus du feuillage (University of Wisconsin)
+Whirlybird Mahogany Red = Variété au feuillage compact et étalé vert tendre, offrant une profusion de fleurs semi-doubles sans éperon d'un rouge mahogani velouté et profond, se dressant fièrement au-dessus des feuilles pour un effet visuel saisissant. ; Fleurs : rouge"
+P358,Agastache hybride,"Hysope géante hybride, Hybrid anise hyssop",,Agastache,Hybrides horticoles,"Blue Fortune = hybride A. foeniculum × A. rugosa, épis bleu lavande ; 60 à 90 cm de haut, 45 à 60 cm de large ; floraison de l'été à l'automne (NC State) ; Rusticité : zone 5a, environ -29 °C (NC State) ; Fleurs : bleu, violet
+Black Adder = hybride A. rugosa × A. foeniculum, épis pourpre rougeâtre ; 60 à 90 cm de haut et de large ; floraison du début de l'été à l'automne (NC State) ; souvent confondue avec A. rugosa ; Rusticité : zone 6a, environ -23 °C (NC State) ; Fleurs : violet, rouge
+Blue Boa = issue d'une lignée de sélection avec A. rugosa, parents exacts inconnus ; environ 66 cm de haut et 45 cm de large, fleurs violet bleu foncé (brevet américain PP24050) ; Rusticité : zone 6, environ -23 °C (brevet PP24050) ; Fleurs : violet, bleu
+Little Adder = forme compacte vendue comme A. rugosa (Proven Winners) ; parenté à confirmer"
+P359,Alternanthère ficoïde,"Joseph's coat, Parrot leaf, Calico plant, Copperleaf, Joyweed, Brazilian snowflower",Gomphrena ficoidea ; Alternanthera tenella ; Alternanthera brachiata,Alternanthera,ficoidea,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,45 m ; Fleurs : blanc
+Snow Queen = petite, feuilles vertes en cuillère, marginées et striées de blanc (NC State, qui la range sous A. dentata) ; touffe dense d'environ 15 cm, feuilles creusées et gaufrées bordées de blanc (Moana Nursery, pépinière, sous A. ficoidea) ; Synonymes : Brazilian Snow, Snowflower ; Fleurs : blanc ; Feuilles : vert, blanc
+Snow on the Mountain = jeunes feuilles presque entièrement blanches, feuilles adultes vertes tachées de blanc, extrémité des tiges rose clair, 30 à 45 cm, pousse vite (NParks) ; Fleurs : blanc ; Feuilles : blanc, vert
+Creme de Menthe = feuillage panaché vert et blanc crème (NC State) ; Synonymes : Joseph's Coat ; Feuilles : vert, blanc
+Purple Prince = feuilles bordeaux (NC State) ; Feuilles : bordeaux
+Red Carpet = feuilles rouges (NC State) ; Feuilles : rouge
+True Yellow = feuilles chartreuse (NC State) ; Feuilles : jaune
+Autres variétés = Cognac, Mai Tai, Grenadine (brevets américains PP16411 et PP20263), Chartreuse (Robrick Nursery)
+Gold Threads = Variété compacte au feuillage fin, doré et vert ; Feuilles : vert, jaune
+White Carpet = Variété aux feuilles argentées et vert-de-gris avec des marges blanches irrégulières, à l'aspect légèrement gaufré ou boursouflé. (NParks) ; Synonymes : Snow Carpet, Manteau de Joseph ; Feuilles : vert, argent, blanc
+Party Time = Variété au feuillage panaché de vert et rose fluo. ; Feuilles : vert, rose"
+P360,Arbre aux perruques hybride,"Fustet hybride, Grace smoketree, Hybrid smoke tree",,Cotinus,Hybrides horticoles,"Grace = hybride C. coggygria 'Velvet Cloak' × C. obovatus obtenu par Peter Dummer (Hillier) ; feuilles rouge vin puis pourpre rougeâtre et bleu-vert, panicules rose pourpré de 30 à 35 cm, automne rouge, orange et jaune ; 5 m sur 4 m (Dawes Arboretum ; Cornell ; National Arboretum Canberra) ; Rusticité : -29 °C (zone 5, Dawes Arboretum) ; Fleurs : rose, pourpre ; Feuilles : pourpre, bleu-vert"
+P361,Amandier-pêcher,"Amandier hybride, Hybrid almond, Almond peach",Prunus × amygdalopersica ; Amygdalus × persicoides,Prunus,× persicoides,"Ingrid = autofertile, la plus régulière en production au Royaume-Uni selon Van Meuwen ; petit arbre caduc étalé d'environ 5 m (4 à 8 m selon la RHS) ; fleurs rose pâle en mars-avril, avant les feuilles ; résiste assez bien à la cloque du pêcher (Van Meuwen, pépinière) ; amandes au début de l'automne (RHS) ; Synonymes : Prunus dulcis 'Ingrid' ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose
+Robijn = petit arbre étalé de 2,5 à 4 m selon la RHS (4 à 6 m selon Ebben, pépinière), qui fructifie jeune ; fleurs rose pâle à blanc rosé en mars, avant les feuilles ; amandes comestibles au début de l'automne ; craint le vent, fleurs mellifères (Ebben ; RHS) ; Synonymes : Prunus dulcis 'Robijn' ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose
+Pollardii = petit arbre buissonnant jusqu'à 6 m ; fleurs rose vif à cœur foncé, d'environ 5 cm, au début du printemps (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose
+Spring Glow = arbre dressé d'environ 7 m sur 2,5 à 4 m ; grandes fleurs rose vif en coupe sur le bois nu au début du printemps ; amandes comestibles au début de l'automne (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose
+GF 677 = porte-greffe hybride amandier × pêcher obtenu par l'INRA ; le plus vigoureux des porte-greffes de l'amandier, évite la chlorose en sol très calcaire mais craint l'asphyxie des racines (Chambre d'agriculture d'Occitanie) ; vendu pour greffer, pas comme arbre d'ornement"
+P362,Palmier des Canaries,"Dattier des Canaries, Phénix des Canaries, Palmera canaria, Canary Island date palm",,Phoenix,canariensis,
+P363,Palmier de la reine,"Jerivá, Coquinho, Pindó, Chirivá, Cocotier plumeux, Palmier plumeux, Queen palm",Arecastrum romanzoffianum ; Cocos romanzoffiana ; Cocos plumosa ; Calappa romanzoffiana ; Cocos australis ; Cocos datil ; Cocos geriba,Syagrus,romanzoffiana,
+P364,Pin parasol,"Pin pignon, Pin d'Italie, Pin de Rome, Pino piñonero, Stone pine, Umbrella pine",,Pinus,pinea,
+P365,Pin d'Alep,"Pin blanc de Provence, Pin de Jérusalem, Pino carrasco, Aleppo pine",,Pinus,halepensis,
+P366,Prune du Natal,"Carissa, Natal plum, Big num-num, Amatungulu, Grootnoem-noem",Carissa grandiflora,Carissa,macrocarpa,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 4 m ; Fleurs : blanc
+Green Carpet = forme basse couvre-sol, rarement plus haute que le genou (PlantZAfrica)
+Boxwood Beauty = forme naine compacte (UF/IFAS)
+Nana = forme naine, jusqu'à 45 cm (UF/IFAS)
+Emerald Blanket = forme couvre-sol (UF/IFAS)"
+P367,Limettier mexicain,"Lime, Citron vert, Lime mexicaine, Lime de Key, Key lime, Mexican lime, Limón sutil",Citrus aurantifolia,Citrus,× aurantiifolia,"Giant = sélection de l'USDA à fruits environ deux fois plus gros (UF/IFAS)
+Autres variétés = sélections sans épines, plus compactes, à feuillage plus foncé mais peu productives (UF/IFAS)"
+P368,Misère pourpre,"Tradescantia pourpre, Éphémère pourpre, Setcreasea, Purple heart, Purple queen",Setcreasea pallida ; Setcreasea purpurea ; Setcreasea lanceolata,Tradescantia,pallida,
+P369,Filao,"Pin australien, Bois de fer, Casuarina, Australian pine, Coast she-oak, Ironwood, Whistling pine",Casuarina litorea,Casuarina,equisetifolia,
+P370,Canéficier,"Casse fistuleuse, Douche d'or, Laburnum des Indes, Golden shower tree, Indian laburnum, Amaltas",,Cassia,fistula,
+P371,Noyer du Queensland,"Macadamia, Noix de macadamia, Queensland nut, Smooth-shelled macadamia, Australian bush nut",,Macadamia,integrifolia,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 15 m ; Fleurs : crème, rose
+Autres variétés = variétés naines pour petits jardins (Gardening with Angus) ; voir aussi Macadamia tetraphylla, à fleurs roses, plus tolérante au froid (Gardening with Angus)."
+P372,Palmier d'Alexandra,"Palmier royal d'Australie, Alexandra palm, King palm",,Archontophoenix,alexandrae,
+P373,Palmier éventail de Chine,"Latanier de Chine, Palmier fontaine, Chinese fan palm, Fountain palm, Pu kui",Latania chinensis ; Livistona sinensis ; Saribus chinensis ; Chamaerops biroo ; Livistona japonica ; Livistona mauritiana ; Livistona oliviformis ; Livistona subglobosa,Livistona,chinensis,"Espèce type = l'espèce elle-même, sans sélection : palmier persistant jusqu'à 15 m ; Fleurs : crème, jaune
+var. subglobosa = forme naine surtout cultivée en intérieur (Llifle)"
+P374,Palmier de Chine,"Palmier chanvre, Palmier de Chusan, Chinese windmill palm, Chusan palm, Zonglü, Shuro, Wajuro",,Trachycarpus,fortunei,
+P375,Kentia,"Palmier kentia, Palmier de Lord Howe, Kentia palm, Sentry palm, Thatch palm",Kentia forsteriana,Howea,forsteriana,
+P376,Sansevière,"Langue de belle-mère, Plante serpent, Snake plant, Mother-in-law's tongue",Sansevieria trifasciata,Dracaena,trifasciata,"Espèce type = l'espèce elle-même, sans sélection : succulente persistante jusqu'à 1,2 m ; Fleurs : blanc, crème
+Laurentii = feuilles vert foncé à zigzags clairs et bordure jaune (NC State)
+Hahnii = rosette naine à bandes horizontales blanc crème (NC State)
+Moonshine = feuillage gris argenté à taches vert clair (NC State)
+Black Gold = vert foncé à bordure jaune d'or (NC State)
+Futura Superba = gris-vert à bordure jaune (NC State)
+Twisted Sister = feuilles torsadées panachées jaune d'or et vert (NC State)
+Autres variétés = Bantel's Sensation, Black Jack, Black Robusta, Futura Robusta, Golden Flame, Metallica, Silver Queen, Whitney (NC State)"
+P377,Aspidistra,"Plante de fer, Cast iron plant, Bar room plant, Haran",,Aspidistra,elatior,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,9 m ; Fleurs : violet, brun
+Variegata = feuilles rayées de crème ; Synonymes : Okame (NC State)
+Milky Way = feuilles ponctuées de taches crème (NC State)
+Autres variétés = Asahi, China Star, Ginga Giant, Goldfeather, Goldspike, Hoshi-zora, Mangetsu, Sekko-kan, Well Spotted (NC State)
+Lennon's Song = Variété au feuillage vert foncé brillant traversé au centre par une bande blanche crème, ses feuilles sont plus étroites que l'espèce type. ; Feuilles : Vert, blanc"
+P378,Lomandra,"Spiny-head mat-rush, Mat rush, Basket grass",,Lomandra,longifolia,
+P379,Genévrier cade,"Cade, Oxycèdre, Genévrier oxycèdre, Enebro de la miera, Prickly juniper",,Juniperus,oxycedrus,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 6 m
+subsp. oxycedrus = forme type des collines et montagnes, rustique vers -15 °C (Temperate Plants Database) ; Rusticité : -15 °C (Temperate Plants Database)
+subsp. badia = forme de la péninsule Ibérique et d'Afrique du Nord, rustique vers -15 °C (Temperate Plants Database) ; Rusticité : -15 °C (Temperate Plants Database)
+subsp. macrocarpa = genévrier des dunes littorales, ne supporte pas le gel (Temperate Plants Database)
+subsp. transtagana = forme du sud-ouest du Portugal, ne supporte pas le gel (Temperate Plants Database)"
+P380,Frêne à fleurs,"Frêne à manne, Orne, Orniello, Manna ash, Flowering ash",,Fraxinus,ornus,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 15 m ; Fleurs : blanc, crème
+Mecsek = forme naine à tête ronde, environ 4,5 m sur 3,5 m, trouvée en 1980 dans les monts Mecsek (Hongrie) (Promesse de Fleurs) ; Rusticité : -18 °C (Promesse de Fleurs) ; Fleurs : crème
+Arie Peters = cultivar répertorié par la RHS ; description à compléter"
+P381,Tamaris de France,"Tamaris commun, Tamarix, French tamarisk, Taray",,Tamarix,gallica,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 5 m ; Fleurs : rose
+Autres variétés = d'autres tamaris exotiques sont jugés plus ornementaux (INRAE, jardin Thuret)"
+P382,Arroche nummulaire,"Atriplex nummulaire, Old man saltbush, Giant saltbush",,Atriplex,nummularia,
+P383,Arroche à quatre ailes,"Fourwing saltbush, Chamizo",,Atriplex,canescens,"Espèce type = l'espèce elle-même, sans sélection : arbuste semi-persistant jusqu'à 2,4 m ; Fleurs : jaune, brun
+Marana = sélection californienne (1979), installation facile et résistance à la sécheresse, pour le Sud-Ouest (USDA NRCS)
+Rincon = forme dressée et feuillue, reverdit tôt (1983) (USDA NRCS)
+Santa Rita = sélection d'Arizona (1987), pour le Sud-Ouest et la Californie (USDA NRCS)
+Wytana = hybride bas, herbacé, du Montana (1976) (USDA NRCS)"
+P384,Obione,"Obione faux-pourpier, Arroche faux-pourpier, Sea purslane",Atriplex portulacoides,Halimione,portulacoides,
+P385,Cyprès de Lambert,"Cyprès de Monterey, Monterey cypress",Cupressus macrocarpa,Hesperocyparis,macrocarpa,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 21 m
+Goldcrest = feuillage jaune d'or, port colonnaire (NC State)
+Golden Pillar = colonne dorée (NC State)
+Wilma = forme naine dorée, souvent en pot (NC State)
+Karoonda = cultivar répertorié par NC State ; description à compléter"
+P386,Abricotier,"Apricot, Albaricoquero, Mech-mech (Maroc), Xing",,Prunus,armeniaca,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 8 m ; Fleurs : blanc, rose
+Moorpark = autofertile et fiable ; fruits jaune-orangé teintés de rouge, récolte de mi- à fin août au Royaume-Uni ; 2,5 à 4 m ; recommandée par la RHS (RHS) ; aussi conseillée en Californie (UC Master Gardeners) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc, rose
+Bergeron = variété française mi-tardive, autofertile ; bonne résistance au gel sur fleurs et jeunes fruits ; sensible au monilia sur fleurs et au coryneum (GRAB)
+Orangé de Provence = autofertile, assez tolérante au monilia sur fleurs (GRAB) ; Synonymes : Polonais
+Rouge du Roussillon = floraison demi-précoce, autofertile, récolte début juillet dans le sud de la France (GRAB)
+Blenheim = recommandée en Californie d'après les essais des UC Master Gardeners (UC Master Gardeners, comté de Santa Clara)
+Tilton = recommandée en Californie (UC Master Gardeners, comté de Santa Clara)
+Gold Kist = environ 300 heures de froid ; autofertile, noyau libre ; excellent abricotier familial pour les climats à hiver chaud (Université d'Arizona)
+Katy = environ 400 heures de froid ; gros fruit savoureux à noyau libre, autofertile (Université d'Arizona)
+Patterson = environ 500 heures de froid ; pour congélation, séchage et conserve (Université d'Arizona)
+Goldstrike = gros fruit orange, chair ferme ; demande un pollinisateur (Rival ou Goldbar) (BC Tree Fruit Production Guide)
+Tomcot = productif mais peu rustique en hiver ; mûrit 3 à 4 jours avant Goldstrike (BC Tree Fruit Production Guide)
+Hacıhaliloğlu = principale variété de Malatya (Turquie), près de 90 % de la production régionale ; variété de séchage (ministère turc de l'Agriculture, direction de Malatya)
+Canino = variété la plus citée dans les oasis du Sud marocain (Barbeau et El Bouami, 1980)
+Mech-mech = populations locales de semis d'Afrique du Nord ; petits fruits abondants, peu de besoin en froid, utilisées comme porte-greffe (Barbeau et El Bouami, 1980)"
+P387,Pêcher,"Peach, Melocotonero, Tao",,Prunus,persica,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 4 m ; Fleurs : rose
+Redhaven = chair jaune, noyau libre, récolte fin juillet, assez résistante à la cloque, autofertile (RHS)
+UFGold = 200 heures de froid, chair ferme, noyau adhérent, récolte environ 80 jours après la floraison (UF/IFAS)
+UF2000 = 300 heures de froid, chair ferme, récolte 15 à 18 jours avant UFGold (UF/IFAS)
+FloridaCrest = 350 heures de froid, chair fondante, noyau semi-adhérent (UF/IFAS)
+FloridaDawn = chair fondante, la plus courte période de développement du fruit (UF/IFAS)"
+P388,Prunier,"Prunier domestique, European plum, Ciruelo",,Prunus,domestica,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 4 m ; Fleurs : blanc
+Hauszwetsche = quetsche ovale bleu foncé à chair jaune, sucrée et épicée, récolte en septembre, autofertile (RHS) ; Rusticité : -15 °C (RHS)
+Mirabelles = groupe de petites prunes jaunes (Suprun et al., 2019)
+Reines-claudes = groupe de prunes vertes à dorées (Suprun et al., 2019)
+Prunes hongroises = groupe de quetsches (Suprun et al., 2019)"
+P389,Cognassier,"Coing, Quince, Membrillero, Beh",,Cydonia,oblonga,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 6 m ; Fleurs : rose, blanc
+Gigante de Wranja (Vranja) = la variété la plus vendue en Espagne (Ministère espagnol de l'Agriculture)
+Isfahan = un des premiers cultivars iraniens sélectionnés et homologués (Abdollahi)
+Viduja = cultivar iranien nain, très productif, plus résistant au feu bactérien (Abdollahi)
+Behta = cultivar iranien de très bonne qualité, assez tolérant à la pourriture du collet (Abdollahi)
+Autres variétés = Commune, De Fontenay, De Portugal, Vau de Mau, Sphéroïdale (Infoagro ; Ministère espagnol de l'Agriculture), Kharv Neishabour, Shams (Abdollahi)"
+P390,Poirier,"Poirier commun, Pear, Peral, Armut",,Pyrus,communis,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 12 m ; Fleurs : blanc
+De Roma = poire d'hiver, peu exigeante en froid (Infoagro)
+Blanquilla (Blanca de Aranjuez) = première variété espagnole, très vigoureuse, récolte août-septembre (Infoagro)
+Williams (Buen Cristiano) = gros fruit fondant et parfumé, récolte août-septembre (Infoagro)
+Docteur Jules Guyot (Limonera) = récolte juillet-août, exigeante en eau (Infoagro)
+Conférence = très bon goût, sensible à plusieurs maladies en Espagne (Infoagro)
+Santa Maria = variété d'été italienne (Williams × Coscia), cultivée en Turquie (Université Ondokuz Mayıs)
+Ankara = poire d'hiver turque, environ 749 heures de froid (Université Ondokuz Mayıs)
+Deveci = poire d'hiver turque (Université Ondokuz Mayıs)"
+P391,Cédratier,"Cédrat, Citron, Cedro, Etrog",,Citrus,medica,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 4 m ; Fleurs : blanc, rose
+Diamante = variété la plus répandue en Italie (Calabre), gros fruits ovales à écorce épaisse, préférée pour Souccot (Université de Florence)
+Ethrog = cultivar répertorié par la RHS ; description à compléter
+Main de Bouddha (Fingered) = cultivar répertorié par la RHS ; description à compléter ; Synonymes : Sarcodactylis"
+P392,Canne à sucre,"Sugarcane, Caña de azúcar",,Saccharum,officinarum,
+P393,Caféier d'Arabie,"Caféier, Coffee, Cafeto",,Coffea,arabica,
+P394,Noyer du Queensland à coque rugueuse,"Macadamia, Rough-shelled bush nut, Rough-shelled macadamia",,Macadamia,tetraphylla,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 15 m ; Fleurs : rose, violet
+Cate = M. tetraphylla, variété préférée en Californie, peu d'alternance (UC ANR)
+Beaumont = hybride M. tetraphylla × M. integrifolia (UC ANR)
+Vista = hybride (UC ANR)"
+P395,Caoutchouc,"Figuier caoutchouc, Rubber plant, Indian rubber plant",,Ficus,elastica,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 30 m
+Robusta = la plus courante, vert foncé cireux, jusqu'à 2,4 m en pot (NC State)
+Decora = feuilles très épaisses vert foncé (NC State)
+Abidjan = vert foncé teinté de rouge (NC State)
+Burgundy = vert foncé teinté de bordeaux (NC State)
+Belize = vert à reflets crème, rose et rouge (NC State)
+Tineke = panaché crème ou jaune pâle (NC State)
+Tricolor = crème, rose et vert (NC State)
+Doescheri = taches grises et crème, nervure rose (NC State)
+Autres variétés = Melany, Red Ruby, Variegata, Yellow Gem (NC State)
+Decora Honduras Variegated = Variété au feuillage persistant spectaculaire aux très grandes feuilles coriaces et vernissées, arborant une panachure marbrée aux nuances vert olive et vert d'eau, largement bordée de jaune crème à blanc ivoire et sublimée par une nervure centrale rose pastel à rouge corail."
+P396,Figuier pleureur,"Ficus benjamina, Weeping fig, Benjamin tree, Sai yoi bai laem (Thaïlande)",,Ficus,benjamina,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 15 m
+Danielle = port retombant, vert foncé brillant, croissance lente (NC State)
+Anastasia = port retombant, feuillage dense vert et vert clair (NC State)
+Alii = feuilles longues et étroites (NC State)
+Exotica = feuilles fines, coriaces, vert foncé brillant (NC State)
+Golden King = vert foncé bordé de crème à vert clair (NC State)
+Naomi Gold = bord ondulé, vert moyen à foncé (NC State)
+Pandora = feuilles frisées, environ 1,8 m en pot (NC State)
+Too Little = naine, prisée en bonsaï (NC State)
+Autres variétés = El Dorado, Ruby, Samantha, Variegata, Wintergreen (NC State)"
+P397,Banian,"Banyan tree, Bengal fig",,Ficus,benghalensis,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 25 m
+Audrey = plante d'intérieur populaire, 30 à 60 cm, feuilles vert brillant et tronc blanc (NC State)
+Chandelier Happiness = port dressé, 0,6 à 1,2 m, feuilles ovales vert moyen à nervures claires (NC State)"
+P398,Saguaro,"Sahuaro, Ha:san (tohono o'odham)",,Carnegiea,gigantea,
+P399,Pin maritime,"Maritime pine, Pino resinero, Pino rodeno, Itsas pinua",,Pinus,pinaster,
+P400,Peuplier blanc,"White poplar, Álamo blanco",,Populus,alba,
+P401,Armérie maritime,Thrift,,Armeria,maritima,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,3 m
+Düsseldorfer Stolz = cultivar répertorié par la RHS ; description à compléter
+Alba = forme à fleurs blanches répertoriée par la RHS
+Vindictive = cultivar répertorié par la RHS ; description à compléter"
+P402,Jonquille,Jonquil,,Narcissus,jonquilla,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,4 m ; Fleurs : jaune
+Flore Pleno = forme à fleurs doubles répertoriée par la RHS
+var. henriquesii = forme sauvage d'Espagne répertoriée par la RHS ; description à compléter"
+P403,Ail triquètre,"Three-cornered leek, Three-cornered garlic, Lágrimas de la Virgen, Allassa blanca",,Allium,triquetrum,
+P404,Camomille allemande,"German chamomile, Scented mayweed",Matricaria recutita,Matricaria,chamomilla,
+P405,Lupin à feuilles étroites,"Lupin bleu, Narrow-leafed lupin, Blue lupin, Australian sweet lupin, Altramuz azul",,Lupinus,angustifolius,
+P406,Tournesol,Sunflower,,Helianthus,annuus,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 3 m ; Fleurs : jaune, orange
+Giant Single = 2,5 à 4 m, grande fleur jaune à cœur chocolat (RHS)
+Mongolian Giant = la plus haute, 3,6 à 4,2 m (NC State)
+Russian Giant = variété géante (NC State)
+Teddy Bear = fleurs doubles (NC State)
+Big Smile = naine (NC State)
+Moulin Rouge = cultivar répertorié par la RHS ; description à compléter
+Autres variétés = Aztec Sun, Delta Sunflower, Moonwalker, Pastiche, Suncredible Yellow, Sunfinity Double Yellow, Velvet Queen (NC State)"
+P407,Rosier des chiens,"Églantier, Dog rose, Kuşburnu",,Rosa,canina,
+P408,Lierre grimpant,"Common ivy, English ivy",,Hedera,helix,"Espèce type = l'espèce elle-même, sans sélection : liane persistante jusqu'à 12 m ; Fleurs : vert, jaune
+Atropurpurea = cultivar répertorié par la RHS ; description à compléter
+Parsley Crested = cultivar répertorié par la RHS ; description à compléter
+Ceridwen = cultivar panaché répertorié par la RHS ; description à compléter"
+P409,Liriope,"Big blue lilyturf, Lilyturf, Monkey grass",,Liriope,muscari,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,45 m ; Fleurs : violet, blanc
+Big Blue = épis lavande (NC State)
+Evergreen Giant = feuilles raides, épis blancs (NC State)
+Monroe's White = fleurs blanc pur (NC State)
+Royal Purple = épis violet foncé (NC State)
+Silvery Sunproof = feuilles rayées de blanc et de jaune, fleurs violet pâle (NC State)
+Variegata = feuilles rayées de blanc (NC State)
+Pee Dee Ingot = feuilles jaunes (NC State)
+Webster Wideleaf = feuilles les plus larges, épis lavande (NC State)
+Autres variétés = Marc Anthony, Silver Sun (NC State)"
+P410,Chrysocephalum,Common everlasting,,Chrysocephalum,apiculatum,
+P411,Violette d'Australie,"Native violet, Ivy-leaved violet, Australian violet",,Viola,hederacea,
+P412,Oxalis pourpre,"Faux trèfle, False shamrock",,Oxalis,triangularis,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 0,45 m ; Fleurs : blanc, rose
+Atropurpurea = feuilles pourpre foncé à large bord noir, fleurs rose clair (NC State)
+Charmed Wine = pourpre foncé, fleurs blanches (NC State)
+Ebony = pourpre noir, fleurs blanches devenant roses (NC State)
+Fanny = vert olive à centre argenté, fleurs rose tendre (NC State)
+Francis = pourpre vif, fleurs lavande en automne (NC State)
+Mijke = pourpre foncé, fleurs mauves (NC State)"
+P413,Pothos,"Lierre du diable, Golden pothos, Devil's ivy, Devil's vine, Taro vine",,Epipremnum,aureum,"Espèce type = l'espèce elle-même, sans sélection : liane persistante jusqu'à 12 m
+Golden Pothos = feuilles panachées jaune d'or (NC State)
+Marble Queen = feuilles et tiges marbrées de blanc (NC State)
+Neon = feuilles jaune vif (NC State)
+Jade = vert foncé uni, supporte peu de lumière (NC State)
+Pearls and Jade = panaché vert et blanc (NC State)
+Snow Queen = très panaché vert et blanc (NC State)
+Autres variétés = Lime, Njoy, Tricolor (NC State)"
+P414,Dragonnier parfumé,"Corn plant, Mass cane",Dracaena deremensis,Dracaena,fragrans,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 4,5 m ; Fleurs : blanc, rose
+Massangeana (Mass Cane) = bandes centrales jaune-vert (NC State)
+Janet Craig (Compacta) = 1 à 1,8 m, vert uni, feuilles courtes et denses (NC State)
+Warneckii = vert-gris rayé de blanc ou de vert (NC State)
+Lemon Lime = rayures crème, jaune-vert et vert citron (NC State)
+Limelight = panachure jaune-vert brillante (NC State)
+Autres variétés = Bausei, Dorado, Hawaiian Sunshine, White Jewel (NC State)"
+P415,Palmier mazari,"Mazri, Mazari palm, Merez, Patha, Daz, Purk",,Nannorrhops,ritchieana,
+P416,Palmier de Floride,Saw palmetto,,Serenoa,repens,"Espèce type = l'espèce elle-même, sans sélection : palmier persistant jusqu'à 3 m ; Fleurs : crème, blanc
+Formes argentées = Sericea, Cinerea, Glauca, feuillage gris-bleu argenté, côte est de Floride (UF/IFAS Gardening Solutions)"
+P417,Palmier à sucre de l'Inde,"Kitul, Toddy palm, Fishtail palm, Jaggery palm, Wine palm, Indian sago palm",,Caryota,urens,
+P418,Aréca,"Palmier d'Arec, Areca palm, Yellow butterfly palm, Golden cane palm, Bamboo palm",Dypsis lutescens,Chrysalidocarpus,lutescens,
+P419,Cycas de l'Inde,"Queen sago, Cycas circinal",,Cycas,circinalis,
+P420,Kaloupilé,"Arbre à curry, Curry leaf, Curry leaf tree",Bergera koenigii,Murraya,koenigii,
+P421,Badamier,"Amandier tropical, Tropical almond, West Indian almond, Natapoa",,Terminalia,catappa,
+P422,Mûrier à papier,"Paper mulberry, Arbre à papier",,Broussonetia,papyrifera,
+P423,Fougère de Boston,"Néphrolépis, Boston fern, Sword fern",,Nephrolepis,exaltata,"Espèce type = l'espèce elle-même, sans sélection : fougère persistante jusqu'à 0,9 m
+Bostoniensis = facile, frondes larges et retombantes, jusqu'à 90 cm (NC State)
+Compacta = courte, compacte, dressée (NC State)
+Dallas = petite, rapide, supporte peu de lumière et un air moins humide (NC State)
+Fluffy Ruffles = petite, frondes dressées à bords ondulés (NC State)
+Rita's Gold = frondes vert chartreuse (NC State)
+Tiger Stripe = panaché doré, dense et arqué (NC State)
+Autres variétés = Florida Ruffle, Fluffy Duffy, Golden Boston, Ruffles, Suzi Wong, Verona, Whitmanii (NC State)"
+P424,Fougère bouton,"Button fern, Round-leaved fern, Tarawera",,Pellaea,rotundifolia,
+P425,Ricin,"Ricin commun, Kharwaa, Tártago, Tartaguera, Higuerilla, Palma Christi, Castor bean, Castor-oil plant",,Ricinus,communis,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 6 m ; Fleurs : vert, rouge
+Carmencita Bright Red = feuilles bronze rouge foncé, fleurs rouge vif, capsules écarlates (NC State)
+Carmencita Pink = tiges et capsules rose rougeâtre (NC State)
+Carmencita Rose = feuilles vert bleuté, capsules couleur pêche (NC State)
+Gibsonii = feuilles rouge foncé, capsules roses, 1,2 à 1,5 m (NC State)
+Red Spire = tiges rouges, feuilles bronze (NC State)
+Sanguineus = tiges et feuilles rouge sang (NC State)"
+P426,Oxalis des Bermudes,"Oxalis pied-de-chèvre, Pied-de-chèvre, Oxalis penchée, Vinagreta, Agrios, Bermuda buttercup, Soursob",,Oxalis,pes-caprae,
+P427,Herbe aux écouvillons pourpres,"Plumero, Rabogato, Cola de zorro, Fountain grass, Crimson fountain grass",Pennisetum setaceum ; Pennisetum ruppellii,Cenchrus,setaceus,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 1,3 m ; Fleurs : rose, violet
+Cupreum = feuillage bordeaux, plumets cuivrés (NC State)
+Fireworks = feuilles rayées de rose vif, bordeaux, vert et blanc (NC State)
+Purpureum = feuillage pourpre foncé (NC State)
+Red Riding Hood = feuillage bordeaux pourpre (NC State)
+Rubrum = feuillage bordeaux retombant (NC State)
+Rubrum Dwarf = forme naine de Rubrum (NC State)
+Vertigo = stérile, feuillage noir pourpre (NC State)"
+P428,Bambou doré,"Bambú dorado, Golden bamboo, Fishpole bamboo, Hotei-chiku, Rén miàn zhú",,Phyllostachys,aurea,"Espèce type = l'espèce elle-même, sans sélection : bambou persistant jusqu'à 9 m
+Dr. Don = jeunes tiges bleu vif (NC State)
+Flavescens Inversa = tiges vertes rayées d'or (NC State)
+Holochrysa = tiges dorées (NC State)
+Koi = tiges dorées rayées de vert (NC State)"
+P429,Tagète des décombres,"Huacatay, Œillet d'Inde menu, Tagète minute, Chinchilla, Suico, Khaki bush, Kakiebos, Southern marigold, Mexican marigold",,Tagetes,minuta,
+P430,Liseron des champs,"Petit liseron, Petite campanette, Vrillée, Correhuela, Corregüela, Field bindweed",Calystegia arvensis,Convolvulus,arvensis,
+P431,Rhododendron pontique,"Rhododendron d'Asie mineure, Ojaranzo, Jaranzo, Adelfeira, Kumar, Pontic rhododendron",,Rhododendron,ponticum,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 8 m ; Fleurs : violet, rose
+Subsp. baeticum = forme relique du sud de l'Espagne (Ruiz Bravo)"
+P432,Tilleul à petites feuilles,"Tilleul des bois, Tilleul d'hiver, Tilleul sauvage, Tilo de hoja pequeña, Winterlinde, Small-leaved lime, Small-leaved linden",,Tilia,cordata,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 18 m ; Fleurs : crème, jaune
+Bailey = houppier plus ouvert, 15 m (NC State)
+Chancellor = plus compact, 15 m (NC State)
+Corzam = pyramidal étroit, 14 m (NC State)
+Fairview = croissance rapide, feuillage plus épais, 18 m (NC State)
+Greenspire = le plus courant et le plus tolérant en ville, 12 m (NC State)
+Halka = compact, 6 m de haut sur 4,5 m (NC State)"
+P433,Pin noir,"Pin noir d'Autriche, Pin laricio, Pino salgareño, Pino negral, Austrian pine, Black pine",,Pinus,nigra,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 18 m
+Arnold Sentinel = colonnaire (NC State)
+Aurea = panaché (NC State)
+Black Prince = forme naine arbustive (NC State)
+Hornibrookiana = nain, 60 cm sur 1,2 à 1,8 m (NC State)
+Moseri = aiguilles jaune doré en hiver (NC State)
+Subsp. laricio = pin de Corse, très résistant au vent marin (Temperate Plants Database)
+Subsp. salzmannii = pin salgareño d'Espagne, sur dolomies et calcaires (MITECO)"
+P434,Épicéa,"Gemeine Fichte, Abete rosso, Norway spruce",,Picea,abies,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 18 m
+Acrocona = pyramidal étalé, 6 m, cônes rouge vif (NC State)
+Cupressina = étroit et dressé, 7,5 à 9 m (NC State)
+Nidiformis = nain, creusé au centre (NC State)
+Pendula = étroit pleureur, 3,5 à 4,5 m (NC State)
+Pumila = nain, 0,9 à 1,2 m (NC State)
+Autres variétés = plus de 150 cultivars (NC State)"
+P435,Peuplier baumier,"Baumier, Peuplier de Caroline, Balsam poplar, Tacamahaca",,Populus,balsamifera,
+P436,Bambou noir du Japon,"Zǐ zhú, Kuro-chiku, Black Japanese bamboo, Ebony bamboo",,Phyllostachys,nigra,"Punctata = Variété aux chaumes vert olive la première année. Ensuite, ils se  tachettent  de noir ou  et de pourpre
+Henonis = Variété au feuillage fin et léger est porté par de solides chaumes dressés, verts olive au stade juvénile se colorant de jaune ou vert grisé suivant l’exposition. ; Synonymes : Phyllostachis puberula,"
+P437,Phellodendron,"Kihada, Huang bai, Amur corktree",,Phellodendron,amurense,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 14 m ; Fleurs : jaune, vert
+Macho = pied mâle, feuilles épaisses et coriaces, port dressé (NC State)
+Shademaster = pied mâle (NC State)"
+P438,Cryptomeria,"Sugi, Japanese cedar, Japanese cryptomeria",,Cryptomeria,japonica,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 21 m
+Black Dragon = dense, vert très foncé (NC State)
+Chapel View = bleu-vert à vert jade toute l'année, peu de bronzage (NC State)
+Yoshino = colonnaire étroit, 9 à 15 m (NC State)
+Tenzan = très nain, moins de 30 cm, bronze en hiver (NC State)
+Autres variétés = 17 cultivars listés par NC State"
+P439,Katsura,Katsura tree,,Cercidiphyllum,japonicum,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 18 m ; Fleurs : rouge, vert
+Pendula = forme pleureuse (NC State)
+Aureum = feuillage doré (NC State)
+Autres variétés = Amazing Grace, Boyd's Dwarf, Claim Jumper, Heronswood Globe, Morioka Weeping, Red Fox, Ruby, Tidal Wave (NC State)"
+P440,Sorbier des oiseleurs,"Sorbier des oiseaux, Arbre à grives, Alisier des bois, Serbal de cazadores, Rowan, European mountain ash",,Sorbus,aucuparia,
+P441,Saule pleureur,"Saule de Babylone, Saule parasol, Sauce llorón, Chuí liǔ, Weeping willow, Peking willow",Salix matsudana,Salix,babylonica,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 15 m ; Fleurs : vert
+Tortuosa = rameaux tordus, saule tortueux (NC State)
+Crispa = feuilles enroulées (NC State)
+Golden Curls = écorce dorée, rameaux et feuilles tordus (NC State)
+Scarlet Curls = jeunes rameaux rouges puis dorés (NC State)
+Aurea = rameaux jaune doré (NC State)"
+P442,Chêne chevelu,"Cerre, Chêne de Bourgogne, Rebollo, Marojo, Saçlı meşe, Turkey oak",,Quercus,cerris,
+P443,Sapin de Nikko,"Urajiro-momi, Dake-momi, Nikko fir",,Abies,homolepis,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 40 m
+Prostrata = forme rampante (American Conifer Society)
+Autres variétés = F.R. Newman, Scottiae, Tomomi, Variegata, Wintergold (American Conifer Society)"
+P444,Ginkgo,"Arbre aux quarante écus, Arbre aux pagodes, Ginkgo bilobé, Yín xìng, Ichô, Maidenhair tree",,Ginkgo,biloba,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 24 m
+Autumn Gold = mâle (NC State)
+Golden Globe = mâle, port arrondi (NC State)
+Mariken = mâle, nain (NC State)
+Princeton Sentry = étroit (NC State)
+Autres variétés = Bryson City, Jade Butterfly, Saratoga, Sky Tower, Weeping Wonder (NC State)"
+P445,Noyer du Japon,"Onigurumi, Heartnut (var. cordiformis), Japanese walnut",,Juglans,ailantifolia,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 20 m
+Var. cordiformis = heartnut, noix en forme de cœur faciles à casser (OMAFRA)"
+P446,Mélèze du Japon,"Karamatsu, Japanese larch, Alerce del Japón",,Larix,kaempferi,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 30 m
+Diana = Diana
+Autres variétés = Blue Dwarf, Blue Haze, Jakobsen's Pyramid, Nana, Paper Lanterns, Swallow Falls, sans description sur leurs fiches (RHS)
+Magic Gold = Magic Gold"
+P447,Ostrya,"Asada, Japanese hop-hornbeam, Japanische Hopfenbuche",,Ostrya,japonica,
+P448,Épicéa de Koyama,"Épicéa du Koyama, Épinette de Koyama, Yatsugatake-tōhi, Koyama's spruce",,Picea,koyamae,
+P449,Érable à feuilles rondes,"Érable à feuilles orbiculaires, Vine maple",,Acer,circinatum,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 7,5 m ; Fleurs : rouge, blanc
+Burgundy Jewel = cultivar cité par NC State (NC State)
+Little Gem = nain, petites feuilles (Oregon State University)
+Monroe = feuilles profondément découpées (Oregon State University)
+Pacific Fire = écorce rouge (Oregon State University)
+Pacific Sprite = nain, croissance lente (Oregon State University)
+Sunglow = nain, feuillage abricot puis jaune chartreuse (Oregon State University)"
+P450,Pavier de l'Ohio,"Marronnier glabre, Pavier glabre, Ohio buckeye, Fetid buckeye",,Aesculus,glabra,
