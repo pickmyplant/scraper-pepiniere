@@ -45,14 +45,9 @@ function configurerJeton() {
 }
 
 function lireGithub_(chemin, branche) {
-  var jeton = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-  if (!jeton) throw new Error('Jeton GitHub absent : menu Relevés > Configurer le jeton GitHub.');
   var url = 'https://api.github.com/repos/' + DEPOT + '/contents/' + encodeURI(chemin) +
     '?ref=' + encodeURIComponent(branche);
-  var rep = UrlFetchApp.fetch(url, {
-    headers: {Authorization: 'Bearer ' + jeton, Accept: 'application/vnd.github.raw'},
-    muteHttpExceptions: true
-  });
+  var rep = UrlFetchApp.fetch(url, {headers: enTetes_(), muteHttpExceptions: true});
   if (rep.getResponseCode() !== 200) {
     throw new Error('GitHub ' + rep.getResponseCode() + ' pour ' + chemin + ' (branche ' + branche + ')');
   }
@@ -89,15 +84,69 @@ function plages_(numeros) {
   return res.reverse();
 }
 
+function enTetes_() {
+  var jeton = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!jeton) throw new Error('Jeton GitHub absent : menu Relevés > Configurer le jeton GitHub.');
+  return {Authorization: 'Bearer ' + jeton, Accept: 'application/vnd.github.raw'};
+}
+
+/** Toutes les branches du dépôt (chaque conversation Claude pousse sur la sienne). */
+function listerBranches_() {
+  var noms = [], page = 1;
+  while (page < 20) {
+    var rep = UrlFetchApp.fetch('https://api.github.com/repos/' + DEPOT + '/branches?per_page=100&page=' + page,
+      {headers: enTetes_(), muteHttpExceptions: true});
+    if (rep.getResponseCode() !== 200) throw new Error('GitHub ' + rep.getResponseCode() + ' (liste des branches)');
+    var lot = JSON.parse(rep.getContentText('UTF-8'));
+    lot.forEach(function (b) { noms.push(b.name); });
+    if (lot.length < 100) break;
+    page++;
+  }
+  return noms;
+}
+
+/**
+ * Trouve la branche qui contient releves/<id>.json : branche par défaut d'abord, sinon toutes les
+ * branches (requêtes groupées). Si plusieurs branches ont des versions différentes, on demande ID@branche.
+ */
+function trouverReleve_(id) {
+  var chemin = 'releves/' + id + '.json';
+  try {
+    return {branche: BRANCHE_PAR_DEFAUT, fiche: JSON.parse(lireGithub_(chemin, BRANCHE_PAR_DEFAUT))};
+  } catch (e) { /* pas sur la branche par défaut : on cherche ailleurs */ }
+  var branches = listerBranches_().filter(function (b) { return b !== BRANCHE_PAR_DEFAUT; });
+  var tetes = enTetes_();
+  var reps = UrlFetchApp.fetchAll(branches.map(function (b) {
+    return {url: 'https://api.github.com/repos/' + DEPOT + '/contents/' + encodeURI(chemin) +
+      '?ref=' + encodeURIComponent(b), headers: tetes, muteHttpExceptions: true};
+  }));
+  var trouves = [], versions = {};
+  reps.forEach(function (rep, i) {
+    if (rep.getResponseCode() !== 200) return;
+    var texte = rep.getContentText('UTF-8');
+    trouves.push({branche: branches[i], fiche: JSON.parse(texte)});
+    versions[texte] = true;
+  });
+  if (!trouves.length) throw new Error('Relevé ' + id + ' introuvable sur toutes les branches (pas encore poussé ?)');
+  if (Object.keys(versions).length > 1) {
+    throw new Error('Plusieurs versions différentes de ' + id + ' : saisir ID@branche parmi ' +
+      trouves.map(function (t) { return t.branche; }).join(', '));
+  }
+  // Même contenu partout : on préfère la branche où le relevé a été fait.
+  var origine = trouves.filter(function (t) { return t.branche === t.fiche.branche; })[0];
+  return origine || trouves[0];
+}
+
 function importerReleve() {
   var ui = SpreadsheetApp.getUi();
   var r = ui.prompt('Importer un relevé',
-    'Identifiant du relevé (ex. PLF-2026-11-06-A4).\nPour une autre branche que ' + BRANCHE_PAR_DEFAUT +
-    ' : ID@branche', ui.ButtonSet.OK_CANCEL);
+    'Identifiant du relevé (ex. PLF-2026-11-06-A4). La branche est trouvée automatiquement ' +
+    '(ID@branche pour la forcer).', ui.ButtonSet.OK_CANCEL);
   if (r.getSelectedButton() !== ui.Button.OK) return;
-  var saisie = r.getResponseText().trim();
-  var id = saisie.split('@')[0].trim();
-  var branche = saisie.indexOf('@') > 0 ? saisie.split('@')[1].trim() : BRANCHE_PAR_DEFAUT;
+  // Tolère les copier-coller : parenthèses, guillemets, crochets, espaces, « .json » final.
+  var saisie = r.getResponseText().replace(/[()\[\]{}"'`«»\s]/g, '').replace(/\.json$/, '');
+  var id = saisie.split('@')[0];
+  var brancheForcee = saisie.indexOf('@') > 0 ? saisie.split('@')[1] : '';
 
   var verrou = LockService.getDocumentLock();
   verrou.waitLock(30000);
@@ -106,7 +155,10 @@ function importerReleve() {
     var offres = classeur.getSheetByName(ONGLET_OFFRES);
     var registre = classeur.getSheetByName(ONGLET_REGISTRE);
 
-    var fiche = JSON.parse(lireGithub_('releves/' + id + '.json', branche));
+    var trouve = brancheForcee
+      ? {branche: brancheForcee, fiche: JSON.parse(lireGithub_('releves/' + id + '.json', brancheForcee))}
+      : trouverReleve_(id);
+    var branche = trouve.branche, fiche = trouve.fiche;
     var lignes = lireTsv_(lireGithub_(fiche.fichier, branche));
     if (lignes.length !== fiche.nb_lignes) {
       throw new Error('Le TSV contient ' + lignes.length + ' lignes, la fiche en annonce ' + fiche.nb_lignes);

@@ -21,4 +21,4 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
    outils/lot.sh PLF-AAAA-MM-JJ-A5 data/plantes_<lot>.csv
    ```
 4. Ne regarder que les cas « À vérifier » du résumé ; sur arrêt (code 2), prévenir.
-5. Donner l'identifiant à l'utilisatrice ; après import : une ligne « Terminé » dans Réservations et une dans Journal.
+5. Terminer la réponse par la ligne « Identifiant à importer : <ID> » (sans parenthèses ; le bouton trouve la branche tout seul). Identifiant unique : vérifier dans Réservations le dernier numéro utilisé ; après import : une ligne « Terminé » dans Réservations et une dans Journal.
