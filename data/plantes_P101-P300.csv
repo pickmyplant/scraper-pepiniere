@@ -1,0 +1,609 @@
+ID,Nom commun,Autres noms,Synonymes,Genre,Espèce,Variétés
+P101,Griffe de sorcière,"Carpobrotus, Figue des Hottentots, Ice plant",Mesembryanthemum edule ; Abryanthemum edule,Carpobrotus,edulis,
+P102,Arroche halime,"Pourpier de mer, Guettaf, Mediterranean saltbush",Atriplex halimoides ; Atriplex kataf ; Atriplex parvifolia ; Atriplex serrulata ; Chenopodium halimus ; Schizotheca halimus,Atriplex,halimus,
+P103,Palmier royal,"Roystonea, Palmier royal de Cuba, Royal palm",,Roystonea,regia,
+P104,Liane griffe de chat,"Bignone griffe de chat, Cat's claw creeper",Macfadyena unguis-cati ; Bignonia unguis-cati,Dolichandra,unguis-cati,
+P105,Kalanchoé de Daigremont,"Mère de milliers, Mother of thousands",Bryophyllum daigremontianum,Kalanchoe,daigremontiana,
+P106,Séné d'Argentine,Argentine senna,Cassia corymbosa,Senna,corymbosa,
+P107,Chêne d'argent,"Grévillée robuste, Grevillea, Silky oak",,Grevillea,robusta,
+P108,Armoise arborescente,"Absinthe arborescente, Chiba, Tree wormwood",Absinthium arborescens ; Artemisia argentea ; Artemisia elegans,Artemisia,arborescens,
+P109,Olivier,"Zitoun, Olive tree",,Olea,europaea,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 9 m ; Fleurs : crème
+Picual = la variété la plus importante d'Espagne (plus de 850 000 ha en Andalousie), diffusée jusqu'en Argentine ; huile très stable ; autofertile ; tolère le froid, le sel et l'excès d'eau, mais craint la sécheresse et le calcaire ; très sensible à l'œil de paon et à la verticilliose (Conseil oléicole international)
+Arbequina = Catalogne, Aragon, Andalousie et Argentine ; huile d'excellente qualité ; faible vigueur, adaptée aux plantations denses et aux petits jardins ; autofertile ; résiste au froid ; chlorose en sol très calcaire (Conseil oléicole international ; UC ANR)
+Hojiblanca = gros fruits, 18 à 26 % d'huile ; autofertile ; résiste au froid (UC ANR)
+Cornicabra = huile très riche en polyphénols ; autofertile ; résiste au froid (UC ANR)
+Manzanillo = gros fruits ; sensible au froid ; pollinisé par Sevillano ou Ascolano (UC ANR)
+Sevillano = très gros fruits, peu d'huile (12 à 17 %) ; résiste au froid (UC ANR)
+Mission = fruits de table, arbre vigoureux, très productif et très résistant au froid (Temperate Plants Database) ; pollinisé par Sevillano ou Ascolano (UC ANR)
+Frantoio = Italie (Toscane, Ombrie, Ligurie, Pouilles), introduit dans le monde entier ; huile riche en polyphénols ; vigoureux ; sensibilité moyenne au froid ; très sensible à l'œil de paon et à la tuberculose (Conseil oléicole international)
+Leccino = résiste au froid ; autostérile, pollinisé par Frantoio, Pendolino ou Moraiolo (UC ANR)
+Moraiolo = variété à huile très riche en polyphénols ; très rustique et vigoureuse selon Temperate Plants Database, sensible au froid selon UC ANR ; autostérile (UC ANR)
+Coratina = huile très riche en polyphénols ; autofertile ; résiste au froid (UC ANR)
+Koroneiki = Grèce (Crète, Péloponnèse), 50 à 60 % des oliveraies grecques ; huile ; petits fruits ; tolère la sécheresse et un peu de sel ; craint le froid ; très sensible à la tuberculose ; aussi conduit en haie (Conseil oléicole international)
+Kalamon = Grèce ; olive noire de table, aussi pour l'huile ; gros fruits allongés ; rusticité moyenne ; craint les climats trop chauds (Conseil oléicole international) ; Synonymes : Kalamata
+Gemlik = Turquie (Bursa), près de la moitié des oliviers turcs ; olive noire de table et huile ; très bien adapté aux zones froides, sensible à la sécheresse ; autofertilité partielle (Conseil oléicole international)
+Chemlali = très petits fruits riches en huile (26 à 28 %) ; autofertile (UC ANR)
+Picholine = autofertile ; rusticité modérée (UC ANR)
+Aglandau = autofertile ; résiste au froid (UC ANR)
+Picholine marocaine = variété dominante au Maroc, double usage huile et table ; très adaptable ; productivité moyenne et alternante, 18 à 22 % d'huile, très sensible à l'œil de paon (OCL)
+Haouzia = clone à huile sélectionné au Maroc au début des années 1990 dans la Picholine marocaine, meilleur rendement en huile (OCL ; CIHEAM)
+Menara = clone à huile sélectionné au Maroc au début des années 1990 dans la Picholine marocaine, meilleur rendement en huile (OCL ; CIHEAM)
+Swan Hill = olivier d'ornement : très peu de fruits et de pollen (UC IPM) ; sans fruits ni fleurs selon NC State (NC State)
+Majestic Beauty = peu de fruits (NC State) ; fleurs stériles qui ne lâchent pas de pollen au vent (Southern Nevada Water Authority)
+Wilsoni = sans fruits ni fleurs (NC State)
+Bonita = peu de petits fruits (NC State)
+Little Ollie = nain d'environ 1,8 m, compact et arrondi, sans fruits ; haie basse, bac, topiaire ; tolère chaleur, sécheresse et embruns (NC State ; Monrovia) ; Synonymes : Montra"
+P110,Thé des bois,"Gaulthérie couchée, Gaultheria, Wintergreen",,Gaultheria,procumbens,
+P111,Chèvrefeuille arbustif,"Chèvrefeuille à feuilles de buis, Box honeysuckle",Lonicera nitida,Lonicera,ligustrina,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 3 m ; Fleurs : crème
+Maigrün = port étalé et dense d'environ 1 à 1,5 m, feuilles vert moyen brillant, jeunes pousses vert pâle (RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : crème
+Baggesen's Gold = feuillage jaune doré qui vire au jaune-vert en automne, rameaux retombants, 1,5 à 2,5 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : crème
+Lemon Beauty = petites feuilles ovales vert brillant bordées de jaune, persistantes ; 0,5 à 1 m de haut et de large (RHS) ; Rusticité : -15 °C (RHS H5)"
+P112,Andromède du Japon,"Pieris, Lily-of-the-valley shrub",,Pieris,japonica,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 3 m ; Fleurs : blanc
+Mountain Fire = jeunes feuilles rouges, puis vert cuivré et vert foncé ; fleurs blanc crème au milieu du printemps ; 2,5 à 4 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Flaming Silver = jeunes pousses rouge vif, puis feuilles vertes bordées de blanc argenté ; dressé, 1 à 1,5 m ; AGM (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Debutante = nain et compact, 0,5 à 1 m, panicules dressées ; AGM (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Prelude = nain au port très serré, fleurs blanches tardives qui restent fraîches longtemps (Cornell University) ; Fleurs : blanc
+Valley Valentine = boutons bordeaux qui s'ouvrent en fleurs rose soutenu, port dressé (Cornell University) ; Fleurs : rose, rouge"
+P113,Sapin d'Espagne,"Pinsapo, Sapin du Maroc (var. marocana), Spanish fir",,Abies,pinsapo,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 30 m
+Glauca = aiguilles gris bleuté, croissance lente, plus de 12 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H6)
+Aurea = jeunes pousses jaune doré qui verdissent, port réduit de 4 à 8 m sur 1,5 à 2,5 m ; AGM (RHS) ; Rusticité : -20 °C (RHS H6)
+var. marocana = sapin du Maroc, du Rif ; classé en danger par l'UICN (RBGE)"
+P114,Muscari d'Arménie,"Muscari, Jacinthe à grappe, Grape hyacinth",,Muscari,armeniacum,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,2 m ; Fleurs : bleu
+Cantab = fleurs bleu ciel parfumées, un peu plus tardives, 15 à 23 cm (NC State) ; Fleurs : bleu
+Christmas Pearl = fleurs bleu-violet doux parfumées, très précoces (dès l'hiver ou mars), 15 à 23 cm (NC State ; RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : bleu, violet
+Valerie Finnis = 1 à 3 hampes rigides d'environ 20 cm par bulbe, épis serrés de fleurs bleu pâle légèrement parfumées (NC State ; RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : bleu"
+P115,Laurier-sauce,"Laurier noble, Laurier d'Apollon, Bay laurel",,Laurus,nobilis,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 10 m ; Fleurs : jaune
+Aurea = feuilles coriaces jaune doré, plus vives en hiver et au printemps, port large et conique, 4 à 8 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune
+Angustifolia = feuilles longues et étroites comme celles du saule, utilisables en cuisine, 4 à 8 m ; AGM (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune"
+P116,Laurier-cerise,"Laurier-palme, Laurier-amande, Cherry laurel",,Prunus,laurocerasus,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 6 m ; Fleurs : blanc
+Otto Luyken = port compact et horizontal, 0,5 à 1 m de haut sur 1 à 1,5 m, feuilles étroites, floraison très abondante ; prix du mérite (AGM) de la RHS (RHS ; Trees and Shrubs Online) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Caucasica = vigoureux et dressé, grandes feuilles elliptiques vert foncé jusqu'à 18 cm (Trees and Shrubs Online) ; Fleurs : blanc
+Rotundifolia = dressé et touffu, feuilles presque rondes vert jaunâtre ; très utilisé en haie, 4 à 8 m (RHS ; Trees and Shrubs Online) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Zabeliana = feuilles étroites presque comme un saule, très florifère ; couvre-sol de moins de 1 m qui supporte l'ombre (Trees and Shrubs Online) ; Fleurs : blanc
+Serbica = cultivar répertorié par la RHS, sans description
+Schipkaensis = feuilles étroites, rusticité exceptionnelle (Trees and Shrubs Online) ; Fleurs : blanc"
+P117,Laurier-tin,"Viorne tin, Laurustinus",,Viburnum,tinus,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 3,5 m ; Fleurs : blanc, rose
+Gwenllian = boutons rougeâtres qui s'ouvrent en petites fleurs blanches étoilées à la fin de l'hiver, baies bleu métallique, 1,5 à 2,5 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc, rose
+Eve Price = boutons rose vif en bouquets aplatis, fleurs blanches, feuilles larges et coriaces, 1,5 à 2,5 m ; AGM (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc, rose
+Lisa Rose = vendu aussi sous le nom Lisarose ; dès l'automne, grappes de boutons rose soutenu qui s'ouvrent en fleurs rose clair jusqu'en février-mars ; jeunes pousses teintées de pourpre, buisson dense et arrondi d'environ 2 m sur 1,5 m (Pépinières Denolf) ; Fleurs : rose, blanc
+Variegatum = feuilles ovales bordées de jaune ; petites fleurs blanches en hiver et au début du printemps ; 1,5 à 2,5 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc"
+P118,Bruyère de Darley,"Bruyère d'hiver hybride, Darley Dale heath",,Erica,× darleyensis,"Darley Dale = le cultivar historique, trouvé vers 1890 et récompensé par la RHS en 1905 ; vendu aussi comme 'Mediterranean Pink' (Oregon State University) ; Fleurs : rose
+Kramer's Rote = tapis de feuillage vert bronze foncé, fleurs magenta profond en hiver ; issu de 'Myretoun Ruby' × E. erigena 'Brightness' ; prix du mérite (AGM) de la RHS (RHS ; Oregon State University) ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose, violet
+Silberschmelze = fleurs blanches, obtenu en Allemagne en 1939 ; peut-être vendu comme 'Mediterranean White' (Oregon State University) ; Fleurs : blanc
+White Perfection = vigoureux et étalé, environ 40 cm, feuillage vert vif, fleurs blanc pur ; AGM (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Furzey = fleurs magenta en automne et en hiver (Oregon State University) ; Fleurs : rose, violet"
+P119,Bruyère des neiges,"Bruyère carnée, Winter heath",Erica herbacea,Erica,carnea,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,3 m ; Fleurs : rose
+King George = port compact et touffu, fleurs rose foncé ; le cultivar le plus courant (NC State) ; Fleurs : rose
+December Red = fleurs rouges (NC State) ; Fleurs : rouge
+Myretoun Ruby = fleurs magenta (NC State) ; Fleurs : rose, violet
+Springwood White = tapis vigoureux et retombant d'environ 20 cm sur 45 cm, fleurs blanches de l'hiver au printemps ; supporte le calcaire ; prix du mérite (AGM) de la RHS (RHS ; NC State) ; Rusticité : -20 °C (RHS H6) ; Fleurs : blanc
+Sherwood Pink = tolère les sols alcalins, fleurs rose pur (NC State) ; Fleurs : rose
+Springwood Pink = fleurs roses (NC State) ; Fleurs : rose
+Bell's Extra Special = feuillage doré, craint le plein soleil (NC State)
+Wintersonne = fleurs rose vif (NC State) ; Fleurs : rose"
+P120,Mahonia à feuilles de houx,"Mahonia, Oregon grape",Mahonia aquifolium,Berberis,aquifolium,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1,8 m ; Fleurs : jaune
+Apollo = vigoureux et étalé, environ 60 cm sur 90 cm, feuillage vert foncé brillant qui bronze en hiver, nombreuses grappes jaune foncé ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune
+Smaragd = compact et dressé, environ 60 cm, jeunes feuilles bronze puis vert foncé brillant, pourpre et rouge en hiver (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune
+Mahonia repens = espèce voisine (Berberis repens pour POWO) parfois vendue comme couvre-sol : drageonne, environ 30 cm de haut sur 0,5 à 1 m, feuilles épineuses ondulées, grappes jaune foncé parfumées au printemps (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune"
+P121,Fittonia,"Plante mosaïque, Plante à nervures, Nerve plant",Fittonia verschaffeltii ; Fittonia argyroneura,Fittonia,albivenis,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,2 m ; Fleurs : blanc
+Groupe Argyroneura = feuilles largement elliptiques vert franc parcourues d'un réseau de nervures argentées ; 10 à 50 cm ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : 15 °C minimum (RHS H1A)
+Groupe Verschaffeltii = feuilles vert olive foncé à nervures roses ; 10 à 50 cm (RHS) ; Rusticité : 15 °C minimum (RHS H1A)
+Forest Flame = cultivar du groupe Verschaffeltii répertorié par la RHS
+White Dwarf = forme naine du groupe Argyroneura répertoriée par la RHS (synonymes Minima, Nana)"
+P122,Filaire à feuilles étroites,"Phillyrea, Alavert, Narrow-leaved mock privet",,Phillyrea,angustifolia,"Espèce type = fleurs blanc cassé parfumées (RHS) ; Fleurs : blanc
+Rosmarinifolia = forme botanique à feuilles très étroites, répertoriée par la RHS ; Fleurs : blanc"
+P123,Cognassier du Japon,"Chaenomeles, Cognassier à fleurs, Flowering quince",,Chaenomeles,speciosa,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 3,5 m
+Moerloosei = grandes fleurs blanches teintées de rose foncé sur bois nu ; fruits vert-jaune parfumés ; environ 2 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : blanc, rose
+Toyo-Nishiki = fleurs rouges, roses et blanches sur le même pied ; en essai à la RHS (2022-2026) ; Fleurs : rouge, rose, blanc
+Nivalis = bouquets de fleurs simples blanc pur d'environ 4 cm sur bois nu au printemps ; 1,5 à 2,5 m (RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : blanc
+Simonii = port bas et étalé, 0,5 à 1 m de haut sur 1,5 à 2,5 m ; grandes fleurs doubles rouge sang foncé au printemps (RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : rouge
+Scarlet Storm = série Double Take, sans épines et sans fruits ; fleurs doubles rouge profond veloutées d'environ 6 cm, parfois une remontée ; 0,9 à 1,8 m (NC State) ; Fleurs : rouge
+Orange Storm = même série ; fleurs doubles orange vif très pleines, comme des camélias (NC State) ; Fleurs : orange
+Pink Storm = même série ; fleurs doubles saumon à corail d'environ 5 cm, comme de petites roses (NC State) ; Fleurs : rose"
+P124,Pétasite hybride,"Grand pétasite, Herbe aux chapeaux, Butterbur",,Petasites,hybridus,
+P125,Germandrée arbustive,"Germandrée en arbre, Teucrium, Tree germander",,Teucrium,fruticans,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 2 m ; Fleurs : bleu
+Azureum = port lâche et étalé, fleurs bleu clair à deux lèvres d'environ 2,5 cm en été ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -5 °C (RHS H3) ; Fleurs : bleu
+Compactum = compact et dense, 0,5 à 1 m, feuilles gris-vert laineuses dessous, fleurs bleu pâle en verticilles (RHS) ; Rusticité : -5 °C (RHS H3) ; Fleurs : bleu"
+P126,Argousier,"Saule épineux, Sea buckthorn",,Hippophae,rhamnoides,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 4 m ; Fleurs : vert
+Leikora = forme femelle très fructifère, sélectionnée pour l'ornement (Temperate Plants Database) ; Fleurs : vert"
+P127,Osmanthe de Burkwood,,× Osmarea burkwoodii,Osmanthus,× burkwoodii,
+P128,Prunellier,"Épine noire, Blackthorn, Sloe",,Prunus,spinosa,
+P129,Coronille de Valence,Coronille glauque,Coronilla glauca,Coronilla,valentina,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1,5 m ; Fleurs : jaune
+Citrina = sous-espèce glauca, petit arbuste de 0,5 à 1 m, feuilles pennées bleu-gris, fleurs jaune citron parfumées de la fin de l'hiver au début du printemps ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune
+Variegata = sous-espèce glauca, touffu, environ 80 cm, feuillage bleu-vert bordé de blanc crème, fleurs jaunes parfumées au début du printemps puis en été (RHS) ; Rusticité : -5 °C (RHS H3) ; Fleurs : jaune"
+P130,Buis commun,"Buis, Buxus, Boxwood",,Buxus,sempervirens,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 6 m ; Fleurs : crème
+Suffruticosa = buis nain de bordure, croissance lente, environ 1 m de haut sur 1 à 1,5 m (RHS) ; Rusticité : -20 °C (RHS H6)
+Elegantissima = dense, environ 1,5 m, feuilles étroites vert foncé bordées de blanc ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H6)"
+P131,Rhododendron de Corée,Korean rhododendron,Rhododendron taquetii ; Rhododendron dauricum var. mucronulatum,Rhododendron,mucronulatum,"Espèce type = fleurs rose lilas, parfois blanches (RHS) ; Fleurs : rose, violet
+Cornell Pink = fleurs rose franc d'environ 5 cm, de la mi-hiver au printemps ; port ouvert, au moins 2 m ; prix du mérite (AGM) de la RHS en 2003 (RHS) ; Rusticité : -20 °C (RHS H6) ; Fleurs : rose
+Wheeldon Pink = cultivar à fleurs roses du commerce, non décrit par les sources consultées ; Fleurs : rose"
+P132,Mimosa d'hiver,"Mimosa des fleuristes, Silver wattle",,Acacia,dealbata,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 15 m ; Fleurs : jaune
+Gaulois Astier = arbuste jusqu'à 6 m, feuillage gris argenté très finement découpé, grappes de fleurs jaunes parfumées très abondantes en hiver et au printemps (RHS) ; Rusticité : -5 °C (RHS H3) ; Fleurs : jaune
+Le Gaulois = cultivar répertorié par la RHS ; Fleurs : jaune"
+P133,Chalef d'Ebbinge,Éléagnus,Elaeagnus × ebbingei,Elaeagnus,× submacrophylla,"Gilt Edge = vigoureux, feuilles larges vert foncé bordées de jaune, fleurs argentées parfumées parfois suivies de baies orange ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Limelight = jeunes feuilles argentées puis panachées de vert foncé, vert citron et or ; pâlit en crème en plein soleil (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc"
+P134,Arbre de Judée du Yunnan,"Gainier du Yunnan, Yunnan redbud",Cercis yunnanensis,Cercis,glabra,"Espèce type = grappes de 4 à 12 fleurs rose pâle à rouge-pourpre clair en mars-avril, avant les feuilles (NC State) ; Fleurs : rose
+Celestial Plum = arbuste à plusieurs troncs de 3 à 4,5 m, fleurs lavande au printemps (NC State) ; Fleurs : violet, rose"
+P135,Bambou sacré,"Nandina, Nandine domestique, Heavenly bamboo",,Nandina,domestica,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 2,4 m ; Fleurs : blanc
+Fire Power = nain, presque sans fruits, feuillage rouge tout l'hiver (NC State) ; Synonymes : Nana firehouse
+Gulf Stream = nain compact, presque sans fruits (NC State)
+Harbour Dwarf = environ 60 cm, peu de fruits, belles couleurs d'automne (NC State)
+Nana = nain de 30 à 60 cm, très peu de fruits, feuilles réduites, rouge en hiver (NC State)
+Obsessed = vendu aussi sous le nom Seika ; folioles rouge vif quand elles sont jeunes, puis vert foncé ; 0,5 à 1 m de haut et de large (RHS) ; Rusticité : -15 °C (RHS H5)
+Lemon Lime = nain, feuillage vert-jaune, presque sans fruits (NC State)
+Alba = baies crème, feuillage doré en automne (NC State) ; Fleurs : blanc
+Plum Passion = jeunes pousses rouge-pourpre, vert foncé l'été, pourpre en automne et en hiver (NC State)"
+P136,Euphorbe characias,"Euphorbe des garrigues, Grande euphorbe, Mediterranean spurge",,Euphorbia,characias,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 1 m ; Fleurs : vert, jaune
+subsp. wulfenii = plus grande, 1 à 1,5 m, feuilles bleu-vert plus grandes, grosses inflorescences jaune-vert à glandes pourpre foncé du début du printemps au début de l'été (NC State ; RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune, vert
+Black Pearl = compact, feuillage gris-vert, bractées vert-jaune à glandes noires (NC State) ; Fleurs : jaune, vert
+Tasmanian Tiger = compact et arrondi, environ 90 cm, feuillage panaché, bractées jaune pâle et crème à cœur vert (NC State) ; Fleurs : jaune, blanc
+Silver Swan = jusqu'à 60 cm, feuillage gris-vert bordé d'argent qui rougit à l'automne, bractées crème (NC State) ; Fleurs : blanc
+Portuguese Velvet = 60 à 90 cm, feuillage gris-bleu velouté, bractées bronze doré (NC State) ; Fleurs : jaune"
+P137,Aralia du Japon,"Fatsia, Japanese aralia",,Fatsia,japonica,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 5 m ; Fleurs : crème
+Spider's Web = feuilles fortement mouchetées de blanc près des bords, nervures pâles ; la panachure peut mettre quelques années à apparaître (NC State ; Clemson Extension)
+Variegata = panachure blanche ou jaune à l'extrémité des lobes, qui brunit au soleil (NC State ; Clemson Extension)
+Murakumo-nishiki = feuilles marbrées de jaune d'or à bordure vert foncé irrégulière, vendu aussi comme 'Camouflage' (NC State)
+Annelise = grandes taches jaune d'or et vert citron (Clemson Extension)"
+P138,Callitriche des marais,"Étoile d'eau, Callitriche, Water starwort",,Callitriche,palustris,
+P139,Élodée du Canada,"Peste d'eau, Elodea, Canadian waterweed",,Elodea,canadensis,
+P140,Pesse d'eau,"Hippuris, Queue de cheval d'eau, Mare's tail",,Hippuris,vulgaris,
+P141,Hottonie des marais,"Violette d'eau, Plume d'eau, Water violet",,Hottonia,palustris,
+P142,Myriophylle verticillé,"Millefeuille d'eau, Whorled water-milfoil",,Myriophyllum,verticillatum,
+P143,Potamot crépu,Curled pondweed,,Potamogeton,crispus,
+P144,Renoncule aquatique,"Grenouillette, Water crowfoot",,Ranunculus,aquatilis,
+P145,Petite lentille d'eau,"Lentille d'eau, Common duckweed",,Lemna,minor,
+P146,Hydrocharis,"Morène, Petit nénuphar, Frogbit",,Hydrocharis,morsus-ranae,
+P147,Stratiote faux-aloès,"Aloès d'eau, Ananas d'eau, Water soldier",,Stratiotes,aloides,
+P148,Châtaigne d'eau,"Macre nageante, Mâcre, Water chestnut",,Trapa,natans,
+P149,Azolla,"Fougère d'eau, Azolla de Caroline, Mosquito fern",,Azolla,caroliniana,
+P150,Jacinthe d'eau,Water hyacinth,Eichhornia crassipes,Pontederia,crassipes,
+P151,Laitue d'eau,"Pistia, Water lettuce",,Pistia,stratiotes,
+P152,Salvinie nageante,"Salvinia, Floating fern",,Salvinia,natans,
+P153,Aponogeton,"Vanille d'eau, Aponogéton à deux épis, Water hawthorn",,Aponogeton,distachyos,
+P154,Lotus jaune,"Lotus d'Amérique, American lotus",,Nelumbo,lutea,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 1,8 m ; Fleurs : jaune, crème
+Flavescens = forme à fleurs jaune soufre (notes de cours ; nom à vérifier en pépinière) ; Rusticité : non documentée ; Fleurs : jaune"
+P155,Lotus sacré,"Lotus des Indes, Sacred lotus",,Nelumbo,nucifera,"Espèce type = fleurs roses simples de 20 à 30 cm, chacune dure 3 jours ; plante de 0,9 à 1,8 m (NC State) ; Rusticité : -34 °C si le rhizome reste sous la glace (NC State, zones 4a à 10b) ; Fleurs : rose
+Alba Grandiflora = très grandes fleurs blanches très parfumées, jusqu'à 25 cm ; plante jusqu'à 1,8 m, floraison moyenne ; Rusticité : -34 °C, comme l'espèce ; Fleurs : blanc
+Alba Striatum = pétales blancs bordés d'un fin filet carmin, environ 25 cm ; 1,2 à 1,5 m, vigueur modérée, floraison parfois irrégulière ; Rusticité : -34 °C, comme l'espèce ; Fleurs : blanc, rouge
+Roseum Plenum = fleurs très doubles (jusqu'à 75 pétales) de 25 à 33 cm, rose clair selon tes notes, rose soutenu selon Horticulture ; vigoureux et fiable, jusqu'à 1,8 m ; Rusticité : -34 °C, comme l'espèce ; Fleurs : rose
+Mrs. Perry D. Slocum = fleurs doubles roses qui virent au jaune crème en trois jours, 23 à 30 cm ; 1,2 à 1,5 m (Horticulture) ; Rusticité : -29 °C (zone 5, Chicago Botanic Garden) ; Fleurs : rose, jaune
+Kermesina = grandes fleurs doubles rouges ; Rusticité : non documentée pour cette variété (probablement comme l'espèce) ; Fleurs : rouge
+Osiris = fleurs rose vif ; Rusticité : non documentée pour cette variété (probablement comme l'espèce) ; Fleurs : rose
+Lotus bol = formes naines d'environ 45 cm pour petits bacs, comme Chawan Basu (fleurs blanches bordées de rose) ; Rusticité : 0 °C en pot : un petit volume d'eau gèle vite, rentrer le pot hors gel (Horticulture) ; Fleurs : blanc, rose"
+P156,Nymphéa nain,"Nénuphar pygmée, Pygmy waterlily",,Nymphaea,tetragona,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 0,1 m ; Fleurs : blanc
+Pygmaea Alba = forme naine à fleurs blanches, rattachée à Nymphaea tetragona ; fleurs de 10 cm maximum, feuillage à 30 cm (notes de cours) ; vendue sous le nom Nymphaea pygmaea Alba, fleurs d'environ 2 cm, 15 à 22 cm d'eau (Waterside Nursery). Les hybrides nains colorés sont sur la fiche P293."
+P157,Nénuphar jaune,"Jaunet d'eau, Yellow pond-lily",,Nuphar,lutea,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 0,2 m ; Fleurs : jaune
+Nuphar pumila (espèce voisine) = petites feuilles découpées, adaptée aux petits bassins, prospère dans 30 cm d'eau (notes de cours)"
+P158,Nymphéa hybride rustique,"Nénuphar rustique, Nymphéa rustique, Hardy waterlily",,Nymphaea,Hybrides rustiques,"Marliacea Albida = fleurs doubles blanches parfumées à cœur jaune ; très florifère et vigoureux, idéal en bassin moyen, 1 à 1,5 m ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Comanche = fleurs parfumées abricot-jaune qui virent au rouge cuivré ; supporte la mi-ombre selon tes notes ; 1 à 1,5 m ; Rusticité : -15 °C (RHS H5) ; Fleurs : orange, rouge
+Marliacea Chromatella = fleurs jaune clair d'environ 15 cm, feuilles marbrées de pourpre ; supporte la mi-ombre selon tes notes ; 1 à 1,5 m ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune
+Hermine = fleurs blanches étoilées jusqu'à 15 cm, légèrement parfumées ; supporte la mi-ombre selon tes notes ; 0,5 à 1 m, pour petit bassin ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Somptuosa = fleurs parfumées rose tendre, plus foncées au centre, environ 12 cm ; faible vigueur selon tes notes ; 20 à 60 cm d'eau selon Latour-Marliac ; Rusticité : rustique, sans valeur précise (Latour-Marliac) ; Fleurs : rose
+Odorata Sulphurea = grandes fleurs jaune soufre très parfumées ; pour bassin moyen, 1 à 1,5 m ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune"
+P159,Faux nénuphar,"Limnanthème, Nymphoïde pelté, Fringed water lily",,Nymphoides,peltata,
+P160,Potamot nageant,Broad-leaved pondweed,,Potamogeton,natans,
+P161,Acore odorant,"Roseau aromatique, Jonc odorant, Sweet flag",,Acorus,calamus,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 0,75 m ; Fleurs : vert
+Variegatus = nom correct Argenteostriatus pour la RHS ; feuilles en épée aromatiques rayées en long de blanc crème, 0,5 à 1 m (RHS) ; jusqu'à 0,6 à 1,2 m, feuilles parfois de plus de 75 cm (NC State) ; Rusticité : -20 °C (RHS H7)
+Aureovariegatus = forme à feuilles rayées de jaune ; les formes panachées ont des rayures blanc crème à jaunes selon NC State, sans fiche propre à ce cultivar"
+P162,Acore graminée,"Acore du Japon, Japanese sweet flag",,Acorus,gramineus,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,3 m
+Ogon = nain, touffe en éventail de feuilles jaunes, environ 30 cm (NC State)
+Variegatus = feuilles rayées de blanc et de vert (NC State)
+Minimus Aureus = nain, feuilles jaunes en éventail (NC State)
+Oborozuki = touffes de feuilles fines rayées de jaune (NC State)"
+P163,Plantain d'eau,"Flûteau, Alisma, Water plantain",,Alisma,plantago-aquatica,
+P164,Jonc fleuri,"Butome en ombelle, Flowering rush",,Butomus,umbellatus,
+P165,Populage des marais,"Souci d'eau, Marsh marigold",,Caltha,palustris,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 0,6 m ; Fleurs : jaune, blanc
+Alba = var. alba ; fleurs simples en coupe blanc crème à étamines jaunes au début du printemps, touffe d'environ 25 cm ; feuilles brillantes en rein (RHS) ; assez discrète et pas toujours florifère (notes de cours) ; Rusticité : -20 °C (RHS H7) ; Fleurs : blanc
+Flore Pleno = grappes durables de fleurs très doubles jaune vif au printemps, 10 à 50 cm ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H7) ; Fleurs : jaune"
+P166,Laîche raide dorée,"Carex elata 'Aurea', Laîche dorée, Bowles' golden sedge",,Carex,elata,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 0,8 m ; Fleurs : brun
+Aurea = la forme décrite ici, dite laîche de Bowles ; touffe compacte de feuilles étroites jaune vif, dressées ou arquées ; petits épis noirâtres au début de l'été ; 0,5 à 1 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H6)"
+P167,Laîche palmier,"Carex palmier, Palm sedge",,Carex,muskingumensis,"Espèce type = l'espèce elle-même, sans sélection : graminée caduque jusqu'à 0,8 m
+Oehme = cultivar cité par NC State (description non disponible)
+Ice fountain = vendu sous le nom 'Ice Fountains' : bande claire au centre de chaque feuille, bien visible au printemps puis qui s'efface avec la chaleur de l'été ; environ 60 cm ; mi-ombre à ombre, sol humide (Plant Delights Nursery) ; Rusticité : -40 °C (zone 3a, Plant Delights Nursery)"
+P168,Laîche du Japon,"Carex de Morrow, Japanese sedge",,Carex,morrowii,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 0,45 m ; Fleurs : vert
+Everglow = touffe persistante d'environ 60 cm, feuilles fines vert foncé bordées d'orange de l'été au début de l'automne, bronze en hiver, crème au printemps (RHS ; NC State) ; Rusticité : -20 °C (RHS H7)
+Fishers Form = bordure blanc crème, port très dressé (NC State)
+Gold Band = vert foncé bordé de crème ou d'or pâle (NC State)
+Ice Dance = bordure blanc crème (NC State)
+Silk Tassel = feuillage très fin comme des fils, à marges blanches spectaculaires (NC State)
+Variegata = bande centrale blanche, marges vertes (NC State)"
+P169,Laîche pendante,Pendulous sedge,,Carex,pendula,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 1,5 m ; Fleurs : brun, vert
+Moonraker = feuillage panaché (RHS)
+Cool Jazz = feuillage panaché (RHS)"
+P170,Laîche des rives,"Grande laîche des marais, Greater pond sedge",,Carex,riparia,"Espèce type = l'espèce elle-même, sans sélection : graminée caduque jusqu'à 1,5 m ; Fleurs : brun
+Variegata = feuillage panaché, environ 50 cm (notes de cours)"
+P171,Souchet long,"Souchet odorant, Galingale",,Cyperus,longus,
+P172,Glycérie aquatique,"Glycérie géante, Reed sweet-grass",,Glyceria,maxima,"Espèce type = l'espèce elle-même, sans sélection : graminée caduque jusqu'à 1,2 m ; Fleurs : vert, violet
+Variegata = forme panachée, la plus connue (notes de cours)"
+P173,Gunnera,"Rhubarbe géante, Rhubarbe du Brésil, Giant rhubarb",,Gunnera,manicata,
+P174,Iris lisse,"Iris des marais du Japon, Japanese water iris",,Iris,laevigata,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 0,7 m
+Variegata = feuillage panaché (RHS)"
+P175,Iris des marais,"Iris faux-acore, Iris jaune, Yellow flag",,Iris,pseudacorus,
+P176,Iris de Sibérie,Siberian iris,,Iris,sibirica,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1 m
+Autres variétés = Blue Moon, Butter and Sugar, Caesar's Brother, Perry's Blue, Ruffled Velvet, White Swirl (citées par NC State ; descriptions à compléter)"
+P177,Lysichiton jaune,"Faux arum jaune, Chou puant, Yellow skunk cabbage",,Lysichiton,americanus,
+P178,Lysichiton blanc,"Faux arum blanc, White skunk cabbage",,Lysichiton,camtschatcensis,
+P179,Menthe aquatique,"Menthe d'eau, Water mint",,Mentha,aquatica,
+P180,Trèfle d'eau,"Ményanthe, Bogbean",,Menyanthes,trifoliata,
+P181,Myosotis des marais,Water forget-me-not,Myosotis palustris,Myosotis,scorpioides,
+P182,Orontium,"Massue d'or, Golden club",,Orontium,aquaticum,
+P183,Roseau commun,"Phragmite, Roseau à balais, Common reed",,Phragmites,australis,"Espèce type = l'espèce elle-même, sans sélection : graminée caduque jusqu'à 4 m ; Fleurs : violet, brun
+Variegatus = tiges, feuilles et épis striés de jaune et de vert clair (notes de cours)"
+P184,Pontédérie,"Pontédérie à feuilles en cœur, Pickerelweed",,Pontederia,cordata,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 1 m
+Alba = fleurs blanches (NC State)"
+P185,Sagittaire du Japon,Chinese arrowhead,Sagittaria japonica,Sagittaria,trifolia,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 1 m ; Fleurs : blanc
+Sinensis = nom donné au Japon au kuwai blanc (shiro kuwai), surtout cultivé en Chine : tubercules ronds d'environ 28 g, chair ferme et croquante, goût léger un peu amer (Wikipédia, Kuwai)
+Edulis leaves = feuillage des formes cultivées pour leurs tubercules comestibles (kuwai) ; le kuwai japonais courant, bleu-violet et oblong d'environ 6 g, est rangé sous le cultivar 'Caerulea' (Wikipédia, Kuwai)"
+P186,Thalia,"Thalia blanchâtre, Canna d'eau, Powdery alligator-flag",,Thalia,dealbata,
+P187,Massette à larges feuilles,"Quenouille, Roseau des étangs, Bulrush, Cattail",,Typha,latifolia,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 2,5 m ; Fleurs : brun
+Variegata = feuillage finement strié de blanc, magnifique ; vigueur très réduite, convient aux bassins plus petits (notes de cours)"
+P188,Astilbe de Chine,Chinese astilbe,,Astilbe,chinensis,"Espèce type = l'espèce sauvage : 50 à 100 cm, pétales lilas à pourpres, juin à septembre (Flora of China) ; en culture, plumets rose pâle ou blancs, environ 60 cm (RHS) ; Rusticité : -20 °C (RHS H7) ; Fleurs : Rose pâle, Blanc, Lilas
+Pumila = var. pumila, naine, environ 25 cm (RHS), 20 à 30 cm (Morton Arboretum) ; épis denses rose mauve en fin d'été ; feuilles vert foncé très découpées souvent teintées de rouge ; distinguée par l'AGM de la RHS (RHS) ; s'étend plus vite que les autres astilbes, bon couvre-sol pour l'ombre humide (Morton Arboretum) ; assez tolérante à la sécheresse (Chicago Botanic Garden) ; Rusticité : -20 °C (RHS H7) ; Fleurs : Mauve, Rose ; Feuilles : Vert foncé
+Visions = compacte et dense, 35 à 40 cm selon le Chicago Botanic Garden, 45 à 60 cm selon le Morton Arboretum ; plumets rose framboise (Chicago Botanic Garden), rose foncé (Morton Arboretum) ; feuillage vert bronzé ; assez tolérante à la sécheresse, bonne fleur coupée (Chicago Botanic Garden) ; Fleurs : Fuchsia, Rose ; Feuilles : Bronze
+Davidii = var. davidii, rattachée à l'espèce par Flora of China ; l'une des plus grandes astilbes, 1,5 à 2 m (RHS), jusqu'à 1,5 m (Chicago Botanic Garden) ; épis dressés et fins rose pourpré en fin d'été, plus tardifs que les astilbes d'Arends ; feuilles vert foncé teintées de bronze ; ne supporte pas la sécheresse et brûle au soleil chaud (RHS ; Chicago Botanic Garden) ; Rusticité : -20 °C (RHS H7) ; Fleurs : Mauve, Rose ; Feuilles : Vert foncé, Bronze
+Superba = var. taquetii 'Superba', vigoureuse, 1 à 1,5 m ; épis étroits et denses jusqu'à 50 cm, rose mauve, en fin d'été ; feuilles vert foncé brillant ; distinguée par l'AGM de la RHS (RHS) ; magenta pourpre, tiges plus velues que les autres (Morton Arboretum) ; Rusticité : -20 °C (RHS H7) ; Fleurs : Mauve, Magenta
+Purpurkerze = Purple Candles, 60 à 120 cm ; épis étroits et dressés rouge pourpre en août ; tiges vert bronzé (Morton Arboretum) ; Fleurs : Pourpre
+Maggie Daley = 60 à 90 cm ; fleurs lavande-pourpre, plus tardives que les autres astilbes ; feuillage bronze brillant au printemps puis vert foncé (Morton Arboretum) ; Fleurs : Lavande ; Feuilles : Bronze
+Vision in Pink = issue de Superba × Kremhilde, obtenue aux Pays-Bas en 1997 ; environ 29 cm ; fleurs rose bleuté clair, floraison courte en milieu de saison (Agence canadienne d'inspection des aliments) ; 30 à 45 cm (Morton Arboretum) ; Fleurs : Rose pâle
+Vision in Red = issue de Purpurkerze × Pumila, obtenue aux Pays-Bas en 1994 ; très compacte, environ 21 cm ; malgré son nom, fleurs violet foncé ; pétioles très colorés de rouge (Agence canadienne d'inspection des aliments) ; Fleurs : Pourpre"
+P189,Astilboides,Shieldleaf rodgersia,Rodgersia tabularis,Astilboides,tabularis,
+P190,Actée à grappes,Black cohosh,Cimicifuga racemosa,Actaea,racemosa,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 2 m ; Fleurs : blanc, crème
+Atropurpurea = feuilles et tiges bordeaux (NC State)"
+P191,Actée simple,"Cierge d'argent, Bugbane",Cimicifuga simplex,Actaea,simplex,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1,5 m ; Fleurs : blanc, crème
+Brunette = tiges pourpres, feuillage brun pourpre, fleurs blanc cassé teintées de pourpre en bouton (RHS)"
+P192,Euphorbe des marais,Marsh spurge,,Euphorbia,palustris,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1 m ; Fleurs : jaune, vert
+Autres variétés = Walenburg's Glorie, Zauberflöte (répertoriées par la RHS ; descriptions à compléter)"
+P193,Reine-des-prés rouge,"Filipendule rouge, Queen of the prairie",,Filipendula,rubra,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 2,4 m ; Fleurs : rose
+Venusta (Magnifica) = fleurs roses ; forme décrite dans tes notes et par Horticopia"
+P194,Osmonde royale,"Fougère royale, Royal fern",,Osmunda,regalis,
+P195,Miscanthus,"Roseau de Chine, Eulalie, Chinese silver grass",Miscanthus transmorrisonensis,Miscanthus,sinensis,"Espèce type = l'espèce elle-même, sans sélection : graminée marcescente jusqu'à 2,5 m
+Gracillimus = feuilles plus étroites que l'espèce, port dressé, 1,5 à 2,4 m, floraison en octobre (UF/IFAS)
+Morning Light = compact, 1 à 1,5 m, feuilles étroites finement bordées de blanc, panicules teintées de rose en automne ; prix du mérite (AGM) de la RHS (RHS) ; se propage de façon agressive selon l'UF/IFAS ; Rusticité : -20 °C (RHS H6) ; Fleurs : rose
+Zebrinus = feuillage rayé de bandes jaunes horizontales, port très étalé, jusqu'à 2,1 m (UF/IFAS)
+Variegatus = feuilles bordées de blanc, tient assez bien à mi-ombre, jusqu'à 2,1 m (UF/IFAS)
+Silberfeder = environ 2,4 m sur 1,2 à 1,8 m, port large et arqué ; feuilles à nervure centrale argentée ; plumeaux argentés teintés de rose de la fin de l'été, bons pour bouquets secs ; réputé stérile (NC State) ; Rusticité : -34 °C (NC State, zone 4a) ; Fleurs : blanc, rose
+Yaku Jima = compact, 0,9 à 1,2 m, feuilles très étroites retombantes, cuivrées à bordeaux en automne ; plumeaux beiges teintés de rouge d'août à septembre (NC State ; UF/IFAS) ; Rusticité : -29 °C (NC State, zone 5a) ; Fleurs : brun, rose
+Malepartus = cultivar répertorié par la RHS (description non consultée)
+Strictus = bandes jaunes horizontales, port dressé, 1,8 à 2,4 m (UF/IFAS)
+Purpurescens = feuillage rougeâtre en été, rouge-pourpre en automne, plumeaux rose argenté en août, 1,2 à 1,5 m (UF/IFAS) ; Fleurs : rose
+transmorrisonensis = ancienne espèce Miscanthus transmorrisonensis, aujourd'hui rattachée à Miscanthus sinensis (POWO)"
+P196,Hosta bleu,"Hosta de Siebold, Siebold's plantain lily",,Hosta,sieboldiana,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 0,8 m ; Fleurs : blanc
+Elegans = grosse touffe de grandes feuilles bleu-gris très gaufrées de 20 à 30 cm ; clochettes blanches teintées de lilas sur des tiges jusqu'à 75 cm ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -20 °C (RHS H7) ; Fleurs : blanc, violet
+Frances Williams = grandes feuilles en cœur gaufrées vert-gris largement bordées de jaune-vert, environ 30 cm ; fleurs lilas pâle sur des tiges jusqu'à 75 cm (RHS) ; Rusticité : -20 °C (RHS H7) ; Fleurs : violet"
+P197,Pétasite du Japon,"Fuki, Japanese butterbur",,Petasites,japonicus,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1,2 m ; Fleurs : blanc
+Giganteus = feuilles géantes, plante jusqu'à 2 m (theferns ; notes de cours)
+Variegatus = forme panachée (RHS)"
+P198,Acacia bleuâtre,"Mimosa bleuâtre, Acacia à feuilles de saule, Port Jackson willow, Golden wreath wattle",Acacia cyanophylla ; Mimosa saligna ; Racosperma salignum ; Acacia lindleyi ; Acacia bracteata,Acacia,saligna,
+P199,Marronnier d'Inde,"Marronnier commun, Horse chestnut",Hippocastanum vulgare ; Aesculus castanea ; Aesculus procera ; Pawia hippocastanum,Aesculus,hippocastanum,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 25 m ; Fleurs : blanc
+Baumannii = fleurs doubles blanches (RHS)
+Laciniata = feuilles très découpées (RHS, f. laciniata)
+Umbraculifera = forme répertoriée par la RHS ; description à compléter"
+P200,Ricinelle,"Acalypha, Plante cuivre, Copperleaf, Jacob's coat",Acalypha amentacea subsp. wilkesiana ; Acalypha godseffiana ; Acalypha tricolor ; Acalypha macafeeana ; Acalypha marginata,Acalypha,wilkesiana,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 3,5 m ; Fleurs : rouge
+Blackie = feuilles pourpre ébène profondément dentées (NC State)
+Bronze Pink = feuilles bronze cuivré piquetées de bordeaux et de rose vif (NC State)
+Margarita = feuilles grossières éclaboussées de couleurs vives (NC State)
+Tricolor = feuilles marbrées de vert, crème, rose, cuivre et rouge (NC State)
+Godseffiana = ancienne espèce rattachée à A. wilkesiana par POWO ; feuilles vertes bordées de crème
+Autres variétés = nombreux cultivars aux feuillages bronze, rouges, roses ou panachés (UF/IFAS)"
+P201,Agastache fenouil,"Hysope anisée, Agastache anisée, Anise hyssop",Agastache anethiodora ; Hyssopus foeniculum ; Lophanthus foeniculum ; Lophanthus anisatus ; Hyssopus anisatus,Agastache,foeniculum,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1,5 m ; Fleurs : violet, bleu
+Golden Jubilee = feuillage doré (NC State)
+Autres variétés = les hybrides avec l'Agastache rugueuse (Blue Fortune, Black Adder, Blue Boa…) sont dans la fiche Agastache hybride (P358)"
+P202,Agave d'Amérique,"Aloès d'Amérique, Maguey, Century plant",Agave altissima ; Agave communis ; Agave europaea ; Agave gracilispina ; Agave ingens,Agave,americana,"Espèce type = l'espèce elle-même, sans sélection : succulente persistante jusqu'à 1,8 m ; Fleurs : jaune
+Variegata = feuilles bordées de jaune (RHS)
+Striata = rosette de feuilles bleu-vert marquées de fines stries jaunes au centre, dents acérées et épine terminale ; 1,5 à 2,5 m, croissance lente ; à hiverner hors gel (RHS) ; Rusticité : 1 °C (RHS H2) ; Feuilles : bleu-vert, jaune
+Medio Picta = compacte et feuilles avec une bande centrale blanc-crème"
+P203,Agave à cou de cygne,"Agave queue de renard, Agave sans épines, Fox tail agave, Swan's neck agave",Agave cernua ; Agave glaucescens ; Ghiesbreghtia mollis,Agave,attenuata,
+P204,Sisal,"Agave sisal, Sisal hemp",Agave rigida var. sisalana ; Agave amaniensis ; Agave segurae,Agave,sisalana,
+P205,Arbre à soie,"Acacia de Constantinople, Albizia, Mimosa de Perse, Silk tree",Acacia julibrissin ; Mimosa julibrissin ; Feuilleea julibrissin ; Sericandra julibrissin,Albizia,julibrissin,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 8 m ; Fleurs : rose, blanc
+Rosea = étamines d'un rose plus soutenu que l'espèce, au parfum sucré et poudré, en juillet-août ; 6 m sur 4 m (souvent 2,5 à 3 m en climat frais), croissance rapide, cime étalée ; feuillage vert clair très découpé ; attire les pollinisateurs (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs) ; Fleurs : rose
+Shidare = port pleureur, rare ; environ 3,5 m sur 2,5 m en une douzaine d'années ; houppes roses soyeuses et parfumées d'environ 4 cm en août (juillet en climat doux), mellifères ; grandes feuilles vert clair de 15 à 40 cm qui retombent en cascade ; en grand pot à abriter l'hiver dans les régions très froides (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs) ; Fleurs : rose
+Summer Chocolate = variété au feuillage qui évolue du vert bronze au printemps pour devenir pourpre foncé (chocolat) en été. ; Fleurs : marron"
+P206,Rose trémière hérissée,"Rose trémière sauvage, Bristly hollyhock",Althaea setosa ; Alcea pontica ; Althaea aegyptica ; Althaea pontica,Alcea,setosa,
+P207,Aloès de Chabaud,"Chabaud's aloe, Dwala aloe",,Aloe,chabaudii,"Espèce type = var. chabaudii, la variété principale, classée « préoccupation mineure » sur la liste rouge (PlantZAfrica ; POWO) ; Fleurs : rouge, rose
+Mlanjeana = var. mlanjeana, du Malawi : feuilles vert vif à bords blancs, inflorescences plus courtes (PlantZAfrica ; POWO)
+Forme à fleurs jaunes ou orange = formes de couleur récoltées au Zimbabwe et au Malawi, sans rang botanique (PlantZAfrica) ; Fleurs : jaune, orange"
+P208,Aloès des dunes,"Aloès de côte, Dune aloe",Aloe fraskii,Aloe,thraskii,
+P209,Aloès vrai,"Aloe vera, Aloès des Barbades, Aloès de Curaçao, Barbados aloe",Aloe barbadensis ; Aloe perfoliata var. vera ; Aloe vulgaris ; Aloe indica ; Aloe flava,Aloe,vera,
+P210,Aloès grimpant,"Aloe ciliaris, Climbing aloe",Aloe ciliaris,Aloiampelos,ciliaris,"Espèce type = var. ciliaris (PlantZAfrica)
+Tidmarshii = var. tidmarshii, arbuste à plusieurs tiges de 1 à 1,5 m (PlantZAfrica)
+Redacta = var. redacta, citée par PlantZAfrica ; description à compléter"
+P211,Aloès arborescent,"Aloès géant, Tree aloe",Aloe barberae ; Aloe bainesii ; Aloe bainesii var. barberae ; Aloe zeyheri,Aloidendron,barberae,
+P212,Alstroemère dorée,"Lis des Incas, Alstroemeria, Peruvian lily",Alstroemeria aurantiaca ; Alstroemeria araucana ; Alstroemeria chiloensis ; Alstroemeria mutabilis ; Alstroemeria pulchella,Alstroemeria,aurea,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1 m ; Fleurs : orange, jaune
+Orange King = vigoureux, environ 1 m ; fleurs orange vif, les deux pétales supérieurs striés de brun rouge, en été (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : orange
+Lutea = vigoureux, environ 1 m, tiges ramifiées jusqu'à sept rameaux de 1 à 3 fleurs ; fleurs jaune vif, les deux pétales supérieurs striés de brun rouge, en été ; plante pour les pollinisateurs (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune
+Autres variétés = les hybrides de jardin comme India Snow et Inca Ice ont été déplacés dans la fiche Alstroemère hybride (P355)"
+P213,Alstroemère ligtu,"Lis des Incas, Ligtu, St Martin's flower",,Alstroemeria,ligtu,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1,2 m ; Fleurs : rose, orange
+Ligtu Hybrids = groupe d'hybrides aux fleurs rose pâle, corail et orange tachées de brun, de 1 à 1,5 m (RHS)
+Simsii = subsp. simsii, du Chili central (POWO) ; l'une des alstroemères les plus hautes et vigoureuses du Chili, 60 à 90 cm, fleurs orange marquées de taches, au milieu de l'été (Plant World Seeds, pépinière) ; Rusticité : -10 °C (RHS H4, cité par Plant World Seeds) ; Fleurs : orange
+Incarnata = subsp. incarnata, acceptée par POWO ; description à compléter"
+P214,Alternanthère calicot,"Plante calicot, Alternanthera, Calico plant",Telanthera bettzickiana ; Achyranthes bettzickiana ; Alternanthera amoena ; Alternanthera spathulata ; Alternanthera ficoidea var. bettzickiana,Alternanthera,bettzickiana,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,5 m ; Fleurs : blanc
+Red = feuillage d'un rouge intense et contrasté (observation de l'utilisateur) ; cultivar qui ressemble à certaines formes d'A. brasiliana (P215) (Wikipedia) ; Fleurs : blanc ; Feuilles : rouge
+Versicolor = feuilles panachées mêlant vert, blanc, rose et rouge (observation de l'utilisateur) ; feuilles arrondies, vertes, cuivrées ou rouges à nervures pourpres à roses (HortFlora, RBG Victoria, qui la range sous A. ficoidea) ; larges feuilles vertes marquées de jaune à nervures roses (Magnetic Island Plants, site d'amateur) ; Fleurs : blanc ; Feuilles : vert, blanc, rose, rouge
+Aurea = feuillage vert clair à jaune (observation de l'utilisateur) ; proche de 'Aurea Nana', à feuilles jaunes (HortFlora, RBG Victoria, sous A. ficoidea) ; Fleurs : blanc ; Feuilles : vert, jaune
+Red Xavier = feuillage panaché rouge foncé à rose (observation de l'utilisateur) ; cultivar cité par Wikipedia, sans description trouvée dans une source fiable ; Fleurs : blanc ; Feuilles : rouge, rose
+Green = plante naine de 10 à 15 cm, feuilles vert brillant lancéolées, à bord ondulé relevé et texture frisée ; parfois vendue pour l'aquarium mais ne tient que quelques semaines immergée (NParks) ; Synonymes : Green Hedge ; Fleurs : blanc ; Feuilles : vert"
+P215,Alternanthère du Brésil,"Joyweed pourpre, Purple Knight, Brazilian joyweed",Alternanthera dentata ; Gomphrena brasiliana ; Telanthera brasiliana ; Achyranthes brasiliana ; Telanthera dentata,Alternanthera,brasiliana,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,9 m ; Fleurs : blanc
+Purple Knight = port dressé et étalé, feuillage pourpre foncé intense en plein soleil (NC State)
+Brazilian Red Hots = feuilles panachées rouge-rose (NC State ; NParks)
+Little Ruby = compacte, environ un tiers de la taille de la forme courante, 30 à 40 cm sur 60 à 90 cm ; feuillage bordeaux à revers rouge rubis ; tient un peu mieux le froid que la forme courante (NC State ; NParks ; Ozbreed, obtenteur, sous le nom A. dentata) ; Synonymes : LRU30 ; Fleurs : blanc ; Feuilles : bordeaux, rouge
+Autres variétés = Snow Queen : voir Alternanthère ficoïde (P359)"
+P216,Anthurium,"Flamant rose, Langue de feu, Flamingo flower",Anthurium venustum ; Anthurium andraeanum var. atrosanguineum ; Anthurium andraeanum var. album ; Anthurium andraeanum var. roseum,Anthurium,andraeanum,
+P217,Aphélandra,"Plante zèbre, Zebra plant",Justicia macrophylla ; Aphelandra leopoldii ; Aphelandra louisae ; Ruellia comosa,Aphelandra,squarrosa,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1,8 m ; Fleurs : jaune
+Snowflake = Variété au feuillage vert blanchâtre ; Fleurs : blanc"
+P218,Désespoir des singes,"Araucaria du Chili, Pin du Chili, Monkey puzzle",Araucaria imbricata ; Araucaria chilensis ; Araucaria dombeyi ; Pinus araucana ; Columbea imbricata,Araucaria,araucana,
+P219,Arbousier,"Arbre aux fraises, Arbousier commun, Strawberry tree",Arbutus serratifolia ; Arbutus laurifolia ; Arbutus turbinata ; Arbutus intermedia,Arbutus,unedo,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 8 m ; Fleurs : blanc, rose
+Rubra = clochettes rose foncé de la fin de l'été à l'hiver ; environ 2,5 m sur 2 m (jusqu'à 3 m en pleine terre), croissance lente ; fruits ronds de 3 cm, jaunes puis rouges ; soleil à ombre légère en climat chaud (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs) ; Fleurs : rose
+Compacta = variété naine, environ 2,5 m sur 1,5 m, port buissonnant irrégulier, croissance lente ; clochettes blanches parfumées de miel, parfois rosées, de la fin de l'été à l'hiver ; fruits jaunes, orange puis rouges, mûrs un an après la floraison ; idéal en pot, sur terrasse ou balcon (Promesse de Fleurs, pépinière) ; Rusticité : -12 °C (texte) à -15 °C (fiche technique) (Promesse de Fleurs) ; Fleurs : blanc, rose
+Atlantic = arbuste compact à croissance lente, environ 2 m sur 1,5 m, branches tortueuses, écorce brun rougeâtre ; clochettes blanches parfumées de miel dès la fin août ; fruits ronds de 3 à 4 cm, jaune orangé puis rouges, de septembre à novembre, en même temps que les fleurs ; convient au pot ; prix du mérite (AGM) de la RHS (Promesse de Fleurs, pépinière ; RHS) ; Rusticité : -12 °C (Promesse de Fleurs : -10 à -15 °C selon la page, à l'abri des vents) ; Fleurs : blanc"
+P220,Grande capucine,"Capucine, Cresson d'Inde, Nasturtium",Tropaeolum elatum ; Tropaeolum hybridum ; Trophaeum majus ; Cardamindum majus ; Nasturtium indicum,Tropaeolum,majus,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 2,5 m
+Jewel of Africa = coureuse, feuilles panachées, fleurs simples orange, pêche, rouges et jaunes (University of Wisconsin ; RHS, groupe noté v) ; Fleurs : orange, rouge, jaune
+Kaleidoscope Mix = coureuse d'environ 40 cm, fleurs simples crème, orange, rouges, roses et jaunes (University of Wisconsin)
+Troika = grandes fleurs simples et feuillage panaché, tiges de 0,9 à 1,2 m ; crème, orange, rouge, velours ou jaune (University of Wisconsin)
+Vintage = grandes fleurs doubles cerise, ivoire, orange, rouges et bicolores ; environ 30 cm de haut sur 0,9 à 1,2 m (University of Wisconsin)
+Hermine Grashoff = fleurs doubles (RHS, noté d)
+Autres variétés = les capucines naines buissonnantes (Tip Top, Baby Rose, Alaska, Tom Thumb, Black Velvet, Peach Melba…) sont des hybrides de T. majus, T. minus et T. peltophorum (Wikipedia) : elles sont décrites dans la fiche Capucine hybride (P357)"
+P221,Bananier du Japon,"Bananier rustique, Japanese banana, Japanese fibre banana",Musa japonica,Musa,basjoo,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 5 m ; Fleurs : crème
+Rubra = cultivar répertorié par la RHS ; description à compléter
+Variegata = forme panachée (RHS, notée v)"
+P222,Bigaradier,"Oranger amer, Bigarade, Orange de Séville, Bitter orange",Citrus bigaradia ; Citrus myrtifolia ; Citrus × aurantium var. myrtifolia ; Aurantium × citrum,Citrus,× aurantium,"Seville = bigaradier de Séville (Sour Orange Group, RHS)
+Myrtifolia = bigaradier à feuilles de myrte, compact (RHS : var. myrtifolia ; port compact : estimation)"
+P223,Cyprès de Provence,"Cyprès d'Italie, Cyprès toujours vert, Cyprès méditerranéen, Italian cypress",Cupressus pyramidalis ; Cupressus fastigiata ; Cupressus stricta ; Cupressus horizontalis ; Cupressus elongata,Cupressus,sempervirens,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 15 m
+Stricta Group = forme en colonne étroite (RHS)
+Totem Pole = colonne très étroite, environ 12 m (10 à 14 m) sur 1 m, vert foncé, aromatique, ne porte jamais de cônes ; rapide les premières années (environ 6 m à 6 ans) ; sols calcaires, caillouteux ou pauvres, résiste à la sécheresse (Promesse de Fleurs, pépinière, sous le nom 'Totem') ; Synonymes : Totem ; Rusticité : -15 °C (Promesse de Fleurs) ; Feuilles : vert
+Swane's Gold = colonne étroite à feuillage doré : jaune vif au printemps, vert chartreuse en été, parfois bronze à orange en hiver froid ; environ 10 m sur 2 m à terme, 3 m sur 30 cm à 10 ans ; racine pivotante profonde, très résistant à la sécheresse et au vent ; feuillage abîmé dès -12 °C ; ne pas tailler (risque de chancre) (Promesse de Fleurs, pépinière) ; Rusticité : -12 °C (Promesse de Fleurs) ; Feuilles : jaune, vert"
+P224,Amandier,"Amandier commun, Almond",Prunus dulcis ; Amygdalus communis ; Amygdalus dulcis ; Prunus communis ; Amygdalus amara,Prunus,amygdalus,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 8 m ; Fleurs : rose, blanc
+Nonpareil = la variété de référence en Californie ; coque fine « papier », amande moyenne, production élevée et régulière ; autostérile, pollinisée par Carmel, Monterey, Butte, Padre, Fritz ou Aldrich (UC ANR)
+Carmel = fleurit juste après Nonpareil, dont elle est un bon pollinisateur ; grande amande allongée ; fruits très résistants aux vers (UC ANR)
+Monterey = très productive, grande amande allongée à peau foncée ; incompatible avec Carmel (UC ANR)
+Butte = floraison assez tardive, petites amandes mais rendement élevé (UC ANR)
+Fritz = fleurit avec Nonpareil, récolte tardive, rendements élevés et réguliers (UC ANR)
+Independence = autofertile, obtenue par Zaiger Genetics, diffusée depuis 2008 ; amandes plus grosses que Nonpareil, récolte un peu plus tardive (Farm Progress, d'après UC Cooperative Extension)
+Marcona = variété traditionnelle espagnole ; amande grande et ronde, très demandée pour le nougat et la pâtisserie (Junta de Andalucía) ; environ 60 % d'huile (Infoagro)
+Largueta = variété traditionnelle espagnole ; coque très dure, amande allongée et pointue ; floraison précoce, demande un pollinisateur (Junta de Andalucía) ; Synonymes : Desmayo Largueta
+Guara = Espagne (CITA d'Aragon, 1987), floraison vers le 5 mars ; coque dure, goût doux ; résiste à la sécheresse et à la chaleur (Junta de Andalucía ; Infoagro)
+Belona = Espagne (CITA d'Aragon, 2005) ; autofertile, floraison tardive ; amande en cœur, sucrée, facile à monder (Infoagro)
+Soleta = Espagne (CITA d'Aragon, 2005) ; autofertile, floraison tardive ; amande elliptique (Infoagro)
+Vairo = floraison tardive, autofertile (Junta de Andalucía)
+Ferragnès = France ; autostérile, productive, floraison mi-tardive (début mars) ; amande allongée (Chambre d'agriculture de Gironde)
+Ferraduel = France ; autostérile, floraison tardive ; amande plate et large (Chambre d'agriculture de Gironde)
+Lauranne = France ; autofertile, productive, floraison tardive ; amande allongée et claire (Chambre d'agriculture de Gironde)
+Mandaline = France ; autofertile, floraison tardive (mars) ; amande épaisse et petite (Chambre d'agriculture de Gironde)
+Aï = ancienne variété française pour la vente en circuit court (Chambre d'agriculture de Gironde)
+Macrocarpa = arbre caduc étalé de 4 à 8 m, feuilles lancéolées vert foncé jusqu'à 12 cm ; grandes fleurs en coupe rose très pâle à blanches au début du printemps, avant les feuilles ; fruits veloutés vert pâle à amandes comestibles (RHS) ; Rusticité : -15 °C (RHS H6, -15 à -20 °C) ; Fleurs : blanc, rose
+Autres variétés = Ingrid, Robijn, Pollardii, Spring Glow et le porte-greffe GF 677 : hybrides amandier × pêcher (Prunus × persicoides), voir P361 Amandier-pêcher."
+P225,Néflier du Japon,"Bibacier, Loquat, Nispero",Mespilus japonica ; Photinia japonica ; Crataegus bibas ; Rhaphiolepis loquata ; Pyrus bibas,Eriobotrya,japonica,"Espèce type = l'espèce elle-même, sans sélection : arbre persistant jusqu'à 8 m ; Fleurs : blanc
+Rose-Anne = sélectionnée en Europe continentale pour sa rusticité ; grandes feuilles persistantes gaufrées jusqu'à 30 cm, feutrées de brun dessous ; fleurs blanches très parfumées en grappes à l'automne, après un été chaud ; fruits orange tendre, savoureux, mûrs l'été suivant (Pan Global Plants, pépinière ; RHS) ; Fleurs : blanc"
+P226,Figuier,"Figuier commun, Common fig",,Ficus,carica,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 4 m
+Brown Turkey = bifère : deux récoltes, fin juillet puis à partir de septembre (de juillet à octobre) ; autofertile et parthénocarpique ; figues à peau brun rougeâtre et chair très sucrée ; environ 4 m sur 4 m (3 à 5 m) ; jeunes rameaux abîmés vers -15 à -17 °C, bourgeons à fruits vers -10 à -12 °C, repart de la souche jusqu'à -20 °C ; plein soleil abrité, accepte les sols pauvres, secs et calcaires ; les racines peuvent abîmer les murets (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs)
+Rouge de Bordeaux = autofertile et parthénocarpique (pas besoin de pollinisateur), unifère : une récolte d'août à octobre ; figues d'environ 4 cm à peau bleu presque noir et chair très sucrée et parfumée ; environ 2,5 m sur 3,5 m, convient au pot ; jeunes rameaux abîmés de -15 à -17 °C, bourgeons à fruits de -10 à -12 °C, repart de la souche jusqu'à -20 °C (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs)
+White Ischia = figues en forme de poire, peau verte à violacée selon les fruits ; probablement la même variété que Green Ischia (Hortus Camden, d'après la Pomona Britannica de 1812) ; listée par la RHS ; Synonymes : Green Ischia (probable)"
+P227,Mûrier noir,"Mûrier commun, Mûrier de Perse, Black mulberry",Morus atrata ; Morus cretica ; Morus laciniata ; Morus siciliana ; Morus petiolaris,Morus,nigra,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 12 m ; Fleurs : vert
+Chelsea = planté au Chelsea Physic Garden, selon la tradition par Jacques Ier (l'arbre d'origine a été abattu pendant la Seconde Guerre mondiale) ; autofertile et fructifie jeune (un mûrier de semis met une dizaine d'années) ; grosses mûres rouge foncé à noires, acidulées et sucrées, en août ; 8 à 12 m à terme, port bas et étalé ; prix du mérite (AGM) de la RHS (Ashridge Trees, pépinière ; RHS) ; Synonymes : King James ; Rusticité : -15 °C (RHS H6, -15 à -20 °C)
+Wellington = arbre moyen étalé, feuilles en cœur dentées vert clair brillant, jaunes à l'automne ; grosses mûres juteuses rouge foncé à noires, à la fin de l'été ; autofertile ; 8 à 12 m à terme (RHS) ; Rusticité : -15 °C (RHS H6, -15 à -20 °C)"
+P228,Arbre de Judée,"Gainier, Arbre d'amour, Judas tree",Cercis florida,Cercis,siliquastrum,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 12 m ; Fleurs : rose
+Albida = forme à fleurs blanches, même port que l'espèce : arbre étalé de 8 à 12 m, feuilles rondes jaunes à l'automne ; accepte les sols secs, plante recommandée pour les pollinisateurs (RHS) ; Synonymes : Alba ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Bodnant = petit arbre buissonnant caduc à grappes de fleurs pourpre foncé sur le vieux bois, gousses plates pourprées ; 8 à 12 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : violet
+White Swan = fleurs blanc pur du début au milieu du printemps ; port buissonnant en vase à tête plate, 3 à 4 m de haut et de large (Arundel Arboretum, pépinière) ; Fleurs : blanc"
+P229,Jacaranda,"Flamboyant bleu, Green ebony tree",Jacaranda ovalifolia ; Jacaranda chelonia,Jacaranda,mimosifolia,"Espèce type = l'espèce elle-même, sans sélection : arbre caduc jusqu'à 15 m ; Fleurs : violet, bleu
+Bonsai Blue = premier jacaranda nain, obtenu par Kiyoshi Sakai ; environ 75 cm de haut et de large, feuillage fin de fougère, caduc ; fleurit jeune, des années avant les jacarandas classiques ; fleurs bleu violet ; pour petits jardins, patios et potées (Plantipp, éditeur de la variété ; RHS) ; Synonymes : Sakai01 ; Fleurs : violet, bleu"
+P230,Myrte commun,"Myrte, Rihane, Common myrtle",,Myrtus,communis,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 4 m ; Fleurs : blanc
+Tarentina = myrte de Tarente, croissance lente, environ 1,7 m sur 1,2 m ; feuilles plus petites que l'espèce (moins de 1 cm), vert foncé brillant, très aromatiques ; fleurs blanches parfumées de juillet à septembre ; baies bleu noir, parfois blanches ; haies taillées, topiaires et pots (Promesse de Fleurs, pépinière ; POWO, RHS) ; Rusticité : -10 °C (Promesse de Fleurs, -9,5 à -12 °C) ; Fleurs : blanc
+Variegata = feuillage panaché (RHS, noté v)
+Compacta = forme naine dense, croissance lente, 0,3 à 0,9 m ; petites feuilles parfumées ; fleurs blanches puis baies bleu noir ; haie basse dense, plein soleil, supporte la sécheresse (Oregon State University ; la RHS la range sous la subsp. tarentina) ; Rusticité : -7 °C (zone USDA 9, parfois 8, Oregon State University) ; Fleurs : blanc"
+P231,Lentisque,"Pistachier lentisque, Arbre au mastic, Mastic tree",Lentiscus vulgaris ; Pistacia gummifera ; Terebinthus lentiscus ; Lentiscus massiliensis,Pistacia,lentiscus,
+P232,Nerprun alaterne,"Alaterne, Italian buckthorn",,Rhamnus,alaternus,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 5 m ; Fleurs : jaune, vert
+Argenteovariegata = feuillage panaché de blanc (RHS, noté v)
+Angustifolia = var. angustifolia, répertoriée par la RHS ; description à compléter"
+P233,Buplèvre ligneux,"Oreille de lièvre arbustive, Shrubby hare's ear",,Bupleurum,fruticosum,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 2 m ; Fleurs : jaune
+Bronze-leaved = forme à feuillage bronze répertoriée par la RHS ; description à compléter"
+P234,Ciste cotonneux,"Ciste blanc, White-leaved rock rose",Cistus vulgaris var. albidus ; Cistus albereensis,Cistus,albidus,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1 m ; Fleurs : rose, violet
+Albus = f. albus, forme à fleurs blanches (RHS ; POWO)"
+P235,Ciste à feuilles de sauge,Sage-leaved rock rose,,Cistus,salviifolius,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,6 m ; Fleurs : blanc
+Prostratus = forme couchée d'environ 30 cm, un peu plus rustique que l'espèce (Temperate Plants Database) ; Fleurs : blanc
+May Snow = arbuste étalé à croissance rapide, environ 60 cm sur 80 cm ; très nombreuses fleurs blanches en coupe à étamines jaune vif, issues de boutons cramoisis, en été (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc"
+P236,Ciste ladanifère,"Ciste à gomme, Laudanum, Gum cistus",,Cistus,ladanifer,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 2,5 m ; Fleurs : blanc
+Mauritianus = subsp. mauritianus (POWO), du Maroc, d'Algérie et du sud de l'Espagne (province de Malaga) ; feuilles à court pétiole, sans la gomme collante de l'espèce ; serait issue d'une ancienne hybridation avec Cistus laurifolius (Wikipédia ; Trees and Shrubs Online)
+Sulcatus = subsp. sulcatus (POWO), du promontoire calcaire du cap Saint-Vincent (Algarve, Portugal) ; compacte, 1 à 1,5 m selon la RHS (45 à 60 cm selon Trees and Shrubs Online), feuilles collantes vert foncé à revers blanc ; grandes fleurs blanc satiné sans macule, jusqu'à 10 cm, en mai-juin ; moins rustique que l'espèce (RHS ; Trees and Shrubs Online) ; Synonymes : Palhinhae Group, Cistus palhinhae ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc"
+P237,Phlomis pourpre,"Sauge de Jérusalem pourpre, Purple Jerusalem sage",,Phlomis,purpurea,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1 m ; Fleurs : rose, violet
+Alba = fleurs blanches en verticilles de juillet à septembre, feuillage argenté ; environ 1 m, s'étale un peu (Cotswold Garden Flowers, pépinière, qui la note H7 : valeur très optimiste pour cette espèce méditerranéenne, non retenue) ; Fleurs : blanc ; Feuilles : gris argenté"
+P238,Jasmin jaune arbustif,"Jasmin d'été, Jasmin ligneux, Common yellow jasmine",Jasminum fruticans,Chrysojasminum,fruticans,
+P239,Rose de Damas,"Rosier de Damas, Damask rose",Rosa damascena,Rosa,× damascena,"Kazanlik = rose de Damas à parfum de Bulgarie, cultivée pour l'essence de rose : estimation
+Quatre Saisons = forme remontante (Rosa × damascena var. semperflorens) : estimation"
+P240,Plumbago du Cap,"Dentelaire du Cap, Cape leadwort",Plumbago capensis,Plumbago,auriculata,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 4 m ; Fleurs : bleu, blanc
+Alba = forme à fleurs blanc pur en longues grappes à la fin de l'été et en automne, feuilles vert clair ; 2,5 à 4 m ; prix du mérite (AGM) de la RHS (RHS) ; un peu moins vigoureuse que la forme bleue mais très florifère, fleurs qui semblent briller au crépuscule (PlantZAfrica) ; Rusticité : 1 °C (RHS H2) ; Fleurs : blanc
+Royal Cape = forme bleu plus foncé, très répandue en pépinière (PlantZAfrica) ; nom de vente de 'Monott' (RHS) ; Synonymes : Monott ; Fleurs : bleu"
+P241,Romarin d'Australie,"Westringia, Australian rosemary, Coastal rosemary",Westringia rosmariniformis,Westringia,fruticosa,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1,5 m ; Fleurs : blanc, bleu
+Grey Box = boule dense et arrondie d'environ 60 cm, feuillage fin gris-vert, petites fleurs blanches au printemps et en été ; alternative au buis pour bordures, haies basses, bacs et abords de piscine (The Plant Company) ; Fleurs : blanc
+Mundi = port bas en coussin légèrement étalé, feuillage fin gris-vert, petites fleurs blanches ; couvre-sol (The Plant Company) ; Fleurs : blanc
+Morning Light = port arrondi, feuillage gris-vert doux, floraison abondante (The Plant Company) ; Fleurs : blanc"
+P242,Jasmin officinal,"Jasmin blanc, Jasmin des poètes, Common jasmine",Jasminum viminale ; Jasminum vulgatius ; Jasminum affine ; Jasminum ochroleucum,Jasminum,officinale,"Espèce type = l'espèce elle-même, sans sélection : liane caduque jusqu'à 8 m ; Fleurs : blanc
+Argenteovariegatum = feuilles vert-gris bordées de crème, fleurs blanches très parfumées de 2 cm en été et début d'automne ; 2,5 à 4 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Fiona Sunrise = feuillage fortement teinté de jaune doré, fleurs blanches très parfumées ; vigoureux, 8 à 12 m ; AGM (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Affine = fleurs plus grandes, teintées de rose à l'extérieur"
+P243,Jasmin étoilé,"Faux jasmin, Rhynchosperme, Star jasmine, Confederate jasmine",Rhynchospermum jasminoides,Trachelospermum,jasminoides,"Espèce type = l'espèce elle-même, sans sélection : liane persistante jusqu'à 12 m ; Fleurs : blanc
+Variegatum = feuilles ovales brillantes bordées et tachées de crème, teintées de rouge en hiver ; fleurs blanches parfumées de 2,5 cm virant au crème ; 2,5 à 4 m ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc ; Feuilles : vert, crème, rouge
+Tricolor = croissance lente ; jeunes feuilles rose tendre et crème, puis vert foncé marbré de blanc, rouges en hiver ; fleurs blanches très parfumées en fin d'été ; 2,5 à 4 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc ; Feuilles : rose, crème, vert, rouge
+Star of Toscane = croissance lente et port compact, environ 3 m sur 1,5 m ; fleurs blanc crème à l'ouverture virant au jaune à cœur doré, 2 à 3 cm, très parfumées, en juin-juillet avec souvent une remontée en septembre ; feuillage qui rougit au froid et à la sécheresse (Promesse de Fleurs, pépinière) ; Synonymes : Star of Tuscany ; Rusticité : -12 °C en sol drainé (Promesse de Fleurs) ; Fleurs : crème, jaune ; Feuilles : vert, rouge"
+P244,Bougainvillier,"Bougainvillée, Great bougainvillea",Bougainvillea bracteata ; Tricycla spectabilis ; Bougainvillea brasiliensis ; Bougainvillea peruviana ; Bougainvillea speciosa,Bougainvillea,spectabilis,"Espèce type = l'espèce elle-même, sans sélection : liane persistante jusqu'à 10 m
+Vera Deep Purple = port compact et buissonnant, plus arbuste que grimpant, environ 60 cm sur 60 cm ; bractées pourpre foncé (fuchsia très sombre) autour de petites fleurs blanches, d'avril-mai à septembre-octobre ; tiges presque sans épines ; idéal en pot sur terrasse, à rentrer hors gel en climat froid (Promesse de Fleurs, pépinière) ; Rusticité : -1 °C (Promesse de Fleurs) ; Fleurs : violet
+Margaret Bacon = grimpant à tiges épineuses, feuilles ovales duveteuses vert clair ; bractées rose vif en grappes autour de petites fleurs blanches en été ; 4 à 8 m (environ 5 m) ; ne supporte pas le gel (RHS) ; Rusticité : 1 °C (RHS H2) ; Fleurs : rose"
+P245,Rosier de Banks,"Rose de Lady Banks, Banksian rose",Rosa inermis,Rosa,banksiae,"Espèce type = l'espèce elle-même, sans sélection : liane semi-persistante jusqu'à 12 m ; Fleurs : blanc, jaune
+Lutea = grappes de fleurs doubles jaune pâle légèrement parfumées, une seule floraison en fin de printemps ; sans épines, 8 à 12 m ; prix du mérite (AGM) de la RHS (RHS ; Trees and Shrubs Online) ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune
+Alba Plena = forme type de l'espèce, fleurs doubles blanches au parfum de violette (Trees and Shrubs Online) ; Fleurs : blanc
+Lutescens = fleurs simples jaunes parfumées (Trees and Shrubs Online) ; Fleurs : jaune
+Normalis = forme sauvage, fleurs simples blanches parfumées (Trees and Shrubs Online) ; Fleurs : blanc"
+P246,Vigne,"Vigne cultivée, Raisin, Grape vine",Cissus vinifera,Vitis,vinifera,"Espèce type = l'espèce elle-même, sans sélection : liane caduque jusqu'à 15 m ; Fleurs : vert
+Purpurea = vigne d'ornement vigoureuse d'environ 7 m, feuilles profondément lobées pourpre prune en été, pourpre foncé puis carmin à l'automne ; petits raisins pourpre foncé ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5)
+Muscat de Hambourg = raisin noir de table parfumé, plutôt sous serre en climat frais : estimation
+Chasselas = raisin blanc de table précoce : estimation"
+P247,Câprier,"Câprier épineux, Caper bush",Capparis vulgaris,Capparis,spinosa,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 0,9 m ; Fleurs : blanc, rose
+Inermis = forme sans épines, plus facile à récolter : estimation
+subsp. rupestris = sous-espèce des falaises et murs d'Europe du Sud et d'Afrique du Nord (Chedraoui et al. 2017)
+Mallorquina = cultivar espagnol (Chedraoui et al. 2017)
+Nocellara = cultivar italien (Chedraoui et al. 2017)
+Nummularia = Variété au feuillage persistant très singulier, formant un buisson étalé aux petites feuilles arrondies et charnues en forme de pièces de monnaie, magnifiquement mis en valeur par une floraison spectaculaire aux grandes fleurs blanc rosé dominées par un bouquet d'étamines violettes féeriques."
+P248,Chèvrefeuille des Baléares,"Chèvrefeuille entrelacé, Minorca honeysuckle",Caprifolium implexum ; Lonicera caprifolium subsp. implexa ; Lonicera balearica ; Lonicera adenocarpa,Lonicera,implexa,
+P249,Clématite cirrheuse,"Clématite d'hiver, Clématite à vrilles, Evergreen clematis",Atragene cirrhosa ; Cheiropsis cirrhosa ; Clematis balearica ; Atragene balearica,Clematis,cirrhosa,"Espèce type = l'espèce elle-même, sans sélection : liane persistante jusqu'à 4 m ; Fleurs : crème, jaune
+Freckles = var. purpurascens, fleurs crème très tachetées de rouge ; prix du mérite (AGM) de la RHS (RHS) ; Fleurs : blanc, rouge
+Jingle Bells = fleurs simples jaune pâle à blanc crème, sans taches, pétales retombants, en hiver et au début du printemps ; environ 3 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc, jaune
+Ourika Valley = fleurs simples pendantes d'environ 5 cm, jaune pâle teinté de vert, de la fin de l'hiver au début du printemps ; nom tiré de la vallée de l'Ourika, au Maroc ; 2,5 à 4 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune
+Lansdowne Gem = var. purpurascens, mutation de 'Freckles' : grandes clochettes rouge lie-de-vin jusqu'à 7 cm de la fin de l'automne au début du printemps, feuillage bronze en hiver ; environ 3,5 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : rouge"
+P250,Bignone rose,"Podranée, Liane de Port St John, Pink trumpet vine",Podranea brycei ; Tecoma ricasoliana ; Pandorea ricasoliana,Podranea,ricasoliana,
+P251,Lavande dentée,"Lavande anglaise (au Maroc), French lavender",Stoechas dentata,Lavandula,dentata,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 1 m ; Fleurs : violet, bleu
+var. candicans = arbuste étalé de 0,5 à 1 m, feuilles vert gris argenté finement lobées, épis courts mauve pâle en été, demi-rustique (RHS) ; Rusticité : -5 °C (RHS H3) ; Fleurs : violet ; Feuilles : gris
+Ploughman's Blue = var. dentata, cultivar répertorié par la RHS ; description à compléter
+Linda Ligon = feuillage panaché, répertorié par la RHS : estimation pour la description
+Silver Queen = feuillage argenté, répertorié par la RHS : estimation pour la description"
+P252,Lavande papillon,"Lavande à toupet, Lavande des îles d'Hyères, Spanish lavender",Stoechas officinarum,Lavandula,stoechas,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,6 m ; Fleurs : violet
+subsp. pedunculata = bractées plus longues sur de longs pédoncules : estimation
+White Sparkler = fleurs blanches, répertoriée par la RHS : estimation pour la description
+Violet Lace = obtenue en Australie par Steven Eggleton (série Lace), croisement de Kew Red × Pukehou ; port dressé et ouvert, environ 70 cm sur 70 cm ; épis rouge pourpre parfumés et longues bractées mauve violet ; floraison précoce, d'avril à août ; plein soleil, sol drainant (brevet américain PP18254) ; Rusticité : -12 °C (zone USDA 8, brevet) ; Fleurs : violet"
+P253,Liseron de Crète,"Liseron argenté, Liseron cnéorum, Silverbush",Convolvulus argenteus ; Sciadiara cneorum,Convolvulus,cneorum,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,6 m ; Fleurs : blanc
+Snow Angel = compact, 45 à 60 cm sur 60 à 90 cm, feuilles argent-blanc brillantes, fleurs blanches légèrement teintées de rose à l'ouverture, au printemps et en été (Native Sons Nursery) ; Rusticité : -4 °C (Native Sons Nursery) ; Fleurs : blanc, rose"
+P254,Germandrée tomenteuse,"Pouliot de montagne, Germandrée polium, Felty germander",Teucrium capitatum,Teucrium,polium,
+P255,Statice de Perez,"Lavande de mer, Limonium des Canaries, Sea lavender",Statice perezii,Limonium,perezii,
+P256,Acanthe à feuilles molles,"Acanthe molle, Branc-ursine, Bear's breeches",Acanthus lusitanicus ; Acanthus spinosissimus,Acanthus,mollis,"Espèce type = l'espèce elle-même, sans sélection : herbacée caduque jusqu'à 1,5 m ; Fleurs : blanc, violet
+Latifolius Group = feuilles plus larges, répertorié par la RHS : estimation pour la description
+Tasmanian Angel = trouvé dans un jardin de Tasmanie ; jeunes feuilles jaune pâle au printemps, puis marquées de blanc et vert foncé en été, lobes dentés non épineux, sensibles aux coups de soleil ; touffe de 60 à 80 cm, épis de 1 à 1,2 m de fleurs blanc crème à bractées rose nacré en juin-juillet (mai-juin en climat chaud) ; mi-ombre de préférence ; les semis spontanés perdent la panachure (Promesse de Fleurs, pépinière) ; Rusticité : -15 °C (Promesse de Fleurs ; sa fiche technique indique -18 °C) ; Fleurs : blanc, rose ; Feuilles : jaune, blanc, vert
+Hollard's Gold = jeunes feuilles jaune vert vif au printemps et en automne, vert pâle en été, lobes larges et ondulés moins découpés que l'espèce ; 1 à 1,5 m en fleur ; fleurs blanches à capuchon pourpre du milieu de l'été au début de l'automne (RHS ; Beth Chatto) ; Synonymes : Fielding Gold, New Zealand Gold ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc, violet ; Feuilles : jaune, vert
+Rue Ledan = grandes feuilles vert foncé brillantes très découpées ; environ 1,2 m sur 0,9 m, épis de 1,3 à 1,5 m de fleurs blanches à bractée vert pourpré, en juin-juillet ; jardins blancs, sols calcaires et secs (Promesse de Fleurs, pépinière) ; Synonymes : Jeff Albus ; Rusticité : -15 °C (Promesse de Fleurs) ; Fleurs : blanc ; Feuilles : vert"
+P257,Iris de Florence,"Iris blanc des cimetières, Iris albicans, Iris florentina, Cemetery iris",Iris albicans ; Iris × albicans ; Iris florentina var. albicans ; Iris × germanica subsp. albicans ; Iris madonna,Iris,florentina,"Espèce type = l'espèce elle-même, sans sélection : bulbe semi-persistant jusqu'à 0,9 m ; Fleurs : blanc
+Madonna = fleurs bleu violet pâle (HortFlora)"
+P258,Iris d'Algérie,"Iris d'hiver, Iris unguiculé, Algerian iris",Iris stylosa ; Siphonostylis unguicularis,Iris,unguicularis,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,3 m ; Fleurs : violet, bleu
+Walter Butt = fleurs lavande pâle très parfumées, fine strie orange sur les pétales inférieurs, de la fin de l'automne à l'hiver ; environ 30 cm (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : violet
+Mary Barnard = fleurs violet intense très parfumées en plein hiver ou au début du printemps ; prix du mérite (AGM) de la RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : violet
+Alba = fleurs blanches ; Fleurs : blanc
+Speciosa = fleurs bleu violet plus grandes ; Fleurs : bleu, violet"
+P259,Valériane rouge,"Centranthe rouge, Lilas d'Espagne, Barbe de Jupiter, Red valerian",Centranthus ruber ; Centranthus latifolius ; Centranthus marinus ; Centranthus maritimus ; Ocymastrum rubrum ; Valeriana alba,Valeriana,rubra,"Espèce type = l'espèce elle-même, sans sélection : herbacée semi-persistante jusqu'à 1 m
+Albus = vivace dressée à feuillage vert-gris, bouquets de petites fleurs blanches de la fin du printemps à l'été ; 0,5 à 1 m (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc
+Coccineus = var. coccineus, touffe à feuillage bleu-vert semi-persistant, fleurs rose-rouge en grappes denses du printemps à l'automne ; 0,5 à 1 m (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : rouge, rose
+Snowcloud = vivace de courte durée à base ligneuse, feuillage vert-gris, denses bouquets de petites fleurs blanches parfumées du début de l'été au début de l'automne ; 0,5 à 1 m (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : blanc"
+P260,Dietes à grandes fleurs,"Iris sauvage, Iris fée, Large wild iris, Fairy iris",,Dietes,grandiflora,
+P261,Sauge d'Afghanistan,"Pérovskia, Sauge russe, Russian sage",Perovskia atriplicifolia,Salvia,yangii,"Espèce type = l'espèce elle-même, sans sélection : arbuste caduc jusqu'à 1,5 m ; Fleurs : bleu, violet
+Blue Spire = sans doute hybride de Salvia yangii (ex-Perovskia atriplicifolia) et Perovskia abrotanoides, plus vigoureux que ses parents ; environ 1,2 m sur 0,8 m ; feuilles dentées gris argenté, très aromatiques ; épis bleu lavande de juin à septembre, jusqu'en octobre en climat méditerranéen ; sols pauvres, caillouteux ou calcaires, très résistant à la sécheresse, supporte le bord de mer (Promesse de Fleurs, pépinière) ; Rusticité : -18 °C (Promesse de Fleurs) ; Fleurs : bleu, violet ; Feuilles : gris
+Blue Steel = plus compacte et plus ramifiée que la forme sauvage, environ 90 cm sur 60 cm ; tiges dressées à section carrée ; feuilles dentées gris argenté, aromatiques (menthe, fruit) ; petites fleurs bleu lavande de juin-juillet à septembre-octobre ; sols pauvres, calcaires, caillouteux et très secs (Promesse de Fleurs, pépinière) ; Rusticité : -18 °C (Promesse de Fleurs) ; Fleurs : bleu, violet ; Feuilles : gris argenté
+Blue Jean Baby = compacte, 60 à 90 cm sur 90 cm, tiges solides qui ne versent pas ; épis bleu lavande à bleu violet parfumés, parmi les plus précoces, du milieu de l'été à l'automne ; calices pourpre fumé décoratifs à l'automne ; résiste à la chaleur et à la sécheresse (Monrovia, pépinière) ; Rusticité : -34 °C (zone USDA 4, Monrovia) ; Fleurs : bleu, violet ; Feuilles : gris
+Taiga = forme compacte, répertoriée par la RHS : estimation pour la description"
+P262,Alfa,"Sparte, Esparto, Halfa, Alfa grass",Stipa tenacissima ; Lasiagrostis tenacissima,Macrochloa,tenacissima,
+P263,Sparte,"Albardine, Faux alfa, Albardín, Esparto grass",Lygeum tenax ; Lygeum spathaceum,Lygeum,spartum,
+P264,Stipe géante,"Avoine dorée, Golden oats, Giant feather grass",Stipa gigantea ; Lasiagrostis gigantea ; Macrochloa gigantea,Celtica,gigantea,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 2,5 m ; Fleurs : jaune, violet
+Gold Fontaene = épis plus grands et plus dorés, Prix AGM de la RHS (Wikipédia)
+Goldilocks = forme un peu plus petite et plus compacte que l'espèce, pour les petits jardins (Beth Chatto, pépinière)
+Pixie = touffe dense persistante, 1 à 1,5 m en fleurs sur 0,5 à 1 m ; panicules dorées en été et à l'automne, jusqu'à 1,2 m (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : jaune"
+P265,Diss,"Herbe à liens, Ampélodesme, Dis grass",Ampelodesmos tenax ; Arundo ampelodesmos ; Arundo bicolor ; Arundo festucoides ; Arundo mauritanica ; Arundo tenax,Ampelodesmos,mauritanicus,
+P266,Brachypode rameux,"Brachypode retus, Baouque, Fenal, Mediterranean false brome",Bromus retusus ; Brachypodium caespitosum,Brachypodium,retusum,
+P267,Muhlenbergie capillaire,"Muhly rose, Herbe à cheveux roses, Pink muhly grass, Gulf muhly",Podosemum capillare ; Stipa capillaris ; Trichochloa capillaris ; Muhlenbergia trichodes,Muhlenbergia,capillaris,"Espèce type = l'espèce elle-même, sans sélection : graminée semi-persistante jusqu'à 1,2 m ; Fleurs : rose, violet
+White Cloud = port dressé et ouvert, fleurs blanches après les roses, résistante aux taches goudronneuses (NC State)
+Regal Mist = touffe en fontaine de 0,9 à 1,2 m de haut et de large, feuilles fines vert foncé persistantes ; nuage de panicules rose pourpré de la fin de l'été à l'automne ; soleil à mi-ombre, arrosage faible à moyen (Devil Mountain Nursery, pépinière ; RHS : Regal Mist est le nom commercial de 'Lenca') ; Synonymes : Lenca ; Rusticité : -23 °C (zone USDA 6, Devil Mountain Nursery) ; Fleurs : rose"
+P268,Avoine bleue,"Avoine toujours verte, Hélictotrichon, Blue oat grass",Avena sempervirens ; Avena candida ; Avenula sempervirens ; Arrhenatherum sempervirens ; Avenastrum sempervirens ; Heuffelia sempervirens ; Avena striata ; Trisetum striatum,Helictotrichon,sempervirens,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 1,4 m ; Fleurs : crème, jaune
+Saphirsprudel = feuillage bleu acier, plus bleu que l'espèce ; touffe d'environ 45 à 50 cm sur 30 cm ; épis beige à brun en été (Emerisa, pépinière) ; Synonymes : Sapphire ; Rusticité : -29 °C (zone USDA 5, Emerisa) ; Feuilles : bleu-vert
+Berlin Oxblood = cultivar répertorié par la RHS ; description à compléter"
+P269,Zoysia du Japon,"Gazon japonais, Gazon coréen, Japanese lawngrass, Zoysiagrass",Osterdamia japonica ; Zoysia koreana,Zoysia,japonica,"Espèce type = l'espèce elle-même, sans sélection : graminée caduque jusqu'à 0,15 m ; Fleurs : violet
+Empire = le plus courant en Floride, dense, sensible au large patch (UF/IFAS)
+El Toro = installation rapide, meilleure sécheresse et moins de feutre que Meyer (UF/IFAS)
+Palisades = feuilles dressées, excellente tolérance à la sécheresse, bonne résistance aux maladies (UF/IFAS)
+JaMur = texture moyenne, ombre modérée (UF/IFAS)
+Meyer = très rustique mais très lent à s'installer, déconseillé (UF/IFAS)"
+P270,Paspalum des plages,"Paspalum vaginé, Seashore paspalum",Digitaria vaginata ; Panicum vaginatum ; Paspalum boryanum,Paspalum,vaginatum,"Espèce type = l'espèce elle-même, sans sélection : graminée persistante jusqu'à 0,25 m ; Fleurs : vert
+Sea Isle 1 = cultivar breveté pour les golfs côtiers (USPTO)
+SFX-14 = sélectionné en Floride (Environmental Turf Solutions, brevet de 2002) pour les golfs (départs, fairways) et les pelouses ; texture fine en tonte rase, vert olive, dense, reste vert l'hiver ; supporte un arrosage salé jusqu'à 15 000 ppm et la submersion marine ; tolère une ombre moyenne à forte et les sols sableux ou détrempés (brevet américain PP13105) ; Feuilles : vert"
+P271,Serpolet,"Thym serpolet, Thym sauvage, Wild thyme, Breckland thyme",Origanum serpyllum ; Serpyllum vulgare ; Thymus campestris,Thymus,serpyllum,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,1 m ; Fleurs : rose, violet
+Pygmaeus = forme naine répertoriée par la RHS : estimation pour la description
+Winter Beauty = cultivar répertorié par la RHS ; description à compléter
+Splendens = cultivar répertorié par la RHS ; description à compléter
+var. arctica = thym sauvage d'Europe de l'Ouest (de l'Islande à l'Espagne), aujourd'hui rangé sous Thymus praecox subsp. arcticus ; tapis persistant d'environ 5 cm ; fleurs riches en nectar ; feuilles comestibles et aromatiques (Temperate Plants Database) ; Synonymes : Thymus praecox subsp. arcticus ; Rusticité : -15 °C (Temperate Plants Database)"
+P272,Frankénie lisse,"Bruyère marine, Sea heath",Frankenia ericifolia,Frankenia,laevis,
+P273,Achillée à feuilles de criste,"Achillée couvre-sol, Crithmum-leaved yarrow",Chamaemelum crithmifolium ; Achillea bulgarica ; Achillea leptophylla,Achillea,crithmifolia,
+P274,Liseron de Mauritanie,"Liseron bleu, Blue rock bindweed, Ground morning glory",Convolvulus mauritanicus ; Convolvulus sabatius subsp. mauritanicus,Convolvulus,sabatius,"Espèce type = l'espèce elle-même, sans sélection : herbacée semi-persistante jusqu'à 0,2 m ; Fleurs : bleu, violet
+Moroccan Beauty = port retombant vigoureux, 30 à 40 cm sur 50 à 60 cm ; fleurs en trompette bleu pâle d'environ 6 cm, de juin aux gelées ; idéal en suspension et en pot, supporte la sécheresse (Promesse de Fleurs, pépinière) ; Rusticité : -6 °C (Promesse de Fleurs, -6,5 °C) ; Fleurs : bleu
+subsp. atlanticus = sous-espèce répertoriée par la RHS ; description à compléter
+Blanc = forme à fleurs blanches répertoriée par la RHS"
+P275,Dichondra argenté,"Dichondra Silver Falls, Silver ponyfoot",,Dichondra,argentea,"Espèce type = l'espèce elle-même, sans sélection : herbacée persistante jusqu'à 0,05 m ; Fleurs : vert, crème
+Silver Falls = sélection la plus courante, longues tiges retombantes argentées (Oklahoma State University)"
+P276,Germandrée petit-chêne,"Petit chêne, Chênette, Wall germander",Teucrium veronicifolium,Teucrium,chamaedrys,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,4 m ; Fleurs : rose, violet
+f. albiflora = fleurs blanches, répertoriée par la RHS"
+P277,Narcisse papyracé,"Narcisse à bouquets blancs, Narcisse de Paris, Paper-white narcissus",Narcissus tazetta subsp. papyraceus,Narcissus,papyraceus,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,35 m ; Fleurs : blanc
+Ziva = narcisse à forcer : bulbes préparés qui fleurissent 5 à 6 semaines après la mise en pot ; environ 45 cm ; plusieurs fleurs blanc pur très parfumées par tige (Sarah Raven, pépinière) ; Fleurs : blanc
+de Malte = forme répertoriée par la RHS ; description à compléter"
+P278,Iris d'Espagne,"Iris xiphion, Iris bulbeux, Spanish iris",Xiphion xiphium ; Iris hispanica ; Iris lusitanica ; Iris taitii,Iris,xiphium,
+P279,Lys des sables,"Pancrais maritime, Lis de mer, Sea daffodil",Hymenocallis maritima ; Pancratium aegyptiacum,Pancratium,maritimum,
+P280,Ail rose,"Ail d'Italie, Rosy garlic",Molium roseum ; Nectaroscordum roseum,Allium,roseum,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,65 m ; Fleurs : rose, blanc
+subsp. bulbiferum = forme à bulbilles dans l'ombelle, très envahissante (Temperate Plants Database)"
+P281,Sternbergie jaune,"Amaryllis jaune, Crocus d'automne jaune, Winter daffodil",Amaryllis lutea ; Oporanthus luteus,Sternbergia,lutea,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,15 m ; Fleurs : jaune
+Angustifolia Group = fleurs jaune vif plus étoilées que l'espèce, en septembre-octobre ; feuilles plus longues et plus étroites, qui sortent après les fleurs ; environ 20 cm sur 15 cm ; plein soleil (Beth Chatto, pépinière) ; Fleurs : jaune
+var. graeca = répertoriée par la RHS ; description à compléter"
+P282,Nivéole d'été,"Perce-neige d'été, Summer snowflake, Loddon lily",Nivaria aestivalis ; Nivaria monadelphia,Leucojum,aestivum,"Espèce type = l'espèce elle-même, sans sélection : bulbe caduc jusqu'à 0,5 m ; Fleurs : blanc, vert
+Gravetye Giant = forme plus grande que l'espèce, jusqu'à 90 cm ; clochettes blanches pointées de vert en grappes sur des tiges arquées, en mars-avril ; prix du mérite (AGM) de la RHS ; sols frais et riches, berges, bords de bassin, prairies humides, pas les sols secs et sableux (Ashridge Trees, pépinière ; RHS) ; Fleurs : blanc"
+P283,Jonc des chaisiers,"Scirpe des lacs, Jonc des tonneliers, Common club-rush",Scirpus lacustris,Schoenoplectus,lacustris,"Espèce type = l'espèce elle-même, sans sélection : aquatique caduc jusqu'à 2,5 m ; Fleurs : brun, vert
+subsp. tabernaemontani 'Zebrinus' = tiges rayées en travers de crème et de vert, répertorié par la RHS
+subsp. tabernaemontani 'Albescens' = tiges panachées de blanc crème, répertorié par la RHS"
+P284,Jonc épars,"Jonc diffus, Jonc des jardiniers, Soft rush",Juncus communis ; Juncus laevis ; Agathryon effusum,Juncus,effusus,"Espèce type = l'espèce elle-même, sans sélection : aquatique persistant jusqu'à 1,2 m ; Fleurs : vert, brun
+f. spiralis = jonc spiralé : tiges vert clair enroulées en tire-bouchon, qui se détendent avec l'âge, jusqu'à 45 cm ; en pot, en intérieur ou en bordure de bassin sous 5 à 10 cm d'eau ; sol acide toujours humide (Wikipédia ; RHS) ; Rusticité : -20 °C (RHS H7)
+Cuckoo = tiges rayées de jaune, répertorié par la RHS : estimation pour la description
+Aureostriatus = cultivar répertorié par la RHS ; description à compléter"
+P285,Massette naine,"Petite massette, Typha nain, Dwarf reedmace, Miniature bulrush",Rohrbachia minima ; Typha angustissima ; Typha pallida,Typha,minima,
+P286,Véronique des ruisseaux,"Cresson de cheval, Beccabunga, Brooklime",Beccabunga vulgaris ; Veronica fontinalis,Veronica,beccabunga,
+P287,Arum d'Éthiopie,"Calla, Arum blanc, Richardie, Arum lily",Calla aethiopica ; Richardia africana,Zantedeschia,aethiopica,"Espèce type = l'espèce elle-même, sans sélection : aquatique semi-persistant jusqu'à 1 m ; Fleurs : blanc
+Crowborough = arum blanc à spadice jaune, 0,5 à 1 m ; réputé plus rustique dans le commerce, mais noté H4 comme l'espèce par la RHS ; prix du mérite (AGM) de la RHS ; aussi en bordure de bassin, jusqu'à 30 cm d'eau (RHS) ; Rusticité : -10 °C (RHS H4) ; Fleurs : blanc
+Green Goddess = spathes vertes et blanches (PlantZAfrica) ; interdit à la culture et à la vente en Nouvelle-Zélande (voir Danger) ; Fleurs : vert, blanc
+Marshmallow = spathe rose crème à gorge rose vif (PlantZAfrica) ; Fleurs : rose, crème
+Forme à feuilles tachetées = feuilles marquées de taches blanches (PlantZAfrica) ; Fleurs : blanc ; Feuilles : vert, blanc
+Flamingo = boutons roses, spathe rose dehors et blanc rosé dedans, gorge plus rose, spadice jaune pâle ; environ 80 cm sur 60 cm, fleurs de 8 cm, de juin à août ; à ombrer aux heures chaudes en climat chaud ; bord de bassin jusqu'à 20-30 cm d'eau, grands pots, fleur coupée (Promesse de Fleurs, pépinière, sous le nom Pink Flamingo) ; Synonymes : Pink Flamingo ; Rusticité : -9 °C (Promesse de Fleurs, -8 à -10 °C) ; Fleurs : rose, blanc"
+P288,Cornifle nageant,"Cornifle immergé, Hornwort, Rigid hornwort",Dichotophyllum demersum,Ceratophyllum,demersum,
+P289,Potamot pectiné,"Potamot à feuilles pectinées, Sago pondweed, Fennel-leaved pondweed",Potamogeton pectinatus,Stuckenia,pectinata,
+P290,Chara commune,"Characée commune, Algue de lustre, Common stonewort",,Chara,vulgaris,
+P291,Renoncule peltée,"Renoncule des étangs, Grenouillette, Pond water-crowfoot",Batrachium peltatum,Ranunculus,peltatus,
+P292,Nymphéa tropical,"Nénuphar tropical, Nymphéa exotique, Tropical waterlily",,Nymphaea,Hybrides tropicaux,"Blue Beauty = grandes fleurs bleu ciel étoilées, parfum épicé, très florifère ; pour tous bassins (NC State) ; Fleurs : bleu
+Director George T. Moore = fleurs violettes bien au-dessus de l'eau, très florifère ; bassin moyen à grand (NC State) ; Fleurs : violet
+Panama Pacific = fleurs pourpres, longue floraison ; du bac au grand bassin (NC State) ; Fleurs : violet
+Albert Greenberg = fleurs rose abricot de 15 à 20 cm, feuilles marbrées, s'étale sur 1,5 à 2,5 m (NC State) ; Fleurs : orange, rose
+St. Louis Gold = fleurs jaune moyen, supporte un peu d'ombre ; petit à grand bassin (NC State) ; Fleurs : jaune
+Colorata = fleurs lavande, fleurit jusqu'à 18 °C ; bac et petit bassin (NC State) ; Fleurs : violet
+Midnight = fleurs violet-bleu foncé, très florifère ; tous bassins (NC State) ; Fleurs : violet, bleu"
+P293,Nymphéa hybride nain,"Nénuphar nain, Nymphéa miniature, Dwarf waterlily, Pygmy waterlily",,Nymphaea,Hybrides nains,"Pygmaea Helvola = Nymphaea × helvola ; fleurs jaune soufre en coupe d'environ 5 cm, parfumées, étamines orange ; feuilles tachées de pourpre ; 0,1 à 0,5 m ; Prix du mérite RHS (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : jaune
+Pygmaea Rubra = fleurs rose foncé qui virent au rouge foncé en vieillissant, légèrement parfumées ; feuilles tachées de pourpre ; 0,1 à 0,5 m (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : rose, rouge
+Aurora = fleurs jaunes qui passent à l'orange puis au rouge en quelques jours ; feuilles marbrées de bordeaux ; 15 à 22 cm d'eau (Waterside Nursery) ; Fleurs : jaune, orange, rouge
+Perry's Baby Red = fleurs rouges arrondies ; feuilles vert foncé à bordeaux (Waterside Nursery) ; Fleurs : rouge
+Walter Pagels = petites fleurs blanc crème (Waterside Nursery) ; Fleurs : blanc"
+P294,Aglaonema rouge,"Aglaonema hybride, Aglaonema rose, Red aglaonema",,Aglaonema,Hybrides à feuillage rouge,"Siam Aurora = feuillage vert foncé panaché de vert clair, bords et nervure centrale rose rouge (informations de l'utilisateur)
+Red Valentine = feuillage surtout rose (informations de l'utilisateur)
+Ruby Crab = feuilles surtout roses, mouchetées de vert foncé sur tout le limbe (informations de l'utilisateur)"
+P295,Romarin,"Romarin officinal, Iazir, Rosemary",Rosmarinus officinalis,Salvia,rosmarinus,"Espèce type = port dressé (vendu sous le nom 'Officinalis') ; Fleurs : bleu, violet (NC State)
+Tuscan Blue = port dressé, tiges rougeâtres, croissance rapide ; Fleurs : bleu violet foncé (NC State)
+Arp = le plus rustique des cultivars cités, jusqu'à 1,2 m (NC State) ; Fleurs : bleu vif
+Salem = dressé, 0,6 à 0,9 m, parfum de pin ; Fleurs : bleu pâle (NC State)
+Severn Sea = port arqué, jusqu'à 0,9 m ; Fleurs : bleu vif (NC State)
+Miss Jessopp's Upright = port très dressé, le meilleur pour les haies (RHS Encyclopedia, via Temperate Plants Database)
+Corsican Blue = plus aromatique que l'espèce type (Genders, via Temperate Plants Database)
+Prostratus = rampant, jusqu'à 0,6 m, couvre-sol et retombée de muret ; la forme la moins rustique (RHS Encyclopedia) ; Fleurs : bleu lavande pâle (NC State)
+Irene = port couché et retombant (NC State)
+Albus = Fleurs : blanc (NC State)
+Majorca Pink = floraison clairsemée ; Fleurs : rose, lavande (NC State)"
+P296,Lavande vraie,"Lavande officinale, Lavande fine, Khzama, English lavender",Lavandula spica ; Lavandula vera ; Lavandula officinalis ; Lavandula vulgaris ; Lavandula fragrans ; Lavandula delphinensis ; Lavandula pyrenaica ; Lavandula minor,Lavandula,angustifolia,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,6 m
+Hidcote Blue = compacte, en dôme jusqu'à 50 cm, idéale en haie naine (NC State ; Genders) ; Fleurs : violet foncé
+Loddon Pink = haie naine de 30 à 50 cm (Genders, via Temperate Plants Database) ; Fleurs : rose
+Folgate Blue = haie naine de 30 à 50 cm (Genders, via Temperate Plants Database) ; Fleurs : bleu
+Munstead = arbuste compact jusqu'à 45 cm sur 0,5 à 1 m, feuillage gris-vert étroit et aromatique ; petits épis bleu-pourpre très parfumés du milieu à la fin de l'été (RHS) ; Rusticité : -15 °C (RHS H5) ; Fleurs : bleu, violet
+Phenomenal = en réalité un lavandin (Lavandula × intermedia) : floraison précoce, port touffu et compact (NC State)"
+P297,Lavandin,"Lavande hybride, Dutch lavender",Lavandula × aurigerana ; Lavandula × burnatii ; Lavandula × feraudii ; Lavandula × guillonii ; Lavandula × hortensis ; Lavandula × spica-latifolia,Lavandula,× intermedia,"Grosso = parfum le plus intense (NC State) ; épis bleu violet foncé, 0,5 à 1 m ; Rusticité : -15 °C (RHS H5)
+Hidcote Giant = épis violet vif (NC State)
+Impress Purple = épis violet foncé (NC State)
+Nico = Nico
+Phenomenal = floraison précoce, port touffu (NC State) ; Fleurs : violet bleu vif
+Provence = le mieux adapté aux climats chauds et humides (NC State) ; Fleurs : lavande clair
+Seal = épis violet bleu (NC State)
+Dutch = Dutch"
+P298,Thym commun,"Thym des jardins, Farigoule, Tomillo, Garden thyme",Origanum thymus ; Thymus collinus,Thymus,vulgaris,"Espèce type = l'espèce elle-même, sans sélection : arbuste persistant jusqu'à 0,3 m
+Argenteus = feuilles vertes bordées de blanc crème (NC State)
+Silver Posie = feuilles plus grandes bordées de blanc (NC State)
+Provencial = très petites feuilles gris-vert, arôme citronné fort (NC State) ; Fleurs : blanc
+Narrow Leaf French = feuilles fines et grises (NC State) ; Fleurs : blanc
+Broadleaf English = feuilles plus larges, parfum plus doux (NC State) ; Fleurs : blanc
+Orange Balsam = feuilles étroites au parfum d'orange (NC State) ; Fleurs : lavande
+Tabor = feuilles vert foncé, goût piquant (NC State) ; Fleurs : rose
+Gray Hill = feuilles grises étroites (NC State) ; Fleurs : lavande pâle"
+P299,Origan,"Origan commun, Marjolaine sauvage, Marjolaine vivace, Oregano",Origanum floridum ; Thymus origanum,Origanum,vulgare,"Espèce type = fleurs roses à pourpres (NC State)
+Aureum = feuillage jaune doré, ornemental (NC State)
+Hirtum = origan grec, la référence en cuisine (NC State ; POWO : subsp. hirtum)"
+P300,Marjolaine,"Marjolaine des jardins, Origan marjolaine, Merdedouch, Sweet marjoram",Majorana hortensis ; Amaracus majorana ; Thymus majorana ; Origanum dubium ; Origanum majoranoides,Origanum,majorana,"Espèce type = l'espèce elle-même, sans sélection : herbacée jusqu'à 0,6 m ; Fleurs : blanc, rose
+Compactum = forme compacte (NC State)"
