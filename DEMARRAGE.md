@@ -6,7 +6,7 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Seulement le dépôt `pickmyplant/scraper-pepiniere`, sur sa propre branche (Claude A : `claude/vibrant-keller-jibr76`).
 - Rien de secret ou de personnel dans les commits.
 - robots.txt respecté, une requête à la fois ; sur 403, 429, 503 ou captcha : arrêt et on prévient, sans contourner.
-- Écriture dans Offres : bouton Relevés > Importer un relevé, ou directement avec le connecteur (autorisé le 07/11/2026), puis une ligne dans l'onglet Relevés.
+- **Jamais d'écriture dans l'onglet Offres** (ni avec le connecteur) : l'utilisatrice importe elle-même avec Relevés > Importer un relevé (confirmé le 08/11/2026).
 - Questions à trancher : une ligne dans l'onglet Questions, sans décider seul.
 
 ## État
@@ -17,8 +17,6 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
 - Arborescence, décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
   une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.
-- 07/11/2026 : l'utilisatrice autorise aussi l'écriture directe dans Offres avec le connecteur Google Sheets
-  (ajout en bas + une ligne dans l'onglet Relevés de la BDD).
 
 ## Branche commune
 Chaque conversation travaille sur sa propre branche, mais publie sur `claude/vibrant-keller-jibr76` :
