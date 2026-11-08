@@ -10,7 +10,9 @@
  *  3. si la même pépinière a déjà des lignes pour ces plantes dans « Offres » (mise à jour),
  *     demande confirmation puis supprime ces anciennes lignes ;
  *  4. ajoute toutes les nouvelles lignes en un seul bloc en bas de « Offres » ;
- *  5. ajoute une ligne dans « Relevés ».
+ *  5. ajoute une ligne dans « Relevés » ;
+ *  6. ajoute une ligne « Terminé » dans l'onglet Réservations de la Sheet de coordination
+ *     (si l'écriture échoue, l'import reste fait et le message le signale).
  *
  * Le jeton GitHub (lecture seule, dépôt pickmyplant/scraper-pepiniere) est stocké dans les
  * propriétés du script via le menu « Relevés > Configurer le jeton GitHub ». Il n'est jamais écrit
@@ -21,6 +23,8 @@ var DEPOT = 'pickmyplant/scraper-pepiniere';
 var BRANCHE_PAR_DEFAUT = 'claude/vibrant-keller-jibr76';
 var ONGLET_OFFRES = 'Offres';
 var ONGLET_REGISTRE = 'Relevés';
+var COORDINATION_ID = '1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM';
+var ONGLET_RESERVATIONS = 'Réservations';
 var COLONNES = ['ID', 'Plante', 'Variété', 'Pépinière', 'Lien du produit', 'Prix', 'Devise', 'Contenant',
   'Disponibilité', 'Frais de port', 'Relevé le', 'Lien affilié', 'Statut', 'Notes', 'Nom latin',
   'Hauteur ou forme'];
@@ -45,14 +49,9 @@ function configurerJeton() {
 }
 
 function lireGithub_(chemin, branche) {
-  var jeton = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-  if (!jeton) throw new Error('Jeton GitHub absent : menu Relevés > Configurer le jeton GitHub.');
   var url = 'https://api.github.com/repos/' + DEPOT + '/contents/' + encodeURI(chemin) +
     '?ref=' + encodeURIComponent(branche);
-  var rep = UrlFetchApp.fetch(url, {
-    headers: {Authorization: 'Bearer ' + jeton, Accept: 'application/vnd.github.raw'},
-    muteHttpExceptions: true
-  });
+  var rep = UrlFetchApp.fetch(url, {headers: enTetes_(), muteHttpExceptions: true});
   if (rep.getResponseCode() !== 200) {
     throw new Error('GitHub ' + rep.getResponseCode() + ' pour ' + chemin + ' (branche ' + branche + ')');
   }
@@ -89,15 +88,94 @@ function plages_(numeros) {
   return res.reverse();
 }
 
+function enTetes_() {
+  var jeton = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!jeton) throw new Error('Jeton GitHub absent : menu Relevés > Configurer le jeton GitHub.');
+  return {Authorization: 'Bearer ' + jeton, Accept: 'application/vnd.github.raw'};
+}
+
+/** Toutes les branches du dépôt (chaque conversation Claude pousse sur la sienne). */
+function listerBranches_() {
+  var noms = [], page = 1;
+  while (page < 20) {
+    var rep = UrlFetchApp.fetch('https://api.github.com/repos/' + DEPOT + '/branches?per_page=100&page=' + page,
+      {headers: enTetes_(), muteHttpExceptions: true});
+    if (rep.getResponseCode() !== 200) throw new Error('GitHub ' + rep.getResponseCode() + ' (liste des branches)');
+    var lot = JSON.parse(rep.getContentText('UTF-8'));
+    lot.forEach(function (b) { noms.push(b.name); });
+    if (lot.length < 100) break;
+    page++;
+  }
+  return noms;
+}
+
+/**
+ * Trouve la branche qui contient releves/<id>.json : branche par défaut d'abord, sinon toutes les
+ * branches (requêtes groupées). Si plusieurs branches ont des versions différentes, on demande ID@branche.
+ */
+function trouverReleve_(id) {
+  var chemin = 'releves/' + id + '.json';
+  try {
+    return {branche: BRANCHE_PAR_DEFAUT, fiche: JSON.parse(lireGithub_(chemin, BRANCHE_PAR_DEFAUT))};
+  } catch (e) { /* pas sur la branche par défaut : on cherche ailleurs */ }
+  var branches = listerBranches_().filter(function (b) { return b !== BRANCHE_PAR_DEFAUT; });
+  var tetes = enTetes_();
+  var reps = UrlFetchApp.fetchAll(branches.map(function (b) {
+    return {url: 'https://api.github.com/repos/' + DEPOT + '/contents/' + encodeURI(chemin) +
+      '?ref=' + encodeURIComponent(b), headers: tetes, muteHttpExceptions: true};
+  }));
+  var trouves = [], versions = {};
+  reps.forEach(function (rep, i) {
+    if (rep.getResponseCode() !== 200) return;
+    var texte = rep.getContentText('UTF-8');
+    trouves.push({branche: branches[i], fiche: JSON.parse(texte)});
+    versions[texte] = true;
+  });
+  if (!trouves.length) throw new Error('Relevé ' + id + ' introuvable sur toutes les branches (pas encore poussé ?)');
+  if (Object.keys(versions).length > 1) {
+    throw new Error('Plusieurs versions différentes de ' + id + ' : saisir ID@branche parmi ' +
+      trouves.map(function (t) { return t.branche; }).join(', '));
+  }
+  // Même contenu partout : on préfère la branche où le relevé a été fait.
+  var origine = trouves.filter(function (t) { return t.branche === t.fiche.branche; })[0];
+  return origine || trouves[0];
+}
+
+/**
+ * Ajoute une ligne « Terminé » dans Réservations (Sheet de coordination), en reprenant la
+ * pépinière et les plantes de la dernière réservation qui cite cet identifiant.
+ */
+function marquerTermine_(id, fiche, debut, fin) {
+  var onglet = SpreadsheetApp.openById(COORDINATION_ID).getSheetByName(ONGLET_RESERVATIONS);
+  if (!onglet) throw new Error('onglet ' + ONGLET_RESERVATIONS + ' introuvable');
+  var pepiniere = fiche.pepiniere, plantes = '';
+  var n = onglet.getLastRow();
+  if (n > 1) {
+    var lignes = onglet.getRange(2, 1, n - 1, 6).getDisplayValues();
+    for (var i = lignes.length - 1; i >= 0; i--) {
+      if (lignes[i][5].indexOf(id) >= 0) { pepiniere = lignes[i][2]; plantes = lignes[i][3]; break; }
+    }
+  }
+  if (!plantes) {
+    var ps = fiche.plantes.slice().sort();
+    plantes = ps.length > 1 ? ps[0] + ' à ' + ps[ps.length - 1] : ps.join('');
+  }
+  var date = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'dd/MM/yyyy');
+  onglet.appendRow([date, fiche.par, pepiniere, plantes, 'Terminé',
+    'Offres ' + debut + '-' + fin + ' (' + id + '), importé par le bouton']);
+  onglet.getRange(onglet.getLastRow(), 1).setNumberFormat('@').setValue(date);
+}
+
 function importerReleve() {
   var ui = SpreadsheetApp.getUi();
   var r = ui.prompt('Importer un relevé',
-    'Identifiant du relevé (ex. PLF-2026-11-06-A4).\nPour une autre branche que ' + BRANCHE_PAR_DEFAUT +
-    ' : ID@branche', ui.ButtonSet.OK_CANCEL);
+    'Identifiant du relevé (ex. PLF-2026-11-06-A4). La branche est trouvée automatiquement ' +
+    '(ID@branche pour la forcer).', ui.ButtonSet.OK_CANCEL);
   if (r.getSelectedButton() !== ui.Button.OK) return;
-  var saisie = r.getResponseText().trim();
-  var id = saisie.split('@')[0].trim();
-  var branche = saisie.indexOf('@') > 0 ? saisie.split('@')[1].trim() : BRANCHE_PAR_DEFAUT;
+  // Tolère les copier-coller : parenthèses, guillemets, crochets, espaces, « .json » final.
+  var saisie = r.getResponseText().replace(/[()\[\]{}"'`«»\s]/g, '').replace(/\.json$/, '');
+  var id = saisie.split('@')[0];
+  var brancheForcee = saisie.indexOf('@') > 0 ? saisie.split('@')[1] : '';
 
   var verrou = LockService.getDocumentLock();
   verrou.waitLock(30000);
@@ -106,7 +184,10 @@ function importerReleve() {
     var offres = classeur.getSheetByName(ONGLET_OFFRES);
     var registre = classeur.getSheetByName(ONGLET_REGISTRE);
 
-    var fiche = JSON.parse(lireGithub_('releves/' + id + '.json', branche));
+    var trouve = brancheForcee
+      ? {branche: brancheForcee, fiche: JSON.parse(lireGithub_('releves/' + id + '.json', brancheForcee))}
+      : trouverReleve_(id);
+    var branche = trouve.branche, fiche = trouve.fiche;
     var lignes = lireTsv_(lireGithub_(fiche.fichier, branche));
     if (lignes.length !== fiche.nb_lignes) {
       throw new Error('Le TSV contient ' + lignes.length + ' lignes, la fiche en annonce ' + fiche.nb_lignes);
@@ -161,8 +242,17 @@ function importerReleve() {
       fiche.fichier + ' (branche ' + branche + ')', remarques]);
     registre.getRange(registre.getLastRow(), 3).setNumberFormat('dd/MM/yyyy');
 
+    var reservation;
+    try {
+      marquerTermine_(id, fiche, debut, fin);
+      reservation = '\nRéservations : ligne « Terminé » ajoutée.';
+    } catch (e2) {
+      reservation = '\nRéservations : ligne « Terminé » NON ajoutée (' + e2.message + ').';
+    }
+
     ui.alert('Import terminé : lignes ' + debut + ' à ' + fin + ' de « Offres »' +
-      (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.');
+      (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.' +
+      reservation);
   } catch (e) {
     ui.alert('Import interrompu, rien n\'a été écrit après l\'erreur : ' + e.message);
   } finally {
