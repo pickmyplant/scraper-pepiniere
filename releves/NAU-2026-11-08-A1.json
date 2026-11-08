@@ -1,0 +1,17 @@
+{
+ "releve": "NAU-2026-11-08-A1",
+ "pepiniere": "Pépinières Naudet",
+ "date": "08/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005"
+ ],
+ "nb_lignes": 5,
+ "fichier": "releves/NAU-2026-11-08-A1.tsv",
+ "branche": "ccr-0192d6c4-qcu20o",
+ "remarques": ""
+}
