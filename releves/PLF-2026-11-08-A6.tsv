@@ -40,9 +40,9 @@ P106	Séné d'Argentine	Espèce type	Planfor	https://www.planfor.fr/achat,cassia
 P107	Chêne d'argent		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Grevillea robusta	
 P108	Armoise arborescente		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Artemisia arborescens	
 P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-bonsai,1678,FR		EUR		Rupture		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Aucune offre en vente sur la fiche (produit indisponible)	Olea europaea	
-P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	305,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Format non reconnu : « Olivier specimen - N°114 »	Olea europaea	
-P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	439,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Format non reconnu : « Olivier specimen taillé en nuage - N°1070 »	Olea europaea	
-P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	925,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Format non reconnu : « Olivier specimen - N°2205 »	Olea europaea	
+P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	305,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Forme nuage (fiche « Olivier nuage spécimen », Olivier specimen - N°114)	Olea europaea	Nuage
+P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	439,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Forme nuage (fiche « Olivier nuage spécimen », Olivier specimen taillé en nuage - N°1070)	Olea europaea	Nuage
+P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-nuage-olivier-specimen,2199,FR	925,00	EUR		En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Forme nuage (fiche « Olivier nuage spécimen », Olivier specimen - N°2205)	Olea europaea	Nuage
 P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-plant-olivier,1679,FR	5,75	EUR	Motte	En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche ; Offre exceptionnelle -10 % (prix avant promotion non affiché sur le site)	Olea europaea	20-30 cm
 P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-plant-olivier,1679,FR	9,88	EUR	Pot 0,5 L	En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche	Olea europaea	10-15 cm
 P109	Olivier	Espèce type	Planfor	https://www.planfor.fr/achat,olivier-plant-olivier,1679,FR	14,95	EUR	Pot 0,5 L	En stock		08/11/2026		À vérifier	Nom latin écrit « Olea europea » sur la fiche	Olea europaea	10-15 cm
@@ -152,7 +152,8 @@ P154	Lotus jaune		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nelumbo 
 P155	Lotus sacré		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nelumbo nucifera	
 P156	Nymphéa nain		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nymphaea tetragona	
 P157	Nénuphar jaune		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nuphar lutea	
-P158	Nymphéa hybride rustique		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nymphaea Hybrides rustiques	
+P158	Nymphéa hybride rustique	Colorado	Planfor	https://www.planfor.fr/achat,nenuphar-colorado,8328,FR		EUR		Rupture		08/11/2026		À vérifier	Hybride rustique (jusqu'à -17 °C) gardé sur validation ; Aucune offre en vente sur la fiche (produit indisponible)	Nymphaea 'Colorado'	
+P158	Nymphéa hybride rustique	Wanvisa	Planfor	https://www.planfor.fr/achat,nenuphar-wanvisa,8329,FR		EUR		Rupture		08/11/2026		À vérifier	Hybride rustique (jusqu'à -17 °C) gardé sur validation ; Aucune offre en vente sur la fiche (produit indisponible)	Nymphaea 'Wanvisa'	
 P159	Faux nénuphar		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Nymphoides peltata	
 P160	Potamot nageant		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Potamogeton natans	
 P161	Acore odorant		Planfor			EUR				08/11/2026		À vérifier	Non trouvé	Acorus calamus	
