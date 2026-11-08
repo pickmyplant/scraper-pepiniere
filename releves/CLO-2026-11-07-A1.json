@@ -1,0 +1,17 @@
+{
+ "releve": "CLO-2026-11-07-A1",
+ "pepiniere": "Clorofila",
+ "date": "07/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005"
+ ],
+ "nb_lignes": 19,
+ "fichier": "releves/CLO-2026-11-07-A1.tsv",
+ "branche": "ccr-f0a177f8-uruamw",
+ "remarques": ""
+}
