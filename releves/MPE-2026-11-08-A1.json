@@ -1,0 +1,22 @@
+{
+ "releve": "MPE-2026-11-08-A1",
+ "pepiniere": "Ma Pépinière",
+ "date": "08/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005",
+  "P006",
+  "P007",
+  "P008",
+  "P009",
+  "P010"
+ ],
+ "nb_lignes": 22,
+ "fichier": "releves/MPE-2026-11-08-A1.tsv",
+ "branche": "ccr-b832900a-lkmfok",
+ "remarques": ""
+}
