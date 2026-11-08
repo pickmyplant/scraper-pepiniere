@@ -40,7 +40,7 @@ Pour économiser des tokens, Claude ne recopie plus les lignes dans la Sheet : c
    Cela produit `releves/PLF-2026-11-06-A4.tsv`, le fichier d'anomalies et la fiche `releves/PLF-2026-11-06-A4.json`.
    En une seule commande (relevé silencieux, résumé, commit et push) : `outils/lot.sh PLF-2026-11-06-A4 data/plantes_P081-P120.csv`.
 2. Résumé compact à relire, sans tout afficher : `python outils/resume.py releves/PLF-2026-11-06-A4.tsv`
-3. Commit et push, puis l'utilisatrice clique sur **Relevés > Importer un relevé…** dans la Sheet et saisit l'identifiant (ou `ID@branche` pour une autre branche).
+3. Commit et push, puis l'utilisatrice clique sur **Relevés > Importer un relevé…** dans la Sheet et saisit l'identifiant : le bouton cherche la branche tout seul (`ID@branche` pour la forcer ; parenthèses et espaces collés par erreur sont ignorés).
    Le script vérifie le registre, remplace les anciennes lignes s'il s'agit d'une mise à jour (même pépinière et mêmes plantes), ajoute tout en un seul bloc et remplit l'onglet « Relevés ».
 
 Installation du bouton (une seule fois) : copier `outils/import_releve.gs` dans la Sheet (Extensions > Apps Script), enregistrer, recharger la Sheet, puis **Relevés > Configurer le jeton GitHub** avec un jeton GitHub « fine-grained » en lecture seule (Contents : Read-only) sur ce dépôt. Le jeton reste dans les propriétés du script, jamais dans le dépôt.
