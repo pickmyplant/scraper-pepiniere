@@ -26,6 +26,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Clorofila"
+PREFIXE = "CLO"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.clorofila.ma"
 SITEMAP = BASE + "/product-sitemap.xml"
 DEVISE = "MAD"

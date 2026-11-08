@@ -23,6 +23,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Verdia Garden"
+PREFIXE = "VER"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://verdiagarden.com"
 API = BASE + "/api/public"
 DEVISE = "MAD"

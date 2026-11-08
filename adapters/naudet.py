@@ -22,6 +22,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Pépinières Naudet"
+PREFIXE = "NAU"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.pepinieres-naudet.com"
 SITEMAP = BASE + "/1_index_sitemap.xml"
 CDATA = r"(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?"

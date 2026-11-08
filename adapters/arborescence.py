@@ -25,6 +25,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Arborescence"
+PREFIXE = "ARB"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.arborescence.ma"
 SITEMAP = BASE + "/sitemap-products.xml"
 DEVISE = "MAD"

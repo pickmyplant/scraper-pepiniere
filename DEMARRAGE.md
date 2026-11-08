@@ -9,14 +9,29 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Écriture dans Offres : bouton Relevés > Importer un relevé, ou directement avec le connecteur (autorisé le 07/11/2026), puis une ligne dans l'onglet Relevés.
 - Questions à trancher : une ligne dans l'onglet Questions, sans décider seul.
 
-## État (05/11/2026)
-- Planfor (Claude A) : P001-P081 faits ; **prochain lot P082-P120**.
+## État
+- Avancement par pépinière et par lot : onglet Réservations (ne pas le recopier ici).
+- Adaptateurs : un fichier par pépinière dans `adapters/` (`NOM` et `PREFIXE` en tête) : arborescence (ARB),
+  clorofila (CLO), mapepiniere (MPE), naudet (NAU), planfor (PLF), promessedefleurs (PDF, Claude B),
+  rayondeserre (RDS), verdiagarden (VER).
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
-- Arborescence (arborescence.ma, `adapters/arborescence.py`, préfixe `ARB`) : essai P001-P005 fait le 07/11/2026 (ARB-2026-11-07-A1, Offres 615-627).
-  Décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
+- Arborescence, décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
   une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.
 - 07/11/2026 : l'utilisatrice autorise aussi l'écriture directe dans Offres avec le connecteur Google Sheets
   (ajout en bas + une ligne dans l'onglet Relevés de la BDD).
+
+## Branche commune
+Chaque conversation travaille sur sa propre branche, mais publie sur `claude/vibrant-keller-jibr76` :
+`outils/lot.sh` le fait tout seul (via `outils/publier.sh`). Pour tout autre travail (nouvel adaptateur, correction),
+lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation a tous les adaptateurs.
+
+## Nouvelle pépinière
+1. Étude du site (robots.txt, sitemap, JSON-LD, API) : rapport à l'utilisatrice, attendre son feu vert.
+2. Un seul fichier à créer : `adapters/<nom>.py`, avec `NOM = "..."`, `PREFIXE = "XXX"` (3 lettres, pas déjà pris)
+   et une classe `Adaptateur` exposant `releve(plante, date)` -> `(offres, anomalies)` ; s'inspirer de `adapters/planfor.py`.
+   Rien à déclarer dans `run.py` ni dans `outils/lot.sh` (découverte automatique).
+3. Délai propre au site, si accordé : `DELAIS_PAR_SITE` dans `config.py`.
+4. Essai sur 5 plantes : `outils/lot.sh XXX-AAAA-MM-JJ-A1 data/plantes_<lot>.csv` (publie tout seul).
 
 ## Faire un lot (5 étapes)
 1. Sheet de coordination `1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM` : lire seulement Règles, Réservations, Questions ; ajouter une ligne « En cours » dans Réservations.

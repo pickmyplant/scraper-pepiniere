@@ -20,6 +20,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Promesse de Fleurs"
+PREFIXE = "PDF"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.promessedefleurs.com"
 SITEMAP = BASE + "/media/sitemap/fr/sitemap.xml"
 EXCLUS = ("/conseil-plantes-jardin/",)

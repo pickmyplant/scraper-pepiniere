@@ -19,6 +19,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Ma Pépinière"
+PREFIXE = "MPE"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://ma-pepiniere.fr"
 RECHERCHE = BASE + "/fr/search?bitbag_elasticsearch_search%5Bbox%5D%5Bquery%5D={q}"
 MAX_FICHES = 25

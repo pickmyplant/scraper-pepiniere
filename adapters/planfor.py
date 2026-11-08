@@ -18,6 +18,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Planfor"
+PREFIXE = "PLF"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.planfor.fr"
 RECHERCHE = BASE + "/index.php?action=formulaire_recherche&motclef={q}&page=1"
 # Début de la partie « format » dans le nom d'une offre

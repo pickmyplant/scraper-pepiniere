@@ -20,6 +20,7 @@ from core.http import ClientPoli, InterditParRobots
 log = logging.getLogger("scraper")
 
 NOM = "Rayon de Serre"
+PREFIXE = "RDS"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.rayon-de-serre.fr"
 SITEMAP_INDEX = BASE + "/1_index_sitemap.xml"
 FICHE = re.compile(r"^https://www\.rayon-de-serre\.fr/[a-z0-9-]+/\d+-[a-z0-9-]+\.html$")

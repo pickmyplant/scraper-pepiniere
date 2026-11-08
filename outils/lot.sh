@@ -28,10 +28,6 @@ python outils/resume.py "releves/$ID.tsv"
 
 git add data/equivalences_latin.csv adapters/ "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV"
 git commit -q -m "Relevé $ID ($PEP, $(basename "$CSV" .csv))"
-BR="$(git rev-parse --abbrev-ref HEAD)"
-for t in 2 4 8 16 0; do
-  git push -q -u origin "$BR" && break
-  [ "$t" -eq 0 ] && { echo "Push échoué"; exit 1; }
-  sleep "$t"
-done
-echo "Poussé sur $BR. Identifiant à importer : $ID"
+# Push sur la branche de la conversation et sur la branche commune (voir outils/publier.sh)
+outils/publier.sh || echo "À FAIRE : publier sur la branche commune (outils/publier.sh), conflit à résoudre."
+echo "Identifiant à importer : $ID"
