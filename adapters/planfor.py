@@ -38,6 +38,9 @@ def _decoller(t):
     return re.sub(r"([a-zàâçéèêëîïôûù.)'])([A-ZÉ])", r"\1 \2", t)
 
 
+# Formes taillées sans contenant ni taille : la ligne est gardée, la forme notée (décision du 08/11/2026)
+FORMES_SPECIALES = [("nuage", "Nuage"), ("specimen", "Spécimen")]
+
 class Adaptateur:
     def __init__(self):
         dmin, dmax = config.DELAIS_PAR_SITE.get("planfor", (None, None))
@@ -198,6 +201,10 @@ class Adaptateur:
             libelle = brut[: cut.start()].strip(" -") if cut else brut
             fmt = brut[cut.start():] if cut else ""
             variete, connue = self._variete(plante, libelle, latin_h1)
+            # Formes taillées (nuage, spécimen) : forme notée dans Notes et Hauteur ou forme, pas une variété
+            forme_sp = next((f for mot, f in FORMES_SPECIALES if mot in M.norm(f"{h1} {brut}")), "")
+            if forme_sp and variete and not connue and any(mot in M.norm(variete) for mot, _ in FORMES_SPECIALES):
+                variete = ""
             if variete and not connue:
                 notes.append(f"Variété trouvée : {variete} (absente de l'onglet Fiches)")
             cont = contenant(fmt)
@@ -209,12 +216,15 @@ class Adaptateur:
                 notes.append(f"Plant de {age.group(1)} ans")
             if "transporteur" in fmt.lower():
                 notes.append("Livraison par transporteur sur rendez-vous")
-            if not cont:
+            if not cont and forme_sp:
+                notes.append(f"Forme {forme_sp.lower()} (fiche « {h1 or nom} », {brut})")
+            elif not cont:
                 notes.append(f"Format non reconnu : « {fmt or brut} »")
             dispo = "En stock" if str(of.get("availability", "")).endswith("InStock") else "Rupture"
             nom_latin = f"{plante.nom_latin} '{variete}'" if variete else plante.nom_latin
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(of.get("price")),
-                      "EUR", cont, dispo, "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, h or f or "")
+                      "EUR", cont, dispo, "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin,
+                      h or f or forme_sp)
             o.tri = taille_contenant(cont) * 1000 + float(of.get("price") or 0)
             lignes.append(o)
 
