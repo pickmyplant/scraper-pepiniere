@@ -79,7 +79,7 @@ La ligne relevée prend alors le nom de Fiches (Variété = Sister Agnes, Nom la
 - Une ligne par format en stock et par fiche produit (une fiche = une variété). Toutes les fiches sont lues. Le plafond est `MAX_LIGNES_PAR_PRODUIT = 8` ; au-delà, on garde des formats répartis du plus petit au plus grand.
 - **Nom latin** : « Genre espèce 'Variété' » quand la fiche porte une variété, sinon « Genre espèce ».
 - Les mélanges de plusieurs plantes sont exclus. Un lot ou un mélange de la même espèce est gardé, avec une mention dans Notes.
-- Statut toujours « À vérifier ». Frais de port et Lien affilié restent vides.
+- Statut toujours « À vérifier ». Frais de port : port minimum de la pépinière (`data/frais_port.csv`, seuil de gratuité dans ce même fichier) ; Lien affilié reste vide.
 - Délais : 3 à 5 s par défaut, réglables par site dans `DELAIS_PAR_SITE` (Planfor : 1 à 2 s, sur accord). Le `Crawl-delay` de robots.txt est toujours respecté s'il est plus long.
 - Si le site renvoie 403, 429, 503 ou un captcha, le script s'arrête sans rien tenter d'autre (code de sortie 2).
 

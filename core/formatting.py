@@ -1,6 +1,25 @@
 """Formatage des colonnes de l'onglet Offres."""
+import csv
+import os
 import re
 from dataclasses import dataclass, field, asdict
+from functools import lru_cache
+
+FICHIER_FRAIS_PORT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "frais_port.csv")
+
+
+@lru_cache(maxsize=1)
+def _frais_port():
+    """Port minimum à domicile par pépinière (data/frais_port.csv) ; vide si non publié par le site."""
+    try:
+        with open(FICHIER_FRAIS_PORT, encoding="utf-8", newline="") as f:
+            return {r["Pépinière"]: r["Port minimum (domicile)"].strip() for r in csv.DictReader(f)}
+    except FileNotFoundError:
+        return {}
+
+
+def frais_port(pepiniere):
+    return _frais_port().get(pepiniere, "")
 
 COLONNES = [
     "ID", "Plante", "Variété", "Pépinière", "Lien du produit", "Prix", "Devise", "Contenant",
@@ -48,6 +67,8 @@ class Offre:
     def ligne(self):
         d = asdict(self)
         d.pop("tri")
+        if not d["frais_port"] and d["prix"]:  # port minimum de la pépinière ; pas sur les lignes « Non trouvé »
+            d["frais_port"] = frais_port(self.pepiniere)
         return list(d.values())
 
 

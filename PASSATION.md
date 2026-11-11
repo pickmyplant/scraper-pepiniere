@@ -47,7 +47,7 @@ ID | Plante | Variété | Pépinière | Lien du produit | Prix | Devise | Conten
 - Prix avec virgule décimale et sans symbole (34,90). Devise EUR. Relevé le au format JJ/MM/AAAA.
 - Contenant normalisé (« Pot 2 à 3 L », « Godet 8/9 cm », « Racines nues », « Motte », « Sachet de graines »).
 - **Hauteur ou forme** : on préfère la hauteur chiffrée (« 30-35 cm ») ; la forme (Mini-tige, Buisson…) va alors dans Notes. On n'écrit la forme dans cette colonne que si aucune hauteur n'est donnée.
-- Disponibilité : « En stock » ou « Rupture ». Frais de port et Lien affilié vides. Statut « À vérifier » partout.
+- Disponibilité : « En stock » ou « Rupture ». Frais de port : port minimum à domicile de la pépinière, lu dans `data/frais_port.csv` (vide si non publié ; le seuil de gratuité reste dans ce fichier). Lien affilié vide. Statut « À vérifier » partout.
 - Notes : prix dégressifs (« 29,50 € l'unité dès 3 »), lots, prix barrés, « Variété trouvée : X (absente de l'onglet Fiches) », « autres formats disponibles ».
 
 ## Décisions prises avec l'utilisatrice
