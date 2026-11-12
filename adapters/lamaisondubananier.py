@@ -22,6 +22,17 @@ from core.formatting import Offre, contenant, forme, hauteur, prix_fr, repartis,
 from core.http import ClientPoli, InterditParRobots
 
 log = logging.getLogger("scraper")
+FICHES_VALIDEES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "fiches_validees.csv")
+
+
+def _fiches_validees():
+    """(ID, URL) des fiches sans le nom latin acceptées par l'utilisatrice (data/fiches_validees.csv)."""
+    import csv
+    try:
+        with open(FICHES_VALIDEES, newline="", encoding="utf-8") as f:
+            return {(r["ID"].strip(), r["URL"].strip().rstrip("/")) for r in csv.DictReader(f)}
+    except FileNotFoundError:
+        return set()
 
 NOM = "La Maison du Bananier"
 PREFIXE = "LMB"  # préfixe des identifiants de relevé (outils/lot.sh)
@@ -130,6 +141,10 @@ class Adaptateur:
             if mode and url not in vus:
                 vus.add(url)
                 res.append((url, mode))
+        for url in sorted(u for i, u in _fiches_validees() if i == plante.id and u.startswith(BASE)):
+            if url not in vus:
+                vus.add(url)
+                res.append((url, "fiche validée"))
         if not res:  # repli : nom commun et autres noms (le nom latin est vérifié sur la fiche)
             for url, titre in self._index():
                 slug = url.rsplit("/", 1)[-1].replace("-", " ")
@@ -212,6 +227,9 @@ class Adaptateur:
             if M.contient(M.norm(h1), plante.genre) and var:
                 notes_page.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var} de l'onglet Fiches")
+            elif (plante.id, url.rstrip("/")) in _fiches_validees():
+                notes_page.append(f"Nom latin absent de la fiche « {h1} » ; fiche validée par l'utilisatrice "
+                                  "(data/fiches_validees.csv)")
             else:
                 return [], [(url, f"Nom latin {plante.nom_latin} absent de la fiche « {h1} » : aucun prix relevé")]
         if M.est_melange(h1):
@@ -220,6 +238,11 @@ class Adaptateur:
         variete, connue = M.variete_du_titre(plante, latin)
         variete = re.sub(r"[®™*]", "", variete)
         variete = re.sub(r"^(?:var\.?|ssp\.?|subsp\.?)\s+", "", variete.strip(" '\"‘’"), flags=re.I).strip(" '\"‘’")
+        # Titre sans « / » : « Latin épithète Nom commun » (ex. « Hesperaloe parvifolia rubra Rose des sables ») ;
+        # on garde l'épithète en minuscules, sans le nom commun qui suit
+        m = re.match(r"([a-z][a-z.]*(?:\s[a-z][a-z.]*)*)\s+[A-ZÀ-Ý]", variete)
+        if m and not connue and " / " not in h1:
+            variete = m.group(1).capitalize()
         if variete and not connue:
             notes_page.append(f"Variété trouvée : {variete} (absente de l'onglet Fiches)")
         nom_latin = f"{plante.nom_latin} '{variete}'" if variete else plante.nom_latin

@@ -1,0 +1,14 @@
+{
+ "releve": "LMB-2026-11-12-A4",
+ "pepiniere": "La Maison du Bananier",
+ "date": "12/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P339",
+  "P583"
+ ],
+ "nb_lignes": 3,
+ "fichier": "releves/LMB-2026-11-12-A4.tsv",
+ "branche": "claude/inspiring-davinci-onci7y",
+ "remarques": ""
+}
