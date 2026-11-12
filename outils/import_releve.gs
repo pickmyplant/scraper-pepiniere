@@ -30,6 +30,20 @@ var COLONNES = ['ID', 'Plante', 'Variété', 'Pépinière', 'Lien du produit', '
   'Hauteur ou forme'];
 var COL_PRIX = 5;   // index 0 dans COLONNES
 var COL_DATE = 10;
+var COL_FRAIS = 9;  // colonne J : calculée par une formule ARRAYFORMULA en J1, jamais écrite par le script
+
+/**
+ * Dernière ligne réellement remplie, d'après la colonne A (ID). getLastRow() compte aussi les
+ * cellules où une formule renvoie "" (ex. formule tirée jusqu'en bas de la colonne J).
+ */
+function derniereLigne_(onglet) {
+  var max = onglet.getMaxRows();
+  var col = onglet.getRange(1, 1, max, 1).getValues();
+  for (var i = max - 1; i >= 0; i--) {
+    if (String(col[i][0]).trim() !== '') return i + 1;
+  }
+  return 1;
+}
 
 function onOpen() {
   SpreadsheetApp.getUi().createMenu('Relevés')
@@ -204,7 +218,7 @@ function importerReleve() {
     // 2. Mise à jour : anciennes lignes de cette pépinière pour ces plantes
     var plantes = {};
     fiche.plantes.forEach(function (p) { plantes[p] = true; });
-    var nbOff = offres.getLastRow();
+    var nbOff = derniereLigne_(offres);
     var anciennes = [];
     if (nbOff > 1) {
       var colA = offres.getRange(2, 1, nbOff - 1, 1).getValues();
@@ -225,8 +239,15 @@ function importerReleve() {
     plages_(anciennes).forEach(function (p) { offres.deleteRows(p[0], p[1]); });
 
     // 3. Ajout en un seul bloc
-    var debut = offres.getLastRow() + 1;
-    offres.getRange(debut, 1, lignes.length, COLONNES.length).setValues(lignes);
+    var debut = derniereLigne_(offres) + 1;
+    if (debut + lignes.length - 1 > offres.getMaxRows()) {
+      offres.insertRowsAfter(offres.getMaxRows(), debut + lignes.length - 1 - offres.getMaxRows());
+    }
+    // A..I puis K..fin : la colonne J (frais de port) est laissée à la formule de J1.
+    offres.getRange(debut, 1, lignes.length, COL_FRAIS)
+      .setValues(lignes.map(function (l) { return l.slice(0, COL_FRAIS); }));
+    offres.getRange(debut, COL_FRAIS + 2, lignes.length, COLONNES.length - COL_FRAIS - 1)
+      .setValues(lignes.map(function (l) { return l.slice(COL_FRAIS + 1); }));
     offres.getRange(debut, COL_DATE + 1, lignes.length, 1).setNumberFormat('dd/MM/yyyy');
     var fin = debut + lignes.length - 1;
 
