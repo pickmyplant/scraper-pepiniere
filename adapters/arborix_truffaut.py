@@ -11,7 +11,7 @@ import re
 
 from adapters import truffaut as T
 
-NOM = "Arborix (via Truffaut)"
+NOM = "Truffaut"
 PREFIXE = "ARX"  # préfixe des identifiants de relevé (outils/lot.sh)
 VENDEUR = re.compile(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"')
 
@@ -19,6 +19,8 @@ VENDEUR = re.compile(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"')
 class Adaptateur(T.Adaptateur):
     def releve(self, plante, aujourdhui):
         offres, anomalies = super().releve(plante, aujourdhui)
+        # Complément du relevé Truffaut : pas de ligne « Non trouvé » (déjà dans les relevés TRU)
+        offres = [o for o in offres if o.lien]
         return [dataclasses.replace(o, pepiniere=NOM) for o in offres], anomalies
 
     def _analyser(self, plante, url, page, aujourdhui):
