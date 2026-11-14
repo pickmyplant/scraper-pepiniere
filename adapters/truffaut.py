@@ -5,9 +5,10 @@ sitemap public des produits (environ 330 000 URL, mis en cache 7 jours dans cach
 le nom latin est présent dans l'adresse de la plupart des fiches plantes. Une fiche = un
 format (pot, hauteur) ; le prix et la disponibilité sont lus dans le JSON-LD Product,
 le prix barré (« au lieu de ») dans la page.
-Seules les fiches « Vendu et expédié par Truffaut » sont relevées (décision du 14/11/2026) :
-les fiches des vendeurs marketplace (bloc « Vendu par <vendeur> ») sont écartées, ces vendeurs
-étant suivis sur leur propre site.
+Sont relevées les fiches « Vendu et expédié par Truffaut » et celles du vendeur marketplace Arborix
+(son propre site est fermé aux robots ; décision du 14/11/2026, note « Vendu par Arborix ») : les fiches
+des autres vendeurs marketplace (bloc « Vendu par <vendeur> ») sont écartées, ces vendeurs étant
+suivis sur leur propre site.
 """
 import datetime as dt
 import glob
@@ -30,6 +31,8 @@ BASE = "https://www.truffaut.com"
 SITEMAP_INDEX = BASE + "/v6/sitemapindex.xml"
 DUREE_CACHE_JOURS = 7
 # Adresses sans plante vivante (graines exceptées : gardées, le contenant le dira)
+# Vendeurs marketplace relevés quand même (nom en minuscules contenu dans le nom du vendeur)
+VENDEURS_GARDES = ("arborix",)
 EXCLUS = re.compile(r"artificiel|housse|cache-pot|poster|tableau|coussin|bougie|peluche|sticker|decor", re.I)
 
 
@@ -121,8 +124,12 @@ class Adaptateur:
 
     def _analyser(self, plante, url, page, aujourdhui):
         vendeur = re.search(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"', page)
+        note_vendeur = ""
         if vendeur:
-            return [], [(url, f"Vendu par {html.unescape(vendeur.group(1))} (marketplace) : non relevé")]
+            nom_vendeur = html.unescape(vendeur.group(1))
+            if not any(v in nom_vendeur.lower() for v in VENDEURS_GARDES):
+                return [], [(url, f"Vendu par {nom_vendeur} (marketplace) : non relevé")]
+            note_vendeur = f"Vendu par {nom_vendeur.split(',')[0]} sur Truffaut (marketplace)"
         p = self._produit(page)
         h1 = _texte(" ".join(re.findall(r"<h1[^>]*>(.*?)</h1>", page, re.S)[:1]))
         if not p:
@@ -130,7 +137,7 @@ class Adaptateur:
         nom = _texte(p.get("name")) or h1
         desc = _texte(p.get("description"))
         textes = [nom, h1, desc]
-        notes = []
+        notes = [note_vendeur] if note_vendeur else []
         equiv = M.equivalence_utilisee(plante, textes)
         approche = None if M.latin_sur_fiche(plante, textes) else M.latin_approche(plante, textes)
         if equiv:
