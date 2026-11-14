@@ -32,10 +32,14 @@ BASE = "https://lagreentouch.fr"
 CATALOGUE = BASE + "/products.json?limit=250&page={n}"
 DUREE_CACHE_JOURS = 7
 TYPES_EXCLUS = {"bundle", "coffret kolibri", "ds_artificielles", "ds_accessoires", "accessoire", "baby cache-pot",
-                "kit", "terrarium", "ds_terrariums", "ds_fleurs sechees"}
+                "kit", "terrarium", "ds_terrariums", "ds_fleurs sechees", "cache-pot", "custom bundle",
+                "padd_terrarium", "cartes-cadeaux"}
 CACHE_POT = re.compile(r"cache-pot|panier|pot (?:blanc|gris|noir|terre|beige|rose|vert|bleu)", re.I)
 SANS_CACHE_POT = re.compile(r"sans cache-pot", re.I)
 NB = re.compile(r"\b(?:lot|pack) de (\d+)\b|\b(\d+) (?:plantes|plants|bulbes|pieds|godets)\b", re.I)
+FORMAT_VARIANTE = re.compile(r"Ø\s*(\d+)\s*cm(?:\s*-\s*↕\s*([\d-]+)\s*cm)?", re.I)
+# Artificielles, coffrets et compositions de plusieurs plantes (« Kentia, Strelitzia et Areca », « Baby Paradise - A, B et C »)
+EXCLUS_TITRE = re.compile(r"artificiel|coffret|carte[- ]cadeau|,[^,]*\bet\b", re.I)
 CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
 
 
@@ -56,7 +60,8 @@ def _nb(texte):
 
 def _format_titre(titre, handle):
     """Format écrit dans le titre (« | Pot 17 cm », « pot Ø6 cm ») ou l'adresse (« …-pot-17cm-70cm »)."""
-    m = re.search(r"pot\s*Ø?\s*(\d+)\s*cm", titre, re.I) or re.search(r"(?:^|-)pot-(\d+)-?cm", handle)
+    m = (re.search(r"pot\s*Ø?\s*(\d+)\s*cm", titre, re.I) or re.search(r"[Øø]\s?(\d{2})\b", titre)
+         or re.search(r"(?:^|-)pot-?(\d+)-?cm", handle) or re.search(r"(?:^|-)[oø](\d{2})(?:cm)?(?:-|$)", handle))
     cont = f"Pot {m.group(1)} cm" if m else ""
     m = re.search(r"\bH\s*(\d+)\s*cm", titre) or re.search(r"pot-\d+-?cm-(?:hauteur-)?(\d+)-?cm", handle)
     return cont, (f"{m.group(1)} cm" if m else "")
@@ -65,11 +70,17 @@ def _format_titre(titre, handle):
 def _contenant(desc):
     """Pot livré lu dans la description (premier format cité)."""
     d = re.sub(r"(\d)\.0\b", r"\1", desc or "")
-    d = re.sub(r"pot(s)? de culture", r"pot\1", d, flags=re.I)
-    d = re.sub(r"(pot|godet)(s)?\s*(?:de\s*)?Ø\s*", r"\1 de ", d, flags=re.I)
-    m = re.search(r"\b(?:pot|godet)s?\s+(?:de\s+)?[\d.,]+\s*(?:cm|l|litres?)\b", d, re.I)
+    m = re.search(r"diam[eè]tre du pot(?: de culture)?\s*:?\s*([\d.,]+)\s*cm", d, re.I)
     if m:
-        return contenant(m.group(0))
+        return f"Pot {m.group(1)} cm"
+    d = re.sub(r"(pot|godet)s?\s+(?:de culture|en fibre de coco|d'environ|d’environ)", r"\1", d, flags=re.I)
+    d = re.sub(r"(pot|godet)s?\s*(?:de\s*)?Ø\s*", r"\1 de ", d, flags=re.I)
+    m = re.search(r"\b(pot|godet)s?\s+(?:de\s+)?([\d.,]+)\s*(?:(?:à|/|-)\s*([\d.,]+)\s*)?(cm|l|litres?)\b", d, re.I)
+    if m:
+        a, b, u = m.group(2), m.group(3), m.group(4).lower()
+        if u == "cm":
+            return f"{m.group(1).capitalize()} {a}{'/' + b if b else ''} cm"
+        return contenant(f"pot {a}{' à ' + b if b else ''} l")
     m = re.search(r"diam[eè]tre de ([\d.,]+)\s*cm", d, re.I)
     if m:
         return f"Pot {m.group(1)} cm"
@@ -133,7 +144,8 @@ class Adaptateur:
         noms_communs = [plante.nom_commun] + plante.autres_noms
         res, vus = [], set()
         for p in self._index():
-            if p["type"].lower() in TYPES_EXCLUS or "addon-kit" in p["tags"] or p["handle"] in vus:
+            if (p["type"].lower() in TYPES_EXCLUS or "addon-kit" in p["tags"] or p["handle"] in vus
+                    or EXCLUS_TITRE.search(re.sub(r"['‘’][^'‘’]*['‘’]", "", p["titre"]))):
                 continue
             tn = M.norm(f"{p['titre']} {p['handle'].replace('-', ' ')}")
             if (M.contient(tn, plante.genre) or any(M.contient(tn, n) for n in noms_communs)
@@ -190,6 +202,9 @@ class Adaptateur:
                 notes_page.append("Nom latin lu dans la description")
         else:
             approche = M.latin_approche(plante, [entete, p["texte"]])
+            # épithète proche mais début différent (« Dracaena dorado » n'est pas draco) : écarté
+            if approche and M.norm(approche.split()[-1])[:2] != M.norm(plante.espece)[:2]:
+                approche = None
             if approche:
                 notes_page.append(f"Nom latin écrit « {approche} » sur la fiche")
             elif M.contient(M.norm(entete), plante.genre) and M.variete_fiches(plante, entete):
@@ -222,13 +237,16 @@ class Adaptateur:
         for v in garde_v:
             notes = list(notes_page)
             brut = "" if v["titre"] == "Default Title" else v["titre"]
-            nb = _nb(brut) or nb_titre
+            fv = FORMAT_VARIANTE.search(brut)
+            cont_v = f"Pot {fv.group(1)} cm" if fv else cont
+            h_v = f"{fv.group(2)} cm" if fv and fv.group(2) else h
+            nb = None if fv else (_nb(brut) or nb_titre)
             if nb:
                 notes.append(f"lot de {nb}")
-            if brut and not nb and not re.fullmatch(r"(?:1|1 plante|unit[ée]|Sans cache-pot)", brut.strip(), re.I) \
+            if brut and not nb and not fv and not re.fullmatch(r"(?:1|1 plante|unit[ée]|Sans cache-pot)", brut.strip(), re.I) \
                     and not SANS_CACHE_POT.search(brut):
                 notes.append(f"Format : « {brut} »")
-            if not cont:
+            if not cont_v:
                 notes.append("Format non reconnu (pot non indiqué dans la description)")
             try:
                 if v["barre"] and float(v["barre"]) > float(v["prix"]):
@@ -236,9 +254,9 @@ class Adaptateur:
             except (TypeError, ValueError):
                 pass
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
-                      "EUR", cont, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
-                      " ; ".join(notes), nom_latin, h)
-            o.tri = taille_contenant(cont) * 1000 + (nb or 1) * 10 + float(v["prix"] or 0) / 1000
+                      "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
+                      " ; ".join(notes), nom_latin, h_v)
+            o.tri = taille_contenant(cont_v) * 1000 + (nb or 1) * 10 + float(v["prix"] or 0) / 1000
             lignes.append(o)
         if not lignes:
             return [], [(url, "Aucun format sur la fiche")]
