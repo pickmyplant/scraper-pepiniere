@@ -115,7 +115,8 @@ class Adaptateur:
         for n in M.noms_latins(plante):
             reste = M._apres(latin, n)
             if reste is not None:
-                reste = re.sub(r"^(?:f|var|subsp|ssp)\.?\s+", "", reste).strip(" '\"‘’()")
+                reste = re.sub(r"^(?:f|var|subsp|ssp)\.?\s+", "", reste)
+                reste = re.sub(r"\s*\b(?:en\s+)?mini[- ]?mottes?\b.*$", "", reste, flags=re.I).strip(" '\"‘’()")
                 if not reste or M.norm(reste) == M.norm(plante.espece):
                     return "", True
                 return reste, False
@@ -184,7 +185,8 @@ class Adaptateur:
 
         lignes = []
         for nom, haut, prix, stock in formats:
-            cont = contenant(nom)
+            mm = re.search(r"mini[- ]?motte\D*([\d.,]+)\s*cm", nom, re.I)
+            cont = f"Mini-motte {mm.group(1)} cm" if mm else contenant(nom)
             n = list(notes)
             if "ecoplant" in M.norm(nom):
                 n.append(f"Format « {nom} »")
