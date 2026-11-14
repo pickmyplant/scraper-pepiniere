@@ -24,6 +24,17 @@ PREFIXE = "PDF"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.promessedefleurs.com"
 SITEMAP = BASE + "/media/sitemap/fr/sitemap.xml"
 EXCLUS = ("/conseil-plantes-jardin/",)
+FICHES_VALIDEES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "fiches_validees.csv")
+
+
+def _fiches_validees():
+    """(ID, URL) des fiches sans le nom latin acceptées par l'utilisatrice (data/fiches_validees.csv)."""
+    import csv
+    try:
+        with open(FICHES_VALIDEES, newline="", encoding="utf-8") as f:
+            return {(r["ID"].strip(), r["URL"].strip().rstrip("/")) for r in csv.DictReader(f)}
+    except FileNotFoundError:
+        return set()
 
 
 class Adaptateur:
@@ -127,6 +138,9 @@ class Adaptateur:
             if M.contient(M.norm(" ".join(textes)), plante.genre) and var_fiches:
                 notes_prod.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                                   f"rapproché par la variété {var_fiches} de l'onglet Fiches")
+            elif (plante.id, url.rstrip("/")) in _fiches_validees():
+                notes_prod.append(f"Nom latin absent de la fiche « {nom} » ; fiche validée par l'utilisatrice "
+                                  "(data/fiches_validees.csv)")
             else:
                 return [], [(url, f"Nom latin {plante.nom_latin} absent de la fiche « {nom} » : aucun prix relevé")]
 
