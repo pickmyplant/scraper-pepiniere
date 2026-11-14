@@ -13,7 +13,7 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Avancement par pépinière et par lot : onglet Réservations (ne pas le recopier ici).
 - Adaptateurs : un fichier par pépinière dans `adapters/` (`NOM` et `PREFIXE` en tête) : arborescence (ARB),
   clorofila (CLO), mapepiniere (MPE), naudet (NAU), planfor (PLF), promessedefleurs (PDF, Claude B),
-  rayondeserre (RDS), verdiagarden (VER).
+  rayondeserre (RDS), truffaut (TRU : Truffaut + Arborix + Bloomique en un seul relevé), verdiagarden (VER).
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
 - Arborescence, décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
   une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.

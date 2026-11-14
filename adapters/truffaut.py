@@ -5,11 +5,16 @@ sitemap public des produits (environ 330 000 URL, mis en cache 7 jours dans cach
 le nom latin est présent dans l'adresse de la plupart des fiches plantes. Une fiche = un
 format (pot, hauteur) ; le prix et la disponibilité sont lus dans le JSON-LD Product,
 le prix barré (« au lieu de ») dans la page.
-Sont relevées les fiches « Vendu et expédié par Truffaut » et celles du vendeur marketplace Arborix
-(son propre site est fermé aux robots ; décision du 14/11/2026, note « Vendu par Arborix ») : les fiches
-des autres vendeurs marketplace (bloc « Vendu par <vendeur> ») sont écartées, ces vendeurs étant
-suivis sur leur propre site.
+Un seul relevé (préfixe TRU, pépinière « Truffaut ») couvre trois vendeurs :
+- Truffaut (« Vendu et expédié par Truffaut ») ;
+- Arborix (marketplace ; son propre site est fermé aux robots, décision du 14/11/2026) ;
+- Bloomique (marketplace ; demande de l'utilisatrice du 14/11/2026).
+Les fiches marketplace portent la note « Vendu par <vendeur> sur Truffaut (marketplace) ». Les autres
+vendeurs marketplace sont écartés (suivis sur leur propre site). Une seule ligne « Non trouvé » par
+plante, et seulement si aucun des trois vendeurs n'a de fiche (remplace les anciens relevés ARX et BLQ).
+L'index ajoute au sitemap les fiches de la page vendeur Arborix (absentes en partie du sitemap).
 """
+import collections
 import datetime as dt
 import glob
 import html
@@ -32,7 +37,8 @@ SITEMAP_INDEX = BASE + "/v6/sitemapindex.xml"
 DUREE_CACHE_JOURS = 7
 # Adresses sans plante vivante (graines exceptées : gardées, le contenant le dira)
 # Vendeurs marketplace relevés quand même (nom en minuscules contenu dans le nom du vendeur)
-VENDEURS_GARDES = ("arborix",)
+VENDEURS_GARDES = ("arborix", "bloomique")
+PAGE_ARBORIX = BASE + "/vendeurs-marketplace/arborix-plus-vert-moin-cher.html"
 EXCLUS = re.compile(r"artificiel|housse|cache-pot|poster|tableau|coussin|bougie|peluche|sticker|decor", re.I)
 
 
@@ -61,12 +67,30 @@ class Adaptateur:
         urls = []
         for sm in re.findall(r"<loc>([^<]*sitemap_produits_\d+\.xml)</loc>", self.http.get(SITEMAP_INDEX).text):
             urls += re.findall(r"<loc>([^<]+\.html)</loc>", self.http.get(sm).text)
-        self.urls = sorted(set(urls))
+        self.urls = sorted(set(urls) | set(self._fiches_arborix()))
         with open(os.path.join(config.DOSSIER_CACHE, f"index_tru_{dt.date.today():%Y-%m-%d}.json"), "w",
                   encoding="utf-8") as f:
             json.dump(self.urls, f)
         log.info("Index : %d fiches", len(self.urls))
         return self.urls
+
+    def _fiches_arborix(self):
+        """Fiches de la page vendeur Arborix (autorisée par robots.txt, environ 58 pages)."""
+        lien = re.compile(r'href="(https://www\.truffaut\.com/[^"/?#]+\.html)"')
+        try:
+            page1 = self.http.get(PAGE_ARBORIX).text
+        except Exception as e:
+            if e.__class__.__name__ == "Bloque":
+                raise
+            log.warning("Page vendeur Arborix illisible (%s) : index du sitemap seul", e.__class__.__name__)
+            return []
+        nb = max([int(x) for x in re.findall(r"\?p=(\d+)", page1)] or [1])
+        pages = [set(lien.findall(page1))]
+        for i in range(2, nb + 1):
+            pages.append(set(lien.findall(self.http.get(f"{PAGE_ARBORIX}?p={i}").text)))
+        # Liens du menu et du pied de page : présents sur presque toutes les pages
+        compte = collections.Counter(u for p in pages for u in p)
+        return [u for u, n in compte.items() if n <= max(2, nb // 4)]
 
     def candidats(self, plante):
         res = []
