@@ -1,0 +1,14 @@
+{
+ "releve": "PDF-2026-11-14-B5",
+ "pepiniere": "Promesse de Fleurs",
+ "date": "14/11/2026",
+ "par": "Claude B",
+ "plantes": [
+  "P520",
+  "P558"
+ ],
+ "nb_lignes": 3,
+ "fichier": "releves/PDF-2026-11-14-B5.tsv",
+ "branche": "claude/admiring-davinci-dr5m6u",
+ "remarques": ""
+}
