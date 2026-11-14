@@ -4,7 +4,10 @@ Méthode : la recherche du site est interdite par robots.txt. L'index des fiches
 sitemap public des produits (environ 330 000 URL, mis en cache 7 jours dans cache/) ;
 le nom latin est présent dans l'adresse de la plupart des fiches plantes. Une fiche = un
 format (pot, hauteur) ; le prix et la disponibilité sont lus dans le JSON-LD Product,
-le prix barré (« au lieu de ») et le vendeur (Truffaut ou vendeur marketplace) dans la page.
+le prix barré (« au lieu de ») dans la page.
+Seules les fiches « Vendu et expédié par Truffaut » sont relevées (décision du 14/11/2026) :
+les fiches des vendeurs marketplace (bloc « Vendu par <vendeur> ») sont écartées, ces vendeurs
+étant suivis sur leur propre site.
 """
 import datetime as dt
 import glob
@@ -117,6 +120,9 @@ class Adaptateur:
         return None
 
     def _analyser(self, plante, url, page, aujourdhui):
+        vendeur = re.search(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"', page)
+        if vendeur:
+            return [], [(url, f"Vendu par {html.unescape(vendeur.group(1))} (marketplace) : non relevé")]
         p = self._produit(page)
         h1 = _texte(" ".join(re.findall(r"<h1[^>]*>(.*?)</h1>", page, re.S)[:1]))
         if not p:
@@ -159,12 +165,6 @@ class Adaptateur:
             offre = offre[0] if offre else {}
         prix = offre.get("price")
         en_stock = str(offre.get("availability", "")).endswith("InStock")
-        vendeur = re.search(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"', page)
-        if vendeur:
-            notes.append(f"Vendu par {html.unescape(vendeur.group(1))} (marketplace Truffaut)")
-        autres = len(re.findall(r'class="seller cell"', page))
-        if autres:
-            notes.append(f"{autres} autre(s) vendeur(s) sur la fiche")
         ancien = re.search(r'data-price-amount="([\d.]+)" data-price-type="oldPrice"', page)
         if ancien and prix and float(ancien.group(1)) > float(prix):
             notes.append(f"Promotion (prix barré {prix_fr(ancien.group(1))} €)")
