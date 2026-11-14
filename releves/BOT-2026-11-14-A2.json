@@ -1,0 +1,22 @@
+{
+ "releve": "BOT-2026-11-14-A2",
+ "pepiniere": "Botanic",
+ "date": "14/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005",
+  "P006",
+  "P007",
+  "P008",
+  "P009",
+  "P010"
+ ],
+ "nb_lignes": 10,
+ "fichier": "releves/BOT-2026-11-14-A2.tsv",
+ "branche": "claude/quirky-hawking-p2wt4u",
+ "remarques": ""
+}
