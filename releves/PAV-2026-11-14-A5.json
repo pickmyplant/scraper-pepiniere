@@ -1,0 +1,13 @@
+{
+ "releve": "PAV-2026-11-14-A5",
+ "pepiniere": "Plantes Avenue",
+ "date": "14/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P317"
+ ],
+ "nb_lignes": 4,
+ "fichier": "releves/PAV-2026-11-14-A5.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}

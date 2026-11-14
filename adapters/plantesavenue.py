@@ -162,6 +162,9 @@ class Adaptateur:
     def _analyser(self, plante, url, page, aujourdhui):
         titre, car = page["nom"] or url, page["car"]
         genre, espece, var_site = car.get("Genre", ""), car.get("Espèce", ""), car.get("Variété", "")
+        # Fiche où l'épithète est rangée dans « Variété » (ex. Crithmum / maritimum) : la prendre comme espèce
+        if not espece and M.norm(var_site) == M.norm(plante.espece) and M.norm(genre) == M.norm(plante.genre):
+            espece, var_site = var_site, ""
         latin = " ".join(x for x in (genre, espece) if x)
         notes_page = []
         if not latin:
