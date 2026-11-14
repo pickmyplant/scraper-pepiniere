@@ -193,7 +193,8 @@ class Adaptateur:
         p, ariane = self._jsonld(page)
         if not p:
             return [], [(url, "Pas de données produit (JSON-LD) sur la fiche")]
-        nom = _texte(p.get("name"))
+        # « Musa’dwarf Cavendish » : l'apostrophe collée est remplacée par une espace
+        nom = re.sub(r"(?<=\w)[’'](?=\w)", " ", _texte(p.get("name")))
         if not any(M.norm(r) == M.norm(x) for x in ariane[:3] for r in RAYONS_PLANTES):
             return [], [(url, f"Hors rayon plantes (« {' > '.join(ariane[1:3])} ») : « {nom} »")]
         bloc = self._bloc_principal(page)
@@ -204,10 +205,11 @@ class Adaptateur:
             notes.append(f"Nom latin écrit « {equiv} » sur la fiche (équivalence validée)")
         if not M.latin_sur_fiche(plante, textes):
             approche = M.latin_approche(plante, textes)
-            var = M.variete_fiches(plante, " ".join(textes))
+            # Variété cherchée dans le nom du produit seulement (la description cite d'autres produits)
+            var = M.variete_fiches(plante, nom)
             if approche:
                 notes.append(f"Nom latin écrit « {approche} » sur la fiche")
-            elif M.contient(M.norm(" ".join(textes)), plante.genre) and var:
+            elif M.contient(M.norm(nom), plante.genre) and var:
                 notes.append(f"Espèce absente de la fiche (genre {plante.genre} seul) ; "
                              f"rapproché par la variété {var} de l'onglet Fiches")
             else:
@@ -237,6 +239,8 @@ class Adaptateur:
             notes.append(f"Non livrable (« {mention} »)" if not livrable else "Hors stock")
             return [Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, "", "EUR", cont,
                           "Rupture", "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, haut)], []
+        if M.norm(mention) != "en stock":
+            notes.append(f"Livraison : {mention}")
         prix = of.get("price")
         o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(prix), "EUR", cont,
                   "En stock", "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, haut)
