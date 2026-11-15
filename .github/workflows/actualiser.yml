@@ -1,12 +1,12 @@
 # Actualisation automatique des prix et des stocks, sans Claude.
-# Chaque lundi : un relevé complet par pépinière (en parallèle, une requête à la fois par site),
+# Le 1er et le 15 de chaque mois : un relevé complet par pépinière (en parallèle, une requête à la fois par site),
 # puis un seul commit sur la branche commune. La Sheet importe ensuite toute seule (menu Relevés >
 # Activer l'import automatique). À prévoir une fois : le secret BDD_EXPORT_URL (lien CSV de l'onglet Export).
 # Ce fichier doit se trouver sur la branche par défaut du dépôt pour que l'horaire fonctionne.
 name: Actualiser les offres
 on:
   schedule:
-    - cron: '17 2 * * 1'
+    - cron: '17 2 1,15 * *'
   workflow_dispatch:
     inputs:
       pepinieres:
@@ -71,9 +71,12 @@ jobs:
       - run: |
           ls nouveaux/*.json >/dev/null 2>&1 || { echo "Aucun relevé réussi."; exit 0; }
           cp nouveaux/* releves/
-          ls nouveaux/*.json | xargs -n1 basename -s .json > releves/a_importer.txt
+          # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
+          { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
+          mv liste.tmp releves/a_importer.txt
+          { echo "### Relevés publiés"; ls nouveaux/*.json | xargs -n1 basename -s .json | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
           git config user.name "Relevé automatique"
           git config user.email "actions@users.noreply.github.com"
           git add releves
-          git commit -m "Relevé automatique du $(date +%F) : $(wc -l < releves/a_importer.txt) pépinière(s)"
+          git commit -m "Relevé automatique du $(date +%F) : $(ls nouveaux/*.json | wc -l) pépinière(s)"
           git push origin "HEAD:$BRANCHE"
