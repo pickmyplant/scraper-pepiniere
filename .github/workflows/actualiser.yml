@@ -1,8 +1,12 @@
 # Actualisation automatique des prix et des stocks, sans Claude.
-# Le 1er et le 15 de chaque mois : un relevé complet par pépinière (en parallèle, une requête à la fois par site),
-# puis un seul commit sur la branche commune. La Sheet importe ensuite toute seule (menu Relevés >
-# Activer l'import automatique). À prévoir une fois : le secret BDD_EXPORT_URL (lien CSV de l'onglet Export).
-# Ce fichier doit se trouver sur la branche par défaut du dépôt pour que l'horaire fonctionne.
+# Le 1er et le 15 de chaque mois : un relevé complet par pépinière (en parallèle, une requête à la fois par site).
+#  - la plupart des sites sont relevés par les serveurs de GitHub ;
+#  - les sites qui refusent GitHub (liste MAC ci-dessous) le sont par l'ordinateur de l'utilisatrice (« runner » installé) ;
+#  - les sites trop longs sont découpés en parties (liste PARTIES) pour rester sous la limite de 6 heures.
+# Chaque groupe publie ses relevés sur la branche commune ; la Sheet les importe seule (menu Relevés >
+# Activer l'import automatique). Secret nécessaire : BDD_EXPORT_URL (lien CSV de l'onglet Export).
+# Ce fichier doit se trouver sur la branche par défaut. Il ne se déclenche que par l'horaire ou à la main,
+# jamais par une proposition extérieure (important : le dépôt est public et un ordinateur personnel y est relié).
 name: Actualiser les offres
 on:
   schedule:
@@ -20,7 +24,8 @@ jobs:
   lister:
     runs-on: ubuntu-latest
     outputs:
-      liste: ${{ steps.l.outputs.liste }}
+      github: ${{ steps.l.outputs.github }}
+      mac: ${{ steps.l.outputs.mac }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,16 +34,29 @@ jobs:
         env:
           CHOIX: ${{ github.event.inputs.pepinieres }}
         run: |
-          if [ -n "$CHOIX" ]; then noms="$CHOIX"; else noms="$(ls adapters/*.py | xargs -n1 basename -s .py | grep -v '^__')"; fi
-          echo "liste=$(printf '%s\n' $noms | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json, os
+          PARTIES = {"truffaut": 3, "botanic": 2}
+          MAC = {"verdiagarden", "promessedefleurs"}
+          noms = os.environ.get("CHOIX", "").split() or sorted(
+              os.path.basename(f)[:-3] for f in glob.glob("adapters/*.py") if not os.path.basename(f).startswith("__"))
+          gh, mac = [], []
+          for n in noms:
+              total = PARTIES.get(n, 1)
+              for p in range(1, total + 1):
+                  (mac if n in MAC else gh).append({"pepiniere": n, "partie": p, "total": total})
+          print("github=" + json.dumps(gh))
+          print("mac=" + json.dumps(mac))
+          PY
   releve:
     needs: lister
+    if: needs.lister.outputs.github != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:
       fail-fast: false
       matrix:
-        pepiniere: ${{ fromJson(needs.lister.outputs.liste) }}
+        include: ${{ fromJson(needs.lister.outputs.github) }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,15 +67,40 @@ jobs:
       - run: pip install requests
       - env:
           BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
-        run: outils/actualiser.sh "${{ matrix.pepiniere }}"
+        run: outils/actualiser.sh "${{ matrix.pepiniere }}" "${{ matrix.partie }}" "${{ matrix.total }}"
       - uses: actions/upload-artifact@v4
         with:
-          name: releve-${{ matrix.pepiniere }}
+          name: releve-${{ matrix.pepiniere }}-${{ matrix.partie }}
+          path: releves/*-AUTO*
+          if-no-files-found: error
+  releve_mac:
+    needs: lister
+    if: needs.lister.outputs.mac != '[]'
+    runs-on: [self-hosted, macOS]
+    timeout-minutes: 900
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include: ${{ fromJson(needs.lister.outputs.mac) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - env:
+          BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
+        run: |
+          python3 -m venv .venv-releve && . .venv-releve/bin/activate && pip install -q requests
+          rm -f releves/*-AUTO*
+          caffeinate -i outils/actualiser.sh "${{ matrix.pepiniere }}" "${{ matrix.partie }}" "${{ matrix.total }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: releve-${{ matrix.pepiniere }}-${{ matrix.partie }}
           path: releves/*-AUTO*
           if-no-files-found: error
   publier:
-    needs: releve
-    if: always()
+    needs: [lister, releve]
+    if: always() && needs.lister.result == 'success' && needs.lister.outputs.github != '[]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -70,13 +113,48 @@ jobs:
           merge-multiple: true
       - run: |
           ls nouveaux/*.json >/dev/null 2>&1 || { echo "Aucun relevé réussi."; exit 0; }
-          cp nouveaux/* releves/
-          # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
-          { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
-          mv liste.tmp releves/a_importer.txt
-          { echo "### Relevés publiés"; ls nouveaux/*.json | xargs -n1 basename -s .json | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
           git config user.name "Relevé automatique"
           git config user.email "actions@users.noreply.github.com"
-          git add releves
-          git commit -m "Relevé automatique du $(date +%F) : $(ls nouveaux/*.json | wc -l) pépinière(s)"
-          git push origin "HEAD:$BRANCHE"
+          for essai in 1 2 3; do
+            git fetch -q origin "$BRANCHE" && git reset -q --hard "origin/$BRANCHE"
+            cp nouveaux/* releves/
+            # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
+            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
+            mv liste.tmp releves/a_importer.txt
+            git add releves
+            if git diff --cached --quiet; then echo "Rien de nouveau à publier."; break; fi
+            git commit -q -m "Relevé automatique du $(date +%F) : $(ls nouveaux/*.json | wc -l | tr -d ' ') relevé(s)"
+            git push -q origin "HEAD:$BRANCHE" && break
+            sleep 20
+          done
+          { echo "### Relevés publiés"; ls nouveaux/*.json | xargs -n1 basename -s .json | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
+  publier_mac:
+    needs: [lister, releve_mac]
+    if: always() && needs.lister.result == 'success' && needs.lister.outputs.mac != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - uses: actions/download-artifact@v4
+        with:
+          path: nouveaux
+          pattern: releve-*
+          merge-multiple: true
+      - run: |
+          ls nouveaux/*.json >/dev/null 2>&1 || { echo "Aucun relevé réussi."; exit 0; }
+          git config user.name "Relevé automatique"
+          git config user.email "actions@users.noreply.github.com"
+          for essai in 1 2 3; do
+            git fetch -q origin "$BRANCHE" && git reset -q --hard "origin/$BRANCHE"
+            cp nouveaux/* releves/
+            # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
+            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
+            mv liste.tmp releves/a_importer.txt
+            git add releves
+            if git diff --cached --quiet; then echo "Rien de nouveau à publier."; break; fi
+            git commit -q -m "Relevé automatique du $(date +%F) : $(ls nouveaux/*.json | wc -l | tr -d ' ') relevé(s)"
+            git push -q origin "HEAD:$BRANCHE" && break
+            sleep 20
+          done
+          { echo "### Relevés publiés"; ls nouveaux/*.json | xargs -n1 basename -s .json | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
