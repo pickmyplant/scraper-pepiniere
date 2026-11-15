@@ -1,0 +1,815 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille	Flame Ruby	La Maison du Bananier	https://www.lamaisondubananier.com/les-passiflores-fruits-de-la-passion/777-passiflora-edulis-flame-ruby-passiflore-fruit-de-la-passion.html	17,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Passiflora edulis 'Flame Ruby'	
+P001	Grenadille	Panama Gold	La Maison du Bananier	https://www.lamaisondubananier.com/les-passiflores-fruits-de-la-passion/779-passiflora-edulis-panama-gold-passiflore-fruit-de-la-pas.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Passiflora edulis 'Panama Gold'	
+P001	Grenadille	Flavicarpa	La Maison du Bananier	https://www.lamaisondubananier.com/les-passiflores-fruits-de-la-passion/782-passiflora-edulis-x-flavicarpa-fruit-de-la-passion-maracuya.html	17,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Passiflora edulis 'Flavicarpa'	
+P002	Barbadine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Passiflora quadrangularis	
+P003	Avocatier	Ashdot	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/1382-2090-persea-americana-ashdot-17-de-semi.html		EUR	Pot 7 L	Rupture		15/11/2026		Actif	Variété trouvée : ashdot 17 (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : ashdot 17	Persea americana 'Ashdot'	
+P003	Avocatier	Tziffrin	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/1393-2106-persea-americana-tziffrin-99-de-semi.html		EUR	Pot 7 L	Rupture		15/11/2026		Actif	Variété trouvée : Tziffrin 99 (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Tziffrin 99	Persea americana 'Tziffrin'	
+P003	Avocatier	Mexicola	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/157-2843-persea-var-drymifolia-mexicola-grande-avocatier-mexicain-a.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Mexicola'	
+P003	Avocatier	Bacon	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/152-persea-americana-var-bacon-avocatier-groupe-b.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Bacon'	
+P003	Avocatier	Ettinger	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/153-persea-americana-var-ettinger-avocatier-groupe-b.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Ettinger'	
+P003	Avocatier	Hass	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/155-persea-americana-var-hass-avocatier-groupe-a.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Hass'	
+P003	Avocatier	Pinkerton	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/160-persea-americana-var-pinkerton-avocatier-groupe-a.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Pinkerton'	
+P003	Avocatier	Jimenez	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/162-persea-americana-var-jimenez-avocatier-groupe-a.html		EUR	Pot 7 L	Rupture		15/11/2026		Actif	Variété trouvée : Jimenez (absente de l'onglet Fiches) ; Aucun format en stock	Persea americana 'Jimenez'	
+P003	Avocatier	Zutano	La Maison du Bananier	https://www.lamaisondubananier.com/les-avocatiers-persea/163-persea-americana-var-zutano-avocatier-groupe-b.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Persea americana 'Zutano'	
+P004	Bananier	Red Dacca	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-a-fruits-comestibles/1236-2980-musa-acuminata-figue-rose-naine-red-dacca-bananier-fruitier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Musa acuminata 'Red Dacca'	
+P004	Bananier	Williams	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-a-fruits-comestibles/1376-2274-musa-acuminata-williams-bananier-fruitier.html	33,80	EUR	Pot 4 L	En stock		15/11/2026		Actif		Musa acuminata 'Williams'	
+P004	Bananier	Gros Michel	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-a-fruits-comestibles/1455-2865-musa-gros-michel-bananier-fruitier.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Gros Michel de l'onglet Fiches ; Aucun format en stock	Musa acuminata 'Gros Michel'	
+P004	Bananier	Zebrina	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-pour-interieur-veranda-serre-chaude/1456-2375-musa-sumatrana-zebrina.html	25,30	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Zebrina de l'onglet Fiches	Musa acuminata 'Zebrina'	
+P004	Bananier	Dwarf Orinoco	La Maison du Bananier	https://www.lamaisondubananier.com/climat-doux-veranda-serre/1130-musa-dwarf-orinoco-bananier-fruitier-nain.html	29,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Dwarf Orinoco de l'onglet Fiches	Musa acuminata 'Dwarf Orinoco'	40 - 60 cm
+P004	Bananier	Rajapuri	La Maison du Bananier	https://www.lamaisondubananier.com/climat-doux-veranda-serre/708-musa-rajapuri-india-banane-pomme-bananier-fruitier.html	26,40	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Rajapuri de l'onglet Fiches	Musa acuminata 'Rajapuri'	
+P004	Bananier	Zebrina	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-ornementaux/714-musa-sumatrana-x-cross-zebrina-x-cross-bananier.html		EUR	Pot 4 L	Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Zebrina de l'onglet Fiches ; Aucun format en stock	Musa acuminata 'Zebrina'	
+P005	Manguier	Glenn	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/1179-mangifera-indica-glenn-manguier-greffe-sur-gomera.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Glenn (absente de l'onglet Fiches) ; Aucun format en stock	Mangifera indica 'Glenn'	
+P005	Manguier	Gomera Manguier de semi	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/634-mangifera-indica-gomera-manguier-de-semi.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Gomera Manguier de semi (absente de l'onglet Fiches) ; Aucun format en stock	Mangifera indica 'Gomera Manguier de semi'	
+P005	Manguier	Irwin	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/635-mangifera-indica-irwin-manguier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Irwin (absente de l'onglet Fiches) ; Aucun format en stock	Mangifera indica 'Irwin'	
+P005	Manguier	Keitt	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/636-mangifera-indica-keitt-manguier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Mangifera indica 'Keitt'	
+P005	Manguier	Nam dok Maï	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/637-mangifera-indica-nam-dok-mai-manguier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Nam dok Maï (absente de l'onglet Fiches) ; Aucun format en stock	Mangifera indica 'Nam dok Maï'	
+P005	Manguier	Kent	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/638-mangifera-indica-kent-manguier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Mangifera indica 'Kent'	
+P005	Manguier	Osteen	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/639-mangifera-indica-osteen-manguier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Mangifera indica 'Osteen'	
+P005	Manguier	Tommy Atkins	La Maison du Bananier	https://www.lamaisondubananier.com/les-manguiers/642-mangifera-indica-tommy-atkins-manguier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Mangifera indica 'Tommy Atkins'	
+P006	Corète du Japon	Golden Guinea	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1991-4599-kerria-japonica-golden-guinea.html	18,50	EUR	Pot 3 L	En stock		15/11/2026		Actif		Kerria japonica 'Golden Guinea'	
+P007	Pommier du Japon	Evereste	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1999-4613-malus-perpetu.html	21,25	EUR	Pot 3 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Malus seul) ; rapproché par la variété Evereste de l'onglet Fiches	Malus × floribunda 'Evereste'	40 - 60 cm
+P007	Pommier du Japon	Evereste	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1999-4613-malus-perpetu.html	99,50	EUR	Pot 20 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Malus seul) ; rapproché par la variété Evereste de l'onglet Fiches	Malus × floribunda 'Evereste'	125 - 150 cm
+P008	Aglaonema		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/les-zingibers-alpinia-gingembre/78-alpinia-zerumbet-variegata.html	14,30	EUR	Pot 2 L	En stock		15/11/2026		Actif		Alpinia zerumbet 'Variegata'	
+P011	Lis araignée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-cannas-les-hedychiums/215-3247-canna-indica.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : indica	Canna indica	
+P013	Balisier	Jaune	La Maison du Bananier	https://www.lamaisondubananier.com/les-cannas-les-hedychiums/217-canna-x-jaune.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Canna seul) ; rapproché par la variété Jaune de l'onglet Fiches ; Aucun format en stock	Canna indica 'Jaune'	
+P014	Pervenche de Madagascar		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ficus lyrata	
+P016	Dieffenbachia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dieffenbachia seguine	
+P017	Cordyline	Kiwi	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1694-3435-cordyline-australis-kiwi-dazzler.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Cordyline seul) ; rapproché par la variété Kiwi de l'onglet Fiches	Cordyline fruticosa 'Kiwi'	
+P018	Taro	Coal Miner	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/1058-colocasia-coal-miner.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Colocasia seul) ; rapproché par la variété Coal Miner de l'onglet Fiches ; Aucun format en stock	Colocasia esculenta 'Coal Miner'	
+P018	Taro	Kona Koffee	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/1062-colocasia-esculenta-kona-koffee.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Kona Koffee (absente de l'onglet Fiches) ; Aucun format en stock	Colocasia esculenta 'Kona Koffee'	
+P018	Taro	Mojito	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/1065-colocasia-mojito.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Colocasia seul) ; rapproché par la variété Mojito de l'onglet Fiches ; Aucun format en stock	Colocasia esculenta 'Mojito'	
+P018	Taro	Pharaoh's Mask	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/1068-colocasia-cophama-pharaoh-s-maskR-pharaon.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Colocasia seul) ; rapproché par la variété Pharaoh's Mask de l'onglet Fiches ; Aucun format en stock	Colocasia esculenta 'Pharaoh's Mask'	
+P018	Taro	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/334-colocasia-antiquorum.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Colocasia esculenta	
+P018	Taro	Blue Hawaii	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/336-colocasia-esculenta-blue-hawaii.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : blue hawaii (absente de l'onglet Fiches) ; Aucun format en stock	Colocasia esculenta 'Blue Hawaii'	
+P018	Taro	Burgundi	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/337-colocasia-antiquorum-burgundi.html	16,50	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : burgundi (absente de l'onglet Fiches)	Colocasia esculenta 'Burgundi'	
+P018	Taro	Madeira	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/353-colocasia-madeira-taro-oreille-d-elephant.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Colocasia seul) ; rapproché par la variété Madeira de l'onglet Fiches ; Aucun format en stock	Colocasia esculenta 'Madeira'	
+P018	Taro	Metalica	La Maison du Bananier	https://www.lamaisondubananier.com/les-colocasias/354-colocasia-esculenta-metalica.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Variété trouvée : metalica (absente de l'onglet Fiches) ; Aucun format en stock	Colocasia esculenta 'Metalica'	
+P019	Croton		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Codiaeum variegatum	
+P020	Plante araignée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Liriope spicata	
+P025	Coléus		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques-ornementales/920-strelitzia-reginae-oiseau-du-paradis.html	19,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : reginae	Strelitzia reginae	
+P028	Syngonium		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Zamioculcas zamiifolia	
+P032	Gingembre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dracaena draco	
+P035	Hibiscus de Chine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/826-plumeria-rubra-frangipanier.html	18,70	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : rubra	Plumeria rubra	
+P040	Goyavier fraise	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-goyaviers-psidium/497-psidium-cattleianum-var-lucidum-goyave-jaune.html	15,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : lucidum	Psidium cattleyanum	
+P041	Goyavier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-goyaviers-psidium/496-psidium-guajava-goyavier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Psidium guajava	
+P041	Goyavier	Fresa	La Maison du Bananier	https://www.lamaisondubananier.com/les-goyaviers-psidium/499-psidium-guajava-fresa-goyave.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Fresa (absente de l'onglet Fiches) ; Aucun format en stock	Psidium guajava 'Fresa'	
+P042	Palmier chou		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques-ornementales/1436-3665-strelitzia-nicolai-oiseau-du-paradis-blanc.html	19,80	EUR	Pot 2 L	En stock		15/11/2026		Actif		Strelitzia nicolai	40 - 60 cm
+P043	Strelitzia géant	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques-ornementales/1436-3665-strelitzia-nicolai-oiseau-du-paradis-blanc.html	33,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Strelitzia nicolai	80 - 100 cm
+P044	Yucca géant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Yucca gigantea	
+P045	Santoline petit-cyprès		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Santolina chamaecyparissus	
+P046	Capucine naine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes	Whit III	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-de-haies/569-lagerstroemia-indica-pink-velours-lilas-des-indes.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Pink velours	Lagerstroemia indica 'Whit III'	
+P047	Lilas des Indes	Rose	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-de-haies/575-lagerstroemia-indica-rosea-lilas-des-indes.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Rosea (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Rosea	Lagerstroemia indica 'Rose'	
+P047	Lilas des Indes	Indyfus	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1559-3804-lagerstroemia-indica-fuchsia-d-ete-lilas-des-indes.html		EUR	Conteneur	Rupture		15/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Indyfus'	
+P048	Asparagus plumeux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue	Royal Robe	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/1747-3641-solanum-rantonnetii-royal-robe.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif		Lycianthes rantonnetii 'Royal Robe'	
+P052	Gattilier	Latifolia	La Maison du Bananier	https://www.lamaisondubananier.com/les-poivriers/973-vitex-agnus-castus-latifolia-gattilier-poivre-des-moines.html	15,80	EUR	Pot 3 L	En stock		15/11/2026		Actif		Vitex agnus-castus 'Latifolia'	40 - 60 cm
+P053	Lilas de Perse	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/646-melia-azedarach-lilas-de-perse-margousier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Azedarach	Melia azedarach	
+P054	Polygala à feuilles de myrte		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Polygala myrtifolia	
+P055	Frangipanier blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/192-caesalpinia-gilliesii-oiseau-de-paradis-petit-flamboyant.html		EUR	Pot 2 L	Rupture		15/11/2026		Actif	Aucun format en stock	Erythrostemon gilliesii	
+P058	Cordyline	Torbay Dazzler	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1467-2416-cordyline-australis-torbay-dazzler.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Cordyline australis 'Torbay Dazzler'	
+P058	Cordyline	Can Can	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1692-3433-cordyline-x-banskii-can-can.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Cordyline seul) ; rapproché par la variété Can Can de l'onglet Fiches	Cordyline australis 'Can Can'	
+P058	Cordyline	Coral	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1693-3434-cordyline-australis-coral-.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Coral (absente de l'onglet Fiches)	Cordyline australis 'Coral'	
+P058	Cordyline	Dazzler	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1694-3435-cordyline-australis-kiwi-dazzler.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Kiwi dazzler (absente de l'onglet Fiches) ; Vendu sous : Kiwi dazzler	Cordyline australis 'Dazzler'	
+P058	Cordyline	Peko	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1696-3437-cordyline-australis-peko.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : peko (absente de l'onglet Fiches)	Cordyline australis 'Peko'	
+P058	Cordyline	Red Comet	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1698-3440-cordyline-australis-red-comet.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Cordyline australis 'Red Comet'	
+P058	Cordyline	Renegade Tana	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1699-3441-cordyline-australis-renegade-tana-.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Renegade Tana (absente de l'onglet Fiches)	Cordyline australis 'Renegade Tana'	
+P058	Cordyline	Southern splendour	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1700-3442-cordyline-australis-southern-splendour-.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Southern splendour (absente de l'onglet Fiches)	Cordyline australis 'Southern splendour'	
+P058	Cordyline	Cherry Sensation	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/1701-3443-cordyline-australis-cherry-sensation.html	19,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Cordyline australis 'Cherry Sensation'	
+P058	Cordyline	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/364-cordyline-australis.html	14,30	EUR	Pot 3 L	En stock		15/11/2026		Actif	Vendu sous : Australis	Cordyline australis	
+P058	Cordyline	Red Star	La Maison du Bananier	https://www.lamaisondubananier.com/les-cordylines/365-cordyline-australis-red-star-.html	15,40	EUR	Pot 4 L	En stock		15/11/2026		Actif		Cordyline australis 'Red Star'	
+P059	Lippia	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1952-4558-lippia-nodiflora.html	12,75	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : nodiflora	Phyla nodiflora	
+P060	Jasmin d'Arabie	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/555-jasminum-sambac-jasmin-d-arabie.html	18,70	EUR	Pot 2 L	En stock		15/11/2026		Actif		Jasminum sambac	40 - 60 cm
+P061	Wédélia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agapanthus praecox	
+P064	Gaura	Whirling Butterflies	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/485-gaura-blanche-lindheimeri-whirling-butterflies-.html	7,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Oenothera lindheimeri 'Whirling Butterflies'	
+P064	Gaura	Gambit Variegata Rose	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-feuillage-decoratif/1717-3484-gaura-lindheimeri-gambit-variegata-rose-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif	Variété trouvée : Gambit Variegata Rose (absente de l'onglet Fiches)	Oenothera lindheimeri 'Gambit Variegata Rose'	
+P064	Gaura	Steffi Blush Pink	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-feuillage-decoratif/1718-3485-gaura-lindheimeri-steffi-blush-pink-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif	Variété trouvée : steffi blush pink (absente de l'onglet Fiches)	Oenothera lindheimeri 'Steffi Blush Pink'	
+P064	Gaura	Steffi dark	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-feuillage-decoratif/1719-3486-gaura-lindheimeri-steffi-dark-rose-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif	Variété trouvée : Steffi dark (absente de l'onglet Fiches)	Oenothera lindheimeri 'Steffi dark'	
+P064	Gaura	Blanc	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-feuillage-decoratif/1720-3487-gaura-lindheimeri-steffi-white-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Oenothera lindheimeri 'Blanc'	
+P064	Gaura	Belleza Dark Pink	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-feuillage-decoratif/1793-3791-gaura-lindheimeri-belleza-dark-pink-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Oenothera lindheimeri 'Belleza Dark Pink'	
+P064	Gaura	Siskiyou Pink	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-fleurs/1500-3996-gaura-lindheimeri-siskiyou-pink.html	7,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Oenothera lindheimeri 'Siskiyou Pink'	
+P065	Petit flamboyant	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/1041-caesalpina-pulcherrima-petit-flamboyant.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Caesalpinia pulcherrima	
+P066	Flamboyant	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/390-flamboyant-royal-delonix-regia.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : royal	Delonix regia	
+P067	Papyrus	Nil	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/1702-3444-papyrus-du-nil-cyperus-papyrus.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Du Nil (absente de l'onglet Fiches)	Cyperus papyrus 'Nil'	
+P068	Pin de Norfolk		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Araucaria heterophylla	
+P069	Immortelle d'Italie	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-legumes-perpetuels/518-helichrysum-italicum-faux-curry-immortelle-d-italie.html	9,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Helichrysum italicum	
+P070	Belle-de-nuit		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat	Meiwa	La Maison du Bananier	https://www.lamaisondubananier.com/les-kumquats/566-fortunella-crassifolia-meiwa-kumquat-rond.html	44,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Taille : Porte-greffe Fa5®	Citrus japonica 'Meiwa'	
+P071	Kumquat	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/568-citrus-fortunella-margarita-kumquat-ovale.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock	Citrus japonica	
+P072	Verveine citronnelle	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/960-verveine-citronnelle-aloysia-citrodora.html	10,60	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Aloysia citrodora	
+P073	Poireau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers-and-co/383-cycas-revoluta-sagoutier-du-japon.html		EUR	Pot 15 L	Rupture		15/11/2026		Actif	Aucun format en stock	Cycas revoluta	
+P076	Épiaire de Byzance		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Stachys byzantina	
+P077	Papayer	Maradol	La Maison du Bananier	https://www.lamaisondubananier.com/les-fruitiers-exotiques/1741-3615-papayer-carica-papaya-maradol.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif		Carica papaya 'Maradol'	
+P078	Séné de Noël	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/245-cassia-bicapsularis-cassia-d-hiver.html	16,50	EUR	Pot 4 L	En stock		15/11/2026		Actif		Senna bicapsularis	
+P079	Chêne vert à glands doux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tamarix africana	
+P082	Arganier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-fruitiers-exotiques/1175-argan-argania-spinosa-arganier.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock	Sideroxylon spinosum	
+P083	Orpin de Nice		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose	Hardy Red	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1775-3733-nerium-oleander-hardy-red-laurier-fleur.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Nerium oleander 'Hardy Red'	
+P084	Laurier-rose	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1430-3539-nerium-oleander-laurier-fleur-blanc.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Nerium oleander	
+P084	Laurier-rose	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1431-3541-nerium-oleander-laurier-fleur-rose.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Nerium oleander	
+P084	Laurier-rose	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1778-3737-laurier-fleur-villa-romaine-nerium-oleander.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Nerium oleander	
+P085	Mûrier blanc	Fruitless	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1832-4151-morus-kagayamae-fruitless-murier-platane-sterile.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Morus seul) ; rapproché par la variété Fruitless de l'onglet Fiches ; Aucun format en stock	Morus alba 'Fruitless'	
+P085	Mûrier blanc	Giant Fruit	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-fruitiers/1126-morus-alba-giant-fruit-murier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Morus alba 'Giant Fruit'	
+P085	Mûrier blanc	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/670-murier-a-fruits-morus-alba-milanowek-.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : à fruits	Morus alba	40 - 60 cm
+P086	Palmier nain	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/271-palmier-nain-chamaerops-humilis.html	49,01	EUR	Pot 7 L	En stock		15/11/2026		Actif	Vendu sous : humilis	Chamaerops humilis	50 - 60 cm
+P087	Canne de Provence	Versicolor	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1476-2441-arundo-donax-versicolor-canne-de-provence.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Variété trouvée : versicolor (canne de provence) (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : versicolor (canne de provence)	Arundo donax 'Versicolor'	
+P088	Persil		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-fruitiers-exotiques/232-ceratonia-siliqua-caroubier.html	38,50	EUR		En stock		15/11/2026		Actif	Format non reconnu : « 6 litres »	Ceratonia siliqua	100 - 150 cm
+P090	Caroubier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-fruitiers-exotiques/232-ceratonia-siliqua-caroubier.html	61,60	EUR	Pot 10 L	En stock		15/11/2026		Actif		Ceratonia siliqua	
+P091	Oreilles de lapin		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Opuntia microdasys	
+P092	Palmier dattier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier	Mollar de Elche	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/864-punica-granatum-mollar-de-elche-grenadier-a-fruits.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Punica granatum 'Mollar de Elche'	
+P095	Grenadier	Fina tendral	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/865-punica-granatum-fina-tendral-grenadier-a-fruits.html	15,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Fina tendral (absente de l'onglet Fiches)	Punica granatum 'Fina tendral'	40 - 60 cm
+P095	Grenadier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/866-grenadier-a-fruits-punica-granatum-provence-.html	15,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : à fruits	Punica granatum	
+P095	Grenadier	Wonderful	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/867-punica-granatum-wonderful-grenadier-a-fruits.html	14,80	EUR	Pot 2 L	En stock		15/11/2026		Actif		Punica granatum 'Wonderful'	
+P096	Sauge officinale		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salvia officinalis	
+P097	Géranium rosat	Graveolens	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/488-pelargonium-graveolens-lady-plymouth-geranium-menthe-poivree.html		EUR	Pot 1 L	Rupture		15/11/2026		Actif	Aucun format en stock	Pelargonium graveolens 'Graveolens'	
+P098	Aeonium arborescent	Atropurpureum	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers-and-co/1189-1847-aeonium-arboreum-atropurpureum.html	13,20	EUR	Godet 9 cm	En stock		15/11/2026		Actif		Aeonium arboreum 'Atropurpureum'	
+P099	Liane de Madère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloe × delaetii	
+P101	Griffe de sorcière		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carpobrotus edulis	
+P102	Arroche halime		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Atriplex halimus	
+P103	Palmier royal	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/1645-3182-roystonea-regia-palmier-royal.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : regia	Roystonea regia	
+P104	Liane griffe de chat		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dolichandra unguis-cati	
+P105	Kalanchoé de Daigremont	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-d-interieur/1734-3555-kalanchoe-daigremontiana.html	14,29	EUR	Pot 2 L	En stock		15/11/2026		Actif		Kalanchoe daigremontiana	
+P106	Séné d'Argentine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Senna corymbosa	
+P107	Chêne d'argent		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Grevillea robusta	
+P108	Armoise arborescente		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Artemisia arborescens	
+P109	Olivier	Cailletier	La Maison du Bananier	https://www.lamaisondubananier.com/les-oliviers/745-olea-cailletier-olivier-a-fruit.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif		Olea europaea 'Cailletier'	40 - 60 cm
+P109	Olivier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-oliviers/1518-3716-olivier-a-fruit-olea-negrette-.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : à fruit	Olea europaea	40 - 60 cm
+P109	Olivier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-oliviers/1748-3652-olivier-a-fruit-olea-ascolana-.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : à fruit	Olea europaea	60 - 80 cm
+P109	Olivier	Broutignan	La Maison du Bananier	https://www.lamaisondubananier.com/les-oliviers/1752-3690-olea-broutignan-olivier-a-fruit.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif		Olea europaea 'Broutignan'	40 - 60 cm
+P109	Olivier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/1771-3717-olivier-a-fruit-olea-oliviere-.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : à fruit	Olea europaea	40 - 60 cm
+P110	Thé des bois		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Gaultheria procumbens	
+P111	Chèvrefeuille arbustif		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lonicera ligustrina	
+P112	Andromède du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pieris japonica	
+P113	Sapin d'Espagne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Abies pinsapo	
+P114	Muscari d'Arménie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Muscari armeniacum	
+P115	Laurier-sauce		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Laurus nobilis	
+P116	Laurier-cerise		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Prunus laurocerasus	
+P117	Laurier-tin		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Viburnum tinus	
+P118	Bruyère de Darley	Furzey	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1977-4582-erica-darleyensis-furzey.html	13,00	EUR	Pot 2 L	En stock		15/11/2026		Actif		Erica × darleyensis 'Furzey'	
+P119	Bruyère des neiges		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Erica carnea	
+P120	Mahonia à feuilles de houx	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/612-mahonia-aquifolium-mahonia-faux-houx.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : aquifolium	Berberis aquifolium	
+P121	Fittonia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Fittonia albivenis	
+P122	Filaire à feuilles étroites		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phillyrea angustifolia	
+P123	Cognassier du Japon	Nivalis	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/2091-4385-chaenomeles-speciosa-nivalis.html	20,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Chaenomeles speciosa 'Nivalis'	
+P124	Pétasite hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Petasites hybridus	
+P125	Germandrée arbustive		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Teucrium fruticans	
+P126	Argousier	Pollmix	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/112-hippophae-rhamnoides-pollmix-argousier-male.html	22,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Pollmix'	40 - 60 cm
+P126	Argousier	Eva	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/1405-3693-argousier-femelle-eva-hippophae-rhamnoides.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Eva'	40 - 60 cm
+P126	Argousier	Friesdorfer Orange	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/1406-3695-argousier-autofertile-friesdorfer-hippophae-rhamnoides.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : autofertile Friesdorfer (absente de l'onglet Fiches) ; Vendu sous : autofertile Friesdorfer	Hippophae rhamnoides 'Friesdorfer Orange'	40 - 60 cm
+P126	Argousier	Frugana	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/1574-3694-argousier-femelle-frugana-hippophae-rhamnoides.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Frugana'	40 - 60 cm
+P126	Argousier	Romeo	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/1753-3698-argousier-male-romeo-hippophae-rhamnoides.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Romeo'	40 - 60 cm
+P126	Argousier	Hergo	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/110-argousier-femelle-hergo-hippophae-rhamnoides.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Hergo'	40 - 60 cm
+P126	Argousier	Hergo	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/110-argousier-femelle-hergo-hippophae-rhamnoides.html	20,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Hippophae rhamnoides 'Hergo'	40 - 60 cm
+P126	Argousier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-argousiers-hippophae/111-hippophae-rhamnoides-argousier-male.html	19,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Hippophae rhamnoides	40 - 60 cm
+P127	Osmanthe de Burkwood	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1515-4051-osmanthus-burkwoodii.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Osmanthus × burkwoodii	
+P128	Prunellier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pruniers/1880-4363-prunus-spinosa-prunellier-3599040131470.html	11,50	EUR	Pot 3 L	En stock		15/11/2026		Actif		Prunus spinosa	30 - 40 cm
+P129	Coronille de Valence	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/nos-plantes/1774-3732-coronilla-valentina-glauca-coronille-glauque.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : Glauca	Coronilla valentina	
+P130	Buis commun		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Buxus sempervirens	
+P131	Rhododendron de Corée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rhododendron mucronulatum	
+P132	Mimosa d'hiver		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acacia dealbata	
+P133	Chalef d'Ebbinge	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/410-elaeagnus-x-ebbingei-chalef-de-ebbing.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : x ebbingei	Elaeagnus × submacrophylla	
+P134	Arbre de Judée du Yunnan		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cercis glabra	
+P135	Bambou sacré	Gulf Stream	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/725-nandina-domestica-gulf-stream.html		EUR	Pot 2 L	Rupture		15/11/2026		Actif	Aucun format en stock	Nandina domestica 'Gulf Stream'	
+P135	Bambou sacré	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/726-nandina-domestica-bambou-sacre.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : domestica	Nandina domestica	
+P135	Bambou sacré	Fire Power	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/727-nandina-domestica-fire-power-bambou-sacre-nain.html	14,91	EUR	Pot 2 L	En stock		15/11/2026		Actif		Nandina domestica 'Fire Power'	
+P135	Bambou sacré	Richmond	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1782-3749-nandina-domestica-richmond-purpurea.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Richmond Purpurea (absente de l'onglet Fiches) ; Vendu sous : Richmond Purpurea	Nandina domestica 'Richmond'	
+P136	Euphorbe characias		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Euphorbia characias	
+P137	Aralia du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/103-fatsia-japonica-aralia-japonica.html		EUR	Pot 3 à 4 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : japonica	Fatsia japonica	
+P137	Aralia du Japon	Spider's Web	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/434-fatsia-japonica-spider-web-aralia-toile-d-araignee-.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Fatsia japonica 'Spider's Web'	
+P138	Callitriche des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Callitriche palustris	
+P139	Élodée du Canada		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Elodea canadensis	
+P140	Pesse d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hippuris vulgaris	
+P141	Hottonie des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hottonia palustris	
+P142	Myriophylle verticillé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Myriophyllum verticillatum	
+P143	Potamot crépu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Potamogeton crispus	
+P144	Renoncule aquatique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ranunculus aquatilis	
+P145	Petite lentille d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lemna minor	
+P146	Hydrocharis		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hydrocharis morsus-ranae	
+P147	Stratiote faux-aloès		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Stratiotes aloides	
+P148	Châtaigne d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Trapa natans	
+P149	Azolla		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Azolla caroliniana	
+P150	Jacinthe d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pontederia crassipes	
+P151	Laitue d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pistia stratiotes	
+P152	Salvinie nageante		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salvinia natans	
+P153	Aponogeton		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aponogeton distachyos	
+P154	Lotus jaune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nelumbo lutea	
+P155	Lotus sacré		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nelumbo nucifera	
+P156	Nymphéa nain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nymphaea tetragona	
+P157	Nénuphar jaune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nuphar lutea	
+P158	Nymphéa hybride rustique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides rustiques	
+P159	Faux nénuphar		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nymphoides peltata	
+P160	Potamot nageant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Potamogeton natans	
+P161	Acore odorant	Variegatus	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1944-4555-acorus-gramineus-variegatus.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Acorus seul) ; rapproché par la variété Variegatus de l'onglet Fiches	Acorus calamus 'Variegatus'	
+P162	Acore graminée	Ogon	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1902-4403-acorus-gramineus-ogon.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif		Acorus gramineus 'Ogon'	
+P162	Acore graminée	Variegatus	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1944-4555-acorus-gramineus-variegatus.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif		Acorus gramineus 'Variegatus'	
+P163	Plantain d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alisma plantago-aquatica	
+P164	Jonc fleuri		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Butomus umbellatus	
+P165	Populage des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Caltha palustris	
+P166	Laîche raide dorée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carex elata	
+P167	Laîche palmier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carex muskingumensis	
+P168	Laîche du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carex morrowii	
+P169	Laîche pendante		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carex pendula	
+P170	Laîche des rives		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carex riparia	
+P171	Souchet long		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cyperus longus	
+P172	Glycérie aquatique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Glyceria maxima	
+P173	Gunnera		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Gunnera manicata	
+P174	Iris lisse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris laevigata	
+P175	Iris des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris pseudacorus	
+P176	Iris de Sibérie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris sibirica	
+P177	Lysichiton jaune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lysichiton americanus	
+P178	Lysichiton blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lysichiton camtschatcensis	
+P179	Menthe aquatique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Mentha aquatica	
+P180	Trèfle d'eau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Menyanthes trifoliata	
+P181	Myosotis des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Myosotis scorpioides	
+P182	Orontium		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Orontium aquaticum	
+P183	Roseau commun		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phragmites australis	
+P184	Pontédérie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pontederia cordata	
+P185	Sagittaire du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sagittaria trifolia	
+P186	Thalia	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1464-3241-thalia-dealbata.html	18,70	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : dealbata	Thalia dealbata	
+P187	Massette à larges feuilles		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Typha latifolia	
+P188	Astilbe de Chine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Astilbe chinensis	
+P189	Astilboides	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-grand-gros-feuillage/149-astilboides-tabularis.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Tabularis	Astilboides tabularis	
+P190	Actée à grappes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Actaea racemosa	
+P191	Actée simple		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Actaea simplex	
+P192	Euphorbe des marais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Euphorbia palustris	
+P193	Reine-des-prés rouge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Filipendula rubra	
+P194	Osmonde royale		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Osmunda regalis	
+P195	Miscanthus	Purple Fall	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1811-4023-miscanthus-sinensis-purple-fall-.html	13,20	EUR	Pot 1,3 L	En stock		15/11/2026		Actif	Variété trouvée : purple fall (absente de l'onglet Fiches)	Miscanthus sinensis 'Purple Fall'	
+P195	Miscanthus	Gold Bar	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1914-4417-miscanthus-sinensis-gold-bar.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif		Miscanthus sinensis 'Gold Bar'	
+P195	Miscanthus	Adagio	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1919-4423-miscanthus-sinensis-adagio.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif		Miscanthus sinensis 'Adagio'	
+P195	Miscanthus	Gracillimus	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/667-miscanthus-sinensis-gracillimus-.html	13,20	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Miscanthus sinensis 'Gracillimus'	
+P196	Hosta bleu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hosta sieboldiana	
+P197	Pétasite du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Petasites japonicus	
+P198	Acacia bleuâtre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acacia saligna	
+P199	Marronnier d'Inde		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aesculus hippocastanum	
+P200	Ricinelle		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acalypha wilkesiana	
+P201	Agastache fenouil	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/545-hysope-anis-reglisse-agastache-foeniculum.html	9,50	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Agastache foeniculum	
+P202	Agave d'Amérique	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/les-yuccas-agaves-aloes/37-agave-americana-variegata-.html	22,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Agave americana 'Variegata'	
+P203	Agave à cou de cygne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agave attenuata	
+P204	Sisal		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agave sisalana	
+P205	Arbre à soie	Ombrella	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1797-3881-albizia-julibrissin-ombrella-arbre-a-soie.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Albizia julibrissin 'Ombrella'	
+P205	Arbre à soie	Ombrella	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/55-albizia-julibrissin-ombrella-boubri-arbre-a-soie.html	18,80	EUR	Pot 3 L	En stock		15/11/2026		Actif		Albizia julibrissin 'Ombrella'	40 - 60 cm
+P206	Rose trémière hérissée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alcea setosa	
+P207	Aloès de Chabaud		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloe chabaudii	
+P208	Aloès des dunes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloe thraskii	
+P209	Aloès vrai	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/73-aloe-vera.html	13,55	EUR	Pot 2 L	En stock		15/11/2026		Actif		Aloe vera	
+P209	Aloès vrai	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/73-aloe-vera.html	15,40	EUR	Pot 3 L	En stock		15/11/2026		Actif		Aloe vera	
+P210	Aloès grimpant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloiampelos ciliaris	
+P211	Aloès arborescent		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloidendron barberae	
+P212	Alstroemère dorée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria aurea	
+P213	Alstroemère ligtu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria ligtu	
+P214	Alternanthère calicot		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alternanthera bettzickiana	
+P215	Alternanthère du Brésil		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alternanthera brasiliana	
+P216	Anthurium		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anthurium andraeanum	
+P217	Aphélandra		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aphelandra squarrosa	
+P218	Désespoir des singes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Araucaria araucana	
+P219	Arbousier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/106-arbousier-arbre-aux-fraises-arbutus-unedo.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Arbutus unedo	
+P219	Arbousier	Compacta	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1841-4214-arbutus-unedo-compacta-arbousier-arbre-aux-fraises.html	16,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Arbutus unedo 'Compacta'	
+P220	Grande capucine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum majus	
+P221	Bananier du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-resistants-au-froid-7-et-plus/685-musa-basjoo-bananier-rustique-du-japon.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif		Musa basjoo	
+P221	Bananier du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-resistants-au-froid-7-et-plus/685-musa-basjoo-bananier-rustique-du-japon.html	29,70	EUR	Pot 6 L	En stock		15/11/2026		Actif		Musa basjoo	
+P221	Bananier du Japon	Sapporo	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-resistants-au-froid-7-et-plus/686-musa-basjoo-sapporo-bananier-rustique.html	22,00	EUR	Pot 2 L	En stock		15/11/2026		Actif		Musa basjoo 'Sapporo'	
+P221	Bananier du Japon	Tchetchenia	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-resistants-au-froid-7-et-plus/687-musa-basjoo-tchetchenia-bananier-rustique.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : tchetchenia (absente de l'onglet Fiches) ; Aucun format en stock	Musa basjoo 'Tchetchenia'	
+P221	Bananier du Japon	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/climat-doux-veranda-serre/712-musa-balbisiana-aureo-variegata-bananier-panache-dore.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Variegata de l'onglet Fiches ; Aucun format en stock	Musa basjoo 'Variegata'	
+P222	Bigaradier	Bizzarria	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/1687-4210-citrus-x-aurantium-bizzarria.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : x aurantium bizzarria (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x aurantium bizzarria	Citrus × aurantium 'Bizzarria'	
+P222	Bigaradier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/177-citrus-x-aurantium-bigaradier-orange-amere.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : x aurantium	Citrus × aurantium	
+P223	Cyprès de Provence	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1073-cupressus-stricta-cypres-de-provence.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Cupressus sempervirens	
+P224	Amandier	Texas	La Maison du Bananier	https://www.lamaisondubananier.com/les-amandiers/84-prunus-dulcis-texas-amandier.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Texas (absente de l'onglet Fiches) ; Aucun format en stock	Prunus amygdalus 'Texas'	
+P224	Amandier	Princess	La Maison du Bananier	https://www.lamaisondubananier.com/les-amandiers/85-prunus-dulcis-princess-amandier.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus amygdalus 'Princess'	
+P225	Néflier du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-fruitiers/1137-eriobotrya-japonica-neflier-du-japon.html	16,88	EUR	Pot 3 L	En stock		15/11/2026		Actif	Taille : Issu de Semi	Eriobotrya japonica	
+P225	Néflier du Japon	Algar	La Maison du Bananier	https://www.lamaisondubananier.com/les-nefliers-du-japon-eriobotrya-japonica/739-eriobotrya-japonica-algar-neflier-du-japon-greffe-bibacier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Algar /Néflier du Japon greffé/ Bibacier (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Algar /Néflier du Japon greffé/ Bibacier	Eriobotrya japonica 'Algar'	
+P225	Néflier du Japon	Peluche	La Maison du Bananier	https://www.lamaisondubananier.com/les-nefliers-du-japon-eriobotrya-japonica/740-eriobotrya-japonica-peluche-neflier-du-japon-greffe-bibacier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Peluche /Néflier du Japon greffé/ Bibacier (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Peluche /Néflier du Japon greffé/ Bibacier	Eriobotrya japonica 'Peluche'	
+P226	Figuier	Goutte d or	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/1098-ficus-carica-goutte-d-or-figuier.html	15,80	EUR	Pot 2 L	En stock		15/11/2026		Actif		Ficus carica 'Goutte d or'	
+P226	Figuier	Dalmatie	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/446-ficus-carisa-precoce-de-dalmatie-figuier.html	16,90	EUR	Pot 3 L	En stock		15/11/2026		Actif	Nom latin écrit « Ficus carisa » sur la fiche	Ficus carica 'Dalmatie'	
+P226	Figuier	Violette dauphine	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/448-ficus-carica-violette-dauphine-figuier.html		EUR	Pot 4 L	Rupture		15/11/2026		Actif	Variété trouvée : Violette dauphine (absente de l'onglet Fiches) ; Aucun format en stock	Ficus carica 'Violette dauphine'	
+P226	Figuier	Little Miss Figgy	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/449-ficus-carica-figalityR-little-miss-figgy-dwarf-figuier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : FIGALITY Little Miss Figgy dwarf (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : FIGALITY Little Miss Figgy dwarf	Ficus carica 'Little Miss Figgy'	
+P226	Figuier	Grise de Saint-Jean	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/451-ficus-carica-grise-de-st-jean-figuier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Grise de st Jean (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Grise de st Jean	Ficus carica 'Grise de Saint-Jean'	
+P226	Figuier	Brown Turkey	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/452-ficus-carica-brown-turkey-figuier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Ficus carica 'Brown Turkey'	
+P226	Figuier	Ice Crystal	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/453-ficus-carica-ice-crystal-figuier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Ice Crystal (absente de l'onglet Fiches) ; Aucun format en stock	Ficus carica 'Ice Crystal'	
+P226	Figuier	Madeleine des Deux Saisons	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/454-ficus-madeleine-des-2-saisons-figuier.html	15,50	EUR	Pot 4 L	En stock		15/11/2026		Actif		Ficus carica 'Madeleine des Deux Saisons'	
+P226	Figuier	Longue d août	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/455-ficus-carica-longue-d-aout-figuier.html	15,50	EUR	Pot 4 L	En stock		15/11/2026		Actif	Variété trouvée : Longue d août (absente de l'onglet Fiches)	Ficus carica 'Longue d août'	
+P226	Figuier	Morena	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/456-ficus-carica-gustissimo-morena-figuier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Gustissimo Morena (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Gustissimo Morena	Ficus carica 'Morena'	
+P226	Figuier	Rouge de Bordeaux	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/1413-2211-ficus-carica-rouge-de-bordeaux-figuier-pastiliere.html		EUR	Pot 4 L	Rupture		15/11/2026		Actif	Aucun format en stock	Ficus carica 'Rouge de Bordeaux'	
+P226	Figuier	Violet de	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/1512-2549-figuier-violet-de-malatrait-ficus-carica.html	16,90	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : Violet de (absente de l'onglet Fiches)	Ficus carica 'Violet de'	
+P226	Figuier	Osborn's Prolific	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/1640-4043-ficus-carica-osborn-prolific-figuier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Osborn prolific (absente de l'onglet Fiches) ; Aucun format en stock	Ficus carica 'Osborn's Prolific'	
+P226	Figuier	Noire de Caromb	La Maison du Bananier	https://www.lamaisondubananier.com/les-figuiers-ficus-carica/1800-3843-ficus-carica-noir-de-caromb-figuier.html	14,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Noir de Caromb (absente de l'onglet Fiches) ; Vendu sous : Noir de Caromb	Ficus carica 'Noire de Caromb'	
+P227	Mûrier noir		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Morus nigra	
+P228	Arbre de Judée	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1818-4081-cercis-siliquastrum-arbre-de-judee.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Cercis siliquastrum	
+P229	Jacaranda	Bonsai Blue	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/1435-2765-jacaranda-mimosifolia-bonsai-blue-flamboyant-bleu-nain.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Jacaranda mimosifolia 'Bonsai Blue'	
+P229	Jacaranda	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/553-jacaranda-mimosifolia-flamboyant-bleu.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : mimosifolia	Jacaranda mimosifolia	
+P230	Myrte commun	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/720-myrtus-communis-myrte-commune.html	15,40	EUR	Pot 2 L	En stock		15/11/2026		Actif		Myrtus communis	
+P231	Lentisque		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pistacia lentiscus	
+P232	Nerprun alaterne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rhamnus alaternus	
+P233	Buplèvre ligneux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Bupleurum fruticosum	
+P234	Ciste cotonneux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cistus albidus	
+P235	Ciste à feuilles de sauge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cistus salviifolius	
+P236	Ciste ladanifère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cistus ladanifer	
+P237	Phlomis pourpre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phlomis purpurea	
+P238	Jasmin jaune arbustif		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chrysojasminum fruticans	
+P239	Rose de Damas		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rosa × damascena	
+P240	Plumbago du Cap	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1642-3157-plumbago-capensis.html		EUR	Pot 2 à 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Plumbago auriculata	
+P240	Plumbago du Cap	Blanc	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1705-3452-plumbago-blanc-plumbago-capensis-alba.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : blanc (absente de l'onglet Fiches)	Plumbago auriculata 'Blanc'	40 - 60 cm
+P240	Plumbago du Cap	Dark Blue	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1736-3564-plumbago-capensis-bleu-fonce.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : bleu foncé (absente de l'onglet Fiches) ; Vendu sous : bleu foncé	Plumbago auriculata 'Dark Blue'	
+P241	Romarin d'Australie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Westringia fruticosa	
+P242	Jasmin officinal		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Jasminum officinale	
+P243	Jasmin étoilé	Star of Toscane	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1787-3781-faux-jasmin-etoile-trachelospermum-star-of-toscane.html	22,00	EUR	Pot 4 L	En stock		15/11/2026		Actif		Trachelospermum jasminoides 'Star of Toscane'	60 - 80 cm
+P243	Jasmin étoilé	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1884-4366-trachelospermum-jasminoides-white-parfum-faux-jasmin-etoile.html	15,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : white parfum/ Faux jasmin étoilé	Trachelospermum jasminoides	
+P599	Bougainvillier glabre	Violet de Mèze	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/181-bougainvillea-spectabilis-x-glabra-violet-de-meze-.html	25,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : (x) glabra Violet de Mèze (absente de l'onglet Fiches) ; Vendu sous : (x) glabra Violet de Mèze ; Déplacé depuis P244	Bougainvillea glabra 'Violet de Mèze'	40 - 60 cm
+P245	Rosier de Banks		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rosa banksiae	
+P246	Vigne	Bretonnière	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/965-vitis-vinifera-bretonniere-vigne-variete-resistante.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Bretonnière (absente de l'onglet Fiches) ; Aucun format en stock	Vitis vinifera 'Bretonnière'	
+P246	Vigne	Chasselas	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/966-vitis-vinifera-chasselas-dore-de-fontainebleau-vigne.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Vitis vinifera 'Chasselas'	
+P246	Vigne	Clinton	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/967-vitis-vinifera-clinton-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Clinton (absente de l'onglet Fiches)	Vitis vinifera 'Clinton'	60 - 80 cm
+P246	Vigne	Goldberry	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/968-vitis-vinifera-goldberry-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Goldberry (absente de l'onglet Fiches)	Vitis vinifera 'Goldberry'	60 - 80 cm
+P246	Vigne	Noah	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/971-vitis-labrusca-noah-sans-pepi-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Vitis seul) ; rapproché par la variété Noah de l'onglet Fiches	Vitis vinifera 'Noah'	60 - 80 cm
+P246	Vigne	Angela	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/1332-3598-vitis-vinifera-angela-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Angela (absente de l'onglet Fiches)	Vitis vinifera 'Angela'	60 - 80 cm
+P246	Vigne	Elisabeth	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/1333-3600-vitis-vinifera-elisabeth-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Elisabeth (absente de l'onglet Fiches)	Vitis vinifera 'Elisabeth'	60 - 80 cm
+P246	Vigne	Goldlife	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/1338-3602-vitis-vinifera-goldlife-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Goldlife (absente de l'onglet Fiches)	Vitis vinifera 'Goldlife'	60 - 80 cm
+P246	Vigne	Teres	La Maison du Bananier	https://www.lamaisondubananier.com/les-vignes/1340-3606-vitis-vinifera-teres-vigne-resistante-aux-maladies.html	21,90	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Teres (absente de l'onglet Fiches)	Vitis vinifera 'Teres'	60 - 80 cm
+P247	Câprier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Capparis spinosa	
+P248	Chèvrefeuille des Baléares		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lonicera implexa	
+P249	Clématite cirrheuse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Clematis cirrhosa	
+P250	Bignone rose	Comtesse Sarah	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1349-2009-podranea-ricasoliana-comtesse-sarah-bignone-rose.html	19,80	EUR	Pot 2 L	En stock		15/11/2026		Actif		Podranea ricasoliana 'Comtesse Sarah'	
+P250	Bignone rose	Violet	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1786-3776-podranea-ricasoliana-violet-bignone-violette.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Violet (absente de l'onglet Fiches)	Podranea ricasoliana 'Violet'	
+P251	Lavande dentée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lavandula dentata	
+P252	Lavande papillon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lavandula stoechas	
+P253	Liseron de Crète	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/362-convolvulus-cneorum-liseron-de-turquie.html	13,20	EUR	Pot 2 L	En stock		15/11/2026		Actif		Convolvulus cneorum	
+P254	Germandrée tomenteuse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Teucrium polium	
+P255	Statice de Perez		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Limonium perezii	
+P256	Acanthe à feuilles molles		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acanthus mollis	
+P257	Iris de Florence		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris florentina	
+P258	Iris d'Algérie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris unguicularis	
+P259	Valériane rouge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Valeriana rubra	
+P260	Dietes à grandes fleurs		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dietes grandiflora	
+P261	Sauge d'Afghanistan	Blue Spire	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/795-perovskia-atriplicifolia-blue-spire-.html	13,20	EUR	Pot 2 L	En stock		15/11/2026		Actif		Salvia yangii 'Blue Spire'	
+P262	Alfa		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Macrochloa tenacissima	
+P263	Sparte		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lygeum spartum	
+P264	Stipe géante		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Celtica gigantea	
+P265	Diss		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ampelodesmos mauritanicus	
+P266	Brachypode rameux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brachypodium retusum	
+P267	Muhlenbergie capillaire	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/676-muhlenbergia-capillaris.html	9,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Muhlenbergia capillaris	
+P267	Muhlenbergie capillaire	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/676-muhlenbergia-capillaris.html	13,20	EUR	Pot 2 L	En stock		15/11/2026		Actif		Muhlenbergia capillaris	
+P268	Avoine bleue	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1943-4554-helictotrichon-sempervirens.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : sempervirens	Helictotrichon sempervirens	
+P269	Zoysia du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Zoysia japonica	
+P270	Paspalum des plages		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Paspalum vaginatum	
+P271	Serpolet		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Thymus serpyllum	
+P272	Frankénie lisse	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-couvre-sol/1724-3510-thymus-frankenia-laevis-thym-rampant.html	7,40	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Frankenia laevis	
+P273	Achillée à feuilles de criste		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Achillea crithmifolia	
+P274	Liseron de Mauritanie	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1928-4514-convolvulus-sabatius-subsp-mauritanicus.html	17,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Vendu sous : mauritanicus	Convolvulus sabatius	
+P275	Dichondra argenté		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dichondra argentea	
+P276	Germandrée petit-chêne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Teucrium chamaedrys	
+P277	Narcisse papyracé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Narcissus papyraceus	
+P278	Iris d'Espagne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris xiphium	
+P279	Lys des sables		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pancratium maritimum	
+P280	Ail rose		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Allium roseum	
+P281	Sternbergie jaune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sternbergia lutea	
+P282	Nivéole d'été		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Leucojum aestivum	
+P283	Jonc des chaisiers		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Schoenoplectus lacustris	
+P284	Jonc épars		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Juncus effusus	
+P285	Massette naine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Typha minima	
+P286	Véronique des ruisseaux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Veronica beccabunga	
+P287	Arum d'Éthiopie	Himalaya	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1029-zantedeschia-aethiopica-himalaya-arum-geant-d-ethiopie.html	19,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Himalaya (absente de l'onglet Fiches)	Zantedeschia aethiopica 'Himalaya'	
+P287	Arum d'Éthiopie	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/125-zantedeschia-aethiopica-arum-blanc-geant.html	19,00	EUR	Pot 3 L	En stock		15/11/2026		Actif		Zantedeschia aethiopica	
+P287	Arum d'Éthiopie	Flamingo	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1635-3117-zantedeschia-aethiopica-flamingo-arum-rose.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Zantedeschia aethiopica 'Flamingo'	
+P288	Cornifle nageant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ceratophyllum demersum	
+P289	Potamot pectiné		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Stuckenia pectinata	
+P290	Chara commune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chara vulgaris	
+P291	Renoncule peltée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ranunculus peltatus	
+P292	Nymphéa tropical		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides tropicaux	
+P293	Nymphéa hybride nain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides nains	
+P294	Aglaonema rouge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aglaonema Hybrides à feuillage rouge	
+P295	Romarin	Corsican Blue	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1848-4245-rosmarinus-officinalis-corsican-blue-.html	13,90	EUR	Pot 2 L	En stock		15/11/2026		Actif		Salvia rosmarinus 'Corsican Blue'	
+P295	Romarin	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-perpetuelles/1504-4028-romarin-officinal-rosmarinus-officinalis.html	12,70	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : officinal	Salvia rosmarinus	
+P295	Romarin	Tuscan Blue	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-perpetuelles/1746-4010-rosmarinus-officinalis-tuscan-blue-romarin-officinal.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Salvia rosmarinus 'Tuscan Blue'	
+P296	Lavande vraie	Blue Star	La Maison du Bananier	https://www.lamaisondubananier.com/-aucun-/1846-4239-lavandula-angustifolia-blue-star-lavande-vraie-bleu-intense.html	9,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Lavandula angustifolia 'Blue Star'	
+P296	Lavande vraie	Dwarf Blue	La Maison du Bananier	https://www.lamaisondubananier.com/-aucun-/1847-4240-lavandula-angustifolia-dwarf-blue-lavande-vraie-naine-bleu.html	9,90	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Lavandula angustifolia 'Dwarf Blue'	
+P296	Lavande vraie	Rosea	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1949-4701-lavandula-angustifolia-rosea.html	13,75	EUR	Pot 2 L	En stock		15/11/2026		Actif		Lavandula angustifolia 'Rosea'	
+P296	Lavande vraie	Edelweiss	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1995-4608-lavandula-edelweiss.html	13,75	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Lavandula seul) ; rapproché par la variété Edelweiss de l'onglet Fiches	Lavandula angustifolia 'Edelweiss'	
+P296	Lavande vraie	Grosso	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/584-lavandula-x-intermedia-grosso-lavandin.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Lavandula seul) ; rapproché par la variété Grosso de l'onglet Fiches ; Aucun format en stock	Lavandula angustifolia 'Grosso'	
+P297	Lavandin	Edelweiss	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1995-4608-lavandula-edelweiss.html	13,75	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Lavandula seul) ; rapproché par la variété Edelweiss de l'onglet Fiches	Lavandula × intermedia 'Edelweiss'	
+P297	Lavandin	Grosso	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/584-lavandula-x-intermedia-grosso-lavandin.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Lavandula × intermedia 'Grosso'	
+P298	Thym commun	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-legumes-perpetuels/933-thymus-vulgaris-thym-d-hiver.html	9,50	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Thymus vulgaris	
+P299	Origan	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/1247-1590-origanum-vulgare-origan-commun.html	5,50	EUR	Godet 9 cm	En stock		15/11/2026		Actif		Origanum vulgare	
+P300	Marjolaine	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/771-936-marjolaine-origan-origanum-majorana.html	5,50	EUR	Godet 9 cm	En stock		15/11/2026		Actif		Origanum majorana	
+P301	Pittospore du Japon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/824-pittosporum-tobira-pittospore-du-japon.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : tobira	Pittosporum tobira	
+P302	Citronnier	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/1686-3400-citron-jaune-panache-citrus-limon-variegata.html	49,50	EUR		En stock		15/11/2026		Actif	Variété trouvée : jaune panaché (absente de l'onglet Fiches) ; Format non reconnu : « 5 litres » ; Vendu sous : jaune panaché	Citrus × limon 'Variegata'	Greffé sur Volkamériana 60/80 cm de hauteur
+P302	Citronnier	Quatre Saisons	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/284-citronnier-jaune-4-saisons-citrus-limon.html		EUR	Pot 110 L	Rupture		15/11/2026		Actif	Variété trouvée : jaune 4 saisons (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : jaune 4 saisons	Citrus × limon 'Quatre Saisons'	
+P302	Citronnier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/295-citrus-x-meyeri-citronnier-jaune.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : x Meyeri	Citrus × limon	
+P302	Citronnier	Rosso	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/299-citrus-limon-rosso-citronnier.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Variété trouvée : Rosso (absente de l'onglet Fiches) ; Aucun format en stock	Citrus × limon 'Rosso'	
+P303	Oranger doux	Fukumoto	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/753-citrus-x-sinensis-fukumoto-oranger.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : x sinensis Fukumoto (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x sinensis Fukumoto	Citrus × sinensis 'Fukumoto'	
+P303	Oranger doux	Arcobal	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/754-citrus-x-sinensis-arcobal-oranger.html	49,00	EUR	Pot 5 L	En stock		15/11/2026		Actif	Variété trouvée : x sinensis Arcobal (absente de l'onglet Fiches) ; Vendu sous : x sinensis Arcobal	Citrus × sinensis 'Arcobal'	Greffé sur Volkamériana 60/80 cm de hauteur
+P303	Oranger doux	Chislett Summer Navel	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/755-oranger-chislett-summer-citrus-sinensis-chislett-summer-navelR.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Chislett Summer Navel (absente de l'onglet Fiches) ; Aucun format en stock	Citrus × sinensis 'Chislett Summer Navel'	
+P303	Oranger doux	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/756-citrus-x-sinensis-oranger.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : x sinensis	Citrus × sinensis	
+P303	Oranger doux	Cara Cara	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/757-citrus-x-sinensis-cara-cara-oranger.html	44,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : x sinensis Cara Cara (absente de l'onglet Fiches) ; Vendu sous : x sinensis Cara Cara	Citrus × sinensis 'Cara Cara'	80-100 cm
+P303	Oranger doux	Navel Chocolate	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/758-citrus-x-sinensis-navel-chocolat-oranger.html	44,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : x sinensis navel Chocolat (absente de l'onglet Fiches) ; Vendu sous : x sinensis navel Chocolat	Citrus × sinensis 'Navel Chocolate'	80-100 cm
+P303	Oranger doux	Navelina	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/761-citrus-x-sinensis-navelina-oranger.html	49,60	EUR	Pot 3 L	En stock		15/11/2026		Actif		Citrus × sinensis 'Navelina'	80-100 cm
+P303	Oranger doux	Orangequat	La Maison du Bananier	https://www.lamaisondubananier.com/les-kumquats/762-citrus-x-sinensis-orangequat-nippon.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : X sinensis orangequat (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : X sinensis orangequat	Citrus × sinensis 'Orangequat'	
+P303	Oranger doux	Sanguinelli	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/763-citrus-x-sinensis-sanguinelli-oranger-sanguine.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Citrus × sinensis 'Sanguinelli'	
+P303	Oranger doux	Violette des vallées	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/767-citrus-x-sinensis-violette-des-vallees-oranger-sanguine.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : x sinensis Violette des vallées (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x sinensis Violette des vallées	Citrus × sinensis 'Violette des vallées'	
+P303	Oranger doux	Washington	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/768-citrus-x-sinensis-washington-navel-oranger.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Citrus × sinensis 'Washington'	
+P303	Oranger doux	Thomson	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/769-citrus-x-sinensis-thomson-navel-oranger.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : x sinensis Thomson Navel (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x sinensis Thomson Navel	Citrus × sinensis 'Thomson'	
+P303	Oranger doux	Ambersweet	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/1203-3943-citrus-x-sinensis-ambersweet-oranger.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : x sinensis Ambersweet (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x sinensis Ambersweet	Citrus × sinensis 'Ambersweet'	
+P303	Oranger doux	Rhode Red Valencia	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/1345-4003-citrus-sinensis-valencia-rhode-red.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Valencia Rhode red (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Valencia Rhode red	Citrus × sinensis 'Rhode Red Valencia'	
+P303	Oranger doux	Maltaise	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/1363-3720-citrus-x-sinensis-maltaise-oranger-semi-sanguine.html	44,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : x sinensis Maltaise (absente de l'onglet Fiches) ; Vendu sous : x sinensis Maltaise	Citrus × sinensis 'Maltaise'	80-100 cm
+P303	Oranger doux	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/1689-3413-oranger-panache-citrus-x-sinensis-variegata-.html	49,00	EUR	Pot 5 L	En stock		15/11/2026		Actif	Variété trouvée : panaché (absente de l'onglet Fiches) ; Vendu sous : panaché	Citrus × sinensis 'Variegata'	Greffé sur Volkamériana 60/80 cm de hauteur
+P303	Oranger doux	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-orangers-et-hybrides/1772-3718-orange-sanguine-moro-citrus-sinensis.html	46,40	EUR		En stock		15/11/2026		Actif	Format non reconnu : « 3 litres »	Citrus × sinensis	80-100 cm
+P304	Thuya de Berbérie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tetraclinis articulata	
+P305	Euphorbe résinifère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Euphorbia resinifera	
+P306	Chêne vert	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-persistants/871-quercus-ilex-chene-vert-yeuse.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Quercus ilex	
+P307	Chêne-liège	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1836-4191-quercus-suber-chene-liege.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : (chêne liege)	Quercus suber	
+P308	Cèdre de l'Atlas		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cedrus atlantica	
+P309	Pistachier de l'Atlas		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pistacia atlantica	
+P310	Jujubier sauvage		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ziziphus lotus	
+P311	Jujubier	Géant de huelva	La Maison du Bananier	https://www.lamaisondubananier.com/les-jujubiers-ziziphus-jujuba/1173-ziziphus-jujuba-geant-de-huelva-jujubier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Géant de huelva (absente de l'onglet Fiches) ; Aucun format en stock	Ziziphus jujuba 'Géant de huelva'	
+P311	Jujubier	Grande de albatera	La Maison du Bananier	https://www.lamaisondubananier.com/les-jujubiers-ziziphus-jujuba/984-ziziphus-jujuba-grande-de-albatera-jujubier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Grande de albatera (absente de l'onglet Fiches) ; Aucun format en stock	Ziziphus jujuba 'Grande de albatera'	
+P311	Jujubier	Provence	La Maison du Bananier	https://www.lamaisondubananier.com/les-jujubiers-ziziphus-jujuba/986-ziziphus-jujuba-provence-jujubier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Provence (absente de l'onglet Fiches) ; Aucun format en stock	Ziziphus jujuba 'Provence'	
+P311	Jujubier	Gordo	La Maison du Bananier	https://www.lamaisondubananier.com/les-jujubiers-ziziphus-jujuba/1238-3910-ziziphus-jujuba-gordo-jujubier.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Gordo (absente de l'onglet Fiches) ; Aucun format en stock	Ziziphus jujuba 'Gordo'	
+P312	Genévrier de Phénicie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Juniperus phoenicea	
+P313	Rétama blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Retama monosperma	
+P314	Euphorbe arborescente		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Euphorbia dendroides	
+P315	Anthyllide barbe-de-Jupiter		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anthyllis barba-jovis	
+P316	Limoniastrum		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Limoniastrum monopetalum	
+P317	Criste marine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Crithmum maritimum	
+P318	Lotier de Crète		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lotus creticus	
+P319	Cinéraire maritime		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Jacobaea maritima	
+P320	Coprosma		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Coprosma repens	
+P321	Arbre de Noël néo-zélandais		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Metrosideros excelsa	
+P322	Orgueil de Madère		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Echium candicans	
+P323	Bignone du Cap	Orange	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1588-3100-tecomaria-capensis-orange.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Orange (absente de l'onglet Fiches)	Tecomaria capensis 'Orange'	
+P323	Bignone du Cap	Orange	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1588-3100-tecomaria-capensis-orange.html	27,50	EUR	Pot 4 L	En stock		15/11/2026		Actif	Variété trouvée : Orange (absente de l'onglet Fiches)	Tecomaria capensis 'Orange'	
+P323	Bignone du Cap	Rouge	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1589-3097-tecomaria-capensis-red.html		EUR	Pot 2 L	Rupture		15/11/2026		Actif	Variété trouvée : Red (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Red	Tecomaria capensis 'Rouge'	
+P323	Bignone du Cap	Jaune	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1590-3098-tecomaria-capensis-yellow.html	17,60	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Yellow (absente de l'onglet Fiches) ; Vendu sous : Yellow	Tecomaria capensis 'Jaune'	
+P324	Euryops	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1907-4411-euryops-pectinatus.html	18,25	EUR	Pot 3 L	En stock		15/11/2026		Actif	Vendu sous : pectinatus	Euryops pectinatus	
+P325	Rince-bouteille	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/197-callistemon-laevis-rince-bouteille-rouge.html	15,40	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : Laevis	Melaleuca citrina	
+P326	Sauge du Mexique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salvia leucantha	
+P327	Sauge de Greg		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salvia greggii	
+P328	Sauge à petites feuilles	Royal Bumble	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-fleurs/1155-salvia-microphylla-royal-bumble-sauge-arbustive.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Salvia microphylla 'Royal Bumble'	
+P328	Sauge à petites feuilles	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/893-salvia-microphylla-grahamii-sauge-arbustive-rouge.html		EUR	Pot 2 à 3 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Grahamii	Salvia microphylla	
+P328	Sauge à petites feuilles	Hot Lips	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-fleurs/1677-3503-salvia-microphylla-hot-lips-.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Salvia microphylla 'Hot Lips'	
+P328	Sauge à petites feuilles	So Cool Purple	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-fleurs/1723-3505-salvia-greggi-so-cool-purple-sauge-arbustive.html	7,70	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Salvia microphylla 'So Cool Purple'	
+P329	Tulbaghia	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/954-tulbaghia-violacea-ail-de-l-himalaya.html	15,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : violacea	Tulbaghia violacea	
+P330	Tritoma	Lemon Popsicle	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1992-4606-kniphofia-lemon-popsicle.html	20,75	EUR	Pot 3 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Kniphofia seul) ; rapproché par la variété Lemon Popsicle de l'onglet Fiches	Kniphofia uvaria 'Lemon Popsicle'	
+P331	Brachychiton à feuilles de peuplier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brachychiton populneus	
+P332	Arbre flamme	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/183-brachychiton-acerifolius-flamme-australienne.html		EUR	Pot 4 L	Rupture		15/11/2026		Actif	Aucun format en stock	Brachychiton acerifolius	
+P333	Tipuana	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques-ornementales/1646-3183-tipuana-tipu.html		EUR	Pot 10 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : tipu	Tipuana tipu	
+P334	Palmier bleu du Mexique	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers-and-co/1037-brahea-armata-palmier-bleu-du-mexique.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Brahea armata	
+P335	Palmier abricot		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Butia odorata	
+P336	Palmier jupon	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/1648-3591-washingtonia-filifera-palmier-de-californie-vrai-filifera.html	19,80	EUR	Pot 2 L	En stock		15/11/2026		Actif	Vendu sous : Filifera	Washingtonia filifera	
+P337			La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé		
+P338	Leucophyllum		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Leucophyllum frutescens	
+P339	Hespéraloé	Rouge	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers-and-co/1111-hesperaloe-parvifolia-rubra-rose-des-sables.html		EUR		Rupture		15/11/2026		Actif	Nom latin écrit « Hesperaloe parvifolia » sur la fiche (équivalence validée) ; Variété trouvée : Rubra (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Rubra	Hesperaloe parviflora 'Rouge'	
+P340	Yucca rostrata	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-yuccas-agaves-aloes/979-yucca-rostrata.html		EUR	Pot 12 L	Rupture		15/11/2026		Actif	Aucun format en stock	Yucca rostrata	
+P341	Dasylirion		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dasylirion longissimum	
+P342	Dodonée	Purpurea	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/2056-4677-dodonaea-viscosa-purpurea.html	18,75	EUR	Pot 3 L	En stock		15/11/2026		Actif		Dodonaea viscosa 'Purpurea'	
+P342	Dodonée	Purpurea	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/2056-4677-dodonaea-viscosa-purpurea.html	48,75	EUR	Pot 7 à 10 L	En stock		15/11/2026		Actif		Dodonaea viscosa 'Purpurea'	100 - 125 cm
+P342	Dodonée	Purpurea	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/2056-4677-dodonaea-viscosa-purpurea.html	115,25	EUR	Pot 20 L	En stock		15/11/2026		Actif		Dodonaea viscosa 'Purpurea'	125 - 150 cm
+P343	Micocoulier de Provence	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1831-4147-celtis-australis-micocoulier-de-provence-micocoulier-austral.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : De	Celtis australis	
+P344	Frêne à feuilles étroites	Raywood	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1822-4098-fraxinus-angustifolia-raywood-frene-bordeaux.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Fraxinus angustifolia 'Raywood'	
+P345	Arbre aux perruques		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cotinus coggygria	
+P346	Savonnier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/565-koelreuteria-paniculata-savonnier.html		EUR	Pot 10 L	Rupture		15/11/2026		Actif	Aucun format en stock	Koelreuteria paniculata	
+P346	Savonnier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1827-4122-koelreuteria-paniculata-savonnier-de-chine-arbre-aux-lanterne.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : De	Koelreuteria paniculata	
+P347	Cyprès de l'Arizona		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis arizonica	
+P348	Pistachier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pistacia vera	
+P349	Plaqueminier kaki	Jiro	La Maison du Bananier	https://www.lamaisondubananier.com/les-kakis-plaqueminiers/559-diospyros-jiro-kaki-pomme-plaqueminier.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Diospyros seul) ; rapproché par la variété Jiro de l'onglet Fiches ; Aucun format en stock	Diospyros kaki 'Jiro'	
+P349	Plaqueminier kaki	Muscat	La Maison du Bananier	https://www.lamaisondubananier.com/les-kakis-plaqueminiers/1473-2434-diospyros-muscat-kaki-plaqueminier.html		EUR	Conteneur	Rupture		15/11/2026		Actif	Aucun format en stock	Diospyros kaki 'Muscat'	
+P349	Plaqueminier kaki	Sharon	La Maison du Bananier	https://www.lamaisondubananier.com/les-kakis-plaqueminiers/1475-2849-diospyros-sharon-triumph-kaki-plaqueminier.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Diospyros seul) ; rapproché par la variété Triumph de l'onglet Fiches ; Aucun format en stock	Diospyros kaki 'Sharon'	
+P350	Feijoa	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-de-haies/437-feijoa-sellowiana-acca-sellowiana-goyavier-d-argentine.html		EUR	Pot 2 L	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : sellowiana	Feijoa sellowiana	
+P350	Feijoa	Apollo	La Maison du Bananier	https://www.lamaisondubananier.com/les-feijoa-acca/439-feijoa-sellowiana-apollo-acca-goyavier-d-argentine.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Feijoa sellowiana 'Apollo'	
+P350	Feijoa	Mammoth	La Maison du Bananier	https://www.lamaisondubananier.com/les-feijoa-acca/441-feijoa-sellowiana-mammoth-acca-goyavier-d-argentine.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Feijoa sellowiana 'Mammoth'	
+P350	Feijoa	Triumph	La Maison du Bananier	https://www.lamaisondubananier.com/les-feijoa-acca/442-feijoa-sellowiana-triumph-acca-goyavier-d-argentine.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Feijoa sellowiana 'Triumph'	
+P351	Faux poivrier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Schinus molle	
+P352	Parkinsonia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Parkinsonia aculeata	
+P353	Agastache rugueuse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agastache rugosa	
+P354	Oiseau de paradis mexicain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Erythrostemon mexicanus	
+P355	Alstroemère hybride	Inticancha Moon	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-a-fleurs/1650-3216-alstroemeria-inticancha-moon-lis-des-incas.html	16,50	EUR	Pot 3 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Alstroemeria seul) ; rapproché par la variété Inticancha Moon de l'onglet Fiches	Alstroemeria Hybrides horticoles 'Inticancha Moon'	
+P357	Capucine hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum Hybrides horticoles	
+P358	Agastache hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agastache Hybrides horticoles	
+P359	Alternanthère ficoïde		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alternanthera ficoidea	
+P360	Arbre aux perruques hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cotinus Hybrides horticoles	
+P361	Amandier-pêcher		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Prunus × persicoides	
+P362	Palmier des Canaries	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/806-phoenix-canariensis-palmier-des-cananries.html	44,00	EUR	Pot 10 L	En stock		15/11/2026		Actif		Phoenix canariensis	80 - 100 cm
+P363	Palmier de la reine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Syagrus romanzoffiana	
+P364	Pin parasol		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus pinea	
+P365	Pin d'Alep	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-persistants/2070-4692-pinus-halepensis.html	21,25	EUR	Pot 3 L	En stock		15/11/2026		Actif		Pinus halepensis	60 - 80 cm
+P366	Prune du Natal		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carissa macrocarpa	
+P367	Limettier mexicain	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/309-citrus-aurantifolia-citronnier-vert-citron-vert-citron-galet.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Citrus × aurantiifolia	
+P368	Misère pourpre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tradescantia pallida	
+P369	Filao		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Casuarina equisetifolia	
+P370	Canéficier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cassia fistula	
+P371	Noyer du Queensland	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-fruitiers-exotiques/1120-1331-macadamia-integrifolia-noix-de-macadamia.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : integrifolia	Macadamia integrifolia	
+P372	Palmier d'Alexandra		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Archontophoenix alexandrae	
+P373	Palmier éventail de Chine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Livistona chinensis	
+P374	Palmier de Chine	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/950-trachycarpus-fortunei-excelsa-palmier-de-chine.html	97,00	EUR		En stock		15/11/2026		Actif	Format non reconnu : « 20 litres Livrée sur palette » ; Vendu sous : (Excelsa)	Trachycarpus fortunei	Tronc de 20/30 cm- 100/125 cm de hauteur
+P374	Palmier de Chine	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-palmiers/950-trachycarpus-fortunei-excelsa-palmier-de-chine.html	222,00	EUR	Pot 35 L	En stock		15/11/2026		Actif	Vendu sous : (Excelsa)	Trachycarpus fortunei	175-200 cm
+P375	Kentia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Howea forsteriana	
+P376	Sansevière		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dracaena trifasciata	
+P377	Aspidistra	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/vivaces-d-ombre/148-aspidistra-elatior.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : elatior	Aspidistra elatior	
+P378	Lomandra		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lomandra longifolia	
+P379	Genévrier cade		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Juniperus oxycedrus	
+P380	Frêne à fleurs	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1824-4110-fraxinus-ornus-frene-a-fleurs-frene-a-manne.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Fraxinus ornus	
+P381	Tamaris de France		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tamarix gallica	
+P382	Arroche nummulaire		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Atriplex nummularia	
+P383	Arroche à quatre ailes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Atriplex canescens	
+P384	Obione		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Halimione portulacoides	
+P385	Cyprès de Lambert		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
+P386	Abricotier	Bergeron	La Maison du Bananier	https://www.lamaisondubananier.com/les-abricotiers/1009-prunus-armeniaca-bergeron-abricotier.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus armeniaca 'Bergeron'	
+P386	Abricotier	Pêche de Nancy	La Maison du Bananier	https://www.lamaisondubananier.com/les-abricotiers/1011-abricotier-peche-de-nancy-prunus-armeniaca.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Pêche de Nancy (absente de l'onglet Fiches) ; Aucun format en stock	Prunus armeniaca 'Pêche de Nancy'	
+P386	Abricotier	Rouge du Roussillon	La Maison du Bananier	https://www.lamaisondubananier.com/les-abricotiers/1012-prunus-armeniaca-rouge-du-roussillon-abricotier.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus armeniaca 'Rouge du Roussillon'	
+P386	Abricotier	Précoce de Saumur	La Maison du Bananier	https://www.lamaisondubananier.com/les-abricotiers/1013-prunus-armeniaca-precoce-de-saumur-abricotier.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus armeniaca 'Précoce de Saumur'	
+P387	Pêcher	Pêche de vigne	La Maison du Bananier	https://www.lamaisondubananier.com/les-pechers/1143-prunus-persica-de-vigne-pecher-blanche.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : De vigne (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : De vigne	Prunus persica 'Pêche de vigne'	
+P387	Pêcher	Nectarose	La Maison du Bananier	https://www.lamaisondubananier.com/les-brugnons-nectarines/186-prunus-persica-nectarose-brugnonier-a-chair-blanche.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus persica 'Nectarose'	
+P387	Pêcher	Amsden	La Maison du Bananier	https://www.lamaisondubananier.com/les-pechers/786-prunus-persica-amsden-pecher.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus persica 'Amsden'	
+P387	Pêcher	Grosse mignonne	La Maison du Bananier	https://www.lamaisondubananier.com/les-pechers/789-pecher-grosse-mignonne-prunus-persica.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Grosse mignonne (absente de l'onglet Fiches) ; Aucun format en stock	Prunus persica 'Grosse mignonne'	
+P388	Prunier	Reine-Claude d'Oullins	La Maison du Bananier	https://www.lamaisondubananier.com/les-pruniers/859-prunier-reine-claude-d-oullins-prunus-domestica.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus domestica 'Reine-Claude d'Oullins'	
+P388	Prunier	Mirabelle de Nancy	La Maison du Bananier	https://www.lamaisondubananier.com/les-pruniers/1530-4844-mirabellier-mirabelle-de-nancy-prunus-domestica.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus domestica 'Mirabelle de Nancy'	
+P388	Prunier	Reine-Claude Dorée	La Maison du Bananier	https://www.lamaisondubananier.com/les-pruniers/853-4842-prunier-reine-claude-doree-prunus-domestica.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus domestica 'Reine-Claude Dorée'	
+P388	Prunier	Prune d'Ente	La Maison du Bananier	https://www.lamaisondubananier.com/les-pruniers/854-4843-prunus-domestica-d-ente-prunier.html	23,00	EUR	Racines nues	En stock		15/11/2026		Actif	Taille : Quenouille	Prunus domestica 'Prune d'Ente'	
+P389	Cognassier	Gros du Portugal	La Maison du Bananier	https://www.lamaisondubananier.com/les-cognassiers/331-cydonia-oblonga-gros-du-portugal-cognassier.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Cydonia oblonga 'Gros du Portugal'	
+P390	Poirier	Conférence	La Maison du Bananier	https://www.lamaisondubananier.com/les-poiriers/828-poirier-conference-pyrus-communis.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Pyrus communis 'Conférence'	
+P390	Poirier	Beurré Hardy	La Maison du Bananier	https://www.lamaisondubananier.com/les-poiriers/830-poirier-beurre-hardy-pyrus-communis.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Pyrus communis 'Beurré Hardy'	
+P390	Poirier	Comtesse de Paris	La Maison du Bananier	https://www.lamaisondubananier.com/les-poiriers/832-poirier-comptesse-de-paris-pyrus-communis.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Pyrus communis 'Comtesse de Paris'	
+P390	Poirier	Duc de bordeaux	La Maison du Bananier	https://www.lamaisondubananier.com/les-poiriers/833-poirier-duc-de-bordeaux-pyrus-communis.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Duc de bordeaux (absente de l'onglet Fiches) ; Aucun format en stock	Pyrus communis 'Duc de bordeaux'	
+P390	Poirier	Doyenne de comice	La Maison du Bananier	https://www.lamaisondubananier.com/les-poiriers/835-poirier-doyenne-de-comice-pyrus-communis.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Doyenne de comice (absente de l'onglet Fiches) ; Aucun format en stock	Pyrus communis 'Doyenne de comice'	
+P391	Cédratier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/1691-3432-citrus-medica-cedratier.html		EUR	Pot 5 L	Rupture		15/11/2026		Actif	Aucun format en stock	Citrus medica	
+P391	Cédratier	Digitata	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/613-citrus-medica-digitata-main-de-bouddha.html	22,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : digitata (absente de l'onglet Fiches) ; Taille : Greffé sur Volkamériana	Citrus medica 'Digitata'	
+P392	Canne à sucre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Saccharum officinarum	
+P393	Caféier d'Arabie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Coffea arabica	
+P394	Noyer du Queensland à coque rugueuse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Macadamia tetraphylla	
+P395	Caoutchouc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ficus elastica	
+P396	Figuier pleureur		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ficus benjamina	
+P397	Banian		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ficus benghalensis	
+P398	Saguaro		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Carnegiea gigantea	
+P399	Pin maritime		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus pinaster	
+P400	Peuplier blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Populus alba	
+P401	Armérie maritime		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Armeria maritima	
+P402	Jonquille		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Narcissus jonquilla	
+P403	Ail triquètre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Allium triquetrum	
+P404	Camomille allemande	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-aromatiques-les-legumes-et-medicinales/1043-camomille-matricaria-recutita.html	9,50	EUR	Pot 1,3 L	En stock		15/11/2026		Actif		Matricaria chamomilla	
+P405	Lupin à feuilles étroites		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lupinus angustifolius	
+P406	Tournesol		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Helianthus annuus	
+P407	Rosier des chiens	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/876-eglantier-rosa-canina.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Rosa canina	
+P408	Lierre grimpant	Goldchild	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1780-3745-lierre-panache-jaune-et-vert-hedera-goldchild.html	11,61	EUR	Pot 1,5 L	En stock		15/11/2026		Actif		Hedera helix 'Goldchild'	
+P408	Lierre grimpant	White Wonder	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/1781-3746-lierre-panache-hedera-white-wonder.html	11,00	EUR	Pot 1,5 L	En stock		15/11/2026		Actif		Hedera helix 'White Wonder'	
+P409	Liriope	Royal Purple	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1997-4610-liriope-muscari-royal-purple.html	15,25	EUR	Pot 3 L	En stock		15/11/2026		Actif		Liriope muscari 'Royal Purple'	
+P409	Liriope	Variegata	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/1998-4612-liriope-muscari-variegata.html	15,25	EUR	Pot 3 L	En stock		15/11/2026		Actif		Liriope muscari 'Variegata'	
+P410	Chrysocephalum		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chrysocephalum apiculatum	
+P411	Violette d'Australie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Viola hederacea	
+P412	Oxalis pourpre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Oxalis triangularis	
+P413	Pothos		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Epipremnum aureum	
+P414	Dragonnier parfumé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dracaena fragrans	
+P415	Palmier mazari		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nannorrhops ritchieana	
+P416	Palmier de Floride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Serenoa repens	
+P417	Palmier à sucre de l'Inde		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Caryota urens	
+P418	Aréca		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chrysalidocarpus lutescens	
+P419	Cycas de l'Inde		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cycas circinalis	
+P420	Kaloupilé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Murraya koenigii	
+P421	Badamier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Terminalia catappa	
+P422	Mûrier à papier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Broussonetia papyrifera	
+P423	Fougère de Boston		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Nephrolepis exaltata	
+P424	Fougère bouton		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pellaea rotundifolia	
+P425	Ricin		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ricinus communis	
+P426	Oxalis des Bermudes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Oxalis pes-caprae	
+P427	Herbe aux écouvillons pourpres		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cenchrus setaceus	
+P428	Bambou doré	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-bambous-tracants/1031-phyllostachys-aurea-bambou-dore.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Phyllostachys aurea	
+P429	Tagète des décombres		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tagetes minuta	
+P430	Liseron des champs		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Convolvulus arvensis	
+P431	Rhododendron pontique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rhododendron ponticum	
+P432	Tilleul à petites feuilles		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tilia cordata	
+P433	Pin noir		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus nigra	
+P434	Épicéa		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Picea abies	
+P435	Peuplier baumier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Populus balsamifera	
+P436	Bambou noir du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phyllostachys nigra	
+P437	Phellodendron		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phellodendron amurense	
+P438	Cryptomeria		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cryptomeria japonica	
+P439	Katsura		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cercidiphyllum japonicum	
+P440	Sorbier des oiseleurs		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sorbus aucuparia	
+P441	Saule pleureur	Tortuosa	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/2088-4702-salix-babylonica-tortuosa.html	14,25	EUR	Pot 3 L	En stock		15/11/2026		Actif		Salix babylonica 'Tortuosa'	
+P442	Chêne chevelu	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1834-4158-quercus-cerris-chene-chevelu-chene-de-turquie.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Quercus cerris	
+P443	Sapin de Nikko		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Abies homolepis	
+P444	Ginkgo	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/491-ginkgo-biloba-arbre-aux-quarante-ecus.html	18,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Vendu sous : biloba	Ginkgo biloba	
+P445	Noyer du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Juglans ailantifolia	
+P446	Mélèze du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Larix kaempferi	
+P447	Ostrya		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Ostrya japonica	
+P448	Épicéa de Koyama		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Picea koyamae	
+P449	Érable à feuilles rondes		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acer circinatum	
+P450	Pavier de l'Ohio		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aesculus glabra	
+P451	Catalpa	Nana	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/1817-4079-catalpa-bignonioides-nana-catalpa-boule-bungei-.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Catalpa bignonioides 'Nana'	
+P451	Catalpa	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/249-catalpa-bignonioides-catalpa-commun-arbre-aux-haricots.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : commun	Catalpa bignonioides	
+P452	Copalme d'Amérique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Liquidambar styraciflua	
+P453	Épinette d'Engelmann		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Picea engelmannii	
+P454	Chêne rouge d'Amérique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Quercus rubra	
+P455	Tilleul américain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tilia americana	
+P456	Pin de Weymouth		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus strobus	
+P457	Platane d'Occident		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Platanus occidentalis	
+P458	Bouleau merisier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Betula lenta	
+P459	Bouleau gris		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Betula populifolia	
+P460	Pacanier	Queen elisabeth	La Maison du Bananier	https://www.lamaisondubananier.com/les-frutiers-a-coque/239-carya-illinoinensis-queen-elisabeth-noix-de-pecan.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Queen elisabeth (absente de l'onglet Fiches) ; Aucun format en stock	Carya illinoinensis 'Queen elisabeth'	
+P460	Pacanier	Pawnee	La Maison du Bananier	https://www.lamaisondubananier.com/les-frutiers-a-coque/240-carya-illinoensis-pawnee-noix-de-pecan-pacanier.html		EUR		Rupture		15/11/2026		Actif	Nom latin écrit « Carya illinoensis » sur la fiche ; Aucun format en stock	Carya illinoinensis 'Pawnee'	
+P461	Cyprès de Lawson		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis lawsoniana	
+P462	Hêtre commun		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Fagus sylvatica	
+P463	Épicéa du Colorado		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Picea pungens	
+P464	Pin mugo		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus mugo	
+P465	Platane commun		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Platanus × hispanica	
+P466	Peuplier noir		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Populus nigra	
+P467	Laurier sassafras		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sassafras albidum	
+P468	If commun		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Taxus baccata	
+P469	Thuya géant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Thuja plicata	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1148-pommier-malus-domestica-clochard-.html	19,50	EUR	Racines nues	En stock		15/11/2026		Actif	Taille : Quenouille	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1207-4827-pommier-malus-domestica-belle-de-boskoop-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1210-4833-pommier-malus-domestica-canada-gris-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1211-4838-pommier-malus-domestica-reinette-d-armorique-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1527-4829-pommier-malus-domestica-belchard-chantecler.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1529-4836-pommier-malus-domestica-patte-de-loup-.html	15,90	EUR	Racines nues	En stock		15/11/2026		Actif		Malus domestica	Scion
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1535-4832-pommier-malus-domestica-drap-d-or-chailleux.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1537-4835-pommier-malus-domestica-melrose-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Malus domestica	
+P470	Pommier	Reine des Reinettes	La Maison du Bananier	https://www.lamaisondubananier.com/les-pommiers/1538-4157-malus-domestica-reine-des-reinettes-pommier.html	27,40	EUR	Pot 6 L	En stock		15/11/2026		Actif		Malus domestica 'Reine des Reinettes'	100 - 125 cm
+P471	Cerisier	Plena	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/2011-4628-prunus-glandulosa-alba-plena.html	20,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Prunus seul) ; rapproché par la variété Plena de l'onglet Fiches	Prunus avium 'Plena'	
+P471	Cerisier	Burlat	La Maison du Bananier	https://www.lamaisondubananier.com/les-cerisiers/259-cerisier-bigarreau-hatif-de-burlat-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus avium 'Burlat'	
+P471	Cerisier	Hedelfingen	La Maison du Bananier	https://www.lamaisondubananier.com/les-cerisiers/260-cerisier-bigarreau-d-hedelfingen-.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus avium 'Hedelfingen'	
+P471	Cerisier	Van	La Maison du Bananier	https://www.lamaisondubananier.com/les-cerisiers/262-cerisier-bigarreau-big-van-cerisier-bigarreau-prunus-avium.html	17,00	EUR	Racines nues	En stock		15/11/2026		Actif		Prunus avium 'Van'	Scion
+P471	Cerisier	Tardif de vignola	La Maison du Bananier	https://www.lamaisondubananier.com/les-cerisiers/264-prunus-avium-tardif-de-vignola-cerisier-bigarreau.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Variété trouvée : Tardif de vignola (absente de l'onglet Fiches) ; Aucun format en stock	Prunus avium 'Tardif de vignola'	
+P471	Cerisier	Summit	La Maison du Bananier	https://www.lamaisondubananier.com/les-cerisiers/266-prunus-avium-summit-cerisier-bigarreau.html		EUR	Racines nues	Rupture		15/11/2026		Actif	Aucun format en stock	Prunus avium 'Summit'	
+P472	Scirpe-jonc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Scirpoides holoschoenus	
+P473	Cytise faux-ébénier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Laburnum anagyroides	
+P474	Chêne pédonculé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Quercus robur	
+P475	Parrotie de Perse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Parrotia persica	
+P476	Manglier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rhizophora mucronata	
+P477	Flamme de forêt		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Butea monosperma	
+P478	Saraca		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Saraca asoca	
+P479	Érable de Nikko		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acer maximowiczianum	
+P480	Érable du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acer palmatum	
+P481	Faux cyprès hinoki du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis obtusa	
+P482	Nezu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Juniperus rigida	
+P483	Magnolia de Soulange-Bodin	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1121-magnolia-soulangeana-magnolia-de-soulange.html		EUR	Pot 3 L	Rupture		15/11/2026		Actif	Aucun format en stock	Magnolia × soulangeana	
+P484	Pin blanc du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus parviflora	
+P485	Cerisier de Yedo		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Prunus × yedoensis	
+P486	Kometsuga		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tsuga diversifolia	
+P487	Faux-orme du Japon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Zelkova serrata	
+P488	Kaori blanc		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agathis moorei	
+P489	Mamaku		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Sphaeropteris medullaris	
+P490	Fougère arborescente	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-fougeres/395-dicksonia-antartica-fougere-arborescente.html	29,00	EUR	Pot 3 L	En stock		15/11/2026		Actif	Vendu sous : antartica	Dicksonia antarctica	30 - 40 cm
+P491	Kānuka		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Kunzea ericoides	
+P492	ʻŌhiʻa lehua		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Metrosideros polymorpha	
+P493	Noni		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Morinda citrifolia	
+P494	Tōtara		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Podocarpus totara	
+P495	Canna hybride à fleurs	Tropicanna	La Maison du Bananier	https://www.lamaisondubananier.com/les-cannas-les-hedychiums/1437-3308-canna-tropicanna-phasion-durban.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Canna seul) ; rapproché par la variété Tropicanna de l'onglet Fiches ; Aucun format en stock	Canna × generalis 'Tropicanna'	
+P495	Canna hybride à fleurs	Wyoming	La Maison du Bananier	https://www.lamaisondubananier.com/les-cannas-les-hedychiums/218-canna-pourpre-liberte-wyoming.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Canna seul) ; rapproché par la variété Wyoming de l'onglet Fiches ; Aucun format en stock	Canna × generalis 'Wyoming'	
+P496	Loulu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pritchardia remota	
+P497	Anacardier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anacardium occidentale	
+P498	Arbre à pain		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Artocarpus altilis	
+P499	Érable champêtre	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1796-3874-acer-campestris-erable-champetre.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : campestris	Acer campestre	
+P500	Érable de Montpellier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acer monspessulanum	
+P501	Érable à feuilles d'obier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Acer opalus	
+P502	Aulne glutineux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Alnus glutinosa	
+P503	Frêne commun	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ombrage/1823-4103-fraxinus-excelsior-frene-commun-frene-eleve.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Fraxinus excelsior	
+P504	Chêne sessile	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbres-d-ornement/872-quercus-petraea-chene-sessile-chene-rouvre.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Quercus petraea	
+P505	Saule pleureur		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salix × sepulcralis	
+P506	Saule cassant		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Salix × fragilis	
+P507	Sureau noir	Black Lace	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/895-sambucus-nigra-black-lace-eva-sureau-noir.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Black Lace (Eva)	Sambucus nigra 'Black Lace'	
+P507	Sureau noir	Black Beauty	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1505-3860-sambucus-nigra-black-beauty.html		EUR		Rupture		15/11/2026		Actif	Variété trouvée : Black Beauty (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Black Beauty'	
+P507	Sureau noir	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/896-sambucus-nigra-sureau-noir.html	15,40	EUR	Pot 3 L	En stock		15/11/2026		Actif		Sambucus nigra	
+P508	Tilleul à grandes feuilles	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-petits-fruits-baies/1169-4358-tilia-platyphyllos-tilleul-de-hollande.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Tilia platyphyllos	
+P509	Tilleul argenté		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tilia tomentosa	
+P510	Canna aquatique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Canna Hybrides aquatiques	
+P511	Canna à feuillage	Intrigue	La Maison du Bananier	https://www.lamaisondubananier.com/les-cannas-les-hedychiums/216-3248-canna-intrigue.html		EUR		Rupture		15/11/2026		Actif	Espèce absente de la fiche (genre Canna seul) ; rapproché par la variété Intrigue de l'onglet Fiches ; Aucun format en stock	Canna Hybrides à feuillage 'Intrigue'	
+P512	Sapin du Colorado		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Abies concolor	
+P513	Sapin rouge de Californie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Abies magnifica	
+P514	Cèdre blanc de Californie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Calocedrus decurrens	
+P515	Mélèze d'Amérique		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Larix laricina	
+P516	Pin tordu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus contorta	
+P517	Pin de Coulter		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus coulteri	
+P518	Pin de Bishop		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus muricata	
+P519	Pin ponderosa		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus ponderosa	
+P520	Pin de Monterey		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pinus radiata	
+P521	Torreya de Californie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Torreya californica	
+P522	Fougère mâle		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Dryopteris filix-mas	
+P523	Rumohra		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Rumohra adiantiformis	
+P524	Calamagrostis	Karl Foerster	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1886-4377-calamagrostis-acutiflora-karl-foerster-3016040452102.html	14,25	EUR	Pot 3 L	En stock		15/11/2026		Actif		Calamagrostis × acutiflora 'Karl Foerster'	
+P524	Calamagrostis	Overdam	La Maison du Bananier	https://www.lamaisondubananier.com/les-graminees/1955-4561-calamagrostis-acutiflora-overdam.html	14,25	EUR	Pot 2 L	En stock		15/11/2026		Actif		Calamagrostis × acutiflora 'Overdam'	
+P525	Molinie bleue		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Molinia caerulea	
+P526	Bégonia à cannes hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides à cannes	
+P527	Bégonia Rex hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides Rex	
+P528	Bégonia semperflorens		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides semperflorens	
+P529	Bégonia tubéreux		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides tubéreux	
+P530	Bégonia elatior		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides elatior	
+P531	Palmier des cascades		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Chamaedorea cataractarum	
+P532	Iris des toits		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Iris tectorum	
+P533	Callune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Calluna vulgaris	
+P534	Lachenalia rouge		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lachenalia bulbifera	
+P535	Anémone des bois		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anemonoides nemorosa	
+P536	Pratia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lobelia pedunculata	
+P537	Chou sauvage		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea	
+P538	Immortelle perlée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Anaphalis margaritacea	
+P539	Bégonia rex		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia rex	
+P540	Bégonia decora		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia decora	
+P541	Bégonia xanthina		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia xanthina	
+P542	Bégonia annulata		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia annulata	
+P543	Bégonia grandis		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia grandis	
+P544	Bégonia cucullata		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia cucullata	
+P545	Bégonia boliviensis		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia boliviensis	
+P546	Bégonia de Socotra		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia socotrana	
+P547	Bégonia dregei		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia dregei	
+P548	Bégonia aconitifolia		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Begonia aconitifolia	
+P549	Oxalis violette		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Oxalis violacea	
+P550	Souchet dense		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cyperus congestus	
+P551	Verbésine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Verbesina occidentalis	
+P552	Onagre bisannuel		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Oenothera biennis	
+P553	Aucuba du Japon	Crotonifolia	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1951-4557-aucuba-japonica-crotonifolia.html	21,50	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : Crotonifolia (absente de l'onglet Fiches)	Aucuba japonica 'Crotonifolia'	
+P553	Aucuba du Japon	Crotonifolia	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1951-4557-aucuba-japonica-crotonifolia.html	55,50	EUR	Pot 7 à 10 L	En stock		15/11/2026		Actif	Variété trouvée : Crotonifolia (absente de l'onglet Fiches)	Aucuba japonica 'Crotonifolia'	
+P553	Aucuba du Japon	Crotonifolia	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-persistants/1951-4557-aucuba-japonica-crotonifolia.html	104,50	EUR	Pot 15 L	En stock		15/11/2026		Actif	Variété trouvée : Crotonifolia (absente de l'onglet Fiches)	Aucuba japonica 'Crotonifolia'	
+P554	Lamier jaune		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lamium galeobdolon	
+P555	Asclépiade tubéreuse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Asclepias tuberosa	
+P556	Chou pommé		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Capitata	
+P557	Chou kale		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Acephala	
+P558	Chou ornemental		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe ornemental	
+P559	Chou-fleur		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Botrytis	
+P560	Brocoli		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Italica	
+P561	Chou de Bruxelles		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gemmifera	
+P562	Chou-rave		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gongylodes	
+P563	Brocoli chinois		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Alboglabra	
+P564	Muguet		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Convallaria majalis	
+P565	Alpiste roseau		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Phalaris arundinacea	
+P566	Hydrocotyle de Buenos Aires		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hydrocotyle bonariensis	
+P567	Onagre des plages		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Camissoniopsis cheiranthifolia	
+P568	Cotonnière jaunâtre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pseudognaphalium luteoalbum	
+P569	Tamaris d'Allemagne		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Myricaria germanica	
+P570	Aster buissonnant	Jenny	La Maison du Bananier	https://www.lamaisondubananier.com/les-plantes-vivaces/2078-aster-dumosus-jenny.html		EUR		Rupture		15/11/2026		Actif	Aucun format affiché sur la fiche	Symphyotrichum dumosum 'Jenny'	
+P571	Zostère marine		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Zostera marina	
+P572	Liane de brosse		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Cocculus hirsutus	
+P573	Renouée perfoliée		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Persicaria perfoliata	
+P574	Vigne vierge vraie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Parthenocissus quinquefolia	
+P575	Hortensia	Bodensee	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1920-4424-hydrangea-macrophylla-bodensee.html	19,25	EUR	Pot 5 L	En stock		15/11/2026		Actif	Variété trouvée : Bodensee (absente de l'onglet Fiches)	Hydrangea macrophylla 'Bodensee'	
+P575	Hortensia	Ningbo	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1987-4595-hydrangea-macrophylla-ningbo.html	19,25	EUR	Pot 5 L	En stock		15/11/2026		Actif	Variété trouvée : Ningbo (absente de l'onglet Fiches)	Hydrangea macrophylla 'Ningbo'	
+P575	Hortensia	Mousmée	La Maison du Bananier	https://www.lamaisondubananier.com/nos-plantes/1856-4300-hydrangea-macrophylla-mousmee-.html	12,90	EUR	Pot 3 L	En stock		15/11/2026		Actif	Variété trouvée : Mousmée (absente de l'onglet Fiches)	Hydrangea macrophylla 'Mousmée'	
+P576	Silène maritime		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Silene uniflora	
+P577	Passiflore bleue	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-grimpantes/780-passiflora-caerulea-passiflore-bleue.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif		Passiflora caerulea	
+P578	Bananier hybride	Dwarf Orinoco	La Maison du Bananier	https://www.lamaisondubananier.com/climat-doux-veranda-serre/1130-musa-dwarf-orinoco-bananier-fruitier-nain.html	29,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Dwarf Orinoco de l'onglet Fiches	Musa × paradisiaca 'Dwarf Orinoco'	40 - 60 cm
+P578	Bananier hybride	Orinoco	La Maison du Bananier	https://www.lamaisondubananier.com/les-bananiers-a-fruits-comestibles/706-musa-orinoco-bananier-fruitier.html	29,50	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Orinoco de l'onglet Fiches	Musa × paradisiaca 'Orinoco'	
+P578	Bananier hybride	Rajapuri	La Maison du Bananier	https://www.lamaisondubananier.com/climat-doux-veranda-serre/708-musa-rajapuri-india-banane-pomme-bananier-fruitier.html	26,40	EUR	Pot 2 L	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété Rajapuri de l'onglet Fiches	Musa × paradisiaca 'Rajapuri'	
+P579	Hyménocalle hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis Hybrides horticoles	
+P580			La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Bauhinia variegata	
+P581			La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Brachychiton discolor	
+P582		Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-exotiques/184-brachychiton-rupestris-baobab-australien.html	16,50	EUR	Pot 2 L	En stock		15/11/2026		Actif		Brachychiton rupestris	
+P583	Agapanthe hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agapanthus Hybrides	
+P587	Coprosma hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Coprosma Hybrides horticoles	
+P588	Magnolia hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Magnolia Hybrides horticoles	
+P584	Gazania hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Gazania Hybrides horticoles	
+P585	Lilas des Indes hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Lagerstroemia Hybrides horticoles	
+P586	Agave hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agave Hybrides horticoles	
+P589	Tamaris de printemps	Africana	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/923-tamarix-tetrandra-africana-tamaris-de-printemps.html	14,30	EUR	Pot 2 L	En stock		15/11/2026		Actif	Variété trouvée : Africana (absente de l'onglet Fiches)	Tamarix tetrandra 'Africana'	
+P590	Piment habanero		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Capsicum chinense	
+P591	Piment tabasco		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Capsicum frutescens	
+P592	Olivier de Bohême	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-arbustes-d-ornement/1935-4547-elaeagnus-angustifolia-olivier-de-boheme.html	16,75	EUR	Pot 5 L	En stock		15/11/2026		Actif		Elaeagnus angustifolia	80 - 100 cm
+P593	Agave de Havard		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agave havardiana	
+P594	Agave bleu		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Agave tequilana	
+P595	Aloès arborescent hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Aloidendron Hybrides horticoles	
+P596	Arbousier hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Arbutus Hybrides horticoles	
+P597	Capucine de Lobb		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum lobbianum	
+P598	Figuier de Barbarie		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Opuntia ficus-indica	
+P599	Bougainvillier glabre		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Bougainvillea glabra	
+P600	Citron caviar	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-citronniers-et-hybrides/289-microcitrus-x-australasica-pink-citron-caviar.html	22,00	EUR	Pot 2 L	En stock		15/11/2026		Actif	Taille : Greffé sur Volkamériana	Citrus australasica	
+P601	Agrume hybride		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Citrus Hybrides horticoles	
+P602	Plaqueminier lotier	Espèce type	La Maison du Bananier	https://www.lamaisondubananier.com/les-porte-greffes/560-diospyros-lotus-kaki-lotus-plaqueminier-porte-greffe.html		EUR		Rupture		15/11/2026		Actif	Aucun format en stock	Diospyros lotus	
+P603	Poirier sauvage		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Pyrus pyraster	
+P604	Pothos dragon		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Epipremnum pinnatum	
+P605	Copalme de Formose		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Liquidambar formosana	
+P606	Griottier		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Prunus cerasus	
+P607	Cytise de Voss		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Laburnum × watereri	
+P608	Herbe aux diamants		La Maison du Bananier			EUR				15/11/2026		Actif	Non trouvé	Calamagrostis brachytricha	

@@ -1,0 +1,722 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Passiflora edulis	
+P002	Barbadine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Passiflora quadrangularis	
+P003	Avocatier	Hass	Attitude Jardin	https://attitudejardin.fr/produit/avocatier-hass-120-cm/	59,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Persea americana 'Hass'	110-120 cm
+P003	Avocatier	Bacon	Attitude Jardin	https://attitudejardin.fr/produit/avocatier-bacon-120-cm/	59,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Persea americana 'Bacon'	110-120 cm
+P003	Avocatier	Hass	Attitude Jardin	https://attitudejardin.fr/produit/avocatier-hass-200-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif		Persea americana 'Hass'	190-200 cm
+P003	Avocatier	Hass	Attitude Jardin	https://attitudejardin.fr/produit/avocatier-120-cm-2/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Persea americana 'Hass'	110-120 cm
+P003	Avocatier	Hass	Attitude Jardin	https://attitudejardin.fr/produit/avocatier-120-cm/	74,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Persea americana 'Hass'	90-100 cm
+P004	Bananier	Dwarf Cavendish	Attitude Jardin	https://attitudejardin.fr/produit/bananier-musa-dwarf-cavendish-200-cm/	295,95	EUR	Pot 40 cm	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Musa seul) ; rapproché par la variété de l'onglet Fiches	Musa acuminata 'Dwarf Cavendish'	190-200 cm
+P004	Bananier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/bananier-musa-70cm/	54,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Musa seul, titre « Bananier (Musa) ↕ 60-70 cm ») : à confirmer	Musa acuminata	60-70 cm
+P004	Bananier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/bananier-musa-o-12cm/	44,95	EUR	Pot 12 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Musa seul, titre « Bananier (Musa) ↕ 30-40 cm ») : à confirmer	Musa acuminata	30-40 cm
+P005	Manguier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/manguier-mangifera-indica-100-cm/	85,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Mangifera indica	90-100 cm
+P005	Manguier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/manguier-120-cm/	59,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Mangifera indica	110-120 cm
+P006	Corète du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Kerria japonica	
+P007	Pommier du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Malus × floribunda	
+P008	Aglaonema		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alpinia zerumbet	
+P011	Lis araignée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Canna indica	
+P014	Pervenche de Madagascar		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/ficus-lyrata-80-cm/	49,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 110 cm	Ficus lyrata	110 cm
+P016	Dieffenbachia	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/dieffenbachia-90-cm/	54,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Dieffenbachia seul, titre « Dieffenbachia 90 cm ») : à confirmer ; cache-pot en option (prix sans cache-pot)	Dieffenbachia seguine	90 cm
+P016	Dieffenbachia	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/dieffenbachia-70-cm/	44,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Dieffenbachia seul, titre « Dieffenbachia 70 cm ») : à confirmer ; cache-pot en option (prix sans cache-pot)	Dieffenbachia seguine	70 cm
+P017	Cordyline		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cordyline fruticosa	
+P018	Taro		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Colocasia esculenta	
+P019	Croton	Petra	Attitude Jardin	https://attitudejardin.fr/produit/codiaeum-croton-petra-80-cm/	94,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Codiaeum variegatum 'Petra'	80 cm
+P019	Croton	Petra	Attitude Jardin	https://attitudejardin.fr/produit/codiaeum-croton-petra-60-cm/	29,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Codiaeum variegatum 'Petra'	60 cm
+P020	Plante araignée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Liriope spicata	
+P025	Coléus		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/strelitzia-nicolai-80-cm/	44,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Strelitzia reginae	80-90 cm
+P028	Syngonium		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/zamioculcas-zamiifolia-%e2%86%95-110-120-cm/		EUR	Pot 24 cm	Rupture		15/11/2026		Actif	Prix non affiché (produit non achetable en ligne)	Zamioculcas zamiifolia	110-120 cm
+P031	Zamioculcas	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/zamioculcas-zamiifolia-100-cm/	54,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 100 cm	Zamioculcas zamiifolia	100 cm
+P031	Zamioculcas	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/zamioculcas-65-cm/	39,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 70 cm	Zamioculcas zamiifolia	70 cm
+P032	Gingembre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dracaena draco	
+P035	Hibiscus de Chine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Plumeria rubra	
+P040	Goyavier fraise		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Psidium cattleyanum	
+P041	Goyavier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/goyavier-rouge-psidium-guajava-100-cm/	85,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Psidium guajava	90-100 cm
+P042	Palmier chou		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Strelitzia nicolai	
+P044	Yucca géant	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-elephantipes-190-cm/	249,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif	Vendu sous : 180-190 cm	Yucca gigantea	190 cm
+P044	Yucca géant	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-elephantipes-120-cm/	69,95	EUR	Pot 23 cm	En stock		15/11/2026		Actif	Vendu sous : 120 cm	Yucca gigantea	120 cm
+P044	Yucca géant	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-elephantipes-80-cm/	29,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 80 cm	Yucca gigantea	80 cm
+P045	Santoline petit-cyprès		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Santolina chamaecyparissus	
+P046	Capucine naine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lagerstroemia indica	
+P048	Asparagus plumeux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lycianthes rantonnetii	
+P052	Gattilier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Vitex agnus-castus	
+P053	Lilas de Perse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Melia azedarach	
+P054	Polygala à feuilles de myrte	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/polygala-myrtifolia-tige-110-cm/		EUR	Pot 24 cm	Rupture		15/11/2026		Actif	Aucun format en stock ; Vendu sous : Tige ; Forme : Tige	Polygala myrtifolia	100-110 cm
+P054	Polygala à feuilles de myrte	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/polygala-myrtifolia-100-cm/		EUR	Pot 24 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Polygala myrtifolia	90-100 cm
+P054	Polygala à feuilles de myrte	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/polygala-myrtifolia-50-cm/	44,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Polygala myrtifolia	60-70 cm
+P055	Frangipanier blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Erythrostemon gilliesii	
+P058	Cordyline		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cordyline australis	
+P059	Lippia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phyla nodiflora	
+P060	Jasmin d'Arabie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Jasminum sambac	
+P061	Wédélia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/agapanthe-blanche-70-cm/	39,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Agapanthus seul, titre « Agapanthe blanche (Agapanthus) ↕ 60-70 cm ») : à confirmer	Agapanthus praecox	60-70 cm
+P063	Agapanthe	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/agapanthe-bleue-70-cm/	39,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Agapanthus seul, titre « Agapanthe bleue (Agapanthus) ↕ 60-70 cm ») : à confirmer	Agapanthus praecox	60-70 cm
+P064	Gaura		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Oenothera lindheimeri	
+P065	Petit flamboyant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Caesalpinia pulcherrima	
+P066	Flamboyant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Delonix regia	
+P067	Papyrus		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cyperus papyrus	
+P068	Pin de Norfolk	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/araucaria-heterophylla-200-cm/	349,95	EUR	Pot 40 cm	En stock		15/11/2026		Actif	Vendu sous : 190-200 cm	Araucaria heterophylla	200 cm
+P068	Pin de Norfolk	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/araucaria-heterophylla-120-cm/	109,95	EUR	Pot 28 cm	En stock		15/11/2026		Actif	Vendu sous : 110-120 cm	Araucaria heterophylla	120 cm
+P068	Pin de Norfolk	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/araucaria-heterophylla-80-cm/	69,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 70-80 cm	Araucaria heterophylla	80 cm
+P069	Immortelle d'Italie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Helichrysum italicum	
+P070	Belle-de-nuit		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-kumquat-fortunella-margarita-%e2%86%95-40-cm/	44,95	EUR	Pot 15 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus japonica	35-40 cm
+P071	Kumquat	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/kumquat-fortunella-margarita-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif		Citrus japonica	170-190 cm
+P071	Kumquat	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/kumquat-rond-fortunella-margarita-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus japonica	75-85 cm
+P071	Kumquat	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/kumquat-120-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus japonica	120-130 cm
+P071	Kumquat	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/kumquat-120-cm/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus japonica	120-130 cm
+P072	Verveine citronnelle		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloysia citrodora	
+P073	Poireau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cycas-revoluta-150-cm/	429,95	EUR	Pot 45 cm	En stock		15/11/2026		Actif		Cycas revoluta	130-150 cm
+P075	Cycas du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cycas-revoluta-90-cm/	115,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Cycas revoluta	80-90 cm
+P075	Cycas du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cycas-revoluta-o-19-cm/		EUR	Pot 15 cm	Rupture		15/11/2026		Actif	Prix non affiché (produit non achetable en ligne)	Cycas revoluta	50-60 cm
+P076	Épiaire de Byzance		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Stachys byzantina	
+P077	Papayer	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/goyavier-citron-psidium-guajava-100-cm/	85,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Carica papaya	90-100 cm
+P078	Séné de Noël		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Senna bicapsularis	
+P079	Chêne vert à glands doux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tamarix africana	
+P082	Arganier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sideroxylon spinosum	
+P083	Orpin de Nice		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose	Saumon	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-saumon-nerium-oleander-%e2%86%95-90-100-cm/	39,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander 'Saumon'	90-100 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%b8-laurier-rose-nerium-oleander-%e2%86%95-90-100-cm-4/	39,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	90-100 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%b8-laurier-rose-nerium-oleander-%e2%86%95-90-100-cm-3/	39,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	90-100 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%b8-laurier-rose-nerium-oleander-%e2%86%95-90-100-cm-2/	39,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	90-100 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%b8-laurier-rose-nerium-oleander-%e2%86%95-90-100-cm/	39,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	90-100 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-190-cm-3/	195,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Nerium oleander	170-190 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-190-cm-2/	195,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Nerium oleander	170-190 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-190-cm/	195,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Nerium oleander	170-190 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-nain-oleander-nana-80/	34,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Nerium oleander	70-80 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-nain-oleander-80/	34,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Nerium oleander	70-80 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-a-fleurs-rouges-60-cm/	34,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Nerium oleander	50-60 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-a-fleurs-blanches-60-cm/	34,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Nerium oleander	50-60 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-120-cm-2/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	110-120 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-oleander-120-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	110-120 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-taille-120-cm/	54,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Nerium oleander	110-120 cm
+P084	Laurier-rose	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-rose-taille-100-cm/	34,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Nerium oleander	50-60 cm
+P085	Mûrier blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Morus alba	
+P086	Palmier nain	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/chamaerops-humilis-120-cm/	54,95	EUR	Pot 25 cm	En stock		15/11/2026		Actif		Chamaerops humilis	110-120 cm
+P086	Palmier nain	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/chamaerops-o-19-cm/	44,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Chamaerops humilis	70-80 cm
+P087	Canne de Provence		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Arundo donax	
+P088	Persil		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ceratonia siliqua	
+P091	Oreilles de lapin	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/opumtia-50-cm/	34,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Opuntia seul, titre « Opuntia (Cactus raquette) ↕ 40-50 cm ») : à confirmer ; cache-pot en option (prix sans cache-pot)	Opuntia microdasys	40-50 cm
+P092	Palmier dattier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Punica granatum	
+P096	Sauge officinale		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia officinalis	
+P097	Géranium rosat		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pelargonium graveolens	
+P098	Aeonium arborescent	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/aeonium-50-cm/	54,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Aeonium arboreum	40-50 cm
+P099	Liane de Madère		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloe × delaetii	
+P101	Griffe de sorcière		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carpobrotus edulis	
+P102	Arroche halime		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Atriplex halimus	
+P103	Palmier royal		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Roystonea regia	
+P104	Liane griffe de chat		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dolichandra unguis-cati	
+P105	Kalanchoé de Daigremont		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Kalanchoe daigremontiana	
+P106	Séné d'Argentine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Senna corymbosa	
+P107	Chêne d'argent		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Grevillea robusta	
+P108	Armoise arborescente		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Artemisia arborescens	
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-tige-torsade-olea-europaea-%e2%86%95-80-90-cm/	89,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif		Olea europaea	80-90 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-tige-olea-europaea-%e2%86%95-180-200-cm/	239,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Olea europaea	180-200 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-tige-olea-europaea-%e2%86%95-160-180-cm/	189,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Olea europaea	160-180 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-europaea-100-cm-mini-bouteille-dhuile-dolive/	85,95	EUR	Pot 28 cm	En stock		15/11/2026		Actif		Olea europaea	90-100 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-europaea-tige-torsadee-100-cm/	89,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Olea europaea	90-100 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-europaea-touffe-60-cm/	39,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Olea europaea	50-60 cm
+P109	Olivier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/olivier-europaea-90-cm/	39,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Olea europaea	80-90 cm
+P110	Thé des bois		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Gaultheria procumbens	
+P111	Chèvrefeuille arbustif		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lonicera ligustrina	
+P112	Andromède du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pieris japonica	
+P113	Sapin d'Espagne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Abies pinsapo	
+P114	Muscari d'Arménie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Muscari armeniacum	
+P115	Laurier-sauce	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-sauce-taille-90-cm/	39,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Laurus nobilis	100 cm
+P116	Laurier-cerise		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus laurocerasus	
+P117	Laurier-tin	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-tin-60-cm/	34,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Viburnum tinus	50-60 cm
+P117	Laurier-tin	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-tin-tige-100-cm/		EUR	Pot 22 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Viburnum tinus	90-100 cm
+P117	Laurier-tin	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/laurier-tin-100-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Viburnum tinus	90-100 cm
+P118	Bruyère de Darley		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Erica × darleyensis	
+P119	Bruyère des neiges		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Erica carnea	
+P120	Mahonia à feuilles de houx		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Berberis aquifolium	
+P121	Fittonia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fittonia albivenis	
+P122	Filaire à feuilles étroites		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phillyrea angustifolia	
+P123	Cognassier du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chaenomeles speciosa	
+P124	Pétasite hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Petasites hybridus	
+P125	Germandrée arbustive	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/teucrium-60-cm/	44,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Teucrium fruticans	50-60 cm
+P126	Argousier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hippophae rhamnoides	
+P127	Osmanthe de Burkwood		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Osmanthus × burkwoodii	
+P128	Prunellier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus spinosa	
+P129	Coronille de Valence		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Coronilla valentina	
+P130	Buis commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Buxus sempervirens	
+P131	Rhododendron de Corée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rhododendron mucronulatum	
+P132	Mimosa d'hiver	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/mimosa-gaulois-tige-120-130-cm/	54,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Acacia dealbata	120-130 cm
+P132	Mimosa d'hiver	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/mimosa-gaulois-tige-200-cm/	275,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Acacia dealbata	200 cm
+P132	Mimosa d'hiver	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/mimosa-gaulois-touffe-100-cm/		EUR	Pot 28 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Acacia dealbata	100 cm
+P132	Mimosa d'hiver	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/mimosa-gaulois-tige-90-cm/	44,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Acacia dealbata	90 cm
+P132	Mimosa d'hiver	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/mimosa-gaulois-touffe-70-cm/	44,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Acacia dealbata	50 cm
+P133	Chalef d'Ebbinge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Elaeagnus × submacrophylla	
+P134	Arbre de Judée du Yunnan		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cercis glabra	
+P135	Bambou sacré	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/nandina-domestica-50-cm/	44,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Nandina domestica	40-50 cm
+P136	Euphorbe characias		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Euphorbia characias	
+P137	Aralia du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fatsia japonica	
+P138	Callitriche des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Callitriche palustris	
+P139	Élodée du Canada		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Elodea canadensis	
+P140	Pesse d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hippuris vulgaris	
+P141	Hottonie des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hottonia palustris	
+P142	Myriophylle verticillé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Myriophyllum verticillatum	
+P143	Potamot crépu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Potamogeton crispus	
+P144	Renoncule aquatique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ranunculus aquatilis	
+P145	Petite lentille d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lemna minor	
+P146	Hydrocharis		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hydrocharis morsus-ranae	
+P147	Stratiote faux-aloès		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Stratiotes aloides	
+P148	Châtaigne d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Trapa natans	
+P149	Azolla		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Azolla caroliniana	
+P150	Jacinthe d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pontederia crassipes	
+P151	Laitue d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pistia stratiotes	
+P152	Salvinie nageante		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvinia natans	
+P153	Aponogeton		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aponogeton distachyos	
+P154	Lotus jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nelumbo lutea	
+P155	Lotus sacré		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nelumbo nucifera	
+P156	Nymphéa nain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nymphaea tetragona	
+P157	Nénuphar jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nuphar lutea	
+P158	Nymphéa hybride rustique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides rustiques	
+P159	Faux nénuphar		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nymphoides peltata	
+P160	Potamot nageant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Potamogeton natans	
+P161	Acore odorant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acorus calamus	
+P162	Acore graminée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acorus gramineus	
+P163	Plantain d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alisma plantago-aquatica	
+P164	Jonc fleuri		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Butomus umbellatus	
+P165	Populage des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Caltha palustris	
+P166	Laîche raide dorée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carex elata	
+P167	Laîche palmier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carex muskingumensis	
+P168	Laîche du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carex morrowii	
+P169	Laîche pendante		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carex pendula	
+P170	Laîche des rives		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carex riparia	
+P171	Souchet long		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cyperus longus	
+P172	Glycérie aquatique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Glyceria maxima	
+P173	Gunnera		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Gunnera manicata	
+P174	Iris lisse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris laevigata	
+P175	Iris des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris pseudacorus	
+P176	Iris de Sibérie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris sibirica	
+P177	Lysichiton jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lysichiton americanus	
+P178	Lysichiton blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lysichiton camtschatcensis	
+P179	Menthe aquatique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Mentha aquatica	
+P180	Trèfle d'eau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Menyanthes trifoliata	
+P181	Myosotis des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Myosotis scorpioides	
+P182	Orontium		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Orontium aquaticum	
+P183	Roseau commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phragmites australis	
+P184	Pontédérie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pontederia cordata	
+P185	Sagittaire du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sagittaria trifolia	
+P186	Thalia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Thalia dealbata	
+P187	Massette à larges feuilles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Typha latifolia	
+P188	Astilbe de Chine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Astilbe chinensis	
+P189	Astilboides		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Astilboides tabularis	
+P190	Actée à grappes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Actaea racemosa	
+P191	Actée simple		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Actaea simplex	
+P192	Euphorbe des marais		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Euphorbia palustris	
+P193	Reine-des-prés rouge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Filipendula rubra	
+P194	Osmonde royale		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Osmunda regalis	
+P195	Miscanthus		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Miscanthus sinensis	
+P196	Hosta bleu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hosta sieboldiana	
+P197	Pétasite du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Petasites japonicus	
+P198	Acacia bleuâtre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acacia saligna	
+P199	Marronnier d'Inde		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aesculus hippocastanum	
+P200	Ricinelle		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acalypha wilkesiana	
+P201	Agastache fenouil		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agastache foeniculum	
+P202	Agave d'Amérique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agave americana	
+P203	Agave à cou de cygne	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/agave-attenuata-40-cm/		EUR	Pot 24 cm	Rupture		15/11/2026		Actif	Prix non affiché (produit non achetable en ligne)	Agave attenuata	30-40 cm
+P204	Sisal		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agave sisalana	
+P205	Arbre à soie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Albizia julibrissin	
+P206	Rose trémière hérissée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alcea setosa	
+P207	Aloès de Chabaud		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloe chabaudii	
+P208	Aloès des dunes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloe thraskii	
+P209	Aloès vrai	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/aloe-vera-o-12-cm/	24,95	EUR	Pot 12 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Aloe vera	20-30 cm
+P210	Aloès grimpant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloiampelos ciliaris	
+P211	Aloès arborescent		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloidendron barberae	
+P212	Alstroemère dorée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria aurea	
+P213	Alstroemère ligtu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria ligtu	
+P214	Alternanthère calicot		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alternanthera bettzickiana	
+P215	Alternanthère du Brésil		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alternanthera brasiliana	
+P216	Anthurium		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anthurium andraeanum	
+P217	Aphélandra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aphelandra squarrosa	
+P218	Désespoir des singes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Araucaria araucana	
+P219	Arbousier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/arbousier-arbutus-unedo-120-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Arbutus unedo	110-120 cm
+P220	Grande capucine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum majus	
+P221	Bananier du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Musa basjoo	
+P222	Bigaradier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Citrus × aurantium	
+P223	Cyprès de Provence	Totem Pole	Attitude Jardin	https://attitudejardin.fr/produit/cypres-totem-cupressus-sempervirens-%e2%86%95-100-110-cm/	39,95	EUR	Pot 40 cm	En stock		15/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	100-110 cm
+P223	Cyprès de Provence	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cypres-de-provence-cupressus-sempervirens-pyramidalis-230-250-cm/	329,95	EUR	Pot 40 cm	En stock		15/11/2026		Actif	Vendu sous : Pyramidalis	Cupressus sempervirens	230-250 cm
+P224	Amandier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus amygdalus	
+P225	Néflier du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Eriobotrya japonica	
+P226	Figuier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ficus carica	
+P227	Mûrier noir		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Morus nigra	
+P228	Arbre de Judée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cercis siliquastrum	
+P229	Jacaranda		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Jacaranda mimosifolia	
+P230	Myrte commun	Tarentina	Attitude Jardin	https://attitudejardin.fr/produit/myrte-tarentine-60-cm/	34,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Myrtus communis 'Tarentina'	50-60 cm
+P230	Myrte commun	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/myrte-commune-touffe-40-cm/	39,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Myrtus communis	30-40 cm
+P230	Myrte commun	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/myrte-commune-touffe-60-cm/		EUR	Pot 24 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Myrtus communis	50-60 cm
+P230	Myrte commun	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/myrte-commune-80-cm/		EUR	Pot 22 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Myrtus communis	70-80 cm
+P230	Myrte commun	Tarentina	Attitude Jardin	https://attitudejardin.fr/produit/myrte-tarentine-100-cm/	44,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Myrtus communis 'Tarentina'	90-100 cm
+P231	Lentisque	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pistachier-lentisque-100-cm/	44,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Pistacia lentiscus	90-100 cm
+P232	Nerprun alaterne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rhamnus alaternus	
+P233	Buplèvre ligneux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Bupleurum fruticosum	
+P234	Ciste cotonneux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cistus albidus	
+P235	Ciste à feuilles de sauge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cistus salviifolius	
+P236	Ciste ladanifère		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cistus ladanifer	
+P237	Phlomis pourpre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phlomis purpurea	
+P238	Jasmin jaune arbustif		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chrysojasminum fruticans	
+P239	Rose de Damas		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rosa × damascena	
+P240	Plumbago du Cap		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Plumbago auriculata	
+P241	Romarin d'Australie	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/westringia-fruticosa-50-cm/	44,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Westringia fruticosa	40-50 cm
+P242	Jasmin officinal		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Jasminum officinale	
+P243	Jasmin étoilé	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/jasmin-etoile-110-cm/	44,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif		Trachelospermum jasminoides	100-110 cm
+P244	Bougainvillier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Bougainvillea spectabilis	
+P245	Rosier de Banks		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rosa banksiae	
+P246	Vigne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Vitis vinifera	
+P247	Câprier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Capparis spinosa	
+P248	Chèvrefeuille des Baléares		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lonicera implexa	
+P249	Clématite cirrheuse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Clematis cirrhosa	
+P250	Bignone rose		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Podranea ricasoliana	
+P251	Lavande dentée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lavandula dentata	
+P252	Lavande papillon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lavandula stoechas	
+P253	Liseron de Crète		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Convolvulus cneorum	
+P254	Germandrée tomenteuse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Teucrium polium	
+P255	Statice de Perez		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Limonium perezii	
+P256	Acanthe à feuilles molles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acanthus mollis	
+P257	Iris de Florence		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris florentina	
+P258	Iris d'Algérie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris unguicularis	
+P259	Valériane rouge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Valeriana rubra	
+P260	Dietes à grandes fleurs		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dietes grandiflora	
+P261	Sauge d'Afghanistan		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia yangii	
+P262	Alfa		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Macrochloa tenacissima	
+P263	Sparte		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lygeum spartum	
+P264	Stipe géante		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Celtica gigantea	
+P265	Diss		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ampelodesmos mauritanicus	
+P266	Brachypode rameux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brachypodium retusum	
+P267	Muhlenbergie capillaire		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Muhlenbergia capillaris	
+P268	Avoine bleue		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Helictotrichon sempervirens	
+P269	Zoysia du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Zoysia japonica	
+P270	Paspalum des plages		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Paspalum vaginatum	
+P271	Serpolet		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Thymus serpyllum	
+P272	Frankénie lisse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Frankenia laevis	
+P273	Achillée à feuilles de criste		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Achillea crithmifolia	
+P274	Liseron de Mauritanie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Convolvulus sabatius	
+P275	Dichondra argenté		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dichondra argentea	
+P276	Germandrée petit-chêne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Teucrium chamaedrys	
+P277	Narcisse papyracé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Narcissus papyraceus	
+P278	Iris d'Espagne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris xiphium	
+P279	Lys des sables		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pancratium maritimum	
+P280	Ail rose		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Allium roseum	
+P281	Sternbergie jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sternbergia lutea	
+P282	Nivéole d'été		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Leucojum aestivum	
+P283	Jonc des chaisiers		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Schoenoplectus lacustris	
+P284	Jonc épars		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Juncus effusus	
+P285	Massette naine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Typha minima	
+P286	Véronique des ruisseaux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Veronica beccabunga	
+P287	Arum d'Éthiopie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Zantedeschia aethiopica	
+P288	Cornifle nageant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ceratophyllum demersum	
+P289	Potamot pectiné		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Stuckenia pectinata	
+P290	Chara commune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chara vulgaris	
+P291	Renoncule peltée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ranunculus peltatus	
+P292	Nymphéa tropical		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides tropicaux	
+P293	Nymphéa hybride nain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides nains	
+P294	Aglaonema rouge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aglaonema Hybrides à feuillage rouge	
+P295	Romarin		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia rosmarinus	
+P296	Lavande vraie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lavandula angustifolia	
+P297	Lavandin		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lavandula × intermedia	
+P298	Thym commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Thymus vulgaris	
+P299	Origan		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Origanum vulgare	
+P300	Marjolaine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Origanum majorana	
+P301	Pittospore du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pittosporum-tobira-pittospore-du-japon-%e2%86%95-180-200-cm/	339,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Pittosporum tobira	180-200 cm
+P301	Pittospore du Japon	Nana	Attitude Jardin	https://attitudejardin.fr/produit/pittosporum-tobira-nana-pittospore-du-japon-%e2%86%95-40-50-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Variété trouvée : Nana (absente de l'onglet Fiches)	Pittosporum tobira 'Nana'	40-50 cm
+P301	Pittospore du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pittosporum-tobira-60-cm/	34,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif		Pittosporum tobira	50-60 cm
+P301	Pittospore du Japon	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pittosporum-tobira-100-cm/	44,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Pittosporum tobira	90-100 cm
+P302	Citronnier	Eureka	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-4-saisons-eureka-citrus-limon-force-40-50-cm-%e2%86%95170-190-cm/	949,95	EUR	Pot 65 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × limon 'Eureka'	200 cm
+P302	Citronnier	Eureka	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-4-saisons-eureka-citrus-limon-force-40-50-cm-%e2%86%95170-190-cm/	969,95	EUR	Pot 65 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × limon 'Eureka'	200 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8d%8b-citronnier-citrus-limon-40-cm/	44,95	EUR	Pot 15 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus × limon	35-40 cm
+P302	Citronnier	Meyer	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-meyer-40-cm/	44,95	EUR	Pot 15 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus × limon 'Meyer'	35-40 cm
+P302	Citronnier	Meyer	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-meyer-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × limon 'Meyer'	170-190 cm
+P302	Citronnier	Meyer	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-meyer-190-cm/	349,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × limon 'Meyer'	170-190 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-limon-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × limon	170-190 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-limon-190-cm/	349,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × limon	170-190 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/limetta-rossa-80-cm/		EUR	Pot 22 cm	Rupture		15/11/2026		Actif	Nom latin écrit « Citrus limonia » sur la fiche ; cache-pot en option (prix sans cache-pot) ; Aucun format en stock	Citrus × limon	75-85 cm
+P302	Citronnier	Meyer	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-meyer-120-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Citrus × limon 'Meyer'	120-130 cm
+P302	Citronnier	Meyer	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-meyer-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus × limon 'Meyer'	75-85 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-citrus-limon-agrume-parfume-110-cm-ideal-en-pot-ou-en-pleine-terre/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × limon	120-130 cm
+P302	Citronnier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citronnier-citrus-limon-agrume-parfume-110-cm-ideal-en-pot-ou-en-pleine-terre/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × limon	120-130 cm
+P303	Oranger doux	Navel Chocolate	Attitude Jardin	https://attitudejardin.fr/produit/oranger-chocolat-citrus-sinensis-chocolate-%e2%86%95-75-85-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	Variété trouvée : Chocolate (absente de l'onglet Fiches) ; cache-pot en option (prix sans cache-pot) ; Vendu sous : Chocolate	Citrus × sinensis 'Navel Chocolate'	75-85 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-sanguin-citrus-x-sinensis-110-120-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × sinensis	110-120 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-sanguin-citrus-x-sinensis-110-120-cm/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × sinensis	110-120 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif		Citrus × sinensis	170-190 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/eremorange-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus × sinensis	75-85 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-120-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus × sinensis	120-130 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-120-cm/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus × sinensis	120-130 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-sanguin-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Option fructification : Sans garantie de fruits	Citrus × sinensis	75-85 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-sanguin-80-cm/	69,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Option fructification : Fruits garantis	Citrus × sinensis	75-85 cm
+P303	Oranger doux	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/oranger-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus × sinensis	75-85 cm
+P304	Thuya de Berbérie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tetraclinis articulata	
+P305	Euphorbe résinifère		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Euphorbia resinifera	
+P306	Chêne vert	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/chene-vert-quercus-ilex-120-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Quercus ilex	110-120 cm
+P307	Chêne-liège		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus suber	
+P308	Cèdre de l'Atlas		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cedrus atlantica	
+P309	Pistachier de l'Atlas		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pistacia atlantica	
+P310	Jujubier sauvage		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ziziphus lotus	
+P311	Jujubier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ziziphus jujuba	
+P312	Genévrier de Phénicie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Juniperus phoenicea	
+P313	Rétama blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Retama monosperma	
+P314	Euphorbe arborescente		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Euphorbia dendroides	
+P315	Anthyllide barbe-de-Jupiter		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anthyllis barba-jovis	
+P316	Limoniastrum		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Limoniastrum monopetalum	
+P317	Criste marine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Crithmum maritimum	
+P318	Lotier de Crète		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lotus creticus	
+P319	Cinéraire maritime		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Jacobaea maritima	
+P320	Coprosma		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Coprosma repens	
+P321	Arbre de Noël néo-zélandais	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/metrosideros-thomasii-metrosideros-excelsa-%e2%86%95-110-120-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Metrosideros excelsa	110-120 cm
+P321	Arbre de Noël néo-zélandais	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/metrosideros-thomasii-50-cm/	34,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Metrosideros excelsa	40-50 cm
+P322	Orgueil de Madère	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/echium-viperine-de-madere-50-60-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Echium seul, titre « Echium (Vipérine de Madère) 50-60 cm ») : à confirmer	Echium candicans	60 cm
+P323	Bignone du Cap		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tecomaria capensis	
+P324	Euryops	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/euryops-50-cm/	34,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif	Espèce non précisée sur la fiche (genre Euryops seul, titre « Euryops (Marguerite des savanes) ↕ 40-50 cm ») : à confirmer	Euryops pectinatus	40-50 cm
+P325	Rince-bouteille	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/callistemon-70-cm/	34,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif		Melaleuca citrina	60-70 cm
+P325	Rince-bouteille	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/callistemon-80-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Melaleuca citrina	70-80 cm
+P326	Sauge du Mexique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia leucantha	
+P327	Sauge de Greg		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia greggii	
+P328	Sauge à petites feuilles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salvia microphylla	
+P329	Tulbaghia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tulbaghia violacea	
+P330	Tritoma		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Kniphofia uvaria	
+P331	Brachychiton à feuilles de peuplier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brachychiton populneus	
+P332	Arbre flamme		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brachychiton acerifolius	
+P333	Tipuana		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tipuana tipu	
+P334	Palmier bleu du Mexique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brahea armata	
+P335	Palmier abricot		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Butia odorata	
+P336	Palmier jupon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Washingtonia filifera	
+P337			Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé		
+P338	Leucophyllum		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Leucophyllum frutescens	
+P339	Hespéraloé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hesperaloe parviflora	
+P340	Yucca rostrata	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-rostrata-150-cm/	329,95	EUR	Pot 45 cm	En stock		15/11/2026		Actif		Yucca rostrata	130-150 cm
+P340	Yucca rostrata	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-rostrata-80-cm/	99,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Yucca rostrata	70-80 cm
+P340	Yucca rostrata	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/yucca-rostrata-60-cm/	64,95	EUR	Pot 16 cm	En stock		15/11/2026		Actif		Yucca rostrata	50-60 cm
+P341	Dasylirion		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dasylirion longissimum	
+P342	Dodonée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dodonaea viscosa	
+P343	Micocoulier de Provence		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Celtis australis	
+P344	Frêne à feuilles étroites		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fraxinus angustifolia	
+P345	Arbre aux perruques		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cotinus coggygria	
+P346	Savonnier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Koelreuteria paniculata	
+P347	Cyprès de l'Arizona		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis arizonica	
+P348	Pistachier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pistacia vera	
+P349	Plaqueminier kaki		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Diospyros kaki	
+P350	Feijoa	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/feijoa-sellowiana-goyavier-du-bresil-%e2%86%95-180-200-cm/	239,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Feijoa sellowiana	180-200 cm
+P350	Feijoa	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/feijoa-sellowian-120-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Feijoa sellowiana	110-120 cm
+P350	Feijoa	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/feijoa-60-cm/	34,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif		Feijoa sellowiana	50-60 cm
+P351	Faux poivrier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Schinus molle	
+P352	Parkinsonia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Parkinsonia aculeata	
+P353	Agastache rugueuse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agastache rugosa	
+P354	Oiseau de paradis mexicain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Erythrostemon mexicanus	
+P355	Alstroemère hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria Hybrides horticoles	
+P357	Capucine hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum Hybrides horticoles	
+P358	Agastache hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agastache Hybrides horticoles	
+P359	Alternanthère ficoïde		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alternanthera ficoidea	
+P360	Arbre aux perruques hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cotinus Hybrides horticoles	
+P361	Amandier-pêcher		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus × persicoides	
+P362	Palmier des Canaries	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/phoenix-canariensis-90-cm/	34,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Vendu sous : 80-90 cm	Phoenix canariensis	90 cm
+P363	Palmier de la reine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Syagrus romanzoffiana	
+P364	Pin parasol		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus pinea	
+P365	Pin d'Alep		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus halepensis	
+P366	Prune du Natal		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carissa macrocarpa	
+P367	Limettier mexicain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Citrus × aurantiifolia	
+P368	Misère pourpre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tradescantia pallida	
+P369	Filao		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Casuarina equisetifolia	
+P370	Canéficier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cassia fistula	
+P371	Noyer du Queensland	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/macadamia-integrifolia100-cm/	85,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif		Macadamia integrifolia	90-100 cm
+P372	Palmier d'Alexandra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Archontophoenix alexandrae	
+P373	Palmier éventail de Chine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Livistona chinensis	
+P374	Palmier de Chine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Trachycarpus fortunei	
+P375	Kentia	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/palmier-kentia-90-cm/	44,95	EUR	Pot 18 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Howea forsteriana	90 cm
+P376	Sansevière		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dracaena trifasciata	
+P377	Aspidistra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aspidistra elatior	
+P378	Lomandra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lomandra longifolia	
+P379	Genévrier cade		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Juniperus oxycedrus	
+P380	Frêne à fleurs		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fraxinus ornus	
+P381	Tamaris de France		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tamarix gallica	
+P382	Arroche nummulaire		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Atriplex nummularia	
+P383	Arroche à quatre ailes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Atriplex canescens	
+P384	Obione		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Halimione portulacoides	
+P385	Cyprès de Lambert		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
+P386	Abricotier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/abricotier-prunus-armeniaca-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Prunus armeniaca	80-90 cm
+P387	Pêcher	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-pecher-nain-prunus-persica-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Prunus persica	80-90 cm
+P388	Prunier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-pecher-nain-prunus-domestica-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Prunus domestica	80-90 cm
+P389	Cognassier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cydonia oblonga	
+P390	Poirier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-poirier-nain-pyrus-communis-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Pyrus communis	80-90 cm
+P391	Cédratier	Main de Bouddha (Fingered)	Attitude Jardin	https://attitudejardin.fr/produit/main-de-bouddha-citrus-medica-var-sarcodactylis-170-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus medica 'Main de Bouddha (Fingered)'	170-190 cm
+P391	Cédratier	Main de Bouddha (Fingered)	Attitude Jardin	https://attitudejardin.fr/produit/main-de-bouddha-citrus-medica-var-sarcodactylis-170-190-cm/	349,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus medica 'Main de Bouddha (Fingered)'	170-190 cm
+P391	Cédratier	Main de Bouddha (Fingered)	Attitude Jardin	https://attitudejardin.fr/produit/main-de-bouddha-citrus-medica-var-sarcodactylis-110-120-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus medica 'Main de Bouddha (Fingered)'	110-120 cm
+P391	Cédratier	Main de Bouddha (Fingered)	Attitude Jardin	https://attitudejardin.fr/produit/main-de-bouddha-citrus-medica-var-sarcodactylis-110-120-cm/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus medica 'Main de Bouddha (Fingered)'	110-120 cm
+P391	Cédratier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cedratier-190-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif		Citrus medica	170-190 cm
+P391	Cédratier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/cedratier-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus medica	75-85 cm
+P391	Cédratier	Main de Bouddha (Fingered)	Attitude Jardin	https://attitudejardin.fr/produit/main-de-bouddha-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus medica 'Main de Bouddha (Fingered)'	75-85 cm
+P392	Canne à sucre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Saccharum officinarum	
+P393	Caféier d'Arabie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Coffea arabica	
+P394	Noyer du Queensland à coque rugueuse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Macadamia tetraphylla	
+P395	Caoutchouc	Robusta	Attitude Jardin	https://attitudejardin.fr/produit/ficus-elastica-robusta-190-cm/	329,95	EUR	Pot 30 cm	En stock		15/11/2026		Actif		Ficus elastica 'Robusta'	170-190 cm
+P395	Caoutchouc	Tineke	Attitude Jardin	https://attitudejardin.fr/produit/ficus-elastica-tineke-80-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus elastica 'Tineke'	80 cm
+P395	Caoutchouc	Abidjan	Attitude Jardin	https://attitudejardin.fr/produit/ficus-elastica-abidjan-80-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus elastica 'Abidjan'	80 cm
+P395	Caoutchouc	Robusta	Attitude Jardin	https://attitudejardin.fr/produit/ficus-elastica-robusta-80-cm/	44,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus elastica 'Robusta'	80 cm
+P396	Figuier pleureur	Twilight	Attitude Jardin	https://attitudejardin.fr/produit/ficus-benjamina-twighlight-110-cm-copie/	44,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif	Variété trouvée : Twighlight 110 cm (absente de l'onglet Fiches) ; cache-pot en option (prix sans cache-pot) ; Vendu sous : Twighlight 110 cm	Ficus benjamina 'Twilight'	110 cm
+P396	Figuier pleureur	Danielle	Attitude Jardin	https://attitudejardin.fr/produit/ficus-benjamina-danielle-110-cm/	44,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus benjamina 'Danielle'	110 cm
+P396	Figuier pleureur	Danielle	Attitude Jardin	https://attitudejardin.fr/produit/ficus-benjamina-70-cm-2/	24,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus benjamina 'Danielle'	70 cm
+P396	Figuier pleureur	Twilight	Attitude Jardin	https://attitudejardin.fr/produit/ficus-benjamina-70-cm/	24,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	Variété trouvée : Twighlight 70 cm (absente de l'onglet Fiches) ; cache-pot en option (prix sans cache-pot) ; Vendu sous : Twighlight 70 cm	Ficus benjamina 'Twilight'	70 cm
+P396	Figuier pleureur	Anastasia	Attitude Jardin	https://attitudejardin.fr/produit/ficus-benjamina-90-cm/	24,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Ficus benjamina 'Anastasia'	70 cm
+P396	Figuier pleureur	Alii	Attitude Jardin	https://attitudejardin.fr/produit/ficus-alii-90-cm/	34,95	EUR	Pot 19 cm	En stock		15/11/2026		Actif	Espèce absente de la fiche (genre Ficus seul) ; rapproché par la variété de l'onglet Fiches ; cache-pot en option (prix sans cache-pot)	Ficus benjamina 'Alii'	110 cm
+P397	Banian		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ficus benghalensis	
+P398	Saguaro		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carnegiea gigantea	
+P399	Pin maritime		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus pinaster	
+P400	Peuplier blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Populus alba	
+P401	Armérie maritime		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Armeria maritima	
+P402	Jonquille		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Narcissus jonquilla	
+P403	Ail triquètre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Allium triquetrum	
+P404	Camomille allemande		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Matricaria chamomilla	
+P405	Lupin à feuilles étroites		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lupinus angustifolius	
+P406	Tournesol		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Helianthus annuus	
+P407	Rosier des chiens		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rosa canina	
+P408	Lierre grimpant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hedera helix	
+P409	Liriope		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Liriope muscari	
+P410	Chrysocephalum		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chrysocephalum apiculatum	
+P411	Violette d'Australie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Viola hederacea	
+P412	Oxalis pourpre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Oxalis triangularis	
+P413	Pothos	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pothos-epipremnum-80-cm/		EUR	Pot 25 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Epipremnum aureum	80 cm
+P413	Pothos	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pothos-epipremnum-110-cm/	59,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Epipremnum aureum	110 cm
+P413	Pothos	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pothos-epipremnum-40-cm/	29,95	EUR	Pot 21 cm	En stock		15/11/2026		Actif		Epipremnum aureum	40 cm
+P413	Pothos	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/pothos-epipremnum/	34,95	EUR	Pot 17 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Epipremnum aureum	80 cm
+P414	Dragonnier parfumé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dracaena fragrans	
+P415	Palmier mazari		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nannorrhops ritchieana	
+P416	Palmier de Floride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Serenoa repens	
+P417	Palmier à sucre de l'Inde		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Caryota urens	
+P418	Aréca		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chrysalidocarpus lutescens	
+P419	Cycas de l'Inde		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cycas circinalis	
+P420	Kaloupilé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Murraya koenigii	
+P421	Badamier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Terminalia catappa	
+P422	Mûrier à papier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Broussonetia papyrifera	
+P423	Fougère de Boston		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Nephrolepis exaltata	
+P424	Fougère bouton		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pellaea rotundifolia	
+P425	Ricin		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ricinus communis	
+P426	Oxalis des Bermudes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Oxalis pes-caprae	
+P427	Herbe aux écouvillons pourpres		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cenchrus setaceus	
+P428	Bambou doré		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phyllostachys aurea	
+P429	Tagète des décombres		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tagetes minuta	
+P430	Liseron des champs		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Convolvulus arvensis	
+P431	Rhododendron pontique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rhododendron ponticum	
+P432	Tilleul à petites feuilles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tilia cordata	
+P433	Pin noir		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus nigra	
+P434	Épicéa		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Picea abies	
+P435	Peuplier baumier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Populus balsamifera	
+P436	Bambou noir du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phyllostachys nigra	
+P437	Phellodendron		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phellodendron amurense	
+P438	Cryptomeria		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cryptomeria japonica	
+P439	Katsura		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cercidiphyllum japonicum	
+P440	Sorbier des oiseleurs		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sorbus aucuparia	
+P441	Saule pleureur		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salix babylonica	
+P442	Chêne chevelu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus cerris	
+P443	Sapin de Nikko		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Abies homolepis	
+P444	Ginkgo		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ginkgo biloba	
+P445	Noyer du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Juglans ailantifolia	
+P446	Mélèze du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Larix kaempferi	
+P447	Ostrya		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Ostrya japonica	
+P448	Épicéa de Koyama		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Picea koyamae	
+P449	Érable à feuilles rondes		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer circinatum	
+P450	Pavier de l'Ohio		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aesculus glabra	
+P451	Catalpa		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Catalpa bignonioides	
+P452	Copalme d'Amérique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Liquidambar styraciflua	
+P453	Épinette d'Engelmann		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Picea engelmannii	
+P454	Chêne rouge d'Amérique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus rubra	
+P455	Tilleul américain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tilia americana	
+P456	Pin de Weymouth		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus strobus	
+P457	Platane d'Occident		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Platanus occidentalis	
+P458	Bouleau merisier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Betula lenta	
+P459	Bouleau gris		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Betula populifolia	
+P460	Pacanier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Carya illinoinensis	
+P461	Cyprès de Lawson		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis lawsoniana	
+P462	Hêtre commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fagus sylvatica	
+P463	Épicéa du Colorado		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Picea pungens	
+P464	Pin mugo		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus mugo	
+P465	Platane commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Platanus × hispanica	
+P466	Peuplier noir		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Populus nigra	
+P467	Laurier sassafras		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sassafras albidum	
+P468	If commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Taxus baccata	
+P469	Thuya géant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Thuja plicata	
+P470	Pommier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-pommier-nain-malus-domestica-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Malus domestica	80-90 cm
+P471	Cerisier	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/%f0%9f%8c%bf-cerisier-nain-prunus-avium-%e2%86%95-80-90-cm/	64,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Prunus avium	80-90 cm
+P472	Scirpe-jonc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Scirpoides holoschoenus	
+P473	Cytise faux-ébénier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Laburnum anagyroides	
+P474	Chêne pédonculé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus robur	
+P475	Parrotie de Perse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Parrotia persica	
+P476	Manglier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rhizophora mucronata	
+P477	Flamme de forêt		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Butea monosperma	
+P478	Saraca		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Saraca asoca	
+P479	Érable de Nikko		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer maximowiczianum	
+P480	Érable du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer palmatum	
+P481	Faux cyprès hinoki du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis obtusa	
+P482	Nezu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Juniperus rigida	
+P483	Magnolia de Soulange-Bodin		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Magnolia × soulangeana	
+P484	Pin blanc du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus parviflora	
+P485	Cerisier de Yedo		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus × yedoensis	
+P486	Kometsuga		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tsuga diversifolia	
+P487	Faux-orme du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Zelkova serrata	
+P488	Kaori blanc		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agathis moorei	
+P489	Mamaku		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sphaeropteris medullaris	
+P490	Fougère arborescente		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dicksonia antarctica	
+P491	Kānuka		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Kunzea ericoides	
+P492	ʻŌhiʻa lehua		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Metrosideros polymorpha	
+P493	Noni		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Morinda citrifolia	
+P494	Tōtara		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Podocarpus totara	
+P495	Canna hybride à fleurs		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Canna × generalis	
+P496	Loulu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pritchardia remota	
+P497	Anacardier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anacardium occidentale	
+P498	Arbre à pain		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Artocarpus altilis	
+P499	Érable champêtre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer campestre	
+P500	Érable de Montpellier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer monspessulanum	
+P501	Érable à feuilles d'obier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Acer opalus	
+P502	Aulne glutineux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Alnus glutinosa	
+P503	Frêne commun		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Fraxinus excelsior	
+P504	Chêne sessile		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Quercus petraea	
+P505	Saule pleureur		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salix × sepulcralis	
+P506	Saule cassant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Salix × fragilis	
+P507	Sureau noir		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Sambucus nigra	
+P508	Tilleul à grandes feuilles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tilia platyphyllos	
+P509	Tilleul argenté		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tilia tomentosa	
+P510	Canna aquatique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Canna Hybrides aquatiques	
+P511	Canna à feuillage		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Canna Hybrides à feuillage	
+P512	Sapin du Colorado		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Abies concolor	
+P513	Sapin rouge de Californie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Abies magnifica	
+P514	Cèdre blanc de Californie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Calocedrus decurrens	
+P515	Mélèze d'Amérique		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Larix laricina	
+P516	Pin tordu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus contorta	
+P517	Pin de Coulter		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus coulteri	
+P518	Pin de Bishop		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus muricata	
+P519	Pin ponderosa		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus ponderosa	
+P520	Pin de Monterey		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pinus radiata	
+P521	Torreya de Californie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Torreya californica	
+P522	Fougère mâle		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Dryopteris filix-mas	
+P523	Rumohra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Rumohra adiantiformis	
+P524	Calamagrostis		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Calamagrostis × acutiflora	
+P525	Molinie bleue		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Molinia caerulea	
+P526	Bégonia à cannes hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides à cannes	
+P527	Bégonia Rex hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides Rex	
+P528	Bégonia semperflorens		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides semperflorens	
+P529	Bégonia tubéreux		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides tubéreux	
+P530	Bégonia elatior		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides elatior	
+P531	Palmier des cascades		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Chamaedorea cataractarum	
+P532	Iris des toits		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Iris tectorum	
+P533	Callune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Calluna vulgaris	
+P534	Lachenalia rouge		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lachenalia bulbifera	
+P535	Anémone des bois		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anemonoides nemorosa	
+P536	Pratia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lobelia pedunculata	
+P537	Chou sauvage		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea	
+P538	Immortelle perlée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Anaphalis margaritacea	
+P539	Bégonia rex		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia rex	
+P540	Bégonia decora		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia decora	
+P541	Bégonia xanthina		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia xanthina	
+P542	Bégonia annulata		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia annulata	
+P543	Bégonia grandis		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia grandis	
+P544	Bégonia cucullata		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia cucullata	
+P545	Bégonia boliviensis		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia boliviensis	
+P546	Bégonia de Socotra		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia socotrana	
+P547	Bégonia dregei		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia dregei	
+P548	Bégonia aconitifolia		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Begonia aconitifolia	
+P549	Oxalis violette		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Oxalis violacea	
+P550	Souchet dense		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cyperus congestus	
+P551	Verbésine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Verbesina occidentalis	
+P552	Onagre bisannuel		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Oenothera biennis	
+P553	Aucuba du Japon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aucuba japonica	
+P554	Lamier jaune		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lamium galeobdolon	
+P555	Asclépiade tubéreuse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Asclepias tuberosa	
+P556	Chou pommé		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Capitata	
+P557	Chou kale		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Acephala	
+P558	Chou ornemental		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe ornemental	
+P559	Chou-fleur		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Botrytis	
+P560	Brocoli		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Italica	
+P561	Chou de Bruxelles		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gemmifera	
+P562	Chou-rave		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gongylodes	
+P563	Brocoli chinois		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Alboglabra	
+P564	Muguet		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Convallaria majalis	
+P565	Alpiste roseau		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Phalaris arundinacea	
+P566	Hydrocotyle de Buenos Aires		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hydrocotyle bonariensis	
+P567	Onagre des plages		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Camissoniopsis cheiranthifolia	
+P568	Cotonnière jaunâtre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pseudognaphalium luteoalbum	
+P569	Tamaris d'Allemagne		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Myricaria germanica	
+P570	Aster buissonnant		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Symphyotrichum dumosum	
+P571	Zostère marine		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Zostera marina	
+P572	Liane de brosse		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Cocculus hirsutus	
+P573	Renouée perfoliée		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Persicaria perfoliata	
+P574	Vigne vierge vraie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Parthenocissus quinquefolia	
+P575	Hortensia	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/hortensia-bleu-60-cm/		EUR	Pot 21 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Hydrangea macrophylla	50-60 cm
+P575	Hortensia	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/hortensia-rose-60-cm/		EUR	Pot 21 cm	Rupture		15/11/2026		Actif	Aucun format en stock	Hydrangea macrophylla	50-60 cm
+P576	Silène maritime		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Silene uniflora	
+P577	Passiflore bleue		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Passiflora caerulea	
+P578	Bananier hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Musa × paradisiaca	
+P579	Hyménocalle hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis Hybrides horticoles	
+P580			Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Bauhinia variegata	
+P581			Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brachychiton discolor	
+P582			Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Brachychiton rupestris	
+P583	Agapanthe hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agapanthus Hybrides	
+P587	Coprosma hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Coprosma Hybrides horticoles	
+P588	Magnolia hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Magnolia Hybrides horticoles	
+P584	Gazania hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Gazania Hybrides horticoles	
+P585	Lilas des Indes hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Lagerstroemia Hybrides horticoles	
+P586	Agave hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agave Hybrides horticoles	
+P589	Tamaris de printemps		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tamarix tetrandra	
+P590	Piment habanero		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Capsicum chinense	
+P591	Piment tabasco		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Capsicum frutescens	
+P592	Olivier de Bohême		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Elaeagnus angustifolia	
+P593	Agave de Havard		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agave havardiana	
+P594	Agave bleu		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Agave tequilana	
+P595	Aloès arborescent hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Aloidendron Hybrides horticoles	
+P596	Arbousier hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Arbutus Hybrides horticoles	
+P597	Capucine de Lobb		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum lobbianum	
+P598	Figuier de Barbarie		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Opuntia ficus-indica	
+P599	Bougainvillier glabre		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Bougainvillea glabra	
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-citrus-australasica-jaune-100-110-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Sans garantie de fruits	Citrus australasica	100-110 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-citrus-australasica-jaune-100-110-cm/	95,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus australasica	100-110 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-rouge-150-cm/	329,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : toutes	Citrus australasica	130-150 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-rouge-150-cm/	349,95	EUR	Pot 35 cm	En stock		15/11/2026		Actif	Option fructification : Fruits garantis	Citrus australasica	130-150 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-rose-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus australasica	75-85 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-rouge-40-cm/	49,95	EUR	Pot 20 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus australasica	50-60 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-rouge-110-cm/	85,95	EUR	Pot 24 cm	En stock		15/11/2026		Actif		Citrus australasica	100-110 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-jaune-80-cm/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Option fructification : Sans garantie de fruits	Citrus australasica	75-85 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-jaune-80-cm/	69,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot) ; Option fructification : Fruits garantis	Citrus australasica	75-85 cm
+P600	Citron caviar	Espèce type	Attitude Jardin	https://attitudejardin.fr/produit/citron-caviar-finger-lime-agrume-parfume-80-cm-ideal-en-pot-ou-en-pleine-terre/	59,95	EUR	Pot 22 cm	En stock		15/11/2026		Actif	cache-pot en option (prix sans cache-pot)	Citrus australasica	75-85 cm
+P601	Agrume hybride		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Citrus Hybrides horticoles	
+P602	Plaqueminier lotier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Diospyros lotus	
+P603	Poirier sauvage		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Pyrus pyraster	
+P604	Pothos dragon		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Epipremnum pinnatum	
+P605	Copalme de Formose		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Liquidambar formosana	
+P606	Griottier		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Prunus cerasus	
+P607	Cytise de Voss		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Laburnum × watereri	
+P608	Herbe aux diamants		Attitude Jardin			EUR				15/11/2026		Actif	Non trouvé	Calamagrostis brachytricha	
