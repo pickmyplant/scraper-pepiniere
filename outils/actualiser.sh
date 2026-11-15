@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 PEP="${1:?pépinière manquante}"
 PREFIXE="$(grep -m1 '^PREFIXE' "adapters/$PEP.py" | cut -d'"' -f2)"
 ID="$PREFIXE-$(date +%F)-AUTO"
-python outils/extraire_lot.py P001 P999 || exit 1
+python outils/extraire_lot.py P001 P999 > /dev/null || exit 1   # bilan non affiché (liste des numéros libres très longue)
 python run.py --pepiniere "$PEP" --plantes data/plantes_P001-P999.csv --releve "$ID" --par "Automatique" --silencieux
 CODE=$?
 if [ "$CODE" -ne 0 ]; then
