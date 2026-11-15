@@ -1,0 +1,732 @@
+ID	Pépinière	Lien du produit	Variété	Hauteur ou forme	Action	Nouvel ID	Nouvelle plante	Nouvelle variété	Nouveau statut	Notes à ajouter	Nom latin	Nouvelle hauteur ou forme	Retirer « Variété trouvée »	Raison
+P451	Botanic	https://www.botanic.com/produit/305436/catalpa-bignonioides-nana-ou-catalpa-dore-tige-en-pot-de-15-l.html	Nana	Tige	MODIF	P451	Catalpa	Nana	Actif		Catalpa bignonioides 'Nana'	Tige		
+P451	Botanic	https://www.botanic.com/produit/1138043/catalpa-commun-botanic-vert-le-pot-de-10-litres.html	Espèce type		MODIF	P451	Catalpa	Espèce type	Actif		Catalpa bignonioides			
+P452	Botanic				MODIF	P452	Copalme d'Amérique		Actif		Liquidambar styraciflua			
+P453	Botanic				MODIF	P453	Épinette d'Engelmann		Actif		Picea engelmannii			
+P454	Botanic				MODIF	P454	Chêne rouge d'Amérique		Actif		Quercus rubra			
+P455	Botanic				MODIF	P455	Tilleul américain		Actif		Tilia americana			
+P456	Botanic	https://www.botanic.com/produit/101750/pin-pinus-strobus-densa-hill-100/125-le-pot-deco-de-20-litres.html	Densa Hill		MODIF	P456	Pin de Weymouth	Densa Hill	Actif		Pinus strobus 'Densa Hill'			
+P456	Botanic	https://www.botanic.com/produit/101751/-pinus-strobus-macopin-le-pot-de-5-litres.html	Macopin		MODIF	P456	Pin de Weymouth	Macopin	Actif		Pinus strobus 'Macopin'			
+P456	Botanic	https://www.botanic.com/produit/101757/pin-de-weymouth-nain-pinus-strobus-25/30-le-pot-deco-de-3-7-litres.html	Espèce type		MODIF	P456	Pin de Weymouth	Espèce type	Actif		Pinus strobus '25/30'			
+P456	Botanic	https://www.botanic.com/produit/101758/pin-de-weymouth-nain-pinus-strobus-50/60-le-pot-deco-de-10-litres.html	Espèce type		MODIF	P456	Pin de Weymouth	Espèce type	Actif		Pinus strobus '50/60'			
+P456	Botanic	https://www.botanic.com/produit/274153/pin-de-weymouth-nain-pinus-strobus-radiata-20/30-le-pot-de-3-litres.html	Radiata		MODIF	P456	Pin de Weymouth	Radiata	Actif		Pinus strobus 'Radiata'			
+P456	Botanic	https://www.botanic.com/produit/335522/pin-de-weymouth-nain-pinus-strobus-radiata-40/50-le-pot-de-5-litres.html	Radiata		MODIF	P456	Pin de Weymouth	Radiata	Actif		Pinus strobus 'Radiata'			
+P456	Botanic	https://www.botanic.com/produit/411236/pin-de-weymouth-nain-pinus-strobus-nana-1/2-tige-le-pot-35-litres.html	Nana	Tige	MODIF	P456	Pin de Weymouth	Nana	Actif		Pinus strobus 'Nana'	Tige		
+P456	Botanic	https://www.botanic.com/produit/414832/pin-de-weymouth-nain-pinus-strobus-radiata-le-pot.html	Radiata		MODIF	P456	Pin de Weymouth	Radiata	Actif		Pinus strobus 'Radiata'			
+P456	Botanic	https://www.botanic.com/produit/500945/pin-de-weymouth-nain-pinus-strobus-radiata-30/40-le-pot-de-3-litres.html	Radiata		MODIF	P456	Pin de Weymouth	Radiata	Actif		Pinus strobus 'Radiata'			
+P456	Botanic	https://www.botanic.com/produit/500946/pin-de-weymouth-nain-pinus-strobus-radiata-50/60-le-pot-de-5-litres.html	Radiata		MODIF	P456	Pin de Weymouth	Radiata	Actif		Pinus strobus 'Radiata'			
+P456	Botanic	https://www.botanic.com/produit/62260/pin-de-weymouth-nain-pinus-strobus-nana-1/2-tige-le-pot-30-litres.html	Nana	Tige	MODIF	P456	Pin de Weymouth	Nana	Actif		Pinus strobus 'Nana'	Tige		
+P456	Botanic	https://www.botanic.com/produit/682474/pin-pinus-strobus-densa-hill-le-pot-de-6-litres.html	Densa Hill		MODIF	P456	Pin de Weymouth	Densa Hill	Actif		Pinus strobus 'Densa Hill'			
+P456	Botanic	https://www.botanic.com/produit/920450/pin-de-weymouth-nain-pinus-strobus-nana-50/60-le-pot-de-20-litres.html	Nana		MODIF	P456	Pin de Weymouth	Nana	Actif		Pinus strobus 'Nana'			
+P457	Botanic				MODIF	P457	Platane d'Occident		Actif		Platanus occidentalis			
+P458	Botanic				MODIF	P458	Bouleau merisier		Actif		Betula lenta			
+P459	Botanic				MODIF	P459	Bouleau gris		Actif		Betula populifolia			
+P460	Botanic				MODIF	P460	Pacanier		Actif		Carya illinoinensis			
+P461	Botanic	https://www.botanic.com/produit/30227/chamaecyparis-lawsoniana-elwoodii-pillar-faux-cypres-de-lawson-en-pot-de-3-7-l-bleu.html	Ellwood's Pillar		MODIF	P461	Cyprès de Lawson	Ellwood's Pillar	Actif		Chamaecyparis lawsoniana 'Ellwood's Pillar'			
+P461	Botanic	https://www.botanic.com/produit/30228/chamaecyparis-lawsoniana-elwoodii-faux-cypres-de-lawson-extra-en-pot-de-15-l-bleu.html	Elwoodii extra		MODIF	P461	Cyprès de Lawson	Elwoodii extra	Actif		Chamaecyparis lawsoniana 'Elwoodii extra'			
+P461	Botanic	https://www.botanic.com/produit/381135/cypres-de-lawson-ou-chamaecyparis-lawsoniana-snow-white-le-pot-de-1-litre.html	Snow White		MODIF	P461	Cyprès de Lawson	Snow White	Actif		Chamaecyparis lawsoniana 'Snow White'			
+P461	Botanic	https://www.botanic.com/produit/811176/chamaecyparis-lawsoniana-ellwoodii-25-30-en-pot-de-2-l-bleu.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Botanic	https://www.botanic.com/produit/811185/chamaecyparis-lawsoniana-ellwoodii-40-60-en-pot-de-4-l-bleu.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Botanic	https://www.botanic.com/produit/290275/cypres-de-lawson-alumigold-chamaecyparis-le-pot-de-2-5-litres.html	Espèce type		MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana			
+P461	Botanic	https://www.botanic.com/produit/290280/faux-cypres-de-lawson-gold-pillar-le-pot-de-3-7-litres.html	Espèce type		MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana			
+P461	Botanic	https://www.botanic.com/produit/290284/faux-cypres-de-lawson-ellwoodii-gold-pillar-le-pot-de-2-5-litres.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Botanic	https://www.botanic.com/produit/677523/faux-cypres-de-lawson-ellwoodii-60/80-le-pot-de-10-litres.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Botanic	https://www.botanic.com/produit/677524/cypres-de-lawson-ellwood-s-pillar-chamaecyparis-15/20-le-pot-de-1-l.html	Espèce type		MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana			
+P461	Botanic	https://www.botanic.com/produit/811191/faux-cypres-de-lawson-ellwoodii-gold-20/25-le-pot-de-2-litres.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P462	Botanic	https://www.botanic.com/produit/887460/hetre-fagus-sylvatica-60/90-le-pot-de-5-litres.html	Espèce type		MODIF	P462	Hêtre commun	Espèce type	Actif		Fagus sylvatica '60/90'			
+P463	Botanic	https://www.botanic.com/produit/113149/picea-glauca-conica.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/115874/picea-glauca-conica-le-pot-deco.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/126065/epicea-du-colorado-picea-pungens-hoopsii-80/100-le-pot-de-15-litres.html	Hoopsii		MODIF	P463	Épicéa du Colorado	Hoopsii	Actif		Picea pungens 'Hoopsii'			
+P463	Botanic	https://www.botanic.com/produit/126067/epicea-du-colorado-picea-pungens-hoopsii-125/150-le-pot-35-litres.html	Hoopsii		MODIF	P463	Épicéa du Colorado	Hoopsii	Actif		Picea pungens 'Hoopsii'			
+P463	Botanic	https://www.botanic.com/produit/138589/picea-glauca-conica-le-pot-de-1-litre.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/216542/epicea-du-colorado-picea-pungens-hoopsii-80/100-le-pot-de-35-litres.html	Hoopsii		MODIF	P463	Épicéa du Colorado	Hoopsii	Actif		Picea pungens 'Hoopsii'			
+P463	Botanic	https://www.botanic.com/produit/256029/picea-glauca-conica-le-pot.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/335499/epicea-du-colorado-picea-pungens-koster-60/80-le-pot-de-5-litres.html	Koster		MODIF	P463	Épicéa du Colorado	Koster	Actif		Picea pungens 'Koster'			
+P463	Botanic	https://www.botanic.com/produit/399788/picea-glauca-conica-epinette-blanche-60/80-en-pot-de-12-l-vert.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/500822/epicea-du-colorado-picea-pungens-koster-40/60-le-pot-de-5-litres.html	Koster		MODIF	P463	Épicéa du Colorado	Koster	Actif		Picea pungens 'Koster'			
+P463	Botanic	https://www.botanic.com/produit/717550/epicea-du-colorado-picea-pungens-koster-le-pot-de-5-litres.html	Koster		MODIF	P463	Épicéa du Colorado	Koster	Actif		Picea pungens 'Koster'			
+P463	Botanic	https://www.botanic.com/produit/811598/picea-glauca-conica-epinette-ou-sapinette-blanche-30/40-en-pot-de-4-l-vert.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/811602/picea-glauca-conica-epinette-blanche-40-50-en-pot-de-5-l-vert.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/841170/picea-glauca-conica-epinette-blanche-40/50-cm-le-pot-de-5-litres.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/863912/picea-glauca-conica-epinette-blanche-en-pot-de-2-l-vert.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/866947/epicea-du-colorado-picea-pungens-hoopsii-20/30-le-pot-de-5-litres.html	Hoopsii		MODIF	P463	Épicéa du Colorado	Hoopsii	Actif		Picea pungens 'Hoopsii'			
+P463	Botanic	https://www.botanic.com/produit/961016/picea-glauca-conica-sapinette-blanche-en-pot-de-10-l-vert.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Botanic	https://www.botanic.com/produit/963333/picea-glauca-conica-le-pot-de-10-5-cm.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P464	Botanic	https://www.botanic.com/produit/101730/pin-pinus-mugo-gnom-60/70-le-pot-deco-de-15-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/101731/pin-pinus-mugo-gnom-80/100-le-pot-deco-de-35-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/101734/pin-pinus-mugo-mops-20/25-le-pot-deco-de-3-7-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/113115/pin-de-montagne-pinus-mugo-wintergold-60/70-le-pot-de-20-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/113157/pin-pinus-mugo-gnom-80/100-le-pot-deco-de-30-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/126075/pin-pinus-mugo-gnom-25/30-le-pot-deco-de-3-7-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/166610/pin-de-montagne-pinus-mugo-wintergold-25/30-le-pot-de-6-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/199894/pinus-mugo-winter-gold-pin-nain-dore-des-montagnes-25/30-en-pot-de-5-l-jaune.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/216553/pin-de-montagne-pinus-mugo-wintergold-60-cm-le-pot-de-10-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/216554/pin-pinus-mugo-gnom-50/60-le-pot-de-10-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/216921/pin-de-montagne-pinus-mugo-wintergold-70/80-le-pot-de-35-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/290377/pin-pinus-mugo-mops-le-pot-de-10-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/30893/pin-de-montagne-pinus-mugo-wintergold-30/40-le-pot-de-10-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/31027/pin-pinus-mugo-gnom-bonsai-le-pot-de-30-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/31032/pin-pinus-mugo-mops-le-pot-de-6-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/335512/pin-pinus-mugo-mops-20/30-le-pot-de-5-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/335515/pin-pinus-mugo-pumilio-30/40-le-pot-de-3-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/398813/pin-pinus-mugo-mops-15/20-le-pot-de-3-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/401645/pin-pinus-mugo-mops-le-pot-de-5-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/401650/pin-pinus-mugo-pumilio-le-pot-de-3-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/401651/pin-pinus-mugo-pumilio-le-pot-de-5-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/401653/pinus-mugo-winter-gold-pin-de-montagne-en-pot-de-5-l-jaune.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/413591/pin-pinus-mugo-gnom-120-le-pot.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/417366/pin-pinus-mugo-pumilio-30/40-le-pot-de-12-5-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/500825/pin-pinus-mugo-mops-20/25-le-pot-de-3-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/500826/pin-pinus-mugo-pumilio-20/30-le-pot-de-3-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/500943/pinus-mugo-winter-gold-pin-de-montagne-25/30-en-pot-de-5-l-jaune.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/500944/pinus-mugo-winter-gold-pin-de-montagne-30/35-en-pot-de-5-l-jaune.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/62257/pin-pinus-mugo-pumilio-1/2-tige-le-pot-de-25-litres.html	Pumilio	Tige	MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'	Tige		
+P464	Botanic	https://www.botanic.com/produit/668082/pin-de-montagne-pinus-mugo-wintergold-25/30-le-pot-de-8-litres.html	Carsten's Wintergold		MODIF	P464	Pin mugo	Carsten's Wintergold	Actif		Pinus mugo 'Carsten's Wintergold'			
+P464	Botanic	https://www.botanic.com/produit/668083/pin-pinus-mugo-mops-30/40-le-pot-de-8-litres.html	Mops		MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'			
+P464	Botanic	https://www.botanic.com/produit/677614/pin-pinus-mugo-pumilio-30/40-le-pot-de-5-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/677615/pin-pinus-mugo-pumilio-3-pousses-le-pot-de-1-litre.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/717555/pin-pinus-mugo-pumilio-50/60-le-pot-de-12-litres.html	Pumilio		MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'			
+P464	Botanic	https://www.botanic.com/produit/817364/pin-pinus-mugo-gnom-20/30-le-pot-de-3-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/817370/pin-pinus-mugo-gnom-40/50-le-pot-de-5-litres.html	Gnom		MODIF	P464	Pin mugo	Gnom	Actif		Pinus mugo 'Gnom'			
+P464	Botanic	https://www.botanic.com/produit/126076/pin-mugo-gnom-xxl-le-pot-de-35-litres.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P464	Botanic	https://www.botanic.com/produit/938598/pin-des-montagnes-gnom-le-pot-de-10-litres.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P464	Botanic	https://www.botanic.com/produit/952231/pin-des-montagnes-mops-le-pot-de-12-litres-30/40-cm.html	Mops	30-40 cm	MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'	30-40 cm		
+P465	Botanic				MODIF	P465	Platane commun		Actif		Platanus × hispanica			
+P466	Botanic				MODIF	P466	Peuplier noir		Actif		Populus nigra			
+P467	Botanic				MODIF	P467	Laurier sassafras		Actif		Sassafras albidum			
+P468	Botanic	https://www.botanic.com/produit/174513/taxus-baccata-60/70-cm-en-pot-de-5-l.html	Espèce type		MODIF	P468	If commun	Espèce type	Actif		Taxus baccata '60/70 cm'			
+P468	Botanic	https://www.botanic.com/produit/222560/taxus-baccata-boule-en-pot-de-18-l.html	Espèce type	Boule	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata 'Boule'	Boule		
+P468	Botanic	https://www.botanic.com/produit/252612/taxus-baccata-david-en-pot-de-5-l.html	David		MODIF	P468	If commun	David	Actif		Taxus baccata 'David'			
+P468	Botanic	https://www.botanic.com/produit/292592/taxus-baccata-david-en-pot-de-2-5-l.html	David		MODIF	P468	If commun	David	Actif		Taxus baccata 'David'			
+P468	Botanic	https://www.botanic.com/produit/366697/taxus-baccata-david-en-pot-de-10-l.html	David		MODIF	P468	If commun	David	Actif		Taxus baccata 'David'			
+P468	Botanic	https://www.botanic.com/produit/399562/if-dore-taxus-baccata-fastigiata-aurea-40/50-le-pot-de-3-litres.html	Fastigiata		MODIF	P468	If commun	Fastigiata	Actif		Taxus baccata 'Fastigiata'			
+P468	Botanic	https://www.botanic.com/produit/255603/if-commun-vert-en-motte-80/100-cm.html	Espèce type	80-100 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	80-100 cm		
+P468	Botanic	https://www.botanic.com/produit/506113/if-commun-vert-le-pot-de-10-litres-60/80-cm.html	Espèce type	60-80 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	60-80 cm		
+P468	Botanic	https://www.botanic.com/produit/726112/if-commun-vert-le-pot-de-10-litres.html	Espèce type		MODIF	P468	If commun	Espèce type	Actif		Taxus baccata			
+P468	Botanic	https://www.botanic.com/produit/759517/if-commun-vert-le-pot-de-7-5-litres-60/80-cm.html	Espèce type	60-80 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	60-80 cm		
+P468	Botanic	https://www.botanic.com/produit/797637/if-commun-vert-le-pot-de-15-litres-100/125-cm.html	Espèce type	100-125 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	100-125 cm		
+P468	Botanic	https://www.botanic.com/produit/798232/if-commun-vert-le-pot-de-5-litres-80/100-cm.html	Espèce type	80-100 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	80-100 cm		
+P468	Botanic	https://www.botanic.com/produit/917370/if-commun-vert-le-pot-de-150-litres-forme-cone.html	Espèce type	Cône	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	Cône		
+P469	Botanic	https://www.botanic.com/produit/995249/thuya-geant-ou-thuja-plicata-4-ever-gold-le-pot-de-2-litres.html	Ever Gold		MODIF	P469	Thuya géant	Ever Gold	Actif		Thuja plicata 'Ever Gold'			
+P470	Botanic	https://www.botanic.com/produit/1046459/pommier-ariane-bio-le-pot-de-15-litres-forme-1/2-tige.html	Espèce type	Tige	MODIF	P470	Pommier	Espèce type	Actif		Malus domestica	Tige		
+P471	Botanic	https://www.botanic.com/produit/415647/cerisier-bigarreau-stark-gold-le-pot-de-15-litres-forme-1/2-tige.html	Espèce type	Tige	MODIF	P471	Cerisier	Espèce type	Actif		Prunus avium	Tige		
+P472	Botanic				MODIF	P472	Scirpe-jonc		Actif		Scirpoides holoschoenus			
+P473	Botanic				MODIF	P473	Cytise faux-ébénier		Actif		Laburnum anagyroides			
+P474	Botanic				MODIF	P474	Chêne pédonculé		Actif		Quercus robur			
+P475	Botanic				MODIF	P475	Parrotie de Perse		Actif		Parrotia persica			
+P476	Botanic				MODIF	P476	Manglier		Actif		Rhizophora mucronata			
+P477	Botanic				MODIF	P477	Flamme de forêt		Actif		Butea monosperma			
+P478	Botanic				MODIF	P478	Saraca		Actif		Saraca asoca			
+P479	Botanic				MODIF	P479	Érable de Nikko		Actif		Acer maximowiczianum			
+P480	Botanic	https://www.botanic.com/produit/118312/erable-du-japon-acer-palmatum-rouge-rouge-le-pot-de-15-litres.html	Rouge		MODIF	P480	Érable du Japon	Rouge	Actif		Acer palmatum 'Rouge'			
+P480	Botanic	https://www.botanic.com/produit/118315/acer-palmatum-vert-erable-du-japon-ramifie-en-pot-de-15-l-vert.html	Vert		MODIF	P480	Érable du Japon	Vert	Actif		Acer palmatum 'Vert'			
+P480	Botanic	https://www.botanic.com/produit/155255/acer-palmatum-erable-du-japon-100/125-en-pot-de-12-l-vert.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum 'Érable du Japon) 100/125'			
+P480	Botanic	https://www.botanic.com/produit/178369/erable-du-japon-acer-palmatum-rouge-le-pot-de-25-l.html	Rouge		MODIF	P480	Érable du Japon	Rouge	Actif		Acer palmatum 'Rouge'			
+P480	Botanic	https://www.botanic.com/produit/178370/acer-palmatum-vert-erable-du-japon-125/150-en-pot-de-25-l-vert.html	Vert		MODIF	P480	Érable du Japon	Vert	Actif		Acer palmatum 'Vert'			
+P480	Botanic	https://www.botanic.com/produit/222519/acer-palmatum-dissectum-inaba-shidare-erable-du-japon-1/2-tige-en-pot-de-55-l-rouge.html	Inaba Shidare	Tige	MODIF	P480	Érable du Japon	Inaba Shidare	Actif		Acer palmatum 'Inaba Shidare'	Tige		
+P480	Botanic	https://www.botanic.com/produit/259022/acer-palmatum-dissectum-vert-erable-du-japon-150/175-ramifie-en-pot-de-30-l-vert.html	Dissectum Viridis		MODIF	P480	Érable du Japon	Dissectum Viridis	Actif		Acer palmatum 'Dissectum Viridis'			
+P480	Botanic	https://www.botanic.com/produit/289607/acer-palmatum-dissectum-inaba-shidare-erable-du-japon-125/150-en-pot-de-70-l-rouge.html	Inaba Shidare		MODIF	P480	Érable du Japon	Inaba Shidare	Actif		Acer palmatum 'Inaba Shidare'			
+P480	Botanic	https://www.botanic.com/produit/308423/erable-du-japon-acer-palmatum-atropurpureum-le-pot-de-7-litres.html	Atropurpureum		MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'			
+P480	Botanic	https://www.botanic.com/produit/308444/erable-du-japon-acer-palmatum-atropurpureum-le-pot-de-30-litres.html	Atropurpureum		MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'			
+P480	Botanic	https://www.botanic.com/produit/308492/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-3-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308493/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-7-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308535/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-110-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308536/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-15-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308539/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-30-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308540/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-50-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308541/erable-du-japon-acer-palmatum-atrolineare-le-pot-de-80-litres.html	Atrolineare		MODIF	P480	Érable du Japon	Atrolineare	Actif		Acer palmatum 'Atrolineare'			
+P480	Botanic	https://www.botanic.com/produit/308542/erable-du-japon-acer-palmatum-aureum-le-pot-de-3-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308543/erable-du-japon-acer-palmatum-aureum-le-pot-de-7-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308544/erable-du-japon-acer-palmatum-aureum-le-pot-de-15-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308545/erable-du-japon-acer-palmatum-aureum-le-pot-de-30-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308671/erable-du-japon-acer-palmatum-aureum-le-pot-de-50-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308672/erable-du-japon-acer-palmatum-aureum-le-pot-de-80-litres.html	Aureum		MODIF	P480	Érable du Japon	Aureum	Actif		Acer palmatum 'Aureum'			
+P480	Botanic	https://www.botanic.com/produit/308674/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-3-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308676/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-7-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308677/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-15-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308678/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-30-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308680/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-50-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308697/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-80-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308698/erable-du-japon-acer-palmatum-bloodgood-le-pot-de-110-litres.html	Bloodgood		MODIF	P480	Érable du Japon	Bloodgood	Actif		Acer palmatum 'Bloodgood'			
+P480	Botanic	https://www.botanic.com/produit/308770/erable-du-japon-acer-palmatum-butterfly-le-pot-de-3-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308771/erable-du-japon-acer-palmatum-butterfly-le-pot-de-7-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308773/erable-du-japon-acer-palmatum-butterfly-le-pot-de-15-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308774/erable-du-japon-acer-palmatum-butterfly-le-pot-de-30-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308808/erable-du-japon-acer-palmatum-butterfly-le-pot-de-50-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308824/erable-du-japon-acer-palmatum-butterfly-le-pot-de-80-litres.html	Butterfly		MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'			
+P480	Botanic	https://www.botanic.com/produit/308961/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-3-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308962/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-7-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308963/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-15-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308966/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-30-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308967/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-50-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308968/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-80-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308969/erable-du-japon-acer-palmatum-crimson-queen-le-pot-de-110-litres.html	Crimson Queen		MODIF	P480	Érable du Japon	Crimson Queen	Actif		Acer palmatum 'Crimson Queen'			
+P480	Botanic	https://www.botanic.com/produit/308971/erable-du-japon-acer-palmatum-deshojo-le-pot-de-3-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308976/erable-du-japon-acer-palmatum-deshojo-le-pot-de-7-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308977/erable-du-japon-acer-palmatum-deshojo-le-pot-de-15-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308978/erable-du-japon-acer-palmatum-deshojo-le-pot-de-30-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308979/erable-du-japon-acer-palmatum-deshojo-le-pot-de-50-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308980/erable-du-japon-acer-palmatum-deshojo-le-pot-de-80-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308981/erable-du-japon-acer-palmatum-deshojo-le-pot-de-110-litres.html	Deshojo		MODIF	P480	Érable du Japon	Deshojo	Actif		Acer palmatum 'Deshojo'			
+P480	Botanic	https://www.botanic.com/produit/308982/erable-du-japon-acer-palmatum-dissectum-emerald-lace-le-pot-de-7-litres.html	Emerald Lace		MODIF	P480	Érable du Japon	Emerald Lace	Actif		Acer palmatum 'Emerald Lace'			
+P480	Botanic	https://www.botanic.com/produit/308983/erable-du-japon-acer-palmatum-dissectum-emerald-lace-le-pot-de-50-litres.html	Emerald Lace		MODIF	P480	Érable du Japon	Emerald Lace	Actif		Acer palmatum 'Emerald Lace'			
+P480	Botanic	https://www.botanic.com/produit/308984/erable-du-japon-acer-palmatum-dissectum-flavescens-le-pot-de-15-litres.html	Flavescens		MODIF	P480	Érable du Japon	Flavescens	Actif		Acer palmatum 'Flavescens'			
+P480	Botanic	https://www.botanic.com/produit/308986/erable-du-japon-acer-palmatum-dissectum-flavescens-le-pot-de-30-litres.html	Flavescens		MODIF	P480	Érable du Japon	Flavescens	Actif		Acer palmatum 'Flavescens'			
+P480	Botanic	https://www.botanic.com/produit/308987/erable-du-japon-acer-palmatum-dissectum-flavescens-le-pot-de-50-litres.html	Flavescens		MODIF	P480	Érable du Japon	Flavescens	Actif		Acer palmatum 'Flavescens'			
+P480	Botanic	https://www.botanic.com/produit/308988/erable-du-japon-acer-palmatum-dissectum-garnet-le-pot-de-3-litres.html	Garnet		MODIF	P480	Érable du Japon	Garnet	Actif		Acer palmatum 'Garnet'			
+P480	Botanic	https://www.botanic.com/produit/308989/erable-du-japon-acer-palmatum-dissectum-garnet-le-pot-de-7-litres.html	Garnet		MODIF	P480	Érable du Japon	Garnet	Actif		Acer palmatum 'Garnet'			
+P480	Botanic	https://www.botanic.com/produit/308990/erable-du-japon-acer-palmatum-dissectum-garnet-le-pot-de-15-litres.html	Garnet		MODIF	P480	Érable du Japon	Garnet	Actif		Acer palmatum 'Garnet'			
+P480	Botanic	https://www.botanic.com/produit/308991/erable-du-japon-acer-palmatum-dissectum-garnet-le-pot-de-30-litres.html	Garnet		MODIF	P480	Érable du Japon	Garnet	Actif		Acer palmatum 'Garnet'			
+P480	Botanic	https://www.botanic.com/produit/308992/erable-du-japon-acer-palmatum-dissectum-garnet-le-pot-de-50-litres.html	Garnet		MODIF	P480	Érable du Japon	Garnet	Actif		Acer palmatum 'Garnet'			
+P481	Botanic	https://www.botanic.com/produit/199783/chamaecyparis-obtusa-teddy-bear-faux-cypres-du-japon-30/40-en-pot-de-5-l-vert.html	Teddy Bear		MODIF	P481	Faux cyprès hinoki du Japon	Teddy Bear	Actif		Chamaecyparis obtusa 'Teddy Bear'			
+P481	Botanic	https://www.botanic.com/produit/218887/chamaecyparis-obtusa-nana-gracilis-en-pot-de-2-l.html	Nana Gracilis		MODIF	P481	Faux cyprès hinoki du Japon	Nana Gracilis	Actif		Chamaecyparis obtusa 'Nana Gracilis'			
+P481	Botanic	https://www.botanic.com/produit/218889/chamaecyparis-obtusa-teddy-bear-en-pot-de-2-l.html	Teddy Bear		MODIF	P481	Faux cyprès hinoki du Japon	Teddy Bear	Actif		Chamaecyparis obtusa 'Teddy Bear'			
+P481	Botanic	https://www.botanic.com/produit/309762/chamaecyparis-obtusa-fernspray-gold-faux-cypres-de-hinoki-20/25-en-pot-de-5-l-jaune.html	Fernspray Gold		MODIF	P481	Faux cyprès hinoki du Japon	Fernspray Gold	Actif		Chamaecyparis obtusa 'Fernspray Gold'			
+P481	Botanic	https://www.botanic.com/produit/309976/chamaecyparis-obtusa-tsatsumi-gold-faux-cypres-hinoki-jaune-20/25-en-pot-de-5-l-jaune.html	Tsatsumi Gold		MODIF	P481	Faux cyprès hinoki du Japon	Tsatsumi Gold	Actif		Chamaecyparis obtusa 'Tsatsumi Gold'			
+P481	Botanic	https://www.botanic.com/produit/325570/cypres-du-japon-chamaecyparis-obtusa-aurora-20/25-le-pot-3-litres.html	Aurora		MODIF	P481	Faux cyprès hinoki du Japon	Aurora	Actif		Chamaecyparis obtusa 'Aurora'			
+P481	Botanic	https://www.botanic.com/produit/325571/cypres-du-japon-chamaecyparis-obtusa-aurora-30/40-le-pot-5-litres.html	Aurora		MODIF	P481	Faux cyprès hinoki du Japon	Aurora	Actif		Chamaecyparis obtusa 'Aurora'			
+P481	Botanic	https://www.botanic.com/produit/386999/chamaecyparis-obtusa-birgit-cypres-birgit-de-hinoki-20/25-en-pot-de-5-l-vert.html	Birgit		MODIF	P481	Faux cyprès hinoki du Japon	Birgit	Actif		Chamaecyparis obtusa 'Birgit'			
+P481	Botanic	https://www.botanic.com/produit/487296/cypres-du-japon-chamaecyparis-obtusa-aurora-25/30-le-pot-3-litres.html	Aurora		MODIF	P481	Faux cyprès hinoki du Japon	Aurora	Actif		Chamaecyparis obtusa 'Aurora'			
+P481	Botanic	https://www.botanic.com/produit/166593/cypres-hinoki-du-japon-lucas-25/30-le-pot-deco-de-3-7-litres.html	Espèce type		MODIF	P481	Faux cyprès hinoki du Japon	Espèce type	Actif		Chamaecyparis obtusa			
+P481	Botanic	https://www.botanic.com/produit/960876/cypres-hinoki-du-japon-nana-gracilis-le-pot-de-2-litres.html	Nana Gracilis		MODIF	P481	Faux cyprès hinoki du Japon	Nana Gracilis	Actif		Chamaecyparis obtusa 'Nana Gracilis'			
+P482	Botanic				MODIF	P482	Nezu		Actif		Juniperus rigida			
+P483	Botanic	https://www.botanic.com/produit/309948/magnolia-soulangeana-pot-de-15l.html	Espèce type		MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana			
+P588	Botanic	https://www.botanic.com/produit/844941/magnolia-soulangeana-susan-pot-7-l.html	Susan		MODIF	P588	Magnolia hybride	Susan	Actif		Magnolia Hybrides horticoles 'Susan'			
+P484	Botanic	https://www.botanic.com/produit/101745/pin-blanc-du-japon-pinus-parviflora-negishi-forme-le-pot-35-litres.html	Negishi forme		MODIF	P484	Pin blanc du Japon	Negishi forme	Actif		Pinus parviflora 'Negishi forme'			
+P484	Botanic	https://www.botanic.com/produit/113129/pin-blanc-du-japon-pinus-parviflora-negishi-le-pot-de-10-litres.html	Negishi		MODIF	P484	Pin blanc du Japon	Negishi	Actif		Pinus parviflora 'Negishi'			
+P484	Botanic	https://www.botanic.com/produit/283121/pin-blanc-du-japon-pinus-parviflora-negishi-30/40-le-pot-5-litres.html	Negishi		MODIF	P484	Pin blanc du Japon	Negishi	Actif		Pinus parviflora 'Negishi'			
+P484	Botanic	https://www.botanic.com/produit/290386/pin-blanc-du-japon-pinus-parviflora-negishi-le-pot-de-60-litres.html	Negishi		MODIF	P484	Pin blanc du Japon	Negishi	Actif		Pinus parviflora 'Negishi'			
+P484	Botanic	https://www.botanic.com/produit/31236/pin-blanc-du-japon-pinus-parviflora-negishi-forme-le-pot-30-litres.html	Negishi forme		MODIF	P484	Pin blanc du Japon	Negishi forme	Actif		Pinus parviflora 'Negishi forme'			
+P484	Botanic	https://www.botanic.com/produit/31238/pin-blanc-du-japon-pinus-parviflora-negishi-extra-le-pot-35-litres.html	Negishi extra		MODIF	P484	Pin blanc du Japon	Negishi extra	Actif		Pinus parviflora 'Negishi extra'			
+P484	Botanic	https://www.botanic.com/produit/408588/pin-blanc-du-japon-pinus-parviflora-negishi-le-pot-de-20-litres.html	Negishi		MODIF	P484	Pin blanc du Japon	Negishi	Actif		Pinus parviflora 'Negishi'			
+P484	Botanic	https://www.botanic.com/produit/126082/pin-blanc-du-japon-negishi-100/125-extra-le-pot-de-35-litres.html	Espèce type		MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora			
+P484	Botanic	https://www.botanic.com/produit/166634/pin-blanc-du-japon-negishi-60/70-le-pot-deco-de-15-litres.html	Espèce type		MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora			
+P484	Botanic	https://www.botanic.com/produit/216560/pin-blanc-du-japon-negishi-80/100-le-pot-de-30-litres.html	Espèce type		MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora			
+P484	Botanic	https://www.botanic.com/produit/216561/pin-blanc-du-japon-negishi-70/80-topiaire-le-pot-de-20-litres.html	Espèce type		MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora			
+P484	Botanic	https://www.botanic.com/produit/31237/pin-blanc-du-japon-negishi-1/4-tige-le-pot-de-10-litres.html	Espèce type	Tige	MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora	Tige		
+P484	Botanic	https://www.botanic.com/produit/677620/pin-blanc-du-japon-negishi-bonsai-60/80-le-pot-de-50-litres.html	Espèce type		MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora			
+P484	Botanic	https://www.botanic.com/produit/704427/pin-blanc-du-japon-negishi-bleu-le-pot-de-12-litres-60/70-cm.html	Espèce type	60-70 cm	MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora	60-70 cm		
+P484	Botanic	https://www.botanic.com/produit/798239/pin-blanc-du-japon-negishi-bleu-le-pot-de-18-litres-50/60-cm.html	Espèce type	50-60 cm	MODIF	P484	Pin blanc du Japon	Espèce type	Actif		Pinus parviflora	50-60 cm		
+P485	Botanic				MODIF	P485	Cerisier de Yedo		Actif		Prunus × yedoensis			
+P486	Botanic				MODIF	P486	Kometsuga		Actif		Tsuga diversifolia			
+P487	Botanic				MODIF	P487	Faux-orme du Japon		Actif		Zelkova serrata			
+P488	Botanic				MODIF	P488	Kaori blanc		Actif		Agathis moorei			
+P489	Botanic				MODIF	P489	Mamaku		Actif		Sphaeropteris medullaris			
+P490	Botanic	https://www.botanic.com/produit/646979/fougere-dicksonia-antarctica-le-pot-de-5-9-litres.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P490	Botanic	https://www.botanic.com/produit/233442/fougere-arborescente-dicksonia-antartica-le-pot-de-3-litres.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P490	Botanic	https://www.botanic.com/produit/290328/fougere-arborescente-dicksonia-antartica-le-pot-de-5-litres.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P490	Botanic	https://www.botanic.com/produit/389854/fougere-arborescente-dicksonia-antartica-le-pot-de-7-litres.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P491	Botanic				MODIF	P491	Kānuka		Actif		Kunzea ericoides			
+P492	Botanic				MODIF	P492	ʻŌhiʻa lehua		Actif		Metrosideros polymorpha			
+P493	Botanic				MODIF	P493	Noni		Actif		Morinda citrifolia			
+P494	Botanic				MODIF	P494	Tōtara		Actif		Podocarpus totara			
+P495	Botanic	https://www.botanic.com/produit/310207/canna-richard-wallace-bio-jaune-botanic-1-bulbe.html	Richard Wallace		MODIF	P495	Canna hybride à fleurs	Richard Wallace	Actif		Canna × generalis 'Richard Wallace'			
+P495	Botanic	https://www.botanic.com/produit/1057338/bulbe-de-fleurs-canna-indica-picasso-botanic-1-bulbe.html	Picasso		MODIF	P495	Canna hybride à fleurs	Picasso	Actif		Canna × generalis 'Picasso'			
+P495	Botanic	https://www.botanic.com/produit/1059195/bulbe-de-fleurs-canna-louis-cayeux-botanic-1-bulbe.html	Louis Cayeux		MODIF	P495	Canna hybride à fleurs	Louis Cayeux	Actif		Canna × generalis 'Louis Cayeux'			
+P496	Botanic				MODIF	P496	Loulu		Actif		Pritchardia remota			
+P497	Botanic				MODIF	P497	Anacardier		Actif		Anacardium occidentale			
+P498	Botanic				MODIF	P498	Arbre à pain		Actif		Artocarpus altilis			
+P499	Botanic	https://www.botanic.com/produit/29314/acer-campestre-erable-champetre-en-pot-de-5-l-vert.html	Espèce type		MODIF	P499	Érable champêtre	Espèce type	Actif		Acer campestre 'Erable champêtre'			
+P499	Botanic	https://www.botanic.com/produit/135995/erable-champetre-vert-le-pot-de-3-litres.html	Espèce type		MODIF	P499	Érable champêtre	Espèce type	Actif		Acer campestre			
+P500	Botanic				MODIF	P500	Érable de Montpellier		Actif		Acer monspessulanum			
+P501	Botanic				MODIF	P501	Érable à feuilles d'obier		Actif		Acer opalus			
+P502	Botanic				MODIF	P502	Aulne glutineux		Actif		Alnus glutinosa			
+P503	Botanic				MODIF	P503	Frêne commun		Actif		Fraxinus excelsior			
+P504	Botanic				MODIF	P504	Chêne sessile		Actif		Quercus petraea			
+P505	Botanic				MODIF	P505	Saule pleureur		Actif		Salix × sepulcralis			
+P506	Botanic				MODIF	P506	Saule cassant		Actif		Salix × fragilis			
+P507	Botanic	https://www.botanic.com/produit/461822/sambucus-nigra-aurea-pot-de-5l.html	Aurea		MODIF	P507	Sureau noir	Aurea	Actif		Sambucus nigra 'Aurea'			
+P507	Botanic	https://www.botanic.com/produit/961108/sambucus-nigra-black-beauty-pot-de-5l.html	Black Beauty		MODIF	P507	Sureau noir	Black Beauty	Actif		Sambucus nigra 'Black Beauty'			
+P507	Botanic	https://www.botanic.com/produit/1143434/sureau-noir-le-pot-de-3l.html	Espèce type		MODIF	P507	Sureau noir	Espèce type	Actif		Sambucus nigra			
+P507	Botanic	https://www.botanic.com/produit/1143446/sureau-noir-black-lace-le-pot-de-3l.html	Espèce type		MODIF	P507	Sureau noir	Espèce type	Actif		Sambucus nigra			
+P507	Botanic	https://www.botanic.com/produit/1143447/sureau-noir-black-lace-le-pot-de-7l.html	Espèce type		MODIF	P507	Sureau noir	Espèce type	Actif		Sambucus nigra			
+P508	Botanic				MODIF	P508	Tilleul à grandes feuilles		Actif		Tilia platyphyllos			
+P509	Botanic	https://www.botanic.com/produit/1138041/tilleul-argente-brabant-botanic-vert-le-pot-de-10-litres.html	Espèce type		MODIF	P509	Tilleul argenté	Espèce type	Actif		Tilia tomentosa			
+P510	Botanic				MODIF	P510	Canna aquatique		Actif		Canna Hybrides aquatiques			
+P511	Botanic				MODIF	P511	Canna à feuillage		Actif		Canna Hybrides à feuillage			
+P512	Botanic				MODIF	P512	Sapin du Colorado		Actif		Abies concolor			
+P513	Botanic				MODIF	P513	Sapin rouge de Californie		Actif		Abies magnifica			
+P514	Botanic	https://www.botanic.com/produit/118330/calocedrus-decurrens-aureovariegato-cedre-blanc-de-californie-150/175-en-pot-de-30-l-jaune.html	Aureo-variegata		MODIF	P514	Cèdre blanc de Californie	Aureo-variegata	Actif		Calocedrus decurrens 'Aureo-variegata'			
+P514	Botanic	https://www.botanic.com/produit/344278/calocedrus-decurrens-aureovariegato-libocedre-panache-100/125-en-pot-de-18-l-jaune.html	Aureo-variegata		MODIF	P514	Cèdre blanc de Californie	Aureo-variegata	Actif		Calocedrus decurrens 'Aureo-variegata'			
+P515	Botanic				MODIF	P515	Mélèze d'Amérique		Actif		Larix laricina			
+P516	Botanic				MODIF	P516	Pin tordu		Actif		Pinus contorta			
+P517	Botanic				MODIF	P517	Pin de Coulter		Actif		Pinus coulteri			
+P518	Botanic				MODIF	P518	Pin de Bishop		Actif		Pinus muricata			
+P519	Botanic				MODIF	P519	Pin ponderosa		Actif		Pinus ponderosa			
+P520	Botanic				MODIF	P520	Pin de Monterey		Actif		Pinus radiata			
+P521	Botanic				MODIF	P521	Torreya de Californie		Actif		Torreya californica			
+P522	Botanic	https://www.botanic.com/produit/691984/fougere-dryopteris-filix-mas-linearis-polydactyla-le-pot-de-2-litres.html	Linearis Polydactyla		MODIF	P522	Fougère mâle	Linearis Polydactyla	Actif		Dryopteris filix-mas 'Linearis Polydactyla'			
+P522	Botanic	https://www.botanic.com/produit/1156958/fougere-dryopteris-filix-mas-le-pot-de-2-litres.html	Espèce type		MODIF	P522	Fougère mâle	Espèce type	Actif		Dryopteris filix-mas			
+P522	Botanic	https://www.botanic.com/produit/1156959/fougere-dryopteris-filix-mas-le-pot-de-2-litres.html	Espèce type		MODIF	P522	Fougère mâle	Espèce type	Actif		Dryopteris filix-mas			
+P523	Botanic				MODIF	P523	Rumohra		Actif		Rumohra adiantiformis			
+P524	Botanic	https://www.botanic.com/produit/710505/calamagrostis-avalanche-le-pot-de-2-litres.html	Avalanche		MODIF	P524	Calamagrostis	Avalanche	Actif		Calamagrostis × acutiflora 'Avalanche'			
+P525	Botanic	https://www.botanic.com/produit/138608/molinia-caerulea-variegata-le-pot-de-2-litres.html	Variegata		MODIF	P525	Molinie bleue	Variegata	Actif		Molinia caerulea 'Variegata'			
+P526	Botanic	https://www.botanic.com/produit/1001855/begonia-dragon-wing-le-pot-de-15-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/1018940/begonia-dragon-wing-coloris-rouge-le-pot-de-10-5-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/1020667/begonia-dragon-wing-la-jardiniere-de-50-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/1022814/begonia-big-rose-xxl-le-pot-de-25-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/1026057/begonia-dragon-wing-le-pot-de-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/1028498/begonia-dragon-wing-le-pack-de-6-plants.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/211519/begonia-dragon-wing-la-jardiniere-de-40-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/217688/begonia-dragon-wing-le-pot-de-9-x-9-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/217697/begonia-big-le-pot-de-9-x-9-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/245025/begonia-dragon-wing-le-pot-de-9-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/291223/begonia-big-le-pot-de-2-5-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/354544/begonia-dragon-wing-le-pot-de-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/371007/begonia-big-le-pot-de-5-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/371315/begonia-big-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/380066/begonia-dragon-wing-la-suspension-diam-27-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/384966/begonia-dragon-wing-le-pot-de-2-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/385249/begonia-dragon-wing-la-coupe-de-25-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/390383/begonia-dragon-wing-le-pot-de-2-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/393089/begonia-dragon-wing-le-pot-de-6-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/413211/begonia-dragon-wing-euphorbe-la-suspension-diam-27-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/530061/begonia-dragon-wing-le-pot-de-12-x-12-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/646577/begonia-dragon-wing-le-pot-de-7-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/692792/begonia-dragon-wing-le-pot-de-7-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/692796/begonia-dragon-wing-euphorbe-le-pot-de-7-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/717226/begonia-big-le-pot-de-10-5-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/717227/begonia-big-le-pot-de-13-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/717228/begonia-big-la-coupe-de-25-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/729465/begonia-dragon-wing-la-pot-de-1-4-litre.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/733146/begonia-big-le-pot-de-7-5-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/739629/begonia-dragon-wing-le-pot-de-19-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/768718/begonia-dragon-wing-a-fleurs-rouges-le-pot-o-10-5-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/768874/begonia-dragon-wing-a-fleurs-rouges-le-pot-o-13-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/768876/begonia-dragon-wing-a-fleurs-rouges-le-pot-o-15-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/773089/begonia-dragon-wing-a-fleurs-rouges-le-pot-deco-de-10-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/773090/begonia-dragon-wing-a-fleurs-rouges-la-coupe-o-25-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/899586/begonia-dragon-wing-a-fleurs-rouges-le-pot-o-17-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/899740/begonia-dragon-wing-a-fleurs-rouges-le-pot-de-0-5-litre.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/949003/begonia-dragon-wing-a-fleurs-rouges-le-pack-de-4-plants.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/949856/begonia-big-a-fleurs-multicolores-le-pot-de-3-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949859/begonia-big-a-fleurs-multicolores-le-pot-de-4-5-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949872/begonia-big-a-fleurs-multicolores-le-pot-de-10-litres.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949875/begonia-big-a-fleurs-multicolores-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949884/begonia-big-feuilles-bronzes-fleurs-roses-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949885/begonia-big-feuilles-bronzes-fleurs-rouges-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949886/begonia-big-feuilles-vertes-fleurs-roses-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949887/begonia-big-feuilles-vertes-fleurs-rouges-le-pot-de-1-litre.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/949890/begonia-dragon-wing-a-fleurs-rouges-le-pot-de-1-litre.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/949893/begonia-dragon-wing-a-fleurs-rouges-le-pot-de-4-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/953279/begonia-dragon-wing-a-fleurs-rouges-la-suspension-o-27-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/953285/begonia-dragon-wing-rouge-le-pot-de-10-5-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/953291/begonia-dragon-wing-coloris-rouge-le-pack-de-4-plants.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/953563/begonia-dragon-wing-le-pot-de-10-5-cm.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/964832/begonia-x-benariensis-big-le-pot-de-10-5-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P526	Botanic	https://www.botanic.com/produit/968515/begonia-dragon-wing-le-pot-de-1-litre.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/968729/begonia-dragon-wing-le-pot-de-3-5-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/972290/begonia-dragon-wing-a-fleurs-rouges-le-pot-de-4-6-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/973412/begonia-dragon-wing-le-pot-de-0-5-litre.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/973505/begonia-dragon-wing-le-pot-de-6-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/973506/begonia-dragon-wing-rouge-le-pot-de-6-litres.html	Dragon Wing		MODIF	P526	Bégonia à cannes hybride	Dragon Wing	Actif		Begonia Hybrides à cannes 'Dragon Wing'			
+P526	Botanic	https://www.botanic.com/produit/974455/begonia-big-a-fleurs-multicolores-le-pot-o-10-5-cm.html	BIG		MODIF	P526	Bégonia à cannes hybride	BIG	Actif		Begonia Hybrides à cannes 'BIG'			
+P527	Botanic				MODIF	P527	Bégonia Rex hybride		Actif		Begonia Hybrides Rex			
+P528	Botanic				MODIF	P528	Bégonia semperflorens		Actif		Begonia Hybrides semperflorens			
+P529	Botanic	https://www.botanic.com/produit/899588/begonia-tubereux-a-fleurs-multicolores-le-pot-o-10-5-cm.html	Espèce type		MODIF	P529	Bégonia tubéreux	Espèce type	Actif		Begonia Hybrides tubéreux			
+P529	Botanic	https://www.botanic.com/produit/899747/begonia-tubereux-a-fleurs-multicolores-la-barquette-de-6-plants.html	Espèce type		MODIF	P529	Bégonia tubéreux	Espèce type	Actif		Begonia Hybrides tubéreux			
+P529	Botanic	https://www.botanic.com/produit/899748/begonia-tubereux-a-fleurs-multicolores-le-pot-de-0-7-litre.html	Espèce type		MODIF	P529	Bégonia tubéreux	Espèce type	Actif		Begonia Hybrides tubéreux			
+P530	Botanic	https://www.botanic.com/produit/138156/begonia-elatior-le-pot-de-o-17-cm.html	Elatior		MODIF	P530	Bégonia elatior	Elatior	Actif		Begonia Hybrides elatior 'Elatior'			
+P530	Botanic	https://www.botanic.com/produit/384624/begonia-elatior-le-pot-de-o-14-cm.html	Elatior		MODIF	P530	Bégonia elatior	Elatior	Actif		Begonia Hybrides elatior 'Elatior'			
+P530	Botanic	https://www.botanic.com/produit/389929/begonia-elatior-le-pot-de-14-cm.html	Elatior		MODIF	P530	Bégonia elatior	Elatior	Actif		Begonia Hybrides elatior 'Elatior'			
+P531	Botanic				MODIF	P531	Palmier des cascades		Actif		Chamaedorea cataractarum			
+P532	Botanic				MODIF	P532	Iris des toits		Actif		Iris tectorum			
+P533	Botanic	https://www.botanic.com/produit/381969/callune-naturelle-ou-calluna-vulgaris-le-pot-de-2-5-litres.html	Espèce type		MODIF	P533	Callune	Espèce type	Actif		Calluna vulgaris			
+P533	Botanic	https://www.botanic.com/produit/910129/callune-naturelle-ou-calluna-vulgaris-le-pot-de-1-litre.html	Espèce type		MODIF	P533	Callune	Espèce type	Actif		Calluna vulgaris			
+P533	Botanic	https://www.botanic.com/produit/899778/callune-ou-bruyere-commune-a-fleurs-roses-le-pot-de-0-5-litre.html	Espèce type		MODIF	P533	Callune	Espèce type	Actif		Calluna vulgaris			
+P533	Botanic	https://www.botanic.com/produit/899779/callune-ou-bruyere-commune-a-fleurs-roses-le-pot-de-0-8-litre.html	Espèce type		MODIF	P533	Callune	Espèce type	Actif		Calluna vulgaris			
+P534	Botanic				MODIF	P534	Lachenalia rouge		Actif		Lachenalia bulbifera			
+P535	Botanic				MODIF	P535	Anémone des bois		Actif		Anemonoides nemorosa			
+P536	Botanic				MODIF	P536	Pratia		Actif		Lobelia pedunculata			
+P537	Botanic				MODIF	P537	Chou sauvage		Actif		Brassica oleracea			
+P538	Botanic				MODIF	P538	Immortelle perlée		Actif		Anaphalis margaritacea			
+P539	Botanic	https://www.botanic.com/produit/884970/begonia-rex-multicolore-le-pot-de-o-12-cm.html	Espèce type		MODIF	P539	Bégonia rex	Espèce type	Actif		Begonia rex 'multicolore'			
+P539	Botanic	https://www.botanic.com/produit/395671/begonia-rex-mix-multicolore-le-pot-de-o-6-cm.html	Espèce type		MODIF	P539	Bégonia rex	Espèce type	Actif		Begonia rex 'mix multicolore'			
+P540	Botanic				MODIF	P540	Bégonia decora		Actif		Begonia decora			
+P541	Botanic	https://www.botanic.com/produit/402772/begonia-marmorata-rose-botanic-3-bulbes.html	Rose		MODIF	P541	Bégonia xanthina	Rose	Actif		Begonia xanthina 'Rose'			
+P542	Botanic				MODIF	P542	Bégonia annulata		Actif		Begonia annulata			
+P543	Botanic				MODIF	P543	Bégonia grandis		Actif		Begonia grandis			
+P544	Botanic	https://www.botanic.com/produit/1000534/begonia-semperflorens-le-pot-de-14-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/116857/begonia-semperflorens-la-cagette-de-12-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/156868/begonia-semperflorens-la-suspension-de-30-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/291135/begonia-semperflorens-la-jardiniere-de-40-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/291304/begonia-semperflorens-le-pot-de-6-litres.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/313597/begonia-semperflorens-le-sac-a-suspendre.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/353638/begonia-semperflorens-le-pot-de-5-litres.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/453110/begonia-semperflorens-la-cagette-de-14-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/601573/begonia-semperflorens-le-pot-de-10-5-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/626454/begonia-semperflorens-la-suspension-en-osier.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/646788/begonia-semperflorens-la-barquette-de-4-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/717229/begonia-semperflorens-le-pot-de-13-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/717230/begonia-semperflorens-viking-le-pot-de-13-cm.html	Viking		MODIF	P544	Bégonia cucullata	Viking	Actif		Begonia cucullata 'Viking'			
+P544	Botanic	https://www.botanic.com/produit/720015/begonia-semperflorens-double-le-pot-de-10-5-cm.html	Flore Pleno		MODIF	P544	Bégonia cucullata	Flore Pleno	Actif		Begonia cucullata 'Flore Pleno'			
+P544	Botanic	https://www.botanic.com/produit/768719/begonia-semperflorens-a-fleurs-multicolores-le-pot-o-10-5-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata 'à fleurs multicolores'			
+P544	Botanic	https://www.botanic.com/produit/768958/begonia-semperflorens-double-a-fleurs-multicolores-le-pot-o-13-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata 'double à fleurs multicolores'			
+P544	Botanic	https://www.botanic.com/produit/768983/begonia-semperflorens-a-fleurs-multicolores-le-pot-o-13-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata 'à fleurs multicolores'			
+P544	Botanic	https://www.botanic.com/produit/789770/begonia-semperflorens-la-barquette-de-6-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/790164/begonia-semperflorens-a-fleurs-multicolores-la-barquette-de-10-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata 'à fleurs multicolores'			
+P544	Botanic	https://www.botanic.com/produit/790827/begonia-semperflorens-le-pot-de-10-5-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/791052/begonia-semperflorens-le-pot-de-1-litre.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/791055/begonia-semperflorens-double-le-pot-de-1-litre.html	Flore Pleno		MODIF	P544	Bégonia cucullata	Flore Pleno	Actif		Begonia cucullata 'Flore Pleno'			
+P544	Botanic	https://www.botanic.com/produit/791297/begonia-semperflorens-le-pot-de-2-5-litres.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/816036/begonia-semperflorens-la-barquette-de-4-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/850670/begonia-semperflorens-double-le-pot-de-10-5-cm.html	Flore Pleno		MODIF	P544	Bégonia cucullata	Flore Pleno	Actif		Begonia cucullata 'Flore Pleno'			
+P544	Botanic	https://www.botanic.com/produit/852477/begonia-semperflorens-la-coupe-de-25-cm.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata			
+P544	Botanic	https://www.botanic.com/produit/899587/begonia-semperflorens-a-fleurs-multicolores-la-barquette-de-6-plants.html	Espèce type		MODIF	P544	Bégonia cucullata	Espèce type	Actif		Begonia cucullata 'à fleurs multicolores'			
+P544	Botanic	https://www.botanic.com/produit/964833/begonia-semperflorens-doublet-le-pot-de-10-5-cm.html	Doublet		MODIF	P544	Bégonia cucullata	Doublet	Actif		Begonia cucullata 'Doublet'			
+P545	Botanic	https://www.botanic.com/produit/1018939/begonia-boliviensis-le-pot-de-10-5-cm.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/1020693/begonia-bonfire-le-pot-de-14-cm.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/113433/begonia-bonfire-le-pot-de-1-litre.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/157547/begonia-bonfire-la-suspension-de-30-cm.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/245019/begonia-bonfire-la-suspension-diam-27-cm.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/280540/begonia-boliviensis-le-pot-de-12-x-12-cm.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/291299/begonia-boliviensis-le-pot-de-2-5-litres.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/371744/begonia-boliviensis-la-suspension-diam-27-cm.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/372272/begonia-boliviensis-le-pot-de-1-litre.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/434928/begonia-bonfire-le-pot-de-2-5-litres.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/456992/begonia-bonfire-le-pot-de-10-5-cm.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/646798/begonia-boliviensis-le-pot-de-13-cm.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/973411/begonia-bonfire-le-pot-de-0-5-litre.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/973504/begonia-bonfire-le-pot-de-6-litres.html	Bonfire		MODIF	P545	Bégonia boliviensis	Bonfire	Actif		Begonia boliviensis 'Bonfire'			
+P545	Botanic	https://www.botanic.com/produit/982589/begonia-boliviensis-la-suspension-de-6-litres.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/986097/begonia-boliviensis-le-pot-de-10-5-cm.html	Espèce type		MODIF	P545	Bégonia boliviensis	Espèce type	Actif		Begonia boliviensis			
+P545	Botanic	https://www.botanic.com/produit/986098/begonia-boliviensis-encanto-orange-le-pot-de-10-5-cm.html	Encanto Orange		MODIF	P545	Bégonia boliviensis	Encanto Orange	Actif		Begonia boliviensis 'Encanto Orange'			
+P545	Botanic	https://www.botanic.com/produit/1057143/bulbe-de-fleurs-begonia-boliviensis-million-bells-botanic-1-bulbe.html	Million Bells		MODIF	P545	Bégonia boliviensis	Million Bells	Actif		Begonia boliviensis 'Million Bells'			
+P546	Botanic				MODIF	P546	Bégonia de Socotra		Actif		Begonia socotrana			
+P547	Botanic				MODIF	P547	Bégonia dregei		Actif		Begonia dregei			
+P548	Botanic				MODIF	P548	Bégonia aconitifolia		Actif		Begonia aconitifolia			
+P549	Botanic				MODIF	P549	Oxalis violette		Actif		Oxalis violacea			
+P550	Botanic				MODIF	P550	Souchet dense		Actif		Cyperus congestus			
+P551	Botanic				MODIF	P551	Verbésine		Actif		Verbesina occidentalis			
+P552	Botanic				MODIF	P552	Onagre bisannuel		Actif		Oenothera biennis			
+P553	Botanic	https://www.botanic.com/produit/1009032/aucuba-japonica-crotonifolia-le-pot-de-1-litre.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/155089/aucuba-japonica-crotonifolia-jaune-en-pot-de-5-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/289784/aucuba-japonica-crotonifolia-jaune-80/100-cm-en-pot-de-15-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/342605/aucuba-japonica-crotonifolia-jaune-en-pot-de-3-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/841001/aucuba-japonica-crotonifolia-jaune-50/60-cm-en-pot-de-10-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/907588/aucuba-japonica-crotonifolia-jaune-40/60-cm-en-pot-de-7-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P553	Botanic	https://www.botanic.com/produit/927389/aucuba-japonica-crotonifolia-jaune-30/40-cm-en-pot-de-3-l.html	Crotonifolia		MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'			
+P554	Botanic				MODIF	P554	Lamier jaune		Actif		Lamium galeobdolon			
+P555	Botanic				MODIF	P555	Asclépiade tubéreuse		Actif		Asclepias tuberosa			
+P556	Botanic				MODIF	P556	Chou pommé		Actif		Brassica oleracea groupe Capitata			
+P557	Botanic				MODIF	P557	Chou kale		Actif		Brassica oleracea groupe Acephala			
+P558	Botanic				MODIF	P558	Chou ornemental		Actif		Brassica oleracea groupe ornemental			
+P559	Botanic				MODIF	P559	Chou-fleur		Actif		Brassica oleracea groupe Botrytis			
+P560	Botanic				MODIF	P560	Brocoli		Actif		Brassica oleracea groupe Italica			
+P561	Botanic				MODIF	P561	Chou de Bruxelles		Actif		Brassica oleracea groupe Gemmifera			
+P562	Botanic				MODIF	P562	Chou-rave		Actif		Brassica oleracea groupe Gongylodes			
+P563	Botanic				MODIF	P563	Brocoli chinois		Actif		Brassica oleracea groupe Alboglabra			
+P564	Botanic				MODIF	P564	Muguet		Actif		Convallaria majalis			
+P565	Botanic				MODIF	P565	Alpiste roseau		Actif		Phalaris arundinacea			
+P566	Botanic				MODIF	P566	Hydrocotyle de Buenos Aires		Actif		Hydrocotyle bonariensis			
+P567	Botanic				MODIF	P567	Onagre des plages		Actif		Camissoniopsis cheiranthifolia			
+P568	Botanic				MODIF	P568	Cotonnière jaunâtre		Actif		Pseudognaphalium luteoalbum			
+P569	Botanic				MODIF	P569	Tamaris d'Allemagne		Actif		Myricaria germanica			
+P570	Botanic	https://www.botanic.com/produit/178622/aster-dumosus-le-pot-de-3-litres.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum			
+P570	Botanic	https://www.botanic.com/produit/50705/aster-dumosus-a-fleurs-multicolores-le-pot-de-1-litre.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum 'à fleurs multicolores'			
+P570	Botanic	https://www.botanic.com/produit/794532/aster-dumosus-le-pot-de-2-litres.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum			
+P570	Botanic	https://www.botanic.com/produit/862659/aster-dumosus-la-barquette-de-6-plants.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum			
+P570	Botanic	https://www.botanic.com/produit/862660/aster-dumosus-rose-la-barquette-de-6-plants.html	Rose		MODIF	P570	Aster buissonnant	Rose	Actif		Symphyotrichum dumosum 'Rose'			
+P570	Botanic	https://www.botanic.com/produit/877289/aster-dumosus-violet-la-barquette-de-6-plants.html	Violet		MODIF	P570	Aster buissonnant	Violet	Actif		Symphyotrichum dumosum 'Violet'			
+P571	Botanic				MODIF	P571	Zostère marine		Actif		Zostera marina			
+P572	Botanic				MODIF	P572	Liane de brosse		Actif		Cocculus hirsutus			
+P401	Truffaut	https://www.truffaut.com/6-x-gazon-d-espagne-armeria-maritima-alba-godet-9cm-x-9cm.html	Espèce type		MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima			
+P401	Truffaut	https://www.truffaut.com/6-x-gazon-d-espagne-armeria-maritima-rosea-godet-9cm-x-9cm.html	Espèce type		MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima			
+P401	Truffaut	https://www.truffaut.com/6-x-gazon-d-espagne-armeria-maritima-splendens-perfecta-godet-9cm-x-9cm.html	Espèce type		MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima			
+P401	Truffaut	https://www.truffaut.com/6-x-gazon-d-espagne-dusseldorfer-stolz-armeria-dusseldorfer-stolz-godet-9cm-x-9cm.html	Düsseldorfer Stolz		MODIF	P401	Armérie maritime	Düsseldorfer Stolz	Actif		Armeria maritima 'Düsseldorfer Stolz'			
+P401	Truffaut	https://www.truffaut.com/lot-de-3-armeria-maritima-abbey-deep-rose-h-10-20-cm.html	Espèce type	20 cm	MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima	20 cm		
+P401	Truffaut	https://www.truffaut.com/lot-de-3-armeria-maritima-alba-amenite-maritime-h-10-20-cm-1.html	Espèce type	20 cm	MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima	20 cm		
+P401	Truffaut	https://www.truffaut.com/lot-de-3-armeria-maritima-alba-amenite-maritime-h-10-20-cm.html	Espèce type	20 cm	MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima	20 cm		
+P401	Truffaut	https://www.truffaut.com/lot-de-6-armeria-maritima-abbey-deep-rose-h-10-20-cm.html	Espèce type	20 cm	MODIF	P401	Armérie maritime	Espèce type	Actif		Armeria maritima	20 cm		
+P402	Truffaut				MODIF	P402	Jonquille		Actif		Narcissus jonquilla			
+P403	Truffaut				MODIF	P403	Ail triquètre		Actif		Allium triquetrum			
+P404	Truffaut				MODIF	P404	Camomille allemande		Actif		Matricaria chamomilla			
+P405	Truffaut				MODIF	P405	Lupin à feuilles étroites		Actif		Lupinus angustifolius			
+P406	Truffaut				MODIF	P406	Tournesol		Actif		Helianthus annuus			
+P407	Truffaut				MODIF	P407	Rosier des chiens		Actif		Rosa canina			
+P408	Truffaut	https://www.truffaut.com/1-x-hedera-helix-arborescens-hedera-helix-arborescens-15-20-cm-pot.html	Arborescens	15-20 cm	MODIF	P408	Lierre grimpant	Arborescens	Actif		Hedera helix 'Arborescens'	15-20 cm		
+P408	Truffaut	https://www.truffaut.com/1-x-hedera-helix-arborescens-hedera-helix-arborescens-30-40-cm-pot.html	Arborescens	30-40 cm	MODIF	P408	Lierre grimpant	Arborescens	Actif		Hedera helix 'Arborescens'	30-40 cm		
+P408	Truffaut	https://www.truffaut.com/1-x-lierre-commun-hedera-helix-60-80-cm-pot.html	Espèce type	60-80 cm	MODIF	P408	Lierre grimpant	Espèce type	Actif		Hedera helix	60-80 cm		
+P408	Truffaut	https://www.truffaut.com/2-x-lierre-commun-arbori-compact-hedera-helix-arbori-compact-20-25-cm-pot.html	Espèce type	20-25 cm	MODIF	P408	Lierre grimpant	Espèce type	Actif		Hedera helix	20-25 cm		
+P408	Truffaut	https://www.truffaut.com/6-x-lierre-commun-hedera-helix-godet-9cm-x-9cm.html	Espèce type		MODIF	P408	Lierre grimpant	Espèce type	Actif		Hedera helix			
+P408	Truffaut	https://www.truffaut.com/hedera-helix-arborescens-hedera-helix-arborescens-40-50-cm-pot.html	Arborescens	40-50 cm	MODIF	P408	Lierre grimpant	Arborescens	Actif		Hedera helix 'Arborescens'	40-50 cm		
+P408	Truffaut	https://www.truffaut.com/hedera-helix-glacier-pot-3l-90-120-cm-906499.html	Espèce type		MODIF	P408	Lierre grimpant	Espèce type	Actif		Hedera helix			
+P408	Truffaut	https://www.truffaut.com/hedera-helix-panache-pot-diametre-12-cm-477985.html	Variegata		MODIF	P408	Lierre grimpant	Variegata	Actif		Hedera helix 'Variegata'			
+P408	Truffaut	https://www.truffaut.com/lierre-commun-goldheart-hedera-helix-goldheart-50-60-cm-pot.html	Espèce type	50-60 cm	MODIF	P408	Lierre grimpant	Espèce type	Actif		Hedera helix	50-60 cm		
+P409	Truffaut	https://www.truffaut.com/6-x-liriope-muscari-liriope-muscari-big-blue-godet-9cm-x-9cm.html	Espèce type		MODIF	P409	Liriope	Espèce type	Actif		Liriope muscari 'muscari'			
+P409	Truffaut	https://www.truffaut.com/6-x-liriope-muscari-liriope-muscari-godet-9cm-x-9cm.html	Espèce type		MODIF	P409	Liriope	Espèce type	Actif		Liriope muscari 'muscari'			
+P409	Truffaut	https://www.truffaut.com/6-x-liriope-muscari-liriope-muscari-ingwersen-godet-9cm-x-9cm.html	Espèce type		MODIF	P409	Liriope	Espèce type	Actif		Liriope muscari 'muscari'			
+P409	Truffaut	https://www.truffaut.com/6-x-liriope-muscari-monroe-white-liriope-muscari-monroe-white-godet-9cm-x-9cm.html	Monroe's White		MODIF	P409	Liriope	Monroe's White	Actif		Liriope muscari 'Monroe's White'			
+P409	Truffaut	https://www.truffaut.com/6-x-liriope-muscari-variegata-liriope-muscari-variegata-godet-9cm-x-9cm.html	Variegata		MODIF	P409	Liriope	Variegata	Actif		Liriope muscari 'Variegata'			
+P409	Truffaut	https://www.truffaut.com/liriope-muscari-godet-202397.html	Espèce type		MODIF	P409	Liriope	Espèce type	Actif		Liriope muscari			
+P410	Truffaut				MODIF	P410	Chrysocephalum		Actif		Chrysocephalum apiculatum			
+P411	Truffaut				MODIF	P411	Violette d'Australie		Actif		Viola hederacea			
+P412	Truffaut				MODIF	P412	Oxalis pourpre		Actif		Oxalis triangularis			
+P413	Truffaut	https://www.truffaut.com/epipremnum-aureum-avec-tuteur-mousse-plante-grimpante-70-90-cm-pot-19-cm.html	Espèce type	70-90 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	70-90 cm		
+P413	Truffaut	https://www.truffaut.com/epipremnum-aureum-avec-tuteur-mousse-xxl-140-160-cm-pot-27-cm.html	Espèce type	150 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	150 cm		
+P413	Truffaut	https://www.truffaut.com/epipremnum-aureum-lierre-du-diable-plante-suspendue-hauteur-20-30-cm-pot-15-cm.html	Espèce type	20-30 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	20-30 cm		
+P413	Truffaut	https://www.truffaut.com/epipremnum-marble-queen-plante-retombante-grimpante-15-20-cm-pot-12-cm.html	Marble Queen	20 cm	MODIF	P413	Pothos	Marble Queen	Actif		Epipremnum aureum 'Marble Queen'	20 cm		
+P413	Truffaut	https://www.truffaut.com/lot-de-2-epipremnum-aureum-avec-tuteur-mousse-grimpante-70-90-cm-pot-19-cm.html	Espèce type	70-90 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	70-90 cm		
+P413	Truffaut	https://www.truffaut.com/lot-de-2-epipremnum-aureum-lierre-du-diable-plantes-suspendues-hauteur-20-30-cm-pot-15-cm.html	Espèce type	20-30 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	20-30 cm		
+P413	Truffaut	https://www.truffaut.com/lot-de-2-epipremnum-marble-queen-retombante-grimpante-15-20-cm-pot-12-cm.html	Espèce type	20 cm	MODIF	P413	Pothos	Espèce type	Actif		Epipremnum aureum	20 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-deremensis-citron-lime-dragonniers-set-de-2.html	Espèce type	60-70 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	60-70 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-deremensis-citron-lime-pot-17cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	60-70 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-deremensis-janet-craig-pot-17cm-hauteur-60-70cm-1.html	Espèce type	60-70 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	60-70 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-deremensis-warneckei-17cm-hauteur-60-70-cm.html	Espèce type	60-70 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	60-70 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-deremensis-warneckei-set-de-2-taille-du-pot-17-cm-h-60-70-cm.html	Espèce type	60-70 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	60-70 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-fragrans-2-cannes-d17xh80-cm-788827.html	Espèce type		MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans			
+P414	Truffaut	https://www.truffaut.com/dracaena-fragrans-cintho-dragonnier-24cm-hauteur-140-150cm.html	Espèce type	140-150 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	140-150 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-fragrans-deremensis-citron-vert-pot-24cm-hauteur-130-140cm.html	Espèce type	130-140 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	130-140 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-fragrans-janet-craig-xxl-pot-24-cm-hauteur-140-150cm.html	Espèce type	140-150 cm	MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans	140-150 cm		
+P414	Truffaut	https://www.truffaut.com/dracaena-fragrans-mix-3-pieds-h100cm-pot-d21cm-1043885.html	Espèce type		MODIF	P414	Dragonnier parfumé	Espèce type	Actif		Dracaena fragrans			
+P414	Truffaut	https://www.truffaut.com/dracaena-lemon-lime-1-touffe-d-17cm-530751.html	Lemon Lime		MODIF	P414	Dragonnier parfumé	Lemon Lime	Actif		Dracaena fragrans 'Lemon Lime'			
+P414	Truffaut	https://www.truffaut.com/dracaena-lemon-lime-2-cannes-h70-80cm-d18cm-318580.html	Lemon Lime		MODIF	P414	Dragonnier parfumé	Lemon Lime	Actif		Dracaena fragrans 'Lemon Lime'			
+P415	Truffaut				MODIF	P415	Palmier mazari		Actif		Nannorrhops ritchieana			
+P416	Truffaut				MODIF	P416	Palmier de Floride		Actif		Serenoa repens			
+P417	Truffaut				MODIF	P417	Palmier à sucre de l'Inde		Actif		Caryota urens			
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-pot-17cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	60-70 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-pot-21cm-hauteur-100-120cm.html	Espèce type	100-120 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	100-120 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-set-de-2-pot-12cm-hauteur-30-45cm.html	Espèce type	30-45 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	30-45 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-set-de-2-pot-17cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	60-70 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-set-de-3-pot-12cm-hauteur-30-45cm.html	Espèce type	30-45 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	30-45 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-set-de-4-pot-12cm-hauteur-30-45cm.html	Espèce type	30-45 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	30-45 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-set-de-4-pot-17cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	60-70 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-areca-palmier-d-or-xxl-pot-27cm-hauteur-140-150cm.html	Espèce type	140-150 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	140-150 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plante-d-interieur-100-110-cm-de-haut-panier-en-jute-21-cm.html	Espèce type	100-110 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	100-110 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plante-d-interieur-depolluante-30-40-cm-de-haut-pot-12-cm.html	Espèce type	30-40 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	30-40 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plante-d-interieur-hauteur-100-110-cm-panier-en-rotin-21-cm.html	Espèce type	100-110 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	100-110 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plantes-d-interieur-depolluante-hauteur-60-70-cm-pot-17-cm.html	Espèce type	60-70 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	60-70 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plantes-d-interieur-hauteur-100-110-cm-pot-21-cm.html	Espèce type	100-110 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	100-110 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plantes-d-interieur-hauteur-130-150-cm-pot-24-cm.html	Espèce type	130-150 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	130-150 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-palmier-areca-plantes-d-interieur-hauteur-20-30-cm-pot-10-5-cm.html	Espèce type	20-30 cm	MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens	20-30 cm		
+P418	Truffaut	https://www.truffaut.com/dypsis-lutescens-pot-d-17cm-1127093.html	Espèce type		MODIF	P418	Aréca	Espèce type	Actif		Chrysalidocarpus lutescens			
+P419	Truffaut				MODIF	P419	Cycas de l'Inde		Actif		Cycas circinalis			
+P420	Truffaut				MODIF	P420	Kaloupilé		Actif		Murraya koenigii			
+P421	Truffaut				MODIF	P421	Badamier		Actif		Terminalia catappa			
+P422	Truffaut				MODIF	P422	Mûrier à papier		Actif		Broussonetia papyrifera			
+P423	Truffaut	https://www.truffaut.com/nephrolepis-exaltata-bostoniensis-pot-d-12-cm-851186.html	Bostoniensis		MODIF	P423	Fougère de Boston	Bostoniensis	Actif		Nephrolepis exaltata 'Bostoniensis'			
+P423	Truffaut	https://www.truffaut.com/nephrolepis-exaltata-bostoniensis-suspension-d19cm-789733.html	Bostoniensis		MODIF	P423	Fougère de Boston	Bostoniensis	Actif		Nephrolepis exaltata 'Bostoniensis'			
+P424	Truffaut				MODIF	P424	Fougère bouton		Actif		Pellaea rotundifolia			
+P425	Truffaut				MODIF	P425	Ricin		Actif		Ricinus communis			
+P426	Truffaut				MODIF	P426	Oxalis des Bermudes		Actif		Oxalis pes-caprae			
+P427	Truffaut				MODIF	P427	Herbe aux écouvillons pourpres		Actif		Cenchrus setaceus			
+P428	Truffaut				MODIF	P428	Bambou doré		Actif		Phyllostachys aurea			
+P429	Truffaut				MODIF	P429	Tagète des décombres		Actif		Tagetes minuta			
+P430	Truffaut				MODIF	P430	Liseron des champs		Actif		Convolvulus arvensis			
+P431	Truffaut	https://www.truffaut.com/rhododendron-ponticum-rhododendron-ponticum-40-60-cm-pot.html	Espèce type	40-60 cm	MODIF	P431	Rhododendron pontique	Espèce type	Actif		Rhododendron ponticum 'ponticu'	40-60 cm		
+P431	Truffaut	https://www.truffaut.com/rhododendron-ponticum-varie-40-50-cm-ctr-7-litres-37181.html	Espèce type	40-50 cm	MODIF	P431	Rhododendron pontique	Espèce type	Actif		Rhododendron ponticum	40-50 cm		
+P432	Truffaut				MODIF	P432	Tilleul à petites feuilles		Actif		Tilia cordata			
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-brepo-pot-5l-834109.html	Brepo		MODIF	P433	Pin noir	Brepo	Actif		Pinus nigra 'Brepo'			
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-brepo-pot-5l-834110.html	Brepo		MODIF	P433	Pin noir	Brepo	Actif		Pinus nigra 'Brepo'			
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-marie-bregeon-30-40-cm-ctr-deco-4l-171122.html	Marie Bregeon	30-40 cm	MODIF	P433	Pin noir	Marie Bregeon	Actif		Pinus nigra 'Marie Bregeon'	30-40 cm		
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-marie-bregeon-30-40-cm-ctr-deco-4l-834108.html	Marie Bregeon		MODIF	P433	Pin noir	Marie Bregeon	Actif		Pinus nigra 'Marie Bregeon'			
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-oregon-green-h40-60cm-pot-6l-508405.html	Espèce type	4 m	MODIF	P433	Pin noir	Espèce type	Actif		Pinus nigra	4 m		
+P433	Truffaut	https://www.truffaut.com/pinus-nigra-pierrick-bregeon-ctr-4l-336094.html	Pierrick Bregeon		MODIF	P433	Pin noir	Pierrick Bregeon	Actif		Pinus nigra 'Pierrick Bregeon'			
+P434	Truffaut				MODIF	P434	Épicéa		Actif		Picea abies			
+P435	Truffaut				MODIF	P435	Peuplier baumier		Actif		Populus balsamifera			
+P436	Truffaut	https://www.truffaut.com/phyllostachys-nigra-conteneur-80-litres-458413.html	Espèce type	4 m	MODIF	P436	Bambou noir du Japon	Espèce type	Actif		Phyllostachys nigra	4 m		
+P436	Truffaut	https://www.truffaut.com/phyllostachys-nigra-hauteur-150-200-cm-lv18-170450.html	Espèce type	4 m	MODIF	P436	Bambou noir du Japon	Espèce type	Actif		Phyllostachys nigra	4 m		
+P437	Truffaut				MODIF	P437	Phellodendron		Actif		Phellodendron amurense			
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-araucarioides-pot-3l-833977.html	Espèce type		MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica 'japonica'			
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-bandai-suji-pot-3l-833983.html	Bandaï-Suji	1 m	MODIF	P438	Cryptomeria	Bandaï-Suji	Actif		Cryptomeria japonica 'Bandaï-Suji'	1 m		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-cristata-40-60-cm-pot-3l-833988.html	Espèce type	2,50 m	MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica	2,50 m		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-dinger-pot-3l-833993.html	Dinger		MODIF	P438	Cryptomeria	Dinger	Actif		Cryptomeria japonica 'Dinger'			
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-dinger-pot-5l-833995.html	Dinger		MODIF	P438	Cryptomeria	Dinger	Actif		Cryptomeria japonica 'Dinger'			
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-elegans-80-100-cm-pot-10l-26474.html	Espèce type	80-100 cm	MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica	80-100 cm		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-elegans-80-100-cm-pot-7-l-833997.html	Espèce type		MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica			
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-elegans-viridis-80-100cm-pot-10l-1066227.html	Espèce type	80-100cm	MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica	80-100cm		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-globosa-nana-hauteur-30-40cm-pot-5l-336086.html	Globosa Nana	30-40 cm	MODIF	P438	Cryptomeria	Globosa Nana	Actif		Cryptomeria japonica 'Globosa Nana'	30-40 cm		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-little-champion-h40-50-cm-pot-5l-834017.html	Espèce type	0,80 m	MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica	0,80 m		
+P438	Truffaut	https://www.truffaut.com/cryptomeria-japonica-vilmoriniana-25-30-cm-pot-4l-87312.html	Espèce type	25-30 cm	MODIF	P438	Cryptomeria	Espèce type	Actif		Cryptomeria japonica	25-30 cm		
+P439	Truffaut				MODIF	P439	Katsura		Actif		Cercidiphyllum japonicum			
+P440	Truffaut				MODIF	P440	Sorbier des oiseleurs		Actif		Sorbus aucuparia			
+P441	Truffaut	https://www.truffaut.com/salix-babylonica-200-250-cm-ctr-15-litres-228804.html	Espèce type	12 m	MODIF	P441	Saule pleureur	Espèce type	Actif		Salix babylonica	12 m		
+P441	Truffaut	https://www.truffaut.com/salix-matsudana-tortuosa-100-125cm-10l-25571.html	Tortuosa	6 m	MODIF	P441	Saule pleureur	Tortuosa	Actif		Salix babylonica 'Tortuosa'	6 m		
+P442	Truffaut				MODIF	P442	Chêne chevelu		Actif		Quercus cerris			
+P443	Truffaut				MODIF	P443	Sapin de Nikko		Actif		Abies homolepis			
+P444	Truffaut	https://www.truffaut.com/ginkgo-biloba-125-150-cm-ctr-15-litres-26293.html	Espèce type	8 m	MODIF	P444	Ginkgo	Espèce type	Actif		Ginkgo biloba	8 m		
+P444	Truffaut	https://www.truffaut.com/ginkgo-biloba-mariken-pot-3l-198118.html	Mariken		MODIF	P444	Ginkgo	Mariken	Actif		Ginkgo biloba 'Mariken'			
+P444	Truffaut	https://www.truffaut.com/sachet-graines-ginkgo-biloba-chine-38054.html	Espèce type		MODIF	P444	Ginkgo	Espèce type	Actif		Ginkgo biloba 'de Chine'			
+P445	Truffaut				MODIF	P445	Noyer du Japon		Actif		Juglans ailantifolia			
+P446	Truffaut				MODIF	P446	Mélèze du Japon		Actif		Larix kaempferi			
+P447	Truffaut				MODIF	P447	Ostrya		Actif		Ostrya japonica			
+P448	Truffaut				MODIF	P448	Épicéa de Koyama		Actif		Picea koyamae			
+P449	Truffaut				MODIF	P449	Érable à feuilles rondes		Actif		Acer circinatum			
+P450	Truffaut				MODIF	P450	Pavier de l'Ohio		Actif		Aesculus glabra			
+P451	Truffaut				MODIF	P451	Catalpa		Actif		Catalpa bignonioides			
+P452	Truffaut	https://www.truffaut.com/liquidambar-styraciflua-175-200-cm-ctr-15-litres-37070.html	Espèce type	6 m	MODIF	P452	Copalme d'Amérique	Espèce type	Actif		Liquidambar styraciflua	6 m		
+P452	Truffaut	https://www.truffaut.com/liquidambar-styraciflua-lane-roberts-c15l-695833.html	Espèce type	6 m	MODIF	P452	Copalme d'Amérique	Espèce type	Actif		Liquidambar styraciflua	6 m		
+P452	Truffaut	https://www.truffaut.com/liquidambar-styraciflua-worplesdon-baliveau-ctr-15-litres-336077.html	Espèce type	5 m	MODIF	P452	Copalme d'Amérique	Espèce type	Actif		Liquidambar styraciflua	5 m		
+P452	Truffaut	https://www.truffaut.com/liquidambar-styraciflua-worplesdon-c-7-5l-857881.html	Espèce type		MODIF	P452	Copalme d'Amérique	Espèce type	Actif		Liquidambar styraciflua			
+P453	Truffaut				MODIF	P453	Épinette d'Engelmann		Actif		Picea engelmannii			
+P454	Truffaut				MODIF	P454	Chêne rouge d'Amérique		Actif		Quercus rubra			
+P455	Truffaut				MODIF	P455	Tilleul américain		Actif		Tilia americana			
+P456	Truffaut	https://www.truffaut.com/pinus-strobus-nana-30-40-cm-ctr-4l-25900.html	Nana	30-40 cm	MODIF	P456	Pin de Weymouth	Nana	Actif		Pinus strobus 'Nana'	30-40 cm		
+P457	Truffaut				MODIF	P457	Platane d'Occident		Actif		Platanus occidentalis			
+P458	Truffaut				MODIF	P458	Bouleau merisier		Actif		Betula lenta			
+P459	Truffaut				MODIF	P459	Bouleau gris		Actif		Betula populifolia			
+P460	Truffaut				MODIF	P460	Pacanier		Actif		Carya illinoinensis			
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-allumii-gold-100-125-cm-pot-4l-26832.html	Espèce type	100-125 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	100-125 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-columnaris-100-125-cm-pot-10l-36956.html	Espèce type	100-125 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	100-125 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoo-s-gold-40-50-cm-pot-4l-25859.html	Espèce type	40-50 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	40-50 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoo-s-gold-60-70-cm-pot-10l-493295.html	Espèce type	60 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	60 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoodii-40-50-cm-pot-4l-25854.html	Ellwoodii	40-50 cm	MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'	40-50 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoodii-40-60cm-4l-833955.html	Ellwoodii	40-60cm	MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'	40-60cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoodii-90-100-cm-pot-10l-54540.html	Ellwoodii	90-100 cm	MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'	90-100 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoodii-gold-pot-4l-756462.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-ellwoodii-pot-d-13cm-26679.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-elwoodii-pot-d-17cm-681307.html	Ellwoodii		MODIF	P461	Cyprès de Lawson	Ellwoodii	Actif		Chamaecyparis lawsoniana 'Ellwoodii'			
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-minima-aurea-25-30-cm-pot-4l-87379.html	Espèce type	25-30 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	25-30 cm		
+P461	Truffaut	https://www.truffaut.com/chamaecyparis-lawsoniana-minima-glauca-25-30-cm-pot-4l-25860.html	Espèce type	25-30 cm	MODIF	P461	Cyprès de Lawson	Espèce type	Actif		Chamaecyparis lawsoniana	25-30 cm		
+P462	Truffaut				MODIF	P462	Hêtre commun		Actif		Fagus sylvatica			
+P463	Truffaut	https://www.truffaut.com/epicea-colorado-picea-pungens-834070.html	Espèce type		MODIF	P463	Épicéa du Colorado	Espèce type	Actif		Picea pungens			
+P463	Truffaut	https://www.truffaut.com/epinette-blanche-picea-glauca-conica-december-hauteur-75cm-21cm.html	Espèce type	55-65 cm	MODIF	P463	Épicéa du Colorado	Espèce type	Actif		Picea pungens	55-65 cm		
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-40-50-cm-ctr-4l-61197.html	Glauca	40-50 cm	MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'	40-50 cm		
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-40-50-cm-ctr-4l-912002.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-40-50-cm-ctr-4l-933105.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-pot-ceramique-deco-cerf-d-9cm-1091973.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-pot-ceramique-deco-pere-noel-d-9cm-1091972.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-pot-en-zinc-d-9cm-1115012.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-sac-en-jute-noel-d-9cm-1092068.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-sac-jute-naturel-d-13cm-1092066.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-sac-jute-noel-d-9cm-1091974.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-sac-jute-rond-d-9cm-1091975.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-conica-sac-jute-rond-rouge-d-13cm-1092065.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-december-mini-sapin-de-noel-40-60-cm-pot-19-cm.html	Glauca	50 cm	MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'	50 cm		
+P463	Truffaut	https://www.truffaut.com/picea-glauca-december-mini-sapin-de-noel-80-100-cm-pot-26-cm.html	Glauca	90 cm	MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'	90 cm		
+P463	Truffaut	https://www.truffaut.com/picea-glauca-globosa-30-40-cm-ctr-4-l-834066.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-globosa-ctr-12-l-427696.html	Glauca		MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'			
+P463	Truffaut	https://www.truffaut.com/picea-glauca-sanders-blue-pot-5l-1114274.html	Glauca	1,50 m	MODIF	P463	Épicéa du Colorado	Glauca	Actif		Picea pungens 'Glauca'	1,50 m		
+P463	Truffaut	https://www.truffaut.com/picea-pungens-baby-blue-pot-d-24cm-1056711.html	Baby Blue	3 m	MODIF	P463	Épicéa du Colorado	Baby Blue	Actif		Picea pungens 'Baby Blue'	3 m		
+P463	Truffaut	https://www.truffaut.com/picea-pungens-baby-blue-pot-d-27cm-1056712.html	Baby Blue	3 m	MODIF	P463	Épicéa du Colorado	Baby Blue	Actif		Picea pungens 'Baby Blue'	3 m		
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-mops-25-30-cm-ctr-4-l-381165.html	Mops	25-30 cm	MODIF	P464	Pin mugo	Mops	Actif		Pinus mugo 'Mops'	25-30 cm		
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-mughus-ctr-4-5l-314469.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-pumilio-30-40-cm-ctr-4l-169685.html	Pumilio	30-40 cm	MODIF	P464	Pin mugo	Pumilio	Actif		Pinus mugo 'Pumilio'	30-40 cm		
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-pumilio-ctr-40l-911991.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-pumilio-ctr-40l-933116.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-sherwood-compact-hauteur-20-25-cm-conteneur-3-7-litres-432264.html	Sherwood Compact	20-25 cm	MODIF	P464	Pin mugo	Sherwood Compact	Actif		Pinus mugo 'Sherwood Compact'	20-25 cm		
+P464	Truffaut	https://www.truffaut.com/pinus-mugo-winter-gold-hauteur-20-25-cm-conteneur-3-7-litres-834101.html	Espèce type		MODIF	P464	Pin mugo	Espèce type	Actif		Pinus mugo			
+P465	Truffaut				MODIF	P465	Platane commun		Actif		Platanus × hispanica			
+P466	Truffaut				MODIF	P466	Peuplier noir		Actif		Populus nigra			
+P467	Truffaut				MODIF	P467	Laurier sassafras		Actif		Sassafras albidum			
+P468	Truffaut	https://www.truffaut.com/taxus-baccata-60-80cm-ctr-7l-834134.html	Espèce type		MODIF	P468	If commun	Espèce type	Actif		Taxus baccata			
+P468	Truffaut	https://www.truffaut.com/taxus-baccata-80-100-cm-ctr-7l-23284.html	Espèce type	80-100 cm	MODIF	P468	If commun	Espèce type	Actif		Taxus baccata	80-100 cm		
+P468	Truffaut	https://www.truffaut.com/taxus-baccata-repandens-aurea-30-40-cm-ctr-4l-834132.html	Repandens		MODIF	P468	If commun	Repandens	Actif		Taxus baccata 'Repandens'			
+P469	Truffaut				MODIF	P469	Thuya géant		Actif		Thuja plicata			
+P470	Truffaut				MODIF	P470	Pommier		Actif		Malus domestica			
+P471	Truffaut	https://www.truffaut.com/1-x-cerisier-a-fleur-alba-plena-prunus-glandulosa-alba-plena-30-40-cm-pot.html	Plena	30-40 cm	MODIF	P471	Cerisier	Plena	Actif		Prunus avium 'Plena'	30-40 cm		
+P471	Truffaut	https://www.truffaut.com/1-x-cerisier-a-fleurs-rosea-plena-prunus-glandulosa-rosea-plena-30-40-cm-pot.html	Plena	30-40 cm	MODIF	P471	Cerisier	Plena	Actif		Prunus avium 'Plena'	30-40 cm		
+P472	Truffaut				MODIF	P472	Scirpe-jonc		Actif		Scirpoides holoschoenus			
+P473	Truffaut	https://www.truffaut.com/2-x-cytise-commun-laburnum-anagyroides-50-60-cm-pot.html	Espèce type	50-60 cm	MODIF	P473	Cytise faux-ébénier	Espèce type	Actif		Laburnum anagyroides 'commun'	50-60 cm		
+P474	Truffaut				MODIF	P474	Chêne pédonculé		Actif		Quercus robur			
+P475	Truffaut	https://www.truffaut.com/parrotia-persica-vanessa-c15l-452335.html	Vanessa	4 m	MODIF	P475	Parrotie de Perse	Vanessa	Actif		Parrotia persica 'Vanessa'	4 m		
+P476	Truffaut				MODIF	P476	Manglier		Actif		Rhizophora mucronata			
+P477	Truffaut				MODIF	P477	Flamme de forêt		Actif		Butea monosperma			
+P478	Truffaut				MODIF	P478	Saraca		Actif		Saraca asoca			
+P479	Truffaut				MODIF	P479	Érable de Nikko		Actif		Acer maximowiczianum			
+P480	Truffaut	https://www.truffaut.com/2-x-erable-du-japon-ornatum-acer-palmatum-ornatum-40-50-cm-pot.html	Ornatum	40-50 cm	MODIF	P480	Érable du Japon	Ornatum	Actif		Acer palmatum 'Ornatum'	40-50 cm		
+P480	Truffaut	https://www.truffaut.com/acer-orange-dream-erable-du-japon-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-orange-dream-set-de-2-erable-japonais-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-80-100-cm-greffe-ctr-7-5-l-26704.html	Espèce type	80-100 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	80-100 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-anthropurpureum-erable-japonais-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-atropurpureum-c3l-25962.html	Atropurpureum		MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-atropurpureum-erable-du-japon-feuillage-pourpre-20-30-cm-de-haut-pot-10-5-cm.html	Atropurpureum	20-30 cm	MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'	20-30 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-atropurpureum-erable-du-japon-feuillage-pourpre-50-70-cm-de-haut-pot-19-cm.html	Atropurpureum	50-70 cm	MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'	50-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-atropurpureum-set-de-2-erable-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-beni-maiko-erable-japonais-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-beni-maiko-set-de-2-erable-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-butterfly-erable-du-japon-feuillage-panache-20-30-cm-de-haut-pot-10-5-cm.html	Butterfly	20-30 cm	MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'	20-30 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-butterfly-erable-du-japon-feuillage-panache-40-50-cm-de-haut-pot-15-cm.html	Butterfly	40-50 cm	MODIF	P480	Érable du Japon	Butterfly	Actif		Acer palmatum 'Butterfly'	40-50 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-ctr-10-l-292008.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-ctr-50-l-255401.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-ctr-7-l-varietes-variables-367212.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-ctr-80-l-292007.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-dissectum-erable-du-japon-feuillage-vert-50-70-cm-de-haut-pot-19-cm.html	Dissectum	50-70 cm	MODIF	P480	Érable du Japon	Dissectum	Actif		Acer palmatum 'Dissectum'	50-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-emerald-lace-erable-du-japon-feuillage-vert-50-70-cm-de-haut-pot-19-cm.html	Emerald Lace	50-70 cm	MODIF	P480	Érable du Japon	Emerald Lace	Actif		Acer palmatum 'Emerald Lace'	50-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-emerald-lace-erable-japonais-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-going-green-erable-du-japon-feuillage-vert-20-30-cm-de-haut-pot-10-5-cm.html	Going Green	20-30 cm	MODIF	P480	Érable du Japon	Going Green	Actif		Acer palmatum 'Going Green'	20-30 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-little-princess-erable-du-japon-plantes-de-jardin-50-70-cm-de-haut-pot-19-cm.html	Little Princess	50-70 cm	MODIF	P480	Érable du Japon	Little Princess	Actif		Acer palmatum 'Little Princess'	50-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-nain-c10l-varietes-variables-644984.html	Espèce type	1,50 m	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	1,50 m		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-nain-c5l-varietes-variables-644983.html	Espèce type	1,50 m	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	1,50 m		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-orange-dream-erable-du-japon-feuillage-orange-20-30-cm-de-haut-pot-10-5-cm.html	Orange Dream	20-30 cm	MODIF	P480	Érable du Japon	Orange Dream	Actif		Acer palmatum 'Orange Dream'	20-30 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-orange-dream-erable-du-japon-feuillage-orange-40-50-cm-de-haut-pot-15-cm.html	Orange Dream	40-50 cm	MODIF	P480	Érable du Japon	Orange Dream	Actif		Acer palmatum 'Orange Dream'	40-50 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-orange-dream-pot-5l-713350.html	Orange Dream		MODIF	P480	Érable du Japon	Orange Dream	Actif		Acer palmatum 'Orange Dream'			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-petite-princesse-erable-japonais-pot-19cm-hauteur-45-55cm.html	Espèce type	45-55 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	45-55 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-petite-princesse-lot-de-2-erable-19cm-hauteur-45-55cm.html	Espèce type	100-150 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	100-150 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-pot-14l-1114185.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-pot-4-5-l-761987.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-set-de-3-erable-du-japon-pot-19cm-hauteur-60-70cm.html	Espèce type	60-70 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	60-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-set-de-4-erable-du-japon-10-5cm-hauteur-25-40cm.html	Espèce type	25-40 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	25-40 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-set-de-8-erable-du-japon-pot-10-5cm-hauteur-25-40cm.html	Espèce type	25-40 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	25-40 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-taylor-erable-du-japon-h-50-70-cm-p-o-19-cm.html	Taylor	50-70 cm	MODIF	P480	Érable du Japon	Taylor	Actif		Acer palmatum 'Taylor'	50-70 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-taylor-lot-de-2-erable-japonais-o15cm-hauteur-35-55cm.html	Espèce type	35-55 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	35-55 cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-truffaut-100-125cm-greffe-c15l-varietes-variables-26758.html	Espèce type	100-125cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	100-125cm		
+P480	Truffaut	https://www.truffaut.com/acer-palmatum-truffaut-ctr-30-varietes-variables-182638.html	Espèce type		MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum			
+P480	Truffaut	https://www.truffaut.com/bonsai-acer-palmatum-atropurpureum-5-6-ans-509829.html	Atropurpureum	3 m	MODIF	P480	Érable du Japon	Atropurpureum	Actif		Acer palmatum 'Atropurpureum'	3 m		
+P480	Truffaut	https://www.truffaut.com/erable-du-japon-4pcs-acer-palmatum-orange-dream-hauteur-25-40cm-o10-5cm.html	Espèce type	25-40 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	25-40 cm		
+P480	Truffaut	https://www.truffaut.com/erable-du-japon-acer-palmatum-atropurpureum-hauteur-25-40cm-o10-5cm.html	Espèce type	25-40 cm	MODIF	P480	Érable du Japon	Espèce type	Actif		Acer palmatum	25-40 cm		
+P481	Truffaut	https://www.truffaut.com/chamaecyparis-obtusa-nana-gracilis-25-30-pot-4-l-427678.html	Nana Gracilis		MODIF	P481	Faux cyprès hinoki du Japon	Nana Gracilis	Actif		Chamaecyparis obtusa 'Nana Gracilis'			
+P481	Truffaut	https://www.truffaut.com/chamaecyparis-obtusa-nana-gracilis-greffe-20-25-pot-3-l-833965.html	Nana Gracilis		MODIF	P481	Faux cyprès hinoki du Japon	Nana Gracilis	Actif		Chamaecyparis obtusa 'Nana Gracilis'			
+P481	Truffaut	https://www.truffaut.com/chamaecyparis-obtusa-pot-3l-833961.html	Espèce type		MODIF	P481	Faux cyprès hinoki du Japon	Espèce type	Actif		Chamaecyparis obtusa			
+P482	Truffaut				MODIF	P482	Nezu		Actif		Juniperus rigida			
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-ctr-4-litres-74065.html	Espèce type		MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana			
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-lennei-conteneur-10-l-436998.html	Espèce type		MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana			
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-pot-30l-26228.html	Espèce type	100-125 cm	MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana	100-125 cm		
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-pot-5-litres-169961.html	Espèce type		MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana			
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-rustica-conteneur-10-l-125074.html	Rustica Rubra		MODIF	P483	Magnolia de Soulange-Bodin	Rustica Rubra	Actif		Magnolia × soulangeana 'Rustica Rubra'			
+P483	Truffaut	https://www.truffaut.com/magnolia-soulangeana-rustica-conteneur-rond-carre-5-l-436984.html	Espèce type		MODIF	P483	Magnolia de Soulange-Bodin	Espèce type	Actif		Magnolia × soulangeana			
+P484	Truffaut	https://www.truffaut.com/pinus-cembra-glauca-pot-3-7l-1092543.html	Glauca		MODIF	P484	Pin blanc du Japon	Glauca	Actif		Pinus parviflora 'Glauca'			
+P485	Truffaut				MODIF	P485	Cerisier de Yedo		Actif		Prunus × yedoensis			
+P486	Truffaut				MODIF	P486	Kometsuga		Actif		Tsuga diversifolia			
+P487	Truffaut				MODIF	P487	Faux-orme du Japon		Actif		Zelkova serrata			
+P488	Truffaut				MODIF	P488	Kaori blanc		Actif		Agathis moorei			
+P489	Truffaut				MODIF	P489	Mamaku		Actif		Sphaeropteris medullaris			
+P490	Truffaut	https://www.truffaut.com/dicksonia-antarctica-pot-10l-1024361.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P490	Truffaut	https://www.truffaut.com/dicksonia-antarctica-touffe-pot-4l-828648.html	Espèce type		MODIF	P490	Fougère arborescente	Espèce type	Actif		Dicksonia antarctica			
+P491	Truffaut				MODIF	P491	Kānuka		Actif		Kunzea ericoides			
+P492	Truffaut				MODIF	P492	ʻŌhiʻa lehua		Actif		Metrosideros polymorpha			
+P493	Truffaut				MODIF	P493	Noni		Actif		Morinda citrifolia			
+P494	Truffaut				MODIF	P494	Tōtara		Actif		Podocarpus totara			
+P495	Truffaut				MODIF	P495	Canna hybride à fleurs		Actif		Canna × generalis			
+P496	Truffaut				MODIF	P496	Loulu		Actif		Pritchardia remota			
+P497	Truffaut				MODIF	P497	Anacardier		Actif		Anacardium occidentale			
+P498	Truffaut				MODIF	P498	Arbre à pain		Actif		Artocarpus altilis			
+P499	Truffaut				MODIF	P499	Érable champêtre		Actif		Acer campestre			
+P500	Truffaut				MODIF	P500	Érable de Montpellier		Actif		Acer monspessulanum			
+P551	Truffaut				MODIF	P551	Verbésine		Actif		Verbesina occidentalis			
+P552	Truffaut				MODIF	P552	Onagre bisannuel		Actif		Oenothera biennis			
+P553	Truffaut	https://www.truffaut.com/2-x-aucuba-du-japon-crotonifolia-aucuba-japonica-crotonifolia-30-40-cm-pot.html	Crotonifolia	30-40 cm	MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'	30-40 cm		
+P553	Truffaut	https://www.truffaut.com/2-x-aucuba-du-japon-rozannie-aucuba-japonica-rozannie-30-35-cm-pot.html	Rozannie	30-35 cm	MODIF	P553	Aucuba du Japon	Rozannie	Actif		Aucuba japonica 'Rozannie'	30-35 cm		
+P553	Truffaut	https://www.truffaut.com/2-x-aucuba-du-japon-variegata-aucuba-japonica-variegata-30-40-cm-pot.html	Variegata	30-40 cm	MODIF	P553	Aucuba du Japon	Variegata	Actif		Aucuba japonica 'Variegata'	30-40 cm		
+P553	Truffaut	https://www.truffaut.com/aucuba-japonica-crotonifolia-50-60-cm-c-7-vert-tache-jaune-26711.html	Espèce type	1,50 m	MODIF	P553	Aucuba du Japon	Espèce type	Actif		Aucuba japonica	1,50 m		
+P553	Truffaut	https://www.truffaut.com/aucuba-japonica-crotonifolia-hauteur-20-30-cm-ctr-2-litres-74339.html	Crotonifolia	20-30 cm	MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'	20-30 cm		
+P553	Truffaut	https://www.truffaut.com/aucuba-japonica-crotonifolia-hauteur-50-60-cm-conteneur-5-litres-53411.html	Crotonifolia	50-60 cm	MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'	50-60 cm		
+P553	Truffaut	https://www.truffaut.com/aucuba-japonica-crotonifolia-hauteur-60-80-cm-conteneur-10-litres-74341.html	Crotonifolia	60-80 cm	MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'	60-80 cm		
+P553	Truffaut	https://www.truffaut.com/aucuba-japonica-crotonifolia-pot-15-litres-15114.html	Crotonifolia	1,50 m	MODIF	P553	Aucuba du Japon	Crotonifolia	Actif		Aucuba japonica 'Crotonifolia'	1,50 m		
+P554	Truffaut	https://www.truffaut.com/6-x-faux-lamier-lamiastrum-galeobdolon-florentinum-godet-9cm-x-9cm.html	Espèce type		MODIF	P554	Lamier jaune	Espèce type	Actif		Lamium galeobdolon			
+P554	Truffaut	https://www.truffaut.com/6-x-faux-lamier-lamiastrum-galeobdolon-godet-9cm-x-9cm.html	Espèce type		MODIF	P554	Lamier jaune	Espèce type	Actif		Lamium galeobdolon			
+P555	Truffaut	https://www.truffaut.com/6-x-asclepiade-tubereuse-asclepias-tuberosa-godet-9cm-x-9cm.html	Espèce type		MODIF	P555	Asclépiade tubéreuse	Espèce type	Actif		Asclepias tuberosa			
+P556	Truffaut				MODIF	P556	Chou pommé		Actif		Brassica oleracea groupe Capitata			
+P557	Truffaut				MODIF	P557	Chou kale		Actif		Brassica oleracea groupe Acephala			
+P558	Truffaut				MODIF	P558	Chou ornemental		Actif		Brassica oleracea groupe ornemental			
+P559	Truffaut				MODIF	P559	Chou-fleur		Actif		Brassica oleracea groupe Botrytis			
+P560	Truffaut				MODIF	P560	Brocoli		Actif		Brassica oleracea groupe Italica			
+P561	Truffaut				MODIF	P561	Chou de Bruxelles		Actif		Brassica oleracea groupe Gemmifera			
+P562	Truffaut				MODIF	P562	Chou-rave		Actif		Brassica oleracea groupe Gongylodes			
+P563	Truffaut				MODIF	P563	Brocoli chinois		Actif		Brassica oleracea groupe Alboglabra			
+P564	Truffaut	https://www.truffaut.com/6-x-muguet-convallaria-majalis-godet-9cm-x-9cm.html	Espèce type		MODIF	P564	Muguet	Espèce type	Actif		Convallaria majalis			
+P565	Truffaut	https://www.truffaut.com/6-x-ruban-de-bergere-panache-jaune-phalaris-arundinacea-picta-godet-9cm-x-9cm.html	Luteopicta		MODIF	P565	Alpiste roseau	Luteopicta	Actif		Phalaris arundinacea 'Luteopicta'			
+P565	Truffaut	https://www.truffaut.com/6-x-ruban-de-bergere-panache-phalaris-arundinacea-feesey-godet-9cm-x-9cm.html	Variegata		MODIF	P565	Alpiste roseau	Variegata	Actif		Phalaris arundinacea 'Variegata'			
+P566	Truffaut				MODIF	P566	Hydrocotyle de Buenos Aires		Actif		Hydrocotyle bonariensis			
+P567	Truffaut				MODIF	P567	Onagre des plages		Actif		Camissoniopsis cheiranthifolia			
+P568	Truffaut				MODIF	P568	Cotonnière jaunâtre		Actif		Pseudognaphalium luteoalbum			
+P569	Truffaut				MODIF	P569	Tamaris d'Allemagne		Actif		Myricaria germanica			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-anneke-aster-dumosus-anneke-godet-9cm-x-9cm.html	Anneke		MODIF	P570	Aster buissonnant	Anneke	Actif		Symphyotrichum dumosum 'Anneke'			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-aster-dumosus-herbstgruss-von-bresserhof-godet-9cm-x-9cm.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-aster-dumosus-professor-anton-kippenberg-godet-9cm-x-9cm.html	Espèce type		MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-jenny-aster-dumosus-jenny-godet-9cm-x-9cm.html	Jenny		MODIF	P570	Aster buissonnant	Jenny	Actif		Symphyotrichum dumosum 'Jenny'			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-lady-in-blue-aster-dumosus-lady-in-blue-godet-9cm-x-9cm.html	Lady In Blue		MODIF	P570	Aster buissonnant	Lady In Blue	Actif		Symphyotrichum dumosum 'Lady In Blue'			
+P570	Truffaut	https://www.truffaut.com/6-x-aster-nain-schneekissen-aster-dumosus-schneekissen-godet-9cm-x-9cm.html	Schneekissen		MODIF	P570	Aster buissonnant	Schneekissen	Actif		Symphyotrichum dumosum 'Schneekissen'			
+P570	Truffaut	https://www.truffaut.com/aster-dumosus-lady-in-blue-godet-vert-542704.html	Espèce type	40 cm	MODIF	P570	Aster buissonnant	Espèce type	Actif		Symphyotrichum dumosum	40 cm		
+P571	Truffaut				MODIF	P571	Zostère marine		Actif		Zostera marina			
+P572	Truffaut				MODIF	P572	Liane de brosse		Actif		Cocculus hirsutus			
