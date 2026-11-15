@@ -1,0 +1,79 @@
+# Actualisation automatique des prix et des stocks, sans Claude.
+# Chaque lundi : un relevé complet par pépinière (en parallèle, une requête à la fois par site),
+# puis un seul commit sur la branche commune. La Sheet importe ensuite toute seule (menu Relevés >
+# Activer l'import automatique). À prévoir une fois : le secret BDD_EXPORT_URL (lien CSV de l'onglet Export).
+# Ce fichier doit se trouver sur la branche par défaut du dépôt pour que l'horaire fonctionne.
+name: Actualiser les offres
+on:
+  schedule:
+    - cron: '17 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      pepinieres:
+        description: 'Pépinières à relever, séparées par des espaces (vide = toutes)'
+        default: ''
+permissions:
+  contents: write
+env:
+  BRANCHE: claude/vibrant-keller-jibr76
+jobs:
+  lister:
+    runs-on: ubuntu-latest
+    outputs:
+      liste: ${{ steps.l.outputs.liste }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - id: l
+        env:
+          CHOIX: ${{ github.event.inputs.pepinieres }}
+        run: |
+          if [ -n "$CHOIX" ]; then noms="$CHOIX"; else noms="$(ls adapters/*.py | xargs -n1 basename -s .py | grep -v '^__')"; fi
+          echo "liste=$(printf '%s\n' $noms | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+  releve:
+    needs: lister
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        pepiniere: ${{ fromJson(needs.lister.outputs.liste) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - env:
+          BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
+        run: outils/actualiser.sh "${{ matrix.pepiniere }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: releve-${{ matrix.pepiniere }}
+          path: releves/*-AUTO*
+          if-no-files-found: error
+  publier:
+    needs: releve
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - uses: actions/download-artifact@v4
+        with:
+          path: nouveaux
+          pattern: releve-*
+          merge-multiple: true
+      - run: |
+          ls nouveaux/*.json >/dev/null 2>&1 || { echo "Aucun relevé réussi."; exit 0; }
+          cp nouveaux/* releves/
+          ls nouveaux/*.json | xargs -n1 basename -s .json > releves/a_importer.txt
+          git config user.name "Relevé automatique"
+          git config user.email "actions@users.noreply.github.com"
+          git add releves
+          git commit -m "Relevé automatique du $(date +%F) : $(wc -l < releves/a_importer.txt) pépinière(s)"
+          git push origin "HEAD:$BRANCHE"
