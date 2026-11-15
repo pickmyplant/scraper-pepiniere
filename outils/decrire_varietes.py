@@ -14,6 +14,9 @@ from core.http import ClientPoli
 
 VERROU = threading.Lock()
 ACCROCHES = re.compile(r"^(offrez[- ]vous|d[ée]couvrez|achetez|commandez|adoptez|craquez pour|plantez|optez pour|cultivez|profitez d[eu]s?|vente d[eu']|achat d[eu']|acheter)\b[^,.:;!]*?(?=,|\bun\b|\bune\b|\bdes\b|:|\.)[,: ]*", re.I)
+ACCROCHES2 = re.compile(r"^(apportez|offrez|donnez|ajoutez|illuminez|habillez|sublimez|[ée]gayez|invitez|cr[ée]ez)\b[^.]*?\bavec\s+(?:l[ea]s?\s|l'|ce(?:tte)?\s|une?\s)[^,.]*,\s*(?:qui\s+)?", re.I)
+VIDES = re.compile(r"propose d'acheter|vous accompagne|plus grande p[ée]pini[èe]re|au meilleur|comme leur nom l'indique|atout charme|large choix|meilleur prix|en ligne sur", re.I)
+PRECISES = {"Promesse de Fleurs", "Ma Pépinière", "Plantes Avenue", "Plant and Stories", "La Green Touch", "Rayon de Serre", "Willemse", "Pépinières Naudet", "La Maison du Bananier"}
 FINS = re.compile(r"\s*(commandez|livraison|achetez|d[ée]couvrez|en vente|prix|exp[ée]di|paiement|profitez|convient aux d[ée]butants|✓|✅|➤|\|).*$", re.I)
 
 def extraire(t):
@@ -41,9 +44,16 @@ def lire_site(base, urls, cache, chemin):
             if i % 25 == 0: json.dump(cache, open(chemin, "w"), ensure_ascii=False)
     with VERROU: json.dump(cache, open(chemin, "w"), ensure_ascii=False)
 
-def texte(d, nom_latin, variete, plante):
-    d = re.sub(r"\s+", " ", d.replace("’", "'").replace(" ", " "))
-    d = ACCROCHES.sub("", d)
+def simple(x):
+    import unicodedata
+    return re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower())
+
+def texte(d, variete, pepiniere):
+    """Texte court tiré de la description de la page ; vide si elle ne décrit pas cette variété."""
+    d = re.sub(r"\s+", " ", d.replace("’", "'").replace("\u00a0", " "))
+    if VIDES.search(d): return ""
+    if pepiniere not in PRECISES and simple(variete) not in simple(d): return ""
+    d = ACCROCHES2.sub("", ACCROCHES.sub("", d))
     phrases = [FINS.sub("", p).strip() for p in re.split(r"(?<=[.!?])\s+", d)]
     out = ""
     for p in phrases:
@@ -74,7 +84,7 @@ def main():
         for v in var:
             pep = v["Pépinières"].split(", ")[0]; src = pep.replace(" ", "-")
             c = cache.get(v["Lien source"]) or {}
-            t = texte(c.get("d", ""), v["Nom latin"], v["Variété"], v["Plante"]) if c.get("d") else ""
+            t = texte(c["d"], v["Variété"], pep) if c.get("d") else ""
             n["avec texte" if t else "sans texte"] += 1
             ligne = "%s = %s (%s)" % (v["Variété"], t or "variété vendue par " + pep + ", description à compléter", src)
             if v["Vendue aussi sous"]: ligne += " ; Synonymes : " + v["Vendue aussi sous"].replace(" ; ", ", ")

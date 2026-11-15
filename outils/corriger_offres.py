@@ -191,7 +191,7 @@ class Analyse:
             if v and not action:
                 typ, v = ref.get((p, v)) or ("F", self.fiche[p].get(cle(v), v))
                 if typ == "N":
-                    d = nouv[(p, v)]; d["n"] += 1; d["pep"][r[3]] += 1; d["lien"].setdefault(r[3], r[4]); d["vus"].add(r[2])
+                    d = nouv[(p, v)]; d["n"] += 1; d["pep"][r[3]] += 1; d["lien"].setdefault(r[3], r[4]); d["vus"].add(self.nettoyer(r[0], r[2])[0])
                     if code: d["codes"].add(code)
                     compte["nouvelle variété (à ajouter à Fiches)"] += 1
                 else: compte["reliée à une variété de Fiches"] += 1
@@ -228,7 +228,7 @@ if __name__ == "__main__":
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "Plante", "Nom latin", "Variété", "Vendue aussi sous", "Offres", "Pépinières", "Lien source"])
         for (p, v), d in sorted(nouv.items()):
-            autres = sorted({x for x in d["vus"] if cle(x) != cle(v)} | d["codes"])
+            autres = sorted({x for x in d["vus"] if x and len(x) <= 30 and cle(x) != cle(v) and cle(v) not in cle(x)} | d["codes"])
             pep = [x for x, _ in d["pep"].most_common()]
             w.writerow([p, a.plantes[p][1], a.latin(p, v), v, " ; ".join(autres), d["n"], ", ".join(pep), d["lien"][pep[0]]])
     with open(base + "_plantes.tsv", "w", encoding="utf-8", newline="") as f:
