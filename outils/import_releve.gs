@@ -48,6 +48,8 @@ function derniereLigne_(onglet) {
 function onOpen() {
   SpreadsheetApp.getUi().createMenu('Relevés')
     .addItem('Importer un relevé…', 'importerReleve')
+    .addItem('Appliquer des corrections d\'offres…', 'appliquerCorrections')
+    .addItem('Ajouter des variétés aux fiches…', 'ajouterVarietes')
     .addItem('Configurer le jeton GitHub…', 'configurerJeton')
     .addToUi();
 }
@@ -276,6 +278,153 @@ function importerReleve() {
       reservation);
   } catch (e) {
     ui.alert('Import interrompu, rien n\'a été écrit après l\'erreur : ' + e.message);
+  } finally {
+    verrou.releaseLock();
+  }
+}
+
+
+/* ------------------------------------------------------------------------------------------------
+ * Corrections de l'onglet Offres et ajout de variétés dans Fiches (fichiers corrections/<ID>*.tsv,
+ * produits par outils/corriger_offres.py et outils/decrire_varietes.py, sur la branche commune).
+ * ---------------------------------------------------------------------------------------------- */
+
+function demanderCorrection_(titre) {
+  var ui = SpreadsheetApp.getUi();
+  var r = ui.prompt(titre, 'Identifiant des corrections (ex. CORR-2026-11-15-A1) :', ui.ButtonSet.OK_CANCEL);
+  if (r.getSelectedButton() !== ui.Button.OK) return null;
+  return r.getResponseText().trim();
+}
+
+function tableau_(texte) {
+  return texte.split('\n').filter(function (l) { return l !== ''; }).map(function (l) { return l.split('\t'); });
+}
+
+function dejaFait_(cle) {
+  return PropertiesService.getScriptProperties().getProperty(cle) === 'oui';
+}
+
+/**
+ * Modifie ou supprime des lignes d'Offres. Une ligne est reconnue par ID + Pépinière + Lien + Variété + Hauteur ou forme.
+ * Seules les colonnes ID, Plante, Variété, Statut, Notes (ajouts), Nom latin, Hauteur ou forme sont réécrites
+ * (prix, dates et frais de port ne sont pas touchés). Crée aussi les fiches d'hybrides de <ID>_plantes.tsv.
+ */
+function appliquerCorrections() {
+  var ui = SpreadsheetApp.getUi();
+  var id = demanderCorrection_('Corrections d\'offres');
+  if (!id) return;
+  if (dejaFait_('CORR_' + id)) { ui.alert('Ces corrections ont déjà été appliquées.'); return; }
+  var verrou = LockService.getDocumentLock();
+  verrou.waitLock(30000);
+  try {
+    var corr = tableau_(lireGithub_('corrections/' + id + '.tsv', BRANCHE_PAR_DEFAUT)).slice(1);
+    var table = {};
+    corr.forEach(function (c) { while (c.length < 15) c.push(''); table[c.slice(0, 5).join('\u0001')] = c; });
+    var classeur = SpreadsheetApp.getActive();
+    var offres = classeur.getSheetByName(ONGLET_OFFRES);
+    var n = derniereLigne_(offres) - 1;
+    var plage = offres.getRange(2, 1, n, COLONNES.length);
+    var vues = plage.getDisplayValues();
+    var gauche = offres.getRange(2, 1, n, 3), droite = offres.getRange(2, 13, n, 4);
+    var g = gauche.getValues(), d = droite.getValues();
+    var modifs = 0, aSupprimer = [];
+    for (var i = 0; i < n; i++) {
+      var v = vues[i];
+      var c = table[[v[0], v[3], v[4], v[2], v[15]].join('\u0001')];
+      if (!c) continue;
+      if (c[5] === 'SUPPR') { aSupprimer.push(i + 2); continue; }
+      g[i] = [c[6], c[7], c[8]];
+      var notes = String(d[i][1]).split(';').map(function (x) { return x.trim(); }).filter(function (x) {
+        return x && !(c[13] === 'oui' && x.indexOf('Variété trouvée') === 0);
+      });
+      c[10].split(' ; ').forEach(function (x) { if (x && notes.indexOf(x) < 0) notes.push(x); });
+      d[i] = [c[9] || d[i][0], notes.join(' ; '), c[11], c[12]];
+      modifs++;
+    }
+    var rep = ui.alert('Corrections ' + id, modifs + ' lignes à modifier et ' + aSupprimer.length +
+      ' à supprimer dans Offres (sur ' + corr.length + ' corrections prévues). Continuer ?', ui.ButtonSet.OK_CANCEL);
+    if (rep !== ui.Button.OK) return;
+    offres.getRange(2, 16, n, 1).setNumberFormat('@');
+    gauche.setValues(g);
+    droite.setValues(d);
+    for (var k = aSupprimer.length - 1; k >= 0; k--) offres.deleteRow(aSupprimer[k]);
+    var creees = creerFiches_(id);
+    PropertiesService.getScriptProperties().setProperty('CORR_' + id, 'oui');
+    ui.alert('Terminé : ' + modifs + ' lignes modifiées, ' + aSupprimer.length + ' supprimées, ' +
+      creees + ' fiche(s) créée(s) dans Plantes et Fiches.');
+  } catch (e) {
+    ui.alert('Corrections interrompues : ' + e.message);
+  } finally {
+    verrou.releaseLock();
+  }
+}
+
+/** Ajoute en bas de Plantes et de Fiches les fiches de <ID>_plantes.tsv qui n'existent pas encore (ligne minimale). */
+function creerFiches_(id) {
+  var lignes;
+  try { lignes = tableau_(lireGithub_('corrections/' + id + '_plantes.tsv', BRANCHE_PAR_DEFAUT)).slice(1); }
+  catch (e) { return 0; }
+  var classeur = SpreadsheetApp.getActive();
+  var plantes = classeur.getSheetByName('Plantes'), fiches = classeur.getSheetByName('Fiches');
+  var titres = plantes.getRange(1, 1, 1, plantes.getLastColumn()).getValues()[0];
+  var col = function (nom) { return titres.indexOf(nom) + 1; };
+  var nP = derniereLigne_(plantes), nF = derniereLigne_(fiches);
+  var existants = plantes.getRange(1, 1, nP, 1).getValues().map(function (x) { return String(x[0]); });
+  var creees = 0;
+  lignes.forEach(function (l) {
+    if (existants.indexOf(l[0]) >= 0) return;
+    nP++; nF++; creees++;
+    plantes.getRange(nP, 1).setValue(l[0]);
+    plantes.getRange(nP, col('Nom commun')).setValue(l[1]);
+    plantes.getRange(nP, col('Genre')).setValue(l[2]);
+    plantes.getRange(nP, col('Espèce')).setValue(l[3]);
+    plantes.getRange(nP, col('Famille')).setValue(l[4]);
+    fiches.getRange(nF, 1, 1, 2).setValues([[l[0], l[1]]]);
+  });
+  return creees;
+}
+
+/** Ajoute dans la colonne Variétés de Fiches les lignes de <ID>_fiches.tsv (une variété déjà présente n'est pas ajoutée). */
+function ajouterVarietes() {
+  var ui = SpreadsheetApp.getUi();
+  var id = demanderCorrection_('Variétés à ajouter aux fiches');
+  if (!id) return;
+  if (dejaFait_('VAR_' + id)) { ui.alert('Ces variétés ont déjà été ajoutées.'); return; }
+  var verrou = LockService.getDocumentLock();
+  verrou.waitLock(30000);
+  try {
+    var lignes = tableau_(lireGithub_('corrections/' + id + '_fiches.tsv', BRANCHE_PAR_DEFAUT)).slice(1);
+    var fiches = SpreadsheetApp.getActive().getSheetByName('Fiches');
+    var titres = fiches.getRange(1, 1, 1, fiches.getLastColumn()).getValues()[0];
+    var colonne = titres.indexOf('Variétés') + 1;
+    if (!colonne) throw new Error('Colonne « Variétés » introuvable dans Fiches.');
+    var n = derniereLigne_(fiches) - 1;
+    var ids = fiches.getRange(2, 1, n, 1).getValues().map(function (x) { return String(x[0]); });
+    var plage = fiches.getRange(2, colonne, n, 1);
+    var cellules = plage.getValues();
+    var simple = function (s) {
+      return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+    };
+    var ajoutees = 0, ignorees = 0, pleines = {};
+    lignes.forEach(function (l) {
+      var i = ids.indexOf(l[0]);
+      if (i < 0) { ignorees++; return; }
+      var texte = String(cellules[i][0]);
+      var noms = texte.split('\n').map(function (x) { return simple(x.split(' = ')[0]); });
+      if (noms.indexOf(simple(l[1])) >= 0) { ignorees++; return; }
+      if (texte.length + l[2].length + 1 > 49000) { pleines[l[0]] = true; ignorees++; return; }
+      cellules[i][0] = texte ? texte + '\n' + l[2] : l[2];
+      ajoutees++;
+    });
+    var rep = ui.alert('Variétés ' + id, ajoutees + ' variétés à ajouter dans Fiches (' + ignorees +
+      ' ignorées : déjà présentes, fiche absente ou cellule pleine). Continuer ?', ui.ButtonSet.OK_CANCEL);
+    if (rep !== ui.Button.OK) return;
+    plage.setValues(cellules);
+    PropertiesService.getScriptProperties().setProperty('VAR_' + id, 'oui');
+    var p = Object.keys(pleines);
+    ui.alert('Terminé : ' + ajoutees + ' variétés ajoutées.' + (p.length ? ' Cellules pleines (limite de 50 000 caractères) : ' + p.join(', ') : ''));
+  } catch (e) {
+    ui.alert('Ajout interrompu : ' + e.message);
   } finally {
     verrou.releaseLock();
   }

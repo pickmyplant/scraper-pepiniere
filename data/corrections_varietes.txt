@@ -1,0 +1,508 @@
+# Table de correction des variétés de l'onglet Offres (lue par outils/corriger_offres.py).
+# Format : ID | motifs | décision. Motifs : expressions régulières sur le nom nettoyé (sans accents ni majuscules), séparées par « ; ».
+# Décisions : Nom  = nom retenu (synonyme ou orthographe de référence)
+#             =ET  = espèce type (pas une variété) ; =ERR:raison = autre plante, à vérifier ; =SUPPR:raison = ligne à supprimer
+#             motif « lien:texte » = offre reconnue par un bout de son lien (pour =SUPPR)
+#             >P123 ou >P123:Nom = offre à déplacer vers une autre fiche
+# ID « * » = toutes les plantes.
+*|extra;kalmoes;vari[e ]+e?s?;assorti.*;surprise.*;mysteres?.*;plants?;graines?;greffe;fruits?;forme;en;on;pour;son;h;i;a2;cm;ans;pieds?;deux pieds;2pp;p\d+ 2pp;coupe;select|=ET
+*|fleurs? simples?;simple|Simple
+*|fleurs? doubles?;double;flore pleno;plena;pleniflora|Flore Pleno
+*|panachee?;variegata;variegatum;variegated|Variegata
+*|nain;naine;nana;nanum;nano;nanus;dwarf|Nana
+*|blanc;blanche;white;alba;albus;album;albiflorus|Blanc
+*|rose;pink;rosea;roseum;roseus|Rose
+*|rouge;red;rubra|Rouge
+*|jaune;yellow;lutea|Jaune
+*|violet;violette;violace;violacea|Violet
+*|orange|Orange
+*|mauve;lila|Mauve
+*|fuchsia|Fuchsia
+*|saumon|Saumon
+P015|benghalensis( joy)?;joy|>P397:Joy
+P015|buissonnant;struik;vertakt|=ET
+P027|nicolai|>P043
+P027|reginea|=ET
+P040|guajava limon|>P041:Limon
+P040|cattley;lucidum|=ET
+P043|augusta;panier;.*elho.*;with torun basket|=ET
+P044|.*|=ET
+P031|.*|=ET
+P048|.*|=ET
+P046|majus nanum (.+)|>P220:\1
+P046|majus nanum|>P220:Nana
+P047|(charms )?braise d ete.*;indybra|Braise d'Été
+P047|(charms )?fu(sc|ch)hia d ete.*;indyfus|Fuchsia d'Été
+P047|(charms )?neige d ete.*|Neige d'Été
+P047|(charms )?rose the|Rose Thé
+P047|(charms )?violet d ete.*|Violet d'Été
+P047|(charms )?camaieu d ete|Camaïeu d'Été
+P047|(charms )?soir d ete|Soir d'Été
+P047|black solitaire( black diamond)? (.+)|Black Diamond \2
+P047|(with love )?babe.*|With Love Babe
+P047|(with love )?cherie.*;cherie|With Love Chérie
+P047|(with love )?eternal.*|With Love Eternal
+P047|(with love )?girl.*|With Love Girl
+P047|(with love )?kiss.*|With Love Kiss
+P047|(with love )?virgin.*;white love virgin|With Love Virgin
+P047|enduring (\w+).*|Enduring \1
+P047|mimie fuchsia;minie fuchsia.*|Mimie Fuchsia
+P047|mimie rose.*|Mimie Rose
+P047|gourmet choco pink.*|Gourmet Choco Pink
+P047|gourmet red red wine.*|Gourmet Red Wine
+P047|fayette;lafayette|La Fayette
+P047|petit pink|Petite Pink
+P047|(summer charm )?arapaho|>P585:Arapaho
+P047|(summer charm )?hopi|>P585:Hopi
+P047|(summer charm )?tonto|>P585:Tonto
+P047|sioux|>P585:Sioux
+P047|lipan|>P585:Lipan
+P047|apalache+|>P585:Apalachee
+P047|natchez|>P585:Natchez
+P047|muskogee|>P585:Muskogee
+P047|tuscarora|>P585:Tuscarora
+P047|yuma|>P585:Yuma
+P047|acoma|>P585:Acoma
+P047|pecos|>P585:Pecos
+P047|zuni|>P585:Zuni
+P058|choc mint;choco mint;mint chocolate|Choc Mint
+P058|splendeur meridionale|Southern Splendour
+P058|obtecta superstar|Super Star
+P058|electric flash.*|Electric Flash
+P058|electric pink.*|Electric Pink
+P058|emerald star.*|Emerald Star
+P058|champagne rose;pink champagne.*|Pink Champagne
+P058|kiwi dazzler|Dazzler
+P058|groupe purpurea;atropurpurea;purpurea.*|Purpurea
+P058|purple tower.*|Purple Tower
+P058|(fantasy|magic star|salsa) coloris.*|\1
+P058|australe;verte;grosse en train.*|=ET
+P064|belleza early white;(sel )?belleza white|Belleza White
+P064|(sel )?belleza dark pink|Belleza Dark Pink
+P064|rosyjane.*|Rosyjane
+P064|baby butterfly dark pink.*|Baby Butterfly Dark Pink
+P064|white sparkle|Sparkle White
+P064|steffie? dark rose|Steffi Dark Rose
+P064|siskiyou.*|Siskiyou Pink
+P064|rouge a feuillage pourpre|Rouge
+P067|profiler little prince.*|Little Prince
+P069|weiss wonder|Weisses Wunder
+P069|odeur de curry|=ET
+P071|agrumes;grande;pequeno|=ET
+P073|armor.*|Armor
+P073|electra.*|Electra
+P073|monstrueux de carentan.*;carentan|Monstrueux de Carentan
+P073|jaune gros du poitou.*|Jaune gros du Poitou
+P073|hiver de saint victor|D'hiver de Saint-Victor
+P073|geant precoce.*|Géant Précoce
+P075|.*|=ET
+P076|byzantine|=ET
+P081|tetrandra|=ERR:Tamarix tetrandra, autre espèce
+P084|on with pink flower|Rose
+P084|on with red flower|Rouge
+P084|(on|shrub) with white flower|Blanc
+P084|shrub;bicolore|=ET
+P084|docteur ragioneri;dr ragioneri|Docteur Ragioneri
+P084|rouge simple|Rouge
+P084|rouge double|Rouge double
+P084|saumon double|Saumon double
+P084|double roseum plenum|Roseum Plenum
+P084|belle helene|Belle Hélène
+P085|reversion de papers doll|Paper Dolls
+P085|papers doll|Paper Dolls
+P086|ceracifera.*;cerifera|Cerifera
+P086|compacta.*|Compacta
+P086|vulcano;volcano.*|Vulcano
+P086|multi;vert.*|=ET
+P088|gigante italia.*;neapolitanum|Géant d'Italie
+P088|commum|=ET
+P089|anuum (.+)|\1
+P089|espagne|Doux d'Espagne
+P089|midi orange snackor.*|Snackor Orange
+P089|lipari.*|Lipari
+P089|tenor.*|Tenor
+P089|lamuyo.*|Lamuyo
+P089|habanero;naga jolokia|=ERR:Capsicum chinense, autre espèce
+P089|tabasco|=ERR:Capsicum frutescens, autre espèce
+P095|sverkrann?yi?|Sverkhranniy
+P095|rubroplena|Rubra Plena
+P098|schwarzkopf;zwartkop|Zwartkop
+P098|velour.*|Velour
+P098|rozzen|Du Rozzen
+P098|purpureum|Atropurpureum
+P109|pyramidalis;pompon;tronc.*;vieux tronc;cultivo;grand sujet persistant;arbuste d ornement.*|=ET
+P111|baggeson gold|Baggesen's Gold
+P111|parmin;panmin|Panmin
+P111|scoop.*|Scoop
+P111|garden clouds (copper glow|green breeze|purple storm).*|Garden Clouds \1
+P111|compact;elegant|=ET
+P112|forest flame.*|Forest Flame
+P112|pink passion.*;passion|Passion
+P112|ralto.*|Ralto
+P115|arbusto ramificado;deco2;micro;vert|=ET
+P116|genolia.*|Genolia
+P116|(rotondifolia )?novita.*|Novita
+P116|col;mano|=ET
+P117|purpureus|Purpureum
+P117|giganteum.*;macrophyllum|Macrophyllum
+P118|j w porter.*;jw porter.*|J.W. Porter
+P118|george rendall.*|George Rendall
+P118|ghost hills.*|Ghost Hills
+P118|marie helen|Mary Helen
+P118|winter belles (\w+)|\1
+P118|fleurs roses|Rose
+P126|friesdorfer.*|Friesdorfer Orange
+P126|masculi;botanica|=ET
+P127|houx|=ET
+P128|.*|=ET
+P130|rotundifolia.*|Rotundifolia
+P130|bordure;chateau|=ET
+P132|gaulois|Gaulois Astier
+P133|olivier de boheme.*|=ERR:Elaeagnus angustifolia, autre espèce
+P133|ebbing|=ET
+P133|maryline.*|Maryline
+P135|(obsession )?seika;obsession|Obsession
+P135|celeste rouge;rouge ou bambou celeste|=ET
+P135|richmond purpurea|Richmond
+P155|ford s raptor red|Ford's Raptor Red
+P162|argenteostriatus;variegata|Argenteostriatus
+P168|irish|Irish Green
+P174|eau japonais|=ET
+P176|siberica fran s gold|Fran's Gold
+P184|feuille en coeur|=ET
+P188|taquetii purpurlanze|Purpurlanze
+P195|kleine fountain;kleine fontane.*|Kleine Fontäne
+P195|red chef|Red Chief
+P195|aperitiv aperitif|Aperitif
+P195|condensatus cabaret|Cabaret
+P195|graziella.*|Graziella
+P195|windy zephyr.*|Zephyr
+P201|black adder|>P358:Black Adder
+P201|blue fortune|>P358:Blue Fortune
+P201|anisata;odeur d anis|=ET
+P353|black adder|>P358:Black Adder
+P353|blue fortune|>P358:Blue Fortune
+P353|beelicious purple|>P358:Beelicious Purple
+P202|havardiana|=ERR:Agave havardiana, autre espèce
+P202|tequilana;toliman blue|=ERR:Agave tequilana, autre espèce
+P202|marginata.*|Marginata
+P202|americain;vert agave americain|=ET
+P203|blue ember|>P586:Blue Ember
+P203|blue flame|>P586:Blue Flame
+P203|blue glow|>P586:Blue Glow
+P205|ombrella.*|Ombrella
+P205|chocolat fountain|Chocolate Fountain
+P209|.*elho.*;en ceramique.*;miller;volute|=ET
+P211|dichotoma hercules|=ERR:Aloidendron 'Hercules' (hybride barberae × dichotomum)
+P212|indian summer|>P355:Indian Summer
+P212|summer break|>P355:Summer Break
+P212|summer breeze|>P355:Summer Breeze
+P212|summer heat|>P355:Summer Heat
+P216|andreanum (blanc|rose|rouge|rosier|violet)? ?(.+)|\2
+P218|heterophylla|=ERR:Araucaria heterophylla, autre espèce
+P219|marina|=ERR:Arbutus 'Marina', hybride (pas A. unedo)
+P219|bouture;two|=ET
+P220|(grimpante|naine) a fleurs (simples|doubles) ?(.*)|\3
+P220|(black velvet )?king theodore|King Theodore
+P220|(nanum )?empress of india;imperatrice des indes|Empress of India
+P220|tom pouce|Tom Thumb
+P220|minus;red wonder double|=ET
+P220|lobb (.+)|=ERR:Tropaeolum lobbianum, autre espèce
+P221|dajiao|>P578:Dajiao
+P221|sp sapporo|Sapporo
+P221|hybridum|=ET
+P224|nut me avijor.*|Avijor
+P224|supernova.*|Supernova
+P224|princesse|Princess
+P224|mini mandier.*|Mini Mandier
+P224|nain autofertile.*|Almond Me
+P225|(algar|peluche) .*|\1
+P226|madeleine des 2 saisons|Madeleine des Deux Saisons
+P226|noir de caromb|Noire de Caromb
+P226|noir de bellone;sultane|Noire de Bellone
+P226|grise de st jean|Grise de Saint-Jean
+P226|grise de saint jean|Grise de Saint-Jean
+P226|bomholm s diamant;bornholm s diamant|Bornholm's Diamant
+P226|osborn s? ?prolific|Osborn's Prolific
+P226|sollies;violette de sollies;bourjassotte noire|Violette de Solliès
+P226|marseille;marseillaise|Marseillaise
+P226|precoce de dalmatie|Dalmatie
+P226|(nain )?figality.*;little miss figgy|Little Miss Figgy
+P226|gustissimo (\w+)|\1
+P226|gustis ficcolino|Ficcolino
+P226|kadota|Dottato
+P226|san pietro|Saint Pierre
+P226|sucrette|Sucre
+P226|napolitaine noir|Napolitana noire
+P226|fignomenal fignomenal|Fignomenal
+P226|nain lucky berry|Lucky Berry
+P226|barbarie|=ERR:Figuier de Barbarie (Opuntia), autre plante
+P240|avec tuteur;echelle;azul|=ET
+P240|bleu fonce|Dark Blue
+P241|blue gem tm|Blue Gem
+P243|white parfum.*;rose d inde|=ET
+P243|variegata tricolor|Tricolor
+P244|glabra violet de meze|=ERR:Bougainvillea glabra, autre espèce
+P246|(ampelia )?(aladin|amandin|candin|perdin|galanth|garant)( ampelia)?|\2
+P246|table (.+)|\1
+P246|table|=ET
+P246|centennial|Centennial Seedless
+P246|crimson seedles|Crimson Seedless
+P246|himrot|Himrod
+P246|italia blanc|Italia
+P246|perle de csaba blanc|Perle de Csaba
+P246|alphonse lavallee|Alphonse Lavallée
+P246|sauvignon|Sauvignon Blanc
+P246|attika|Attiki
+P246|vanessa himrod|=ET
+P246|lien:dahlia|=SUPPR:bulbe de dahlia, pas une vigne
+P250|comtesse sarah;contessa sara.*|Comtesse Sarah
+P252|the princess.*|The Princess
+P252|magical posy pink.*|Magical Posy Pink
+P252|magical posy purple.*|Magical Posy Purple
+P252|pedonculata|Pedunculata
+P253|turquie.*|=ET
+P256|heliopsis.*|=SUPPR:collection de plusieurs vivaces, pas une acanthe
+P256|blanc et|=ET
+P258|alger|=ET
+P267|cloud vert|Pink Cloud
+P267|vert|=ET
+P276|wild form|=ET
+P295|repens.*|Prostratus
+P295|barbecue.*|Barbecue
+P295|deco;bleu|=ET
+P296|francaise|=ET
+P297|exceptional blanche.*|Exceptional
+P298|gold en plant|Gold
+P298|fragrantissimum|Fragrantissimus
+P299|dore norton gold|Norton Gold
+P299|thumbles? s? ?variety|Thumble's Variety
+P299|vulgaire|=ET
+P300|annuelle;pizza|=ET
+P301|compactum;nana.*;nain|Nana
+P301|(nana )?neige du (mont )?ventoux;mont ventoux|Neige du Mont Ventoux
+P302|4 saisons;jaune 4 saisons;lunario|Quatre Saisons
+P302|cappuccio|Femminello Incappucciato
+P302|carrubaro|Femminello Carrubaro
+P302|jaune panache|Variegata
+P302|sanguineum|Rosso
+P302|aurantifolia la valette;valette|>P367:La Valette
+P302|caviar|=ERR:Citrus australasica (citron caviar), autre espèce
+P302|limonimedica|=ERR:Citrus × limonimedica, autre hybride
+P303|new hall.*|Newhall
+P303|thomson.*|Thomson
+P303|navel|Washington Navel
+P303|chocolat;chocolate;navel chocolat;navel chocolate;navel negra|Navel Chocolate
+P303|maroc late|Maroc Late
+P303|valencia midknigh;valencia midknight|Valencia Midknight
+P303|valencia red;valencia rhode red|Rhode Red Valencia
+P303|sanguinea;sanguine.*;sanguinello|Sanguinelli
+P303|arancio|=ET
+P303|orangequat nippon|=ERR:orangequat, autre hybride
+P303|poncirus trifoliata c35|=ERR:porte-greffe Citrange C35, autre plante
+P306|(tuber )?melanosporum|=ET+plant mycorhizé truffe noire (Tuber melanosporum)
+P442|(tuber )?melanosporum|=ET+plant mycorhizé truffe noire (Tuber melanosporum)
+P306|rotundifolia ballota|>P079
+P320|eclipse|>P587:Eclipse
+P320|fire burst|>P587:Fire Burst
+P320|ignite.*|>P587:Ignite
+P320|pacific dawn.*|>P587:Pacific Dawn
+P320|pacific sunset.*|>P587:Pacific Sunset
+P320|painter palette|Painter's Palette
+P324|sunshine panache|Sunshine
+P327|sungold.*|Sungold
+P327|mirage hot ?pink.*|Mirage Hot Pink
+P327|mirage soft pink.*|Mirage Soft Pink
+P328|cera potosi|Cerro Potosi
+P328|(arbustive )?pink blush.*|Pink Blush
+P330|faux aloes.*;pastel colors|=ET
+P340|frenchflag|French Flag
+P345|coggyria lilla|Lilla
+P345|purpureus;purpurea|Purpureus
+P345|dusky maiden.*|Dusky Maiden
+P345|grace|>P360:Grace
+P345|flame|>P360:Flame
+P346|goldenrain|=ET
+P349|persimon;rouge brillant.*;rojo brill.*|Rojo Brillante
+P349|sharoni?|Sharon
+P349|chocolate;cioccolatino|Cioccolatino
+P349|vanillia|Vaniglia
+P349|fuyu.*;pomme|Fuyu
+P349|pomme o gosho|O'Gosho
+P349|lotus|=ERR:Diospyros lotus, autre espèce
+P350|il est conseille.*;foret;goyave|=ET
+P350|appolo|Apollo
+P351|odorant|=ET
+P153|odorant|=ET
+P362|.*|=ET
+P363|santa catarina.*|Santa Catarina
+P364|silver crest;sylver crest|Silver Crest
+P364|.*elho.*;coloris.*|=ET
+P366|prunier du natal|=ET
+P367|bears;tahiti|Tahiti
+P367|fortunella margarita|>P071:Nagami
+P374|.*|=ET
+P375|.*|=ET
+P385|goldcrest wilma|Wilma Goldcrest
+P386|garden aprigold|Aprigold
+P386|me mirlo.*|Mirlo
+P386|precoce saumur|Précoce de Saumur
+P386|petit abri.*|Petit' Abri
+P386|rouge tardif delbard.*|Rouge Tardif Delbard
+P386|tardif bordaneil|Tardif de Bordaneil
+P387|pb;pbi;pj;nb;nj;npj;nano n;conserve;nucipersica;nectarina|=ET
+P387|pv;vigne|Pêche de vigne
+P387|pv rubra|Sanguine
+P387|(peche des? )?vignes? blanche|Pêche de vigne blanche
+P387|(peche des? )?vignes? jaune|Pêche de vigne jaune
+P387|nucipersica (.+)|\1
+P387|plat;plate blanche;platycarpa;donutrice.*|Plate blanche
+P387|saturne.*|Saturne
+P387|(me )?donut samantha.*|Samantha
+P387|me (red )?pampana.*|Pampana
+P387|me yellow grocivac.*|Grocivac
+P387|ice peach gelo.*|Gelo
+P387|may flower|Amsden
+P387|nain crimson bonfire;crimson|Bonfire
+P387|peche de poche.*|Pêche de poche
+P387|reine des vergers blanche|Reine des Vergers
+P388|ente;agen|Prune d'Ente
+P388|reine claude doree.*;reine claude verte|Reine-Claude Dorée
+P388|reine claude (tardive )?de chambourcy|Reine-Claude tardive de Chambourcy
+P388|reine claude d althan|Reine-Claude d'Althan
+P388|reine claude de bavay|Reine-Claude de Bavay
+P388|reine claude d? ?oullins|Reine-Claude d'Oullins
+P388|reine claude violette|Reine-Claude Violette
+P388|reine claude de vars|Reine-Claude de Vars
+P388|victoria|Reine Victoria
+P388|quetsche (d )?alsace|Quetsche d'Alsace
+P388|(quetsche )?toronto|Toronto
+P388|prune goldenapan|Golden Japan
+P388|me angeleno.*|Angeleno
+P388|me (green )?claudia.*|Green Claudia
+P388|palatina fruit me|Palatina
+P388|prunella.*|Prunella
+P388|st julien.*|=ERR:porte-greffe Saint-Julien
+P389|(geant|monstrueux) de vranja|Vranja
+P389|portugal|Gros du Portugal
+P389|provence ba29|=ERR:porte-greffe BA29
+P390|bartlett;bon chretien williams?;william s bon chretien|Williams
+P390|william rouge;william s red;red|Williams Rouge
+P390|abate fetel|Abbé Fetel
+P390|dr jules guyot|Docteur Jules Guyot
+P390|louise bonne.*;bonne louise d avranches|Louise Bonne d'Avranches
+P390|comptesse de paris|Comtesse de Paris
+P390|delbard delice;delbardelice.*|Delbardélice
+P390|delbard d automne|Delbard d'Automne
+P390|colonnaire londres|Londres
+P390|pearlite.*|Pearlite
+P390|pyraster|=ERR:Pyrus pyraster, autre espèce
+P393|.*|=ET
+P395|belize on trunk|Belize
+P395|robusta.*|Robusta
+P396|twighlight|Twilight
+P396|kinky.*|Kinky
+P396|tronc et son|=ET
+P397|bengalensis|=ET
+P401|armada rose rose|Armada Rose
+P401|armada white blanc|Armada White
+P401|(rubrifolia|splendens) rose|\1
+P401|espagne|=ET
+P406|geant kong|Kong
+P406|geant titan tall|Titan
+P406|uniflorus giganteus;geant|Giganteus
+P406|tall sunrich orange|Sunrich Orange
+P406|russian geant|Russian Giant
+P406|fleurs geantes;royal nain|=ET
+P408|pitsburg|Pittsburgh
+P408|goldheart|Oro di Bogliasco
+P408|wonder.*|White Wonder
+P408|tombant;evergreen|=ET
+P408|marginata elegantissima|Elegantissima
+P409|bleu|=ET
+P413|dore;mesh rack|=ET
+P413|pinnatum|=ERR:Epipremnum pinnatum, autre espèce
+P414|massangeana.*|Massangeana
+P414|rikki|Riki
+P414|lemon|Lemon Lime
+P414|janette|Janet Craig
+P418|.*|=ET
+P423|dame verte|Green Lady
+P423|duffi|Duffii
+P423|duffy|Duffii
+P425|sanguin palma christi|Sanguineus
+P428|.*|=ET
+P431|(easydendron inkarho )?grazeasy (.+)|Grazeasy \2
+P431|ponticu|=ET
+P432|zwarte linde|=ET
+P432|nain simone|Simone
+P433|bambino gaelle bregeon|Gaëlle Brégeon
+P433|austriaca elague|Austriaca
+P444|chine;in letterbox.*|=ET
+P444|fastigiata blagon.*|Blagon
+P444|fastigiata gold flame|Gold Flame
+P446|stiff weeping|Stiff Weeper
+P452|fame4ever.*|Fame4ever
+P452|psychedelick.*|Psychedelick
+P452|formosana|=ERR:Liquidambar formosana, autre espèce
+P461|elwoodii pillar|Ellwood's Pillar
+P462|dawick|Dawyck
+P462|dawick gold|Dawyck Gold
+P462|atropunicea;atropurpurea;purpurea atropunicea|Purpurea
+P462|purpurea tricolor|Tricolor
+P464|mughu|Mughus
+P464|winter gold.*;carsten s wintergold|Carsten's Wintergold
+P464|wintergold|Carsten's Wintergold
+P464|pumilio pousses|Pumilio
+P468|forme en;grands|=ET
+P469|ever goldy|Ever Gold
+P470|cox orange pippin|Cox's Orange Pippin
+P470|chanteclerc;belchard|Chantecler
+P471|bigar+eau (d )?(.+)|\2
+P471|hedelfinger;hedelfingen riesenkirshe|Hedelfingen
+P471|coeur pigeon|Cœur de Pigeon
+P471|griotte de montmorency;griotella|=ERR:Prunus cerasus (griottier), autre espèce
+P471|cherie cherry.*|Chérie
+P473|watereri vossii|=ERR:Laburnum × watereri 'Vossii', hybride
+P473|grappe|=ET
+P474|pedunculata|=ET
+P480|dissectum vert|Dissectum Viridis
+P480|dissectum (emerald lace|firecracker|inaba shidare|tamukeyama|flavescens)|\1
+P481|birgit.*|Birgit
+P481|tsatsumi gold.*|Tsatsumi Gold
+P483|susan|>P588:Susan
+P483|(lilliflora )?genie|>P588:Genie
+P483|satisfaction|>P588:Satisfaction
+P483|cameo|>P588:Cameo
+P483|rustica|Rustica Rubra
+P490|antartica|=ET
+P499|campestris|=ET
+P507|guincho purple.*|Guincho Purple
+P507|haiddegg|Haidegg
+P507|beauty( gerda)?;gerda|Black Beauty
+P507|lace( eva)?;eva|Black Lace
+P514|aureovariegat.*|Aureovariegata
+P524|brachytricha|=ERR:Calamagrostis brachytricha, autre espèce
+P525|arundinacea (.+)|\1
+P529|retombant (.+)|\1
+P533|anouk beauty ladies series|Anouk
+P533|silver knight.*|Silver Knight
+P533|roswitha rose|Roswitha
+P533|stephanie blanc|Stephanie
+P537|capitata (.+)|>P556:\1
+P537|botrytis (.+)|>P559:\1
+P537|gemmifera (.+)|>P561:\1
+P537|gongylodes (.+)|>P562:\1
+P537|italica (.+);calabrese (.+)|>P560:\1
+P537|(acephala|sabellica) (.+)|>P557:\2
+P543|evansiana|=ET
+P544|double a fleurs multicolores;fleurs multicolores|=ET
+P545|bolivie|=ET
+P552|bisannuelle|=ET
+P553|crotonifolia.*|Crotonifolia
+P553|forme femelle|=ET
+P565|panache jaune|Luteopicta
+P570|herbstgruss v.*|Herbstgruss vom Bresserhof
+P570|prof(essor)? anton kippenberg|Professor Anton Kippenberg
+P570|automne;fleurs multicolores|=ET
+P583|.*(kiss|new day|zany|tiger stripes|sunshine hybrids|suncarpet|sun stopper).*|>P584

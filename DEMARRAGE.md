@@ -40,3 +40,12 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
    ```
 4. Ne regarder que les cas « À vérifier » du résumé ; sur arrêt (code 2), prévenir.
 5. Terminer la réponse par la ligne « Identifiant à importer : <ID> » (sans parenthèses ; le bouton trouve la branche tout seul). Identifiant unique : vérifier dans Réservations le dernier numéro utilisé ; après import : une ligne « Terminé » dans Réservations et une dans Journal.
+
+## Corriger les variétés de l'onglet Offres (sans écrire dans Offres)
+1. `python outils/corriger_offres.py CORR-AAAA-MM-JJ-A1` : lit les onglets publiés (Offres, Export), nettoie la colonne Variété
+   (formes, tailles, cache-pots, nom d'espèce répété), relie aux variétés de Fiches et écrit `corrections/<ID>*.tsv`.
+   Synonymes, fiches mal rangées et erreurs : `data/corrections_varietes.txt` (une ligne par règle).
+2. `python outils/decrire_varietes.py <ID> <cache.json>` : une page vendeur par variété absente de Fiches, pour le petit texte et la source
+   (`corrections/<ID>_fiches.tsv`).
+3. Commit, `outils/publier.sh`, puis l'utilisatrice clique dans la BDD : Relevés > Appliquer des corrections d'offres…,
+   puis Relevés > Ajouter des variétés aux fiches… (même identifiant). Ne lire que `corrections/<ID>_resume.txt`.
