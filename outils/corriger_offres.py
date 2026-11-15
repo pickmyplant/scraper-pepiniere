@@ -82,6 +82,7 @@ class Analyse:
             l = l.strip()
             if not l: continue
             n = l.split(" = ")[0].strip() if " = " in l else l.split(":")[0].strip()
+            n = n.strip("'‘’\" ")   # jamais d'apostrophe en tête : Sheets la supprime à l'écriture
             out.setdefault(cle(n), n)
             for m in re.finditer(r"Synonymes? : ([^;]+)", l):
                 for x in re.split(r",| ou ", m.group(1)):
