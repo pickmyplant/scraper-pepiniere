@@ -24,6 +24,9 @@ if [ "$CODE" -ne 0 ]; then
   exit "$CODE"
 fi
 
+# Variétés nettoyées et reliées aux fiches avant l'import (sans effet si BDD_EXPORT_URL est absent)
+[ -n "${BDD_EXPORT_URL:-}" ] && python outils/corriger_offres.py --releve "releves/$ID.tsv" || echo "Variétés non corrigées (BDD_EXPORT_URL absent ou erreur)."
+
 python outils/resume.py "releves/$ID.tsv"
 
 git add data/equivalences_latin.csv adapters/ "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV"

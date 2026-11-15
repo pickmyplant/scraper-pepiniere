@@ -97,7 +97,7 @@ P073|hiver de saint victor|D'hiver de Saint-Victor
 P073|geant precoce.*|Géant Précoce
 P075|.*|=ET
 P076|byzantine|=ET
-P081|tetrandra|=ERR:Tamarix tetrandra, autre espèce
+P081|tetrandra|>P589:-
 P084|on with pink flower|Rose
 P084|on with red flower|Rouge
 P084|(on|shrub) with white flower|Blanc
@@ -122,8 +122,9 @@ P089|midi orange snackor.*|Snackor Orange
 P089|lipari.*|Lipari
 P089|tenor.*|Tenor
 P089|lamuyo.*|Lamuyo
-P089|habanero;naga jolokia|=ERR:Capsicum chinense, autre espèce
-P089|tabasco|=ERR:Capsicum frutescens, autre espèce
+P089|habanero|>P590:-
+P089|naga jolokia|>P590:Naga Jolokia
+P089|tabasco|>P591:-
 P095|sverkrann?yi?|Sverkhranniy
 P095|rubroplena|Rubra Plena
 P098|schwarzkopf;zwartkop|Zwartkop
@@ -158,7 +159,7 @@ P128|.*|=ET
 P130|rotundifolia.*|Rotundifolia
 P130|bordure;chateau|=ET
 P132|gaulois|Gaulois Astier
-P133|olivier de boheme.*|=ERR:Elaeagnus angustifolia, autre espèce
+P133|olivier de boheme.*|>P592:-
 P133|ebbing|=ET
 P133|maryline.*|Maryline
 P135|(obsession )?seika;obsession|Obsession
@@ -183,8 +184,9 @@ P201|anisata;odeur d anis|=ET
 P353|black adder|>P358:Black Adder
 P353|blue fortune|>P358:Blue Fortune
 P353|beelicious purple|>P358:Beelicious Purple
-P202|havardiana|=ERR:Agave havardiana, autre espèce
-P202|tequilana;toliman blue|=ERR:Agave tequilana, autre espèce
+P202|havardiana|>P593:-
+P202|tequilana|>P594:-
+P202|toliman blue|=ERR:espèce à identifier (Agave 'Toliman Blue')
 P202|marginata.*|Marginata
 P202|americain;vert agave americain|=ET
 P203|blue ember|>P586:Blue Ember
@@ -193,21 +195,22 @@ P203|blue glow|>P586:Blue Glow
 P205|ombrella.*|Ombrella
 P205|chocolat fountain|Chocolate Fountain
 P209|.*elho.*;en ceramique.*;miller;volute|=ET
-P211|dichotoma hercules|=ERR:Aloidendron 'Hercules' (hybride barberae × dichotomum)
+P211|dichotoma hercules|>P595:Hercules
 P212|indian summer|>P355:Indian Summer
 P212|summer break|>P355:Summer Break
 P212|summer breeze|>P355:Summer Breeze
 P212|summer heat|>P355:Summer Heat
 P216|andreanum (blanc|rose|rouge|rosier|violet)? ?(.+)|\2
-P218|heterophylla|=ERR:Araucaria heterophylla, autre espèce
-P219|marina|=ERR:Arbutus 'Marina', hybride (pas A. unedo)
+P218|heterophylla|>P068:-
+P219|marina|>P596:Marina
 P219|bouture;two|=ET
 P220|(grimpante|naine) a fleurs (simples|doubles) ?(.*)|\3
 P220|(black velvet )?king theodore|King Theodore
 P220|(nanum )?empress of india;imperatrice des indes|Empress of India
 P220|tom pouce|Tom Thumb
 P220|minus;red wonder double|=ET
-P220|lobb (.+)|=ERR:Tropaeolum lobbianum, autre espèce
+P220|lobb variees|>P597:-
+P220|lobb (.+)|>P597:\1
 P221|dajiao|>P578:Dajiao
 P221|sp sapporo|Sapporo
 P221|hybridum|=ET
@@ -236,13 +239,13 @@ P226|sucrette|Sucre
 P226|napolitaine noir|Napolitana noire
 P226|fignomenal fignomenal|Fignomenal
 P226|nain lucky berry|Lucky Berry
-P226|barbarie|=ERR:Figuier de Barbarie (Opuntia), autre plante
+P226|barbarie|>P598:-
 P240|avec tuteur;echelle;azul|=ET
 P240|bleu fonce|Dark Blue
 P241|blue gem tm|Blue Gem
 P243|white parfum.*;rose d inde|=ET
 P243|variegata tricolor|Tricolor
-P244|glabra violet de meze|=ERR:Bougainvillea glabra, autre espèce
+P244|glabra violet de meze|>P599:Violet de Mèze
 P246|(ampelia )?(aladin|amandin|candin|perdin|galanth|garant)( ampelia)?|\2
 P246|table (.+)|\1
 P246|table|=ET
@@ -287,8 +290,8 @@ P302|carrubaro|Femminello Carrubaro
 P302|jaune panache|Variegata
 P302|sanguineum|Rosso
 P302|aurantifolia la valette;valette|>P367:La Valette
-P302|caviar|=ERR:Citrus australasica (citron caviar), autre espèce
-P302|limonimedica|=ERR:Citrus × limonimedica, autre hybride
+P302|caviar|>P600:-
+P302|limonimedica|>P601:Limonimedica
 P303|new hall.*|Newhall
 P303|thomson.*|Thomson
 P303|navel|Washington Navel
@@ -298,7 +301,7 @@ P303|valencia midknigh;valencia midknight|Valencia Midknight
 P303|valencia red;valencia rhode red|Rhode Red Valencia
 P303|sanguinea;sanguine.*;sanguinello|Sanguinelli
 P303|arancio|=ET
-P303|orangequat nippon|=ERR:orangequat, autre hybride
+P303|orangequat nippon|>P601:Nippon
 P303|poncirus trifoliata c35|=ERR:porte-greffe Citrange C35, autre plante
 P306|(tuber )?melanosporum|=ET+plant mycorhizé truffe noire (Tuber melanosporum)
 P442|(tuber )?melanosporum|=ET+plant mycorhizé truffe noire (Tuber melanosporum)
@@ -329,7 +332,7 @@ P349|chocolate;cioccolatino|Cioccolatino
 P349|vanillia|Vaniglia
 P349|fuyu.*;pomme|Fuyu
 P349|pomme o gosho|O'Gosho
-P349|lotus|=ERR:Diospyros lotus, autre espèce
+P349|lotus|>P602:-
 P350|il est conseille.*;foret;goyave|=ET
 P350|appolo|Apollo
 P351|odorant|=ET
@@ -396,7 +399,7 @@ P390|delbard delice;delbardelice.*|Delbardélice
 P390|delbard d automne|Delbard d'Automne
 P390|colonnaire londres|Londres
 P390|pearlite.*|Pearlite
-P390|pyraster|=ERR:Pyrus pyraster, autre espèce
+P390|pyraster|>P603:-
 P393|.*|=ET
 P395|belize on trunk|Belize
 P395|robusta.*|Robusta
@@ -421,7 +424,7 @@ P408|tombant;evergreen|=ET
 P408|marginata elegantissima|Elegantissima
 P409|bleu|=ET
 P413|dore;mesh rack|=ET
-P413|pinnatum|=ERR:Epipremnum pinnatum, autre espèce
+P413|pinnatum|>P604:-
 P414|massangeana.*|Massangeana
 P414|rikki|Riki
 P414|lemon|Lemon Lime
@@ -444,7 +447,7 @@ P444|fastigiata gold flame|Gold Flame
 P446|stiff weeping|Stiff Weeper
 P452|fame4ever.*|Fame4ever
 P452|psychedelick.*|Psychedelick
-P452|formosana|=ERR:Liquidambar formosana, autre espèce
+P452|formosana|>P605:-
 P461|elwoodii pillar|Ellwood's Pillar
 P462|dawick|Dawyck
 P462|dawick gold|Dawyck Gold
@@ -461,9 +464,10 @@ P470|chanteclerc;belchard|Chantecler
 P471|bigar+eau (d )?(.+)|\2
 P471|hedelfinger;hedelfingen riesenkirshe|Hedelfingen
 P471|coeur pigeon|Cœur de Pigeon
-P471|griotte de montmorency;griotella|=ERR:Prunus cerasus (griottier), autre espèce
+P471|griotte de montmorency|>P606:Montmorency
+P471|griotella|>P606:Griotella
 P471|cherie cherry.*|Chérie
-P473|watereri vossii|=ERR:Laburnum × watereri 'Vossii', hybride
+P473|watereri vossii|>P607:Vossii
 P473|grappe|=ET
 P474|pedunculata|=ET
 P480|dissectum vert|Dissectum Viridis
@@ -482,7 +486,7 @@ P507|haiddegg|Haidegg
 P507|beauty( gerda)?;gerda|Black Beauty
 P507|lace( eva)?;eva|Black Lace
 P514|aureovariegat.*|Aureovariegata
-P524|brachytricha|=ERR:Calamagrostis brachytricha, autre espèce
+P524|brachytricha|>P608:-
 P525|arundinacea (.+)|\1
 P529|retombant (.+)|\1
 P533|anouk beauty ladies series|Anouk

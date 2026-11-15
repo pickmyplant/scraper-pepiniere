@@ -50,6 +50,8 @@ function onOpen() {
     .addItem('Importer un relevé…', 'importerReleve')
     .addItem('Appliquer des corrections d\'offres…', 'appliquerCorrections')
     .addItem('Ajouter des variétés aux fiches…', 'ajouterVarietes')
+    .addItem('Activer l\'import automatique', 'activerImportAuto')
+    .addItem('Arrêter l\'import automatique', 'arreterImportAuto')
     .addItem('Configurer le jeton GitHub…', 'configurerJeton')
     .addToUi();
 }
@@ -192,7 +194,11 @@ function importerReleve() {
   var saisie = r.getResponseText().replace(/[()\[\]{}"'`«»\s]/g, '').replace(/\.json$/, '');
   var id = saisie.split('@')[0];
   var brancheForcee = saisie.indexOf('@') > 0 ? saisie.split('@')[1] : '';
+  importerUn_(id, brancheForcee, ui);
+}
 
+/** Import d'un relevé ; ui absent = import automatique, sans question (voir importerNouveauxReleves). */
+function importerUn_(id, brancheForcee, ui) {
   var verrou = LockService.getDocumentLock();
   verrou.waitLock(30000);
   try {
@@ -213,8 +219,8 @@ function importerReleve() {
     var nbReg = registre.getLastRow();
     var ids = nbReg > 1 ? registre.getRange(2, 1, nbReg - 1, 1).getValues().map(function (x) { return x[0]; }) : [];
     if (ids.indexOf(id) >= 0) {
-      ui.alert('Le relevé ' + id + ' est déjà dans l\'onglet « Relevés ». Rien n\'a été importé.');
-      return;
+      if (ui) ui.alert('Le relevé ' + id + ' est déjà dans l\'onglet « Relevés ». Rien n\'a été importé.');
+      return 'déjà importé';
     }
 
     // 2. Mise à jour : anciennes lignes de cette pépinière pour ces plantes
@@ -236,7 +242,7 @@ function importerReleve() {
       message += '\n\nMISE À JOUR : ' + anciennes.length + ' ancienne(s) ligne(s) ' + fiche.pepiniere +
         ' pour ces plantes seront supprimées et remplacées.';
     }
-    if (ui.alert('Confirmer l\'import', message + '\n\nContinuer ?', ui.ButtonSet.YES_NO) !== ui.Button.YES) return;
+    if (ui && ui.alert('Confirmer l\'import', message + '\n\nContinuer ?', ui.ButtonSet.YES_NO) !== ui.Button.YES) return 'annulé';
 
     plages_(anciennes).forEach(function (p) { offres.deleteRows(p[0], p[1]); });
 
@@ -273,10 +279,12 @@ function importerReleve() {
       reservation = '\nRéservations : ligne « Terminé » NON ajoutée (' + e2.message + ').';
     }
 
-    ui.alert('Import terminé : lignes ' + debut + ' à ' + fin + ' de « Offres »' +
+    if (ui) ui.alert('Import terminé : lignes ' + debut + ' à ' + fin + ' de « Offres »' +
       (anciennes.length ? ', ' + anciennes.length + ' ancienne(s) ligne(s) remplacée(s)' : '') + '.' +
       reservation);
+    return 'importé';
   } catch (e) {
+    if (!ui) throw e;
     ui.alert('Import interrompu, rien n\'a été écrit après l\'erreur : ' + e.message);
   } finally {
     verrou.releaseLock();
@@ -335,7 +343,8 @@ function appliquerCorrections() {
       if (c[5] === 'SUPPR') { aSupprimer.push(i + 2); continue; }
       g[i] = [c[6], c[7], c[8]];
       var notes = String(d[i][1]).split(';').map(function (x) { return x.trim(); }).filter(function (x) {
-        return x && !(c[13] === 'oui' && x.indexOf('Variété trouvée') === 0);
+        return x && !(c[13] === 'oui' && x.indexOf('Variété trouvée') === 0) &&
+          !(c[6] !== v[0] && x.indexOf('Autre plante') === 0);
       });
       c[10].split(' ; ').forEach(function (x) { if (x && notes.indexOf(x) < 0) notes.push(x); });
       d[i] = [c[9] || d[i][0], notes.join(' ; '), c[11], c[12]];
@@ -427,5 +436,37 @@ function ajouterVarietes() {
     ui.alert('Ajout interrompu : ' + e.message);
   } finally {
     verrou.releaseLock();
+  }
+}
+
+
+/* ------------------------------------------------------------------------------------------------
+ * Import automatique : le relevé programmé (GitHub Actions) écrit la liste de ses relevés dans
+ * releves/a_importer.txt ; toutes les heures, les relevés de cette liste absents du registre sont importés.
+ * ---------------------------------------------------------------------------------------------- */
+
+function activerImportAuto() {
+  arreterImportAuto();
+  ScriptApp.newTrigger('importerNouveauxReleves').timeBased().everyHours(1).create();
+  SpreadsheetApp.getUi().alert('Import automatique activé : vérification toutes les heures.');
+}
+
+function arreterImportAuto() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    if (t.getHandlerFunction() === 'importerNouveauxReleves') ScriptApp.deleteTrigger(t);
+  });
+}
+
+function importerNouveauxReleves() {
+  var debut = Date.now(), liste;
+  try { liste = lireGithub_('releves/a_importer.txt', BRANCHE_PAR_DEFAUT); } catch (e) { return; }
+  var registre = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(ONGLET_REGISTRE);
+  var n = registre.getLastRow();
+  var faits = n > 1 ? registre.getRange(2, 1, n - 1, 1).getValues().map(function (x) { return String(x[0]); }) : [];
+  var ids = liste.split('\n').map(function (x) { return x.trim(); }).filter(function (x) { return x && faits.indexOf(x) < 0; });
+  for (var i = 0; i < ids.length; i++) {
+    if (Date.now() - debut > 4 * 60 * 1000) return;   // la suite à la prochaine heure (limite de 6 minutes)
+    try { importerUn_(ids[i], BRANCHE_PAR_DEFAUT, null); }
+    catch (e) { console.error('Import automatique de ' + ids[i] + ' : ' + e.message); }
   }
 }

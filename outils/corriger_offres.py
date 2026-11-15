@@ -9,6 +9,7 @@ nettoie la colonne Variété (formes, tailles, cache-pots, nom d'espèce répét
   corrections/<ID>_plantes.tsv    fiches d'hybrides à créer (Plantes et Fiches)
   corrections/<ID>_resume.txt     résumé chiffré
 Usage : python outils/corriger_offres.py CORR-AAAA-MM-JJ-A1 [dossier_csv]
+        python outils/corriger_offres.py --releve releves/<ID>.tsv   (nettoie un relevé avant son import ; fait par outils/lot.sh)
 """
 import csv, difflib, io, os, re, sys, unicodedata, urllib.request, collections as C
 
@@ -20,6 +21,26 @@ NOUVELLES = {  # fiches d'hybrides à créer : ID -> (nom commun, genre, espèce
     "P586": ("Agave hybride", "Agave", "Hybrides horticoles", "Asparagacées"),
     "P587": ("Coprosma hybride", "Coprosma", "Hybrides horticoles", "Rubiacées"),
     "P588": ("Magnolia hybride", "Magnolia", "Hybrides horticoles", "Magnoliacées"),
+    "P589": ("Tamaris de printemps", "Tamarix", "tetrandra", "Tamaricacées"),
+    "P590": ("Piment habanero", "Capsicum", "chinense", "Solanacées"),
+    "P591": ("Piment tabasco", "Capsicum", "frutescens", "Solanacées"),
+    "P592": ("Olivier de Bohême", "Elaeagnus", "angustifolia", "Éléagnacées"),
+    "P593": ("Agave de Havard", "Agave", "havardiana", "Asparagacées"),
+    "P594": ("Agave bleu", "Agave", "tequilana", "Asparagacées"),
+    "P595": ("Aloès arborescent hybride", "Aloidendron", "Hybrides horticoles", "Asphodélacées"),
+    "P596": ("Arbousier hybride", "Arbutus", "Hybrides horticoles", "Éricacées"),
+    "P597": ("Capucine de Lobb", "Tropaeolum", "lobbianum", "Tropéolacées"),
+    "P598": ("Figuier de Barbarie", "Opuntia", "ficus-indica", "Cactacées"),
+    "P599": ("Bougainvillier glabre", "Bougainvillea", "glabra", "Nyctaginacées"),
+    "P600": ("Citron caviar", "Citrus", "australasica", "Rutacées"),
+    "P601": ("Agrume hybride", "Citrus", "Hybrides horticoles", "Rutacées"),
+    "P602": ("Plaqueminier lotier", "Diospyros", "lotus", "Ébénacées"),
+    "P603": ("Poirier sauvage", "Pyrus", "pyraster", "Rosacées"),
+    "P604": ("Pothos dragon", "Epipremnum", "pinnatum", "Aracées"),
+    "P605": ("Copalme de Formose", "Liquidambar", "formosana", "Altingiacées"),
+    "P606": ("Griottier", "Prunus", "cerasus", "Rosacées"),
+    "P607": ("Cytise de Voss", "Laburnum", "× watereri", "Fabacées"),
+    "P608": ("Herbe aux diamants", "Calamagrostis", "brachytricha", "Poacées"),
 }
 
 def lire(nom, dossier):
@@ -58,8 +79,8 @@ GENERIQUES = {"x", "var", "subsp", "ssp", "f", "ou", "de", "du", "des", "d", "le
  "officinal", "officinale", "plante", "arbre", "palmier", "faux", "appele", "dit", "type", "espece", "sp"}
 
 class Analyse:
-    def __init__(self, dossier=None):
-        self.offres = lire("Offres", dossier)
+    def __init__(self, dossier=None, offres=None):
+        self.offres = offres if offres is not None else lire("Offres", dossier)
         self.plantes = {r[0]: r for r in lire("Export", dossier)[1:] if r and r[0]}
         for i, (nom, g, e, fam) in NOUVELLES.items():
             self.plantes.setdefault(i, [i, nom, "", "", g, e, ""])
@@ -124,7 +145,7 @@ class Analyse:
                 if dec.startswith("=SUPPR"): return p, c, formes, code, "SUPPR", dec[7:]
                 if dec.startswith(">"):
                     cible, _, nom = dec[1:].partition(":")
-                    nom = self._nom(m.expand(nom)) if "\\" in nom else (nom or c)
+                    nom = self._nom(m.expand(nom)) if "\\" in nom else ("" if nom == "-" else (nom or c))
                     g = self.fiche[cible]
                     if not nom.strip() or all(set(norm(x).split()) <= self.mots[cible] for x in nom.split()): nom = ""
                     return cible, g.get(cle(nom), nom), formes, code, "", ""
@@ -216,7 +237,36 @@ class Analyse:
                 corr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR" if action == "SUPPR" else "MODIF"] + nouvelle + ([raison] if action == "SUPPR" else [""])
         return corr, nouv, compte, len(lignes)
 
+def corriger_releve(chemin):
+    """Applique les mêmes corrections à un relevé (releves/<ID>.tsv) avant son import ; met à jour la fiche .json."""
+    import json
+    lignes = list(csv.reader(open(chemin, encoding="utf-8"), delimiter="\t"))
+    a = Analyse(offres=lignes)
+    corr, _, compte, _ = a.run()
+    sortie, n, deplaces = [lignes[0]], 0, set()
+    for r in lignes[1:]:
+        r = r + [""] * (16 - len(r))
+        c = corr.get((r[0], r[3], r[4], r[2], r[15]))
+        if c:
+            if c[0] == "SUPPR": n += 1; continue
+            notes = [x.strip() for x in r[13].split(";") if x.strip() and not (c[8] == "oui" and x.strip().startswith("Variété trouvée"))]
+            notes += [x for x in c[5].split(" ; ") if x and x not in notes]
+            if c[1] != r[0]: deplaces.add(c[1])
+            r = [c[1], c[2], c[3]] + r[3:12] + [c[4] or r[12], " ; ".join(notes), c[6], c[7]]
+            n += 1
+        sortie.append(r)
+    csv.writer(open(chemin, "w", encoding="utf-8", newline=""), delimiter="\t", lineterminator="\n").writerows(sortie)
+    fiche = chemin[:-4] + ".json"
+    if os.path.exists(fiche):
+        d = json.load(open(fiche, encoding="utf-8"))
+        d["nb_lignes"] = len(sortie) - 1
+        d["plantes"] = d["plantes"] + sorted(deplaces - set(d["plantes"]))
+        json.dump(d, open(fiche, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("Variétés corrigées : %d ligne(s) sur %d" % (n, len(lignes) - 1))
+
 if __name__ == "__main__":
+    if sys.argv[1] == "--releve":
+        corriger_releve(sys.argv[2]); sys.exit(0)
     ident = sys.argv[1]; dossier = sys.argv[2] if len(sys.argv) > 2 else None
     a = Analyse(dossier); corr, nouv, compte, n = a.run()
     os.makedirs(os.path.join(RACINE, "corrections"), exist_ok=True)

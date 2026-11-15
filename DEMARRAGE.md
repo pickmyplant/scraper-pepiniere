@@ -49,3 +49,10 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
    (`corrections/<ID>_fiches.tsv`).
 3. Commit, `outils/publier.sh`, puis l'utilisatrice clique dans la BDD : Relevés > Appliquer des corrections d'offres…,
    puis Relevés > Ajouter des variétés aux fiches… (même identifiant). Ne lire que `corrections/<ID>_resume.txt`.
+
+## Actualisation automatique (prix, stocks), sans Claude
+- `.github/workflows/actualiser.yml` : chaque lundi, `outils/actualiser.sh <pépinière>` pour chaque adaptateur (relevé complet,
+  identifiant `<PREFIXE>-<date>-AUTO`, variétés nettoyées), puis un commit sur la branche commune et la liste `releves/a_importer.txt`.
+- La Sheet importe seule les relevés de cette liste (menu Relevés > Activer l'import automatique).
+- `outils/lot.sh` nettoie aussi les variétés de chaque relevé manuel (`corriger_offres.py --releve`).
+- Claude n'intervient que si un adaptateur casse (tâche en échec dans l'onglet Actions de GitHub).
