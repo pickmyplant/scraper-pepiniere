@@ -9,7 +9,8 @@ nettoie la colonne Variété (formes, tailles, cache-pots, nom d'espèce répét
   corrections/<ID>_plantes.tsv    fiches d'hybrides à créer (Plantes et Fiches)
   corrections/<ID>_resume.txt     résumé chiffré
 Usage : python outils/corriger_offres.py CORR-AAAA-MM-JJ-A1 [dossier_csv]
-        python outils/corriger_offres.py --releve releves/<ID>.tsv   (nettoie un relevé avant son import ; fait par outils/lot.sh)
+        python outils/corriger_offres.py --releve releves/<ID>.tsv   [--actif]   (nettoie un relevé avant son import ; fait par outils/lot.sh ;
+        --actif : statut Actif partout, pour le relevé automatique)
 """
 import csv, difflib, io, os, re, sys, unicodedata, urllib.request, collections as C
 
@@ -237,7 +238,7 @@ class Analyse:
                 corr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR" if action == "SUPPR" else "MODIF"] + nouvelle + ([raison] if action == "SUPPR" else [""])
         return corr, nouv, compte, len(lignes)
 
-def corriger_releve(chemin):
+def corriger_releve(chemin, actif=False):
     """Applique les mêmes corrections à un relevé (releves/<ID>.tsv) avant son import ; met à jour la fiche .json."""
     import json
     lignes = list(csv.reader(open(chemin, encoding="utf-8"), delimiter="\t"))
@@ -254,6 +255,7 @@ def corriger_releve(chemin):
             if c[1] != r[0]: deplaces.add(c[1])
             r = [c[1], c[2], c[3]] + r[3:12] + [c[4] or r[12], " ; ".join(notes), c[6], c[7]]
             n += 1
+        if actif and "Autre plante" not in r[13]: r[12] = "Actif"   # relevé automatique : pas de relecture
         sortie.append(r)
     csv.writer(open(chemin, "w", encoding="utf-8", newline=""), delimiter="\t", lineterminator="\n").writerows(sortie)
     fiche = chemin[:-4] + ".json"
@@ -266,7 +268,7 @@ def corriger_releve(chemin):
 
 if __name__ == "__main__":
     if sys.argv[1] == "--releve":
-        corriger_releve(sys.argv[2]); sys.exit(0)
+        corriger_releve(sys.argv[2], "--actif" in sys.argv); sys.exit(0)
     ident = sys.argv[1]; dossier = sys.argv[2] if len(sys.argv) > 2 else None
     a = Analyse(dossier); corr, nouv, compte, n = a.run()
     os.makedirs(os.path.join(RACINE, "corrections"), exist_ok=True)

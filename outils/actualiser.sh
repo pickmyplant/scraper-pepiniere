@@ -15,5 +15,5 @@ if [ "$CODE" -ne 0 ]; then
   rm -f "releves/$ID.tsv" "releves/$ID.json" "releves/${ID}_anomalies.tsv"
   echo "ARRÊT (code $CODE) : relevé $ID incomplet, non gardé."; exit "$CODE"
 fi
-python outils/corriger_offres.py --releve "releves/$ID.tsv" || exit 1
+python outils/corriger_offres.py --releve "releves/$ID.tsv" --actif || exit 1
 python outils/resume.py "releves/$ID.tsv"
