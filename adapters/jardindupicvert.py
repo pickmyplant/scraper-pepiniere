@@ -66,10 +66,16 @@ class Adaptateur:
             log.info("Pic Vert : %d fiches et %d pages espèce dans le sitemap", len(self.catalogue), len(self.especes))
         return self.catalogue
 
+    @staticmethod
+    def _prefixe(titre):
+        """Nom français d'une fiche sans la variété : « Érable du Japon 'Shaina' » -> « erable du japon »."""
+        return M.norm(re.split(r"\s['‘’\"]|[®™]", titre or "")[0])
+
     def candidats(self, plante):
-        """(fiches candidates, anomalies)."""
+        """(fiches candidates, anomalies) : pages espèce, puis mêmes noms français, puis noms de la BDD."""
         cat = self._catalogue()
-        res, anomalies = [], []
+        titres = {p["url"]: p["titre"] for p in cat}
+        res, anomalies, plusieurs_pages = [], [], False
         # Pages espèce : noms latins, et « Genre + variété de Fiches » (ex. /genre/malus/malus-evereste)
         noms = M.noms_latins(plante) + [f"{plante.genre} {n}" for v in plante.varietes
                                          if M.norm(v.nom) not in M.VARIETES_IGNOREES for n in [v.nom] + v.synonymes]
@@ -84,15 +90,26 @@ class Adaptateur:
             for u in re.findall(r'href="(https://www\.jardindupicvert\.com/[^"]+/\d+-[^"/]+\.html)"', t):
                 if u not in res:
                     res.append(u)
-            if re.search(r'href="[^"]*\?p=2', t):
-                anomalies.append((page, "Page espèce sur plusieurs pages : seule la 1re est lisible (?p=2 interdit "
-                                        "par robots.txt) ; complété par les noms communs du sitemap"))
+            plusieurs_pages |= bool(re.search(r'href="[^"]*\?p=2', t))
+        # Les pages espèce suivantes (?p=2) sont interdites par robots.txt : les autres fiches de l'espèce sont
+        # retrouvées dans le sitemap par le nom français des fiches de la 1re page (vérifiées ensuite une à une).
+        surs = len(res)
+        prefixes = {x for x in (self._prefixe(titres.get(u)) for u in res) if len(x) >= 4} if plusieurs_pages else set()
+        if prefixes:
+            for p in cat:
+                if p["url"] not in res and self._prefixe(p["titre"]) in prefixes:
+                    res.append(p["url"])
+            surs = len(res)
+        if plusieurs_pages:
+            anomalies.append(("", f"Espèce sur plusieurs pages : {surs} fiches retrouvées par la 1re page et le nom "
+                                  f"français ({', '.join(sorted(prefixes)) or 'aucun'})"))
         for p in cat:
             if p["url"] in res:
                 continue
             if M.est_candidat(plante, p["titre"], p["url"]) or M.candidat_nom_commun(plante, p["titre"]):
                 res.append(p["url"])
-        return res[: config.MAX_FICHES_PAR_PLANTE], anomalies
+        # Les fiches sûres (page espèce, même nom français) sont toutes lues ; plafond pour les autres
+        return res[: max(surs, config.MAX_FICHES_PAR_PLANTE)], anomalies
 
     # ---------- fiche ----------
     def _fiche(self, url):
@@ -109,18 +126,37 @@ class Adaptateur:
                 if g.get("@type") in ("ProductGroup", "Product"):
                     groupe = g
         bota = re.search(r">\s*Nom botanique\s*</div>\s*<div[^>]*>(.*?)</div>", t, re.S)
+        if not bota:  # secours : titre « Nom français - Genre espèce - Le Jardin du Pic Vert »
+            bota = re.search(r"<title>[^<]*? - ([^<]+?) - Le Jardin du Pic Vert</title>", t)
         h1 = re.search(r"<h1[^>]*>(.*?)</h1>", t, re.S)
+        # Prix par quantité (Magento, par déclinaison) : {"23398": [{"price_qty": 3, "price_incl_tax": 14.0}]}
+        degressifs = {}
+        m = re.search(r"initialTierPrices:\s*(\{.*?\})\s*,\s*qty\s*:", t, re.S)
+        if m:
+            try:
+                degressifs = json.loads(m.group(1))
+            except ValueError:
+                degressifs = {}
         decls = []
         for v in groupe.get("hasVariant") or ([groupe] if groupe.get("offers") else []):
+            ident = str(v.get("@id", "")).rsplit("-", 1)[-1]
             offres = v.get("offers") or []
             offres = offres if isinstance(offres, list) else [offres]
             for o in offres:
                 barre = None
-                for s in o.get("priceSpecification") or []:
-                    if str(s.get("priceType", "")).endswith("StrikethroughPrice"):
-                        barre = s.get("price")
+                # Promotion : « price » = prix payé ; prix d'origine en ListPrice (ou StrikethroughPrice)
+                for sp in o.get("priceSpecification") or []:
+                    if str(sp.get("priceType", "")).endswith(("StrikethroughPrice", "ListPrice")):
+                        barre = sp.get("price")
+                paliers = []
+                for tp in degressifs.get(ident) or []:
+                    try:
+                        paliers.append((int(float(tp.get("price_qty"))), float(tp.get("price_incl_tax") or tp.get("price"))))
+                    except (TypeError, ValueError, AttributeError):
+                        pass
                 decls.append({"format": v.get("disambiguatingDescription") or "", "prix": o.get("price"),
-                              "barre": barre, "dispo": str(o.get("availability", "")).endswith("InStock")})
+                              "barre": barre, "paliers": sorted(paliers),
+                              "dispo": str(o.get("availability", "")).endswith("InStock")})
         self.fiches[url] = {"nom": _texte(groupe.get("name", "")) or (_texte(h1.group(1)) if h1 else ""),
                             "botanique": _texte(bota.group(1)) if bota else "", "decls": decls}
         return self.fiches[url]
@@ -204,6 +240,8 @@ class Adaptateur:
                 notes.append(f"Format non reconnu : « {fmt} »" if fmt else "Format non indiqué")
             if d["barre"] and float(d["barre"]) > float(d["prix"]) + 0.005:
                 notes.append(f"Promotion (prix barré {prix_fr(d['barre'])} €)")
+            if d.get("paliers"):
+                notes.append("Prix dégressif : " + ", ".join(f"{prix_fr(p)} € dès {q}" for q, p in d["paliers"]))
             h = hauteur(fmt)
             if not h:
                 m = re.search(r"\b(\d+/\d+)\b(?!\s*(?:l|cm))", fmt.lower())
