@@ -5,7 +5,7 @@ pointe vers un autre domaine ; l'index vient donc de la catégorie racine du cat
 (/2-category-2-shop-2-fr?resultsPerPage=200&page=N, environ 1 400 fiches en 7 pages), mis en cache 7 jours.
 Le titre des fiches est « Nom latin ‘Variété’ (Nom commun ‘Variété’) ». Une fiche est candidate si son titre
 ou son adresse contient le genre, un nom latin ou un nom commun de la BDD.
-Chaque fiche candidate est ouverte : le nom latin est la partie du titre <h1> avant la parenthèse. Les formats
+Chaque fiche candidate est ouverte : le nom latin est la partie du titre <h1> avant la parenthèse, ou\ndans la parenthèse pour les fiches écrites « Nom commun (Nom latin) ». Les formats
 (« En pot de 10-12 litres buisson hauteur (hors pot) 060-080 cm »), prix et prix barrés viennent du tableau
 des déclinaisons (module displaycombinations : une ligne <tr id="comb_…"> par format en vente ; les formats
 indisponibles n'y figurent pas). Une fiche sans tableau prend les données produit (data-product).
@@ -114,7 +114,9 @@ class Adaptateur:
             t = self.http.get(url).text
             h1 = re.search(r'<h1[^>]*id="product-title"[^>]*>(.*?)</h1>', t, re.S)
             nom = _texte(h1.group(1)) if h1 else ""
-            latin = re.split(r"\s+\(", nom)[0].strip()
+            # « Nom latin (Nom commun) » le plus souvent, parfois « Nom commun (Nom latin) »
+            m = re.match(r"(.*?)\s*\((.*)\)\s*$", nom)
+            latin = [m.group(1).strip(), m.group(2).strip()] if m else [nom]
             lignes = []
             for tr in LIGNE.findall(t):
                 fmt = [_texte(x) for x in re.findall(r'<p class="d_c_datas"[^>]*>(.*?)</p>', tr, re.S)]
@@ -174,8 +176,10 @@ class Adaptateur:
 
     def _analyser(self, plante, url, page, aujourdhui):
         titre = page["nom"] or url
-        latin = (page["latin"] or titre).replace("×", " ").replace(" x ", " ")
-        latin = re.sub(r"\s+", " ", latin).strip()
+        parties = [re.sub(r"\s+", " ", x.replace("×", " ")).strip() for x in page["latin"] if x] or [titre]
+        # La partie qui porte le nom latin : celle qui correspond à la plante, sinon celle qui commence par le genre
+        latin = next((x for x in parties if M.latin_sur_fiche(plante, [x]) or M.latin_approche(plante, [x])),
+                     next((x for x in parties if M.norm(x).split()[:1] == [M.norm(plante.genre)]), parties[0]))
         notes_page = []
         if M.latin_sur_fiche(plante, [latin]):
             equiv = M.equivalence_utilisee(plante, [latin])
