@@ -1,5 +1,6 @@
 # Actualisation automatique des prix et des stocks, sans Claude.
-# Le 1er et le 15 de chaque mois : un relevé complet par pépinière (en parallèle, une requête à la fois par site).
+# Le 1er et le 15 de chaque mois : un relevé complet par pépinière (en parallèle, une requête à la fois par site),
+# découpé en lots de 100 plantes (un relevé par lot : un bug ne fait perdre que son lot, à relancer à la main).
 #  - la plupart des sites sont relevés par les serveurs de GitHub ;
 #  - les sites qui refusent GitHub (liste MAC ci-dessous) le sont par l'ordinateur de l'utilisatrice (« runner » installé) ;
 #  - les sites trop longs sont découpés en parties (liste PARTIES) pour rester sous la limite de 6 heures.
@@ -69,10 +70,11 @@ jobs:
           BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
         run: outils/actualiser.sh "${{ matrix.pepiniere }}" "${{ matrix.partie }}" "${{ matrix.total }}"
       - uses: actions/upload-artifact@v4
+        if: always()   # lots réussis envoyés même si un lot suivant échoue ou si le job est coupé
         with:
           name: releve-${{ matrix.pepiniere }}-${{ matrix.partie }}
-          path: releves/*-AUTO*
-          if-no-files-found: error
+          path: releves/auto_ok/*
+          if-no-files-found: warn
   releve_mac:
     needs: lister
     if: needs.lister.outputs.mac != '[]'
@@ -91,13 +93,14 @@ jobs:
           BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
         run: |
           python3 -m venv .venv-releve && . .venv-releve/bin/activate && pip install -q requests
-          rm -f releves/*-AUTO*
+          rm -rf releves/auto_ok
           caffeinate -i outils/actualiser.sh "${{ matrix.pepiniere }}" "${{ matrix.partie }}" "${{ matrix.total }}"
       - uses: actions/upload-artifact@v4
+        if: always()   # lots réussis envoyés même si un lot suivant échoue ou si le job est coupé
         with:
           name: releve-${{ matrix.pepiniere }}-${{ matrix.partie }}
-          path: releves/*-AUTO*
-          if-no-files-found: error
+          path: releves/auto_ok/*
+          if-no-files-found: warn
   publier:
     needs: [lister, releve]
     if: always() && needs.lister.result == 'success' && needs.lister.outputs.github != '[]'
@@ -118,8 +121,8 @@ jobs:
           for essai in 1 2 3; do
             git fetch -q origin "$BRANCHE" && git reset -q --hard "origin/$BRANCHE"
             cp nouveaux/* releves/
-            # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
-            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
+            # La liste garde les 600 derniers relevés (lots de 100 plantes) : la Sheet n'importe que ceux absents de son registre.
+            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -600 > liste.tmp
             mv liste.tmp releves/a_importer.txt
             git add releves
             if git diff --cached --quiet; then echo "Rien de nouveau à publier."; break; fi
@@ -148,8 +151,8 @@ jobs:
           for essai in 1 2 3; do
             git fetch -q origin "$BRANCHE" && git reset -q --hard "origin/$BRANCHE"
             cp nouveaux/* releves/
-            # La liste garde les 100 derniers relevés : la Sheet n'importe que ceux absents de son registre.
-            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -100 > liste.tmp
+            # La liste garde les 600 derniers relevés (lots de 100 plantes) : la Sheet n'importe que ceux absents de son registre.
+            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -600 > liste.tmp
             mv liste.tmp releves/a_importer.txt
             git add releves
             if git diff --cached --quiet; then echo "Rien de nouveau à publier."; break; fi

@@ -222,3 +222,5 @@ __marimo__/
 # scraper-pepiniere
 cache/
 logs/
+releves/auto_ok/
+data/auto_*.csv
