@@ -36,7 +36,7 @@ jobs:
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import glob, json, os
-          PARTIES = {"truffaut": 3, "botanic": 2, "promessedefleurs": 3}
+          PARTIES = {"truffaut": 3, "botanic": 2, "promessedefleurs": 3, "heijnen": 2}
           MAC = {"verdiagarden"}
           noms = os.environ.get("CHOIX", "").split() or sorted(
               os.path.basename(f)[:-3] for f in glob.glob("adapters/*.py") if not os.path.basename(f).startswith("__"))
