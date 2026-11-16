@@ -1,0 +1,973 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Passiflora edulis	
+P002	Barbadine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Passiflora quadrangularis	
+P003	Avocatier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Persea americana	
+P004	Bananier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Musa acuminata	
+P005	Manguier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Mangifera indica	
+P006	Corète du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Kerria japonica	
+P007	Pommier du Japon	Evereste	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/pommier-d-ornement/2245-malus-everest.html	29,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Malus Evereste ») ; rapproché par la variété de l'onglet Fiches	Malus × floribunda 'Evereste'	
+P008	Aglaonema		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alpinia zerumbet	
+P011	Lis araignée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Canna indica	
+P014	Pervenche de Madagascar		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ficus lyrata	
+P016	Dieffenbachia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dieffenbachia seguine	
+P017	Cordyline		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cordyline fruticosa	
+P018	Taro	Black Magic	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1832-colocasia-esculenta-black-magic.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Colocasia esculenta 'Black Magic'	
+P019	Croton		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Codiaeum variegatum	
+P020	Plante araignée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Liriope spicata	
+P025	Coléus		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Strelitzia reginae	
+P028	Syngonium		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Zamioculcas zamiifolia	
+P032	Gingembre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dracaena draco	
+P035	Hibiscus de Chine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Plumeria rubra	
+P040	Goyavier fraise	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/4039-psidium-cattleianum-goyavier-fraise-rouge.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Psidium cattleyanum	
+P041	Goyavier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Psidium guajava	
+P042	Palmier chou		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Strelitzia nicolai	
+P044	Yucca géant	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/yucca/2313-yucca-gloriosa-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Yucca gloriosa Variegata ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Yucca gigantea 'Variegata'	
+P045	Santoline petit-cyprès	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/santoline/4215-santolina-chamaecyparissus.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Santolina chamaecyparissus	
+P045	Santoline petit-cyprès	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/santoline/4215-santolina-chamaecyparissus.html	15,93	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Santolina chamaecyparissus	
+P045	Santoline petit-cyprès	Santolina rosmarinifolia	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/santoline/1900-santolina-rosmarinifolia.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Santolina rosmarinifolia ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Santolina chamaecyparissus 'Santolina rosmarinifolia'	
+P046	Capucine naine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes	Dynamite	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/2740-lagerstroemia-indica-dynamite.html	23,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Lagerstroemia indica 'Dynamite'	40-60 cm
+P047	Lilas des Indes	Red Imperator	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3121-lagerstroemia-indica-red-imperator.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Red Imperator'	
+P047	Lilas des Indes	Whit VIII	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/2829-lagerstroemia-indica-rhapsody-in-pink.html	149,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C25L 3/4 Tige »	Lagerstroemia indica 'Whit VIII'	Tige
+P047	Lilas des Indes	Indynei	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3123-lagerstroemia-indica-neige-d-ete.html	25,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Lagerstroemia indica 'Indynei'	
+P047	Lilas des Indes	Violet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3124-lagerstroemia-indica-violet-d-ete.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Violet'	
+P047	Lilas des Indes	Rose	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/2775-lagerstroemia-indica-rose.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rosea (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Rosea	Lagerstroemia indica 'Rose'	
+P047	Lilas des Indes	Black Diamond Best Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3396-lagerstroemia-indica-black-solitaire-best-red.html	49,90	EUR	Pot 7 à 10 L	En stock		16/11/2026		Actif		Lagerstroemia indica 'Black Diamond Best Red'	
+P047	Lilas des Indes	White Queen - Lilas des Indes	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3397-lagerstroemia-indica-white-queen.html	99,90	EUR	Pot 15 à 18 L	En stock		16/11/2026		Actif	Variété trouvée : White Queen - Lilas des Indes (absente de l'onglet Fiches)	Lagerstroemia indica 'White Queen - Lilas des Indes'	
+P047	Lilas des Indes	Dynamite	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3748-lagerstroemia-indica-double-dynamite.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Dynamite'	
+P047	Lilas des Indes	Braise d'Été	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3984-lagerstroemia-indica-braise-d-ete.html	21,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Lagerstroemia indica 'Braise d'Été'	40-60 cm
+P047	Lilas des Indes	Indyfus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/4242-lagerstroemia-indica-fuchsia-d-ete.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Indyfus'	
+P047	Lilas des Indes	Mimie Fuchsia	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/4273-lagerstroemia-mimie-fuchsia.html	24,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lagerstroemia Mimie Fuchsia ») ; rapproché par la variété de l'onglet Fiches	Lagerstroemia indica 'Mimie Fuchsia'	
+P047	Lilas des Indes	Enduring summer	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/4240-lagerstroemia-indica-enduring-summer.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Enduring Summer (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Enduring summer'	
+P047	Lilas des Indes	Purple Star	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3398-lagerstroemia-indica-purple-star.html	33,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif	Variété trouvée : Purple Star (absente de l'onglet Fiches)	Lagerstroemia indica 'Purple Star'	30-40 cm
+P047	Lilas des Indes	Whit III	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3399-lagerstroemia-indica-pink-velour.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Whit III'	
+P047	Lilas des Indes	Double Feature	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3555-lagerstroemia-indica-double-feature.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Double Feature (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Double Feature'	
+P047	Lilas des Indes	Pure White	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3716-lagerstroemia-indica-pure-white.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Pure White (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Pure White'	
+P047	Lilas des Indes	Shell Pink - Lilas des Indes	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3717-lagerstroemia-indica-shell-pink.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Shell Pink - Lilas des Indes (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Shell Pink - Lilas des Indes'	
+P047	Lilas des Indes	Enduring pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lilas-des-indes/3992-lagerstroemia-indica-enduring-pink-crepemyrtle.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Enduring Pink - Lilas des Indes (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Enduring Pink - Lilas des Indes	Lagerstroemia indica 'Enduring pink'	
+P048	Asparagus plumeux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lycianthes rantonnetii	
+P052	Gattilier	Pink Pinnacle	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2736-vitex-agnus-castus-pink-pinnacle.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitex agnus-castus 'Pink Pinnacle'	
+P052	Gattilier	Latifolia	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2735-vitex-agnus-castus-latifolia.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitex agnus-castus 'Latifolia'	
+P052	Gattilier	Delta Blues	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2834-vitex-agnus-castus-delta-blues.html	27,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Vitex agnus-castus 'Delta Blues'	40-60 cm
+P052	Gattilier	Galactic Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3695-vitex-agnus-castus-galactic-pink.html	27,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Vitex agnus-castus 'Galactic Pink'	40-60 cm
+P052	Gattilier	Flip Side	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3749-vitex-agnus-castus-flip-slide.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitex agnus-castus 'Flip Side'	
+P053	Lilas de Perse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Melia azedarach	
+P054	Polygala à feuilles de myrte		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Polygala myrtifolia	
+P055	Frangipanier blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2488-caesalpinia-gilliesii.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Erythrostemon gilliesii	
+P058	Cordyline	Charlie Boy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/2197-cordyline-australis-charlie-boy.html	21,90	EUR	Pot 2 L	En stock		16/11/2026		Actif		Cordyline australis 'Charlie Boy'	
+P058	Cordyline	Charlie Boy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/2197-cordyline-australis-charlie-boy.html	33,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Cordyline australis 'Charlie Boy'	
+P058	Cordyline	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/2284-cordyline-australis.html	11,90	EUR	Pot 2 à 3 L	En stock		16/11/2026		Actif		Cordyline australis	
+P058	Cordyline	Pink Passion	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/2853-cordyline-australis-pink-passion.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cordyline australis 'Pink Passion'	
+P058	Cordyline	Torbay Dazzler	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/2771-cordyline-australis-torbay-dazzler.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cordyline australis 'Torbay Dazzler'	
+P058	Cordyline	Red Star	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/3586-cordyline-australis-red-star.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cordyline australis 'Red Star'	
+P058	Cordyline	Can Can	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/3828-cordyline-banskii-can-can.html	33,90	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Cordyline banksii Can Can ») ; rapproché par la variété de l'onglet Fiches	Cordyline australis 'Can Can'	60-80 cm
+P058	Cordyline	Magic Star	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/4006-cordyline-australis-magic-star.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Magic Star (absente de l'onglet Fiches) ; Aucun format en stock	Cordyline australis 'Magic Star'	
+P058	Cordyline	Fantasy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cordyline/4018-cordyline-banksii-fantasy.html	21,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Cordyline banksii Fantasy ») ; rapproché par la variété de l'onglet Fiches	Cordyline australis 'Fantasy'	60-80 cm
+P059	Lippia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Phyla nodiflora	
+P060	Jasmin d'Arabie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Jasminum sambac	
+P061	Wédélia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agapanthus praecox	
+P064	Gaura	Siskiyou Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/4202-oenothera-speciosa-siskiyou-pink.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Oenothera speciosa Siskiyou Pink ») ; rapproché par la variété de l'onglet Fiches	Oenothera lindheimeri 'Siskiyou Pink'	
+P064	Gaura	Siskiyou Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/4202-oenothera-speciosa-siskiyou-pink.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Oenothera speciosa Siskiyou Pink ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Oenothera lindheimeri 'Siskiyou Pink'	
+P064	Gaura	Gaudi Medium Rose	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/4190-gaura-lindheimeri-gaudi-medium-rose.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Gaudi Medium Rose (absente de l'onglet Fiches) ; Aucun format en stock	Oenothera lindheimeri 'Gaudi Medium Rose'	
+P064	Gaura	Whirling Butterflies	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/465-gaura-lindheimeri-whirling-butterflies.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Oenothera lindheimeri 'Whirling Butterflies'	
+P064	Gaura	Whirling Butterflies	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/465-gaura-lindheimeri-whirling-butterflies.html	13,23	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Oenothera lindheimeri 'Whirling Butterflies'	
+P064	Gaura	Cherry Brandy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/462-gaura-lindheimeri-cherry-brandy.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Oenothera lindheimeri 'Cherry Brandy'	
+P064	Gaura	Baby Butterfly Dark Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/2009-gaura-lindheimeri-baby-butterfly-dark-pink-.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Oenothera lindheimeri 'Baby Butterfly Dark Pink'	
+P064	Gaura	Baby Butterfly Dark Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/2009-gaura-lindheimeri-baby-butterfly-dark-pink-.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Oenothera lindheimeri 'Baby Butterfly Dark Pink'	
+P064	Gaura	Crimson Butterflies	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/463-gaura-lindheimeri-crimson-butterflies.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Oenothera lindheimeri 'Crimson Butterflies'	
+P064	Gaura	Passionate Blush	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gaura/1289-gaura-lindheimeri-passionate-blush.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Oenothera lindheimeri 'Passionate Blush'	
+P065	Petit flamboyant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Caesalpinia pulcherrima	
+P066	Flamboyant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Delonix regia	
+P067	Papyrus		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cyperus papyrus	
+P068	Pin de Norfolk		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Araucaria heterophylla	
+P069	Immortelle d'Italie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Helichrysum italicum	
+P070	Belle-de-nuit		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus japonica	
+P072	Verveine citronnelle		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloysia citrodora	
+P073	Poireau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3260-cycas-revoluta.html	51,90	EUR	Pot 3 L	En stock		16/11/2026		Actif		Cycas revoluta	
+P076	Épiaire de Byzance	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/1059-stachys-lanata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Stachys byzantina	
+P076	Épiaire de Byzance	Silver Carpet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2630-stachys-silver-carpet.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Stachys byzantina 'Silver Carpet'	
+P076	Épiaire de Byzance	Silver Carpet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2630-stachys-silver-carpet.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Stachys byzantina 'Silver Carpet'	
+P077	Papayer		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Carica papaya	
+P078	Séné de Noël		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Senna bicapsularis	
+P079	Chêne vert à glands doux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/tamaris/2254-tamarix-africana.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Tamarix africana	
+P082	Arganier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sideroxylon spinosum	
+P083	Orpin de Nice		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2612-nerium-oleander.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Laurier rose	Nerium oleander	
+P085	Mûrier blanc	Fruitless	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2294-morus-platanifolia-fruitless.html	99,90	EUR		En stock		16/11/2026		Actif	Espèce absente de la fiche (« Morus platanifolia Fruitless ») ; rapproché par la variété de l'onglet Fiches ; Format non reconnu : « C18L - ø 6-8 - 3/4 Tige »	Morus alba 'Fruitless'	Tige
+P085	Mûrier blanc	Fruitless	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2294-morus-platanifolia-fruitless.html	129,90	EUR		En stock		16/11/2026		Actif	Espèce absente de la fiche (« Morus platanifolia Fruitless ») ; rapproché par la variété de l'onglet Fiches ; Format non reconnu : « C25L - ø 8-10 -Tige »	Morus alba 'Fruitless'	Tige
+P085	Mûrier blanc	Pendula	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3153-morus-alba-pendula.html	81,10	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C30L - ø 8-10 -Tige »	Morus alba 'Pendula'	Tige
+P086	Palmier nain	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2279-chamaerops-humilis.html	49,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Chamaerops humilis	40-60 cm
+P086	Palmier nain	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2279-chamaerops-humilis.html	72,90	EUR	Pot 15 L	En stock		16/11/2026		Actif		Chamaerops humilis	
+P086	Palmier nain	Vulcano	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2280-chamaerops-humilis-vulcano.html	69,90	EUR	Pot 7 à 10 L	En stock		16/11/2026		Actif		Chamaerops humilis 'Vulcano'	
+P086	Palmier nain	Vulcano	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2280-chamaerops-humilis-vulcano.html	119,90	EUR	Pot 15 L	En stock		16/11/2026		Actif		Chamaerops humilis 'Vulcano'	40-60 cm
+P087	Canne de Provence	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/1236-arundo-donax-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arundo donax 'Variegata'	
+P088	Persil		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ceratonia siliqua	
+P091	Oreilles de lapin		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Opuntia microdasys	
+P092	Palmier dattier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/grenadier/2848-punica-granatum-grenadier.html	20,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Vendu sous : Grenadier	Punica granatum	
+P095	Grenadier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/grenadier/2848-punica-granatum-grenadier.html	39,90	EUR	Pot 10 L	En stock		16/11/2026		Actif	Vendu sous : Grenadier	Punica granatum	
+P095	Grenadier	Mollar de Elche	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/grenadier/4262-punica-granatum-mollar-de-elche.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Punica granatum 'Mollar de Elche'	
+P096	Sauge officinale	Berggarten	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge/3690-salvia-officinalis-berggarten.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia officinalis 'Berggarten'	
+P097	Géranium rosat		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pelargonium graveolens	
+P098	Aeonium arborescent		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aeonium arboreum	
+P099	Liane de Madère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloe × delaetii	
+P101	Griffe de sorcière		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Carpobrotus edulis	
+P102	Arroche halime		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Atriplex halimus	
+P103	Palmier royal		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Roystonea regia	
+P104	Liane griffe de chat		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dolichandra unguis-cati	
+P105	Kalanchoé de Daigremont		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Kalanchoe daigremontiana	
+P106	Séné d'Argentine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Senna corymbosa	
+P107	Chêne d'argent		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Grevillea robusta	
+P108	Armoise arborescente		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Artemisia arborescens	
+P109	Olivier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2300-olea-europaea.html	85,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C15L -Ø 6/8cm 1/2 tige »	Olea europaea	Tige
+P109	Olivier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2300-olea-europaea.html	360,60	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C80L - ø 16-18 - Forme Toscana »	Olea europaea	
+P109	Olivier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2300-olea-europaea.html	569,00	EUR		En stock		16/11/2026		Actif	Format non reconnu : « Gros sujet uniquement dispo à la pépinière »	Olea europaea	
+P110	Thé des bois		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Gaultheria procumbens	
+P111	Chèvrefeuille arbustif	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lonicera/3852-lonicera-nitida.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lonicera ligustrina	
+P112	Andromède du Japon	Passion	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3494-pieris-japonica-polar-passion.html	19,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Pieris japonica 'Passion'	
+P112	Andromède du Japon	Passion	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3025-pieris-japonica-passion.html	19,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Pieris japonica 'Passion'	30-40 cm
+P113	Sapin d'Espagne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Abies pinsapo	
+P114	Muscari d'Arménie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Muscari armeniacum	
+P115	Laurier-sauce	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/laurier/2291-laurus-nobilis.html	19,90	EUR	Pot 5 L	En stock		16/11/2026		Actif	Vendu sous : Laurier sauce	Laurus nobilis	80-100 cm
+P116	Laurier-cerise	Novita	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/laurier/3415-prunus-laurocerasus-novita.html	61,28	EUR		En stock		16/11/2026		Actif	lot de 5 ; Format non reconnu : « 5 pots de 3L /40-60 cm pour 5 m de haie » ; Promotion (prix barré 64,50 €)	Prunus laurocerasus 'Novita'	
+P116	Laurier-cerise	Novita	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/laurier/3415-prunus-laurocerasus-novita.html	116,10	EUR		En stock		16/11/2026		Actif	lot de 10 ; Format non reconnu : « 10 pots 3L/ 40-60 cm pour 10m de haie » ; Promotion (prix barré 129,00 €)	Prunus laurocerasus 'Novita'	
+P116	Laurier-cerise	Novita	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/laurier/3415-prunus-laurocerasus-novita.html	12,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Prunus laurocerasus 'Novita'	40-60 cm
+P116	Laurier-cerise	Etna	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/laurier/2836-prunus-laurocerasus-etna.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Prunus laurocerasus 'Etna'	
+P117	Laurier-tin	Macrophyllum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2888-viburnum-tinus-giganteus.html	83,25	EUR		En stock		16/11/2026		Actif	lot de 5 ; Format non reconnu : « 5 pots de 3L /40-60 cm pour 5 m de haie » ; Promotion (prix barré 92,50 €)	Viburnum tinus 'Macrophyllum'	
+P117	Laurier-tin	Macrophyllum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2888-viburnum-tinus-giganteus.html	18,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Viburnum tinus 'Macrophyllum'	40-60 cm
+P117	Laurier-tin	Eve Price	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2310-viburnum-tinus-eve-price.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Viburnum tinus 'Eve Price'	
+P117	Laurier-tin	Lisarose Loren	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2184-viburnum-tinus-lisarose-loren.html	14,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Lisarose Loren (absente de l'onglet Fiches)	Viburnum tinus 'Lisarose Loren'	30-40 cm
+P117	Laurier-tin	Quimper	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2192-viburnum-tinus-quimper.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Viburnum tinus 'Quimper'	
+P117	Laurier-tin	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/viorne/2251-viburnum-tinus.html	14,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Viburnum tinus	20-30 cm
+P118	Bruyère de Darley	Snow Surprise	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/2222-erica-darleyensis-snow-surprise.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Snow Surprise (absente de l'onglet Fiches) ; Aucun format en stock	Erica × darleyensis 'Snow Surprise'	
+P118	Bruyère de Darley	Kramer's Rote	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/2223-erica-darleyensis-kramer-s-rote.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Erica × darleyensis 'Kramer's Rote'	
+P118	Bruyère de Darley	Silberschmelze	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/2940-erica-darleyensis-silberschmelze.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Erica × darleyensis 'Silberschmelze'	
+P119	Bruyère des neiges		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Erica carnea	
+P120	Mahonia à feuilles de houx	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/mahonia/2568-mahonia-aquifolium.html	13,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Berberis aquifolium	40-60 cm
+P121	Fittonia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Fittonia albivenis	
+P122	Filaire à feuilles étroites	Feuille Étroite	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2179-phillyrea-angustifolia.html	17,00	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Filaire à feuille étroite (absente de l'onglet Fiches) ; Vendu sous : Filaire à feuille étroite	Phillyrea angustifolia 'Feuille Étroite'	40-60 cm
+P123	Cognassier du Japon	Nivalis	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2143-chaenomeles-speciosa-nivalis.html	15,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Nivalis'	
+P123	Cognassier du Japon	Rouge	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2144-chaenomeles-speciosa-rubra.html	15,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Rouge'	
+P123	Cognassier du Japon	Orange Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2692-chaenomeles-speciosa-orange-storm.html	24,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Orange Storm'	40-60 cm
+P123	Cognassier du Japon	Falconnet Charlet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2141-chaenomeles-speciosa-falconnet-charlet.html	18,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Falconnet Charlet (absente de l'onglet Fiches)	Chaenomeles speciosa 'Falconnet Charlet'	30-40 cm
+P123	Cognassier du Japon	Mango Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2964-chaenomeles-speciosa-mango-storm.html	24,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Mango Storm'	40-60 cm
+P123	Cognassier du Japon	Mango Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2964-chaenomeles-speciosa-mango-storm.html	39,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Mango Storm'	
+P123	Cognassier du Japon	Scarlet Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2693-chaenomeles-speciosa-scarlet-storm.html	24,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Scarlet Storm'	40-60 cm
+P123	Cognassier du Japon	Scarlet Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/2693-chaenomeles-speciosa-scarlet-storm.html	39,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Scarlet Storm'	
+P123	Cognassier du Japon	Pink Storm	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cognassier-du-japon/4285-chaenomeles-speciosa-pink-storm.html	24,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Chaenomeles speciosa 'Pink Storm'	
+P124	Pétasite hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Petasites hybridus	
+P125	Germandrée arbustive		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Teucrium fruticans	
+P126	Argousier	Friesdorfer Orange	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3750-hippophae-rhamnoides-friesdorfer-orange-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Friesdorfer Orange (absente de l'onglet Fiches) ; Aucun format en stock	Hippophae rhamnoides 'Friesdorfer Orange'	
+P127	Osmanthe de Burkwood	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/osmanthus/2178-osmanthus-burkwoodii.html	20,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Osmanthus × burkwoodii	40-60 cm
+P128	Prunellier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus spinosa	
+P129	Coronille de Valence		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Coronilla valentina	
+P130	Buis commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Buxus sempervirens	
+P131	Rhododendron de Corée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rhododendron mucronulatum	
+P132	Mimosa d'hiver		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acacia dealbata	
+P133	Chalef d'Ebbinge	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2157-elaeagnus-ebbingei.html	112,50	EUR		En stock		16/11/2026		Actif	lot de 10 ; Format non reconnu : « 10 pots 3L/ 40-60 cm pour 10m de haie » ; Promotion (prix barré 125,00 €)	Elaeagnus × submacrophylla	
+P133	Chalef d'Ebbinge	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2157-elaeagnus-ebbingei.html	12,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Elaeagnus × submacrophylla	40-60 cm
+P133	Chalef d'Ebbinge	Gilt Edge	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2317-elaeagnus-ebbingei-gilt-edge.html	39,90	EUR	Pot 7 à 10 L	En stock		16/11/2026		Actif		Elaeagnus × submacrophylla 'Gilt Edge'	
+P133	Chalef d'Ebbinge	Gilt Edge	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2317-elaeagnus-ebbingei-gilt-edge.html	69,90	EUR	Pot 18 à 20 L	En stock		16/11/2026		Actif		Elaeagnus × submacrophylla 'Gilt Edge'	125-150 cm
+P133	Chalef d'Ebbinge	Viveleg	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2210-elaeagnus-ebbingei-viveleg.html	17,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Elaeagnus × submacrophylla 'Viveleg'	30-40 cm
+P133	Chalef d'Ebbinge	Maryline	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/eleagnus/2994-elaeagnus-ebbingei-gilt-edge.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Elaeagnus × submacrophylla 'Maryline'	
+P134	Arbre de Judée du Yunnan		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cercis glabra	
+P135	Bambou sacré	Fire Power	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2227-nandina-domestica-fire-power.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nandina domestica 'Fire Power'	
+P135	Bambou sacré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2298-nandina-domestica.html	10,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Nandina domestica	
+P135	Bambou sacré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2298-nandina-domestica.html	39,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Nandina domestica	40-60 cm
+P135	Bambou sacré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2298-nandina-domestica.html	69,90	EUR	Pot 15 à 18 L	En stock		16/11/2026		Actif		Nandina domestica	60-80 cm
+P135	Bambou sacré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2298-nandina-domestica.html	129,90	EUR	Pot 35 L	En stock		16/11/2026		Actif		Nandina domestica	100-125 cm
+P135	Bambou sacré	Lemon Lime	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/4088-nandina-domestica-lemon-lime-.html	21,50	EUR	Pot 2 à 3 L	En stock		16/11/2026		Actif		Nandina domestica 'Lemon Lime'	20-30 cm
+P135	Bambou sacré	Obsessed	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2059-nandina-domestica-obsessed.html	17,55	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Promotion (prix barré 19,50 €)	Nandina domestica 'Obsessed'	30-40 cm
+P135	Bambou sacré	Gulf Stream	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2835-nandina-domestica-gulfstream.html	14,03	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Promotion (prix barré 16,50 €)	Nandina domestica 'Gulf Stream'	30-40 cm
+P135	Bambou sacré	Twilight	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/2921-nandina-domestica-twilight.html	21,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Nandina domestica 'Twilight'	30-40 cm
+P135	Bambou sacré	Blush Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bambou-sacre-nandina-domestica/4247-nandina-domestica-blush-pink.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nandina domestica 'Blush Pink'	
+P136	Euphorbe characias	subsp. wulfenii	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/407-euphorbia-characias-subsp-wulfenii.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Euphorbia characias 'subsp. wulfenii'	
+P136	Euphorbe characias	subsp. wulfenii	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/407-euphorbia-characias-subsp-wulfenii.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Euphorbia characias 'subsp. wulfenii'	
+P136	Euphorbe characias	Glacier Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/1260-euphorbia-characias-glacier-blue.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Glacier Blue (absente de l'onglet Fiches) ; Aucun format en stock	Euphorbia characias 'Glacier Blue'	
+P136	Euphorbe characias	Tasmanian Tiger	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/405-euphorbia-characias-tasmanian-tiger.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Euphorbia characias 'Tasmanian Tiger'	
+P136	Euphorbe characias	wulfenii Shorty	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/1231-euphorbia-characias-wulfenii-shorty.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : ssp. wulfenii Shorty (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : ssp. wulfenii Shorty	Euphorbia characias 'wulfenii Shorty'	
+P136	Euphorbe characias	Miners Merlot	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/3652-euphorbia-characias-miners-merlot.html	7,90	EUR	Godet	En stock		16/11/2026		Actif		Euphorbia characias 'Miners Merlot'	
+P136	Euphorbe characias	Miners Merlot	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/3652-euphorbia-characias-miners-merlot.html	22,51	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 23,70 €)	Euphorbia characias 'Miners Merlot'	
+P136	Euphorbe characias	Miners Merlot	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/3652-euphorbia-characias-miners-merlot.html	7,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Euphorbia characias 'Miners Merlot'	
+P137	Aralia du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/2275-fatsia-japonica-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Fatsia japonica	
+P137	Aralia du Japon	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/2224-fatsia-japonica-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Fatsia japonica 'Variegata'	
+P137	Aralia du Japon	Spider's Web	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/3195-fatsia-japonica-spider-s-web.html	22,50	EUR	Pot 2 à 3 L	En stock		16/11/2026		Actif		Fatsia japonica 'Spider's Web'	20-30 cm
+P137	Aralia du Japon	Spider's Web	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/3195-fatsia-japonica-spider-s-web.html	24,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Fatsia japonica 'Spider's Web'	30-40 cm
+P137	Aralia du Japon	Spider's Web	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/3195-fatsia-japonica-spider-s-web.html	69,90	EUR	Pot 15 L	En stock		16/11/2026		Actif		Fatsia japonica 'Spider's Web'	
+P137	Aralia du Japon	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fatsia/4300-fatsia-japonica-variegata-camouflage.html	31,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Fatsia japonica 'Variegata'	30-40 cm
+P138	Callitriche des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/1844-callitriche-palustris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Callitriche palustris	
+P139	Élodée du Canada	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/359-elodea-canadensis.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Elodea canadensis	
+P140	Pesse d'eau	Oxygénante Native Pour Bassin Naturel	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/616-hippuris-vulgaris.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Pesse d eau : La plante oxygénante native pour bassin naturel (absente de l'onglet Fiches) ; Vendu sous : Pesse d eau : La plante oxygénante native pour bassin naturel	Hippuris vulgaris 'Oxygénante Native Pour Bassin Naturel'	
+P140	Pesse d'eau	Oxygénante Native Pour Bassin Naturel	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/616-hippuris-vulgaris.html	14,70	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Pesse d eau : La plante oxygénante native pour bassin naturel (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 17,70 €) ; Vendu sous : Pesse d eau : La plante oxygénante native pour bassin naturel	Hippuris vulgaris 'Oxygénante Native Pour Bassin Naturel'	
+P141	Hottonie des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/1845-hottonia-palustris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hottonia palustris	
+P142	Myriophylle verticillé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Myriophyllum verticillatum	
+P143	Potamot crépu	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/1842-potamogeton-crispus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Potamogeton crispus	
+P144	Renoncule aquatique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ranunculus aquatilis	
+P145	Petite lentille d'eau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lemna minor	
+P146	Hydrocharis		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hydrocharis morsus-ranae	
+P147	Stratiote faux-aloès	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1062-stratiotes-aloides.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Stratiotes aloides	
+P148	Châtaigne d'eau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Trapa natans	
+P149	Azolla		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Azolla caroliniana	
+P150	Jacinthe d'eau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pontederia crassipes	
+P151	Laitue d'eau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pistia stratiotes	
+P152	Salvinie nageante		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Salvinia natans	
+P153	Aponogeton	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1313-aponogeton-distachyos.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Aponogeton distachyos	
+P154	Lotus jaune		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nelumbo lutea	
+P155	Lotus sacré		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nelumbo nucifera	
+P156	Nymphéa nain	Pygmaea Alba	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/nenuphar/2581-nymphaea-pygmaea-alba.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Nymphaea pygmaea Alba ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Nymphaea tetragona 'Pygmaea Alba'	
+P157	Nénuphar jaune		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nuphar lutea	
+P158	Nymphéa hybride rustique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nymphaea Hybrides rustiques	
+P159	Faux nénuphar		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nymphoides peltata	
+P160	Potamot nageant	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-oxygenantes-pour-bassin/949-potamogeton-natans.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Potamogeton natans	
+P161	Acore odorant	Variegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/16-acorus-calamus-variegatus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acorus calamus 'Variegatus'	
+P162	Acore graminée	Variegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/16-acorus-calamus-variegatus.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Acorus calamus Variegatus ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Acorus gramineus 'Variegatus'	
+P162	Acore graminée	Ogon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/17-acorus-gramineus-ogon.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acorus gramineus 'Ogon'	
+P163	Plantain d'eau		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alisma plantago-aquatica	
+P164	Jonc fleuri	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/190-butomus-umbellatus-jonc-fleuri.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Jonc fleuri	Butomus umbellatus	
+P164	Jonc fleuri	Schneeweisschen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1839-butomus-umbellatus-schneeweisschen.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Schneeweisschen (absente de l'onglet Fiches) ; Aucun format en stock	Butomus umbellatus 'Schneeweisschen'	
+P165	Populage des marais	Alba	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/199-caltha-palustris-alba.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Caltha palustris 'Alba'	
+P165	Populage des marais	Multiplex - Souci d eau à fleur jaune double	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/200-caltha-palustris-multiplex.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Multiplex - Souci d eau à fleur jaune double (absente de l'onglet Fiches) ; Aucun format en stock	Caltha palustris 'Multiplex - Souci d eau à fleur jaune double'	
+P165	Populage des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/198-caltha-palustris.html	4,90	EUR	Godet	En stock		16/11/2026		Actif	Vendu sous : Souci d eau	Caltha palustris	
+P166	Laîche raide dorée	Aurea	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/219-carex-elata-aurea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Carex elata 'Aurea'	
+P167	Laîche palmier	Silberstreif	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/226-carex-muskingumensis-silberstreif.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Silberstreif (absente de l'onglet Fiches) ; Aucun format en stock	Carex muskingumensis 'Silberstreif'	
+P167	Laîche palmier	Silberstreif	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/231-carex-muskingumensis-silberstreif.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Silberstreif (absente de l'onglet Fiches) ; Aucun format en stock	Carex muskingumensis 'Silberstreif'	
+P168	Laîche du Japon	Ice Dance	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/224-carex-morrowii-ice-dance.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Carex morrowii 'Ice Dance'	
+P168	Laîche du Japon	Vanilla Ice	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/1567-carex-morrowii-vanilla-ice.html	5,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Vanilla Ice (absente de l'onglet Fiches)	Carex morrowii 'Vanilla Ice'	
+P168	Laîche du Japon	Gold Band	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/3350-carex-morrowii-goldband.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Carex morrowii 'Gold Band'	
+P169	Laîche pendante	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/227-carex-pendula.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Carex pendula	
+P170	Laîche des rives	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/carex/229-carex-riparia.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Carex riparia	
+P171	Souchet long	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/300-cyperus-longus-souchet-long-plantes-aquatiques-et-de-marais.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Souchet long	Cyperus longus	
+P172	Glycérie aquatique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/536-glyceria-maxima.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Glycérie aquatique	Glyceria maxima	
+P172	Glycérie aquatique	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/537-glyceria-maxima-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Glyceria maxima 'Variegata'	
+P173	Gunnera	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plante-de-berge/538-gunnera-manicata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Gunnera manicata	
+P174	Iris lisse	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/649-iris-pseudacorus-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Iris pseudacorus Variegata - Iris des marais panaché ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Iris laevigata 'Variegata'	
+P174	Iris lisse	Mottled Beauty	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/1651-iris-laevigata-mottled-beauty.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Mottled Beauty (absente de l'onglet Fiches) ; Aucun format en stock	Iris laevigata 'Mottled Beauty'	
+P174	Iris lisse	Snowdrift	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/1719-iris-laevigata-snowdrift.html	5,25	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Snowdrift (absente de l'onglet Fiches)	Iris laevigata 'Snowdrift'	
+P174	Iris lisse	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/1746-iris-ensata-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Iris ensata Variegata ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Iris laevigata 'Variegata'	
+P174	Iris lisse	Rose Queen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/1589-iris-laevigata-rose-queen.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Iris laevigata 'Rose Queen'	
+P175	Iris des marais	Variegata - Iris des marais panaché	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/649-iris-pseudacorus-variegata.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Variegata - Iris des marais panaché (absente de l'onglet Fiches) ; Aucun format en stock	Iris pseudacorus 'Variegata - Iris des marais panaché'	
+P175	Iris des marais	Flore Pleno	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/648-iris-pseudoacorus-flore-pleno.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Flore Pleno (absente de l'onglet Fiches) ; Aucun format en stock	Iris pseudacorus 'Flore Pleno'	
+P175	Iris des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/647-iris-pseudacorus.html	4,90	EUR	Godet	En stock		16/11/2026		Actif	Vendu sous : Iris des marais	Iris pseudacorus	
+P176	Iris de Sibérie	Butter And Sugar	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-de-jardin/650-iris-sibirica-butter-and-sugar.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Iris sibirica 'Butter And Sugar'	
+P176	Iris de Sibérie	Pink Haze	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-de-jardin/651-iris-sibirica-pink-haze.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Pink Haze (absente de l'onglet Fiches) ; Aucun format en stock	Iris sibirica 'Pink Haze'	
+P176	Iris de Sibérie	Ruffled Velvet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-de-jardin/652-iris-sibirica-ruffled-velvet.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ruffled Velvet (absente de l'onglet Fiches) ; Aucun format en stock	Iris sibirica 'Ruffled Velvet'	
+P177	Lysichiton jaune	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/712-lysichiton-americanus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lysichiton americanus	
+P178	Lysichiton blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lysichiton camtschatcensis	
+P179	Menthe aquatique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/727-mentha-aquatica.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Menthe Aquatique	Mentha aquatica	
+P180	Trèfle d'eau	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/729-menyanthes-trifoliata.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Vendu sous : Trèfle d eau	Menyanthes trifoliata	
+P181	Myosotis des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1836-myosotis-palustris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Myosotis scorpioides	
+P181	Myosotis des marais	Blanc	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1837-myosotis-palustris-alba.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Alba (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Alba	Myosotis scorpioides 'Blanc'	
+P182	Orontium	Bougie	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/780-orontium-aquaticum.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Plante bougie (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Plante bougie	Orontium aquaticum 'Bougie'	
+P183	Roseau commun	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/875-phragmite-autralis-roseau.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Roseau commun	Phragmites australis	
+P183	Roseau commun	Variegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/876-phragmite-autralis-variegatus.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Phragmites australis 'Variegatus'	
+P184	Pontédérie	Alba	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/946-pontederia-cordata-alba.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pontederia cordata 'Alba'	
+P184	Pontédérie	Pink Pons - Pontédérie à feuilles en coeur	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/947-pontederia-cordata-pink-pons.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Pink Pons - Pontédérie à feuilles en coeur (absente de l'onglet Fiches) ; Aucun format en stock	Pontederia cordata 'Pink Pons - Pontédérie à feuilles en coeur'	
+P184	Pontédérie	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1339-pontederia-cordata-2.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Vendu sous : Pontédérie à feuilles en cœur	Pontederia cordata	
+P185	Sagittaire du Japon	Flore Pleno	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/987-sagittaria-japonica-flore-pleno.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Flore Pleno (absente de l'onglet Fiches) ; Aucun format en stock	Sagittaria trifolia 'Flore Pleno'	
+P186	Thalia	Thalie blanchie	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1064-thalia-dealbata.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Thalie blanchie (absente de l'onglet Fiches) ; Aucun format en stock	Thalia dealbata 'Thalie blanchie'	
+P187	Massette à larges feuilles	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1096-typha-latifolia.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Massette à feuilles larges	Typha latifolia	
+P187	Massette à larges feuilles	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1095-typha-latifolia-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Typha latifolia 'Variegata'	
+P188	Astilbe de Chine	Vision in Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/astilbe/132-astilbe-chinensis-vision-in-pink.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Astilbe chinensis 'Vision in Pink'	
+P188	Astilbe de Chine	Vision in Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/astilbe/133-astilbe-chinensis-vision-in-red.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Astilbe chinensis 'Vision in Red'	
+P188	Astilbe de Chine	Pumila	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/astilbe/1881-astilbe-chinensis-pumila.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Astilbe chinensis 'Pumila'	
+P188	Astilbe de Chine	Purpurlanze	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/astilbe/135-astilbe-chinensis-purpurlanze.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Astilbe chinensis 'Purpurlanze'	
+P189	Astilboides		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Astilboides tabularis	
+P190	Actée à grappes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Actaea racemosa	
+P191	Actée simple	Carbonella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/1866-actaea-simplex-carbonella.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Carbonella (absente de l'onglet Fiches) ; Aucun format en stock	Actaea simplex 'Carbonella'	
+P191	Actée simple	Pink Spike	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/20-cimicifuga-simplex-pink-spike.html	7,90	EUR	Godet	En stock		16/11/2026		Actif		Actaea simplex 'Pink Spike'	
+P191	Actée simple	Pink Spike	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/20-cimicifuga-simplex-pink-spike.html	22,51	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 23,70 €)	Actaea simplex 'Pink Spike'	
+P191	Actée simple	Brunette	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/267-cimicifuga-simplex-brunette.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Actaea simplex 'Brunette'	
+P191	Actée simple	Hillside Black Beauty	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/1814-cimicifuga-hillside-black-beauty.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : hillside black beauty (absente de l'onglet Fiches) ; Aucun format en stock	Actaea simplex 'Hillside Black Beauty'	
+P191	Actée simple	Black Negligee	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/18-cimicifuga-simplex-black-negligee.html	6,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Black Negligee (absente de l'onglet Fiches)	Actaea simplex 'Black Negligee'	
+P191	Actée simple	Chocoholic	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cimicifuga/1375-actaea-simplex-chocoholic.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Chocoholic (absente de l'onglet Fiches) ; Aucun format en stock	Actaea simplex 'Chocoholic'	
+P192	Euphorbe des marais	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/402-euphorbia-palustris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Euphorbia palustris	
+P192	Euphorbe des marais	Walenburgs Glorie	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/euphorbe/406-euphorbia-palustris-walenburgs-glorie.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Walenburgs Glorie (absente de l'onglet Fiches) ; Aucun format en stock	Euphorbia palustris 'Walenburgs Glorie'	
+P193	Reine-des-prés rouge	Venusta	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/1624-filipendula-rubra-venusta.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : venusta (absente de l'onglet Fiches) ; Aucun format en stock	Filipendula rubra 'Venusta'	
+P194	Osmonde royale	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fougere/781-osmunda-regalis.html	6,90	EUR	Godet	En stock		16/11/2026		Actif		Osmunda regalis	
+P194	Osmonde royale	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fougere/781-osmunda-regalis.html	19,66	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 20,70 €)	Osmunda regalis	
+P194	Osmonde royale	Purpurascens	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fougere/782-osmunda-regalis-purpurascens.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Osmunda regalis 'Purpurascens'	
+P195	Miscanthus	Zebrinus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/744-miscanthus-sinensis-zebrinus.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Zebrinus'	
+P195	Miscanthus	Zebrinus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/744-miscanthus-sinensis-zebrinus.html	13,90	EUR	Pot 3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Zebrinus'	
+P195	Miscanthus	Gracillimus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/737-miscanthus-sinensis-gracillimus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Gracillimus'	
+P195	Miscanthus	Adagio	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/730-miscanthus-sinensis-adagio.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Adagio'	
+P195	Miscanthus	Dronning Ingrid	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/733-miscanthus-sinensis-dronning-ingrid.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Dronning Ingrid'	
+P195	Miscanthus	Ferner Osten	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/734-miscanthus-sinensis-ferner-osten.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ferner Osten (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Ferner Osten'	
+P195	Miscanthus	Malepartus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/738-miscanthus-sinensis-malepartus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Malepartus'	
+P195	Miscanthus	Variegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/743-miscanthus-sinensis-variegatus.html	7,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Variegatus'	
+P195	Miscanthus	Variegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/743-miscanthus-sinensis-variegatus.html	13,90	EUR	Pot 3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Variegatus'	
+P195	Miscanthus	Red Chief	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1362-miscanthus-sinensis-red-chief.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Red Chief'	
+P195	Miscanthus	Ghana	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/736-miscanthus-sinensis-ghana.html	15,90	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Ghana (absente de l'onglet Fiches)	Miscanthus sinensis 'Ghana'	
+P195	Miscanthus	Afrika	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/741-miscanthus-sinensis-afrika.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Afrika (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Afrika'	
+P195	Miscanthus	Cabaret	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/731-miscanthus-sinensis-cabaret.html	7,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Cabaret'	
+P195	Miscanthus	Flamingo	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/735-miscanthus-sinensis-flamingo.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Flamingo'	
+P195	Miscanthus	Punktchen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/740-miscanthus-sinensis-punktchen.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Punktchen (absente de l'onglet Fiches)	Miscanthus sinensis 'Punktchen'	
+P195	Miscanthus	Purpurascens	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/742-miscanthus-sinensis-purpurascens.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Purpurascens'	
+P195	Miscanthus	Gold Bar	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1338-miscanthus-sinensis-gold-bar.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Gold Bar'	
+P195	Miscanthus	Navajo	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1384-miscanthus-sinensis-navajo.html	18,28	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Navajo (absente de l'onglet Fiches) ; lot de 3	Miscanthus sinensis 'Navajo'	
+P195	Miscanthus	Navajo	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1384-miscanthus-sinensis-navajo.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Navajo (absente de l'onglet Fiches)	Miscanthus sinensis 'Navajo'	
+P195	Miscanthus	Cosmopolitan	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/732-miscanthus-sinensis-condensatus-cosmopolitan.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Cosmopolitan'	
+P195	Miscanthus	Morning Light	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/739-miscanthus-sinensis-morning-light.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Miscanthus sinensis 'Morning Light'	
+P195	Miscanthus	Little Zebra	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1938-miscanthus-sinensis-little-zebra.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Little Zebra'	
+P195	Miscanthus	Graziella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3341-miscanthus-sinensis-graziella.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Graziella (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Graziella'	
+P195	Miscanthus	Hermann Mussel	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3343-miscanthus-sinensis-hermann-mussel.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Hermann Mussel (absente de l'onglet Fiches)	Miscanthus sinensis 'Hermann Mussel'	
+P195	Miscanthus	Samourai	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/1890-miscanthus-sinensis-samourai.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Samourai (absente de l'onglet Fiches)	Miscanthus sinensis 'Samourai'	
+P195	Miscanthus	Volcano	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3337-miscanthus-sinensis-volcano.html	7,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Volcano (absente de l'onglet Fiches)	Miscanthus sinensis 'Volcano'	
+P195	Miscanthus	Ruby Cute	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3338-miscanthus-sinensis-ruby-cute.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ruby Cute (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Ruby Cute'	
+P195	Miscanthus	Silberspinne	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3339-miscanthus-sinensis-silberspinne.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Silberspinne (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Silberspinne'	
+P195	Miscanthus	Kleine Fontäne	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3340-miscanthus-sinensis-kleine-fontaine.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Vendu sous : Kleine Fontaine	Miscanthus sinensis 'Kleine Fontäne'	
+P195	Miscanthus	Grosse Fontane	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3342-miscanthus-sinensis-grosse-fontane.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Grosse Fontane (absente de l'onglet Fiches) ; Aucun format en stock	Miscanthus sinensis 'Grosse Fontane'	
+P195	Miscanthus	Kleine Silberspinne	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3349-miscanthus-sinensis-kleine-silberspinne.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Miscanthus sinensis 'Kleine Silberspinne'	
+P195	Miscanthus	David	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/miscanthus-roseau-de-chine/3472-miscanthus-sinensis-david.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : David (absente de l'onglet Fiches)	Miscanthus sinensis 'David'	
+P196	Hosta bleu	Frances Williams	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hosta/625-hosta-frances-williams.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Hosta Frances Williams ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Hosta sieboldiana 'Frances Williams'	
+P197	Pétasite du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Petasites japonicus	
+P198	Acacia bleuâtre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acacia saligna	
+P199	Marronnier d'Inde		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aesculus hippocastanum	
+P200	Ricinelle		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acalypha wilkesiana	
+P201	Agastache fenouil		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agastache foeniculum	
+P202	Agave d'Amérique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agave americana	
+P203	Agave à cou de cygne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agave attenuata	
+P204	Sisal		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agave sisalana	
+P205	Arbre à soie	Summer Chocolate	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2675-albizia-julibrissin-summer-chocolate.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Albizia julibrissin 'Summer Chocolate'	
+P205	Arbre à soie	Ombrella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2135-albizia-julibrissin-ombrella.html	132,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C18-20L - ø 6-8 -Tige »	Albizia julibrissin 'Ombrella'	Tige
+P205	Arbre à soie	Ombrella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2135-albizia-julibrissin-ombrella.html	175,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C30L - ø 8-10 -Tige »	Albizia julibrissin 'Ombrella'	Tige
+P205	Arbre à soie	Ombrella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2135-albizia-julibrissin-ombrella.html	379,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C50L - ø12-14 - Tige »	Albizia julibrissin 'Ombrella'	Tige
+P205	Arbre à soie	Ombrella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2135-albizia-julibrissin-ombrella.html	24,95	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Albizia julibrissin 'Ombrella'	40-60 cm
+P205	Arbre à soie	Ombrella	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2135-albizia-julibrissin-ombrella.html	124,90	EUR	Pot 15 L	En stock		16/11/2026		Actif		Albizia julibrissin 'Ombrella'	120-140 cm
+P205	Arbre à soie	Evey s Pride	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3734-albizia-julibrissin-evey-s-pride.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Albizia julibrissin 'Evey s Pride'	
+P206	Rose trémière hérissée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alcea setosa	
+P207	Aloès de Chabaud		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloe chabaudii	
+P208	Aloès des dunes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloe thraskii	
+P209	Aloès vrai		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloe vera	
+P210	Aloès grimpant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloiampelos ciliaris	
+P211	Aloès arborescent		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloidendron barberae	
+P212	Alstroemère dorée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alstroemeria aurea	
+P213	Alstroemère ligtu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alstroemeria ligtu	
+P214	Alternanthère calicot		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alternanthera bettzickiana	
+P215	Alternanthère du Brésil		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alternanthera brasiliana	
+P216	Anthurium		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anthurium andraeanum	
+P217	Aphélandra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aphelandra squarrosa	
+P218	Désespoir des singes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Araucaria araucana	
+P219	Arbousier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbousier/2468-arbutus-unedo.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo	
+P219	Arbousier	Roselily	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbousier/2276-arbutus-unedo-roselily.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo 'Roselily'	
+P219	Arbousier	Mercurius	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbousier/3269-arbutus-unedo-mercurius.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Mercurius (absente de l'onglet Fiches) ; Aucun format en stock	Arbutus unedo 'Mercurius'	
+P219	Arbousier	Rubra	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbousier/4005-arbutus-unedo-rubra.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo 'Rubra'	
+P220	Grande capucine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum majus	
+P221	Bananier du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bananier/2237-musa-basjoo.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Bananier	Musa basjoo	
+P221	Bananier du Japon	Sakhalin	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bananier/2238-musa-basjoo-sakhalin.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Musa basjoo 'Sakhalin'	
+P222	Bigaradier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus × aurantium	
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	29,90	EUR	Pot 2 à 3 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	40-60 cm
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	59,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	80-100 cm
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	79,90	EUR	Pot 12 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	100-125 cm
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	109,90	EUR	Pot 18 à 20 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	150-175 cm
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	159,90	EUR	Pot 25 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	175-200 cm
+P223	Cyprès de Provence	Totem Pole	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cypres/2285-cupressus-sempervirens-totem.html	199,90	EUR	Pot 30 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	200-250 cm
+P224	Amandier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus amygdalus	
+P225	Néflier du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3732-eriobotrya-japonica.html	21,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Eriobotrya japonica	
+P226	Figuier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ficus carica	
+P227	Mûrier noir		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Morus nigra	
+P228	Arbre de Judée	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbre-de-judee/2457-cercis-siliquastrum.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cercis siliquastrum	
+P229	Jacaranda		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Jacaranda mimosifolia	
+P230	Myrte commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Myrtus communis	
+P231	Lentisque	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3136-pistacia-lentiscus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pistacia lentiscus	
+P232	Nerprun alaterne	Argenteovariegatus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2882-rhamnus-alaternus-argenteovariegatus.html	20,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Argenteovariegatus (absente de l'onglet Fiches)	Rhamnus alaternus 'Argenteovariegatus'	30-40 cm
+P233	Buplèvre ligneux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Bupleurum fruticosum	
+P234	Ciste cotonneux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cistus albidus	
+P235	Ciste à feuilles de sauge		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cistus salviifolius	
+P236	Ciste ladanifère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cistus ladanifer	
+P237	Phlomis pourpre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Phlomis purpurea	
+P238	Jasmin jaune arbustif		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chrysojasminum fruticans	
+P239	Rose de Damas		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rosa × damascena	
+P240	Plumbago du Cap		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Plumbago auriculata	
+P241	Romarin d'Australie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Westringia fruticosa	
+P242	Jasmin officinal	officinalis Aureomarginatum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/jasmins/3263-jasminum-officinalis-aureomarginatum.html		EUR		Rupture		16/11/2026		Actif	Nom latin écrit « Jasminum officinalis » sur la fiche ; Variété trouvée : officinalis Aureomarginatum (absente de l'onglet Fiches) ; Aucun format en stock	Jasminum officinale 'officinalis Aureomarginatum'	
+P242	Jasmin officinal	Officinalis	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/jasmins/2376-jasminum-officinalis.html		EUR		Rupture		16/11/2026		Actif	Nom latin écrit « Jasminum officinalis » sur la fiche ; Variété trouvée : officinalis (absente de l'onglet Fiches) ; Aucun format en stock	Jasminum officinale 'Officinalis'	
+P243	Jasmin étoilé	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/trachelospermum/2367-trachelospermum-jasminoides.html	19,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Trachelospermum jasminoides	60-80 cm
+P243	Jasmin étoilé	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/trachelospermum/2367-trachelospermum-jasminoides.html	39,90	EUR	Pot 5 L	En stock		16/11/2026		Actif		Trachelospermum jasminoides	150-175 cm
+P244	Bougainvillier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Bougainvillea spectabilis	
+P245	Rosier de Banks		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rosa banksiae	
+P246	Vigne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Vitis vinifera	
+P247	Câprier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Capparis spinosa	
+P248	Chèvrefeuille des Baléares		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lonicera implexa	
+P249	Clématite cirrheuse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Clematis cirrhosa	
+P250	Bignone rose	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-grimpantes/3818-podranea-ricasoliana.html	29,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Podranea ricasoliana	
+P251	Lavande dentée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lavandula dentata	
+P252	Lavande papillon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3348-lavandula-stoechas-papillon.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Papillon	Lavandula stoechas	
+P253	Liseron de Crète		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Convolvulus cneorum	
+P254	Germandrée tomenteuse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Teucrium polium	
+P255	Statice de Perez		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Limonium perezii	
+P256	Acanthe à feuilles molles	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/acanthe/7-acanthus-mollis.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acanthus mollis	
+P257	Iris de Florence		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Iris florentina	
+P258	Iris d'Algérie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Iris unguicularis	
+P259	Valériane rouge	Albus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/236-centranthus-ruber-albus.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Valeriana rubra 'Albus'	
+P259	Valériane rouge	Albus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/236-centranthus-ruber-albus.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Valeriana rubra 'Albus'	
+P259	Valériane rouge	Coccineus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/237-centranthus-ruber-coccineus.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Valeriana rubra 'Coccineus'	
+P259	Valériane rouge	Coccineus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/237-centranthus-ruber-coccineus.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Valeriana rubra 'Coccineus'	
+P260	Dietes à grandes fleurs		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dietes grandiflora	
+P261	Sauge d'Afghanistan	Blue Spire	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/829-perovskia-atriplicifolia-blue-spire.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Salvia yangii 'Blue Spire'	
+P261	Sauge d'Afghanistan	Blue Spire	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/829-perovskia-atriplicifolia-blue-spire.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Salvia yangii 'Blue Spire'	
+P262	Alfa		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Macrochloa tenacissima	
+P263	Sparte		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lygeum spartum	
+P264	Stipe géante	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/stipa/1060-stipa-gigantea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Celtica gigantea	
+P265	Diss		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ampelodesmos mauritanicus	
+P266	Brachypode rameux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brachypodium retusum	
+P267	Muhlenbergie capillaire	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/3288-mulhenbergia-capillaris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Muhlenbergia capillaris	
+P268	Avoine bleue		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Helictotrichon sempervirens	
+P269	Zoysia du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Zoysia japonica	
+P270	Paspalum des plages		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Paspalum vaginatum	
+P271	Serpolet		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Thymus serpyllum	
+P272	Frankénie lisse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Frankenia laevis	
+P273	Achillée à feuilles de criste		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Achillea crithmifolia	
+P274	Liseron de Mauritanie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Convolvulus sabatius	
+P275	Dichondra argenté		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dichondra argentea	
+P276	Germandrée petit-chêne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Teucrium chamaedrys	
+P277	Narcisse papyracé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Narcissus papyraceus	
+P278	Iris d'Espagne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Iris xiphium	
+P279	Lys des sables		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pancratium maritimum	
+P280	Ail rose		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Allium roseum	
+P281	Sternbergie jaune		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sternbergia lutea	
+P282	Nivéole d'été		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Leucojum aestivum	
+P283	Jonc des chaisiers	Albescens	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1028-scirpus-lacustris-albescens.html	6,90	EUR	Godet	En stock		16/11/2026		Actif		Schoenoplectus lacustris 'Albescens'	
+P283	Jonc des chaisiers	Zebrinus - Jonc des tonneliers	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1029-scirpus-lacustris-zebrinus.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Zebrinus - Jonc des tonneliers (absente de l'onglet Fiches) ; Aucun format en stock	Schoenoplectus lacustris 'Zebrinus - Jonc des tonneliers'	
+P284	Jonc épars	Spiralis - Jonc spiralé	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/656-juncus-effusus-spiralis.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Spiralis - Jonc spiralé (absente de l'onglet Fiches) ; Aucun format en stock	Juncus effusus 'Spiralis - Jonc spiralé'	
+P285	Massette naine	Petites Massettes	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1097-typha-minima.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Petites Massettes (absente de l'onglet Fiches)	Typha minima 'Petites Massettes'	
+P286	Véronique des ruisseaux	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1104-veronica-beccabunga.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Veronica beccabunga	
+P287	Arum d'Éthiopie	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-aquatiques/1841-zantedeschia-aetiopica.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Zantedeschia aethiopica	
+P288	Cornifle nageant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ceratophyllum demersum	
+P289	Potamot pectiné		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Stuckenia pectinata	
+P290	Chara commune		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chara vulgaris	
+P291	Renoncule peltée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ranunculus peltatus	
+P292	Nymphéa tropical		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nymphaea Hybrides tropicaux	
+P293	Nymphéa hybride nain	Pygmaea Rubra	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/nenuphar/767-nymphaea-pygmaea-rubra.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Nymphaea pygmaea Rubra ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Nymphaea Hybrides nains 'Pygmaea Rubra'	
+P293	Nymphéa hybride nain	Perry's Baby Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/nenuphar/1851-nymphaea-perry-s-baby-red.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Nymphaea Perry's Baby Red ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Nymphaea Hybrides nains 'Perry's Baby Red'	
+P294	Aglaonema rouge		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aglaonema Hybrides à feuillage rouge	
+P295	Romarin	Prostratus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/romarin/2763-rosmarinus-officinalis-prostratus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia rosmarinus 'Prostratus'	
+P296	Lavande vraie	Munstead	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/683-lavande-munstead.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Lavandula angustifolia 'Munstead'	
+P296	Lavande vraie	Munstead	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/683-lavande-munstead.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Lavandula angustifolia 'Munstead'	
+P296	Lavande vraie	Grosso	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2129-lavandula-intermedia-grosso.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula intermedia Grosso ») ; rapproché par la variété de l'onglet Fiches	Lavandula angustifolia 'Grosso'	
+P296	Lavande vraie	Grosso	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2129-lavandula-intermedia-grosso.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula intermedia Grosso ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula angustifolia 'Grosso'	
+P296	Lavande vraie	Hidcote Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/685-lavandula-hidcote-blue.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Hidcote Blue ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Lavandula angustifolia 'Hidcote Blue'	
+P296	Lavande vraie	Beate	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2625-lavandula-angustifolia-beate.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Beate (absente de l'onglet Fiches) ; Aucun format en stock	Lavandula angustifolia 'Beate'	
+P296	Lavande vraie	Ardèche	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3948-lavandula-angustifolia-ardeche.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Lavandula angustifolia 'Ardèche'	
+P296	Lavande vraie	Ardèche	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3948-lavandula-angustifolia-ardeche.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula angustifolia 'Ardèche'	
+P296	Lavande vraie	Anna	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3107-lavandula-angustifolia-anna.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lavandula angustifolia 'Anna'	
+P296	Lavande vraie	Phenomenal	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3312-lavandula-intermedia-phenomenal.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Phenomenal ») ; rapproché par la variété de l'onglet Fiches	Lavandula angustifolia 'Phenomenal'	
+P296	Lavande vraie	Phenomenal	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3312-lavandula-intermedia-phenomenal.html	16,82	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Phenomenal ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula angustifolia 'Phenomenal'	
+P296	Lavande vraie	Edelweiss	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2566-lavandula-edlweiss-25l.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Edelweiss ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Lavandula angustifolia 'Edelweiss'	
+P296	Lavande vraie	Loddon Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3543-lavandula-angustifolia-loddon-pink.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Lavandula angustifolia 'Loddon Pink'	
+P296	Lavande vraie	Loddon Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3543-lavandula-angustifolia-loddon-pink.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula angustifolia 'Loddon Pink'	
+P296	Lavande vraie	Arctic Snow	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3542-lavandula-angustifolia-artic-snow.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Artic Snow	Lavandula angustifolia 'Arctic Snow'	
+P296	Lavande vraie	Essence Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3585-lavande-angustifolia-essence-purple.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lavandula angustifolia 'Essence Purple'	
+P297	Lavandin	Grosso	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2129-lavandula-intermedia-grosso.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Lavandula × intermedia 'Grosso'	
+P297	Lavandin	Grosso	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2129-lavandula-intermedia-grosso.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula × intermedia 'Grosso'	
+P297	Lavandin	Phenomenal	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3312-lavandula-intermedia-phenomenal.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Phenomenal ») ; rapproché par la variété de l'onglet Fiches	Lavandula × intermedia 'Phenomenal'	
+P297	Lavandin	Phenomenal	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/3312-lavandula-intermedia-phenomenal.html	16,82	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Phenomenal ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Lavandula × intermedia 'Phenomenal'	
+P297	Lavandin	Edelweiss	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/lavande/2566-lavandula-edlweiss-25l.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula Edelweiss ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Lavandula × intermedia 'Edelweiss'	
+P298	Thym commun	Silver Posie	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/thym/2092-thymus-vulgaris-silver-posie.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Thymus vulgaris 'Silver Posie'	
+P299	Origan	Thumble's Variety	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/779-origanum-vulgare-thumbles-variety.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Origanum vulgare 'Thumble's Variety'	
+P300	Marjolaine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Origanum majorana	
+P301	Pittospore du Japon	Nanum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/pittosporum/2304-pittosporum-tobira-nanum.html	19,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Pittosporum tobira 'Nanum'	20-30 cm
+P301	Pittospore du Japon	Nanum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/pittosporum/2304-pittosporum-tobira-nanum.html	45,90	EUR	Pot 7 à 10 L	En stock		16/11/2026		Actif		Pittosporum tobira 'Nanum'	
+P301	Pittospore du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/pittosporum/2781-pittosporum-tobira.html	49,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Pittosporum tobira	60-80 cm
+P302	Citronnier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus × limon	
+P303	Oranger doux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus × sinensis	
+P304	Thuya de Berbérie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tetraclinis articulata	
+P305	Euphorbe résinifère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Euphorbia resinifera	
+P306	Chêne vert	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3858-quercus-ilex.html	599,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C50L - Rideaux sur tige - H 120 x L 120 - Ø 8-10 »	Quercus ilex	Tige
+P306	Chêne vert	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3858-quercus-ilex.html	49,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Quercus ilex	100-125 cm
+P307	Chêne-liège		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus suber	
+P308	Cèdre de l'Atlas		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cedrus atlantica	
+P309	Pistachier de l'Atlas		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pistacia atlantica	
+P310	Jujubier sauvage		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ziziphus lotus	
+P311	Jujubier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/4132-jujubier-ziziphus-sativa.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Ziziphus jujuba	
+P312	Genévrier de Phénicie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Juniperus phoenicea	
+P313	Rétama blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Retama monosperma	
+P314	Euphorbe arborescente		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Euphorbia dendroides	
+P315	Anthyllide barbe-de-Jupiter		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anthyllis barba-jovis	
+P316	Limoniastrum		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Limoniastrum monopetalum	
+P317	Criste marine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Crithmum maritimum	
+P318	Lotier de Crète		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lotus creticus	
+P319	Cinéraire maritime		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Jacobaea maritima	
+P320	Coprosma		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Coprosma repens	
+P321	Arbre de Noël néo-zélandais		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Metrosideros excelsa	
+P322	Orgueil de Madère		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Echium candicans	
+P323	Bignone du Cap		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tecomaria capensis	
+P324	Euryops		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Euryops pectinatus	
+P325	Rince-bouteille	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3099-callistemon-laevis.html	27,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Melaleuca citrina	
+P326	Sauge du Mexique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Salvia leucantha	
+P327	Sauge de Greg	Mirage Soft Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1763-salvia-greggii-mirage-soft-pink.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia greggii 'Mirage Soft Pink'	
+P327	Sauge de Greg	mirage Cherry Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1860-salvia-greggii-mirage-cherry-red.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : mirage Cherry Red (absente de l'onglet Fiches) ; Aucun format en stock	Salvia greggii 'mirage Cherry Red'	
+P327	Sauge de Greg	Mirage Burgundy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/3304-salvia-gregii-mirage-burgundy.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Mirage Burgundy (absente de l'onglet Fiches) ; Aucun format en stock	Salvia greggii 'Mirage Burgundy'	
+P327	Sauge de Greg	Mirage Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/3955-salvia-greggii-mirage-blue.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Mirage Blue (absente de l'onglet Fiches) ; Aucun format en stock	Salvia greggii 'Mirage Blue'	
+P327	Sauge de Greg	Mirage Hot Pink	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1699-salvia-greggii-mirage-hot-pink.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia greggii 'Mirage Hot Pink'	
+P327	Sauge de Greg	Amethyst Lips	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1737-salvia-amethyst-lips.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Amethyst Lips (absente de l'onglet Fiches) ; Aucun format en stock	Salvia greggii 'Amethyst Lips'	
+P327	Sauge de Greg	Joy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/2594-salvia-joy.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : x greggii Joy (absente de l'onglet Fiches) ; Vendu sous : x greggii Joy	Salvia greggii 'Joy'	
+P327	Sauge de Greg	Joy	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/2594-salvia-joy.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : x greggii Joy (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 17,70 €) ; Vendu sous : x greggii Joy	Salvia greggii 'Joy'	
+P327	Sauge de Greg	Jaune	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1768-salvia-gregii-yellow.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Yellow (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Yellow	Salvia greggii 'Jaune'	
+P328	Sauge à petites feuilles	So Cool Pale Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/2128-salvia-microphylla-so-cool-pale-blue.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia microphylla 'So Cool Pale Blue'	
+P328	Sauge à petites feuilles	Hot Lips	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/995-salvia-microphylla-hot-lips.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia microphylla 'Hot Lips'	
+P328	Sauge à petites feuilles	Icing Sugar	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1861-salvia-microphylla-icing-sugar.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Icing Sugar (absente de l'onglet Fiches) ; Aucun format en stock	Salvia microphylla 'Icing Sugar'	
+P328	Sauge à petites feuilles	Royal Bumble	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1579-salvia-microphylla-royal-bumble.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Salvia microphylla 'Royal Bumble'	
+P328	Sauge à petites feuilles	Royal Bumble	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1579-salvia-microphylla-royal-bumble.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Salvia microphylla 'Royal Bumble'	
+P328	Sauge à petites feuilles	Bordeaux	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/2074-salvia-microphylla-bordeaux.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Bordeaux (absente de l'onglet Fiches)	Salvia microphylla 'Bordeaux'	
+P328	Sauge à petites feuilles	Gletsjer	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1578-salvia-microphylla-gletsjer.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Gletsjer (absente de l'onglet Fiches)	Salvia microphylla 'Gletsjer'	
+P328	Sauge à petites feuilles	Gletsjer	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1578-salvia-microphylla-gletsjer.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Gletsjer (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 17,70 €)	Salvia microphylla 'Gletsjer'	
+P328	Sauge à petites feuilles	Wild Watermelon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1675-salvia-wild-watermelon.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Wild Watermelon (absente de l'onglet Fiches)	Salvia microphylla 'Wild Watermelon'	
+P328	Sauge à petites feuilles	Wild Watermelon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/1675-salvia-wild-watermelon.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Wild Watermelon (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 17,70 €)	Salvia microphylla 'Wild Watermelon'	
+P328	Sauge à petites feuilles	So Cool Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/4294-salvia-microphylla-so-cool-purple.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Salvia microphylla 'So Cool Purple'	
+P328	Sauge à petites feuilles	So Cool Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/4294-salvia-microphylla-so-cool-purple.html	16,82	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Salvia microphylla 'So Cool Purple'	
+P328	Sauge à petites feuilles	Ribambelle	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/2127-salvia-microphylla-ribambelle.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ribambelle (absente de l'onglet Fiches) ; Aucun format en stock	Salvia microphylla 'Ribambelle'	
+P328	Sauge à petites feuilles	Anduus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sauge-arbustive/3327-salvia-microphylla-anduus.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Anduus (absente de l'onglet Fiches) ; Aucun format en stock	Salvia microphylla 'Anduus'	
+P329	Tulbaghia	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/1730-tulbaghia-violacea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Tulbaghia violacea	
+P330	Tritoma		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Kniphofia uvaria	
+P331	Brachychiton à feuilles de peuplier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brachychiton populneus	
+P332	Arbre flamme		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brachychiton acerifolius	
+P333	Tipuana		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tipuana tipu	
+P334	Palmier bleu du Mexique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brahea armata	
+P335	Palmier abricot		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Butia odorata	
+P336	Palmier jupon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Washingtonia filifera	
+P337			Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé		
+P338	Leucophyllum		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Leucophyllum frutescens	
+P339	Hespéraloé	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cactees/2491-hesperaloe-parviflora.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hesperaloe parviflora	
+P340	Yucca rostrata	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/yucca/2314-yucca-rostrata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Yucca rostrata	
+P340	Yucca rostrata	Sapphire Skies	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/yucca/3562-yucca-rostrata-sapphire-skies.html	29,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Yucca rostrata 'Sapphire Skies'	
+P340	Yucca rostrata	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/yucca/3756-yucca-linearis.html	27,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Yucca rostrata	20-30 cm
+P341	Dasylirion		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dasylirion longissimum	
+P342	Dodonée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dodonaea viscosa	
+P343	Micocoulier de Provence		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Celtis australis	
+P344	Frêne à feuilles étroites		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Fraxinus angustifolia	
+P345	Arbre aux perruques	Golden Spirit	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2812-cotinus-coggygria-golden-spirit.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cotinus coggygria 'Golden Spirit'	
+P345	Arbre aux perruques	Young Lady	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2899-cotinus-coggygria-young-lady.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cotinus coggygria 'Young Lady'	
+P345	Arbre aux perruques	Golden Lady	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4076-cotinus-coggygria-golden-lady.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cotinus coggygria 'Golden Lady'	
+P360	Arbre aux perruques hybride	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2813-cotinus-coggygria-grace.html	18,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Vendu sous : Grace ; Déplacé depuis P345	Cotinus Hybrides horticoles	60-80 cm
+P345	Arbre aux perruques	Royal Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2478-cotinus-coggygria-royal-purple.html	14,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Cotinus coggygria 'Royal Purple'	60-80 cm
+P346	Savonnier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Koelreuteria paniculata	
+P347	Cyprès de l'Arizona	Fastigiata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4136-cupressus-arizonica-fastigiata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hesperocyparis arizonica 'Fastigiata'	
+P348	Pistachier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pistacia vera	
+P349	Plaqueminier kaki		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Diospyros kaki	
+P350	Feijoa	Triumph	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/feijoa/4004-feijoa-triumph.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Feijoa sellowiana 'Triumph'	
+P350	Feijoa	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/2287-feijoa-sellowiana.html	17,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Vendu sous : Goyavier du Brésil	Feijoa sellowiana	40-60 cm
+P350	Feijoa	Mammoth	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/2851-feijoa-sellowiana-mammoth.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Feijoa sellowiana 'Mammoth'	
+P351	Faux poivrier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Schinus molle	
+P352	Parkinsonia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Parkinsonia aculeata	
+P353	Agastache rugueuse	Little Adder	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1869-agastache-rugosa-little-adder.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Agastache rugosa 'Little Adder'	
+P353	Agastache rugueuse	Little Adder	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1869-agastache-rugosa-little-adder.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Agastache rugosa 'Little Adder'	
+P354	Oiseau de paradis mexicain		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Erythrostemon mexicanus	
+P355	Alstroemère hybride	Indian Summer	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/4243-alstroemeria-indian-summer.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Alstroemeria Indian Summer ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Alstroemeria Hybrides horticoles 'Indian Summer'	
+P357	Capucine hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum Hybrides horticoles	
+P358	Agastache hybride	Blue Fortune	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/22-agastache-blue-fortune.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Agastache Blue Fortune ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Agastache Hybrides horticoles 'Blue Fortune'	
+P358	Agastache hybride	Blue Boa	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1157-agastache-blue-boa.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Agastache Blue Boa ») ; rapproché par la variété de l'onglet Fiches	Agastache Hybrides horticoles 'Blue Boa'	
+P358	Agastache hybride	Blue Boa	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1157-agastache-blue-boa.html	15,93	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Agastache Blue Boa ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Agastache Hybrides horticoles 'Blue Boa'	
+P358	Agastache hybride	Black Adder	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1222-agastache-black-adder.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Agastache Black Adder ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Agastache Hybrides horticoles 'Black Adder'	
+P358	Agastache hybride	Little Adder	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1869-agastache-rugosa-little-adder.html	5,90	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Agastache rugosa Little Adder ») ; rapproché par la variété de l'onglet Fiches	Agastache Hybrides horticoles 'Little Adder'	
+P358	Agastache hybride	Little Adder	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/agastache/1869-agastache-rugosa-little-adder.html	16,81	EUR	Godet	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Agastache rugosa Little Adder ») ; rapproché par la variété de l'onglet Fiches ; lot de 3 ; Promotion (prix barré 17,70 €)	Agastache Hybrides horticoles 'Little Adder'	
+P359	Alternanthère ficoïde		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alternanthera ficoidea	
+P360	Arbre aux perruques hybride	Grace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2813-cotinus-coggygria-grace.html	18,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Cotinus coggygria Grace ») ; rapproché par la variété de l'onglet Fiches	Cotinus Hybrides horticoles 'Grace'	60-80 cm
+P361	Amandier-pêcher		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus × persicoides	
+P362	Palmier des Canaries	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/3086-phoenix-canariensis.html	33,60	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Phoenix canariensis	
+P363	Palmier de la reine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Syagrus romanzoffiana	
+P364	Pin parasol		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus pinea	
+P365	Pin d'Alep		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus halepensis	
+P366	Prune du Natal		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Carissa macrocarpa	
+P367	Limettier mexicain		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus × aurantiifolia	
+P368	Misère pourpre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tradescantia pallida	
+P369	Filao		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Casuarina equisetifolia	
+P370	Canéficier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cassia fistula	
+P371	Noyer du Queensland		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Macadamia integrifolia	
+P372	Palmier d'Alexandra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Archontophoenix alexandrae	
+P373	Palmier éventail de Chine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Livistona chinensis	
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	159,00	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C25L - Hauteur 100-150 cm - ø30-40 - Tronc » ; Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	100-150 cm
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	180,00	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C30L 2-3 Troncs en Cépée » ; Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	Cépée
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	701,80	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C150L Tronc 160-180cm » ; Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	931,70	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C180L 3 Troncs 100-120cm » ; Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	19,90	EUR	Pot 2 L	En stock		16/11/2026		Actif	Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	36,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif	Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	40-60 cm
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	72,90	EUR	Pot 15 L	En stock		16/11/2026		Actif	Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	80-100 cm
+P374	Palmier de Chine	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/palmier/2278-trachycarpus-fortunei.html	99,90	EUR	Pot 18 à 20 L	En stock		16/11/2026		Actif	Vendu sous : Palmier Rustique -18°C	Trachycarpus fortunei	80-100 cm
+P375	Kentia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Howea forsteriana	
+P376	Sansevière		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dracaena trifasciata	
+P377	Aspidistra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aspidistra elatior	
+P378	Lomandra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lomandra longifolia	
+P379	Genévrier cade		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Juniperus oxycedrus	
+P380	Frêne à fleurs		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Fraxinus ornus	
+P381	Tamaris de France		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tamarix gallica	
+P382	Arroche nummulaire		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Atriplex nummularia	
+P383	Arroche à quatre ailes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Atriplex canescens	
+P384	Obione		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Halimione portulacoides	
+P385	Cyprès de Lambert		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
+P386	Abricotier	Royal	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cerisier-a-fleurs/2230-prunus-serrulata-royal-burgundy.html	79,90	EUR		En stock		16/11/2026		Actif	Espèce absente de la fiche (« Prunus serrulata Royal Burgundy ») ; rapproché par la variété de l'onglet Fiches ; Format non reconnu : « C15L -Ø 6/8cm 1/2 tige »	Prunus armeniaca 'Royal'	Tige
+P387	Pêcher		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus persica	
+P388	Prunier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus domestica	
+P389	Cognassier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cydonia oblonga	
+P390	Poirier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pyrus communis	
+P391	Cédratier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus medica	
+P392	Canne à sucre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Saccharum officinarum	
+P393	Caféier d'Arabie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Coffea arabica	
+P394	Noyer du Queensland à coque rugueuse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Macadamia tetraphylla	
+P395	Caoutchouc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ficus elastica	
+P396	Figuier pleureur		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ficus benjamina	
+P397	Banian		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ficus benghalensis	
+P398	Saguaro		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Carnegiea gigantea	
+P399	Pin maritime		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus pinaster	
+P400	Peuplier blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Populus alba	
+P401	Armérie maritime	Düsseldorfer Stolz	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/1429-armeria-maritima-dusseldorfer-stolz.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Armeria maritima 'Düsseldorfer Stolz'	
+P401	Armérie maritime	Düsseldorfer Stolz	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/1429-armeria-maritima-dusseldorfer-stolz.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Armeria maritima 'Düsseldorfer Stolz'	
+P401	Armérie maritime	Düsseldorfer Stolz	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/1429-armeria-maritima-dusseldorfer-stolz.html	41,65	EUR	Godet	En stock		16/11/2026		Actif	lot de 10 ; Promotion (prix barré 49,00 €)	Armeria maritima 'Düsseldorfer Stolz'	
+P401	Armérie maritime	Splendens	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/67-armeria-maritima-splendens.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Armeria maritima 'Splendens'	
+P401	Armérie maritime	Alba	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/66-armeria-maritima-alba.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Armeria maritima 'Alba'	
+P401	Armérie maritime	Rosea Compacta	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/gazon-d-espagne/3678-armeria-maritima-rosea-compacta.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rosea Compacta (absente de l'onglet Fiches) ; Aucun format en stock	Armeria maritima 'Rosea Compacta'	
+P402	Jonquille		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Narcissus jonquilla	
+P403	Ail triquètre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Allium triquetrum	
+P404	Camomille allemande		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Matricaria chamomilla	
+P405	Lupin à feuilles étroites		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lupinus angustifolius	
+P406	Tournesol		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Helianthus annuus	
+P407	Rosier des chiens		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rosa canina	
+P408	Lierre grimpant	Goldchild	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4268-hedera-helix-goldchild.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Hedera helix 'Goldchild'	
+P408	Lierre grimpant	Goldchild	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4268-hedera-helix-goldchild.html	13,97	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Hedera helix 'Goldchild'	
+P408	Lierre grimpant	Goldchild	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4268-hedera-helix-goldchild.html	52,92	EUR	Godet	En stock		16/11/2026		Actif	lot de 12 ; Promotion (prix barré 58,80 €)	Hedera helix 'Goldchild'	
+P408	Lierre grimpant	Woerner	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4269-hedera-helix-woerner.html	4,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Woerner (absente de l'onglet Fiches)	Hedera helix 'Woerner'	
+P408	Lierre grimpant	Woerner	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4269-hedera-helix-woerner.html	13,97	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Woerner (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 14,70 €)	Hedera helix 'Woerner'	
+P408	Lierre grimpant	Woerner	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4269-hedera-helix-woerner.html	52,92	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Woerner (absente de l'onglet Fiches) ; lot de 12 ; Promotion (prix barré 58,80 €)	Hedera helix 'Woerner'	
+P408	Lierre grimpant	Glacier	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4270--hedera-helix-glacier.html	4,90	EUR	Godet	En stock		16/11/2026		Actif		Hedera helix 'Glacier'	
+P408	Lierre grimpant	Glacier	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4270--hedera-helix-glacier.html	13,97	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 14,70 €)	Hedera helix 'Glacier'	
+P408	Lierre grimpant	Glacier	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-couvre-sol/4270--hedera-helix-glacier.html	52,92	EUR	Godet	En stock		16/11/2026		Actif	lot de 12 ; Promotion (prix barré 58,80 €)	Hedera helix 'Glacier'	
+P408	Lierre grimpant	Hibernica	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-grimpantes/2968-hedera-helix-hibernica.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hedera helix 'Hibernica'	
+P409	Liriope	Gold Banded	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2131-liriope-muscari-gold-banded.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Liriope muscari 'Gold Banded'	
+P409	Liriope	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/1355-liriope-muscari.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Liriope muscari	
+P409	Liriope	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/1530-liriope-muscari-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Liriope muscari 'Variegata'	
+P410	Chrysocephalum		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chrysocephalum apiculatum	
+P411	Violette d'Australie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Viola hederacea	
+P412	Oxalis pourpre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Oxalis triangularis	
+P413	Pothos		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Epipremnum aureum	
+P414	Dragonnier parfumé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Dracaena fragrans	
+P415	Palmier mazari		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nannorrhops ritchieana	
+P416	Palmier de Floride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Serenoa repens	
+P417	Palmier à sucre de l'Inde		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Caryota urens	
+P418	Aréca		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chrysalidocarpus lutescens	
+P419	Cycas de l'Inde		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cycas circinalis	
+P420	Kaloupilé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Murraya koenigii	
+P421	Badamier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Terminalia catappa	
+P422	Mûrier à papier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2758-broussonetia-papyrifera.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Broussonetia papyrifera	
+P423	Fougère de Boston		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Nephrolepis exaltata	
+P424	Fougère bouton		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pellaea rotundifolia	
+P425	Ricin		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ricinus communis	
+P426	Oxalis des Bermudes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Oxalis pes-caprae	
+P427	Herbe aux écouvillons pourpres		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cenchrus setaceus	
+P428	Bambou doré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/893-bambou-phyllostachys-aurea.html	29,50	EUR	Pot 5 L	En stock		16/11/2026		Actif		Phyllostachys aurea	
+P428	Bambou doré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/893-bambou-phyllostachys-aurea.html	43,95	EUR	Pot 10 L	En stock		16/11/2026		Actif		Phyllostachys aurea	100-150 cm
+P428	Bambou doré	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/894-bambou-phyllostachys-aurea-albovariegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Albovariegata	Phyllostachys aurea	
+P428	Bambou doré	Holochrysa	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/880-bambou-phyllostachys-aurea-holochrysa.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phyllostachys aurea 'Holochrysa'	
+P428	Bambou doré	Koi	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/881-bambou-phyllostachys-aurea-koi.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phyllostachys aurea 'Koi'	
+P429	Tagète des décombres		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tagetes minuta	
+P430	Liseron des champs		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Convolvulus arvensis	
+P431	Rhododendron pontique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/rhododendron/3479-rhododendron-ponticum.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Rhododendron ponticum	
+P432	Tilleul à petites feuilles		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tilia cordata	
+P433	Pin noir		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus nigra	
+P434	Épicéa		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Picea abies	
+P435	Peuplier baumier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Populus balsamifera	
+P436	Bambou noir du Japon	Boryana	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/885-bambou-phyllostachys-nigra-boryana.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Boryana (absente de l'onglet Fiches) ; Aucun format en stock	Phyllostachys nigra 'Boryana'	
+P436	Bambou noir du Japon	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/918-bambou-phyllostachys-nigra.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phyllostachys nigra	
+P436	Bambou noir du Japon	Henonis	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/919-bambou-phyllostachys-nigra-henonis.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phyllostachys nigra 'Henonis'	
+P436	Bambou noir du Japon	Megurochiku	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/phyllostachys/917-bambou-phyllostachys-nigra-megurochiku.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Megurochiku (absente de l'onglet Fiches) ; Aucun format en stock	Phyllostachys nigra 'Megurochiku'	
+P437	Phellodendron		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Phellodendron amurense	
+P438	Cryptomeria		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cryptomeria japonica	
+P439	Katsura	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2839-cercidiphyllum-japonicum.html	29,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Cercidiphyllum japonicum	40-60 cm
+P440	Sorbier des oiseleurs		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sorbus aucuparia	
+P441	Saule pleureur		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Salix babylonica	
+P442	Chêne chevelu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus cerris	
+P443	Sapin de Nikko		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Abies homolepis	
+P444	Ginkgo	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3167-ginkgo-biloba.html	169,90	EUR		En stock		16/11/2026		Actif	Format non reconnu : « C35L - ø 8-10 »	Ginkgo biloba	
+P444	Ginkgo	Blagon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3777-ginkgo-biloba-blagon.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Ginkgo biloba 'Blagon'	
+P445	Noyer du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Juglans ailantifolia	
+P446	Mélèze du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Larix kaempferi	
+P447	Ostrya		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Ostrya japonica	
+P448	Épicéa de Koyama		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Picea koyamae	
+P449	Érable à feuilles rondes		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acer circinatum	
+P450	Pavier de l'Ohio		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aesculus glabra	
+P451	Catalpa	Aurea	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3390-catalpa-bignonioides-aurea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Catalpa bignonioides 'Aurea'	
+P452	Copalme d'Amérique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/liquidambar/2292-liquidambar-styraciflua.html	49,90	EUR	Pot 7 L	En stock		16/11/2026		Actif		Liquidambar styraciflua	80-100 cm
+P452	Copalme d'Amérique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/liquidambar/2292-liquidambar-styraciflua.html	105,90	EUR	Pot 15 L	En stock		16/11/2026		Actif		Liquidambar styraciflua	150-175 cm
+P452	Copalme d'Amérique	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/liquidambar/2292-liquidambar-styraciflua.html	199,90	EUR	Pot 35 L	En stock		16/11/2026		Actif		Liquidambar styraciflua	250-300 cm
+P453	Épinette d'Engelmann		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Picea engelmannii	
+P454	Chêne rouge d'Amérique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus rubra	
+P455	Tilleul américain		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tilia americana	
+P456	Pin de Weymouth		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus strobus	
+P457	Platane d'Occident		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Platanus occidentalis	
+P458	Bouleau merisier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Betula lenta	
+P459	Bouleau gris		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Betula populifolia	
+P460	Pacanier	Cape Fear	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/4063-carya-illinoensis-cape-fear-noix-de-pecan.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Carya illinoinensis 'Cape Fear'	
+P461	Cyprès de Lawson		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chamaecyparis lawsoniana	
+P462	Hêtre commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Fagus sylvatica	
+P463	Épicéa du Colorado		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Picea pungens	
+P464	Pin mugo	Mops	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4124-pinus-mugo-mops.html	51,90	EUR	Pot 5 L	En stock		16/11/2026		Actif		Pinus mugo 'Mops'	
+P464	Pin mugo	Mops	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4124-pinus-mugo-mops.html	99,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Pinus mugo 'Mops'	30-40 cm
+P464	Pin mugo	Pumilio	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4154-pinus-mugo-pumilio.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : pumilio (absente de l'onglet Fiches) ; Aucun format en stock	Pinus mugo 'Pumilio'	
+P464	Pin mugo	Mughus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/4166-pinus-mugo-mughus.html	19,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Pinus mugo 'Mughus'	20-30 cm
+P465	Platane commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Platanus × hispanica	
+P466	Peuplier noir		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Populus nigra	
+P467	Laurier sassafras		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sassafras albidum	
+P468	If commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Taxus baccata	
+P469	Thuya géant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Thuja plicata	
+P470	Pommier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Malus domestica	
+P471	Cerisier	Plena	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cerisier-a-fleurs/3874-prunus-glandulosa-alba-plena.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Prunus glandulosa Alba Plena ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Prunus avium 'Plena'	
+P472	Scirpe-jonc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Scirpoides holoschoenus	
+P473	Cytise faux-ébénier	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2243-laburnum-anagyroides.html	21,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Laburnum anagyroides	40-60 cm
+P474	Chêne pédonculé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus robur	
+P475	Parrotie de Perse	Spire	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/2923-parrotia-persica-persian-spire.html	25,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Persian Spire (absente de l'onglet Fiches) ; Vendu sous : Persian Spire	Parrotia persica 'Spire'	40-60 cm
+P476	Manglier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rhizophora mucronata	
+P477	Flamme de forêt		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Butea monosperma	
+P478	Saraca		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Saraca asoca	
+P479	Érable de Nikko		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acer maximowiczianum	
+P480	Érable du Japon	Seiryu	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2422-acer-palmatum-seiryu.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Seiryu'	
+P480	Érable du Japon	Skeeter s Broom	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3078-acer-palmatum-skeeter-s-broom.html	35,90	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Skeeter s Broom (absente de l'onglet Fiches)	Acer palmatum 'Skeeter s Broom'	
+P480	Érable du Japon	Atropurpureum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon-grande-taille/2271-acer-palmatum-atropurpureum.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Atropurpureum'	
+P480	Érable du Japon	Sango-Kaku	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2274-acer-palmatum-sangokaku.html	299,00	EUR	Pot 20 L	En stock		16/11/2026		Actif		Acer palmatum 'Sango-Kaku'	150-175 cm
+P480	Érable du Japon	Shishigashira	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2769-acer-palmatum-shishigashira.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Shishigashira (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Shishigashira'	
+P480	Érable du Japon	Shaina	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3077-acer-palmatum-shaina.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Shaina'	40-60 cm
+P480	Érable du Japon	Shaina	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3077-acer-palmatum-shaina.html	73,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Acer palmatum 'Shaina'	40-60 cm
+P480	Érable du Japon	Shaina	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3077-acer-palmatum-shaina.html	299,00	EUR	Pot 20 L	En stock		16/11/2026		Actif		Acer palmatum 'Shaina'	125-150 cm
+P480	Érable du Japon	Orange Dream	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2273-acer-palmatum-orange-dream.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	40-60 cm
+P480	Érable du Japon	Inaba Shidare - Erable du japon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2423-acer-palmatum-inaba-shidare.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Inaba Shidare - Erable du japon (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Inaba Shidare - Erable du japon'	
+P480	Érable du Japon	Fire Glow	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3080-acer-palmatum-fire-glow.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Fire Glow (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Fire Glow'	
+P480	Érable du Japon	Going Green	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/4141-acer-palmatum-going-green.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Going Green'	
+P480	Érable du Japon	Black Lace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3079-acer-palmatum-black-lace.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Black Lace (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Black Lace'	
+P480	Érable du Japon	Ryusen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3417-acer-palmatum-ryusen.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Ryusen'	
+P480	Érable du Japon	Cascade Emerald	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3418-acer-palmatum-cascade-emerald.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Cascade Emerald (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Cascade Emerald'	
+P480	Érable du Japon	Orange Lace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3537-acer-palmatum-orange-lace.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Orange Lace (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Orange Lace'	
+P480	Érable du Japon	Bi Hoo	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/2272-acer-palmatum-bi-hoo.html	39,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Bi Hoo (absente de l'onglet Fiches)	Acer palmatum 'Bi Hoo'	
+P480	Érable du Japon	Crimson Queen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3574-acer-palmatum-dissectum-crimson-queen.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Crimson Queen'	
+P480	Érable du Japon	Dissectum	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3699-acer-palmatum-dissectum.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Dissectum (absente de l'onglet Fiches)	Acer palmatum 'Dissectum'	40-60 cm
+P480	Érable du Japon	Jerre Schwartz	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3726-acer-palmatum-jere-schwartz-erable-du-japon.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Jerre Schwartz'	40-60 cm
+P480	Érable du Japon	Jerre Schwartz	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3726-acer-palmatum-jere-schwartz-erable-du-japon.html	73,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Acer palmatum 'Jerre Schwartz'	80-100 cm
+P480	Érable du Japon	Lyoshi - Erable du japon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3728-acer-palmatum-jere-schwartz-erable-du-japon.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Lyoshi - Erable du japon (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Lyoshi - Erable du japon'	
+P480	Érable du Japon	Beni Maiko	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3081-acer-palmatum-beni-maiko.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Beni Maiko'	40-60 cm
+P480	Érable du Japon	Garnet	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3114-acer-palmatum-garnet.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Garnet'	40-60 cm
+P480	Érable du Japon	Trompenburg	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3241-acer-palmatum-trompenburg.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Trompenburg'	40-60 cm
+P480	Érable du Japon	Little Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3701-acer-palmatum-little-red.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Little Red (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Little Red'	
+P480	Érable du Japon	Peve Dave	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3702-acer-palmatum-peve-dave.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Peve Dave (absente de l'onglet Fiches)	Acer palmatum 'Peve Dave'	40-60 cm
+P480	Érable du Japon	Twombly s Red Sentinel - érable du japon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3703-acer-palmatum-twombly-s-red-sentinel.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Twombly s Red Sentinel - érable du japon (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Twombly s Red Sentinel - érable du japon'	
+P480	Érable du Japon	Summer Gold - Érable du japon	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/4020-acer-palmatum-summer-gold.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Summer Gold - Érable du japon (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Summer Gold - Érable du japon'	
+P480	Érable du Japon	Starfish	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/4140-acer-palmatum-starfish.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Starfish (absente de l'onglet Fiches)	Acer palmatum 'Starfish'	
+P480	Érable du Japon	Bloodgood	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/1447-acer-palmatum-bloodgood.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Bloodgood'	40-60 cm
+P480	Érable du Japon	Bloodgood	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/1447-acer-palmatum-bloodgood.html	299,00	EUR	Pot 20 L	En stock		16/11/2026		Actif		Acer palmatum 'Bloodgood'	125-150 cm
+P480	Érable du Japon	Butterfly	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/1561-acer-palmatum-butterfly.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Butterfly'	40-60 cm
+P480	Érable du Japon	Butterfly	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/1561-acer-palmatum-butterfly.html	69,90	EUR	Pot 10 à 12 L	En stock		16/11/2026		Actif		Acer palmatum 'Butterfly'	40-60 cm
+P480	Érable du Japon	Sumi-Nagashi	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3242-acer-palmatum-sumi-nagashi.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Sumi-Nagashi (absente de l'onglet Fiches)	Acer palmatum 'Sumi-Nagashi'	40-60 cm
+P480	Érable du Japon	Emerald Lace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3272-acer-palmatum-emerald-lace.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Emerald Lace'	
+P480	Érable du Japon	Katsura	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3700-acer-palmatum-katsura.html	35,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Katsura'	40-60 cm
+P480	Érable du Japon	Katsura	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3700-acer-palmatum-katsura.html	399,90	EUR	Pot 35 L	En stock		16/11/2026		Actif		Acer palmatum 'Katsura'	150-175 cm
+P480	Érable du Japon	Scolopendrifolium	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/erable-du-japon/3729-acer-palmatum-scolopendrifolium-erable-du-japon.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Scolopendrifolium (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Scolopendrifolium'	
+P481	Faux cyprès hinoki du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chamaecyparis obtusa	
+P482	Nezu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Juniperus rigida	
+P483	Magnolia de Soulange-Bodin	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/magnolia/2173-magnolia-soulangeana.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Magnolia × soulangeana	
+P588	Magnolia hybride	Satisfaction	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/magnolia/2856-magnolia-soulangeana-satisfaction.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Satisfaction (absente de l'onglet Fiches) ; Aucun format en stock ; Déplacé depuis P483	Magnolia Hybrides horticoles 'Satisfaction'	
+P483	Magnolia de Soulange-Bodin	Black Tulip	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/magnolia/3149-magnolia-soulangeana-black-tulip.html	41,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Black Tulip (absente de l'onglet Fiches)	Magnolia × soulangeana 'Black Tulip'	40-60 cm
+P484	Pin blanc du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus parviflora	
+P485	Cerisier de Yedo		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus × yedoensis	
+P486	Kometsuga		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tsuga diversifolia	
+P487	Faux-orme du Japon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Zelkova serrata	
+P488	Kaori blanc		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agathis moorei	
+P489	Mamaku		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Sphaeropteris medullaris	
+P490	Fougère arborescente	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/fougere/1948-dicksonia-antartica.html	299,90	EUR		En stock		16/11/2026		Actif	Nom latin écrit « Dicksonia antartica » sur la fiche ; Format non reconnu : « C30L - Tronc ø30-40 » ; Vendu sous : antartica	Dicksonia antarctica	
+P491	Kānuka		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Kunzea ericoides	
+P492	ʻŌhiʻa lehua		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Metrosideros polymorpha	
+P493	Noni		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Morinda citrifolia	
+P494	Tōtara		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Podocarpus totara	
+P495	Canna hybride à fleurs	Tropicanna	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-a-feuillage-decoratif/4168-canna-tropicanna.html	19,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Canna Tropicanna ») ; rapproché par la variété de l'onglet Fiches	Canna × generalis 'Tropicanna'	
+P496	Loulu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pritchardia remota	
+P497	Anacardier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anacardium occidentale	
+P498	Arbre à pain		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Artocarpus altilis	
+P499	Érable champêtre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acer campestre	
+P500	Érable de Montpellier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acer monspessulanum	
+P501	Érable à feuilles d'obier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Acer opalus	
+P502	Aulne glutineux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Alnus glutinosa	
+P503	Frêne commun		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Fraxinus excelsior	
+P504	Chêne sessile		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Quercus petraea	
+P505	Saule pleureur		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Salix × sepulcralis	
+P506	Saule cassant		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Salix × fragilis	
+P507	Sureau noir	Black Lace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/2765-sambucus-nigra-black-lace.html	24,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif		Sambucus nigra 'Black Lace'	40-60 cm
+P507	Sureau noir	Madonna	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/2062-sambucus-nigra-madonna.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Madonna (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Madonna'	
+P507	Sureau noir	Black Beauty	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/2764-sambucus-nigra-black-beauty.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Black Beauty (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Black Beauty'	
+P507	Sureau noir	Cherry Lace	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/3432-sambucus-nigra-cherry-lace.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Cherry Lace (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Cherry Lace'	
+P507	Sureau noir	Golden Tower	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/3999-sambucus-gold-tower.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Golden Tower (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Golden Tower'	
+P507	Sureau noir	Sampo	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/sureau/4027-sambucus-nigra-sampo.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Sampo (absente de l'onglet Fiches) ; Aucun format en stock	Sambucus nigra 'Sampo'	
+P508	Tilleul à grandes feuilles		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tilia platyphyllos	
+P509	Tilleul argenté		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tilia tomentosa	
+P510	Canna aquatique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Canna Hybrides aquatiques	
+P511	Canna à feuillage		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Canna Hybrides à feuillage	
+P512	Sapin du Colorado		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Abies concolor	
+P513	Sapin rouge de Californie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Abies magnifica	
+P514	Cèdre blanc de Californie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Calocedrus decurrens	
+P515	Mélèze d'Amérique		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Larix laricina	
+P516	Pin tordu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus contorta	
+P517	Pin de Coulter		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus coulteri	
+P518	Pin de Bishop		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus muricata	
+P519	Pin ponderosa		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus ponderosa	
+P520	Pin de Monterey		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pinus radiata	
+P521	Torreya de Californie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Torreya californica	
+P522	Fougère mâle	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/dryopteris/325-dryopteris-filix-mas.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Dryopteris filix-mas	
+P523	Rumohra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Rumohra adiantiformis	
+P524	Calamagrostis	Overdam	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/calamagrostis/194-calamagrostis-acutiflora-overdam.html	5,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Calamagrostis × acutiflora 'Overdam'	
+P524	Calamagrostis	Avalanche	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/calamagrostis/191-calamagrostis-acutiflora-avalanche.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Calamagrostis × acutiflora 'Avalanche'	
+P524	Calamagrostis	Karl Foerster	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/calamagrostis/193-calamagrostis-acutiflora-karl-foerster.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Calamagrostis × acutiflora 'Karl Foerster'	
+P525	Molinie bleue	Karl Foerster	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/746-molinia-arundinacea-karl-foerster.html	5,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : arundinacea Karl Foerster (absente de l'onglet Fiches) ; Vendu sous : arundinacea Karl Foerster	Molinia caerulea 'Karl Foerster'	
+P525	Molinie bleue	Transparent	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/748-molinia-caerulea-transparent.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : arundinacea Transparent (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : arundinacea Transparent	Molinia caerulea 'Transparent'	
+P525	Molinie bleue	Edith Dudszus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/745-molinia-caerulea-edith-dudszus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Molinia caerulea 'Edith Dudszus'	
+P525	Molinie bleue	Strahlenquelle	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/747-molinia-caerulea-strahlenquelle.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Molinia caerulea 'Strahlenquelle'	
+P525	Molinie bleue	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/749-molinia-caerulea-variegata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Molinia caerulea 'Variegata'	
+P525	Molinie bleue	Heidebraut	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/1363-molinia-caerulea-arundinacea-heidebraut.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Molinia caerulea 'Heidebraut'	
+P525	Molinie bleue	Moorhexe	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/1488-molinia-caerulea-moorhexe.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Molinia caerulea 'Moorhexe'	
+P525	Molinie bleue	Moorflamme	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/3344-molinia-caerulea-moorflamme.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Moorflamme (absente de l'onglet Fiches) ; Aucun format en stock	Molinia caerulea 'Moorflamme'	
+P525	Molinie bleue	Overdam	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/molinie-molinia/3351-molinia-caerulea-overdam.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Overdam (absente de l'onglet Fiches) ; Aucun format en stock	Molinia caerulea 'Overdam'	
+P526	Bégonia à cannes hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides à cannes	
+P527	Bégonia Rex hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides Rex	
+P528	Bégonia semperflorens		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides semperflorens	
+P529	Bégonia tubéreux		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides tubéreux	
+P530	Bégonia elatior		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides elatior	
+P531	Palmier des cascades		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Chamaedorea cataractarum	
+P532	Iris des toits	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/649-iris-pseudacorus-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Iris pseudacorus Variegata - Iris des marais panaché ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Iris tectorum 'Variegata'	
+P532	Iris des toits	Variegata	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/iris-d-eau/1746-iris-ensata-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Iris ensata Variegata ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Iris tectorum 'Variegata'	
+P533	Callune	Wickwar Flame	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/3027-calluna-vulgaris-wickwar-flame.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Calluna vulgaris 'Wickwar Flame'	
+P533	Callune	Dark Beauty	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/3028-calluna-vulgaris-dark-beauty.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Dark Beauty (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Dark Beauty'	
+P533	Callune	Silver Knight	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/bruyere/3026-calluna-vulgaris-silver-knight.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Silver Knight (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Silver Knight'	
+P534	Lachenalia rouge		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lachenalia bulbifera	
+P535	Anémone des bois		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anemonoides nemorosa	
+P536	Pratia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lobelia pedunculata	
+P537	Chou sauvage		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea	
+P538	Immortelle perlée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Anaphalis margaritacea	
+P539	Bégonia rex		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia rex	
+P540	Bégonia decora		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia decora	
+P541	Bégonia xanthina		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia xanthina	
+P542	Bégonia annulata		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia annulata	
+P543	Bégonia grandis	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2024-begonia-grandis-evansiana.html	9,90	EUR	Godet	En stock		16/11/2026		Actif	Vendu sous : evansiana	Begonia grandis	
+P543	Bégonia grandis	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2024-begonia-grandis-evansiana.html	28,22	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 29,70 €) ; Vendu sous : evansiana	Begonia grandis	
+P544	Bégonia cucullata		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia cucullata	
+P545	Bégonia boliviensis		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia boliviensis	
+P546	Bégonia de Socotra		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia socotrana	
+P547	Bégonia dregei		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia dregei	
+P548	Bégonia aconitifolia		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Begonia aconitifolia	
+P549	Oxalis violette		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Oxalis violacea	
+P550	Souchet dense		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cyperus congestus	
+P551	Verbésine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Verbesina occidentalis	
+P552	Onagre bisannuel		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Oenothera biennis	
+P553	Aucuba du Japon	Golden king	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/arbuste/3054-aucuba-japonica-golden-king.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Aucuba japonica 'Golden king'	
+P554	Lamier jaune		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lamium galeobdolon	
+P555	Asclépiade tubéreuse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Asclepias tuberosa	
+P556	Chou pommé		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Capitata	
+P557	Chou kale		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Acephala	
+P558	Chou ornemental		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe ornemental	
+P559	Chou-fleur		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Botrytis	
+P560	Brocoli		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Italica	
+P561	Chou de Bruxelles		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gemmifera	
+P562	Chou-rave		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gongylodes	
+P563	Brocoli chinois		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Alboglabra	
+P564	Muguet	Bordeaux	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-vivaces/2935-convallaria-majalis-bordeaux.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Bordeaux (absente de l'onglet Fiches) ; Aucun format en stock	Convallaria majalis 'Bordeaux'	
+P565	Alpiste roseau	Picta	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/graminees-ornementales/843-phalaris-arundinacea-picta.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phalaris arundinacea 'Picta'	
+P566	Hydrocotyle de Buenos Aires		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hydrocotyle bonariensis	
+P567	Onagre des plages		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Camissoniopsis cheiranthifolia	
+P568	Cotonnière jaunâtre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pseudognaphalium luteoalbum	
+P569	Tamaris d'Allemagne		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Myricaria germanica	
+P570	Aster buissonnant	Lady In Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/108-aster-dumosus-lady-in-blue.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Symphyotrichum dumosum 'Lady In Blue'	
+P570	Aster buissonnant	Anneke	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/1868-aster-dumosus-anneke.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Anneke (absente de l'onglet Fiches) ; Aucun format en stock	Symphyotrichum dumosum 'Anneke'	
+P570	Aster buissonnant	Wood s Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/2033-aster-dumosus-wood-s-purple.html	4,90	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Wood s Purple (absente de l'onglet Fiches)	Symphyotrichum dumosum 'Wood s Purple'	
+P570	Aster buissonnant	Wood s Purple	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/2033-aster-dumosus-wood-s-purple.html	13,96	EUR	Godet	En stock		16/11/2026		Actif	Variété trouvée : Wood s Purple (absente de l'onglet Fiches) ; lot de 3 ; Promotion (prix barré 14,70 €)	Symphyotrichum dumosum 'Wood s Purple'	
+P570	Aster buissonnant	Island Samoa	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/2034-aster-dumosus-island-samoa.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Island Samoa (absente de l'onglet Fiches) ; Aucun format en stock	Symphyotrichum dumosum 'Island Samoa'	
+P570	Aster buissonnant	Professor Anton Kippenberg	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/4223-aster-dumosus-prof-anton-kippenberg.html	5,90	EUR	Godet	En stock		16/11/2026		Actif		Symphyotrichum dumosum 'Professor Anton Kippenberg'	
+P570	Aster buissonnant	Professor Anton Kippenberg	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/aster/4223-aster-dumosus-prof-anton-kippenberg.html	16,82	EUR	Godet	En stock		16/11/2026		Actif	lot de 3 ; Promotion (prix barré 17,70 €)	Symphyotrichum dumosum 'Professor Anton Kippenberg'	
+P571	Zostère marine		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Zostera marina	
+P572	Liane de brosse		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Cocculus hirsutus	
+P573	Renouée perfoliée		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Persicaria perfoliata	
+P574	Vigne vierge vraie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Parthenocissus quinquefolia	
+P575	Hortensia	schloss Wackerbarth	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4237-hydrangea-macrophylla-schloss-wackerbarth.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : schloss Wackerbarth (absente de l'onglet Fiches)	Hydrangea macrophylla 'schloss Wackerbarth'	20-30 cm
+P575	Hortensia	Benelux	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2443-hydrangea-macrophylla-benelux.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Benelux (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Benelux'	
+P575	Hortensia	Holstein	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2444-hydrangea-macrophylla-holstein.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Holstein (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Holstein'	
+P575	Hortensia	Merveille	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2446-hydrangea-macrophylla-merveille.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Merveille (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Merveille'	
+P575	Hortensia	Zorro	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2451-hydrangea-macrophylla-zorro.html	19,50	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Zorro (absente de l'onglet Fiches)	Hydrangea macrophylla 'Zorro'	
+P575	Hortensia	Alpengluhen	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2442-hydrangea-macrophylla-alpengluhen.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Alpengluhen (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Alpengluhen'	
+P575	Hortensia	Hot Red	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2452-hydrangea-macrophylla-hot-red.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Hot Red (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Hot Red'	
+P575	Hortensia	You and Me Forever	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2453-hydrangea-macrophylla-you-and-me-forever.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : You and Me Forever (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'You and Me Forever'	
+P575	Hortensia	Inspire	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2784-hydrangea-macrophylla-inspire.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Inspire (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Inspire'	
+P575	Hortensia	Nymphe	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2447-hydrangea-macrophylla-nymphe.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Nymphe (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Nymphe'	
+P575	Hortensia	Renate	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2448-hydrangea-macrophylla-renate.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Renate (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Renate'	
+P575	Hortensia	Rosita	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2449-hydrangea-macrophylla-rosita.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rosita (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Rosita'	
+P575	Hortensia	So Long Ebony	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/2450-hydrangea-macrophylla-so-long-ebony.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : So Long Ebony (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'So Long Ebony'	
+P575	Hortensia	Selina	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/3920-hydrangea-macrophylla-selina.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Selina (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Selina'	
+P575	Hortensia	Masja	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/2445-hydrangea-macrophylla-masja.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Masja (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Masja'	
+P575	Hortensia	Eclipse	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/3994-hydrangea-macrophylla-eclipse.html	29,50	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Eclipse (absente de l'onglet Fiches)	Hydrangea macrophylla 'Eclipse'	30-40 cm
+P575	Hortensia	Mme Emile Mouillère	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4048-hydrangea-macrophylla-mme-emile-mouillere.html	12,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Mme Emile Mouillère (absente de l'onglet Fiches)	Hydrangea macrophylla 'Mme Emile Mouillère'	30-40 cm
+P575	Hortensia	You and Me Together	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4049-hydrangea-macrophylla-you-and-me-together.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : You and Me Together (absente de l'onglet Fiches)	Hydrangea macrophylla 'You and Me Together'	20-30 cm
+P575	Hortensia	You and Me Love	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4050-hydrangea-macrophylla-you-and-me-love.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : You and Me Love (absente de l'onglet Fiches)	Hydrangea macrophylla 'You and Me Love'	30-40 cm
+P575	Hortensia	You and Me Romance	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4171-hydrangea-macrophylla-you-and-me-romance.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : You and Me Romance (absente de l'onglet Fiches)	Hydrangea macrophylla 'You and Me Romance'	
+P575	Hortensia	Cherry Explosion	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4235-hydrangea-macrophylla-cherry-explosion.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : Cherry Explosion (absente de l'onglet Fiches)	Hydrangea macrophylla 'Cherry Explosion'	
+P575	Hortensia	You and Me Princess Diana	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hydrangea-macrophylla/4238-hydrangea-macrophylla-you-and-me-princess-diana.html	25,90	EUR	Pot 3 à 4 L	En stock		16/11/2026		Actif	Variété trouvée : You and Me Princess Diana (absente de l'onglet Fiches)	Hydrangea macrophylla 'You and Me Princess Diana'	20-30 cm
+P575	Hortensia	Nikko Blue	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/hortensia/3375-hydrangea-macrophylla-nikko-blue.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hydrangea macrophylla 'Nikko Blue'	
+P576	Silène maritime		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Silene uniflora	
+P577	Passiflore bleue	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/plantes-grimpantes/2546-passiflora-caerulea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Passiflora caerulea	
+P578	Bananier hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Musa × paradisiaca	
+P579	Hyménocalle hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Hymenocallis Hybrides horticoles	
+P580			Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Bauhinia variegata	
+P581			Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brachychiton discolor	
+P582			Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Brachychiton rupestris	
+P583	Agapanthe hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agapanthus Hybrides	
+P587	Coprosma hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Coprosma Hybrides horticoles	
+P588	Magnolia hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Magnolia Hybrides horticoles	
+P584	Gazania hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Gazania Hybrides horticoles	
+P585	Lilas des Indes hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Lagerstroemia Hybrides horticoles	
+P586	Agave hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agave Hybrides horticoles	
+P589	Tamaris de printemps	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/tamaris/3189-tamarix-tetrandra.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Tamarix tetrandra	
+P590	Piment habanero		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Capsicum chinense	
+P591	Piment tabasco		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Capsicum frutescens	
+P592	Olivier de Bohême		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Elaeagnus angustifolia	
+P593	Agave de Havard	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/cactees/2484-agave-havardiana.html	72,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Agave havardiana	
+P594	Agave bleu		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Agave tequilana	
+P595	Aloès arborescent hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Aloidendron Hybrides horticoles	
+P596	Arbousier hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Arbutus Hybrides horticoles	
+P597	Capucine de Lobb		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum lobbianum	
+P598	Figuier de Barbarie		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Opuntia ficus-indica	
+P599	Bougainvillier glabre		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Bougainvillea glabra	
+P600	Citron caviar		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus australasica	
+P601	Agrume hybride		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Citrus Hybrides horticoles	
+P602	Plaqueminier lotier	Kaki lotus	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/petits-fruits/3845-diospyros-lotus.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Kaki lotus (absente de l'onglet Fiches) ; Aucun format en stock	Diospyros lotus 'Kaki lotus'	
+P603	Poirier sauvage		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Pyrus pyraster	
+P604	Pothos dragon		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Epipremnum pinnatum	
+P605	Copalme de Formose		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Liquidambar formosana	
+P606	Griottier		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Prunus cerasus	
+P607	Cytise de Voss		Le Châtel des Vivaces			EUR				16/11/2026		Actif	Non trouvé	Laburnum × watereri	
+P608	Herbe aux diamants	Espèce type	Le Châtel des Vivaces	https://www.le-chatel-des-vivaces.com/calamagrostis/192-calamagrostis-brachytricha.html	6,90	EUR	Pot 1,3 L	En stock		16/11/2026		Actif		Calamagrostis brachytricha	

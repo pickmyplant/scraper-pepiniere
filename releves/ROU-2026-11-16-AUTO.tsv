@@ -1,0 +1,900 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille	Espèce type	Roué Pépinières	https://rouepepinieres.com/2800-passiflore-adulis.html	24,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Passiflora edulis	
+P002	Barbadine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Passiflora quadrangularis	
+P003	Avocatier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Persea americana	
+P004	Bananier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Musa acuminata	
+P005	Manguier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Mangifera indica	
+P006	Corète du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Kerria japonica	
+P007	Pommier du Japon	Evereste	Roué Pépinières	https://rouepepinieres.com/3662-pommier-d-ornement-evereste--3565240185742.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Malus Evereste® 'Perpetu' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Malus × floribunda 'Evereste'	
+P008	Aglaonema		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage	Variegata	Roué Pépinières	https://rouepepinieres.com/3247-alpinia-zerumber-variegata.html	24,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Alpinia zerumbet 'Variegata'	
+P011	Lis araignée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Canna indica	
+P014	Pervenche de Madagascar		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ficus lyrata	
+P016	Dieffenbachia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dieffenbachia seguine	
+P017	Cordyline		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cordyline fruticosa	
+P018	Taro	Black Magic	Roué Pépinières	https://rouepepinieres.com/1313-colocasia-black-magic-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Colocasia 'Black Magic' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Colocasia esculenta 'Black Magic'	
+P018	Taro	Black	Roué Pépinières	https://rouepepinieres.com/2048-colocasia-black-stem-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Black Stem (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Black Stem	Colocasia esculenta 'Black'	Tige
+P018	Taro	Metallica	Roué Pépinières	https://rouepepinieres.com/2049-colocasia-esculenta-metallica-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Metallica (absente de l'onglet Fiches) ; Aucun format en stock	Colocasia esculenta 'Metallica'	
+P018	Taro	Black Ripple	Roué Pépinières	https://rouepepinieres.com/2780-taro-black-ripple.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Colocasia esculenta 'Black Ripple'	
+P018	Taro	White Lava	Roué Pépinières	https://rouepepinieres.com/3636-taro-white-lava.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Colocasia esculenta 'White Lava'	
+P019	Croton		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Codiaeum variegatum	
+P020	Plante araignée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Liriope spicata	
+P025	Coléus		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Strelitzia reginae	
+P028	Syngonium		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Zamioculcas zamiifolia	
+P032	Gingembre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dracaena draco	
+P035	Hibiscus de Chine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Plumeria rubra	
+P040	Goyavier fraise		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Psidium cattleyanum	
+P041	Goyavier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Psidium guajava	
+P042	Palmier chou		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Strelitzia nicolai	
+P044	Yucca géant	Variegata	Roué Pépinières	https://rouepepinieres.com/3283-yucca-gloriosa-variegata.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Yucca ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Yucca gigantea 'Variegata'	
+P044	Yucca géant	Espèce type	Roué Pépinières	https://rouepepinieres.com/3622-yucca-pied-d-elephant-grande-taille.html	225,00	EUR	Conteneur	En stock		16/11/2026		Actif		Yucca gigantea	170 cm
+P044	Yucca géant	Espèce type	Roué Pépinières	https://rouepepinieres.com/3622-yucca-pied-d-elephant-grande-taille.html	65,00	EUR	Pot 12 L	En stock		16/11/2026		Actif		Yucca gigantea	
+P044	Yucca géant	Jewel	Roué Pépinières	https://rouepepinieres.com/3623-yucca-pied-d-elephant-jewel-grande-taille.html	225,00	EUR	Conteneur	En stock		16/11/2026		Actif		Yucca gigantea 'Jewel'	170 cm
+P044	Yucca géant	Jewel	Roué Pépinières	https://rouepepinieres.com/3623-yucca-pied-d-elephant-jewel-grande-taille.html	63,00	EUR	Pot 12 L	En stock		16/11/2026		Actif		Yucca gigantea 'Jewel'	100 cm
+P045	Santoline petit-cyprès	Espèce type	Roué Pépinières	https://rouepepinieres.com/1903-santoline-argentee.html	21,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Santolina chamaecyparissus	
+P046	Capucine naine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes	Braise d'Été	Roué Pépinières	https://rouepepinieres.com/2389-lagerstroemia-indica-braise-d-ete.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Braise d'Été'	
+P047	Lilas des Indes	Rose Indien	Roué Pépinières	https://rouepepinieres.com/2390-lagerstroemia-indica-rose-indien.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Rose Indien'	
+P047	Lilas des Indes	Violet	Roué Pépinières	https://rouepepinieres.com/2391-lagerstroemia-indica-violet-d-ete.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Violet'	
+P047	Lilas des Indes	Espèce type	Roué Pépinières	https://rouepepinieres.com/2859-lagerstroemia-indica-gourmet-choco-pink.html	24,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Lagerstroemia indica	
+P047	Lilas des Indes	With Love Virgin	Roué Pépinières	https://rouepepinieres.com/3008-lagerstroemia-indica-with-love-virgin-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : With Love ‘Virgin (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'With Love Virgin'	
+P047	Lilas des Indes	With Love Girl	Roué Pépinières	https://rouepepinieres.com/3009-lagerstroemia-indica-with-love-girl-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'With Love Girl'	
+P047	Lilas des Indes	Rosea Grassi	Roué Pépinières	https://rouepepinieres.com/3138-lagerstroemia-indica-rosea-grassi-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rosea Grassi (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Rosea Grassi'	
+P047	Lilas des Indes	Whit VIII	Roué Pépinières	https://rouepepinieres.com/3139-lagerstroemia-indica-rhapsody-in-pink-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Whit VIII'	
+P047	Lilas des Indes	Nivea	Roué Pépinières	https://rouepepinieres.com/3140-lagerstroemia-indica-nivea-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Nivea'	
+P047	Lilas des Indes	Enduring summer	Roué Pépinières	https://rouepepinieres.com/3141-lagerstroemia-indica-enduring-summer-lilas-des-indes.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Enduring Summer (absente de l'onglet Fiches) ; Aucun format en stock	Lagerstroemia indica 'Enduring summer'	
+P047	Lilas des Indes	Violet	Roué Pépinières	https://rouepepinieres.com/3250-lagerstroemia-indica-violet-d-ete.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lagerstroemia indica 'Violet'	
+P048	Asparagus plumeux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lycianthes rantonnetii	
+P052	Gattilier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Vitex agnus-castus	
+P053	Lilas de Perse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Melia azedarach	
+P054	Polygala à feuilles de myrte		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Polygala myrtifolia	
+P055	Frangipanier blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Erythrostemon gilliesii	
+P058	Cordyline	Charlie Boy	Roué Pépinières	https://rouepepinieres.com/1604-cordyline-charlie-boy-.html	31,96	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Cordyline à feuillage rose ») ; rapproché par la variété de l'onglet Fiches	Cordyline australis 'Charlie Boy'	
+P058	Cordyline	Charlie Boy	Roué Pépinières	https://rouepepinieres.com/1604-cordyline-charlie-boy-.html	33,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Cordyline à feuillage rose ») ; rapproché par la variété de l'onglet Fiches	Cordyline australis 'Charlie Boy'	
+P058	Cordyline	Southern Splendour	Roué Pépinières	https://rouepepinieres.com/1966-cordyline-southern-slendour.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Southern Splendour (absente de l'onglet Fiches) ; Aucun format en stock	Cordyline australis 'Southern Splendour'	
+P058	Cordyline	Paso doble	Roué Pépinières	https://rouepepinieres.com/2655-cordyline-paso-doble.html	33,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Paso doble (absente de l'onglet Fiches)	Cordyline australis 'Paso doble'	
+P058	Cordyline	Paso doble	Roué Pépinières	https://rouepepinieres.com/2655-cordyline-paso-doble.html	45,00	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Paso doble (absente de l'onglet Fiches)	Cordyline australis 'Paso doble'	
+P058	Cordyline	Chocolat Mint	Roué Pépinières	https://rouepepinieres.com/2731-cordyline-australis-chocolate-mint.html	33,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Chocolat Mint (absente de l'onglet Fiches)	Cordyline australis 'Chocolat Mint'	
+P058	Cordyline	Chocolat Mint	Roué Pépinières	https://rouepepinieres.com/2731-cordyline-australis-chocolate-mint.html	45,00	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Chocolat Mint (absente de l'onglet Fiches)	Cordyline australis 'Chocolat Mint'	
+P058	Cordyline	Chocolat Mint	Roué Pépinières	https://rouepepinieres.com/2731-cordyline-australis-chocolate-mint.html	49,90	EUR	Pot 7,5 L	En stock		16/11/2026		Actif	Variété trouvée : Chocolat Mint (absente de l'onglet Fiches)	Cordyline australis 'Chocolat Mint'	
+P058	Cordyline	Festival Lime	Roué Pépinières	https://rouepepinieres.com/2751-cordyline-festival-lime.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Festival Lime (absente de l'onglet Fiches) ; Aucun format en stock	Cordyline australis 'Festival Lime'	
+P058	Cordyline	Festival Raspberry	Roué Pépinières	https://rouepepinieres.com/2809-cordyline-festival-Raspberry.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Festival Raspberry (absente de l'onglet Fiches) ; Aucun format en stock	Cordyline australis 'Festival Raspberry'	
+P058	Cordyline	Magic star	Roué Pépinières	https://rouepepinieres.com/3307-cordyline-magic-star.html	31,96	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Magic star (absente de l'onglet Fiches)	Cordyline australis 'Magic star'	30-40 cm
+P059	Lippia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phyla nodiflora	
+P060	Jasmin d'Arabie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Jasminum sambac	
+P061	Wédélia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agapanthus praecox	
+P064	Gaura	Everlast Dark Pink	Roué Pépinières	https://rouepepinieres.com/3592-gaura-everlast-dark-pink-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Everlast Dark Pink (absente de l'onglet Fiches) ; Aucun format en stock	Oenothera lindheimeri 'Everlast Dark Pink'	
+P064	Gaura	Snowstorm	Roué Pépinières	https://rouepepinieres.com/3993-gaura-snowstorm-.html	6,65	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Snowstorm (absente de l'onglet Fiches)	Oenothera lindheimeri 'Snowstorm'	
+P065	Petit flamboyant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Caesalpinia pulcherrima	
+P066	Flamboyant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Delonix regia	
+P067	Papyrus	Cleopatra	Roué Pépinières	https://rouepepinieres.com/1170-cyperus-cleopatra-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Cyperus 'Cleopatra' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Cyperus papyrus 'Cleopatra'	
+P068	Pin de Norfolk		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Araucaria heterophylla	
+P069	Immortelle d'Italie	Weisses Wunder	Roué Pépinières	https://rouepepinieres.com/3913-helichrysum-weisses-wunder-.html	22,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Helichrysum serotinum ‘Weisses Wunder’ ») ; rapproché par la variété de l'onglet Fiches	Helichrysum italicum 'Weisses Wunder'	
+P070	Belle-de-nuit		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat	Espèce type	Roué Pépinières	https://rouepepinieres.com/1716-kumquat.html	49,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus japonica	45-50 cm
+P072	Verveine citronnelle		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloysia citrodora	
+P073	Poireau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3280-cycas-revoluta-3565240184097.html	131,00	EUR	Pot 8 L	En stock		16/11/2026		Actif		Cycas revoluta	
+P075	Cycas du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3627-cycas-du-japon.html	39,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Cycas revoluta	
+P075	Cycas du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3638-cycas-du-japon-grande-taille.html	480,00	EUR	Conteneur	En stock		16/11/2026		Actif		Cycas revoluta	30-40 cm
+P075	Cycas du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3638-cycas-du-japon-grande-taille.html	675,00	EUR	Conteneur	En stock		16/11/2026		Actif		Cycas revoluta	80-100 cm
+P076	Épiaire de Byzance		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Stachys byzantina	
+P077	Papayer		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carica papaya	
+P078	Séné de Noël		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Senna bicapsularis	
+P079	Chêne vert à glands doux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tamarix africana	
+P082	Arganier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sideroxylon spinosum	
+P083	Orpin de Nice		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose	Bianco Semplice	Roué Pépinières	https://rouepepinieres.com/3144-nerium-oleander-bianco-semplice-laurier-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Bianco Semplice (absente de l'onglet Fiches) ; Aucun format en stock	Nerium oleander 'Bianco Semplice'	
+P084	Laurier-rose	Rosa Semplice	Roué Pépinières	https://rouepepinieres.com/3145-laurier-rose-rosa-semplice-10-litres.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rosa Semplice (absente de l'onglet Fiches) ; Aucun format en stock	Nerium oleander 'Rosa Semplice'	
+P084	Laurier-rose	Sister Agnes	Roué Pépinières	https://rouepepinieres.com/3826-laurier-rose-soeur-agnes-sur-tige.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nerium oleander 'Sister Agnes'	
+P084	Laurier-rose	Emilie	Roué Pépinières	https://rouepepinieres.com/3853-laurier-rose-emilie-sur-tige.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Emilie (absente de l'onglet Fiches) ; Aucun format en stock	Nerium oleander 'Emilie'	
+P084	Laurier-rose	Alsace	Roué Pépinières	https://rouepepinieres.com/3854-laurier-rose-alsace-sur-tige.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nerium oleander 'Alsace'	
+P084	Laurier-rose	Rosa Semplice	Roué Pépinières	https://rouepepinieres.com/3874-laurier-rose-rosa-semplice.html	14,95	EUR	Pot 2 L	En stock		16/11/2026		Actif	Variété trouvée : Rosa Semplice (absente de l'onglet Fiches)	Nerium oleander 'Rosa Semplice'	
+P084	Laurier-rose	Rosa Semplice	Roué Pépinières	https://rouepepinieres.com/3874-laurier-rose-rosa-semplice.html	16,50	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Rosa Semplice (absente de l'onglet Fiches)	Nerium oleander 'Rosa Semplice'	40-50 cm
+P084	Laurier-rose	Petite Salmon	Roué Pépinières	https://rouepepinieres.com/3946-laurier-rose-petite-salmon-.html	73,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Nerium oleander 'Petite Salmon'	
+P084	Laurier-rose	Petite Salmon	Roué Pépinières	https://rouepepinieres.com/3946-laurier-rose-petite-salmon-.html	115,00	EUR	Pot 25 L	En stock		16/11/2026		Actif		Nerium oleander 'Petite Salmon'	
+P085	Mûrier blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Morus alba	
+P086	Palmier nain	Compacta	Roué Pépinières	https://rouepepinieres.com/3233-chamaerops-humilis-compacta-3565240184097.html	210,00	EUR	Pot 30 L	En stock		16/11/2026		Actif	Variété trouvée : compacta (absente de l'onglet Fiches)	Chamaerops humilis 'Compacta'	70-80 cm
+P086	Palmier nain	Espèce type	Roué Pépinières	https://rouepepinieres.com/3278-chamaerops-humilis-3565240184097.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Chamaerops humilis	
+P086	Palmier nain	Cerifera	Roué Pépinières	https://rouepepinieres.com/3640-palmier-nain-grande-taille-3565240184097.html	115,00	EUR	Pot 25 L	En stock		16/11/2026		Actif		Chamaerops humilis 'Cerifera'	
+P087	Canne de Provence	Ely	Roué Pépinières	https://rouepepinieres.com/3600-canne-de-provence-ely-.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Arundo donax 'Ely'	
+P087	Canne de Provence	Variegata	Roué Pépinières	https://rouepepinieres.com/3601-canne-de-provence-variegata-.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Arundo donax 'Variegata'	
+P087	Canne de Provence	Aureo marginata	Roué Pépinières	https://rouepepinieres.com/3682-canne-de-provence-aureo-marginata-.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Aureo marginata (absente de l'onglet Fiches)	Arundo donax 'Aureo marginata'	
+P088	Persil		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ceratonia siliqua	
+P091	Oreilles de lapin		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Opuntia microdasys	
+P092	Palmier dattier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3957-grenadier-commun.html	595,00	EUR	Conteneur	En stock		16/11/2026		Actif		Punica granatum	
+P096	Sauge officinale	Espèce type	Roué Pépinières	https://rouepepinieres.com/3555-sauge-officinale.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia officinalis	
+P097	Géranium rosat		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pelargonium graveolens	
+P098	Aeonium arborescent	Zwartkop	Roué Pépinières	https://rouepepinieres.com/2770-aeonium-schwarzkopf.html	19,50	EUR	Pot 3 L	En stock		16/11/2026		Actif	Promotion (prix barré 22,95 €) ; Vendu sous : Schwarzkopf	Aeonium arboreum 'Zwartkop'	
+P098	Aeonium arborescent	Tip Top	Roué Pépinières	https://rouepepinieres.com/2771-aeonium-tip-top.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Tip Top (absente de l'onglet Fiches) ; Aucun format en stock	Aeonium arboreum 'Tip Top'	
+P099	Liane de Madère		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloe × delaetii	
+P101	Griffe de sorcière		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carpobrotus edulis	
+P102	Arroche halime		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Atriplex halimus	
+P103	Palmier royal		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Roystonea regia	
+P104	Liane griffe de chat		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dolichandra unguis-cati	
+P105	Kalanchoé de Daigremont		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Kalanchoe daigremontiana	
+P106	Séné d'Argentine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Senna corymbosa	
+P107	Chêne d'argent		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Grevillea robusta	
+P108	Armoise arborescente		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Artemisia arborescens	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3125-olivier.html	200,00	EUR	Conteneur	En stock		16/11/2026		Actif		Olea europaea	Tige
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3192-olivier-cepee-remontee.html	351,00	EUR	Pot 100 L	En stock		16/11/2026		Actif	Promotion (prix barré 390,00 €)	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3437-olivier-pompons.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3697-olivier-ecorce-lisse-a.html	560,00	EUR	Conteneur	En stock		16/11/2026		Actif		Olea europaea	175-200 cm
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3698-copy-of-olivier-ecorce-lisse-b.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3699-olivier-nuage-d.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3701-olivier-nuage-b.html	890,00	EUR	Conteneur	En stock		16/11/2026		Actif		Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3701-olivier-nuage-b.html	905,00	EUR	Pot 130 L	En stock		16/11/2026		Actif		Olea europaea	160 cm
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3702-olivier-nuage-a.html	720,00	EUR	Conteneur	En stock		16/11/2026		Actif		Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3703-olivier-tronc-lisse-c.html	785,00	EUR	Pot 100 L	En stock		16/11/2026		Actif		Olea europaea	3 m
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3704-olivier-vieux-tronc-b.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3705-olivier-vieux-tronc-a.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Olea europaea	
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3851-olivier-sur-tige.html	27,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Olea europaea	70-80 cm
+P109	Olivier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3852-olivier-buisson.html	22,95	EUR	Pot 1,5 L	En stock		16/11/2026		Actif		Olea europaea	35-40 cm
+P110	Thé des bois		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Gaultheria procumbens	
+P111	Chèvrefeuille arbustif		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lonicera ligustrina	
+P112	Andromède du Japon	Flaming Silver	Roué Pépinières	https://rouepepinieres.com/307-pieris-flaming-silver.html	29,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Pieris 'Flaming Silver', feuillage panaché ») ; rapproché par la variété de l'onglet Fiches	Pieris japonica 'Flaming Silver'	
+P112	Andromède du Japon	Passion	Roué Pépinières	https://rouepepinieres.com/309-pieris-passion.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Pieris 'Passion' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Pieris japonica 'Passion'	
+P112	Andromède du Japon	Prelude	Roué Pépinières	https://rouepepinieres.com/310-pieris-prelude.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Pieris nain 'Prelude' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Pieris japonica 'Prelude'	
+P112	Andromède du Japon	Little Heath Variegata	Roué Pépinières	https://rouepepinieres.com/311-pieris-little-heath-variegata.html	29,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Pieris nain 'Little Heath Variegata' ») ; rapproché par la variété de l'onglet Fiches	Pieris japonica 'Little Heath Variegata'	
+P112	Andromède du Japon	Ralto	Roué Pépinières	https://rouepepinieres.com/667-pieris-ralto.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Pieris 'Ralto' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Pieris japonica 'Ralto'	
+P112	Andromède du Japon	Katsura	Roué Pépinières	https://rouepepinieres.com/1201-pieris-katsura-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Pieris 'Katsura®', pousses pourpres ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Pieris japonica 'Katsura'	
+P112	Andromède du Japon	Purity	Roué Pépinières	https://rouepepinieres.com/2558-pieris-purity.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pieris japonica 'Purity'	
+P112	Andromède du Japon	Red Mill	Roué Pépinières	https://rouepepinieres.com/2559-pieris-red-mill.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Red Mill (absente de l'onglet Fiches) ; Aucun format en stock	Pieris japonica 'Red Mill'	
+P112	Andromède du Japon	Mountain Fire	Roué Pépinières	https://rouepepinieres.com/2560-pieris-mountain-fire.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pieris japonica 'Mountain Fire'	
+P112	Andromède du Japon	Passion	Roué Pépinières	https://rouepepinieres.com/3100-pieris-pink-passion.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pieris japonica 'Passion'	
+P113	Sapin d'Espagne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Abies pinsapo	
+P114	Muscari d'Arménie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Muscari armeniacum	
+P115	Laurier-sauce		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Laurus nobilis	
+P116	Laurier-cerise	Otto supreme	Roué Pépinières	https://rouepepinieres.com/3721-laurier-cerise-otto-supreme-.html	45,00	EUR	Pot 7,5 L	En stock		16/11/2026		Actif	Variété trouvée : Otto supreme (absente de l'onglet Fiches)	Prunus laurocerasus 'Otto supreme'	70 cm
+P117	Laurier-tin	Gwenllian	Roué Pépinières	https://rouepepinieres.com/271-viburnum-gwenllian.html	19,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Viburnum 'Gwenllian' ») ; rapproché par la variété de l'onglet Fiches	Viburnum tinus 'Gwenllian'	20-25 cm
+P117	Laurier-tin	Lisa Rose	Roué Pépinières	https://rouepepinieres.com/2263-laurier-tin-lisa-rose.html	19,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Viburnum tinus 'Lisa Rose'	25-30 cm
+P117	Laurier-tin	Spirit	Roué Pépinières	https://rouepepinieres.com/2289-viburnum-tinus-spirit-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Viburnum tinus 'Spirit'	
+P117	Laurier-tin	Quimper	Roué Pépinières	https://rouepepinieres.com/2592-viburnum-tinus-quimper.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Viburnum tinus 'Quimper'	
+P117	Laurier-tin	Rock n Rolla	Roué Pépinières	https://rouepepinieres.com/2811-viburnum-rockn-rolla.html	19,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Viburnum ») ; rapproché par la variété de l'onglet Fiches	Viburnum tinus 'Rock n Rolla'	
+P117	Laurier-tin	Espèce type	Roué Pépinières	https://rouepepinieres.com/3018-viburnum-tinus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Viburnum tinus	
+P117	Laurier-tin	Eve Price	Roué Pépinières	https://rouepepinieres.com/3239-viburnum-laurier-tin-eve-price.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Viburnum 'Eve price' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Viburnum tinus 'Eve Price'	
+P117	Laurier-tin	Eve Price	Roué Pépinières	https://rouepepinieres.com/3380-viburnum-laurier-tin-eve-price.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Viburnum 'Eve price' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Viburnum tinus 'Eve Price'	
+P118	Bruyère de Darley	Eva Gold	Roué Pépinières	https://rouepepinieres.com/602-erica-eva-gold.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Eva Gold'	10-15 cm
+P118	Bruyère de Darley	Eva Gold	Roué Pépinières	https://rouepepinieres.com/602-erica-eva-gold.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Eva Gold'	20-30 cm
+P118	Bruyère de Darley	White Perfection	Roué Pépinières	https://rouepepinieres.com/604-erica-white-perfection.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Erica 'White Perfection', fleur blanche ») ; rapproché par la variété de l'onglet Fiches	Erica × darleyensis 'White Perfection'	10-15 cm
+P118	Bruyère de Darley	White Perfection	Roué Pépinières	https://rouepepinieres.com/604-erica-white-perfection.html	10,95	EUR	Pot 2 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Erica 'White Perfection', fleur blanche ») ; rapproché par la variété de l'onglet Fiches	Erica × darleyensis 'White Perfection'	20-25 cm
+P118	Bruyère de Darley	White Perfection	Roué Pépinières	https://rouepepinieres.com/604-erica-white-perfection.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Erica 'White Perfection', fleur blanche ») ; rapproché par la variété de l'onglet Fiches	Erica × darleyensis 'White Perfection'	20-30 cm
+P118	Bruyère de Darley	White Perfection	Roué Pépinières	https://rouepepinieres.com/604-erica-white-perfection.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Erica 'White Perfection', fleur blanche ») ; rapproché par la variété de l'onglet Fiches	Erica × darleyensis 'White Perfection'	25-30 cm
+P118	Bruyère de Darley	Ghost Hills	Roué Pépinières	https://rouepepinieres.com/605-erica-ghost-hills.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Erica 'Ghost Hills' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Erica × darleyensis 'Ghost Hills'	
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/607-erica-spring-surprise.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	15-20 cm
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/607-erica-spring-surprise.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	20-25 cm
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/607-erica-spring-surprise.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	25-30 cm
+P118	Bruyère de Darley	Kramer's Rote	Roué Pépinières	https://rouepepinieres.com/609-erica-darleyensis-kramer-rote.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Kramer's Rote'	10-15 cm
+P118	Bruyère de Darley	Kramer's Rote	Roué Pépinières	https://rouepepinieres.com/609-erica-darleyensis-kramer-rote.html	12,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Kramer's Rote'	20-25 cm
+P118	Bruyère de Darley	Kramer's Rote	Roué Pépinières	https://rouepepinieres.com/609-erica-darleyensis-kramer-rote.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Kramer's Rote'	20-30 cm
+P118	Bruyère de Darley	Kramer's Rote	Roué Pépinières	https://rouepepinieres.com/609-erica-darleyensis-kramer-rote.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Kramer's Rote'	25-30 cm
+P118	Bruyère de Darley	Darley Dale	Roué Pépinières	https://rouepepinieres.com/643-erica-darley-dale.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Darley Dale'	10-15 cm
+P118	Bruyère de Darley	Darley Dale	Roué Pépinières	https://rouepepinieres.com/643-erica-darley-dale.html	12,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Darley Dale'	20-25 cm
+P118	Bruyère de Darley	Darley Dale	Roué Pépinières	https://rouepepinieres.com/643-erica-darley-dale.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Darley Dale'	20-30 cm
+P118	Bruyère de Darley	Darley Dale	Roué Pépinières	https://rouepepinieres.com/643-erica-darley-dale.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Darley Dale'	25-30 cm
+P118	Bruyère de Darley	Rouge	Roué Pépinières	https://rouepepinieres.com/2611-erica-gardengirls-fist-dinner.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Erica ‘Garden Girls® First Dinner rouge’ ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Erica × darleyensis 'Rouge'	
+P118	Bruyère de Darley	Rose	Roué Pépinières	https://rouepepinieres.com/2612-erica-gardengirls-fist-dinner.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Erica ‘Garden Girls® First dinner Rose’ ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Erica × darleyensis 'Rose'	
+P118	Bruyère de Darley	Snow Surprise	Roué Pépinières	https://rouepepinieres.com/2649-erica-darleyensis-snow-surprise.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Snow Surprise (absente de l'onglet Fiches)	Erica × darleyensis 'Snow Surprise'	15-20 cm
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/2651-erica-blanc-spring-surprise-3565249632322.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	20-30 cm
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/2651-erica-blanc-spring-surprise-3565249632322.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	25-30 cm
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/2652-erica-rouge-spring-surprise-3565249632322.html	17,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	
+P118	Bruyère de Darley	Spring Surprise	Roué Pépinières	https://rouepepinieres.com/2652-erica-rouge-spring-surprise-3565249632322.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Erica × darleyensis 'Spring Surprise'	
+P119	Bruyère des neiges	Isabell	Roué Pépinières	https://rouepepinieres.com/627-erica-carnea-isabell.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Isabell (absente de l'onglet Fiches)	Erica carnea 'Isabell'	10-15 cm
+P119	Bruyère des neiges	Tanja	Roué Pépinières	https://rouepepinieres.com/628-erica-carnea-tanja-3565249632285.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Tanja (absente de l'onglet Fiches) ; Aucun format en stock	Erica carnea 'Tanja'	
+P119	Bruyère des neiges	Rosalie	Roué Pépinières	https://rouepepinieres.com/777-erica-carnea-rosalie.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Rosalie (absente de l'onglet Fiches)	Erica carnea 'Rosalie'	10-15 cm
+P119	Bruyère des neiges	Samantha	Roué Pépinières	https://rouepepinieres.com/2647-erica-carnea-samantha.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Samantha (absente de l'onglet Fiches)	Erica carnea 'Samantha'	10-20 cm
+P120	Mahonia à feuilles de houx		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Berberis aquifolium	
+P121	Fittonia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Fittonia albivenis	
+P122	Filaire à feuilles étroites	Espèce type	Roué Pépinières	https://rouepepinieres.com/3650-phillyrea-angustifolia.html	77,00	EUR	Conteneur	En stock		16/11/2026		Actif		Phillyrea angustifolia	Boule
+P123	Cognassier du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chaenomeles speciosa	
+P124	Pétasite hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Petasites hybridus	
+P125	Germandrée arbustive	Curaçao	Roué Pépinières	https://rouepepinieres.com/1649-teucrium-curacao-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Curaçao (absente de l'onglet Fiches) ; Aucun format en stock	Teucrium fruticans 'Curaçao'	
+P125	Germandrée arbustive	Ouarzazate	Roué Pépinières	https://rouepepinieres.com/2105-teucrium-fruticans-ouarzazate-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ouarzazate (absente de l'onglet Fiches) ; Aucun format en stock	Teucrium fruticans 'Ouarzazate'	
+P125	Germandrée arbustive	Espèce type	Roué Pépinières	https://rouepepinieres.com/3947-germandree-arbustive.html	45,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Teucrium fruticans	
+P126	Argousier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hippophae rhamnoides	
+P127	Osmanthe de Burkwood		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Osmanthus × burkwoodii	
+P128	Prunellier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus spinosa	
+P129	Coronille de Valence		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Coronilla valentina	
+P130	Buis commun		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Buxus sempervirens	
+P131	Rhododendron de Corée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rhododendron mucronulatum	
+P132	Mimosa d'hiver	Le Gaulois	Roué Pépinières	https://rouepepinieres.com/2704-acacia-dealbata-le-gaulois-de-greffe.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acacia dealbata 'Le Gaulois'	
+P132	Mimosa d'hiver	Le Gaulois	Roué Pépinières	https://rouepepinieres.com/3149-acacia-dealbata-le-gaulois-.html	34,87	EUR		En stock		16/11/2026		Actif	Format non reconnu : « sur tuteur --> sur tuteur » ; Promotion (prix barré 37,50 €)	Acacia dealbata 'Le Gaulois'	
+P132	Mimosa d'hiver	Le Gaulois	Roué Pépinières	https://rouepepinieres.com/3149-acacia-dealbata-le-gaulois-.html	34,87	EUR	Pot 4 L	En stock		16/11/2026		Actif	Promotion (prix barré 37,50 €)	Acacia dealbata 'Le Gaulois'	40-50 cm
+P133	Chalef d'Ebbinge	Compacta	Roué Pépinières	https://rouepepinieres.com/2729-elaeagnus-ebbengei-compacta.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Elaeagnus ebbengei ‘Compacta’ ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Elaeagnus × submacrophylla 'Compacta'	
+P134	Arbre de Judée du Yunnan		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cercis glabra	
+P135	Bambou sacré	Blush Pink	Roué Pépinières	https://rouepepinieres.com/879-nandina-domestica-blush-pink.html	27,85	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Blush Pink®' ») ; rapproché par la variété de l'onglet Fiches ; Promotion (prix barré 29,95 €)	Nandina domestica 'Blush Pink'	30-40 cm
+P135	Bambou sacré	Blush Pink	Roué Pépinières	https://rouepepinieres.com/879-nandina-domestica-blush-pink.html	32,55	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Blush Pink®' ») ; rapproché par la variété de l'onglet Fiches ; Promotion (prix barré 35,00 €)	Nandina domestica 'Blush Pink'	40-50 cm
+P135	Bambou sacré	Fire Power	Roué Pépinières	https://rouepepinieres.com/1176-nandina-fire-power-bambou-sacre.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Fire Power' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Nandina domestica 'Fire Power'	
+P135	Bambou sacré	Gulf Stream	Roué Pépinières	https://rouepepinieres.com/1177-nandina-gulf-stream-.html	95,00	EUR	Conteneur	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Gulf Stream' ») ; rapproché par la variété de l'onglet Fiches	Nandina domestica 'Gulf Stream'	60-80 cm
+P135	Bambou sacré	Gulf Stream	Roué Pépinières	https://rouepepinieres.com/1177-nandina-gulf-stream-.html	29,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Gulf Stream' ») ; rapproché par la variété de l'onglet Fiches	Nandina domestica 'Gulf Stream'	30-40 cm
+P135	Bambou sacré	Gulf Stream	Roué Pépinières	https://rouepepinieres.com/1177-nandina-gulf-stream-.html	35,00	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina 'Gulf Stream' ») ; rapproché par la variété de l'onglet Fiches	Nandina domestica 'Gulf Stream'	40-50 cm
+P135	Bambou sacré	Lemon Lime	Roué Pépinières	https://rouepepinieres.com/1303-nandina-magical-lemon-lime.html	29,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina Magical@ Lemon Lime ») ; rapproché par la variété de l'onglet Fiches	Nandina domestica 'Lemon Lime'	30-40 cm
+P135	Bambou sacré	Lemon Lime	Roué Pépinières	https://rouepepinieres.com/1303-nandina-magical-lemon-lime.html	35,00	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Nandina Magical@ Lemon Lime ») ; rapproché par la variété de l'onglet Fiches	Nandina domestica 'Lemon Lime'	40-50 cm
+P135	Bambou sacré	Twilight	Roué Pépinières	https://rouepepinieres.com/2718-nandina-twilight.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nandina domestica 'Twilight'	
+P135	Bambou sacré	Red Light	Roué Pépinières	https://rouepepinieres.com/3012-nandina-domestica-redlight-bambou-sacre.html	29,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Nandina domestica 'Red Light'	20-25 cm
+P135	Bambou sacré	Red Light	Roué Pépinières	https://rouepepinieres.com/3012-nandina-domestica-redlight-bambou-sacre.html	35,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Nandina domestica 'Red Light'	
+P135	Bambou sacré	Obsessed	Roué Pépinières	https://rouepepinieres.com/3099-nandina-domestica-curly-obssessed-bambou-sacre.html	35,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Nandina domestica 'Obsessed'	
+P135	Bambou sacré	Flirt	Roué Pépinières	https://rouepepinieres.com/3134-nandina-domestica-flirt-bambou-sacre.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nandina domestica 'Flirt'	
+P135	Bambou sacré	Espèce type	Roué Pépinières	https://rouepepinieres.com/3137-nandina-domestica.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Nandina domestica	
+P136	Euphorbe characias	Wulfenii Shorty	Roué Pépinières	https://rouepepinieres.com/2076-euphorbe-characias-wulfenii-shorty--3565240114964.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Wulfenii Shorty (absente de l'onglet Fiches) ; Aucun format en stock	Euphorbia characias 'Wulfenii Shorty'	
+P136	Euphorbe characias	Tasmanian Tiger	Roué Pépinières	https://rouepepinieres.com/2567-euphorbe-tasmanian-tiger.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Euphorbia characias 'Tasmanian Tiger'	
+P136	Euphorbe characias	Miners Merlot	Roué Pépinières	https://rouepepinieres.com/2717-euphorbe-characias-miners-merlot-3565240114964.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Euphorbia characias 'Miners Merlot'	20-25 cm
+P136	Euphorbe characias	Silver Swan	Roué Pépinières	https://rouepepinieres.com/3029-euphorbe-silver-swan-euphorbia.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Euphorbia characias 'Silver Swan'	
+P136	Euphorbe characias	Glacier Blue	Roué Pépinières	https://rouepepinieres.com/3030-euphorbe-characias-glacier-blue-euphorbia.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Glacier Blue (absente de l'onglet Fiches) ; Aucun format en stock	Euphorbia characias 'Glacier Blue'	
+P137	Aralia du Japon	Spider's Web	Roué Pépinières	https://rouepepinieres.com/1256-aralia-du-japon-fatsia-spider-web-.html	27,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Fatsia japonica 'Spider's Web'	
+P137	Aralia du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/1496-aralia-du-japon-fatsia-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Fatsia japonica	
+P137	Aralia du Japon	Variegata	Roué Pépinières	https://rouepepinieres.com/2291-fatsia-variegata.html	27,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Fatsia japonica 'Variegata'	
+P138	Callitriche des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Callitriche palustris	
+P139	Élodée du Canada		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Elodea canadensis	
+P140	Pesse d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hippuris vulgaris	
+P141	Hottonie des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hottonia palustris	
+P142	Myriophylle verticillé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Myriophyllum verticillatum	
+P143	Potamot crépu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Potamogeton crispus	
+P144	Renoncule aquatique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ranunculus aquatilis	
+P145	Petite lentille d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lemna minor	
+P146	Hydrocharis		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hydrocharis morsus-ranae	
+P147	Stratiote faux-aloès		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Stratiotes aloides	
+P148	Châtaigne d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Trapa natans	
+P149	Azolla		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Azolla caroliniana	
+P150	Jacinthe d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pontederia crassipes	
+P151	Laitue d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pistia stratiotes	
+P152	Salvinie nageante		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Salvinia natans	
+P153	Aponogeton		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aponogeton distachyos	
+P154	Lotus jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nelumbo lutea	
+P155	Lotus sacré		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nelumbo nucifera	
+P156	Nymphéa nain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nymphaea tetragona	
+P157	Nénuphar jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nuphar lutea	
+P158	Nymphéa hybride rustique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nymphaea Hybrides rustiques	
+P159	Faux nénuphar		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nymphoides peltata	
+P160	Potamot nageant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Potamogeton natans	
+P161	Acore odorant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acorus calamus	
+P162	Acore graminée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acorus gramineus	
+P163	Plantain d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alisma plantago-aquatica	
+P164	Jonc fleuri		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Butomus umbellatus	
+P165	Populage des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Caltha palustris	
+P166	Laîche raide dorée	Aurea	Roué Pépinières	https://rouepepinieres.com/1486-laiche-carex-elata-aurea-.html	19,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Carex elata 'Aurea'	10-15 cm
+P167	Laîche palmier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carex muskingumensis	
+P168	Laîche du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carex morrowii	
+P169	Laîche pendante		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carex pendula	
+P170	Laîche des rives		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carex riparia	
+P171	Souchet long		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cyperus longus	
+P172	Glycérie aquatique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Glyceria maxima	
+P173	Gunnera	Espèce type	Roué Pépinières	https://rouepepinieres.com/1872-rhubarbe-geante-du-bresil.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Gunnera manicata	
+P174	Iris lisse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris laevigata	
+P175	Iris des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris pseudacorus	
+P176	Iris de Sibérie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris sibirica	
+P177	Lysichiton jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lysichiton americanus	
+P178	Lysichiton blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lysichiton camtschatcensis	
+P179	Menthe aquatique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Mentha aquatica	
+P180	Trèfle d'eau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Menyanthes trifoliata	
+P181	Myosotis des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Myosotis scorpioides	
+P182	Orontium		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Orontium aquaticum	
+P183	Roseau commun		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phragmites australis	
+P184	Pontédérie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pontederia cordata	
+P185	Sagittaire du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sagittaria trifolia	
+P186	Thalia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Thalia dealbata	
+P187	Massette à larges feuilles		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Typha latifolia	
+P188	Astilbe de Chine	Vision in Pink	Roué Pépinières	https://rouepepinieres.com/2776-astilbe-vision-pink.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Astilbe chinensis 'Vision in Pink'	
+P188	Astilbe de Chine	Vision in Red	Roué Pépinières	https://rouepepinieres.com/2777-astilbe-vision-in-red.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Astilbe chinensis 'Vision in Red'	
+P189	Astilboides		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Astilboides tabularis	
+P190	Actée à grappes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Actaea racemosa	
+P191	Actée simple	Carbonella	Roué Pépinières	https://rouepepinieres.com/3635-cierge-d-argent-carbonella-.html	11,00	EUR	Pot 1,3 L	En stock		16/11/2026		Actif	Variété trouvée : Carbonella (absente de l'onglet Fiches)	Actaea simplex 'Carbonella'	
+P192	Euphorbe des marais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Euphorbia palustris	
+P193	Reine-des-prés rouge		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Filipendula rubra	
+P194	Osmonde royale	Espèce type	Roué Pépinières	https://rouepepinieres.com/716-osmunda-regalis.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Osmunda regalis	
+P195	Miscanthus		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Miscanthus sinensis	
+P196	Hosta bleu	Great Expectations	Roué Pépinières	https://rouepepinieres.com/3608-hosta-great-expectations.html	20,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : x sieboldiana Great Expectations (absente de l'onglet Fiches) ; Vendu sous : x sieboldiana Great Expectations	Hosta sieboldiana 'Great Expectations'	
+P197	Pétasite du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Petasites japonicus	
+P198	Acacia bleuâtre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acacia saligna	
+P199	Marronnier d'Inde		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aesculus hippocastanum	
+P200	Ricinelle		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acalypha wilkesiana	
+P201	Agastache fenouil		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agastache foeniculum	
+P202	Agave d'Amérique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave americana	
+P203	Agave à cou de cygne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave attenuata	
+P204	Sisal		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave sisalana	
+P205	Arbre à soie	Ombrella	Roué Pépinières	https://rouepepinieres.com/2925-albizzia-julibrissin-ombrella.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Albizia julibrissin 'Ombrella'	
+P205	Arbre à soie	Summer Chocolate	Roué Pépinières	https://rouepepinieres.com/2962-albizzia-julibrissin-summer-chocolate.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Albizia julibrissin 'Summer Chocolate'	
+P205	Arbre à soie	Evey s Pride	Roué Pépinières	https://rouepepinieres.com/3360-albizzia-julibrissin-eveyspride.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Albizia julibrissin 'Evey s Pride'	
+P205	Arbre à soie	Rosea	Roué Pépinières	https://rouepepinieres.com/3902-albizia-rosea.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Albizia julibrissin 'Rosea'	
+P206	Rose trémière hérissée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alcea setosa	
+P207	Aloès de Chabaud		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloe chabaudii	
+P208	Aloès des dunes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloe thraskii	
+P209	Aloès vrai		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloe vera	
+P210	Aloès grimpant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloiampelos ciliaris	
+P211	Aloès arborescent		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloidendron barberae	
+P212	Alstroemère dorée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alstroemeria aurea	
+P213	Alstroemère ligtu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alstroemeria ligtu	
+P214	Alternanthère calicot		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alternanthera bettzickiana	
+P215	Alternanthère du Brésil		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alternanthera brasiliana	
+P216	Anthurium		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anthurium andraeanum	
+P217	Aphélandra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aphelandra squarrosa	
+P218	Désespoir des singes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Araucaria araucana	
+P219	Arbousier	Compacta	Roué Pépinières	https://rouepepinieres.com/2862-ARBUTUS-Unedo-compacta.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo 'Compacta'	
+P219	Arbousier	Atlantic	Roué Pépinières	https://rouepepinieres.com/2864-ARBUTUS-Unedo-atlantic.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo 'Atlantic'	
+P219	Arbousier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3069-ARBUTUS-Unedo-.html	115,00	EUR	Conteneur	En stock		16/11/2026		Actif		Arbutus unedo	100-125 cm
+P219	Arbousier	Peace and Love	Roué Pépinières	https://rouepepinieres.com/3330-arbousier-unedo-peace-and-love-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Arbutus unedo 'Peace and Love'	
+P219	Arbousier	Mercurius	Roué Pépinières	https://rouepepinieres.com/3331-arbousier-unedo-mercurius.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Mercurius (absente de l'onglet Fiches) ; Aucun format en stock	Arbutus unedo 'Mercurius'	
+P220	Grande capucine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum majus	
+P221	Bananier du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/1300-bananier-musa-basjoo.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Musa basjoo	
+P222	Bigaradier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Citrus × aurantium	
+P223	Cyprès de Provence	Pyramidalys	Roué Pépinières	https://rouepepinieres.com/3111-cupressus-sempervirens-pyramidalys.html	49,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Pyramidalys (absente de l'onglet Fiches)	Cupressus sempervirens 'Pyramidalys'	100-125 cm
+P223	Cyprès de Provence	Pyramidalys	Roué Pépinières	https://rouepepinieres.com/3111-cupressus-sempervirens-pyramidalys.html	79,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Pyramidalys (absente de l'onglet Fiches)	Cupressus sempervirens 'Pyramidalys'	150-175 cm
+P223	Cyprès de Provence	Pyramidalys	Roué Pépinières	https://rouepepinieres.com/3111-cupressus-sempervirens-pyramidalys.html	119,00	EUR	Pot 25 L	En stock		16/11/2026		Actif	Variété trouvée : Pyramidalys (absente de l'onglet Fiches)	Cupressus sempervirens 'Pyramidalys'	
+P223	Cyprès de Provence	Totem Pole	Roué Pépinières	https://rouepepinieres.com/3630-cypres-de-provence-totem-grande-taille.html	79,00	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	
+P223	Cyprès de Provence	Totem Pole	Roué Pépinières	https://rouepepinieres.com/3630-cypres-de-provence-totem-grande-taille.html	135,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Cupressus sempervirens 'Totem Pole'	
+P224	Amandier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus amygdalus	
+P225	Néflier du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Eriobotrya japonica	
+P226	Figuier	Perretta	Roué Pépinières	https://rouepepinieres.com/1668-figuier-perretta-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Ficus Gustissimo® 'Perretta' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Ficus carica 'Perretta'	
+P226	Figuier	Rouge de Bordeaux	Roué Pépinières	https://rouepepinieres.com/3892-figuier-rouge-de-bordeaux-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Ficus carica 'Rouge de Bordeaux'	
+P227	Mûrier noir		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Morus nigra	
+P228	Arbre de Judée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cercis siliquastrum	
+P229	Jacaranda	Espèce type	Roué Pépinières	https://rouepepinieres.com/3048-jacaranda-mimosifolia.html	65,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Jacaranda mimosifolia	
+P230	Myrte commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/2095-myrtus-communis.html	18,55	EUR	Pot 2 L	En stock		16/11/2026		Actif	Promotion (prix barré 19,95 €)	Myrtus communis	Tige
+P230	Myrte commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/2095-myrtus-communis.html	22,27	EUR	Pot 3 L	En stock		16/11/2026		Actif	Promotion (prix barré 23,95 €)	Myrtus communis	
+P230	Myrte commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/2095-myrtus-communis.html	41,85	EUR	Pot 10 L	En stock		16/11/2026		Actif	Promotion (prix barré 45,00 €)	Myrtus communis	
+P230	Myrte commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/2095-myrtus-communis.html	67,89	EUR	Pot 15 L	En stock		16/11/2026		Actif	Promotion (prix barré 73,00 €)	Myrtus communis	60-80 cm
+P230	Myrte commun	Tarentina	Roué Pépinières	https://rouepepinieres.com/2584-myrtus-communis-tarentina.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Myrtus communis 'Tarentina'	
+P230	Myrte commun	Tarentina	Roué Pépinières	https://rouepepinieres.com/3232-myrtus-communis-tarentina.html	32,50	EUR	Conteneur	En stock		16/11/2026		Actif		Myrtus communis 'Tarentina'	60-80 cm
+P230	Myrte commun	Tarentina	Roué Pépinières	https://rouepepinieres.com/3232-myrtus-communis-tarentina.html	23,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Myrtus communis 'Tarentina'	40-50 cm
+P231	Lentisque	Espèce type	Roué Pépinières	https://rouepepinieres.com/3631-pistachier-lentisque.html	100,00	EUR	Pot 25 L	En stock		16/11/2026		Actif		Pistacia lentiscus	
+P232	Nerprun alaterne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rhamnus alaternus	
+P233	Buplèvre ligneux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Bupleurum fruticosum	
+P234	Ciste cotonneux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cistus albidus	
+P235	Ciste à feuilles de sauge		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cistus salviifolius	
+P236	Ciste ladanifère		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cistus ladanifer	
+P237	Phlomis pourpre	Espèce type	Roué Pépinières	https://rouepepinieres.com/666-phlomis-purpurea.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Phlomis purpurea	
+P238	Jasmin jaune arbustif		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chrysojasminum fruticans	
+P239	Rose de Damas		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rosa × damascena	
+P240	Plumbago du Cap		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Plumbago auriculata	
+P241	Romarin d'Australie	Mundi	Roué Pépinières	https://rouepepinieres.com/1529-westringia-mundi-romarin-d-australie.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Westringia 'Mundi' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Westringia fruticosa 'Mundi'	
+P242	Jasmin officinal	Affine	Roué Pépinières	https://rouepepinieres.com/2853-jasminum-officinalis-affine.html	21,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Nom latin écrit « Jasminum officinalis » sur la fiche	Jasminum officinale 'Affine'	
+P242	Jasmin officinal	officinalis ‘Aureum	Roué Pépinières	https://rouepepinieres.com/2854-jasminum-officinalis-aureum.html	21,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Nom latin écrit « Jasminum officinalis » sur la fiche ; Variété trouvée : officinalis ‘Aureum (absente de l'onglet Fiches)	Jasminum officinale 'officinalis ‘Aureum'	
+P243	Jasmin étoilé	Espèce type	Roué Pépinières	https://rouepepinieres.com/435-trachelospermum-jasminoides.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Trachelospermum jasminoides	
+P243	Jasmin étoilé	Espèce type	Roué Pépinières	https://rouepepinieres.com/1459-jasmin-etoile-parfume-grimpant.html	23,20	EUR	Pot 3 L	En stock		16/11/2026		Actif	Promotion (prix barré 24,95 €)	Trachelospermum jasminoides	
+P243	Jasmin étoilé	Espèce type	Roué Pépinières	https://rouepepinieres.com/1459-jasmin-etoile-parfume-grimpant.html	47,38	EUR	Pot 6 L	En stock		16/11/2026		Actif	Promotion (prix barré 50,95 €)	Trachelospermum jasminoides	
+P243	Jasmin étoilé	Espèce type	Roué Pépinières	https://rouepepinieres.com/1459-jasmin-etoile-parfume-grimpant.html	88,35	EUR	Pot 10 L	En stock		16/11/2026		Actif	Promotion (prix barré 95,00 €)	Trachelospermum jasminoides	
+P243	Jasmin étoilé	Star of Toscane	Roué Pépinières	https://rouepepinieres.com/2290-trachelospermum-star-of-toscane-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Trachelospermum jasminoides 'Star of Toscane'	
+P243	Jasmin étoilé	of Sicily	Roué Pépinières	https://rouepepinieres.com/3873-jasmin-etoile-star-of-sicily-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Star of Sicily (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Star of Sicily	Trachelospermum jasminoides 'of Sicily'	
+P599	Bougainvillier glabre	Violet de Mèze	Roué Pépinières	https://rouepepinieres.com/2508-bougainvillier-violet-de-meze-.html	39,00	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : glabra Violet de Mèze (absente de l'onglet Fiches) ; Vendu sous : glabra Violet de Mèze ; Déplacé depuis P244	Bougainvillea glabra 'Violet de Mèze'	
+P245	Rosier de Banks		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rosa banksiae	
+P246	Vigne	Chasselas	Roué Pépinières	https://rouepepinieres.com/1431-vigne-chasselas-dore-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitis vinifera 'Chasselas'	
+P246	Vigne	Chasselas	Roué Pépinières	https://rouepepinieres.com/1432-vigne-chasselas-rose-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitis vinifera 'Chasselas'	
+P246	Vigne	Muscat de Hambourg	Roué Pépinières	https://rouepepinieres.com/1433-vigne-muscat-de-hambourg-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Vitis vinifera 'Muscat de Hambourg'	
+P246	Vigne	Bristaler Muscat	Roué Pépinières	https://rouepepinieres.com/1849-vigne-muscat-blanc-bristaler-muscat.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Bristaler Muscat (absente de l'onglet Fiches) ; Aucun format en stock	Vitis vinifera 'Bristaler Muscat'	
+P246	Vigne	Muscat d Alexandrie	Roué Pépinières	https://rouepepinieres.com/3629-vigne-muscat-d-alexandrie-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Muscat d Alexandrie (absente de l'onglet Fiches) ; Aucun format en stock	Vitis vinifera 'Muscat d Alexandrie'	
+P247	Câprier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Capparis spinosa	
+P248	Chèvrefeuille des Baléares		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lonicera implexa	
+P249	Clématite cirrheuse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Clematis cirrhosa	
+P250	Bignone rose		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Podranea ricasoliana	
+P251	Lavande dentée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lavandula dentata	
+P252	Lavande papillon	Tiara	Roué Pépinières	https://rouepepinieres.com/445-lavande-stoeschas-tiara.html	18,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Tiara (absente de l'onglet Fiches)	Lavandula stoechas 'Tiara'	20-25 cm
+P252	Lavande papillon	Regal Splendour	Roué Pépinières	https://rouepepinieres.com/645-lavande-stoeschas-regal-splendour.html	17,06	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Regal Splendour (absente de l'onglet Fiches) ; Promotion (prix barré 18,95 €)	Lavandula stoechas 'Regal Splendour'	20-25 cm
+P252	Lavande papillon	Violetto	Roué Pépinières	https://rouepepinieres.com/3933-lavande-papillon-violetto-.html	18,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Violetto (absente de l'onglet Fiches)	Lavandula stoechas 'Violetto'	
+P253	Liseron de Crète		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Convolvulus cneorum	
+P254	Germandrée tomenteuse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Teucrium polium	
+P255	Statice de Perez	Espèce type	Roué Pépinières	https://rouepepinieres.com/1647-statice-perezii.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Statice des Canaries	Limonium perezii	
+P256	Acanthe à feuilles molles	Espèce type	Roué Pépinières	https://rouepepinieres.com/3776-acanthe-a-feuilles-molles.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Acanthus mollis	
+P257	Iris de Florence		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris florentina	
+P258	Iris d'Algérie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris unguicularis	
+P259	Valériane rouge	Coccineus	Roué Pépinières	https://rouepepinieres.com/2929-centranthus-ruber-coccineus.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Valeriana rubra 'Coccineus'	
+P260	Dietes à grandes fleurs		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dietes grandiflora	
+P261	Sauge d'Afghanistan	Little Spire	Roué Pépinières	https://rouepepinieres.com/2273-sauge-d-afghanistan-little-spire-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia yangii 'Little Spire'	
+P261	Sauge d'Afghanistan	Prime Time	Roué Pépinières	https://rouepepinieres.com/2900-perovskia-lavande-afghanistan-prime-time-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia yangii 'Prime Time'	
+P262	Alfa		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Macrochloa tenacissima	
+P263	Sparte		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lygeum spartum	
+P264	Stipe géante		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Celtica gigantea	
+P265	Diss		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ampelodesmos mauritanicus	
+P266	Brachypode rameux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brachypodium retusum	
+P267	Muhlenbergie capillaire	Espèce type	Roué Pépinières	https://rouepepinieres.com/2933-muhlenbergia-capillaris.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Muhlenbergia capillaris	
+P267	Muhlenbergie capillaire	Ruby	Roué Pépinières	https://rouepepinieres.com/2978-muhlenbergia-capillaris-ruby.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Ruby (absente de l'onglet Fiches) ; Aucun format en stock	Muhlenbergia capillaris 'Ruby'	
+P268	Avoine bleue		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Helictotrichon sempervirens	
+P269	Zoysia du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Zoysia japonica	
+P270	Paspalum des plages		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Paspalum vaginatum	
+P271	Serpolet		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Thymus serpyllum	
+P272	Frankénie lisse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Frankenia laevis	
+P273	Achillée à feuilles de criste		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Achillea crithmifolia	
+P274	Liseron de Mauritanie	Prime white	Roué Pépinières	https://rouepepinieres.com/2253-convolvulus-couvre-sol-a-fleur-blanche.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Prime white (absente de l'onglet Fiches) ; Aucun format en stock	Convolvulus sabatius 'Prime white'	
+P275	Dichondra argenté		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dichondra argentea	
+P276	Germandrée petit-chêne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Teucrium chamaedrys	
+P277	Narcisse papyracé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Narcissus papyraceus	
+P278	Iris d'Espagne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris xiphium	
+P279	Lys des sables		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pancratium maritimum	
+P280	Ail rose		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Allium roseum	
+P281	Sternbergie jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sternbergia lutea	
+P282	Nivéole d'été		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Leucojum aestivum	
+P283	Jonc des chaisiers		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Schoenoplectus lacustris	
+P284	Jonc épars		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Juncus effusus	
+P285	Massette naine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Typha minima	
+P286	Véronique des ruisseaux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Veronica beccabunga	
+P287	Arum d'Éthiopie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Zantedeschia aethiopica	
+P288	Cornifle nageant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ceratophyllum demersum	
+P289	Potamot pectiné		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Stuckenia pectinata	
+P290	Chara commune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chara vulgaris	
+P291	Renoncule peltée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ranunculus peltatus	
+P292	Nymphéa tropical		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nymphaea Hybrides tropicaux	
+P293	Nymphéa hybride nain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nymphaea Hybrides nains	
+P294	Aglaonema rouge		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aglaonema Hybrides à feuillage rouge	
+P295	Romarin	Espèce type	Roué Pépinières	https://rouepepinieres.com/2008-romarin-officinal.html	38,50	EUR	Pot 10 L	En stock		16/11/2026		Actif		Salvia rosmarinus	
+P296	Lavande vraie	Essence Purple	Roué Pépinières	https://rouepepinieres.com/1412-lavande-essence-purple.html	17,06	EUR	Pot 3 L	En stock		16/11/2026		Actif	Promotion (prix barré 18,95 €)	Lavandula angustifolia 'Essence Purple'	15-20 cm
+P296	Lavande vraie	Munstead	Roué Pépinières	https://rouepepinieres.com/2089-lavande-munstead.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lavandula angustifolia 'Munstead'	
+P296	Lavande vraie	Grosso	Roué Pépinières	https://rouepepinieres.com/2090-lavandula-x-intermedia-grosso-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula x intermedia 'Grosso' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Lavandula angustifolia 'Grosso'	
+P296	Lavande vraie	Bleu de Gien	Roué Pépinières	https://rouepepinieres.com/3346-lavande-bleu-de-gien.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Bleu de Gien (absente de l'onglet Fiches) ; Aucun format en stock	Lavandula angustifolia 'Bleu de Gien'	
+P296	Lavande vraie	Phenomenal	Roué Pépinières	https://rouepepinieres.com/3348-lavande-phenomenal.html	17,06	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Lavandula intermedia 'Phenomenal' ») ; rapproché par la variété de l'onglet Fiches ; Promotion (prix barré 18,95 €)	Lavandula angustifolia 'Phenomenal'	15-20 cm
+P297	Lavandin	Grosso	Roué Pépinières	https://rouepepinieres.com/2090-lavandula-x-intermedia-grosso-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Lavandula × intermedia 'Grosso'	
+P297	Lavandin	Exceptional	Roué Pépinières	https://rouepepinieres.com/3347-lavande-exceptional.html	18,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Lavandula × intermedia 'Exceptional'	15-20 cm
+P297	Lavandin	Phenomenal	Roué Pépinières	https://rouepepinieres.com/3348-lavande-phenomenal.html	17,06	EUR	Pot 3 L	En stock		16/11/2026		Actif	Promotion (prix barré 18,95 €)	Lavandula × intermedia 'Phenomenal'	15-20 cm
+P297	Lavandin	Sensational	Roué Pépinières	https://rouepepinieres.com/3349-lavande-sensational.html	18,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Sensational (absente de l'onglet Fiches)	Lavandula × intermedia 'Sensational'	15-20 cm
+P298	Thym commun	Compactus	Roué Pépinières	https://rouepepinieres.com/3559-thym-commun.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Thymus vulgaris 'Compactus'	
+P299	Origan		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Origanum vulgare	
+P300	Marjolaine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Origanum majorana	
+P301	Pittospore du Japon	Variegatum	Roué Pépinières	https://rouepepinieres.com/267-pittosporum-variegatum.html	100,00	EUR	Conteneur	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Pittosporum 'Variegatum' ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	100-125 cm
+P301	Pittospore du Japon	Variegatum	Roué Pépinières	https://rouepepinieres.com/267-pittosporum-variegatum.html	22,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Pittosporum 'Variegatum' ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	20-25 cm
+P301	Pittospore du Japon	Variegatum	Roué Pépinières	https://rouepepinieres.com/267-pittosporum-variegatum.html	35,00	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Pittosporum 'Variegatum' ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	
+P301	Pittospore du Japon	Nana	Roué Pépinières	https://rouepepinieres.com/1574-pittosporum-tobira-nana-.html	45,00	EUR	Pot 10 L	En stock		16/11/2026		Actif	Variété trouvée : Nana , Pittosporum du Japon (absente de l'onglet Fiches) ; Vendu sous : Nana , Pittosporum du Japon	Pittosporum tobira 'Nana'	
+P301	Pittospore du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3148-pittospore-tobira.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pittosporum tobira	
+P301	Pittospore du Japon	Green Mound , Pittosporum du Japon	Roué Pépinières	https://rouepepinieres.com/3358-pittosporum-tobira-green-mount.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Green Mound , Pittosporum du Japon (absente de l'onglet Fiches) ; Aucun format en stock	Pittosporum tobira 'Green Mound , Pittosporum du Japon'	
+P301	Pittospore du Japon	Nana	Roué Pépinières	https://rouepepinieres.com/3383-pittosporum-tobira-nana-.html	85,00	EUR	Pot 15 L	En stock		16/11/2026		Actif	Variété trouvée : Nana (absente de l'onglet Fiches)	Pittosporum tobira 'Nana'	
+P302	Citronnier	Meyer	Roué Pépinières	https://rouepepinieres.com/2638-citrus-lemon-meyer-3565240198582.html	45,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus × limon 'Meyer'	50 cm
+P302	Citronnier	Espèce type	Roué Pépinières	https://rouepepinieres.com/2639-citrus-lemon-3565240198582.html	48,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus × limon	50 cm
+P302	Citronnier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3628-citronnier-des-4-saisons-grande-taille-3565240198582.html	130,00	EUR	Conteneur	En stock		16/11/2026		Actif		Citrus × limon	
+P302	Citronnier	Espèce type	Roué Pépinières	https://rouepepinieres.com/3628-citronnier-des-4-saisons-grande-taille-3565240198582.html	95,00	EUR	Pot 7,5 L	En stock		16/11/2026		Actif		Citrus × limon	
+P302	Citronnier	Meyer	Roué Pépinières	https://rouepepinieres.com/3824-citronnier-meyer-grande-taille-3565240198582.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Citrus × limon 'Meyer'	
+P303	Oranger doux	Espèce type	Roué Pépinières	https://rouepepinieres.com/1718-oranger.html	69,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus × sinensis	
+P303	Oranger doux	Sanguinelli	Roué Pépinières	https://rouepepinieres.com/3756-oranger-sanguin-sanguinello.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Sanguinello	Citrus × sinensis 'Sanguinelli'	
+P304	Thuya de Berbérie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tetraclinis articulata	
+P305	Euphorbe résinifère		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Euphorbia resinifera	
+P306	Chêne vert		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus ilex	
+P307	Chêne-liège		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus suber	
+P308	Cèdre de l'Atlas		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cedrus atlantica	
+P309	Pistachier de l'Atlas		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pistacia atlantica	
+P310	Jujubier sauvage		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ziziphus lotus	
+P311	Jujubier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ziziphus jujuba	
+P312	Genévrier de Phénicie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Juniperus phoenicea	
+P313	Rétama blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Retama monosperma	
+P314	Euphorbe arborescente		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Euphorbia dendroides	
+P315	Anthyllide barbe-de-Jupiter		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anthyllis barba-jovis	
+P316	Limoniastrum		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Limoniastrum monopetalum	
+P317	Criste marine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Crithmum maritimum	
+P318	Lotier de Crète		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lotus creticus	
+P319	Cinéraire maritime		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Jacobaea maritima	
+P320	Coprosma	Pacific Night	Roué Pépinières	https://rouepepinieres.com/2994-coprosma-repens-pacific-night.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Coprosma repens 'Pacific Night'	
+P587	Coprosma hybride	Pacific Sunset	Roué Pépinières	https://rouepepinieres.com/2995-coprosma-repens-pacific-sunset.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : x repens ‘Pacific Sunset (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x repens ‘Pacific Sunset ; Déplacé depuis P320	Coprosma Hybrides horticoles 'Pacific Sunset'	
+P320	Coprosma	‘Pacific Down	Roué Pépinières	https://rouepepinieres.com/2996-coprosma-pacific-dawn-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : x repens ‘Pacific Down (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : x repens ‘Pacific Down	Coprosma repens '‘Pacific Down'	
+P321	Arbre de Noël néo-zélandais		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Metrosideros excelsa	
+P322	Orgueil de Madère	Espèce type	Roué Pépinières	https://rouepepinieres.com/2370-echium-candicans.html	22,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Echium candicans	
+P323	Bignone du Cap		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tecomaria capensis	
+P324	Euryops		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Euryops pectinatus	
+P325	Rince-bouteille	Red Rocket	Roué Pépinières	https://rouepepinieres.com/2977-callistemon-citrinus-red-rocket-rince-bouteille.html	24,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Red Rocket (absente de l'onglet Fiches)	Melaleuca citrina 'Red Rocket'	
+P325	Rince-bouteille	Red Clusters	Roué Pépinières	https://rouepepinieres.com/3396-callistemon-red-clusters.html	29,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Red Clusters (absente de l'onglet Fiches)	Melaleuca citrina 'Red Clusters'	
+P326	Sauge du Mexique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Salvia leucantha	
+P327	Sauge de Greg	Blanc	Roué Pépinières	https://rouepepinieres.com/1276-sauge-salvia-alba-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Salvia Alba ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Salvia greggii 'Blanc'	
+P328	Sauge à petites feuilles	Espèce type	Roué Pépinières	https://rouepepinieres.com/393-salvia-grahamii.html	19,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Salvia microphylla	
+P328	Sauge à petites feuilles	So Cool Pale Blue	Roué Pépinières	https://rouepepinieres.com/1778-sauge-so-cool-pale-blue-.html		EUR		Rupture		16/11/2026		Actif	Espèce absente de la fiche (« Salvia 'So Cool Pale Blue' ») ; rapproché par la variété de l'onglet Fiches ; Aucun format en stock	Salvia microphylla 'So Cool Pale Blue'	
+P328	Sauge à petites feuilles	Pink Lips	Roué Pépinières	https://rouepepinieres.com/3750-sauge-arbustive-pink-lips-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Salvia microphylla 'Pink Lips'	
+P329	Tulbaghia	Blanc	Roué Pépinières	https://rouepepinieres.com/2278-tulbaghia-alba-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Alba (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Alba	Tulbaghia violacea 'Blanc'	
+P329	Tulbaghia	Green blue	Roué Pépinières	https://rouepepinieres.com/2279-tulbaghia-green-blue-.html	20,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Green blue (absente de l'onglet Fiches)	Tulbaghia violacea 'Green blue'	
+P329	Tulbaghia	Flamingo	Roué Pépinières	https://rouepepinieres.com/2447-tulbaghia-flamingo.html	20,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Variété trouvée : Flamingo (absente de l'onglet Fiches)	Tulbaghia violacea 'Flamingo'	
+P329	Tulbaghia	Lilas	Roué Pépinières	https://rouepepinieres.com/2781-tulbaghia-violacea-lilas.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Lilas (absente de l'onglet Fiches) ; Aucun format en stock	Tulbaghia violacea 'Lilas'	
+P329	Tulbaghia	Dark star	Roué Pépinières	https://rouepepinieres.com/2902-tulbaghia-violacea-dark-star.html	20,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Tulbaghia violacea 'Dark star'	
+P330	Tritoma	Papaya Popsicle	Roué Pépinières	https://rouepepinieres.com/3806-tritoma-papaya-popsicle-.html	20,95	EUR	Pot 3 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Kniphofia Papaya Popsicle ») ; rapproché par la variété de l'onglet Fiches	Kniphofia uvaria 'Papaya Popsicle'	
+P331	Brachychiton à feuilles de peuplier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brachychiton populneus	
+P332	Arbre flamme		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brachychiton acerifolius	
+P333	Tipuana		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tipuana tipu	
+P334	Palmier bleu du Mexique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brahea armata	
+P335	Palmier abricot		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Butia odorata	
+P336	Palmier jupon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Washingtonia filifera	
+P337			Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé		
+P338	Leucophyllum		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Leucophyllum frutescens	
+P339	Hespéraloé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hesperaloe parviflora	
+P340	Yucca rostrata	Espèce type	Roué Pépinières	https://rouepepinieres.com/3019-yucca-rostrata.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Yucca rostrata	
+P340	Yucca rostrata	Espèce type	Roué Pépinières	https://rouepepinieres.com/3633-yucca-bleu-du-mexique-grande-taille.html	315,00	EUR		En stock		16/11/2026		Actif	Format non reconnu : « Stipe 20-30 cm --> Stipe 20-30 cm »	Yucca rostrata	
+P340	Yucca rostrata	Espèce type	Roué Pépinières	https://rouepepinieres.com/3633-yucca-bleu-du-mexique-grande-taille.html	1345,00	EUR	Conteneur	En stock		16/11/2026		Actif		Yucca rostrata	
+P340	Yucca rostrata	Espèce type	Roué Pépinières	https://rouepepinieres.com/3633-yucca-bleu-du-mexique-grande-taille.html	545,00	EUR	Pot 25 L	En stock		16/11/2026		Actif		Yucca rostrata	
+P341	Dasylirion		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dasylirion longissimum	
+P342	Dodonée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dodonaea viscosa	
+P343	Micocoulier de Provence		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Celtis australis	
+P344	Frêne à feuilles étroites		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Fraxinus angustifolia	
+P345	Arbre aux perruques	Royal Purple	Roué Pépinières	https://rouepepinieres.com/1832-arbre-a-perruques-royal-purple.html	54,00	EUR	Pot 10 L	En stock		16/11/2026		Actif	Nom latin écrit « Cotinus coggyria » sur la fiche	Cotinus coggygria 'Royal Purple'	
+P345	Arbre aux perruques	Red Spirit	Roué Pépinières	https://rouepepinieres.com/3049-arbre-a-perruques-royal-purple.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Red Spirit (absente de l'onglet Fiches) ; Aucun format en stock	Cotinus coggygria 'Red Spirit'	
+P346	Savonnier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Koelreuteria paniculata	
+P347	Cyprès de l'Arizona		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hesperocyparis arizonica	
+P348	Pistachier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pistacia vera	
+P349	Plaqueminier kaki	Vainiglia	Roué Pépinières	https://rouepepinieres.com/3362-kaki-vainiglia.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Vainiglia (absente de l'onglet Fiches) ; Aucun format en stock	Diospyros kaki 'Vainiglia'	
+P350	Feijoa	Espèce type	Roué Pépinières	https://rouepepinieres.com/3761-goyavier-du-bresil.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Feijoa sellowiana	
+P351	Faux poivrier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Schinus molle	
+P352	Parkinsonia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Parkinsonia aculeata	
+P353	Agastache rugueuse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agastache rugosa	
+P354	Oiseau de paradis mexicain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Erythrostemon mexicanus	
+P355	Alstroemère hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alstroemeria Hybrides horticoles	
+P357	Capucine hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum Hybrides horticoles	
+P358	Agastache hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agastache Hybrides horticoles	
+P359	Alternanthère ficoïde		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alternanthera ficoidea	
+P360	Arbre aux perruques hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cotinus Hybrides horticoles	
+P361	Amandier-pêcher		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus × persicoides	
+P362	Palmier des Canaries	Espèce type	Roué Pépinières	https://rouepepinieres.com/3237-phoenix-canariensis-3565240184097.html	115,00	EUR	Pot 25 L	En stock		16/11/2026		Actif		Phoenix canariensis	
+P362	Palmier des Canaries	Espèce type	Roué Pépinières	https://rouepepinieres.com/3237-phoenix-canariensis-3565240184097.html	695,00	EUR	Pot 100 L	En stock		16/11/2026		Actif		Phoenix canariensis	
+P362	Palmier des Canaries	Espèce type	Roué Pépinières	https://rouepepinieres.com/3945-dattier-des-canaries-3565240184097.html	740,00	EUR	Conteneur	En stock		16/11/2026		Actif		Phoenix canariensis	
+P362	Palmier des Canaries	Espèce type	Roué Pépinières	https://rouepepinieres.com/3964-palmier-des-canaries-grande-taille-3565240184097.html	925,00	EUR	Conteneur	En stock		16/11/2026		Actif		Phoenix canariensis	
+P363	Palmier de la reine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Syagrus romanzoffiana	
+P364	Pin parasol	Espèce type	Roué Pépinières	https://rouepepinieres.com/2927-Pinus-pinea.html	135,00	EUR	Conteneur	En stock		16/11/2026		Actif		Pinus pinea	150-175 cm
+P365	Pin d'Alep		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus halepensis	
+P366	Prune du Natal		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carissa macrocarpa	
+P367	Limettier mexicain	Espèce type	Roué Pépinières	https://rouepepinieres.com/3442-citron-vert-3565240198582.html	45,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus × aurantiifolia	
+P368	Misère pourpre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tradescantia pallida	
+P369	Filao		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Casuarina equisetifolia	
+P370	Canéficier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cassia fistula	
+P371	Noyer du Queensland		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Macadamia integrifolia	
+P372	Palmier d'Alexandra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Archontophoenix alexandrae	
+P373	Palmier éventail de Chine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Livistona chinensis	
+P374	Palmier de Chine	Espèce type	Roué Pépinières	https://rouepepinieres.com/3238-trachycarpus-fortunei-3565240184097.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Trachycarpus fortunei	
+P375	Kentia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Howea forsteriana	
+P376	Sansevière		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dracaena trifasciata	
+P377	Aspidistra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aspidistra elatior	
+P378	Lomandra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lomandra longifolia	
+P379	Genévrier cade		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Juniperus oxycedrus	
+P380	Frêne à fleurs		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Fraxinus ornus	
+P381	Tamaris de France		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tamarix gallica	
+P382	Arroche nummulaire		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Atriplex nummularia	
+P383	Arroche à quatre ailes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Atriplex canescens	
+P384	Obione		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Halimione portulacoides	
+P385	Cyprès de Lambert		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
+P386	Abricotier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus armeniaca	
+P387	Pêcher		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus persica	
+P388	Prunier	Reine-Claude Dorée	Roué Pépinières	https://rouepepinieres.com/3370-prunier-reine-claude-doree.html	49,95	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus domestica 'Reine-Claude Dorée'	
+P388	Prunier	Reine-Claude Dorée	Roué Pépinières	https://rouepepinieres.com/3370-prunier-reine-claude-doree.html	105,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Prunus domestica 'Reine-Claude Dorée'	
+P388	Prunier	Quetsche d'Alsace	Roué Pépinières	https://rouepepinieres.com/3707-prunier-quetsche-d-alsace.html	49,95	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus domestica 'Quetsche d'Alsace'	
+P388	Prunier	Reine Victoria	Roué Pépinières	https://rouepepinieres.com/3709-prunier-queen-victoria.html	49,95	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus domestica 'Reine Victoria'	
+P388	Prunier	Reine-Claude d'Oullins	Roué Pépinières	https://rouepepinieres.com/3887-prunier-reine-claude-d-oullins.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus domestica 'Reine-Claude d'Oullins'	
+P389	Cognassier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cydonia oblonga	
+P390	Poirier	Doyenne de Commice	Roué Pépinières	https://rouepepinieres.com/3373-poirier-doyenne-du-comice.html	69,00	EUR	Pot 15 L	En stock		16/11/2026		Actif	Variété trouvée : doyenne de commice (absente de l'onglet Fiches)	Pyrus communis 'Doyenne de Commice'	
+P390	Poirier	Williams	Roué Pépinières	https://rouepepinieres.com/3374-poirier-williams.html	69,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Pyrus communis 'Williams'	
+P391	Cédratier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Citrus medica	
+P392	Canne à sucre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Saccharum officinarum	
+P393	Caféier d'Arabie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Coffea arabica	
+P394	Noyer du Queensland à coque rugueuse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Macadamia tetraphylla	
+P395	Caoutchouc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ficus elastica	
+P396	Figuier pleureur		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ficus benjamina	
+P397	Banian		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ficus benghalensis	
+P398	Saguaro		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carnegiea gigantea	
+P399	Pin maritime		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus pinaster	
+P400	Peuplier blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Populus alba	
+P401	Armérie maritime		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Armeria maritima	
+P402	Jonquille		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Narcissus jonquilla	
+P403	Ail triquètre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Allium triquetrum	
+P404	Camomille allemande		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Matricaria chamomilla	
+P405	Lupin à feuilles étroites		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lupinus angustifolius	
+P406	Tournesol		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Helianthus annuus	
+P407	Rosier des chiens		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rosa canina	
+P408	Lierre grimpant	Glacier	Roué Pépinières	https://rouepepinieres.com/2797-hedera-helix-glacier.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hedera helix 'Glacier'	
+P408	Lierre grimpant	Hibernica	Roué Pépinières	https://rouepepinieres.com/2798-hedera-helix-hibernica.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hedera helix 'Hibernica'	
+P408	Lierre grimpant	Little Diamond	Roué Pépinières	https://rouepepinieres.com/2799-hedera-helix-little-diamond.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Little Diamond (absente de l'onglet Fiches) ; Aucun format en stock	Hedera helix 'Little Diamond'	
+P408	Lierre grimpant	Espèce type	Roué Pépinières	https://rouepepinieres.com/3284-hedera-helix-needle-point.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Hedera helix	
+P409	Liriope		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Liriope muscari	
+P410	Chrysocephalum		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chrysocephalum apiculatum	
+P411	Violette d'Australie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Viola hederacea	
+P412	Oxalis pourpre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Oxalis triangularis	
+P413	Pothos		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Epipremnum aureum	
+P414	Dragonnier parfumé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Dracaena fragrans	
+P415	Palmier mazari		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nannorrhops ritchieana	
+P416	Palmier de Floride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Serenoa repens	
+P417	Palmier à sucre de l'Inde		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Caryota urens	
+P418	Aréca		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chrysalidocarpus lutescens	
+P419	Cycas de l'Inde		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cycas circinalis	
+P420	Kaloupilé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Murraya koenigii	
+P421	Badamier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Terminalia catappa	
+P422	Mûrier à papier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Broussonetia papyrifera	
+P423	Fougère de Boston		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Nephrolepis exaltata	
+P424	Fougère bouton		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pellaea rotundifolia	
+P425	Ricin		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ricinus communis	
+P426	Oxalis des Bermudes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Oxalis pes-caprae	
+P427	Herbe aux écouvillons pourpres		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cenchrus setaceus	
+P428	Bambou doré		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phyllostachys aurea	
+P429	Tagète des décombres		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tagetes minuta	
+P430	Liseron des champs		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Convolvulus arvensis	
+P431	Rhododendron pontique	Variegata	Roué Pépinières	https://rouepepinieres.com/2610-rhododendron-ponticum-variegatum.html	29,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Rhododendron ponticum 'Variegata'	
+P431	Rhododendron pontique	Variegata	Roué Pépinières	https://rouepepinieres.com/2610-rhododendron-ponticum-variegatum.html	84,95	EUR	Pot 15 L	En stock		16/11/2026		Actif		Rhododendron ponticum 'Variegata'	
+P432	Tilleul à petites feuilles		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tilia cordata	
+P433	Pin noir	Brepo	Roué Pépinières	https://rouepepinieres.com/3118-Pinus-nigra-brepo-pin.html	69,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Brepo (absente de l'onglet Fiches)	Pinus nigra 'Brepo'	30-40 cm
+P433	Pin noir	Marie Bregeon	Roué Pépinières	https://rouepepinieres.com/3771-pin-noir-marie-bregeon-.html	89,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Marie Bregeon (absente de l'onglet Fiches)	Pinus nigra 'Marie Bregeon'	
+P433	Pin noir	Brepo	Roué Pépinières	https://rouepepinieres.com/3921-pin-noir-brepo-grande-taille.html	675,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Brepo (absente de l'onglet Fiches)	Pinus nigra 'Brepo'	100-125 cm
+P434	Épicéa		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Picea abies	
+P435	Peuplier baumier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Populus balsamifera	
+P436	Bambou noir du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phyllostachys nigra	
+P437	Phellodendron		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phellodendron amurense	
+P438	Cryptomeria		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cryptomeria japonica	
+P439	Katsura	Espèce type	Roué Pépinières	https://rouepepinieres.com/2664-cercidiphyllum-japonicum.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Cercidiphyllum japonicum	
+P440	Sorbier des oiseleurs		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sorbus aucuparia	
+P441	Saule pleureur		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Salix babylonica	
+P442	Chêne chevelu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus cerris	
+P443	Sapin de Nikko		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Abies homolepis	
+P444	Ginkgo		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ginkgo biloba	
+P445	Noyer du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Juglans ailantifolia	
+P446	Mélèze du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Larix kaempferi	
+P447	Ostrya		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Ostrya japonica	
+P448	Épicéa de Koyama		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Picea koyamae	
+P449	Érable à feuilles rondes		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acer circinatum	
+P450	Pavier de l'Ohio		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aesculus glabra	
+P451	Catalpa	Purpurea	Roué Pépinières	https://rouepepinieres.com/2987-catalpa-erubescens-purpurea.html	39,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Catalpa erubescens ‘Purpurea’ ») ; rapproché par la variété de l'onglet Fiches	Catalpa bignonioides 'Purpurea'	50-60 cm
+P451	Catalpa	Aurea	Roué Pépinières	https://rouepepinieres.com/2988-catalpa-bignonioides-aurea.html	39,95	EUR	Pot 5 L	En stock		16/11/2026		Actif		Catalpa bignonioides 'Aurea'	50-60 cm
+P451	Catalpa	Espèce type	Roué Pépinières	https://rouepepinieres.com/3950-catalpa-commun.html	65,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Catalpa bignonioides	
+P452	Copalme d'Amérique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Liquidambar styraciflua	
+P453	Épinette d'Engelmann		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Picea engelmannii	
+P454	Chêne rouge d'Amérique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus rubra	
+P455	Tilleul américain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tilia americana	
+P456	Pin de Weymouth		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus strobus	
+P457	Platane d'Occident		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Platanus occidentalis	
+P458	Bouleau merisier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Betula lenta	
+P459	Bouleau gris		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Betula populifolia	
+P460	Pacanier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Carya illinoinensis	
+P461	Cyprès de Lawson		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chamaecyparis lawsoniana	
+P462	Hêtre commun		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Fagus sylvatica	
+P463	Épicéa du Colorado		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Picea pungens	
+P464	Pin mugo	var. pumilio	Roué Pépinières	https://rouepepinieres.com/2926-Pinus-mugo-var-pumilio.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Pinus mugo 'var. pumilio'	
+P465	Platane commun		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Platanus × hispanica	
+P466	Peuplier noir		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Populus nigra	
+P467	Laurier sassafras		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sassafras albidum	
+P468	If commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/3376-taxus-baccata-cone.html	180,00	EUR	Pot 30 L	En stock		16/11/2026		Actif		Taxus baccata	
+P468	If commun	Espèce type	Roué Pépinières	https://rouepepinieres.com/3377-taxus-baccata-boule.html	230,00	EUR	Pot 30 L	En stock		16/11/2026		Actif		Taxus baccata	
+P469	Thuya géant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Thuja plicata	
+P470	Pommier	Fuji	Roué Pépinières	https://rouepepinieres.com/3363-pommier-fuji.html	49,95	EUR	Pot 10 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Malus 'Fuji' ») ; rapproché par la variété de l'onglet Fiches	Malus domestica 'Fuji'	
+P470	Pommier	Fuji	Roué Pépinières	https://rouepepinieres.com/3363-pommier-fuji.html	75,00	EUR	Pot 15 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Malus 'Fuji' ») ; rapproché par la variété de l'onglet Fiches	Malus domestica 'Fuji'	Tige
+P470	Pommier	Golden Delicious	Roué Pépinières	https://rouepepinieres.com/3364-pommier-golden-delicious.html	75,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Malus domestica 'Golden Delicious'	
+P470	Pommier	Reine des Reinettes	Roué Pépinières	https://rouepepinieres.com/3365-pommier-reine-des-reinettes.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Malus domestica 'Reine des Reinettes'	
+P470	Pommier	Elstar	Roué Pépinières	https://rouepepinieres.com/3890-pommier-elstar.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif	Espèce absente de la fiche (« Malus communis 'Elstar' ») ; rapproché par la variété de l'onglet Fiches	Malus domestica 'Elstar'	
+P471	Cerisier	Burlat	Roué Pépinières	https://rouepepinieres.com/3366-cerisier-bigarreau-burlat.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus avium 'Burlat'	
+P471	Cerisier	Burlat	Roué Pépinières	https://rouepepinieres.com/3366-cerisier-bigarreau-burlat.html	89,00	EUR	Pot 15 L	En stock		16/11/2026		Actif		Prunus avium 'Burlat'	
+P471	Cerisier	Reverchon	Roué Pépinières	https://rouepepinieres.com/3893-cerisier-bigarreau-reverchon.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif	Variété trouvée : bigarreau Reverchon (absente de l'onglet Fiches) ; Vendu sous : bigarreau Reverchon	Prunus avium 'Reverchon'	
+P471	Cerisier	Napoléon	Roué Pépinières	https://rouepepinieres.com/3894-cerisier-bigarreau-napoleon.html	49,00	EUR	Pot 10 L	En stock		16/11/2026		Actif		Prunus avium 'Napoléon'	
+P472	Scirpe-jonc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Scirpoides holoschoenus	
+P473	Cytise faux-ébénier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Laburnum anagyroides	
+P474	Chêne pédonculé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus robur	
+P475	Parrotie de Perse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Parrotia persica	
+P476	Manglier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rhizophora mucronata	
+P477	Flamme de forêt		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Butea monosperma	
+P478	Saraca		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Saraca asoca	
+P479	Érable de Nikko		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acer maximowiczianum	
+P480	Érable du Japon	Seiryu	Roué Pépinières	https://rouepepinieres.com/565-acer-palmatum-seiryu.html	42,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Seiryu'	
+P480	Érable du Japon	Deshôjô	Roué Pépinières	https://rouepepinieres.com/566-acer-palmatum-deshojo.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Deshôjô (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Deshôjô'	
+P480	Érable du Japon	Garnet	Roué Pépinières	https://rouepepinieres.com/567-acer-palmatum-dissectum-garnet.html	42,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Garnet'	
+P480	Érable du Japon	Shaina	Roué Pépinières	https://rouepepinieres.com/568-acer-palmatum-shaina.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Shaina'	
+P480	Érable du Japon	Trompenburg	Roué Pépinières	https://rouepepinieres.com/570-acer-palmatum-trompemburg-erable-3565240103357.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Trompenburg'	
+P480	Érable du Japon	Dissectum	Roué Pépinières	https://rouepepinieres.com/571-acer-palmatum-dissectum-erable.html	27,95	EUR	Pot 2 L	En stock		16/11/2026		Actif	Variété trouvée : Dissectum (absente de l'onglet Fiches)	Acer palmatum 'Dissectum'	
+P480	Érable du Japon	Dissectum	Roué Pépinières	https://rouepepinieres.com/571-acer-palmatum-dissectum-erable.html	42,95	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Dissectum (absente de l'onglet Fiches)	Acer palmatum 'Dissectum'	
+P480	Érable du Japon	Butterfly	Roué Pépinières	https://rouepepinieres.com/1218-acer-palmatum-butterfly.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Butterfly'	
+P480	Érable du Japon	Firecracker	Roué Pépinières	https://rouepepinieres.com/1219-acer-palmatum-firecracker-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Firecracker (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Firecracker'	
+P480	Érable du Japon	Starfish	Roué Pépinières	https://rouepepinieres.com/1220-acer-palmatum-starfish-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Starfish (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Starfish'	
+P480	Érable du Japon	Emerald Lace	Roué Pépinières	https://rouepepinieres.com/1277-acer-palmatum-dissectum-emerald-lace-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Emerald Lace'	
+P480	Érable du Japon	Peve Chameleon	Roué Pépinières	https://rouepepinieres.com/1337-erable-acer-peve-chameleon-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Peve Chameleon (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Peve Chameleon'	
+P480	Érable du Japon	Bloodgood	Roué Pépinières	https://rouepepinieres.com/1466-erable-bloodgood-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Bloodgood'	
+P480	Érable du Japon	Katsura	Roué Pépinières	https://rouepepinieres.com/1805-erable-acer-palmatum-katsura.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Katsura'	
+P480	Érable du Japon	Aureum	Roué Pépinières	https://rouepepinieres.com/1808-erable-du-japon-aureum-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Aureum (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Aureum'	
+P480	Érable du Japon	Arakawa	Roué Pépinières	https://rouepepinieres.com/1904-erable-du-japon-arakawa.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Arakawa (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Arakawa'	
+P480	Érable du Japon	Fujinami	Roué Pépinières	https://rouepepinieres.com/1905-erable-du-japon-fujinami-nishiki.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Fujinami (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Fujinami'	
+P480	Érable du Japon	Manyo no Sato	Roué Pépinières	https://rouepepinieres.com/1907-erable-du-japon-manyo-no-sato.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Manyo no Sato (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Manyo no Sato'	
+P480	Érable du Japon	Okushimo	Roué Pépinières	https://rouepepinieres.com/1908-erable-du-japon-okushimo.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Okushimo (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Okushimo'	
+P480	Érable du Japon	Rainbow	Roué Pépinières	https://rouepepinieres.com/1909-erable-du-japon-rainbow.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Rainbow (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Rainbow'	
+P480	Érable du Japon	Shishigashira	Roué Pépinières	https://rouepepinieres.com/1910-erable-du-japon-shishigashira.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Shishigashira (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Shishigashira'	
+P480	Érable du Japon	Summergold	Roué Pépinières	https://rouepepinieres.com/1911-erable-du-japon-summer-gold.html	27,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Acer palmatum 'Summergold'	
+P480	Érable du Japon	Summergold	Roué Pépinières	https://rouepepinieres.com/1911-erable-du-japon-summer-gold.html	42,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Summergold'	
+P480	Érable du Japon	Koto no ito	Roué Pépinières	https://rouepepinieres.com/1980-erable-du-japon-koto-no-ito-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Koto no ito'	
+P480	Érable du Japon	Crimson Queen	Roué Pépinières	https://rouepepinieres.com/2057-erable-du-japon-crimson-queen-3565249617602.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Crimson Queen'	
+P480	Érable du Japon	Sango-Kaku	Roué Pépinières	https://rouepepinieres.com/2060-acer-palmatum-sango-kaku--3565240183878.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Sango-Kaku'	
+P480	Érable du Japon	Peve Ollie	Roué Pépinières	https://rouepepinieres.com/2126-erable-du-japon-peve-ollie-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Peve Ollie (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Peve Ollie'	
+P480	Érable du Japon	Twombly s Red Sentinel	Roué Pépinières	https://rouepepinieres.com/2127-erable-du-japon-twombly-s-red-sentinel-.html	46,45	EUR	Pot 4 L	En stock		16/11/2026		Actif	Variété trouvée : Twombly s Red Sentinel (absente de l'onglet Fiches) ; Promotion (prix barré 49,95 €)	Acer palmatum 'Twombly s Red Sentinel'	
+P480	Érable du Japon	Orange Dream	Roué Pépinières	https://rouepepinieres.com/2151-acer-orange-dream.html	27,95	EUR	Pot 2 L	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	
+P480	Érable du Japon	Orange Dream	Roué Pépinières	https://rouepepinieres.com/2151-acer-orange-dream.html	42,95	EUR	Pot 4 L	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	
+P480	Érable du Japon	Shishio Hime	Roué Pépinières	https://rouepepinieres.com/2343-acer-palmatum-shishio-hime.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Shishio Hime (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Shishio Hime'	
+P480	Érable du Japon	Shiraz	Roué Pépinières	https://rouepepinieres.com/2344-acer-palmatum-shirazz.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Shirazz	Acer palmatum 'Shiraz'	
+P480	Érable du Japon	Aogayi	Roué Pépinières	https://rouepepinieres.com/2385-acer-palmatum-aogayi.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Aogayi (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Aogayi'	
+P480	Érable du Japon	Bi Hoo	Roué Pépinières	https://rouepepinieres.com/2386-acer-palmatum-bi-hoo.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Bi Hoo (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Bi Hoo'	
+P480	Érable du Japon	Garnet	Roué Pépinières	https://rouepepinieres.com/2479-acer-palmatum-dissectum-garnet.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Garnet'	
+P480	Érable du Japon	Bloodgood	Roué Pépinières	https://rouepepinieres.com/2483-erable-bloodgood-.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Bloodgood'	125-150 cm
+P480	Érable du Japon	Orange Dream	Roué Pépinières	https://rouepepinieres.com/2487-erable-orange-dream-grands.html	115,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	80-100 cm
+P480	Érable du Japon	Orange Dream	Roué Pépinières	https://rouepepinieres.com/2487-erable-orange-dream-grands.html	160,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	100-125 cm
+P480	Érable du Japon	Orange Dream	Roué Pépinières	https://rouepepinieres.com/2487-erable-orange-dream-grands.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Orange Dream'	125-150 cm
+P480	Érable du Japon	Sango-Kaku	Roué Pépinières	https://rouepepinieres.com/2488-acer-palmatum-sango-kaku--3565240183878.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Sango-Kaku'	
+P480	Érable du Japon	Seiryu	Roué Pépinières	https://rouepepinieres.com/2490-erable-seiryu-grands.html	160,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Seiryu'	100-125 cm
+P480	Érable du Japon	Seiryu	Roué Pépinières	https://rouepepinieres.com/2490-erable-seiryu-grands.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Seiryu'	125-150 cm
+P480	Érable du Japon	Seiryu	Roué Pépinières	https://rouepepinieres.com/2490-erable-seiryu-grands.html	370,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Seiryu'	200-225 cm
+P480	Érable du Japon	Trompenburg	Roué Pépinières	https://rouepepinieres.com/2493-erable-trompenburg-grands.html	160,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Trompenburg'	100-125 cm
+P480	Érable du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/2614-acer-palmatum.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock ; Vendu sous : Type	Acer palmatum	
+P480	Érable du Japon	Fire Glow	Roué Pépinières	https://rouepepinieres.com/2882-acer-palmatum-fire-glow.html	175,50	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Fire Glow (absente de l'onglet Fiches) ; Promotion (prix barré 195,00 €)	Acer palmatum 'Fire Glow'	125-150 cm
+P480	Érable du Japon	Osakazuki	Roué Pépinières	https://rouepepinieres.com/2884-erable-du-japon-osakazuki-grands.html	160,00	EUR	Conteneur	En stock		16/11/2026		Actif		Acer palmatum 'Osakazuki'	100-125 cm
+P480	Érable du Japon	Scolopendrifolium	Roué Pépinières	https://rouepepinieres.com/2885-erable-du-japon-scolopendrifolium-grands.html	160,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Scolopendrifolium (absente de l'onglet Fiches)	Acer palmatum 'Scolopendrifolium'	100-125 cm
+P480	Érable du Japon	Scolopendrifolium	Roué Pépinières	https://rouepepinieres.com/2885-erable-du-japon-scolopendrifolium-grands.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Scolopendrifolium (absente de l'onglet Fiches)	Acer palmatum 'Scolopendrifolium'	125-150 cm
+P480	Érable du Japon	Scolopendrifolium	Roué Pépinières	https://rouepepinieres.com/2885-erable-du-japon-scolopendrifolium-grands.html	245,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Scolopendrifolium (absente de l'onglet Fiches)	Acer palmatum 'Scolopendrifolium'	150-175 cm
+P480	Érable du Japon	Crimson Queen	Roué Pépinières	https://rouepepinieres.com/2886-acer-palmatum-crimson-queen.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Crimson Queen'	
+P480	Érable du Japon	Inaba Shidare	Roué Pépinières	https://rouepepinieres.com/2887-acer-dissectum-inaba-shidare.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : dissectum ‘Inaba-Shidare (absente de l'onglet Fiches) ; Vendu sous : dissectum ‘Inaba-Shidare	Acer palmatum 'Inaba Shidare'	60-80 cm
+P480	Érable du Japon	Deshôjô	Roué Pépinières	https://rouepepinieres.com/2888-acer-palmatum-deshojo.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Deshôjô (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Deshôjô'	
+P480	Érable du Japon	Shishigashira	Roué Pépinières	https://rouepepinieres.com/2893-erable-du-japon-shishigashira.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Shishigashira (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Shishigashira'	
+P480	Érable du Japon	Osakazuki	Roué Pépinières	https://rouepepinieres.com/3065-erable-du-japon-osakazuki.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Acer palmatum 'Osakazuki'	
+P480	Érable du Japon	Koto Maru	Roué Pépinières	https://rouepepinieres.com/3067-acer-palmatum-koto-maru.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Koto Maru (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Koto Maru'	
+P480	Érable du Japon	Peve Multicolor	Roué Pépinières	https://rouepepinieres.com/3068-acer-palmatum-peve-multicolor.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Peve Multicolor (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Peve Multicolor'	
+P480	Érable du Japon	Atrolineare	Roué Pépinières	https://rouepepinieres.com/3603-acer-atrolineare.html	195,00	EUR	Conteneur	En stock		16/11/2026		Actif	Variété trouvée : Atrolineare (absente de l'onglet Fiches)	Acer palmatum 'Atrolineare'	125-150 cm
+P480	Érable du Japon	Atropurpureum	Roué Pépinières	https://rouepepinieres.com/3604-acer-palmatum-atropurpureum.html	227,85	EUR	Conteneur	En stock		16/11/2026		Actif	Promotion (prix barré 245,00 €)	Acer palmatum 'Atropurpureum'	150-175 cm
+P480	Érable du Japon	Manyo no Sato	Roué Pépinières	https://rouepepinieres.com/3613-erable-du-japon-manyo-no-sato-grands.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Manyo no Sato (absente de l'onglet Fiches) ; Aucun format en stock	Acer palmatum 'Manyo no Sato'	
+P481	Faux cyprès hinoki du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chamaecyparis obtusa	
+P482	Nezu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Juniperus rigida	
+P483	Magnolia de Soulange-Bodin		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Magnolia × soulangeana	
+P484	Pin blanc du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus parviflora	
+P485	Cerisier de Yedo		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus × yedoensis	
+P486	Kometsuga		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tsuga diversifolia	
+P487	Faux-orme du Japon	Espèce type	Roué Pépinières	https://rouepepinieres.com/3920-zelkova-du-japon.html	29,95	EUR	Pot 3 L	En stock		16/11/2026		Actif		Zelkova serrata	
+P488	Kaori blanc		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agathis moorei	
+P489	Mamaku		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Sphaeropteris medullaris	
+P490	Fougère arborescente	Espèce type	Roué Pépinières	https://rouepepinieres.com/1551-dicksonia-antartica.html	31,96	EUR	Pot 3 L	En stock		16/11/2026		Actif	Nom latin écrit « Dicksonia antartica » sur la fiche ; Vendu sous : antartica	Dicksonia antarctica	
+P490	Fougère arborescente	Espèce type	Roué Pépinières	https://rouepepinieres.com/1551-dicksonia-antartica.html	39,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Nom latin écrit « Dicksonia antartica » sur la fiche ; Vendu sous : antartica	Dicksonia antarctica	
+P491	Kānuka		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Kunzea ericoides	
+P492	ʻŌhiʻa lehua		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Metrosideros polymorpha	
+P493	Noni		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Morinda citrifolia	
+P494	Tōtara		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Podocarpus totara	
+P495	Canna hybride à fleurs		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Canna × generalis	
+P496	Loulu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pritchardia remota	
+P497	Anacardier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anacardium occidentale	
+P498	Arbre à pain		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Artocarpus altilis	
+P499	Érable champêtre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acer campestre	
+P500	Érable de Montpellier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acer monspessulanum	
+P501	Érable à feuilles d'obier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Acer opalus	
+P502	Aulne glutineux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Alnus glutinosa	
+P503	Frêne commun		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Fraxinus excelsior	
+P504	Chêne sessile		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Quercus petraea	
+P505	Saule pleureur		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Salix × sepulcralis	
+P506	Saule cassant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Salix × fragilis	
+P507	Sureau noir	Tower	Roué Pépinières	https://rouepepinieres.com/1124-sureau-sambuscus-black-tower-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Black Tower (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : Black Tower	Sambucus nigra 'Tower'	
+P508	Tilleul à grandes feuilles		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tilia platyphyllos	
+P509	Tilleul argenté		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tilia tomentosa	
+P510	Canna aquatique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Canna Hybrides aquatiques	
+P511	Canna à feuillage		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Canna Hybrides à feuillage	
+P512	Sapin du Colorado		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Abies concolor	
+P513	Sapin rouge de Californie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Abies magnifica	
+P514	Cèdre blanc de Californie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Calocedrus decurrens	
+P515	Mélèze d'Amérique		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Larix laricina	
+P516	Pin tordu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus contorta	
+P517	Pin de Coulter		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus coulteri	
+P518	Pin de Bishop		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus muricata	
+P519	Pin ponderosa		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus ponderosa	
+P520	Pin de Monterey		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pinus radiata	
+P521	Torreya de Californie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Torreya californica	
+P522	Fougère mâle	Espèce type	Roué Pépinières	https://rouepepinieres.com/2870-Dryopteris-filix-mas.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Dryopteris filix-mas	
+P523	Rumohra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Rumohra adiantiformis	
+P524	Calamagrostis	Avalanche	Roué Pépinières	https://rouepepinieres.com/1622-calamagrostis-avalanche-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Calamagrostis × acutiflora 'Avalanche'	
+P524	Calamagrostis	Overdam	Roué Pépinières	https://rouepepinieres.com/2945-calamagrostis-overdam.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Calamagrostis × acutiflora 'Overdam'	
+P525	Molinie bleue	Heidebraut	Roué Pépinières	https://rouepepinieres.com/2937-Molinia-caerula-heidebraut.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Molinia caerulea 'Heidebraut'	
+P526	Bégonia à cannes hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides à cannes	
+P527	Bégonia Rex hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides Rex	
+P528	Bégonia semperflorens		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides semperflorens	
+P529	Bégonia tubéreux		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides tubéreux	
+P530	Bégonia elatior		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia Hybrides elatior	
+P531	Palmier des cascades		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Chamaedorea cataractarum	
+P532	Iris des toits		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Iris tectorum	
+P533	Callune	rouge Amethyst	Roué Pépinières	https://rouepepinieres.com/1481-callune-amethyst.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : rouge Amethyst (absente de l'onglet Fiches)	Calluna vulgaris 'rouge Amethyst'	15-20 cm
+P533	Callune	Gardengirls Bettina	Roué Pépinières	https://rouepepinieres.com/1482-calluna-bettina.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Gardengirls Bettina (absente de l'onglet Fiches)	Calluna vulgaris 'Gardengirls Bettina'	10-15 cm
+P533	Callune	Golden Angie	Roué Pépinières	https://rouepepinieres.com/1483-callune-golden-angie-gardengirls.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Golden Angie (absente de l'onglet Fiches)	Calluna vulgaris 'Golden Angie'	10-15 cm
+P533	Callune	Rose	Roué Pépinières	https://rouepepinieres.com/1484-calluna-pink-bettina.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : rose (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Rose'	
+P533	Callune	Radnor	Roué Pépinières	https://rouepepinieres.com/1485-calluna-radnor.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Radnor (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Radnor'	
+P533	Callune	Zoé	Roué Pépinières	https://rouepepinieres.com/2587-callune-vulagris-zoe.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Zoé (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Zoé'	
+P533	Callune	White Angie	Roué Pépinières	https://rouepepinieres.com/2642-calluna-white-angie.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : White Angie (absente de l'onglet Fiches)	Calluna vulgaris 'White Angie'	10-20 cm
+P533	Callune	Hilda	Roué Pépinières	https://rouepepinieres.com/2643-calluna-hilda.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Hilda (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Hilda'	
+P533	Callune	Léna	Roué Pépinières	https://rouepepinieres.com/2644-calluna-lena.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Léna (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Léna'	
+P533	Callune	Lisbeth	Roué Pépinières	https://rouepepinieres.com/2645-calluna-lisbeth.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Lisbeth (absente de l'onglet Fiches)	Calluna vulgaris 'Lisbeth'	10-20 cm
+P533	Callune	Elisa	Roué Pépinières	https://rouepepinieres.com/3061-calluna-elisa.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Elisa (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Elisa'	
+P533	Callune	Zilly	Roué Pépinières	https://rouepepinieres.com/3062-calluna-zilly.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Zilly (absente de l'onglet Fiches)	Calluna vulgaris 'Zilly'	10-20 cm
+P533	Callune	Asli	Roué Pépinières	https://rouepepinieres.com/3419-callune-asli.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Asli (absente de l'onglet Fiches) ; Aucun format en stock	Calluna vulgaris 'Asli'	
+P533	Callune	Pink angie	Roué Pépinières	https://rouepepinieres.com/3420-callune-pink-angie.html	5,90	EUR	Pot 1 L	En stock		16/11/2026		Actif	Variété trouvée : Pink angie (absente de l'onglet Fiches)	Calluna vulgaris 'Pink angie'	
+P534	Lachenalia rouge		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lachenalia bulbifera	
+P535	Anémone des bois		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anemonoides nemorosa	
+P536	Pratia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lobelia pedunculata	
+P537	Chou sauvage		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea	
+P538	Immortelle perlée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Anaphalis margaritacea	
+P539	Bégonia rex		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia rex	
+P540	Bégonia decora		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia decora	
+P541	Bégonia xanthina		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia xanthina	
+P542	Bégonia annulata		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia annulata	
+P543	Bégonia grandis		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia grandis	
+P544	Bégonia cucullata		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia cucullata	
+P545	Bégonia boliviensis		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia boliviensis	
+P546	Bégonia de Socotra		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia socotrana	
+P547	Bégonia dregei		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia dregei	
+P548	Bégonia aconitifolia		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Begonia aconitifolia	
+P549	Oxalis violette		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Oxalis violacea	
+P550	Souchet dense		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cyperus congestus	
+P551	Verbésine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Verbesina occidentalis	
+P552	Onagre bisannuel		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Oenothera biennis	
+P553	Aucuba du Japon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aucuba japonica	
+P554	Lamier jaune		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lamium galeobdolon	
+P555	Asclépiade tubéreuse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Asclepias tuberosa	
+P556	Chou pommé		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Capitata	
+P557	Chou kale		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Acephala	
+P558	Chou ornemental		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe ornemental	
+P559	Chou-fleur		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Botrytis	
+P560	Brocoli		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Italica	
+P561	Chou de Bruxelles		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gemmifera	
+P562	Chou-rave		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gongylodes	
+P563	Brocoli chinois		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brassica oleracea groupe Alboglabra	
+P564	Muguet	Hardwick Hall	Roué Pépinières	https://rouepepinieres.com/3530-muguet-.html		EUR		Rupture		16/11/2026		Actif	Aucun format en stock	Convallaria majalis 'Hardwick Hall'	
+P565	Alpiste roseau		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Phalaris arundinacea	
+P566	Hydrocotyle de Buenos Aires		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hydrocotyle bonariensis	
+P567	Onagre des plages		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Camissoniopsis cheiranthifolia	
+P568	Cotonnière jaunâtre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pseudognaphalium luteoalbum	
+P569	Tamaris d'Allemagne		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Myricaria germanica	
+P570	Aster buissonnant		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Symphyotrichum dumosum	
+P571	Zostère marine		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Zostera marina	
+P572	Liane de brosse		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Cocculus hirsutus	
+P573	Renouée perfoliée		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Persicaria perfoliata	
+P574	Vigne vierge vraie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Parthenocissus quinquefolia	
+P575	Hortensia	Star Gazer bleu	Roué Pépinières	https://rouepepinieres.com/1874-hortensia-star-gazer-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Star Gazer bleu (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Star Gazer bleu'	
+P575	Hortensia	Rembrandt Bella pesche	Roué Pépinières	https://rouepepinieres.com/2080-hydrangea-macrophylla-rembrandt-bella-pesche-.html	27,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Rembrandt Bella pesche (absente de l'onglet Fiches)	Hydrangea macrophylla 'Rembrandt Bella pesche'	40-50 cm
+P575	Hortensia	Kardinal	Roué Pépinières	https://rouepepinieres.com/2081-hydrangea-macrophylla-kardinal.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Kardinal (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Kardinal'	
+P575	Hortensia	Charming Sophia	Roué Pépinières	https://rouepepinieres.com/2082-hydrangea-macrophylla-charming-sophia--3565240124079.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Charming Sophia (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'Charming Sophia'	
+P575	Hortensia	Firewings	Roué Pépinières	https://rouepepinieres.com/2083-hydrangea-macrophylla-firewings-.html	27,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Firewings (absente de l'onglet Fiches)	Hydrangea macrophylla 'Firewings'	40-50 cm
+P575	Hortensia	Koria	Roué Pépinières	https://rouepepinieres.com/2084-hydrangea-macrophylla-teller-koria-.html	27,95	EUR	Pot 5 L	En stock		16/11/2026		Actif	Variété trouvée : Koria (absente de l'onglet Fiches)	Hydrangea macrophylla 'Koria'	40-50 cm
+P575	Hortensia	You and Me Together	Roué Pépinières	https://rouepepinieres.com/2088-hydrangea-macrophylla-you-and-me-together-.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : You and Me Together (absente de l'onglet Fiches) ; Aucun format en stock	Hydrangea macrophylla 'You and Me Together'	
+P576	Silène maritime		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Silene uniflora	
+P577	Passiflore bleue		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Passiflora caerulea	
+P578	Bananier hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Musa × paradisiaca	
+P579	Hyménocalle hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Hymenocallis Hybrides horticoles	
+P580			Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Bauhinia variegata	
+P581			Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Brachychiton discolor	
+P582		Baobab australien	Roué Pépinières	https://rouepepinieres.com/1598-brachychiton-rupestris.html		EUR		Rupture		16/11/2026		Actif	Variété trouvée : Baobab australien (absente de l'onglet Fiches) ; Aucun format en stock	Brachychiton rupestris 'Baobab australien'	
+P583	Agapanthe hybride	bleue Crystal Blue	Roué Pépinières	https://rouepepinieres.com/2065-agapanthe-hybride-crystal-blue--3565240007945.html		EUR		Rupture		16/11/2026		Actif	Nom latin écrit « Agapanthus hybride » sur la fiche ; Variété trouvée : hybride bleue Crystal Blue (absente de l'onglet Fiches) ; Aucun format en stock ; Vendu sous : hybride bleue Crystal Blue	Agapanthus Hybrides 'bleue Crystal Blue'	
+P587	Coprosma hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Coprosma Hybrides horticoles	
+P588	Magnolia hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Magnolia Hybrides horticoles	
+P584	Gazania hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Gazania Hybrides horticoles	
+P585	Lilas des Indes hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Lagerstroemia Hybrides horticoles	
+P586	Agave hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave Hybrides horticoles	
+P589	Tamaris de printemps		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tamarix tetrandra	
+P590	Piment habanero		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Capsicum chinense	
+P591	Piment tabasco		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Capsicum frutescens	
+P592	Olivier de Bohême		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Elaeagnus angustifolia	
+P593	Agave de Havard		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave havardiana	
+P594	Agave bleu		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Agave tequilana	
+P595	Aloès arborescent hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Aloidendron Hybrides horticoles	
+P596	Arbousier hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Arbutus Hybrides horticoles	
+P597	Capucine de Lobb		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Tropaeolum lobbianum	
+P598	Figuier de Barbarie		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Opuntia ficus-indica	
+P599	Bougainvillier glabre		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Bougainvillea glabra	
+P600	Citron caviar	Espèce type	Roué Pépinières	https://rouepepinieres.com/2633-citrus-australasica-finger-lime-3565240198544.html	45,00	EUR	Pot 5 L	En stock		16/11/2026		Actif		Citrus australasica	50 cm
+P601	Agrume hybride		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Citrus Hybrides horticoles	
+P602	Plaqueminier lotier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Diospyros lotus	
+P603	Poirier sauvage		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Pyrus pyraster	
+P604	Pothos dragon		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Epipremnum pinnatum	
+P605	Copalme de Formose		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Liquidambar formosana	
+P606	Griottier		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Prunus cerasus	
+P607	Cytise de Voss		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Laburnum × watereri	
+P608	Herbe aux diamants		Roué Pépinières			EUR				16/11/2026		Actif	Non trouvé	Calamagrostis brachytricha	
