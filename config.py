@@ -16,11 +16,11 @@ PAUSE_AVANT_NOUVEL_ESSAI_S = 5.0
 
 # Plafonds de lignes
 # Par fiche produit (une fiche = une variété) : au-delà, formats les mieux répartis
-MAX_LIGNES_PAR_PRODUIT = None  # plus de limite : tous les formats en stock sont gardés (16/11/2026)
+MAX_LIGNES_PAR_PRODUIT = 100  # garde-fou contre un bug (formats répétés) ; en pratique tous les formats sont gardés
 # Par plante et par pépinière : None = pas de limite (toutes les fiches, tous les formats en stock)
 MAX_LIGNES_PAR_PLANTE = None
 # Nombre maximal de fiches produit lues par plante (garde-fou)
-MAX_FICHES_PAR_PLANTE = 60
+MAX_FICHES_PAR_PLANTE = 1000
 
 # Fichiers
 FICHIER_PLANTES = "data/plantes_test.csv"
