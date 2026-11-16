@@ -214,6 +214,14 @@ class Adaptateur:
             if v["barre"] and v["prix"] and v["barre"] > v["prix"]:
                 notes.append(f"Promotion (prix barré {prix_fr(v['barre'])} €)")
             h = _sans_zeros(hauteur(brut) or "") or forme(brut) or ""
+            if re.search(r"hauteur du tronc", brut, re.I):
+                # Arbre en tige : la hauteur donnée est celle du tronc, pas de la plante
+                h = f"Tige, tronc {h}"
+            for mot, lib in [("circonf[ée]rence du tronc", "Circonférence du tronc"),
+                             ("diam[èe]tre de la t[êe]te", "Diamètre de la tête")]:
+                m = re.search(mot + r"\s*([\d/ -]+?)\s*cm", brut, re.I)
+                if m:
+                    notes.append(f"{lib} {_sans_zeros(m.group(1).strip())} cm")
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
                       "EUR", cont, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h)
