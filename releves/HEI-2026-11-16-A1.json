@@ -1,0 +1,22 @@
+{
+ "releve": "HEI-2026-11-16-A1",
+ "pepiniere": "Plantes Heijnen",
+ "date": "16/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005",
+  "P006",
+  "P007",
+  "P008",
+  "P009",
+  "P010"
+ ],
+ "nb_lignes": 35,
+ "fichier": "releves/HEI-2026-11-16-A1.tsv",
+ "branche": "claude/sleepy-knuth-amtaxg",
+ "remarques": ""
+}
