@@ -1,5 +1,5 @@
 {
- "releve": "JDP-2026-11-16-A1",
+ "releve": "JDP-2026-11-16-A2",
  "pepiniere": "Le Jardin de Pascal",
  "date": "16/11/2026",
  "par": "Claude A",
@@ -15,8 +15,8 @@
   "P009",
   "P010"
  ],
- "nb_lignes": 10,
- "fichier": "releves/JDP-2026-11-16-A1.tsv",
+ "nb_lignes": 17,
+ "fichier": "releves/JDP-2026-11-16-A2.tsv",
  "branche": "claude/great-archimedes-ukzt83",
  "remarques": ""
 }
