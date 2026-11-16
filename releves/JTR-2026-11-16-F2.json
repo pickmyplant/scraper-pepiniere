@@ -1,0 +1,13 @@
+{
+ "releve": "JTR-2026-11-16-F2",
+ "pepiniere": "Jardin Tropic",
+ "date": "16/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P226"
+ ],
+ "nb_lignes": 21,
+ "fichier": "releves/JTR-2026-11-16-F2.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
