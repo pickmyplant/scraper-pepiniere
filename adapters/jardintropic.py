@@ -123,11 +123,12 @@ class Adaptateur:
     @staticmethod
     def _choix(page):
         """[(groupe, valeur)] de toutes les déclinaisons proposées (listes et boutons)."""
-        i = page.find('class="product-variants"')
-        if i < 0:
+        m = re.search(r'class="[^"]*\bproduct(?:-|__)variants\b', page)  # « product-variants » ou « product__variants » (2026-11)
+        if not m:
             return []
-        j = page.find('class="product-add-to-cart"', i)
-        bloc = page[i: j if j > 0 else i + 30000]
+        i = m.start()
+        f = re.compile(r'class="[^"]*\bproduct(?:-|__)add-to-cart\b').search(page, i)
+        bloc = page[i: f.start() if f else i + 30000]
         res = []
         for s in re.finditer(r'<select[^>]*name="group\[(\d+)\]"[^>]*>(.*?)</select>', bloc, re.S):
             for v in re.findall(r'<option value="(\d+)"', s.group(2)):
