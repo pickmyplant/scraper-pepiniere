@@ -22,7 +22,6 @@ NOM = "Ma Pépinière"
 PREFIXE = "MPE"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://ma-pepiniere.fr"
 RECHERCHE = BASE + "/fr/search?bitbag_elasticsearch_search%5Bbox%5D%5Bquery%5D={q}"
-MAX_FICHES = 25
 
 
 def _texte(x):
@@ -65,7 +64,7 @@ class Adaptateur:
             if M.contient(slug, plante.genre) or any(M.contient(slug, n) for n in noms) \
                     or any(M.contient(slug, s.split()[0]) for s in plante.synonymes_latins if s.split()):
                 garde.append(u)
-        return garde[:MAX_FICHES]
+        return garde[: config.MAX_FICHES_PAR_PLANTE]
 
     # ---------- fiche ----------
     def _page(self, url):
