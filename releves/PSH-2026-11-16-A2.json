@@ -1,0 +1,22 @@
+{
+ "releve": "PSH-2026-11-16-A2",
+ "pepiniere": "Plantes Shopping",
+ "date": "16/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005",
+  "P006",
+  "P007",
+  "P008",
+  "P009",
+  "P010"
+ ],
+ "nb_lignes": 13,
+ "fichier": "releves/PSH-2026-11-16-A2.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
