@@ -3,9 +3,9 @@
 Méthode : l'index vient du sitemap (/sitemap.xml, autorisé par robots.txt), mis en cache 7 jours dans cache/.
 Les fiches produit sont « /article/<n>-<genre>-<espece>-<cultivar> » : la pré-sélection se fait sur ce slug.
 Fiche : JSON-LD Product (nom « Genre espèce Cultivar - nom commun, accroche », prix, disponibilité)
-et liste « Taille disponible » (« 60/80 cm en pot de 2 litres »). Presque toujours une seule taille ;
-s'il y en a plusieurs, seul le prix de la taille affichée est lu (les autres viennent d'un appel AJAX),
-avec une note.
+et liste « Taille disponible » (« 60/80 cm en pot de 2 litres »). Une seule taille : prix et stock lus sur la page.
+Plusieurs tailles : une requête par taille sur /boutique/article-maj-declinaison/<id>?id_gammes=<taille>&quantite=1
+(l'appel que fait la page au changement de taille) -> JSON prix, prixBarre, stock (> 0 = en stock), dateDispo.
 """
 import datetime as dt
 import glob
@@ -17,7 +17,7 @@ import re
 
 import config
 from core import matching as M
-from core.formatting import Offre, contenant, prix_fr, taille_contenant
+from core.formatting import Offre, contenant, prix_fr, repartis, taille_contenant
 from core.http import ClientPoli
 
 log = logging.getLogger("scraper")
@@ -147,35 +147,64 @@ class Adaptateur:
         off = d.get("offers") or {}
         if isinstance(off, list):
             off = off[0] if off else {}
-        m = re.search(r'id="prix_article"[^>]*>([^<]*)', page)
-        prix = _prix(m.group(1)) if m else None
-        if prix is None:
-            prix = _prix(str(off.get("price") or ""))
-        if not prix:
-            return [], [(url, "Prix absent de la fiche")]
-        dispo = "En stock" if "InStock" in (off.get("availability") or "") else "Rupture"
-        m = re.search(r'id="cadre_prix_barre"\s+class="([^"]*)"', page)
-        if m and "hidden" not in m.group(1).split():
-            b = re.search(r'id="prix_barre_article"[^>]*>([^<]*)', page)
-            barre = _prix(b.group(1)) if b else None
-            if barre and barre > prix + 0.005:
-                notes.append(f"Promotion (prix barré {prix_fr(barre)} €)")
-
-        options = re.findall(r'<option value="\d+"\s*(selected)?[^>]*>([^<]*)</option>',
+        options = re.findall(r'<option value="(\d+)"[^>]*>([^<]*)</option>',
                              page.split('id="select-gammes"', 1)[-1].split("</select>", 1)[0])
-        tailles = [_texte(t) for _, t in options]
-        choisie = next((_texte(t) for s, t in options if s), tailles[0] if tailles else "")
-        if len(tailles) > 1:
-            autres = [t for t in tailles if t != choisie]
-            notes.append("autres tailles proposées (prix non relevé) : " + ", ".join(autres))
-        cont = contenant(choisie)
-        if not cont:
-            notes.append(f"Format non reconnu : « {choisie} »" if choisie else "Format non indiqué")
-        mh = HAUTEUR.search(choisie.split(" en ")[0]) if choisie else None
-        h = f"{mh.group(1)}-{mh.group(2)} {mh.group(3)}" if mh else ""
-        if dispo == "Rupture":
-            notes.append("En cours de réapprovisionnement")
-        o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(prix), "EUR", cont,
-                  dispo, "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, h)
-        o.tri = taille_contenant(cont) * 1000 + prix
-        return [o], []
+        m = re.search(r'name="id_article" value="(\d+)"', page)
+        id_article = m.group(1) if m else re.search(r"/article/(\d+)-", url).group(1)
+
+        tailles = []  # (libellé, prix, prix barré, disponibilité, note)
+        if len(options) <= 1:
+            # Une seule taille : tout est sur la page
+            m = re.search(r'id="prix_article"[^>]*>([^<]*)', page)
+            prix = (_prix(m.group(1)) if m else None) or _prix(str(off.get("price") or ""))
+            barre = None
+            m = re.search(r'id="cadre_prix_barre"\s+class="([^"]*)"', page)
+            if m and "hidden" not in m.group(1).split():
+                b = re.search(r'id="prix_barre_article"[^>]*>([^<]*)', page)
+                barre = _prix(b.group(1)) if b else None
+            dispo = "En stock" if "InStock" in (off.get("availability") or "") else "Rupture"
+            tailles.append((_texte(options[0][1]) if options else "", prix, barre, dispo, ""))
+        else:
+            # Plusieurs tailles : prix et stock de chacune par l'appel utilisé par la page au changement de taille
+            for val, lib in options:
+                try:
+                    j = self.http.get(f"{BASE}/boutique/article-maj-declinaison/{id_article}"
+                                      f"?id_gammes={val}&quantite=1").json()
+                except ValueError:
+                    tailles.append((_texte(lib), None, None, "", "Réponse illisible pour cette taille"))
+                    continue
+                prix = _prix(str(j.get("prix") or ""))
+                barre = _prix(str(j.get("prixBarre") or ""))
+                date = j.get("dateDispo") if isinstance(j.get("dateDispo"), str) else ""
+                try:
+                    stock = int(j.get("stock") or 0)
+                except (TypeError, ValueError):
+                    stock = 0
+                dispo = "En stock" if stock > 0 and not date else "Rupture"
+                tailles.append((_texte(lib), prix, barre, dispo, f"Disponible le {date}" if date else ""))
+
+        lignes = []
+        for lib, prix, barre, dispo, note in tailles:
+            if not prix:
+                continue
+            n = list(notes) + ([note] if note else [])
+            if barre and barre > prix + 0.005:
+                n.append(f"Promotion (prix barré {prix_fr(barre)} €)")
+            cont = contenant(lib)
+            if not cont:
+                n.append(f"Format non reconnu : « {lib} »" if lib else "Format non indiqué")
+            mh = HAUTEUR.search(lib.split(" en ")[0]) if lib else None
+            h = f"{mh.group(1)}-{mh.group(2)} {mh.group(3)}" if mh else ""
+            if dispo == "Rupture" and not note:
+                n.append("En cours de réapprovisionnement")
+            o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(prix), "EUR", cont,
+                      dispo, "", aujourdhui, "", "À vérifier", " ; ".join(n), nom_latin, h)
+            o.tri = taille_contenant(cont) * 1000 + prix
+            lignes.append(o)
+        if not lignes:
+            return [], [(url, "Prix absent de la fiche")]
+        garde, coupe = repartis(lignes, config.MAX_LIGNES_PAR_PRODUIT)
+        garde.sort(key=lambda o: o.tri)
+        if coupe:
+            garde[-1].notes = " ; ".join(x for x in [garde[-1].notes, "autres formats disponibles"] if x)
+        return garde, []
