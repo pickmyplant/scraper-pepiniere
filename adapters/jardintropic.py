@@ -37,8 +37,15 @@ def _txt(x):
 
 def _format(desc):
     """« Pot de 7 litres – 100/120 cm » -> texte compris par core.formatting."""
-    d = re.sub(r"(\d+(?:[.,]\d+)?)\s*litres?\b", r"\1L", desc, flags=re.I)
-    return re.sub(r"(\d+)\s*/\s*(\d+)\s*cm", r"hauteur \1-\2 cm", d, flags=re.I)
+    d = re.sub(r"(\d+(?:[.,]\d+)?)\s*(?:litres?\b|l\b\.?)", r"\1L", desc, flags=re.I)
+    # spécimens : « 180L - 200/250cm », « M.102 cm.- 375 l. coupe haute 400-450 cm. » (M. = diamètre du contenant)
+    d = re.sub(r"^\s*M\.\s*\d+\s*cm\.?\s*-?\s*", "", d)
+    if not re.search(r"\bpot\b|godet|conteneur|motte", d, re.I):
+        d = re.sub(r"(?<![\w.,])(\d+(?:[.,]\d+)?)L\b", r"Pot \1L", d, count=1)
+    d = re.sub(r"(\d+)\s*/\s*(\d+)\s*cm", r"hauteur \1-\2 cm", d, flags=re.I)
+    if "hauteur" not in d.lower():
+        d = re.sub(r"(\d+)\s*-\s*(\d+)\s*cm", r"hauteur \1-\2 cm", d, count=1, flags=re.I)
+    return d
 
 
 def _nettoie_latin(t):
@@ -237,6 +244,10 @@ class Adaptateur:
             if tronc:
                 notes.append(f"Circonférence du tronc {tronc.group(1).strip()} cm")
                 fmt = fmt.replace(tronc.group(0), "")
+            per = re.search(r"\bPer\.?\s*0*(\d+)\s*/\s*0*(\d+)\s*cm\.?", fmt)  # « Per. 025/030 cm » : tour du tronc
+            if per:
+                notes.append(f"Circonférence du tronc {per.group(1)}/{per.group(2)} cm")
+                fmt = fmt.replace(per.group(0), "")
             df = _format(fmt)
             cont = contenant(df)
             h, f = hauteur(df), forme(df)

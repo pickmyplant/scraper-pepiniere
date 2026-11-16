@@ -177,6 +177,8 @@ class Analyse:
             for p, bout, d in self.liens:   # produit qui n'est pas la plante, reconnu par son lien
                 if p == r[0] and bout in r[4]:
                     suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", d[7:]]
+            if re.fullmatch(r"0+(?:[.,]0*)?", r[5].strip()):   # prix nul : format non lu sur le site (afficherait « dès 0 € »)
+                suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", "prix nul (format non lu sur le site)"]
             if (r[0], r[3], r[4], r[2], r[15]) in suppr: compte["à supprimer"] += 1; continue
             if r[2] in ("", "Espèce type"): compte["espèce type (inchangé)"] += 1; continue
             k = (r[0], r[2])

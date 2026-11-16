@@ -240,6 +240,7 @@ P226|napolitaine noir|Napolitana noire
 P226|fignomenal fignomenal|Fignomenal
 P226|nain lucky berry|Lucky Berry
 P226|barbarie|>P598:-
+P226|lien:ficus-benjamina;lien:ficus-elastica;lien:ficus-lyrata;lien:ficus-altissim;lien:ficus-sagittata;lien:ficus-pumila;lien:ficus-shivereana;lien:ficus-golden-king;lien:ficus-microcarpa;lien:ficus-binnendijkii;lien:ficus-ginseng;lien:ficus-robusta;lien:caoutchouc|=SUPPR:autre espèce de Ficus, pas un figuier commun (Ficus carica)
 P240|avec tuteur;echelle;azul|=ET
 P240|bleu fonce|Dark Blue
 P241|blue gem tm|Blue Gem
