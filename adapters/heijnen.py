@@ -2,8 +2,10 @@
 
 Méthode : l'index vient du sitemap (/sitemap.xml, ~14 000 adresses), mis en cache 7 jours dans cache/.
 Les fiches sont à la racine du site (un seul segment) ; chaque format a aussi sa propre adresse
-(« <fiche>-80-100-c10 »), ramenée à la fiche de base. Candidates : genre dans l'adresse (les adresses
-« <genre>-<autre espèce>- » fréquentes, ex. « malus-domestica », sont écartées d'avance).
+(« <fiche>-80-100-c10 »), sautée quand la fiche est déjà lue. Candidates lues d'abord : espèce (nom accepté,
+synonyme, équivalence) ou variété de Fiches dans l'adresse ; puis genre seul (garde-fou de pages). Les adresses
+« <genre>-<mot>- » dont le mot n'est ni l'espèce ni une variété de Fiches (ex. « malus-domestica »,
+« acer-campestre ») ne sont pas ouvertes. Gros catalogue : actualisation en 2 parties (actualiser.yml).
 Chaque fiche contient un objet JSON-LD (ProductGroup) écrit en JavaScript : format principal + hasVariant,
 avec taille, prix, disponibilité et propriétés (« Nom latin », « Type de racine »). Le « Nom latin »
 seul valide le rapprochement. Les pages /<genre>/ (catégories) sont interdites par robots.txt et non lues.
@@ -30,11 +32,15 @@ PREFIXE = "HEI"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.plantesdehaies-heijnen.fr"
 DUREE_CACHE_JOURS = 7
 JSONLD = re.compile(r"const jsonLdObject = (\{.*?\});\s*const scriptEl", re.S)
-EPITHETE = re.compile(r"^[a-z]+(?:a|um|us|is|ica|ii|ae|ensis|ata|oides|ana|ina|ella|ens|or|x)$")
 
 
 def _slug(u):
     return unquote(u.split("://", 1)[-1].split("/", 1)[-1]).strip("/")
+
+
+def _n(texte):
+    """Texte ou adresse -> mots normalisés séparés par des tirets (« Malus × floribunda » -> « malus-x-floribunda »)."""
+    return "-".join(re.findall(r"[a-z0-9]+", M.norm((texte or "").replace("×", " x ").replace("-", " "))))
 
 
 def _jsonld(texte):
@@ -109,32 +115,47 @@ class Adaptateur:
         return slugs
 
     def candidats(self, plante):
-        genre = M.norm(plante.genre).replace(" ", "-")
-        if not genre:
-            return []
-        motif = re.compile(rf"(?:^|-){re.escape(genre)}(?:-|$)")
-        trouves = [s for s in self._index() if motif.search(M.norm(s.replace("-", " ")).replace(" ", "-"))]
-        # Toutes gardées (une page de présentation sans prix peut préfixer les fiches) ; les adresses de format
-        # d'une fiche déjà lue sont sautées dans releve(). Pour les épithètes : fiches de base seulement.
-        bases = [s for s in trouves if not any(s != b and s.startswith(b + "-") for b in trouves)]
-        # épithètes d'autres espèces fréquentes juste après le genre
-        apres = Counter()
-        for s in bases:
-            m = re.search(rf"(?:^|-){re.escape(genre)}-([a-z]+)-", M.norm(s.replace("-", " ")).replace(" ", "-") + "-")
-            if m:
-                apres[m.group(1)] += 1
-        espece = (M.norm(plante.espece or "").split() or [""])[-1]
-        varietes = M.norm(" ".join(v.nom + " " + " ".join(v.synonymes) for v in plante.varietes))
-        exclues = {w for w, n in apres.items() if n >= 3 and EPITHETE.match(w) and w != espece and w not in varietes.split()}
-        res = []
-        for s in trouves:
-            sn = M.norm(s.replace("-", " ")).replace(" ", "-") + "-"
-            if any(f"{genre}-{w}-" in sn for w in exclues):
-                continue
-            res.append(s)
-        if exclues:
-            log.info("%s : adresses « %s-(%s) » écartées", plante.id, genre, ", ".join(sorted(exclues)))
-        return res
+        """Adresses candidates, les plus sûres d'abord : (prioritaires, autres).
+        Prioritaires : nom d'espèce (accepté, synonyme ou équivalence validée) ou variété de l'onglet Fiches
+        dans l'adresse. Autres : genre seul dans l'adresse (fiches « Genre 'Variété' » sans espèce)."""
+        especes = {}  # genre -> épithètes connues (nom accepté + synonymes)
+        for nom in M.noms_latins(plante):
+            mots = [w for w in _n(nom).split("-") if w and w != "x"]
+            if mots:
+                especes.setdefault(mots[0], set()).update(mots[1:2])
+        varietes = set()
+        for v in plante.varietes:
+            for nom in [v.nom] + list(v.synonymes):
+                if _n(nom) and _n(nom) not in ("espece-type", "autres-varietes", "autres-groupes"):
+                    varietes.add(_n(nom))
+        prioritaires, autres = [], []
+        if not hasattr(self, "normes"):
+            self.normes = {s: "-" + _n(s) + "-" for s in self._index()}
+        mots_var = {w for v in varietes for w in v.split("-")}
+        genre_accepte = _n(plante.genre).split("-")[0]
+        deja = set()
+        for genre, eps in especes.items():
+            trouves = [s for s, sn in self.normes.items() if f"-{genre}-" in sn]
+            apres = {}
+            for s in trouves:
+                m = re.search(rf"-{re.escape(genre)}-(?:x-)?([a-z]+)-", self.normes[s])
+                apres[s] = m.group(1) if m else ""
+            # Mot juste après le genre : une autre espèce (« acer-campestre ») ou une variété absente de Fiches
+            # (« malus-red-sentinel ») ; le site met l'espèce dans l'adresse quand elle est dans le nom latin.
+            # Ces fiches seraient écartées à la lecture : on ne les ouvre pas (mot vu au moins 2 fois).
+            freq = Counter(apres.values())
+            exclues = {w for w, n in freq.items() if w and n >= 2 and w not in eps and w not in mots_var}
+            for s in trouves:
+                sn = self.normes[s]
+                if s in deja or apres[s] in exclues:
+                    continue
+                if apres[s] in eps or any(f"-{v}-" in sn for v in varietes):
+                    prioritaires.append(s)
+                    deja.add(s)
+                elif genre == genre_accepte:  # genre d'un synonyme : seulement avec l'espèce dans l'adresse
+                    autres.append(s)
+                    deja.add(s)
+        return prioritaires, autres
 
     def _page(self, slug):
         if slug not in self.pages:
@@ -148,13 +169,17 @@ class Adaptateur:
         groupes = set()
         lues = 0
         bases_lues = set()
-        for slug in self.candidats(plante):
+        prioritaires, autres = self.candidats(plante)
+        for i, slug in enumerate(prioritaires + autres):
             if slug in vus or any(slug.startswith(b + "-") and slug[len(b) + 1:][:1].isdigit() for b in bases_lues):
                 continue  # format d'une fiche déjà lue (« <fiche>-80-100-c10 »)
-            if lues >= 3 * config.MAX_FICHES_PAR_PLANTE:  # garde-fou (pages de présentation et formats compris)
-                anomalies.append((f"{BASE}/{slug}", "Trop de pages candidates : suite non lue"))
+            # garde-fou sur les seules adresses « genre seul » (les prioritaires sont toujours lues)
+            if i >= len(prioritaires) and lues >= 3 * config.MAX_FICHES_PAR_PLANTE:
+                anomalies.append((f"{BASE}/{slug}", f"Trop de pages candidates : {len(prioritaires) + len(autres) - i} "
+                                                    "adresse(s) « genre seul » non lues"))
                 break
-            lues += 1
+            if i >= len(prioritaires):
+                lues += 1
             url = f"{BASE}/{slug}"
             try:
                 d = self._page(slug)
