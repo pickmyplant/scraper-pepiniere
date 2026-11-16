@@ -77,7 +77,14 @@ class ClientPoli:
         self.session.headers.update({"User-Agent": config.USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"})
         self._derniere = 0.0
         self.nb_requetes = 0
-        self.robots = Robots(self._get(self.base + "/robots.txt", verifier_robots=False).text)
+        try:
+            texte = self._get(self.base + "/robots.txt", verifier_robots=False).text
+        except requests.HTTPError as e:
+            # Pas de robots.txt (404) : tout est permis
+            if e.response is None or e.response.status_code != 404:
+                raise
+            texte = ""
+        self.robots = Robots(texte)
         if self.robots.crawl_delay > self.delai_min:
             log.info("robots.txt demande Crawl-delay %.0f s : délai relevé", self.robots.crawl_delay)
             self.delai_min = self.robots.crawl_delay
