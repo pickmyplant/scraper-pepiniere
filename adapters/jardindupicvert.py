@@ -70,7 +70,10 @@ class Adaptateur:
         """(fiches candidates, anomalies)."""
         cat = self._catalogue()
         res, anomalies = [], []
-        for n in M.noms_latins(plante):
+        # Pages espèce : noms latins, et « Genre + variété de Fiches » (ex. /genre/malus/malus-evereste)
+        noms = M.noms_latins(plante) + [f"{plante.genre} {n}" for v in plante.varietes
+                                         if M.norm(v.nom) not in M.VARIETES_IGNOREES for n in [v.nom] + v.synonymes]
+        for n in noms:
             page = self.especes.get(_slug(n))
             if not page:
                 continue
