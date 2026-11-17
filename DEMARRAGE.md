@@ -53,7 +53,7 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
 ## Actualisation automatique (prix, stocks), sans Claude
 - `.github/workflows/actualiser.yml` : le 1er et le 15 du mois, `outils/actualiser.sh <pépinière>` pour chaque adaptateur (relevé complet
   par lots de 100 plantes, un relevé par lot `<PREFIXE>-<date>-AUTO-L<n>`, variétés nettoyées), puis un commit sur la branche commune
-  et la liste `releves/a_importer.txt`. Lot raté (listé dans le résumé de la tâche GitHub) : le relancer avec `outils/lot.sh`.
+  et la liste `releves/a_importer.txt`. Lot raté (listé dans le résumé de la tâche GitHub) : le relancer avec `outils/lot.sh` et le même identifiant (ajouté seul à `releves/a_importer.txt`, donc importé automatiquement).
   Garde-fous : 100 formats par produit, 1000 fiches par plante (`config.py`).
 - Sites relevés par l'ordinateur de l'utilisatrice (liste MAC du fichier) : ceux qui refusent les serveurs de GitHub. Sites découpés
   en parties (liste PARTIES) : ceux qui dépassent 6 heures. Dépôt public : minutes GitHub illimitées.
