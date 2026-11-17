@@ -29,8 +29,11 @@ fi
 
 python outils/resume.py "releves/$ID.tsv"
 
-git add data/equivalences_latin.csv adapters/ "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV"
+# Relance d'un lot automatique (ID en -AUTO-) : ajouté à la liste importée seule par la Sheet
+case "$ID" in *-AUTO-*) grep -qx "$ID" releves/a_importer.txt 2>/dev/null || echo "$ID" >> releves/a_importer.txt;; esac
+
+git add data/equivalences_latin.csv adapters/ "releves/$ID.tsv" "releves/${ID}_anomalies.tsv" "releves/$ID.json" "$CSV" releves/a_importer.txt
 git commit -q -m "Relevé $ID ($PEP, $(basename "$CSV" .csv))"
 # Push sur la branche de la conversation et sur la branche commune (voir outils/publier.sh)
 outils/publier.sh || echo "À FAIRE : publier sur la branche commune (outils/publier.sh), conflit à résoudre."
-echo "Identifiant à importer : $ID"
+case "$ID" in *-AUTO-*) echo "Import automatique : $ID (liste releves/a_importer.txt)";; *) echo "Identifiant à importer : $ID";; esac
