@@ -1,0 +1,19 @@
+{
+ "releve": "PMF-2026-11-17-AUTO-L7",
+ "pepiniere": "Promofleur",
+ "date": "17/11/2026",
+ "par": "Automatique",
+ "plantes": [
+  "P602",
+  "P603",
+  "P604",
+  "P605",
+  "P606",
+  "P607",
+  "P608"
+ ],
+ "nb_lignes": 7,
+ "fichier": "releves/PMF-2026-11-17-AUTO-L7.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}

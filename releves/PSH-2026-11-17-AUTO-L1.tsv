@@ -1,0 +1,133 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Passiflora edulis	
+P002	Barbadine		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Passiflora quadrangularis	
+P003	Avocatier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Persea americana	
+P004	Bananier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Musa acuminata	
+P005	Manguier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Mangifera indica	
+P006	Corète du Japon	Golden Guinea	Plantes Shopping	https://www.plantes-shopping.fr/article/1098-kerria-japonica-golden-guinea	14,95	EUR	Pot 3 L	En stock		17/11/2026		Actif		Kerria japonica 'Golden Guinea'	40-50 cm
+P006	Corète du Japon	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/384-kerria-japonica	19,95	EUR	Pot	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Kerria japonica	60-90 cm
+P006	Corète du Japon	Picta	Plantes Shopping	https://www.plantes-shopping.fr/article/385-kerria-japonica-picta	11,55	EUR	Pot 3 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Kerria japonica 'Picta'	30-40 cm
+P006	Corète du Japon	Pleniflora	Plantes Shopping	https://www.plantes-shopping.fr/article/386-kerria-japonica-pleniflora	13,55	EUR	Pot 3 L	En stock		17/11/2026		Actif		Kerria japonica 'Pleniflora'	50-60 cm
+P007	Pommier du Japon	Evereste	Plantes Shopping	https://www.plantes-shopping.fr/article/20878-malus-perpetu-evereste	49,00	EUR	Pot 7 L	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« MALUS Perpetu 'Evereste' ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Malus × floribunda 'Evereste'	100-125 cm
+P008	Aglaonema		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Alpinia zerumbet	
+P011	Lis araignée		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Canna indica	
+P014	Pervenche de Madagascar		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Ficus lyrata	
+P016	Dieffenbachia		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Dieffenbachia seguine	
+P017	Cordyline		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cordyline fruticosa	
+P018	Taro		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Colocasia esculenta	
+P019	Croton		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Codiaeum variegatum	
+P020	Plante araignée		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/2070-liriope-spicata	5,45	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Liriope spicata	
+P025	Coléus		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Strelitzia reginae	
+P028	Syngonium		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Zamioculcas zamiifolia	
+P032	Gingembre		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Dracaena draco	
+P035	Hibiscus de Chine		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Plumeria rubra	
+P040	Goyavier fraise		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Psidium cattleyanum	
+P041	Goyavier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Psidium guajava	
+P042	Palmier chou		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Strelitzia nicolai	
+P044	Yucca géant		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Yucca gigantea	
+P045	Santoline petit-cyprès	Edward Bowles	Plantes Shopping	https://www.plantes-shopping.fr/article/2389-santolina-chamaecyparissus-edward-bowles	3,75	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : Edward Bowles (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Santolina chamaecyparissus 'Edward Bowles'	
+P045	Santoline petit-cyprès	Lambrook Silver	Plantes Shopping	https://www.plantes-shopping.fr/article/2390-santolina-chamaecyparissus-lambrook-silver	3,75	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Santolina chamaecyparissus 'Lambrook Silver'	
+P046	Capucine naine		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes	Black Diamond Blush	Plantes Shopping	https://www.plantes-shopping.fr/article/20697-lagerstroemia-indica-blush-black-diamond	29,00	EUR	Pot 3,5 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Lagerstroemia indica 'Black Diamond Blush'	
+P047	Lilas des Indes	Pure White	Plantes Shopping	https://www.plantes-shopping.fr/article/20698-lagerstroemia-indica-pure-white-black	29,00	EUR	Pot 3,5 L	Rupture		17/11/2026		Actif	Variété trouvée : Pure White (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Lagerstroemia indica 'Pure White'	
+P047	Lilas des Indes	Black Diamond Lavender Lace	Plantes Shopping	https://www.plantes-shopping.fr/article/20811-lagerstroemia-indica-black-diamond-lavender-lace	29,00	EUR	Pot 3,5 L	En stock		17/11/2026		Actif		Lagerstroemia indica 'Black Diamond Lavender Lace'	
+P047	Lilas des Indes	Black Diamond Mystic Magenta	Plantes Shopping	https://www.plantes-shopping.fr/article/20812-lagerstroemia-indica-black-diamond-mystic-magenta	29,00	EUR	Pot 3,5 L	En stock		17/11/2026		Actif	Variété trouvée : Black Diamond Mystic Magenta (absente de l'onglet Fiches)	Lagerstroemia indica 'Black Diamond Mystic Magenta'	
+P047	Lilas des Indes	Black Diamond Purely Purple	Plantes Shopping	https://www.plantes-shopping.fr/article/20813-lagerstroemia-indica-black-diamond-purely-purple	29,00	EUR	Pot 3,5 L	En stock		17/11/2026		Actif		Lagerstroemia indica 'Black Diamond Purely Purple'	
+P047	Lilas des Indes	Whit VIII	Plantes Shopping	https://www.plantes-shopping.fr/article/20814-lagerstroemia-indica-black-diamond-rhapsody-in-pink	29,00	EUR	Pot 3 L	En stock		17/11/2026		Actif		Lagerstroemia indica 'Whit VIII'	40-60 cm
+P047	Lilas des Indes	Black Diamond Shell Pink	Plantes Shopping	https://www.plantes-shopping.fr/article/20815-lagerstroemia-indica-black-diamond-shell-pink	29,00	EUR	Pot 3,5 L	En stock		17/11/2026		Actif		Lagerstroemia indica 'Black Diamond Shell Pink'	
+P047	Lilas des Indes	Black Diamond Best Red	Plantes Shopping	https://www.plantes-shopping.fr/article/21566-lagerstroemia-indica-black-diamond-best-red	29,00	EUR	Pot 3,5 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Lagerstroemia indica 'Black Diamond Best Red'	
+P047	Lilas des Indes	Black Diamond Red Hot	Plantes Shopping	https://www.plantes-shopping.fr/article/21567-lagerstroemia-indica-black-diamond-red-hot	28,00	EUR	Pot 3,5 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Lagerstroemia indica 'Black Diamond Red Hot'	
+P048	Asparagus plumeux		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Lycianthes rantonnetii	
+P052	Gattilier	Pink Pinnacle	Plantes Shopping	https://www.plantes-shopping.fr/article/20336-vitex-agnus-castus-pink-pinnacle	14,50	EUR	Pot 3 L	En stock		17/11/2026		Actif		Vitex agnus-castus 'Pink Pinnacle'	40-50 cm
+P052	Gattilier	Chicagoland Blues	Plantes Shopping	https://www.plantes-shopping.fr/article/21156-vitex-x-agnus-castus-chicagoland-blues	18,95	EUR	Pot 3 L	En stock		17/11/2026		Actif	Variété trouvée : Chicagoland Blues (absente de l'onglet Fiches)	Vitex agnus-castus 'Chicagoland Blues'	30-40 cm
+P052	Gattilier	Silver Spire	Plantes Shopping	https://www.plantes-shopping.fr/article/21387-vitex-agnus-castus-silver-spire	13,95	EUR	Pot 3 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Vitex agnus-castus 'Silver Spire'	
+P052	Gattilier	Latifolia	Plantes Shopping	https://www.plantes-shopping.fr/article/3309-vitex-agnus-castus-latifolia	14,25	EUR	Pot 3 L	En stock		17/11/2026		Actif		Vitex agnus-castus 'Latifolia'	40-50 cm
+P052	Gattilier	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/614-vitex-agnus-castus	14,95	EUR	Pot 3 L	En stock		17/11/2026		Actif		Vitex agnus-castus	40-50 cm
+P053	Lilas de Perse		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Melia azedarach	
+P054	Polygala à feuilles de myrte		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Polygala myrtifolia	
+P055	Frangipanier blanc		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Erythrostemon gilliesii	
+P058	Cordyline		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cordyline australis	
+P059	Lippia		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Phyla nodiflora	
+P060	Jasmin d'Arabie		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Jasminum sambac	
+P061	Wédélia		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe	Northern Star	Plantes Shopping	https://www.plantes-shopping.fr/article/6578-agapanthus-northern-star	7,95	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« AGAPANTHUS 'Northern Star' ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Agapanthus praecox 'Northern Star'	
+P064	Gaura	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/1356-gaura-lindheimeri	3,75	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri	
+P064	Gaura	Rose	Plantes Shopping	https://www.plantes-shopping.fr/article/1358-gaura-lindheimeri-rose	3,35	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : rose (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Oenothera lindheimeri 'Rose'	
+P064	Gaura	Cherry Brandy	Plantes Shopping	https://www.plantes-shopping.fr/article/1810-gaura-lindheimeri-cherry-brandy	4,75	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri 'Cherry Brandy'	
+P064	Gaura	Siskiyou Pink	Plantes Shopping	https://www.plantes-shopping.fr/article/1811-gaura-lindheimeri-siskiyou-pink	3,95	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri 'Siskiyou Pink'	
+P064	Gaura	Whirling Butterflies	Plantes Shopping	https://www.plantes-shopping.fr/article/1812-gaura-lindheimeri-whirling-butterflies	4,25	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Oenothera lindheimeri 'Whirling Butterflies'	
+P064	Gaura	Blaze	Plantes Shopping	https://www.plantes-shopping.fr/article/3956-gaura-lindheimeri-blaze	4,85	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri 'Blaze'	
+P064	Gaura	Corrie	Plantes Shopping	https://www.plantes-shopping.fr/article/3957-gaura-lindheimeri-corries-gold	4,95	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : Corrie (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Oenothera lindheimeri 'Corrie'	
+P064	Gaura	Crimson Butterflies	Plantes Shopping	https://www.plantes-shopping.fr/article/3958-gaura-lindheimeri-crimson-butterflies	4,85	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri 'Crimson Butterflies'	
+P064	Gaura	Madonna	Plantes Shopping	https://www.plantes-shopping.fr/article/3959-gaura-lindheimeri-madonna	4,65	EUR	Pot 9 cm	En stock		17/11/2026		Actif	Variété trouvée : Madonna (absente de l'onglet Fiches)	Oenothera lindheimeri 'Madonna'	
+P064	Gaura	Snowstorm	Plantes Shopping	https://www.plantes-shopping.fr/article/3960-gaura-lindheimeri-snowstorm	4,55	EUR	Pot 9 cm	En stock		17/11/2026		Actif	Variété trouvée : Snowstorm (absente de l'onglet Fiches)	Oenothera lindheimeri 'Snowstorm'	
+P064	Gaura	Blanc	Plantes Shopping	https://www.plantes-shopping.fr/article/3961-gaura-lindheimeri-white-dove	4,65	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Oenothera lindheimeri 'Blanc'	
+P065	Petit flamboyant		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Caesalpinia pulcherrima	
+P066	Flamboyant		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Delonix regia	
+P067	Papyrus		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cyperus papyrus	
+P068	Pin de Norfolk		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Araucaria heterophylla	
+P069	Immortelle d'Italie	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/1898-helichrysum-italicum	4,25	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Helichrysum italicum	
+P070	Belle-de-nuit		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Citrus japonica	
+P072	Verveine citronnelle		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Aloysia citrodora	
+P073	Poireau		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cycas revoluta	
+P076	Épiaire de Byzance	Cotton Boll	Plantes Shopping	https://www.plantes-shopping.fr/article/2528-stachys-byzantina-cotton-boll	4,25	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Stachys byzantina 'Cotton Boll'	
+P076	Épiaire de Byzance	Silver Carpet	Plantes Shopping	https://www.plantes-shopping.fr/article/2529-stachys-byzantina-silver-carpet	4,25	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Stachys byzantina 'Silver Carpet'	
+P077	Papayer		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Carica papaya	
+P078	Séné de Noël		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Senna bicapsularis	
+P079	Chêne vert à glands doux		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Tamarix africana	
+P082	Arganier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Sideroxylon spinosum	
+P083	Orpin de Nice		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Nerium oleander	
+P085	Mûrier blanc		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Morus alba	
+P086	Palmier nain		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Chamaerops humilis	
+P087	Canne de Provence		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Arundo donax	
+P088	Persil		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Ceratonia siliqua	
+P091	Oreilles de lapin		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Opuntia microdasys	
+P092	Palmier dattier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Punica granatum	
+P096	Sauge officinale	Albiflora	Plantes Shopping	https://www.plantes-shopping.fr/article/4665-salvia-officinalis-albiflora	3,95	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Salvia officinalis 'Albiflora'	
+P096	Sauge officinale	Aurea	Plantes Shopping	https://www.plantes-shopping.fr/article/4666-salvia-officinalis-aurea	4,15	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Salvia officinalis 'Aurea'	
+P096	Sauge officinale	Berggarten	Plantes Shopping	https://www.plantes-shopping.fr/article/4667-salvia-officinalis-berggarten	4,35	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Salvia officinalis 'Berggarten'	
+P096	Sauge officinale	Grete Stölzle	Plantes Shopping	https://www.plantes-shopping.fr/article/4668-salvia-officinalis-grete-stlzle	4,15	EUR	Pot 9 cm	En stock		17/11/2026		Actif	Variété trouvée : Grete Stölzle (absente de l'onglet Fiches)	Salvia officinalis 'Grete Stölzle'	
+P096	Sauge officinale	Purpurascens	Plantes Shopping	https://www.plantes-shopping.fr/article/4669-salvia-officinalis-purpurascens	4,15	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Salvia officinalis 'Purpurascens'	
+P096	Sauge officinale	Tricolor	Plantes Shopping	https://www.plantes-shopping.fr/article/4670-salvia-officinalis-tricolor	4,15	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Salvia officinalis 'Tricolor'	
+P097	Géranium rosat		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Pelargonium graveolens	
+P098	Aeonium arborescent		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Aeonium arboreum	
+P099	Liane de Madère		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Aloe × delaetii	
