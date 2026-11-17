@@ -91,7 +91,8 @@ def contenant(desc):
     """« Pot de 2L/3L (…) » -> « Pot 2 à 3 L » ; « Godet de 8/9 cm » -> « Godet 8/9 cm »."""
     d = desc or ""
     dl = re.sub(r"\s*litres?\b", "l", d.lower())
-    m = re.search(r"pot\s*(?:de\s*)?([\d.,]+)\s*l?(?:\s*(?:/|à|-)\s*([\d.,]+))?\s*l\b", dl)
+    # « Coupe 7,5L / 10L », « Bac de 50 L » : contenant noté comme un pot
+    m = re.search(r"\b(?:pot|coupe|bac)\s*(?:de\s*)?([\d.,]+)\s*l?(?:\s*(?:/|à|-)\s*([\d.,]+))?\s*l\b", dl)
     if m:
         a, b = m.group(1), m.group(2)
         return f"Pot {_fr(_nombre(a))} à {_fr(_nombre(b))} L" if b else f"Pot {_fr(_nombre(a))} L"
