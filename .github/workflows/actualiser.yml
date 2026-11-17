@@ -27,6 +27,7 @@ jobs:
     outputs:
       github: ${{ steps.l.outputs.github }}
       mac: ${{ steps.l.outputs.mac }}
+      suite: ${{ steps.l.outputs.suite }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,17 +38,20 @@ jobs:
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import glob, json, os
-          PARTIES = {"truffaut": 3, "botanic": 2, "promessedefleurs": 3, "heijnen": 2}
+          PARTIES = {"truffaut": 3, "botanic": 2, "promessedefleurs": 3, "heijnen": 2, "jardindupicvert": 2}
           MAC = {"verdiagarden"}
+          SUITE = {"jardindupicvert"}   # parties relevées l'une après l'autre (site qui sature : jamais 2 requêtes à la fois)
           noms = os.environ.get("CHOIX", "").split() or sorted(
               os.path.basename(f)[:-3] for f in glob.glob("adapters/*.py") if not os.path.basename(f).startswith("__"))
-          gh, mac = [], []
+          gh, mac, suite = [], [], []
           for n in noms:
               total = PARTIES.get(n, 1)
               for p in range(1, total + 1):
-                  (mac if n in MAC else gh).append({"pepiniere": n, "partie": p, "total": total})
+                  liste = mac if n in MAC else (suite if n in SUITE and p > 1 else gh)
+                  liste.append({"pepiniere": n, "partie": p, "total": total})
           print("github=" + json.dumps(gh))
           print("mac=" + json.dumps(mac))
+          print("suite=" + json.dumps(suite))
           PY
   releve:
     needs: lister
@@ -58,6 +62,32 @@ jobs:
       fail-fast: false
       matrix:
         include: ${{ fromJson(needs.lister.outputs.github) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - env:
+          BDD_EXPORT_URL: ${{ secrets.BDD_EXPORT_URL }}
+        run: outils/actualiser.sh "${{ matrix.pepiniere }}" "${{ matrix.partie }}" "${{ matrix.total }}"
+      - uses: actions/upload-artifact@v4
+        if: always()   # lots réussis envoyés même si un lot suivant échoue ou si le job est coupé
+        with:
+          name: releve-${{ matrix.pepiniere }}-${{ matrix.partie }}
+          path: releves/auto_ok/*
+          if-no-files-found: warn
+  releve_suite:   # 2e partie des sites de SUITE, après la 1re (needs releve)
+    needs: [lister, releve]
+    if: always() && needs.lister.result == 'success' && needs.lister.outputs.suite != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.lister.outputs.suite) }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -104,6 +134,36 @@ jobs:
   publier:
     needs: [lister, releve]
     if: always() && needs.lister.result == 'success' && needs.lister.outputs.github != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCHE }}
+      - uses: actions/download-artifact@v4
+        with:
+          path: nouveaux
+          pattern: releve-*
+          merge-multiple: true
+      - run: |
+          ls nouveaux/*.json >/dev/null 2>&1 || { echo "Aucun relevé réussi."; exit 0; }
+          git config user.name "Relevé automatique"
+          git config user.email "actions@users.noreply.github.com"
+          for essai in 1 2 3; do
+            git fetch -q origin "$BRANCHE" && git reset -q --hard "origin/$BRANCHE"
+            cp nouveaux/* releves/
+            # La liste garde les 600 derniers relevés (lots de 100 plantes) : la Sheet n'importe que ceux absents de son registre.
+            { cat releves/a_importer.txt 2>/dev/null; ls nouveaux/*.json | xargs -n1 basename -s .json; } | awk '!vu[$0]++' | tail -600 > liste.tmp
+            mv liste.tmp releves/a_importer.txt
+            git add releves
+            if git diff --cached --quiet; then echo "Rien de nouveau à publier."; break; fi
+            git commit -q -m "Relevé automatique du $(date +%F) : $(ls nouveaux/*.json | wc -l | tr -d ' ') relevé(s)"
+            git push -q origin "HEAD:$BRANCHE" && break
+            sleep 20
+          done
+          { echo "### Relevés publiés"; ls nouveaux/*.json | xargs -n1 basename -s .json | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
+  publier_suite:
+    needs: [lister, releve_suite]
+    if: always() && needs.lister.result == 'success' && needs.lister.outputs.suite != '[]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

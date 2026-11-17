@@ -10,6 +10,7 @@ TIMEOUT_S = 30
 # Délais propres à un site (min, max), quand le site le permet (pas de Crawl-delay) et sur accord de l'utilisatrice
 DELAIS_PAR_SITE = {
     "planfor": (1.0, 2.0),
+    "jardindupicvert": (5.0, 7.0),   # 503 après 3 h à 3-5 s (17/11/2026) : relevé ralenti, en 2 parties successives
 }
 # Une seule nouvelle tentative en cas de coupure réseau (pas pour 403/429)
 PAUSE_AVANT_NOUVEL_ESSAI_S = 5.0

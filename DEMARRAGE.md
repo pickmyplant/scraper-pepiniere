@@ -56,7 +56,7 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
   et la liste `releves/a_importer.txt`. Lot raté (listé dans le résumé de la tâche GitHub) : le relancer avec `outils/lot.sh` et le même identifiant (ajouté seul à `releves/a_importer.txt`, donc importé automatiquement).
   Garde-fous : 100 formats par produit, 1000 fiches par plante (`config.py`).
 - Sites relevés par l'ordinateur de l'utilisatrice (liste MAC du fichier) : ceux qui refusent les serveurs de GitHub. Sites découpés
-  en parties (liste PARTIES) : ceux qui dépassent 6 heures. Dépôt public : minutes GitHub illimitées.
+  en parties (liste PARTIES) : ceux qui dépassent 6 heures ; parties relevées l'une après l'autre pour les sites qui saturent (liste SUITE : Jardin du Pic Vert). Dépôt public : minutes GitHub illimitées.
 - La Sheet importe seule les relevés de cette liste (menu Relevés > Activer l'import automatique).
 - `outils/lot.sh` nettoie aussi les variétés de chaque relevé manuel (`corriger_offres.py --releve`).
 - Claude n'intervient que si un adaptateur casse (tâche en échec dans l'onglet Actions de GitHub).
