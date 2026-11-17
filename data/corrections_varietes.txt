@@ -511,3 +511,6 @@ P570|herbstgruss v.*|Herbstgruss vom Bresserhof
 P570|prof(essor)? anton kippenberg|Professor Anton Kippenberg
 P570|automne;fleurs multicolores|=ET
 P583|.*(kiss|new day|zany|tiger stripes|sunshine hybrids|suncarpet|sun stopper).*|>P584
+P226|goutte d ?or|Goutte d'Or
+P465|alphen s globe|Alphen's Globe
+P461|van pelt s blue|Van Pelt's Blue

@@ -1,5 +1,4 @@
 ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
-P301	Pittospore du Japon	Variegatum	Plantes Shopping	https://www.plantes-shopping.fr/article/20859-pittosporum-tenuifolium-variegatum	14,25	EUR	Pot 2 à 3 L	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« PITTOSPORUM tenuifolium 'Variegatum' ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Pittosporum tobira 'Variegatum'	
 P301	Pittospore du Japon	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/21137-pittosporum-tobira	13,95	EUR	Pot 3 L	En stock		17/11/2026		Actif		Pittosporum tobira	25-30 cm
 P301	Pittospore du Japon	Nanum	Plantes Shopping	https://www.plantes-shopping.fr/article/2846-pittosporum-tobira-nanum	16,55	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif		Pittosporum tobira 'Nanum'	25-30 cm
 P302	Citronnier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Citrus × limon	
@@ -8,7 +7,6 @@ P304	Thuya de Berbérie		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé
 P305	Euphorbe résinifère		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Euphorbia resinifera	
 P306	Chêne vert	Espèce type	Plantes Shopping	https://www.plantes-shopping.fr/article/5667-quercus-ilex	14,75	EUR	Pot 3 L	En stock		17/11/2026		Actif		Quercus ilex	30-40 cm
 P307	Chêne-liège		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Quercus suber	
-P308	Cèdre de l'Atlas	Aurea	Plantes Shopping	https://www.plantes-shopping.fr/article/924-cedrus-deodara-aurea	24,50	EUR	Pot 3 L	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« Cedrus deodara Aurea ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Cedrus atlantica 'Aurea'	50-60 cm
 P308	Cèdre de l'Atlas	Glauca	Plantes Shopping	https://www.plantes-shopping.fr/article/931-cedrus-libani-glauca	59,00	EUR	Pot 7 L	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« Cedrus libani glauca ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Cedrus atlantica 'Glauca'	100-125 cm
 P309	Pistachier de l'Atlas		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Pistacia atlantica	
 P310	Jujubier sauvage		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Ziziphus lotus	
@@ -32,7 +30,6 @@ P326	Sauge du Mexique		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	S
 P327	Sauge de Greg	Cherry Lips	Plantes Shopping	https://www.plantes-shopping.fr/article/21008-salvia-greggii-cherry-lips	4,95	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : Cherry Lips (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Salvia greggii 'Cherry Lips'	
 P327	Sauge de Greg	Caramba	Plantes Shopping	https://www.plantes-shopping.fr/article/4645-salvia-greggii-caramba	4,45	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : Caramba (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Salvia greggii 'Caramba'	
 P327	Sauge de Greg	Lipstick	Plantes Shopping	https://www.plantes-shopping.fr/article/4646-salvia-greggii-lipstick	4,75	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Salvia greggii 'Lipstick'	
-P327	Sauge de Greg	Blanc	Plantes Shopping	https://www.plantes-shopping.fr/article/4675-salvia-verticillata-alba	4,45	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Espèce absente de la fiche (« SALVIA verticillata 'Alba' ») ; rapproché par la variété de l'onglet Fiches ; En cours de réapprovisionnement	Salvia greggii 'Blanc'	
 P328	Sauge à petites feuilles	Suzanne	Plantes Shopping	https://www.plantes-shopping.fr/article/21009-salvia-microphylla-suzanne	4,45	EUR	Pot 9 cm	Rupture		17/11/2026		Actif	Variété trouvée : Suzanne (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Salvia microphylla 'Suzanne'	
 P328	Sauge à petites feuilles	Oriental Dove	Plantes Shopping	https://www.plantes-shopping.fr/article/21010-salvia-microphylla-oriental-dove	4,95	EUR	Pot 9 cm	En stock		17/11/2026		Actif	Variété trouvée : Oriental Dove (absente de l'onglet Fiches)	Salvia microphylla 'Oriental Dove'	
 P328	Sauge à petites feuilles	Hot Lips	Plantes Shopping	https://www.plantes-shopping.fr/article/2375-salvia-microphylla-hot-lips	3,95	EUR	Pot 9 cm	En stock		17/11/2026		Actif		Salvia microphylla 'Hot Lips'	
@@ -63,7 +60,6 @@ P345	Arbre aux perruques	Young Lady	Plantes Shopping	https://www.plantes-shoppin
 P345	Arbre aux perruques	Golden Spirit	Plantes Shopping	https://www.plantes-shopping.fr/article/167-cotinus-coggygria-golden-spirit	17,95	EUR	Pot 2,5 L	Rupture		17/11/2026		Actif	En cours de réapprovisionnement	Cotinus coggygria 'Golden Spirit'	30-50 cm
 P345	Arbre aux perruques	Royal Purple	Plantes Shopping	https://www.plantes-shopping.fr/article/168-cotinus-coggygria-royal-purple	13,95	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif		Cotinus coggygria 'Royal Purple'	30-60 cm
 P345	Arbre aux perruques	Lilla	Plantes Shopping	https://www.plantes-shopping.fr/article/20340-cotinus-coggygria-lilla	17,95	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif		Cotinus coggygria 'Lilla'	
-P345	Arbre aux perruques	Dusky Maiden	Plantes Shopping	https://www.plantes-shopping.fr/article/20720-cotinus-dummeri-dusky-maiden	16,95	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Cotinus dummeri Dusky Maiden ») ; rapproché par la variété de l'onglet Fiches	Cotinus coggygria 'Dusky Maiden'	
 P345	Arbre aux perruques	Red Spirit	Plantes Shopping	https://www.plantes-shopping.fr/article/20777-cotinus-coggygria-red-spirit-firstpur	17,95	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif	Variété trouvée : Red Spirit (absente de l'onglet Fiches)	Cotinus coggygria 'Red Spirit'	30-40 cm
 P345	Arbre aux perruques	Smokey Joe	Plantes Shopping	https://www.plantes-shopping.fr/article/20778-cotinus-coggygria-smokey-joe-lisjo	16,95	EUR	Pot 2 à 3 L	En stock		17/11/2026		Actif	Variété trouvée : Smokey Joe (absente de l'onglet Fiches)	Cotinus coggygria 'Smokey Joe'	30-40 cm
 P345	Arbre aux perruques	Flamissimo	Plantes Shopping	https://www.plantes-shopping.fr/article/21098-cotinus-coggygria-flamissimo	17,95	EUR	Pot 3 L	En stock		17/11/2026		Actif		Cotinus coggygria 'Flamissimo'	30-50 cm
@@ -110,7 +106,6 @@ P382	Arroche nummulaire		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé
 P383	Arroche à quatre ailes		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Atriplex canescens	
 P384	Obione		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Halimione portulacoides	
 P385	Cyprès de Lambert		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
-P386	Abricotier	Royal	Plantes Shopping	https://www.plantes-shopping.fr/article/528-prunus-serrulata-royal-burgundy	29,00	EUR	Pot 3 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« PRUNUS serrulata 'Royal Burgundy' ») ; rapproché par la variété de l'onglet Fiches	Prunus armeniaca 'Royal'	40-60 cm
 P387	Pêcher	Melred	Plantes Shopping	https://www.plantes-shopping.fr/article/20788-prunus-persica-melred	32,00	EUR	Pot 5 L	Rupture		17/11/2026		Actif	Variété trouvée : Melred (absente de l'onglet Fiches) ; En cours de réapprovisionnement	Prunus persica 'Melred'	100-125 cm
 P388	Prunier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Prunus domestica	
 P389	Cognassier		Plantes Shopping			EUR				17/11/2026		Actif	Non trouvé	Cydonia oblonga	

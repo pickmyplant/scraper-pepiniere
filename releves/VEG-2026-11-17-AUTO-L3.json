@@ -105,7 +105,7 @@
   "P299",
   "P300"
  ],
- "nb_lignes": 122,
+ "nb_lignes": 120,
  "fichier": "releves/VEG-2026-11-17-AUTO-L3.tsv",
  "branche": "claude/vibrant-keller-jibr76",
  "remarques": ""

@@ -2,9 +2,6 @@ ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibil
 P301	Pittospore du Japon	Nana	Vegetaleo	https://vegetaleo.com/products/pittosporum-tobira-nana	4,90	EUR	Godet 8/9 cm	En stock		17/11/2026		Actif	Variété trouvée : Nana (absente de l'onglet Fiches)	Pittosporum tobira 'Nana'	
 P301	Pittospore du Japon	Nana	Vegetaleo	https://vegetaleo.com/products/pittosporum-tobira-nana	16,90	EUR	Pot 3 L	En stock		17/11/2026		Actif	Variété trouvée : Nana (absente de l'onglet Fiches)	Pittosporum tobira 'Nana'	
 P301	Pittospore du Japon	Espèce type	Vegetaleo	https://vegetaleo.com/products/pittosporum-tobira-pittosporum-du-japon	15,90	EUR	Pot 3 L	En stock		17/11/2026		Actif		Pittosporum tobira	30-40 cm
-P301	Pittospore du Japon	Variegatum	Vegetaleo	https://vegetaleo.com/products/pittosporum-tenuifolium-variegatum	4,90	EUR	Godet 8/9 cm	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Pittosporum Variegatum (Pittosporum tenuifolium 'Variegatum') ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	
-P301	Pittospore du Japon	Variegatum	Vegetaleo	https://vegetaleo.com/products/pittosporum-tenuifolium-variegatum	16,90	EUR	Pot 3 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Pittosporum Variegatum (Pittosporum tenuifolium 'Variegatum') ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	30-40 cm
-P301	Pittospore du Japon	Variegatum	Vegetaleo	https://vegetaleo.com/products/pittosporum-tenuifolium-variegatum	18,90	EUR	Pot 3 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Pittosporum Variegatum (Pittosporum tenuifolium 'Variegatum') ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	40-60 cm
 P302	Citronnier		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Citrus × limon	
 P303	Oranger doux		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Citrus × sinensis	
 P304	Thuya de Berbérie		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Tetraclinis articulata	
@@ -23,8 +20,6 @@ P316	Limoniastrum		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Limoniastrum
 P317	Criste marine		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Crithmum maritimum	
 P318	Lotier de Crète		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Lotus creticus	
 P319	Cinéraire maritime		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Jacobaea maritima	
-P320	Coprosma	Variegata	Vegetaleo	https://vegetaleo.com/products/coprosma-variegata	4,90	EUR	Godet 8/9 cm	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Coprosma de Kirkii panaché (Coprosma kirkii ‘Variegata’) ») ; rapproché par la variété de l'onglet Fiches	Coprosma repens 'Variegata'	
-P320	Coprosma	Variegata	Vegetaleo	https://vegetaleo.com/products/coprosma-variegata	12,90	EUR	Pot 3 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« Coprosma de Kirkii panaché (Coprosma kirkii ‘Variegata’) ») ; rapproché par la variété de l'onglet Fiches	Coprosma repens 'Variegata'	
 P321	Arbre de Noël néo-zélandais		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Metrosideros excelsa	
 P322	Orgueil de Madère		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Echium candicans	
 P323	Bignone du Cap		Vegetaleo			EUR				17/11/2026		Actif	Non trouvé	Tecomaria capensis	

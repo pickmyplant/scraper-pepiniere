@@ -105,7 +105,7 @@
   "P500",
   "P501"
  ],
- "nb_lignes": 676,
+ "nb_lignes": 671,
  "fichier": "releves/JDP-2026-11-17-AUTO-L5.tsv",
  "branche": "claude/vibrant-keller-jibr76",
  "remarques": ""

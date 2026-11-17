@@ -106,7 +106,7 @@
   "P300",
   "P358"
  ],
- "nb_lignes": 142,
+ "nb_lignes": 138,
  "fichier": "releves/PSH-2026-11-17-AUTO-L3.tsv",
  "branche": "claude/vibrant-keller-jibr76",
  "remarques": ""

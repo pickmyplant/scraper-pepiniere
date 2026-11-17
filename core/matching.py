@@ -35,9 +35,55 @@ def equivalence_utilisee(plante, textes):
     return None
 
 
-def variete_fiches(plante, texte):
-    """Variété de l'onglet Fiches citée dans le texte (nom ou synonyme), sinon None."""
+# Mots qui suivent parfois le genre sans être une autre espèce (botanique, français, anglais)
+_PAS_UNE_ESPECE = set("""var subsp ssp cv hybride hybrides hybrid hybrida pour avec sans dans nain naine type variete
+varietes groupe group arbre arbuste plante plantes demi blanc blanche rouge rose jaune pourpre panache panachee violet
+orange mauve white pink yellow purple golden gold silver green black blue glorieux superbe commun commune japon chine
+fleur fleurs double simple grand grande petit petite tige touffe boule multi ramifie bonsai topiaire html
+fenouil japonais japonaise odeur feuilles feuille tropical tropicale garden magical little hortense communis
+collection serie series""".split())
+
+
+def autre_espece(plante, texte):
+    """Épithète d'une autre espèce du même genre nommée dans le texte (« Prunus laurocerasus » pour
+    Prunus avium), sinon None. Rien si l'espèce de la plante (ou un synonyme) est aussi citée, ni pour
+    une plante « Genre Hybrides... » ou « Genre a / b »."""
     tn = norm(texte)
+    genre = norm(plante.genre)
+    esp = norm(plante.espece)
+    if not genre or not esp or esp.split()[0] in ("hybrides", "hybride", "groupe") or "/" in plante.espece:
+        return None
+    epithetes = set()
+    for n in noms_latins(plante):
+        t = norm(n).split()
+        if len(t) > 1 and t[0] == genre:
+            epithetes.add(t[1])
+    mots_varietes = set()
+    for v in plante.varietes:
+        for nom in [v.nom] + v.synonymes:
+            mots_varietes.update(norm(nom).split())
+    mots = tn.split()
+    if not epithetes or any(e in mots for e in epithetes):
+        return None
+    proches = epithetes | mots_varietes
+    for m in re.finditer(rf"(?:^| ){re.escape(genre)} ([a-z]+)", tn):
+        e = m.group(1)
+        if len(e) < 4 or e in _PAS_UNE_ESPECE:
+            continue
+        # faute de frappe sur l'espèce ou sur une variété (« fragans », « edlweiss ») : pas une autre espèce
+        if any(_distance(e, w) <= 2 or (len(w) >= 5 and (w.startswith(e) or e.startswith(w)))
+               for w in proches if len(w) >= 4):
+            continue
+        return e
+    return None
+
+
+def variete_fiches(plante, texte):
+    """Variété de l'onglet Fiches citée dans le texte (nom ou synonyme), sinon None.
+    None aussi quand le texte nomme une autre espèce du même genre (laurier-cerise 'Van Nes' ≠ cerisier 'Van')."""
+    tn = norm(texte)
+    if autre_espece(plante, texte):
+        return None
     for v in plante.varietes:
         if norm(v.nom) in VARIETES_IGNOREES:
             continue

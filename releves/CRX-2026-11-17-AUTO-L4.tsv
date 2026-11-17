@@ -1,5 +1,4 @@
 ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
-P301	Pittospore du Japon	Variegatum	Pépinières Croux	https://www.croux.fr/Plantes-climat-doux/33-PITTOSPORUM-tenuifolium-Variegatum.html	26,00	EUR	Pot 5 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« PITTOSPORUM tenuifolium 'Variegatum' ») ; rapproché par la variété de l'onglet Fiches	Pittosporum tobira 'Variegatum'	Touffe
 P301	Pittospore du Japon	Espèce type	Pépinières Croux	https://www.croux.fr/Plantes-climat-doux/34-PITTOSPORUM-tobira.html	59,50	EUR	Pot 12 L	En stock		17/11/2026		Actif		Pittosporum tobira	60/80 cm
 P301	Pittospore du Japon	Nanum	Pépinières Croux	https://www.croux.fr/Plantes-climat-doux/408-PITTOSPORUM-tobira-Nanum.html	26,00	EUR	Pot 5 L	En stock		17/11/2026		Actif		Pittosporum tobira 'Nanum'	Touffe
 P302	Citronnier		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Citrus × limon	
@@ -87,7 +86,6 @@ P382	Arroche nummulaire		Pépinières Croux			EUR				17/11/2026		Actif	Non trouv
 P383	Arroche à quatre ailes		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Atriplex canescens	
 P384	Obione		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Halimione portulacoides	
 P385	Cyprès de Lambert		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
-P386	Abricotier	Royal	Pépinières Croux	https://www.croux.fr/Arbres/466-PRUNUS-serrulata-Royal-burgundy.html	52,00	EUR	Pot 15 L	En stock		17/11/2026		Actif	Espèce absente de la fiche (« PRUNUS serrulata 'Royal Burgundy' ») ; rapproché par la variété de l'onglet Fiches	Prunus armeniaca 'Royal'	125/150 cm
 P387	Pêcher		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Prunus persica	
 P388	Prunier		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Prunus domestica	
 P389	Cognassier		Pépinières Croux			EUR				17/11/2026		Actif	Non trouvé	Cydonia oblonga	

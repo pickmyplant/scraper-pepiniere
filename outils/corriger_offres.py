@@ -16,6 +16,8 @@ import csv, difflib, io, os, re, sys, unicodedata, urllib.request, collections a
 
 GID = {"Offres": 1200, "Export": 1815189843}
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, RACINE)
+from core import bdd as B, matching as M   # noqa: E402
 NOUVELLES = {  # fiches d'hybrides à créer : ID -> (nom commun, genre, espèce, famille)
     "P584": ("Gazania hybride", "Gazania", "Hybrides horticoles", "Astéracées"),
     "P585": ("Lilas des Indes hybride", "Lagerstroemia", "Hybrides horticoles", "Lythracées"),
@@ -73,7 +75,7 @@ DECHETS = [re.compile(x, re.I) for x in [
  r"\b(with|including|incl\.?|incluant|y compris|avec|et son|en|in|dans( un)?|sur|\+)\s+(sofia |torun |p&pure |support |cache[- ]?)?(basket|elho|viber|cache[- ]pot|panier|pot|godet|coupe|mand|bac|jardini[èe]re|support|lot|c[ée]ramique)\b.*$",
  r"\bcache[- ]pot\b.*$", r"\bplante de haie.*$", r"\bplante vivace.*$", r"\bpot \d+.*$", r"\bhauteur\b.*$", r"[Øø⌀↕]\s*\d+\s*(cm)?",
  r"\b\d+(\s*[/-]\s*\d+)?\s*(cm|m|l|litres?)?\b(?!\s*saisons)", r"\b(botanic|bio|coloris( vert)?|multicolore)\b\s*[–-]?\s*$", r"\.Le$", r"\bcov\b", r"\baka\b", r"[®™©?♀♂⚥–]",
- r"\bs[ée]lection\b", r"\b(m[ée]lange|mix|mixed|mixture)\b", r"\b(femelle|m[âa]le|autofertile|auto-fertile)\b", r"\bfruit me\b", r"-? ?nain de jardin",
+ r"\bs[ée]lection\b", r"\btaill[ée]e?s?( en)?\b", r"\b(m[ée]lange|mix|mixed|mixture)\b", r"\b(femelle|m[âa]le|autofertile|auto-fertile)\b", r"\bfruit me\b", r"-? ?nain de jardin",
  r"\bobt(ention|\.)? clause\b", r"\bvari[ée]t[ée] auto.*$", r"\ben plants?( greff[ée]s)?\b", r"\bgraines( pelliculées)?\b", r"\bbesoin de pied.*$", r"\bforme m[âa]le.*$"]]
 COULEURS = {"rose", "rouge", "blanc", "blanche", "violet", "violette", "mauve", "jaune", "bleu", "marron", "vert", "orange", "argent", "vif", "clair", "fonce"}
 GENERIQUES = {"x", "var", "subsp", "ssp", "f", "ou", "de", "du", "des", "d", "le", "la", "les", "a", "et", "l", "commun", "commune", "vrai", "vraie",
@@ -87,6 +89,9 @@ class Analyse:
             self.plantes.setdefault(i, [i, nom, "", "", g, e, ""])
         self.mots = {p: set(norm(" ".join(r[1:6])).split()) | GENERIQUES for p, r in self.plantes.items()}
         self.fiche = {p: self._fiche(r[6]) for p, r in self.plantes.items()}
+        eql = B.lire_equivalences_latin(os.path.join(RACINE, "data", "equivalences_latin.csv"))
+        self.objets = {p: B.Plante(p, r[1], [], B._liste(r[3]), r[4].strip(), r[5].strip(), B.lire_varietes(r[6]),
+                                   eql.get(p, [])) for p, r in self.plantes.items() if len(r) > 6}
         self.regles = C.defaultdict(list); self.liens = []
         for l in open(os.path.join(RACINE, "data", "corrections_varietes.txt"), encoding="utf-8"):
             l = l.rstrip("\n")
@@ -161,6 +166,12 @@ class Analyse:
         if s != s.lower() and s != s.upper(): return s
         return " ".join(w.lower() if i and w.lower() in petits else w.capitalize() for i, w in enumerate(mots))
 
+    def autre_espece(self, r):
+        """Épithète d'une autre espèce nommée sur une fiche « rapprochée par la variété », sinon None."""
+        if "rapproché par la variété" not in r[13] or r[0] not in self.objets: return None
+        m = re.search(r"Espèce absente de la fiche \(« (.*?) »\)", r[13])
+        return M.autre_espece(self.objets[r[0]], m.group(1)) if m else None
+
     def latin(self, p, v):
         r = self.plantes[p]
         return ("%s %s" % (r[4], r[5])).strip() + (" '%s'" % v if v else "")
@@ -177,6 +188,10 @@ class Analyse:
             for p, bout, d in self.liens:   # produit qui n'est pas la plante, reconnu par son lien
                 if p == r[0] and bout in r[4]:
                     suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", d[7:]]
+            esp = self.autre_espece(r)
+            if esp:   # « rapproché par la variété » alors que la fiche nomme une autre espèce du même genre
+                suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "",
+                                                          "autre espèce sur la fiche (%s %s)" % (self.plantes[r[0]][4], esp)]
             if re.fullmatch(r"0+(?:[.,]0*)?", r[5].strip()):   # prix nul : format non lu sur le site (afficherait « dès 0 € »)
                 suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", "prix nul (format non lu sur le site)"]
             if (r[0], r[3], r[4], r[2], r[15]) in suppr: compte["à supprimer"] += 1; continue
@@ -246,7 +261,7 @@ def corriger_releve(chemin, actif=False):
     lignes = list(csv.reader(open(chemin, encoding="utf-8"), delimiter="\t"))
     a = Analyse(offres=lignes)
     corr, _, compte, _ = a.run()
-    sortie, n, deplaces = [lignes[0]], 0, set()
+    sortie, n, deplaces, vus = [lignes[0]], 0, set(), set()
     for r in lignes[1:]:
         r = r + [""] * (16 - len(r))
         c = corr.get((r[0], r[3], r[4], r[2], r[15]))
@@ -258,6 +273,9 @@ def corriger_releve(chemin, actif=False):
             r = [c[1], c[2], c[3]] + r[3:12] + [c[4] or r[12], " ; ".join(notes), c[6], c[7]]
             n += 1
         if actif and "Autre plante" not in r[13]: r[12] = "Actif"   # relevé automatique : pas de relecture
+        k = (r[0], r[4], r[2], r[5], r[7], r[8], r[15])   # doublon (deux déclinaisons identiques, fiche déplacée vers une plante déjà relevée)
+        if r[4] and k in vus: n += 1; continue
+        vus.add(k)
         sortie.append(r)
     csv.writer(open(chemin, "w", encoding="utf-8", newline=""), delimiter="\t", lineterminator="\n").writerows(sortie)
     fiche = chemin[:-4] + ".json"
