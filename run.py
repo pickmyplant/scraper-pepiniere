@@ -65,11 +65,21 @@ def main():
 
     module = __import__(ADAPTATEURS[args.pepiniere], fromlist=["Adaptateur"])
     aujourdhui = dt.date.today().strftime("%d/%m/%Y")
-    offres, anomalies = [], []
+    offres, anomalies, en_erreur = [], [], []
     try:
         ad = module.Adaptateur()
         for p in plantes:
-            o, a = ad.releve(p, aujourdhui)
+            try:
+                o, a = ad.releve(p, aujourdhui)
+            except Bloque:
+                raise
+            except Exception as e:
+                # Erreur propre à une plante (page en erreur 500, fiche inattendue...) : le lot continue ;
+                # la plante est retirée du relevé, ses anciennes lignes restent donc dans Offres.
+                log.warning("ERREUR sur %s (%s) : %r ; plante non relevée", p.id, p.nom_latin, e)
+                en_erreur.append(p.id)
+                anomalies.append((p.id, "", f"Plante non relevée : {e.__class__.__name__} {e}"[:300]))
+                continue
             offres += o
             anomalies += [(p.id, url, raison) for url, raison in a]
     except Bloque as e:
@@ -84,6 +94,11 @@ def main():
             f.write("\t".join(a) + "\n")
     log.info("%d ligne(s) écrite(s) dans %s ; %d anomalie(s) ; %d requête(s) ; journal : %s",
              len(offres), args.sortie, len(anomalies), ad.http.nb_requetes, fichier_log)
+    if en_erreur:
+        log.warning("Plantes en erreur, non relevées (anciennes lignes gardées) : %s", ", ".join(en_erreur))
+        plantes = [p for p in plantes if p.id not in en_erreur]
+        args.remarques = (args.remarques + " " if args.remarques else "") + \
+            "Non relevées (erreur, à relancer) : " + ", ".join(en_erreur) + "."
     if args.releve:
         ecrire_fiche_releve(args, module, plantes, offres)
 

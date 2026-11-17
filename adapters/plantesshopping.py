@@ -18,7 +18,7 @@ import re
 import config
 from core import matching as M
 from core.formatting import Offre, contenant, prix_fr, repartis, taille_contenant
-from core.http import ClientPoli
+from core.http import Bloque, ClientPoli, InterditParRobots
 
 log = logging.getLogger("scraper")
 
@@ -84,7 +84,20 @@ class Adaptateur:
     def releve(self, plante, aujourdhui):
         offres, anomalies = [], []
         for url in self.candidats(plante):
-            o, a = self._analyser(plante, url, self.http.get(url).text, aujourdhui)
+            try:
+                page = self.http.get(url).text
+            except Bloque:
+                raise
+            except InterditParRobots:
+                anomalies.append((url, "Interdit par robots.txt, non lu"))
+                continue
+            except Exception as e:
+                # 404 : fiche retirée. Autre erreur (500...) : remontée, run.py garde alors les anciennes lignes de la plante.
+                if getattr(getattr(e, "response", None), "status_code", None) != 404:
+                    raise
+                anomalies.append((url, "Fiche retirée du site (404, encore dans le sitemap)"))
+                continue
+            o, a = self._analyser(plante, url, page, aujourdhui)
             offres += o
             anomalies += a
         if not offres:
