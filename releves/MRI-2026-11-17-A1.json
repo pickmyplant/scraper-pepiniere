@@ -1,0 +1,22 @@
+{
+ "releve": "MRI-2026-11-17-A1",
+ "pepiniere": "Meilland Richardier",
+ "date": "17/11/2026",
+ "par": "Claude A",
+ "plantes": [
+  "P001",
+  "P002",
+  "P003",
+  "P004",
+  "P005",
+  "P006",
+  "P007",
+  "P008",
+  "P009",
+  "P010"
+ ],
+ "nb_lignes": 13,
+ "fichier": "releves/MRI-2026-11-17-A1.tsv",
+ "branche": "ccr-280ec93c-9q35mj",
+ "remarques": ""
+}
