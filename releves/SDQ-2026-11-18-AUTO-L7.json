@@ -1,0 +1,19 @@
+{
+ "releve": "SDQ-2026-11-18-AUTO-L7",
+ "pepiniere": "Les Senteurs du Quercy",
+ "date": "18/11/2026",
+ "par": "Automatique",
+ "plantes": [
+  "P602",
+  "P603",
+  "P604",
+  "P605",
+  "P606",
+  "P607",
+  "P608"
+ ],
+ "nb_lignes": 7,
+ "fichier": "releves/SDQ-2026-11-18-AUTO-L7.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
