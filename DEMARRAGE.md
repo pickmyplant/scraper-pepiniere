@@ -59,6 +59,9 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
   en parties (liste PARTIES) : ceux qui dépassent 6 heures ; parties relevées l'une après l'autre pour les sites qui saturent (liste SUITE : Jardin du Pic Vert). Dépôt public : minutes GitHub illimitées.
 - La Sheet importe seule les relevés de cette liste (menu Relevés > Activer l'import automatique).
 - `outils/lot.sh` nettoie aussi les variétés de chaque relevé manuel (`corriger_offres.py --releve`).
+- Lots (colonne Q « Lot » d'Offres, 19/11/2026) : l'adaptateur note seulement « lot de N » dans Notes avec le prix du lot ;
+  `core/lots.py` (appelé à l'export) regroupe : lot doublant une ligne à l'unité → reporté dans ses Notes ; vendu seulement
+  par lot → Prix d'un plant, Lot = « N ; prix du lot » (plus petit lot), détail dans Notes. Relevés à 17 colonnes.
 - Claude n'intervient que si un adaptateur casse (tâche en échec dans l'onglet Actions de GitHub).
 
 ## Règles ajoutées le 19/11/2026 (contrôle des offres des 10 plantes les plus vendues)

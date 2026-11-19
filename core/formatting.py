@@ -24,7 +24,7 @@ def frais_port(pepiniere):
 COLONNES = [
     "ID", "Plante", "Variété", "Pépinière", "Lien du produit", "Prix", "Devise", "Contenant",
     "Disponibilité", "Frais de port", "Relevé le", "Lien affilié", "Statut", "Notes", "Nom latin",
-    "Hauteur ou forme",
+    "Hauteur ou forme", "Lot",
 ]
 
 FORMES = [  # (motif, libellé) — du plus précis au plus général
@@ -62,6 +62,7 @@ class Offre:
     notes: str
     nom_latin: str
     hauteur_forme: str
+    lot: str = ""   # « N ; prix du lot » si vendu seulement par lot (rempli par core/lots.py à l'export)
     tri: float = field(default=0.0, repr=False)  # clé de tri interne (taille), non exportée
 
     def ligne(self):

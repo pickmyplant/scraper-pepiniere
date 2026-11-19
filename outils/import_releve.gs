@@ -27,7 +27,7 @@ var COORDINATION_ID = '1QfeIyLnsM3EMQf_cc1KmPNYQ1xJJzRG_kYJr5ZfIFIM';
 var ONGLET_RESERVATIONS = 'Réservations';
 var COLONNES = ['ID', 'Plante', 'Variété', 'Pépinière', 'Lien du produit', 'Prix', 'Devise', 'Contenant',
   'Disponibilité', 'Frais de port', 'Relevé le', 'Lien affilié', 'Statut', 'Notes', 'Nom latin',
-  'Hauteur ou forme'];
+  'Hauteur ou forme', 'Lot'];   // Lot (Q, 19/11/2026) : « N ; prix du lot » si vendu seulement par lot
 var COL_PRIX = 5;   // index 0 dans COLONNES
 var COL_DATE = 10;
 var COL_FRAIS = 9;  // colonne J : calculée par une formule ARRAYFORMULA en J1, jamais écrite par le script
@@ -89,7 +89,8 @@ function convertirLigne_(cellules) {
 function lireTsv_(texte) {
   var lignes = texte.replace(/\r/g, '').split('\n').filter(function (l) { return l.length > 0; });
   var entete = lignes[0].split('\t');
-  if (entete.join('|') !== COLONNES.join('|')) {
+  // les relevés d'avant la colonne Lot (16 colonnes) restent importables : Lot vide
+  if (entete.join('|') !== COLONNES.join('|') && entete.join('|') !== COLONNES.slice(0, -1).join('|')) {
     throw new Error('En-tête du TSV inattendu : ' + entete.join(', '));
   }
   return lignes.slice(1).map(function (l) { return convertirLigne_(l.split('\t')); });

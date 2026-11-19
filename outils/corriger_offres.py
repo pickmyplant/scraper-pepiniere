@@ -181,7 +181,7 @@ class Analyse:
         dec = {}; compte = C.Counter(); cand = C.defaultdict(C.Counter); suppr = {}
         lignes = []
         for r in self.offres[1:]:
-            r = r + [""] * (16 - len(r))
+            r = r + [""] * (17 - len(r))
             if not r[0].strip() or r[0].startswith("(exemple)") or r[0] not in self.plantes: continue
             if r[13] == "Non trouvé" or not r[4]: compte["non trouvé"] += 1; continue
             lignes.append(r)
@@ -255,53 +255,8 @@ class Analyse:
                 corr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR" if action == "SUPPR" else "MODIF"] + nouvelle + ([raison] if action == "SUPPR" else [""])
         return corr, nouv, compte, len(lignes)
 
-# Lots (19/11/2026, consignes de la BDD, section 7) : « Prix = toujours le prix d'UN plant » et « Lots : jamais une ligne
-# à part ; les écrire dans Notes de la ligne du même format ». Une ligne de lot (Notes « lot de N », « set de N ») qui
-# double une ligne à l'unité (même plante, lien, contenant, hauteur, variété) est retirée et notée sur la ligne à l'unité ;
-# un produit vendu seulement par lot garde la ligne du plus petit lot, au prix d'un plant, avec le détail dans Notes.
-_LOT = re.compile(r"\b(?:lot|set) de (\d+)\b", re.I)
-
-def _nombre(x):
-    try: return float(str(x).replace(" ", "").replace(",", "."))
-    except ValueError: return None
-
-def _fr(x):
-    return ("%.2f" % x).replace(".", ",")
-
-def regrouper_lots(lignes):
-    """lignes : rangées d'Offres (16 colonnes, sans l'en-tête). Rend (lignes, nombre de lignes de lot retirées)."""
-    def n_lot(r):
-        if "Vendu seulement par lot" in r[13]: return 1
-        m = _LOT.search(r[13])
-        return int(m.group(1)) if m and int(m.group(1)) > 1 else 1
-    groupes = C.OrderedDict()
-    for i, r in enumerate(lignes):
-        k = (r[0], re.sub(r"[?#].*$", "", r[4]).rstrip("/"), r[7], r[15], r[2], r[6]) if r[4] else ("", i)
-        groupes.setdefault(k, []).append(i)
-    retirer = set()
-    for k, idx in groupes.items():
-        lots = [i for i in idx if n_lot(lignes[i]) > 1]
-        if not lots: continue
-        unites = [i for i in idx if n_lot(lignes[i]) == 1]
-        meilleurs = {}
-        for i in lots:
-            p = _nombre(lignes[i][5]); n = n_lot(lignes[i])
-            if p: meilleurs[n] = min(meilleurs.get(n, p), p)
-        texte = " ; ".join("lot de %d : %s € (%s € le plant)" % (n, _fr(p), _fr(p / n)) for n, p in sorted(meilleurs.items()))
-        if unites:
-            for u in unites:
-                if texte and texte not in lignes[u][13]:
-                    lignes[u][13] = (lignes[u][13] + " ; " if lignes[u][13] else "") + texte
-            retirer.update(lots)
-        elif meilleurs:
-            n0 = min(meilleurs)
-            garde = next(i for i in sorted(lots, key=lambda i: n_lot(lignes[i])) if n_lot(lignes[i]) == n0 and _nombre(lignes[i][5]))
-            r = lignes[garde]
-            r[5] = _fr(meilleurs[n0] / n0)
-            notes = re.sub(r"\s*;?\s*\blot de \d+\b", "", r[13]).strip(" ;")
-            r[13] = (notes + " ; " if notes else "") + "Vendu seulement par lot : " + texte
-            retirer.update(i for i in lots if i != garde)
-    return [r for i, r in enumerate(lignes) if i not in retirer], len(retirer)
+# Lots : voir core/lots.py (prix d'un plant, colonne Lot « N ; prix du lot » si vendu seulement par lot).
+from core.lots import regrouper_lots   # noqa: E402
 
 def corriger_releve(chemin, actif=False):
     """Applique les mêmes corrections à un relevé (releves/<ID>.tsv) avant son import ; met à jour la fiche .json."""
@@ -309,16 +264,16 @@ def corriger_releve(chemin, actif=False):
     lignes = list(csv.reader(open(chemin, encoding="utf-8"), delimiter="\t"))
     a = Analyse(offres=lignes)
     corr, _, compte, _ = a.run()
-    sortie, n, deplaces, vus = [lignes[0]], 0, set(), set()
+    sortie, n, deplaces, vus = [lignes[0] + ["Lot"] * (len(lignes[0]) == 16)], 0, set(), set()   # relevés d'avant la colonne Lot
     for r in lignes[1:]:
-        r = r + [""] * (16 - len(r))
+        r = r + [""] * (17 - len(r))
         c = corr.get((r[0], r[3], r[4], r[2], r[15]))
         if c:
             if c[0] == "SUPPR": n += 1; continue
             notes = [x.strip() for x in r[13].split(";") if x.strip() and not (c[8] == "oui" and x.strip().startswith("Variété trouvée"))]
             notes += [x for x in c[5].split(" ; ") if x and x not in notes]
             if c[1] != r[0]: deplaces.add(c[1])
-            r = [c[1], c[2], c[3]] + r[3:12] + [c[4] or r[12], " ; ".join(notes), c[6], c[7]]
+            r = [c[1], c[2], c[3]] + r[3:12] + [c[4] or r[12], " ; ".join(notes), c[6], c[7]] + r[16:]
             n += 1
         if actif and "Autre plante" not in r[13]: r[12] = "Actif"   # relevé automatique : pas de relecture
         k = (r[0], r[4], r[2], r[5], r[7], r[8], r[15])   # doublon (deux déclinaisons identiques, fiche déplacée vers une plante déjà relevée)
