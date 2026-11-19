@@ -516,11 +516,10 @@ P465|alphen s globe|Alphen's Globe
 P461|van pelt s blue|Van Pelt's Blue
 # --- 19/11/2026 (Claude de Boutaina) : contrôle des offres des 10 plantes les plus vendues, pages des produits relues ---
 # Autres espèces relevées par erreur (la ligne n'est pas importée ; la plante n'existe pas encore dans la BDD)
-P387|lien:prunus-maackii;lien:prunus-serrula;lien:prunier-black-amber|=SUPPR:autre espèce (Prunus maackii, Prunus serrula ou Prunus salicina), pas un pêcher
-P388|lien:prunier-santa-rosa|=SUPPR:Prunus salicina 'Santa Rosa' (prunier japonais), pas Prunus domestica
-P390|lien:frslbp202504140001f30003520001fc6241|=SUPPR:nashi 'New World' (Pyrus pyrifolia), pas un poirier commun
-P575|lien:paniculata|=SUPPR:Hydrangea paniculata (hortensia paniculé), pas Hydrangea macrophylla
-P480|lien:jordan;jordan|=SUPPR:Acer shirasawanum 'Jordan', pas Acer palmatum
+P387|lien:prunus-maackii;lien:prunus-serrula;lien:prunier-black-amber|=SUPPR:autre espèce (Prunus maackii, Prunus serrula, ou Prunus salicina relevé sous P610), pas un pêcher
+P388|lien:prunier-santa-rosa|=SUPPR:Prunus salicina 'Santa Rosa' (prunier japonais, relevé sous P610), pas Prunus domestica
+P390|lien:frslbp202504140001f30003520001fc6241|=SUPPR:nashi 'New World' (Pyrus pyrifolia, relevé sous P611), pas un poirier commun
+P480|lien:jordan;jordan|=SUPPR:Acer shirasawanum 'Jordan' (relevé sous P612), pas Acer palmatum
 # Une même variété écrite de plusieurs façons selon la pépinière
 P480|inaba shidare;inabe shidare|Inaba Shidare
 P480|fire ?glow|Fireglow
@@ -545,12 +544,12 @@ P575|so long sunny.*|So Long Sunny
 P575|alpengluhen|Alpenglühen
 P575|mirai|Miraï
 P575|white wave|White Wave
-P575|you (and )?me romance.*|You & Me Romance
+P575|(you (and )?me )?romance.*|You & Me Romance
 P575|(you (and )?me )?miss saori.*|Miss Saori
-P575|you (and )?me princess diana.*|You & Me Princess Diana
+P575|(you (and )?me )?princess diana.*|You & Me Princess Diana
 P575|you (and )?me together.*|You & Me Together
 P575|you (and )?me forever.*|You & Me Forever
-P575|you (and )?me inspire.*|You & Me Inspire
+P575|(you (and )?me )?inspire.*|You & Me Inspire
 P575|you ?me perfection.*|You & Me Perfection
 P575|star gazer.*|Star Gazer
 P575|(chocolate )?ever belles chocolate.*;chocolate ever belles.*|Ever Belles Chocolate
@@ -563,6 +562,22 @@ P575|dolce fragola.*|Dolce Fragola
 P575|dolce france.*|Dolce France
 P575|magical revolution bleu|Magical Revolution Blue
 P575|endless|Endless Summer
+P575|s(oe|œ)ur therese|Sœur Thérèse
+P575|generale? vic(o|on)?m?tesse de vibraye?|Générale Vicomtesse de Vibraye
+P575|(magical )?revolution (blue|bleu)|Magical Revolution Blue
+P575|(magical )?revolution (pink|rose)|Magical Revolution Pink
+P575|(magical )?jewel( blue)?|Magical Jewel
+P575|(magical )?ruby( tuesday)?|Magical Ruby Tuesday
+P575|teller (blaumeise|blau|blue)|Blaumeise
+P575|libelle teller white;teller (weiss|white)|Libelle
+P575|renate( steiniger)?|Renate Steiniger
+P575|mme mouillere blanc|Mme Emile Mouillère
+P575|chocolate ever bells?|Ever Belles Chocolate
+P575|forever (and )?ever (blue|pink|red|white|bleu|rose|rouge|blanc);forever pink|Forever & Ever
+P575|light o day|Light-O-Day
+P575|the original( blue| bleu| pink| rose)?|Endless Summer
+P575|music collection|=ET
+P575|sybilla|Sibilla
 P575|forever ever|Forever & Ever
 P047|cordon bleu|Cordon Bleu
 P047|saint emilion|Saint-Émilion
