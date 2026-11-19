@@ -27,7 +27,7 @@ PREFIXE = "PSH"  # préfixe des identifiants de relevé (outils/lot.sh)
 BASE = "https://www.plantes-shopping.fr"
 SITEMAP = BASE + "/sitemap.xml"
 DUREE_CACHE_JOURS = 7
-CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
+CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 HAUTEUR = re.compile(r"(\d+)\s*(?:/|à|-)\s*(\d+)\s*(cm|m)\b", re.I)
 
 

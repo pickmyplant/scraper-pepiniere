@@ -60,3 +60,14 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
 - La Sheet importe seule les relevés de cette liste (menu Relevés > Activer l'import automatique).
 - `outils/lot.sh` nettoie aussi les variétés de chaque relevé manuel (`corriger_offres.py --releve`).
 - Claude n'intervient que si un adaptateur casse (tâche en échec dans l'onglet Actions de GitHub).
+
+## Règles ajoutées le 19/11/2026 (contrôle des offres des 10 plantes les plus vendues)
+- Variété : `core/matching.variete_fiches` retient le nom de Fiches cité le plus tôt dans le texte, puis le plus long
+  (« Endless Summer The Bride » -> The Bride grâce au synonyme ; « Cherry Bouquet Rouge » -> Cherry Bouquet).
+  Une sous-variété vendue sous le nom d'une gamme se règle donc en l'ajoutant à Fiches > Variétés avec le nom complet en synonyme.
+- Cultivar entre guillemets : `M.cultivar_cite` / `M._CITE` (apostrophe intérieure gardée : 'Rambour d'Hiver', 'Longue d'Août') ;
+  `variete_du_titre` le lit avant de conclure à l'espèce type (‘Granny Smith’ chez Le Jardin de Pascal).
+- Lots : `corriger_offres.regrouper_lots`, appliqué à chaque relevé (manuel et automatique) : une ligne de lot qui double la ligne
+  à l'unité est retirée et notée sur celle-ci ; un produit vendu seulement par lot garde le prix d'un plant et la note
+  « Vendu seulement par lot : … » (consignes de la BDD, section 7).
+- Autres espèces exclues par leur lien et orthographes unifiées : bloc du 19/11/2026 de `data/corrections_varietes.txt`.

@@ -171,7 +171,13 @@ class Adaptateur:
             reste = M._apres(latin, n)
             if reste is not None:
                 reste = re.sub(r"[®™]", "", reste).strip(" '\"‘’()")
-                return reste, not reste
+                if reste:
+                    return reste, False
+                break
+        # « Pommier ‘Granny Smith’ (Malus domestica) » : le cultivar est dans le titre, pas dans le nom latin (19/11/2026)
+        c = M.cultivar_cite(titre)
+        if c:
+            return c, False
         return "", True
 
     def _analyser(self, plante, url, page, aujourdhui):

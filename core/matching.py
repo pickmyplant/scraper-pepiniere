@@ -84,13 +84,35 @@ def variete_fiches(plante, texte):
     tn = norm(texte)
     if autre_espece(plante, texte):
         return None
+    # Le nom cité le plus tôt dans le texte, puis le plus long (19/11/2026) : « Endless Summer The Bride » ->
+    # The Bride (synonyme « Endless Summer The Bride ») et non Endless Summer ; « Cherry Bouquet Rouge » -> Cherry Bouquet ;
+    # « Poirier Angélys … pollinisé par Conférence » -> Angélys.
+    meilleur = None
     for v in plante.varietes:
         if norm(v.nom) in VARIETES_IGNOREES:
             continue
         for nom in [v.nom] + v.synonymes:
-            if contient(tn, nom):
-                return v.nom
-    return None
+            m = norm(nom)
+            r = re.search(rf"(^| ){re.escape(m)}( |$)", tn) if m else None
+            if r:
+                cle_tri = (r.start(), -len(m))
+                if meilleur is None or cle_tri < meilleur[0]:
+                    meilleur = (cle_tri, v.nom)
+    return meilleur[1] if meilleur else None
+
+
+# Cultivar entre guillemets, apostrophe intérieure comprise : 'Rambour d'Hiver', ‘Granny Smith’, 'orange dream'
+_CITE = re.compile(r"(?:^|[\s(/])['‘’\"“]\s*([A-Za-zÀ-ÿ0-9][^'‘’\"“”]*(?:['’][a-zà-ÿA-ZÀ-Ý][^'‘’\"“”]*)*?)\s*['’\"”](?=$|[\s),.;:®™/-])")
+
+
+def cultivar_cite(texte):
+    """Nom de cultivar écrit entre guillemets dans le texte, sinon None (19/11/2026 : l'apostrophe de
+    « d'Hiver », « d'Été », « d'Août » ne coupe plus le nom)."""
+    m = _CITE.search(texte or "")
+    if not m:
+        return None
+    v = re.sub(r"[®™*]", "", m.group(1)).strip(" -")
+    return v if 2 <= len(v) <= 40 else None
 
 
 def est_candidat(plante, titre, url):
@@ -138,6 +160,9 @@ def variete_du_titre(plante, titre):
     v = variete_fiches(plante, titre)
     if v:
         return v, True
+    c = cultivar_cite(titre)   # « Pommier ‘Granny Smith’ (Malus domestica) » ne donne plus l'espèce type (19/11/2026)
+    if c:
+        return c, False
     segments = [s.strip() for s in re.split(r"\s[-–]\s?|\s?[-–]\s|,", titre) if s.strip()]
     reste = None
     for seg in segments:

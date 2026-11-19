@@ -30,7 +30,7 @@ BASE = "https://vegetaleo.com"
 CATALOGUE = BASE + "/products.json?limit=250&page={n}"
 DUREE_CACHE_JOURS = 7
 TYPES_EXCLUS = {"carte cadeau"}
-CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
+CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 HAUTEUR = re.compile(r"hauteur(?: livrée)?\s+(?:entre\s+)?(\d+)\s*(?:et|à|-)\s*(\d+)\s*cm", re.I)
 
 

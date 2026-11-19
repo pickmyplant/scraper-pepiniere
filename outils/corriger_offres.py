@@ -255,6 +255,54 @@ class Analyse:
                 corr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR" if action == "SUPPR" else "MODIF"] + nouvelle + ([raison] if action == "SUPPR" else [""])
         return corr, nouv, compte, len(lignes)
 
+# Lots (19/11/2026, consignes de la BDD, section 7) : « Prix = toujours le prix d'UN plant » et « Lots : jamais une ligne
+# à part ; les écrire dans Notes de la ligne du même format ». Une ligne de lot (Notes « lot de N », « set de N ») qui
+# double une ligne à l'unité (même plante, lien, contenant, hauteur, variété) est retirée et notée sur la ligne à l'unité ;
+# un produit vendu seulement par lot garde la ligne du plus petit lot, au prix d'un plant, avec le détail dans Notes.
+_LOT = re.compile(r"\b(?:lot|set) de (\d+)\b", re.I)
+
+def _nombre(x):
+    try: return float(str(x).replace(" ", "").replace(",", "."))
+    except ValueError: return None
+
+def _fr(x):
+    return ("%.2f" % x).replace(".", ",")
+
+def regrouper_lots(lignes):
+    """lignes : rangées d'Offres (16 colonnes, sans l'en-tête). Rend (lignes, nombre de lignes de lot retirées)."""
+    def n_lot(r):
+        if "Vendu seulement par lot" in r[13]: return 1
+        m = _LOT.search(r[13])
+        return int(m.group(1)) if m and int(m.group(1)) > 1 else 1
+    groupes = C.OrderedDict()
+    for i, r in enumerate(lignes):
+        k = (r[0], re.sub(r"[?#].*$", "", r[4]).rstrip("/"), r[7], r[15], r[2], r[6]) if r[4] else ("", i)
+        groupes.setdefault(k, []).append(i)
+    retirer = set()
+    for k, idx in groupes.items():
+        lots = [i for i in idx if n_lot(lignes[i]) > 1]
+        if not lots: continue
+        unites = [i for i in idx if n_lot(lignes[i]) == 1]
+        meilleurs = {}
+        for i in lots:
+            p = _nombre(lignes[i][5]); n = n_lot(lignes[i])
+            if p: meilleurs[n] = min(meilleurs.get(n, p), p)
+        texte = " ; ".join("lot de %d : %s € (%s € le plant)" % (n, _fr(p), _fr(p / n)) for n, p in sorted(meilleurs.items()))
+        if unites:
+            for u in unites:
+                if texte and texte not in lignes[u][13]:
+                    lignes[u][13] = (lignes[u][13] + " ; " if lignes[u][13] else "") + texte
+            retirer.update(lots)
+        elif meilleurs:
+            n0 = min(meilleurs)
+            garde = next(i for i in sorted(lots, key=lambda i: n_lot(lignes[i])) if n_lot(lignes[i]) == n0 and _nombre(lignes[i][5]))
+            r = lignes[garde]
+            r[5] = _fr(meilleurs[n0] / n0)
+            notes = re.sub(r"\s*;?\s*\blot de \d+\b", "", r[13]).strip(" ;")
+            r[13] = (notes + " ; " if notes else "") + "Vendu seulement par lot : " + texte
+            retirer.update(i for i in lots if i != garde)
+    return [r for i, r in enumerate(lignes) if i not in retirer], len(retirer)
+
 def corriger_releve(chemin, actif=False):
     """Applique les mêmes corrections à un relevé (releves/<ID>.tsv) avant son import ; met à jour la fiche .json."""
     import json
@@ -277,6 +325,9 @@ def corriger_releve(chemin, actif=False):
         if r[4] and k in vus: n += 1; continue
         vus.add(k)
         sortie.append(r)
+    corps, nlots = regrouper_lots(sortie[1:])
+    sortie = [sortie[0]] + corps
+    n += nlots
     csv.writer(open(chemin, "w", encoding="utf-8", newline=""), delimiter="\t", lineterminator="\n").writerows(sortie)
     fiche = chemin[:-4] + ".json"
     if os.path.exists(fiche):
@@ -284,7 +335,7 @@ def corriger_releve(chemin, actif=False):
         d["nb_lignes"] = len(sortie) - 1
         d["plantes"] = d["plantes"] + sorted(deplaces - set(d["plantes"]))
         json.dump(d, open(fiche, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("Variétés corrigées : %d ligne(s) sur %d" % (n, len(lignes) - 1))
+    print("Variétés corrigées : %d ligne(s) sur %d (dont %d ligne(s) de lot regroupées)" % (n, len(lignes) - 1, nlots))
 
 if __name__ == "__main__":
     if sys.argv[1] == "--releve":

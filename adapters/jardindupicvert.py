@@ -192,7 +192,7 @@ class Adaptateur:
         v = M.variete_fiches(plante, bota) or M.variete_fiches(plante, nom)
         if v:
             return v, True
-        q = re.search(r"['‘’\"]([^'‘’\"]+)['‘’\"]", bota) or re.search(r"['‘’\"]([^'‘’\"]+)['‘’\"]", nom)
+        q = M._CITE.search(bota) or M._CITE.search(nom)   # « Rambour d'Hiver » n'est plus coupé à l'apostrophe (19/11/2026)
         if q:
             return re.sub(r"[®™]", "", q.group(1)).strip(), False
         b = re.sub(r"(?i)(^|\s)[x×](?=\s)", " ", bota)

@@ -514,3 +514,76 @@ P583|.*(kiss|new day|zany|tiger stripes|sunshine hybrids|suncarpet|sun stopper).
 P226|goutte d ?or|Goutte d'Or
 P465|alphen s globe|Alphen's Globe
 P461|van pelt s blue|Van Pelt's Blue
+# --- 19/11/2026 (Claude de Boutaina) : contrôle des offres des 10 plantes les plus vendues, pages des produits relues ---
+# Autres espèces relevées par erreur (la ligne n'est pas importée ; la plante n'existe pas encore dans la BDD)
+P387|lien:prunus-maackii;lien:prunus-serrula;lien:prunier-black-amber|=SUPPR:autre espèce (Prunus maackii, Prunus serrula ou Prunus salicina), pas un pêcher
+P388|lien:prunier-santa-rosa|=SUPPR:Prunus salicina 'Santa Rosa' (prunier japonais), pas Prunus domestica
+P390|lien:frslbp202504140001f30003520001fc6241|=SUPPR:nashi 'New World' (Pyrus pyrifolia), pas un poirier commun
+P575|lien:paniculata|=SUPPR:Hydrangea paniculata (hortensia paniculé), pas Hydrangea macrophylla
+P480|lien:jordan;jordan|=SUPPR:Acer shirasawanum 'Jordan', pas Acer palmatum
+# Une même variété écrite de plusieurs façons selon la pépinière
+P480|inaba shidare;inabe shidare|Inaba Shidare
+P480|fire ?glow|Fireglow
+P480|skeeter s broom;skeeters broom;skeeter|Skeeter's Broom
+P480|cascade ruby|Cascade Ruby
+P480|dissectum viridis|Dissectum Viridis
+P470|court pendu|Court Pendu
+P470|cybele|Cybèle
+P470|benedictin|Bénédictin
+P470|reinette grise du canada;canada grise reinette;reinette grise canada|Reinette grise du Canada
+P470|patte de loup|Patte de Loup
+P470|reinette d aout|Reinette d'Août
+P470|rambour d( hiver)?|Rambour d'Hiver
+P470|calville rouge d( hiver)?|Calville Rouge d'Hiver
+P575|de jardin;arbuste fleuri rustique.*|=ET
+P575|mme emile mouillere;madame emile mouillere|Mme Emile Mouillère
+P575|merveille sanguine|Merveille Sanguine
+P575|red baron|Red Baron
+P575|dolce gi[ps]+y|Dolce Gipsy
+P575|so long ebony( monmar)?;monmar|So Long Ebony
+P575|so long sunny.*|So Long Sunny
+P575|alpengluhen|Alpenglühen
+P575|mirai|Miraï
+P575|white wave|White Wave
+P575|you (and )?me romance.*|You & Me Romance
+P575|(you (and )?me )?miss saori.*|Miss Saori
+P575|you (and )?me princess diana.*|You & Me Princess Diana
+P575|you (and )?me together.*|You & Me Together
+P575|you (and )?me forever.*|You & Me Forever
+P575|you (and )?me inspire.*|You & Me Inspire
+P575|you ?me perfection.*|You & Me Perfection
+P575|star gazer.*|Star Gazer
+P575|(chocolate )?ever belles chocolate.*;chocolate ever belles.*|Ever Belles Chocolate
+P575|green ever belles.*;ever belles green.*|Ever Belles Green
+P575|pink ever belles.*;ever belles pink.*|Ever Belles Pink
+P575|red ever belles.*;ever belles red.*|Ever Belles Red
+P575|royal red.*|Royal Red
+P575|dutch ladies salsa.*|Dutch Ladies Salsa
+P575|dolce fragola.*|Dolce Fragola
+P575|dolce france.*|Dolce France
+P575|magical revolution bleu|Magical Revolution Blue
+P575|endless|Endless Summer
+P575|forever ever|Forever & Ever
+P047|cordon bleu|Cordon Bleu
+P047|saint emilion|Saint-Émilion
+P047|souvenir d( hubert puard)?|Souvenir d'Hubert Puard
+P047|soir d|Soir d'Été
+P047|camaieu d|Camaïeu d'Été
+P226|longue d( aout)?|Longue d'Août
+P226|noire de caromb|Noire de Caromb
+P226|castle kennedy|Castle Kennedy
+P226|desert king|Desert King
+P226|rosce signora|Rosce Signora
+P226|candy black|Candy Black
+P226|violet de malatrait|Violet de Malatrait
+P226|osborn( s)?( prolific)?|Osborn's Prolific
+P195|punktchen|Pünktchen
+P195|grosse fontane|Grosse Fontäne
+P195|samourai|Samouraï
+P195|vorlaufer|Vorläufer
+P388|belle de louvain|Belle de Louvain
+P388|quetsche blanche de letricourt|Quetsche Blanche de Létricourt
+P390|doyenne du comice|Doyenné du Comice
+P387|plate jaune|Plate jaune
+P387|j h hale|J.H. Hale
+P387|fertile de septembre|Fertile de Septembre

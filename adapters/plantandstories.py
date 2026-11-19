@@ -35,7 +35,7 @@ SOUS_RAYONS_EXCLUS = {"assortiment", "assortiments", "coffret", "coffrets"}
 CACHE_POT = re.compile(r"cache-pot|panier|pot (?:blanc|gris|noir|terre|beige|rose|vert|bleu)", re.I)
 SANS_CACHE_POT = re.compile(r"sans cache-pot", re.I)
 NB = re.compile(r"\b(?:lot|pack) de (\d+)\b|\b(\d+) (?:plantes|plants|bulbes|pieds|godets|plantes \(lot\))\b", re.I)
-CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
+CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 
 
 def _texte(x):
@@ -162,14 +162,16 @@ class Adaptateur:
         m = CULTIVAR.search(titre)
         if m:
             return m.group(1).strip(), False
-        # « Nom commun Cultivar - Genre espèce » : ce qui suit le nom commun, avant le tiret
-        avant = re.split(r"\s[-–]\s", titre)[0]
+        # « Nom commun Cultivar - Genre espèce » ou « Nom commun Cultivar (Genre espèce), description, Pot … » :
+        # ce qui suit le nom commun, avant le tiret, la parenthèse ou la virgule (19/11/2026 : la description
+        # « arbuste fleuri rustique » n'est plus lue comme une variété)
+        avant = re.split(r"\s[-–]\s|\s*\(|,", titre)[0]
         for n in M.noms_latins(plante) + [plante.genre]:
             r = M._apres(avant, n)
             if r is not None:
                 r = re.sub(r"\(.*?\)", "", r).strip(" '\"‘’()")
                 return r, not r
-        if re.search(r"\s[-–]\s", titre):
+        if re.search(r"\s[-–]\s|\(|,", titre):
             for n in sorted([plante.nom_commun] + plante.autres_noms, key=len, reverse=True):
                 r = M._apres(avant, n)
                 if r:

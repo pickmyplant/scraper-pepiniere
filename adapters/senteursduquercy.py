@@ -147,7 +147,7 @@ class Adaptateur:
             return v, True
         if cultivar:
             return cultivar, False
-        m = re.search(r"['‘’\"“”]([^'‘’\"“”]{2,40})['‘’\"“”]", titre)
+        m = M._CITE.search(titre)   # apostrophe intérieure gardée (19/11/2026)
         if m:
             return m.group(1).strip(), False
         return "", True

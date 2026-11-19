@@ -117,7 +117,7 @@ class Adaptateur:
                 reste = M._apres(t, re.sub(r"(^|\s)[x×](?=\s)", " ", n))
                 if reste is None:
                     continue
-                q = re.match(r"\s*['‘’]([^'‘’]+)['‘’]", reste)
+                q = M._CITE.match(reste.lstrip())   # apostrophe intérieure gardée (19/11/2026)
                 if q:
                     reste = q.group(1)
                 else:

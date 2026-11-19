@@ -40,7 +40,7 @@ NB = re.compile(r"\b(?:lot|pack) de (\d+)\b|\b(\d+) (?:plantes|plants|bulbes|pie
 FORMAT_VARIANTE = re.compile(r"Ø\s*(\d+)\s*cm(?:\s*-\s*↕\s*([\d-]+)\s*cm)?", re.I)
 # Artificielles, coffrets et compositions de plusieurs plantes (« Kentia, Strelitzia et Areca », « Baby Paradise - A, B et C »)
 EXCLUS_TITRE = re.compile(r"artificiel|coffret|carte[- ]cadeau|,[^,]*\bet\b", re.I)
-CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
+CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 
 
 def _texte(x):

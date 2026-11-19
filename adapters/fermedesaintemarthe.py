@@ -37,7 +37,7 @@ PARENTHESE = re.compile(r"\(\s*([A-Z][a-z]+\s+[a-z×x][^()]{1,80})\)")
 # Forme d'un nom latin en tête du texte capturé : Genre espèce [subsp. x] ['Cultivar'] [(synonyme)]
 FORME_LATIN = re.compile(r"[A-Z][a-zë-]+(?:\s+(?:×|x)?\s*[a-z][a-zë-]+)?(?:\s+(?:subsp|ssp|var|f)\.?\s+[a-z-]+)?"
                          r"(?:(?:\s+[\wÀ-ÿ-]+){0,3}\s+['‘’][^'‘’]{2,40}['‘’])?(?:\s+\([A-Z][^()]{2,40}\))?")
-CULTIVAR = re.compile(r"['‘’]([^'‘’]{2,40})['‘’]")
+CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 # Fin de titre : label bio, format
 SUFFIXES = re.compile(r"\s*(?:-\s*)?(?:\bPLANTS?\b|\bRACINES? NUES?\b|\(\s*rhizome\s*\)|\bAB\b|\bNT\b|®|™|-)\s*$", re.I)
 NB_BULBES = re.compile(r"(\d+)\s*(?:bulbes?|bubes|griffes|tubercules|caïeux|plants)\b", re.I)
