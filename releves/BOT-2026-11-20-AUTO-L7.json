@@ -1,0 +1,23 @@
+{
+ "releve": "BOT-2026-11-20-AUTO-L7",
+ "pepiniere": "Botanic",
+ "date": "20/11/2026",
+ "par": "Automatique",
+ "plantes": [
+  "P602",
+  "P603",
+  "P604",
+  "P605",
+  "P606",
+  "P607",
+  "P608",
+  "P609",
+  "P610",
+  "P611",
+  "P612"
+ ],
+ "nb_lignes": 17,
+ "fichier": "releves/BOT-2026-11-20-AUTO-L7.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
