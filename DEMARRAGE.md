@@ -14,6 +14,9 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Adaptateurs : un fichier par pépinière dans `adapters/` (`NOM` et `PREFIXE` en tête) : arborescence (ARB),
   clorofila (CLO), mapepiniere (MPE), naudet (NAU), planfor (PLF), promessedefleurs (PDF, Claude B),
   rayondeserre (RDS), truffaut (TRU : Truffaut + Arborix + Bloomique en un seul relevé), verdiagarden (VER).
+- Botanic (20/11/2026) : une plante livrée par un fournisseur est notée « Botanic - <fournisseur> » dans Pépinière (frais de port
+  à part dans l'onglet Livraison de la BDD) ; le bouton d'import remplace ces lignes avec le relevé Botanic. Nouveau fournisseur :
+  lui ajouter une ligne dans les onglets Pépinières et Livraison de la BDD.
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
 - Arborescence, décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
   une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.

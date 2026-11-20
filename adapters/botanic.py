@@ -8,6 +8,11 @@ dans les adresses qui ressemblent à une plante en pot ; le nom latin est ensuit
 Fiche : JSON-LD schema.org Product (nom, prix, disponibilité). « InStock » ne veut pas dire livrable
 (produit parfois en Click & Collect seulement) : seule la mention « Livraison » de la page compte
 (décision du 14/11/2026 : on ne garde que ce qui est livrable).
+Plantes livrées par un fournisseur (« expédié directement à votre domicile par notre fournisseur … ») :
+pépinière notée « Botanic - <fournisseur> » (décision du 20/11/2026), pour que la BDD lui donne ses propres
+frais de port (onglet Livraison) ; le montant affiché par Botanic pour ce produit est noté dans Notes.
+Données lues dans les attributs de la fiche : unic_product_shipping_ldd (vrai = livré par un fournisseur),
+unic_product_supplier_label (nom du fournisseur), unic_product_shipping_ldd_fee (frais de port du fournisseur).
 """
 import datetime as dt
 import html
@@ -65,6 +70,31 @@ def _hauteur(nom):
     if m:
         return f"{m.group(1)}-{m.group(2)} {m.group(3)}" if m.group(2) else f"{m.group(1)} {m.group(3)}"
     return ""
+
+
+def _attribut(page, cle):
+    """Valeur d'un attribut produit de la fiche (JSON de la page), None s'il est absent."""
+    m = re.search(r'"' + cle + r'":\{[^{}]*?"value":("(?:[^"\\]|\\.)*"|true|false|null|-?[\d.]+)', page)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except ValueError:
+        return None
+
+
+def fournisseur(page):
+    """(nom du fournisseur, frais de port affichés) si la plante est livrée par un fournisseur, sinon None."""
+    if _attribut(page, "unic_product_shipping_ldd") is not True:
+        return None
+    # Nom écrit sur la fiche (« … par notre fournisseur La Bambouseraie. »), sinon l'attribut (« LA BAMBOUSERAIE »)
+    m = re.search(r"par notre fournisseur ([^.\"<]{2,60}?)\s*\.", html.unescape(page.replace("\\u00e0", "à")))
+    nom = m.group(1).strip() if m else ""
+    if not nom:
+        brut = _texte(str(_attribut(page, "unic_product_supplier_label") or ""))
+        nom = brut.title() if brut.isupper() else brut
+    frais = _attribut(page, "unic_product_shipping_ldd_fee")
+    return (nom or "fournisseur inconnu"), (frais if isinstance(frais, (int, float)) else None)
 
 
 class Adaptateur:
@@ -234,15 +264,21 @@ class Adaptateur:
             notes.append("Plusieurs offres sur la fiche : seule la première est relevée")
         of = offres[0] if offres else {}
         livrable, mention = self._livraison(bloc)
+        pepiniere = NOM
+        f = fournisseur(page)
+        if f:
+            pepiniere = f"{NOM} - {f[0]}"
+            notes.append(f"Vendu par Botanic, livré par le fournisseur {f[0]} : frais de port à part"
+                         + (f" ({prix_fr(f[1])} € pour ce produit, affiché sur la fiche)" if f[1] is not None else ""))
         en_stock = str(of.get("availability", "")).endswith("InStock")
         if not (livrable and en_stock):
             notes.append(f"Non livrable (« {mention} »)" if not livrable else "Hors stock")
-            return [Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, "", "EUR", cont,
+            return [Offre(plante.id, plante.nom_commun, variete or "Espèce type", pepiniere, url, "", "EUR", cont,
                           "Rupture", "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, haut)], []
         if M.norm(mention) != "en stock":
             notes.append(f"Livraison : {mention}")
         prix = of.get("price")
-        o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(prix), "EUR", cont,
+        o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", pepiniere, url, prix_fr(prix), "EUR", cont,
                   "En stock", "", aujourdhui, "", "À vérifier", " ; ".join(notes), nom_latin, haut)
         o.tri = taille_contenant(cont) * 1000 + float(prix or 0)
         return [o], []

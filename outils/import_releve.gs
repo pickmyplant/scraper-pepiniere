@@ -7,7 +7,7 @@
  * Ce que fait l'import (sans que Claude ait à recopier les lignes) :
  *  1. lit sur GitHub releves/<ID>.json (fiche du relevé) et le TSV associé ;
  *  2. refuse si ce relevé figure déjà dans l'onglet « Relevés » ;
- *  3. si la même pépinière a déjà des lignes pour ces plantes dans « Offres » (mise à jour),
+ *  3. si la même pépinière (ou « <pépinière> - <fournisseur> ») a déjà des lignes pour ces plantes dans « Offres » (mise à jour),
  *     demande confirmation puis supprime ces anciennes lignes ;
  *  4. ajoute toutes les nouvelles lignes en un seul bloc en bas de « Offres » ;
  *  5. ajoute une ligne dans « Relevés » ;
@@ -36,6 +36,16 @@ var COL_FRAIS = 9;  // colonne J : calculée par une formule ARRAYFORMULA en J1,
  * Dernière ligne réellement remplie, d'après la colonne A (ID). getLastRow() compte aussi les
  * cellules où une formule renvoie "" (ex. formule tirée jusqu'en bas de la colonne J).
  */
+
+/**
+ * Lignes d'Offres de la pépinière du relevé : même nom, ou « <pépinière> - <fournisseur> » (20/11/2026 :
+ * Botanic note « Botanic - La Bambouseraie » pour les plantes livrées par un fournisseur ; ces lignes sont
+ * remplacées avec le relevé Botanic).
+ */
+function memePepiniere_(nom, pepiniere) {
+  return nom === pepiniere || nom.indexOf(pepiniere + ' - ') === 0;
+}
+
 function derniereLigne_(onglet) {
   var max = onglet.getMaxRows();
   var col = onglet.getRange(1, 1, max, 1).getValues();
@@ -233,7 +243,7 @@ function importerUn_(id, brancheForcee, ui) {
       var colA = offres.getRange(2, 1, nbOff - 1, 1).getValues();
       var colD = offres.getRange(2, 4, nbOff - 1, 1).getValues();
       for (var i = 0; i < colA.length; i++) {
-        if (plantes[String(colA[i][0]).trim()] && String(colD[i][0]).trim() === fiche.pepiniere) {
+        if (plantes[String(colA[i][0]).trim()] && memePepiniere_(String(colD[i][0]).trim(), fiche.pepiniere)) {
           anciennes.push(i + 2);
         }
       }

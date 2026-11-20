@@ -1,4 +1,4 @@
-"""Prépare la mise à jour d'un relevé dans l'onglet Offres (même pépinière + mêmes plantes).
+"""Prépare la mise à jour d'un relevé dans l'onglet Offres (même pépinière + mêmes plantes ; « <pépinière> - <fournisseur> » compte comme la même pépinière).
 
 On ne lit que deux colonnes d'Offres (ID et Pépinière), puis on calcule les lignes
 de l'ancien relevé à supprimer avant d'ajouter les nouvelles lignes en bas.
@@ -40,7 +40,8 @@ def main():
     pepiniere = sys.argv[3].strip()
     cibles = {x.strip() for x in sys.argv[4].split(",") if x.strip()}
     lignes = [i + 1 for i in range(1, max(len(ids), len(peps)))
-              if i < len(ids) and i < len(peps) and ids[i].strip() in cibles and peps[i].strip() == pepiniere]
+              if i < len(ids) and i < len(peps) and ids[i].strip() in cibles
+              and (peps[i].strip() == pepiniere or peps[i].strip().startswith(pepiniere + " - "))]
     groupes = plages(lignes)
     requetes = [{"deleteDimension": {"range": {"sheetId": ID_ONGLET_OFFRES, "dimension": "ROWS",
                                                 "startIndex": a - 1, "endIndex": b}}}
