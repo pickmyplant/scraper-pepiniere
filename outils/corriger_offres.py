@@ -181,7 +181,7 @@ class Analyse:
         dec = {}; compte = C.Counter(); cand = C.defaultdict(C.Counter); suppr = {}
         lignes = []
         for r in self.offres[1:]:
-            r = r + [""] * (17 - len(r))
+            r = r + [""] * (18 - len(r))
             if not r[0].strip() or r[0].startswith("(exemple)") or r[0] not in self.plantes: continue
             if r[13] == "Non trouvé" or not r[4]: compte["non trouvé"] += 1; continue
             lignes.append(r)
@@ -257,6 +257,7 @@ class Analyse:
 
 # Lots : voir core/lots.py (prix d'un plant, colonne Lot « N ; prix du lot » si vendu seulement par lot).
 from core.lots import regrouper_lots   # noqa: E402
+from core.formatting import COLONNES   # noqa: E402
 
 def corriger_releve(chemin, actif=False):
     """Applique les mêmes corrections à un relevé (releves/<ID>.tsv) avant son import ; met à jour la fiche .json."""
@@ -264,9 +265,9 @@ def corriger_releve(chemin, actif=False):
     lignes = list(csv.reader(open(chemin, encoding="utf-8"), delimiter="\t"))
     a = Analyse(offres=lignes)
     corr, _, compte, _ = a.run()
-    sortie, n, deplaces, vus = [lignes[0] + ["Lot"] * (len(lignes[0]) == 16)], 0, set(), set()   # relevés d'avant la colonne Lot
+    sortie, n, deplaces, vus = [lignes[0] + COLONNES[len(lignes[0]):]], 0, set(), set()   # relevés d'avant les colonnes Lot et Expédié de
     for r in lignes[1:]:
-        r = r + [""] * (17 - len(r))
+        r = r + [""] * (18 - len(r))
         c = corr.get((r[0], r[3], r[4], r[2], r[15]))
         if c:
             if c[0] == "SUPPR": n += 1; continue

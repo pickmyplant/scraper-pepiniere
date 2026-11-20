@@ -133,7 +133,14 @@ class Adaptateur:
                 lignes.append({"titre": attr, "prix": d.get("price_amount"),
                                "barre": d.get("price_without_reduction") if d.get("has_discount") else None,
                                "dispo": d.get("availability") == "available" and (d.get("quantity") or 0) > 0})
-            self.pages[url] = {"nom": _texte(d.get("name") or ""), "car": car, "lignes": lignes}
+            # Lieu d'expédition (20/11/2026) : chaque fiche vient d'une pépinière partenaire (« Angers (49) »,
+            # « Orleans (45) »…), avec un port par lieu au panier ; « manufacturer_name » ou la caractéristique
+            # « Marque_shopping_feed » le donnent, « Expédition de notre site d'Angers » en secours.
+            lieu = _texte(d.get("manufacturer_name") or car.get("Marque_shopping_feed") or "")
+            if not lieu:
+                m = re.search(r"site d[e’']\s*(.+)$", _texte(d.get("available_now") or ""))
+                lieu = m.group(1).strip() if m else ""
+            self.pages[url] = {"nom": _texte(d.get("name") or ""), "car": car, "lignes": lignes, "lieu": lieu}
         return self.pages[url]
 
     # ---------- relevé ----------
@@ -190,6 +197,9 @@ class Adaptateur:
             variete = var_site.strip(" '\"‘’")
             notes_page.append(f"Variété trouvée : {variete} (absente de l'onglet Fiches)")
         nom_latin = f"{plante.nom_latin} '{variete}'" if variete else plante.nom_latin
+        lieu = page.get("lieu", "")
+        if not lieu:
+            notes_page.append("Lieu d'expédition non lu")
 
         lignes = []
         for v in page["lignes"]:
@@ -210,6 +220,7 @@ class Adaptateur:
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
                       "EUR", cont, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h)
+            o.expedie_de = lieu
             o.tri = taille_contenant(cont) * 1000 + float(v["prix"] or 0)
             lignes.append(o)
         if not lignes:
@@ -218,7 +229,7 @@ class Adaptateur:
         if not en_stock:
             return [Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, "", "EUR", "",
                           "Rupture", "", aujourdhui, "", "À vérifier",
-                          " ; ".join(notes_page + ["Aucun format en stock"]), nom_latin, "")], []
+                          " ; ".join(notes_page + ["Aucun format en stock"]), nom_latin, "", expedie_de=lieu)], []
         garde, coupe = repartis(en_stock, config.MAX_LIGNES_PAR_PRODUIT)
         garde.sort(key=lambda o: o.tri)
         if coupe:

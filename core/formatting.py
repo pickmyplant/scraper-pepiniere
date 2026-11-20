@@ -24,7 +24,7 @@ def frais_port(pepiniere):
 COLONNES = [
     "ID", "Plante", "Variété", "Pépinière", "Lien du produit", "Prix", "Devise", "Contenant",
     "Disponibilité", "Frais de port", "Relevé le", "Lien affilié", "Statut", "Notes", "Nom latin",
-    "Hauteur ou forme", "Lot",
+    "Hauteur ou forme", "Lot", "Expédié de",
 ]
 
 FORMES = [  # (motif, libellé) — du plus précis au plus général
@@ -63,6 +63,9 @@ class Offre:
     nom_latin: str
     hauteur_forme: str
     lot: str = ""   # « N ; prix du lot » si vendu seulement par lot (rempli par core/lots.py à l'export)
+    # Lieu d'expédition (colonne R, 20/11/2026) : Plantes Avenue expédie depuis plusieurs pépinières partenaires
+    # (« Angers (49) », « Orleans (45) »…) et compte un port par lieu ; vide pour les autres pépinières.
+    expedie_de: str = ""
     tri: float = field(default=0.0, repr=False)  # clé de tri interne (taille), non exportée
 
     def ligne(self):

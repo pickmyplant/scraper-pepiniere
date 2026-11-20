@@ -11,7 +11,7 @@ regroupe ces lignes à l'export de chaque relevé (et à nouveau dans outils/cor
 import collections
 import re
 
-NB_COLONNES = 17          # ID … Hauteur ou forme, Lot
+NB_COLONNES = 18          # ID … Hauteur ou forme, Lot, Expédié de
 COL_NOTES, COL_LOT = 13, 16
 _LOT = re.compile(r"\b(?:lot|set) de (\d+)\b", re.I)
 
@@ -40,7 +40,7 @@ def completer(r):
 
 
 def regrouper_lots(lignes):
-    """lignes : rangées d'Offres sans l'en-tête (16 ou 17 colonnes). Rend (lignes à 17 colonnes, nb retirées)."""
+    """lignes : rangées d'Offres sans l'en-tête (16 à 18 colonnes). Rend (lignes à 18 colonnes, nb retirées)."""
     lignes = [completer(r) for r in lignes]
     groupes = collections.OrderedDict()
     for i, r in enumerate(lignes):

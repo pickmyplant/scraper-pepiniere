@@ -17,6 +17,10 @@ Ne lire PASSATION.md ou le README qu'en cas de doute précis (format des colonne
 - Botanic (20/11/2026) : une plante livrée par un fournisseur est notée « Botanic - <fournisseur> » dans Pépinière (frais de port
   à part dans l'onglet Livraison de la BDD) ; le bouton d'import remplace ces lignes avec le relevé Botanic. Nouveau fournisseur :
   lui ajouter une ligne dans les onglets Pépinières et Livraison de la BDD.
+- Plantes Avenue (20/11/2026) : colonne R « Expédié de » d'Offres (relevés à 18 colonnes), remplie par l'adaptateur avec le lieu
+  de la fiche (« Angers (49) », « Orleans (45) »… : `manufacturer_name` de la page) ; le site compte un port par lieu. Vide pour les
+  autres pépinières. Le bouton d'import accepte toujours les relevés à 16 ou 17 colonnes. Après changement de
+  `outils/import_releve.gs`, le recoller dans la Sheet (Extensions > Apps Script).
 - Promesse de Fleurs : Claude B seulement. Mes Arbustes : abandonné (Cloudflare).
 - Arborescence, décisions : prix en MAD sans conversion ; tout format vendu = « En stock » (stock non affiché, mention dans Notes) ;
   une fiche « Genre a / b » (deux espèces) est gardée pour les deux plantes.
