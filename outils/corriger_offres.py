@@ -48,6 +48,13 @@ NOUVELLES = {  # fiches d'hybrides à créer : ID -> (nom commun, genre, espèce
     "P614": ("Cerisier du Japon", "Prunus", "serrulata", "Rosacées"),
     "P615": ("Pittospore à petites feuilles", "Pittosporum", "tenuifolium", "Pittosporacées"),
     "P616": ("Yucca glorieux", "Yucca", "gloriosa", "Asparagacées"),
+    "P617": ("Chou de Milan", "Brassica", "oleracea groupe Sabauda", "Brassicacées"),
+    "P618": ("Ficus à feuilles longues", "Ficus", "maclellandii", "Moracées"),
+    "P619": ("Ficus ginseng", "Ficus", "microcarpa", "Moracées"),
+    "P620": ("Combava", "Citrus", "hystrix", "Rutacées"),
+    "P621": ("Amandier de Chine", "Prunus", "glandulosa", "Rosacées"),
+    "P622": ("Cordyline de Banks", "Cordyline", "banksii", "Asparagacées"),
+    "P623": ("Cordyline des montagnes", "Cordyline", "indivisa", "Asparagacées"),
 }
 
 COMPLEMENTS = {  # ID -> (Autres noms, Synonymes) écrits par le bouton dans Plantes à la création de la fiche
@@ -55,6 +62,13 @@ COMPLEMENTS = {  # ID -> (Autres noms, Synonymes) écrits par le bouton dans Pla
     "P614": ("Cerisier à fleurs du Japon, Cerisier japonais, Sakura, Japanese cherry, Japanese flowering cherry", "Prunus serrulata var. lannesiana ; Cerasus serrulata"),
     "P615": ("Pittosporum de Nouvelle-Zélande, Kohuhu, Tawhiwhi, Black matipo", ""),
     "P616": ("Dague espagnole, Yucca superbe, Spanish dagger, Mound lily yucca, Moundlily yucca", "Yucca recurvifolia ; Yucca gloriosa var. recurvifolia"),
+    "P617": ("Chou cloqué, Chou frisé de Milan, Savoy cabbage, Wirsing, Verza", "Brassica oleracea Sabauda Group ; Brassica oleracea var. sabauda"),
+    "P618": ("Ficus Alii, Banana-leaf fig, Alii fig", "Ficus binnendijkii"),
+    "P619": ("Laurier d'Inde, Figuier à petits fruits, Chinese banyan, Indian laurel, Ginseng ficus", "Ficus retusa (au sens horticole) ; Ficus nitida"),
+    "P620": ("Lime de Kaffir, Citron combava, Kaffir lime, Makrut lime", ""),
+    "P621": ("Cerisier à fleurs nain, Prunier glanduleux, Dwarf flowering almond, Chinese bush cherry", "Cerasus glandulosa"),
+    "P622": ("Chou palmiste des forêts, Forest cabbage tree, Tī ngahere", ""),
+    "P623": ("Mountain cabbage tree, Tōī, Blue dracaena", "Dracaena indivisa G.Forst."),
 }
 
 def lire(nom, dossier):

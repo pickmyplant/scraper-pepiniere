@@ -634,8 +634,12 @@ P463|lien:sapinette-blanche-epinette-blanche-conica|>P613:Conica
 # Autres espèces reconnues par le lien
 P296|lien:dahlia|=SUPPR:bulbe de dahlia, pas une lavande
 P296|lien:lavandin-essence-purple|>P297:Essence Purple
-P058|lien:cordyline-banksii;lien:cordyline-indivisa|=SUPPR:autre espèce (Cordyline banksii ou indivisa)
-P471|lien:prunus-glandulosa|=SUPPR:autre espèce (Prunus glandulosa, cerisier à fleurs nain)
+P058|lien:cordyline-banksii-electric-flash|>P622:Electric Flash
+P058|lien:cordyline-banksii-electric-pink|>P622:Electric Pink
+P058|lien:cordyline-indivisa|>P623:-
+P471|lien:glandulosa-alba-plena|>P621:Alba Plena
+P471|lien:glandulosa-rosea-plena|>P621:Rosea Plena
+P471|lien:prunus-glandulosa|>P621
 P471|lien:prunus-serrulata|>P614:-
 P386|lien:prunus-serrulata-royal-burgundy|>P614:Royal Burgundy
 P386|lien:prunus-royal-flame|=SUPPR:cerisier à fleurs, pas un abricotier
@@ -698,7 +702,7 @@ P168|lien:carex-brunnea;lien:carex-ornithopoda;lien:carex-oshimensis|=SUPPR:autr
 P243|lien:trachelospermum-asiaticum|=SUPPR:autre espèce (Trachelospermum asiaticum)
 P223|lien:cupressus-leylandii|=SUPPR:autre plante (cyprès de Leyland)
 P302|lien:citrus-aurantifolia|>P367:-
-P302|lien:citrus-hystrix|=SUPPR:autre espèce (combava)
+P302|lien:citrus-hystrix|>P620:-
 P302|lien:citrus-lumia|>P601:Lumia
 P303|lien:eremorange|>P601:Eremorange
 P303|lien:citrange|=ERR:porte-greffe citrange (Citrus × Poncirus), autre plante
@@ -711,3 +715,55 @@ P507|korsor|Korsør
 P111|maigrum|Maigrün
 P123|geish girl|Geisha Girl
 P123|falconet charlet|Falconnet Charlet
+
+# 21/11/2026 : contrôle des plantes 61 à 90 (corrections/CONTROLE-2026-11-21-A3_resume.txt).
+P556|lien:milan-gros-des-vertus|>P617:Gros des Vertus
+P556|lien:milan-de-pontoise|>P617:De Pontoise
+P556|lien:milan-norma|>P617:Norma
+P556|lien:milan-alaska|>P617:Alaska
+P556|lien:milan-bloemendaalse|>P617:Bloemendaalse Gele
+P556|lien:milan-capriccio|>P617:Capriccio
+P556|lien:winterkoning|>P617:Winterkoning
+P556|lien:milan-manon|>P617:Manon
+P556|lien:milan-smaragd|>P617:Smaragd
+P556|lien:milan-vorbote|>P617:Vorbote
+P556|lien:milan-hatif-daubervilliers|>P617:Hâtif d'Aubervilliers
+P556|lien:milan-roi-des-milans|>P617:Roi des Milans
+P556|lien:milan-serpentine|>P617:Serpentine
+P556|lien:taler|>P617:Taler
+P556|lien:chou-de-milan|>P617:-
+P556|tete de pierre( hyb)? f1|Tête de Pierre HF1
+P556|quintal d|Quintal d'Alsace
+P606|bigarreau noir|>P471:Bigarreau Noir
+P606|bigarreau (.+)|>P471:\1
+P606|geant d( hedelfingen)?|>P471:Hedelfingen
+P606|coeur de pigeon;sunburst;rainier;stark gold;reverchon;early rivers;schneider;tardif de vignola|>P471
+P606|lien:cerisier-bigarreau-tardif-de-vignola|>P471:Tardif de Vignola
+P396|lien:alii|>P618:Alii
+P396|amstel king|>P618:Amstel King
+P015|lien:ficus-elastica|>P395
+P015|lien:ficus-microcarpa|>P619
+P015|lien:ficus-altissim;lien:ficus-sagittata|=SUPPR:autre espèce de ficus (pas de fiche)
+P434|lien:picea-pungens-glauca-pendula|>P463:Glauca Pendula
+P434|lien:picea-glauca-pendula|>P613:Pendula
+P327|lien:salvia-verticillata|=SUPPR:autre espèce (Salvia verticillata)
+P406|lien:helianthus-giganteus|=SUPPR:autre espèce (Helianthus giganteus, vivace)
+P096|lien:salvia-lavandulifolia|=SUPPR:autre espèce (Salvia lavandulifolia)
+P209|veritable|=ET
+P052|chicago blues|Chicagoland Blues
+P389|d angers|Angers
+P349|viniglia|Vaniglia
+P438|vilmoriana|Vilmoriniana
+P438|bandai suji|Bandai Sugi
+P438|vilmoriana gold|Vilmorin Gold
+P481|pygmea|Pygmaea
+P327|mirage tm pink|Mirage Pink
+P327|mirage tm white|Mirage White
+P327|mirage tm cherry red|Mirage Cherry Red
+P327|mirage tm burgundy|Mirage Burgundy
+P327|mirage bleu|Mirage Blue
+P325|red cluster|Red Clusters
+P406|sunpot|Sunspot
+P096|purpurescens|Purpurascens
+P096|grete stolzl?e|Grete Stölzle
+P073|gros long d|Gros long d'été
