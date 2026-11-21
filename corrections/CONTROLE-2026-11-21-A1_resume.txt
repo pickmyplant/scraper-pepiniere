@@ -41,3 +41,8 @@ Détail ligne par ligne : CONTROLE-2026-11-21-A1_top30.tsv (218 offres). Rien n'
 
 4. Pages Planfor à plusieurs variétés (un lien, plusieurs variétés) : normal si la page propose un choix ; à vérifier pour
    erable-du-japon-deshojo (Deshojo + Shindeshojo) et laurier-palme (Novita + Rotundifolia).
+
+Suite (21/11/2026) : règles ajoutées à data/corrections_varietes.txt, corrections dans CORR-2026-11-21-A1 (à appliquer avec le bouton).
+Nouvelles fiches : P613 Épinette blanche (Picea glauca), P614 Cerisier du Japon (Prunus serrulata).
+Vérifié sur les pages : chalefs Jardinerie.fr « olivier de Bohême » = Elaeagnus ebbingei (laissés, et celui d’Olivier déplacé vers P133) ;
+érables Jardinerie.fr, sapin bleu, If Standishii, Black Diamond (= President), Cherry Me Lapins, pêcher plat Saturne, grenadier Nana : corrects.

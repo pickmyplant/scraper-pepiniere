@@ -52,6 +52,8 @@ lancer `outils/publier.sh` après le commit. Ainsi chaque nouvelle conversation 
 1. `python outils/corriger_offres.py CORR-AAAA-MM-JJ-A1` : lit les onglets publiés (Offres, Export), nettoie la colonne Variété
    (formes, tailles, cache-pots, nom d'espèce répété), relie aux variétés de Fiches et écrit `corrections/<ID>*.tsv`.
    Synonymes, fiches mal rangées et erreurs : `data/corrections_varietes.txt` (une ligne par règle).
+   Règle « lien:bout » (21/11/2026) : toute décision (déplacement >P123:Nom, variété, =ET, =SUPPR), prioritaire sur la variété ;
+   sert quand la variété relevée est fausse (ex. épinettes blanches rangées en Épicéa du Colorado 'Glauca' -> P613).
 2. `python outils/decrire_varietes.py <ID> <cache.json>` : une page vendeur par variété absente de Fiches, pour le petit texte et la source
    (`corrections/<ID>_fiches.tsv`).
 3. Commit, `outils/publier.sh`, puis l'utilisatrice clique dans la BDD : Relevés > Appliquer des corrections d'offres…,
