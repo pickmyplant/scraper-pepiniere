@@ -2,14 +2,14 @@ Contrôle des plantes 61 à 90 (Offres publié le 21/11/2026). CORR-2026-11-21-A
 
 Nouvelles fiches (P617 à P623) au lieu de supprimer les offres
 - P617 Chou de Milan (groupe Sabauda) : 26 offres rangées en Chou pommé, variété « Chou de Milan » ; cultivar lu dans le lien.
-- P618 Ficus à feuilles longues (Ficus maclellandii 'Alii', 'Amstel King') : 11 offres rangées en Figuier pleureur.
-- P619 Ficus ginseng (Ficus microcarpa 'Compacta') : 8 offres rangées en Figuier lyre.
+- P618 Ficus à feuilles longues (Ficus maclellandii 'Alii', 'Amstel King') : 12 offres rangées en Figuier pleureur.
+- P619 Ficus ginseng (Ficus microcarpa 'Compacta') : 16 offres rangées en Figuier lyre.
 - P620 Combava (6 offres de Citronnier, supprimées dans A2) ; P621 Amandier de Chine (Prunus glandulosa, 5 offres de Cerisier) ;
   P622 Cordyline de Banks (2) et P623 Cordyline des montagnes (3), offres de Cordyline.
   'Fantasy' reste en Cordyline : la page de Promesse de Fleurs la nomme cordyline australe.
 
 Autres corrections
-- Griottier : 52 offres de cerisiers doux (bigarreaux Burlat, Napoléon, Summit, Van…, Cœur de Pigeon, Hedelfingen, Schneider,
+- Griottier : 55 offres de cerisiers doux (bigarreaux Burlat, Napoléon, Summit, Van…, Cœur de Pigeon, Hedelfingen, Schneider,
   Early Rivers, Sunburst, Rainier…) -> P471 Cerisier.
 - Figuier lyre : Ficus elastica 'Variegata' -> P395 Caoutchouc ; Ficus altissima et sagittata supprimés.
 - Épicéa : P. pungens 'Glauca Pendula' -> P463 ; P. glauca 'Pendula' -> P613.
