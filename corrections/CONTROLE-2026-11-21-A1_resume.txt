@@ -1,0 +1,43 @@
+Contrôle des offres des 30 plantes les plus proposées (Offres publié le 21/11/2026, 46 262 offres actives au total)
+Détail ligne par ligne : CONTROLE-2026-11-21-A1_top30.tsv (218 offres). Rien n'est appliqué.
+
+1. Mauvaise espèce (à déplacer ou supprimer)
+- Épicéa du Colorado : 122 offres de Picea glauca (épinette blanche : Conica, Alberta Globe, Sanders Blue, Perfecta, Rainbow's End…)
+  rangées en « Glauca » avec les vrais Picea pungens 'Glauca'. Pas de fiche Picea glauca dans Plantes.
+- Lavande vraie : 10 bulbes de dahlia 'Ralphie' (La Green Touch) ; 1 lavandin Essence Purple (Ma Pépinière) -> P297.
+- Abricotier : 6 cerisiers à fleurs (Prunus serrulata 'Royal Burgundy', 'Royal Flame') en variété « Royal ».
+- Cerisier : 5 Prunus glandulosa (Alba/Rosea Plena), 1 Prunus serrulata (Clorofila).
+- Cordyline : 10 Cordyline banksii / indivisa (Botanic, Meilland Richardier, Promesse de Fleurs).
+- Chalef d'Ebbinge : 8 « olivier de Bohême » Jardinerie.fr (sans ebbingei dans le lien : Elaeagnus angustifolia ?) ;
+  Olivier : 2 « olivier de Bohême » (Jardinerie.fr) -> P592.
+- Pêcher : 9 pêchers d'ornement (Taoflora, Spring Glow) : garder ou fiche à part ?
+- Pin mugo : 1 Pinus cembra 'Compacta Glauca' ; If commun : 1 If du Japon (Taxus cuspidata) ; Vigne : 1 Vitis labrusca 'Noah'.
+
+2. Variété fausse (le lien en cite une autre)
+- Érable du Japon : lien « dissectum-garnet » classé Tamukeyama ; 15 offres Jardinerie.fr sans cultivar (érable vert/rouge/jaune)
+  avec variété devinée (Dissectum, Garnet, Atropurpureum, Summergold).
+- Pommier : « 3 variétés en 1 » (Willemse) classé Golden Delicious.
+- Gaura : Lilipop Pink classé Gambit Rose, Sunset Dream classé Summer Star Baby, Elurra classé Blanc.
+- Figuier : Marseillaise et Pastillère classés Madeleine des Deux Saisons ; Bourjassotte noire classée Violette de Solliès.
+- Olivier : Lucques classé Grossane. Prunier : Black Diamond classé Président. If commun : Black Tower classé Fastigiata.
+- Chalef d'Ebbinge : Gilt Edge classé Maryline. Laurier-cerise : « Rotund » tronqué (Rotundifolia).
+- Lavande vraie : variété « Autres lavandes vendues sous ce nom » (Bakker, lavande de Grasse).
+- À vérifier sur la page : Cherry Me -> Lapins, pêcher plat -> Saturne, Giganteus -> Macrophyllum, lilas « rampant » -> Rouge,
+  grenadier à fleurs -> Nana, sapin bleu -> Maculata, if commun sans cultivar -> Standishii.
+
+3. Orthographes en double (à unifier dans data/corrections_varietes.txt)
+- Pin noir : Marie Bregeon / Brégeon / Brégéon ; Pierrick Bregeon / Brégeon / Brégéon / BREPO Pierrick Bregeon / Brepo.
+- Érable : Osakazuki / Osakasuki / Ozakazuki ; Inaba Shidare / Inabe-shidare / Dissectum Inabashidare ;
+  Ueno Yama / Uneo Yama ; « Summer Gold - Érable du japon », « Twombly s Red Sentinel - érable du japon ».
+- Hortensia : Sœur Thérèse / Soeur Thérèse ; Mme / Madame Emile Mouillère ; Sybilla / Sibilla ; Hambourg / Hamburg ;
+  Mathilde / Mathilda Gutges ; Stargazer / Star Gazer ; Generale Vicomtesse de Vibraye (2 orthographes).
+- Abricotier : Pêche de Nancy / Peche de Nancy. Poirier : Doyenné du / de Comice. Prunier : Belle de Nancy (= Mirabelle ?).
+- Figuier : Ice Crystal / Ice Chrystal ; Francesco / Francuesco. Vigne : Alphonse Lavallée / Lavalée ; Muscat Bleu / Blue ;
+  Boskoop Glory / Glorie ; Muscat d Alexandrie (casse). Miscanthus : Purpurascens / Purpurescens ; Hermann / Herman Mussel.
+- Romarin : Miss / Mrs Jessop(p)'s Upright (4 formes). Gaura : Lillipop / Lillypop ; Corrie / Corries's / Corrie s Gold ;
+  Steffi dark / Steffi Dark Rose. Grenadier : Parfianca / Parfianka ; Malisi / Malissi ; Noshi / Nochi Shibari.
+- Pommier : Delbardivine / Delbard Divine ; Calville Blanc / Blanche ; Belle Fille de / des Salins.
+- Lilas des Indes, Pommier, Vigne, Lierre, Hêtre, If, Romarin : doublons d'apostrophe ou de majuscule (« d Hubert » / « d'Hubert »).
+
+4. Pages Planfor à plusieurs variétés (un lien, plusieurs variétés) : normal si la page propose un choix ; à vérifier pour
+   erable-du-japon-deshojo (Deshojo + Shindeshojo) et laurier-palme (Novita + Rotundifolia).
