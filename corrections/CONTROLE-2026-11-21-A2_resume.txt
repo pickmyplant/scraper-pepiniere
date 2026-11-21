@@ -1,0 +1,25 @@
+Contrôle des plantes 31 à 60 (Offres publié le 21/11/2026) ; règles dans data/corrections_varietes.txt (bloc « plantes 31 à 60 »).
+CORR-2026-11-21-A2 reprend tout CORR-2026-11-21-A1 (plantes 1 à 30) : n'appliquer que A2.
+
+Autres espèces
+- Pittospore du Japon : 19 Pittosporum tenuifolium -> nouvelle fiche P615 Pittospore à petites feuilles ; 1 P. heterophyllum supprimé.
+- Yucca géant : 9 Yucca gloriosa 'Variegata' -> nouvelle fiche P616 Yucca glorieux ; 1 Y. aloifolia supprimé.
+- Bruyère de Darley : 3 Erica carnea (Truffaut) -> P119 Bruyère des neiges.
+- Sauge à petites feuilles : Salvia greggii 'So Cool Purple' -> P327 ; Salvia elegans supprimée.
+- Laîche du Japon : C. muskingumensis -> P167, C. riparia -> P170 ; C. brunnea, ornithopoda, oshimensis supprimés (pas de fiche).
+- Citronnier : lime (Citrus aurantifolia) -> P367 ; Citrus lumia -> P601 ; combava (6) supprimé.
+- Oranger doux : Eremorange -> P601 ; Corrugata -> P222 Bigaradier ; citranges (porte-greffes) en « À vérifier ».
+- Jasmin étoilé : T. asiaticum 'Tricolor' supprimé ; Cyprès de Provence : cyprès de Leyland supprimé.
+- Pin noir : Pinus mugo 'Nana Balcanica Aurea' -> P464 Pin mugo.
+- Épicéa du Colorado : les 2 « picea-glauca-globosa » de Truffaut sont des P. pungens (page : « épicéa du Colorado ») -> Glauca Globosa.
+
+Variétés et orthographes
+- Andromède : Pink Passion (était « Passion ») ; Cognassier : Geisha Girl, Falconnet Charlet ; Cyprès de Lawson : Ellwoodii ;
+  Sureau : Korsør ; Chèvrefeuille : Maigrün ; Aster : Herbstgruss vom Bresserhof.
+- Vérifiés sur la page et justes malgré le lien : Ribambelle, Wickwar Flame, Red Spirit (Roué), Madonna, Pulverulenta,
+  Kramer's Rote, Tib, citronnier des 4 saisons (Bakker).
+- Laissés : Yucca elephantipes, Lonicera nitida, Salvia grahamii, Dracaena deremensis, Prunus dulcis (synonymes de l'espèce de la fiche) ;
+  Strelitzia « augusta » (règle existante) ; Chaenomeles × superba 'Flocon Rose' ; lavandin Edelweiss.
+
+Fiches des nouvelles plantes (P613 à P616) : CORR-2026-11-21-A2_fiches.tsv (26 variétés avec texte et source + une ligne « Espèce type »
+par plante) ; noms communs et synonymes dans CORR-2026-11-21-A2_plantes.tsv (écrits par le bouton si le script est recollé).

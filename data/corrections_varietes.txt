@@ -625,7 +625,8 @@ P463|lien:picea-glauca-blue-globe;lien:epinette-blanche-blue-globe;lien:epinette
 P463|lien:picea-glauca-sander;lien:epinette-blanche-sander;lien:epinette-blanche-naine-picea-glauca-sander|>P613:Sanders Blue
 P463|lien:picea-glauca-perfecta;lien:epinette-blanche-perfecta;lien:epinette-blanche-naine-picea-glauca-perfecta|>P613:Perfecta
 P463|lien:picea-glauca-december;lien:epinette-blanche-december;lien:epinette-blanche-naine-picea-glauca-december|>P613:December
-P463|lien:picea-glauca-globosa;lien:epinette-blanche-globosa;lien:epinette-blanche-naine-picea-glauca-globosa|>P613:Globosa
+P463|lien:truffaut.com/picea-glauca-globosa|Glauca Globosa
+P463|lien:epinette-blanche-globosa;lien:epinette-blanche-naine-picea-glauca-globosa|>P613:Globosa
 P463|lien:picea-glauca-pendula;lien:epinette-blanche-pendula;lien:epinette-blanche-naine-picea-glauca-pendula|>P613:Pendula
 P463|lien:picea-glauca-conica;lien:epinette-blanche-conica;lien:epinette-blanche-naine-picea-glauca-conica|>P613:Conica
 P463|lien:alberta-conica-picea-glauca;lien:small-christmas-tree;lien:products/petit-sapin-de-noel|>P613:Conica
@@ -682,3 +683,31 @@ P471|hedelfinguens|Hedelfingen
 P471|noir de meched|Noire de Meched
 P116|rotund|Rotundifolia
 P109|manzanille|Manzanillo
+
+# 21/11/2026 : contrôle des plantes 31 à 60 (corrections/CONTROLE-2026-11-21-A2_resume.txt).
+P301|lien:pittosporum-tenuifolium;lien:pittosporum-tenuifolum;lien:pittosporum-de-nouvelle-zelande|>P615
+P301|lien:pittosporum-heterophyllum|=SUPPR:autre espèce (Pittosporum heterophyllum)
+P044|lien:yucca-gloriosa|>P616
+P044|lien:yucca-aloifolia|=SUPPR:autre espèce (Yucca aloifolia)
+P118|lien:erica-carnea|>P119
+P328|lien:salvia-greggi|>P327
+P328|lien:salvia-elegans|=SUPPR:autre espèce (Salvia elegans, sauge ananas)
+P168|lien:carex-muskingumensis|>P167
+P168|lien:carex-riparia|>P170
+P168|lien:carex-brunnea;lien:carex-ornithopoda;lien:carex-oshimensis|=SUPPR:autre espèce de laîche (pas de fiche)
+P243|lien:trachelospermum-asiaticum|=SUPPR:autre espèce (Trachelospermum asiaticum)
+P223|lien:cupressus-leylandii|=SUPPR:autre plante (cyprès de Leyland)
+P302|lien:citrus-aurantifolia|>P367:-
+P302|lien:citrus-hystrix|=SUPPR:autre espèce (combava)
+P302|lien:citrus-lumia|>P601:Lumia
+P303|lien:eremorange|>P601:Eremorange
+P303|lien:citrange|=ERR:porte-greffe citrange (Citrus × Poncirus), autre plante
+P303|lien:oranger-corrugata|>P222:Corrugata
+P433|lien:pinus-mugo-nana-balcanica|>P464:Nana Balcanica Aurea
+P112|lien:pieris-pink-passion|Pink Passion
+P570|herbstgru(ss)? (v|vom) ?bresserhof|Herbstgruß vom Bresserhof
+P461|ellwood;elwood|Ellwoodii
+P507|korsor|Korsør
+P111|maigrum|Maigrün
+P123|geish girl|Geisha Girl
+P123|falconet charlet|Falconnet Charlet

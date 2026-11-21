@@ -46,6 +46,15 @@ NOUVELLES = {  # fiches d'hybrides à créer : ID -> (nom commun, genre, espèce
     "P608": ("Herbe aux diamants", "Calamagrostis", "brachytricha", "Poacées"),
     "P613": ("Épinette blanche", "Picea", "glauca", "Pinacées"),
     "P614": ("Cerisier du Japon", "Prunus", "serrulata", "Rosacées"),
+    "P615": ("Pittospore à petites feuilles", "Pittosporum", "tenuifolium", "Pittosporacées"),
+    "P616": ("Yucca glorieux", "Yucca", "gloriosa", "Asparagacées"),
+}
+
+COMPLEMENTS = {  # ID -> (Autres noms, Synonymes) écrits par le bouton dans Plantes à la création de la fiche
+    "P613": ("Épicéa blanc, Sapinette blanche, Épicéa glauque, White spruce, Canadian spruce, Weißfichte", "Picea canadensis ; Picea alba"),
+    "P614": ("Cerisier à fleurs du Japon, Cerisier japonais, Sakura, Japanese cherry, Japanese flowering cherry", "Prunus serrulata var. lannesiana ; Cerasus serrulata"),
+    "P615": ("Pittosporum de Nouvelle-Zélande, Kohuhu, Tawhiwhi, Black matipo", ""),
+    "P616": ("Dague espagnole, Yucca superbe, Spanish dagger, Mound lily yucca, Moundlily yucca", "Yucca recurvifolia ; Yucca gloriosa var. recurvifolia"),
 }
 
 def lire(nom, dossier):
@@ -332,8 +341,8 @@ if __name__ == "__main__":
             w.writerow([p, a.plantes[p][1], a.latin(p, v), v, " ; ".join(autres), d["n"], ", ".join(pep), d["lien"][pep[0]]])
     with open(base + "_plantes.tsv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["ID", "Nom commun", "Genre", "Espèce", "Famille"])
-        for i in sorted({v[1] for v in corr.values()} & set(NOUVELLES)): w.writerow([i] + list(NOUVELLES[i]))
+        w.writerow(["ID", "Nom commun", "Genre", "Espèce", "Famille", "Autres noms", "Synonymes"])
+        for i in sorted({v[1] for v in corr.values()} & set(NOUVELLES)): w.writerow([i] + list(NOUVELLES[i]) + list(COMPLEMENTS.get(i, ("", ""))))
     res = ["Offres avec un lien : %d" % n] + ["%s : %d" % kv for kv in sorted(compte.items(), key=lambda x: -x[1])]
     res += ["Lignes à modifier ou supprimer (clés distinctes) : %d" % len(corr), "Variétés absentes de Fiches : %d (sur %d plantes)" % (len(nouv), len({p for p, _ in nouv}))]
     open(base + "_resume.txt", "w", encoding="utf-8").write("\n".join(res) + "\n")
