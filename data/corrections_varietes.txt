@@ -864,3 +864,32 @@ P308|lien:cedrus-deodara|=SUPPR:autre espèce (Cedrus deodara, cèdre de l'Himal
 P202|lien:agave-mediopicta-alba|Mediopicta Alba
 P085|lien:murier-blanc-king-s-white|King's White
 P018|kona koffee|Kona Coffee
+
+# 22/11/2026 : contrôle des plantes 121 à 150 (corrections/CONTROLE-2026-11-22-A2_resume.txt).
+P013|lien:canna-tropical-yellow|Tropical Yellow
+P013|lien:canna-cleopatra|Cleopatra
+P013|lien:canna-demi-nain-caballero|Caballero
+P013|lien:canna-felix-ragout|Félix Ragout
+P013|lien:canna-lolita|Lolita
+P013|lien:canna-louis-cottin|Louis Cottin
+P013|lien:canna-lucifer|Lucifer
+P013|lien:canna-nain-salsa|Salsa
+P013|lien:canna-perkeo|Perkeo
+P013|lien:canna-petit-poucet|Petit Poucet
+P013|lien:canna-picasso|Picasso
+P013|lien:canna-soleil-d-or|Soleil d'Or
+P013|lien:canna-talisman|Talisman
+P013|lien:canna-taroudant|Taroudant
+P013|lien:canna-yellow-humbert|Yellow Humbert
+P556|lien:chou-rouge-fuego|Fuego F1
+P556|lien:chou-rouge-tete-noire|Tête Noire
+P556|lien:chou-rouge-tardif-langedijker|Langedijker Bewaar
+P556|lien:chou-rouge-gros|Gros
+P556|lien:chou-rouge-kalibos|Kalibos
+P556|lien:chou-rouge-romanov|Romanov
+P556|coeur de boeuf moyen de la halle|Cœur de Bœuf Moyen de la Halle
+P228|lien:canadensis|=SUPPR:autre espèce (Cercis canadensis)
+P484|lien:pinus-cembra;lien:pinus-pumila|=SUPPR:autre espèce de pin (pas de fiche)
+P122|lien:phillyrea-angustifolia-green-ball|Green Ball
+P016|camille|Camilla
+P261|silveri blue|Silvery Blue

@@ -1,0 +1,11 @@
+Offres avec un lien : 31829
+non trouvé : 15613
+reliée à une variété de Fiches : 13703
+espèce type (inchangé) : 10614
+nouvelle variété (à ajouter à Fiches) : 7475
+  dont déplacée vers une autre fiche : 92
+autre plante (à vérifier) : 14
+à supprimer : 12
+ramenée à l'espèce type : 11
+Lignes à modifier ou supprimer (clés distinctes) : 174
+Variétés absentes de Fiches : 3079 (sur 305 plantes)
