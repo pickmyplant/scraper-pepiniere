@@ -28,6 +28,19 @@ BASE = "https://www.plantes-shopping.fr"
 SITEMAP = BASE + "/sitemap.xml"
 DUREE_CACHE_JOURS = 7
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
+# Port GLS à domicile (France continentale) selon le montant du panier, confirmé au panier le 22/11/2026 ;
+# ne dépend ni du poids ni du format (64 godets ou un grand conifère : même tranche). Offert dès 199 €.
+TRANCHES_PORT = [(50, 8.90), (100, 11.00), (150, 13.00), (199, 14.00)]
+
+
+def _port(prix):
+    """Port d'un panier ne contenant que cette offre."""
+    for plafond, port in TRANCHES_PORT:
+        if prix < plafond:
+            return prix_fr(port)
+    return "0,00"
+
+
 HAUTEUR = re.compile(r"(\d+)\s*(?:/|à|-)\s*(\d+)\s*(cm|m)\b", re.I)
 
 
@@ -211,7 +224,7 @@ class Adaptateur:
             if dispo == "Rupture" and not note:
                 n.append("En cours de réapprovisionnement")
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(prix), "EUR", cont,
-                      dispo, "", aujourdhui, "", "À vérifier", " ; ".join(n), nom_latin, h)
+                      dispo, _port(prix), aujourdhui, "", "À vérifier", " ; ".join(n), nom_latin, h)
             o.tri = taille_contenant(cont) * 1000 + prix
             lignes.append(o)
         if not lignes:
