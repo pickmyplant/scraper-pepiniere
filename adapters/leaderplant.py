@@ -6,6 +6,12 @@ Sur la fiche : titre h1 « Nom commun / Nom latin Variété » ; un onglet par f
 « Ecoplant en motte », « Pot de 3L »… suivi de la hauteur livrée « 10/15cm »), et dans chaque onglet
 le prix « Plante à l'unité » (microdonnées schema.org Offer : prix, disponibilité). Les lots
 (« Lot de 11 plants (10+1 gratuit) ») ne sont pas relevés. Sans onglet : produit « En pause » (rupture).
+
+Frais de port (page /frais-livraison, confirmés au panier le 22/11/2026, livraison à domicile en France métropolitaine) :
+un seul colis depuis Les Sorinières (44), même prix partout (Corse sur devis). Chaque ligne porte le port de ce format
+acheté seul : godet, motte, mini-motte, pot 10 cm, pot 1 L (Turboplant) et 1,5 L : 10 € ; pot 2 L : 11 € ; pot 3 à 5 L :
+12 € ; pot 10 L : 28 € (au-delà de 100 € de commande Écoplant/Turboplant : 10 % du montant). Un panier mélangé paie le
+port du plus gros format (godet + pot 5 L = 12 €). DPD Relais 7,90 € pour les petits formats seulement (non relevé).
 """
 import datetime as dt
 import html
@@ -30,6 +36,33 @@ FICHE = re.compile(r"^https://www\.leaderplant\.com/acheter-[a-z0-9-]+\.html$")
 
 def _texte(x):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x or ""))).replace("\xa0", " ").strip()
+
+
+# Port à domicile d'un format acheté seul (contenant -> port), vérifié au panier le 22/11/2026
+PORT_PAR_FORMAT = {"Godet": 10, "Motte": 10, "Pot 10 cm": 10, "Pot 1 L": 10, "Pot 1,5 L": 10, "Pot 2 L": 11,
+                   "Pot 3 L": 12, "Pot 4 L": 12, "Pot 5 L": 12, "Pot 10 L": 28}
+# Formats non testés : borne basse (formats voisins vérifiés) et note
+PORT_NON_VERIFIE = {"Pot 2,5 L": (11, "entre 11 et 12 €"), "Pot 7,5 L": (12, "entre 12 et 28 €")}
+SEUIL_POURCENT = 100  # au-delà : 10 % du montant de la commande
+
+
+def _port(cont, prix):
+    """(port, note) d'un colis ne contenant que ce format."""
+    note = ""
+    if cont.startswith("Mini-motte"):
+        port = 10
+    elif cont in PORT_PAR_FORMAT:
+        port = PORT_PAR_FORMAT[cont]
+    elif cont in PORT_NON_VERIFIE:
+        port, ecart = PORT_NON_VERIFIE[cont]
+        note = f"Port du format {cont} non vérifié au panier ({ecart})"
+    else:
+        return "", f"Port du format « {cont or 'inconnu'} » non vérifié au panier"
+    if prix > SEUIL_POURCENT:
+        port = max(port, round(prix * 0.10, 2))
+        if cont not in ("Godet", "Motte", "Pot 1 L"):  # 10 % confirmé pour Écoplant/Turboplant seulement
+            note = " ; ".join(x for x in [note, "Port à 10 % du montant au-delà de 100 € (non vérifié pour ce format)"] if x)
+    return prix_fr(port), note
 
 
 def _hauteur(t):
@@ -192,7 +225,11 @@ class Adaptateur:
                 n.append(f"Format « {nom} »")
             if not cont:
                 n.append(f"Format non reconnu : « {nom} »")
+            port, note_port = _port(cont, prix)
+            if note_port:
+                n.append(note_port)
             o = ligne(prix_fr(prix), cont, "En stock" if stock else "Rupture", n, _hauteur(haut))
+            o.frais_port = port
             o.tri = taille_contenant(cont) * 1000 + prix
             lignes.append(o)
         en_stock = [o for o in lignes if o.disponibilite == "En stock"]
