@@ -44,6 +44,31 @@ NOUVELLES = {  # fiches d'hybrides à créer : ID -> (nom commun, genre, espèce
     "P606": ("Griottier", "Prunus", "cerasus", "Rosacées"),
     "P607": ("Cytise de Voss", "Laburnum", "× watereri", "Fabacées"),
     "P608": ("Herbe aux diamants", "Calamagrostis", "brachytricha", "Poacées"),
+    "P613": ("Épinette blanche", "Picea", "glauca", "Pinacées"),
+    "P614": ("Cerisier du Japon", "Prunus", "serrulata", "Rosacées"),
+    "P615": ("Pittospore à petites feuilles", "Pittosporum", "tenuifolium", "Pittosporacées"),
+    "P616": ("Yucca glorieux", "Yucca", "gloriosa", "Asparagacées"),
+    "P617": ("Chou de Milan", "Brassica", "oleracea groupe Sabauda", "Brassicacées"),
+    "P618": ("Ficus à feuilles longues", "Ficus", "maclellandii", "Moracées"),
+    "P619": ("Ficus ginseng", "Ficus", "microcarpa", "Moracées"),
+    "P620": ("Combava", "Citrus", "hystrix", "Rutacées"),
+    "P621": ("Amandier de Chine", "Prunus", "glandulosa", "Rosacées"),
+    "P622": ("Cordyline de Banks", "Cordyline", "banksii", "Asparagacées"),
+    "P623": ("Cordyline des montagnes", "Cordyline", "indivisa", "Asparagacées"),
+}
+
+COMPLEMENTS = {  # ID -> (Autres noms, Synonymes) écrits par le bouton dans Plantes à la création de la fiche
+    "P613": ("Épicéa blanc, Sapinette blanche, Épicéa glauque, White spruce, Canadian spruce, Weißfichte", "Picea canadensis ; Picea alba"),
+    "P614": ("Cerisier à fleurs du Japon, Cerisier japonais, Sakura, Japanese cherry, Japanese flowering cherry", "Prunus serrulata var. lannesiana ; Cerasus serrulata"),
+    "P615": ("Pittosporum de Nouvelle-Zélande, Kohuhu, Tawhiwhi, Black matipo", ""),
+    "P616": ("Dague espagnole, Yucca superbe, Spanish dagger, Mound lily yucca, Moundlily yucca", "Yucca recurvifolia ; Yucca gloriosa var. recurvifolia"),
+    "P617": ("Chou cloqué, Chou frisé de Milan, Savoy cabbage, Wirsing, Verza", "Brassica oleracea Sabauda Group ; Brassica oleracea var. sabauda"),
+    "P618": ("Ficus Alii, Banana-leaf fig, Alii fig", "Ficus binnendijkii"),
+    "P619": ("Laurier d'Inde, Figuier à petits fruits, Chinese banyan, Indian laurel, Ginseng ficus", "Ficus retusa (au sens horticole) ; Ficus nitida"),
+    "P620": ("Lime de Kaffir, Citron combava, Kaffir lime, Makrut lime", ""),
+    "P621": ("Cerisier à fleurs nain, Prunier glanduleux, Dwarf flowering almond, Chinese bush cherry", "Cerasus glandulosa"),
+    "P622": ("Chou palmiste des forêts, Forest cabbage tree, Tī ngahere", ""),
+    "P623": ("Mountain cabbage tree, Tōī, Blue dracaena", "Dracaena indivisa G.Forst."),
 }
 
 def lire(nom, dossier):
@@ -146,18 +171,31 @@ class Analyse:
             for rx, dec in self.regles[q]:
                 m = rx.fullmatch(n)
                 if not m: continue
-                if dec.startswith("=ET"): return p, "", formes, code, "", dec[4:]
-                if dec.startswith("=ERR"): return p, c, formes, code, "ERR", dec[5:]
-                if dec.startswith("=SUPPR"): return p, c, formes, code, "SUPPR", dec[7:]
-                if dec.startswith(">"):
-                    cible, _, nom = dec[1:].partition(":")
-                    nom = self._nom(m.expand(nom)) if "\\" in nom else ("" if nom == "-" else (nom or c))
-                    g = self.fiche[cible]
-                    if not nom.strip() or all(set(norm(x).split()) <= self.mots[cible] for x in nom.split()): nom = ""
-                    return cible, g.get(cle(nom), nom), formes, code, "", ""
-                nom = self._nom(m.expand(dec)) if "\\" in dec else dec
-                return p, f.get(cle(nom), nom), formes, code, "", ""
+                return self.appliquer(p, c, formes, code, dec, m)
         return p, c, formes, code, "", ""
+
+    def appliquer(self, p, c, formes, code, dec, m=None):
+        """Applique une décision de data/corrections_varietes.txt au nom nettoyé c (m : motif reconnu, pour \\1)."""
+        f = self.fiche[p]
+        if dec.startswith("=ET"): return p, "", formes, code, "", dec[4:]
+        if dec.startswith("=ERR"): return p, c, formes, code, "ERR", dec[5:]
+        if dec.startswith("=SUPPR"): return p, c, formes, code, "SUPPR", dec[7:]
+        if dec.startswith(">"):
+            cible, _, nom = dec[1:].partition(":")
+            nom = self._nom(m.expand(nom)) if m and "\\" in nom else ("" if nom == "-" else (nom or c))
+            g = self.fiche[cible]
+            if not nom.strip() or all(set(norm(x).split()) <= self.mots[cible] for x in nom.split()): nom = ""
+            return cible, g.get(cle(nom), nom), formes, code, "", ""
+        nom = self._nom(m.expand(dec)) if m and "\\" in dec else dec
+        return p, f.get(cle(nom), nom), formes, code, "", ""
+
+    def decision_lien(self, r):
+        """Règle « lien:… » autre qu'une suppression (déplacement, variété, espèce type), sinon None."""
+        for p, bout, d in self.liens:
+            if p == r[0] and bout in r[4] and not d.startswith("=SUPPR"):
+                c, formes, code = self.nettoyer(r[0], r[2]) if r[2] not in ("", "Espèce type") else ("", [], "")
+                return self.appliquer(r[0], c, formes, code, d)
+        return None
 
     @staticmethod
     def _nom(s):
@@ -186,7 +224,7 @@ class Analyse:
             if r[13] == "Non trouvé" or not r[4]: compte["non trouvé"] += 1; continue
             lignes.append(r)
             for p, bout, d in self.liens:   # produit qui n'est pas la plante, reconnu par son lien
-                if p == r[0] and bout in r[4]:
+                if p == r[0] and bout in r[4] and d.startswith("=SUPPR"):
                     suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", d[7:]]
             esp = self.autre_espece(r)
             if esp:   # « rapproché par la variété » alors que la fiche nomme une autre espèce du même genre
@@ -195,8 +233,10 @@ class Analyse:
             if re.fullmatch(r"0+(?:[.,]0*)?", r[5].strip()):   # prix nul : format non lu sur le site (afficherait « dès 0 € »)
                 suppr[(r[0], r[3], r[4], r[2], r[15])] = ["SUPPR", r[0], r[1], r[2], "", "", r[14], r[15], "", "prix nul (format non lu sur le site)"]
             if (r[0], r[3], r[4], r[2], r[15]) in suppr: compte["à supprimer"] += 1; continue
-            if r[2] in ("", "Espèce type"): compte["espèce type (inchangé)"] += 1; continue
-            k = (r[0], r[2])
+            dl = self.decision_lien(r)
+            if dl: dec[("lien", r[0], r[4], r[2])] = dl
+            elif r[2] in ("", "Espèce type"): compte["espèce type (inchangé)"] += 1; continue
+            k = ("lien", r[0], r[4], r[2]) if dl else (r[0], r[2])
             if k not in dec: dec[k] = self.decider(*k)
             p, v = dec[k][0], dec[k][1]
             if v and cle(v) not in self.fiche[p] and not dec[k][4]: cand[p][v] += 1
@@ -225,8 +265,10 @@ class Analyse:
         corr = {}; nouv = C.defaultdict(lambda: {"n": 0, "pep": C.Counter(), "lien": {}, "codes": set(), "vus": set()})
         corr.update(suppr)
         for r in lignes:
-            if r[2] in ("", "Espèce type") or (r[0], r[3], r[4], r[2], r[15]) in suppr: continue
-            p, v, formes, code, action, raison = dec[(r[0], r[2])]
+            if (r[0], r[3], r[4], r[2], r[15]) in suppr: continue
+            k = ("lien", r[0], r[4], r[2]) if ("lien", r[0], r[4], r[2]) in dec else (r[0], r[2])
+            if k not in dec: continue   # espèce type sans règle de lien
+            p, v, formes, code, action, raison = dec[k]
             statut = ""
             if v and not action:
                 typ, v = ref.get((p, v)) or ("F", self.fiche[p].get(cle(v), v))
@@ -243,7 +285,7 @@ class Analyse:
             ajouts = []                      # notes ajoutées ; la mention « Variété trouvée… » est retirée par le bouton
             if action == "ERR": ajouts.append("Autre plante : " + raison); nv = r[2]
             elif raison and action != "SUPPR": ajouts.append(raison[0].upper() + raison[1:])
-            if cle(nv) != cle(r[2]) and action != "ERR": ajouts.append("Vendu sous : " + r[2])
+            if cle(nv) != cle(r[2]) and action != "ERR" and r[2] not in ("", "Espèce type") and k[0] != "lien": ajouts.append("Vendu sous : " + r[2])
             if p != r[0]: ajouts.append("Déplacé depuis " + r[0])
             forme = r[15]
             if formes and not forme: forme = ", ".join(formes)
@@ -313,8 +355,8 @@ if __name__ == "__main__":
             w.writerow([p, a.plantes[p][1], a.latin(p, v), v, " ; ".join(autres), d["n"], ", ".join(pep), d["lien"][pep[0]]])
     with open(base + "_plantes.tsv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["ID", "Nom commun", "Genre", "Espèce", "Famille"])
-        for i in sorted({v[1] for v in corr.values()} & set(NOUVELLES)): w.writerow([i] + list(NOUVELLES[i]))
+        w.writerow(["ID", "Nom commun", "Genre", "Espèce", "Famille", "Autres noms", "Synonymes"])
+        for i in sorted({v[1] for v in corr.values()} & set(NOUVELLES)): w.writerow([i] + list(NOUVELLES[i]) + list(COMPLEMENTS.get(i, ("", ""))))
     res = ["Offres avec un lien : %d" % n] + ["%s : %d" % kv for kv in sorted(compte.items(), key=lambda x: -x[1])]
     res += ["Lignes à modifier ou supprimer (clés distinctes) : %d" % len(corr), "Variétés absentes de Fiches : %d (sur %d plantes)" % (len(nouv), len({p for p, _ in nouv}))]
     open(base + "_resume.txt", "w", encoding="utf-8").write("\n".join(res) + "\n")

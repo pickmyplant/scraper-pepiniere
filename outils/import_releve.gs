@@ -400,6 +400,8 @@ function creerFiches_(id) {
     plantes.getRange(nP, col('Genre')).setValue(l[2]);
     plantes.getRange(nP, col('Espèce')).setValue(l[3]);
     plantes.getRange(nP, col('Famille')).setValue(l[4]);
+    if (l[5] && col('Autres noms')) plantes.getRange(nP, col('Autres noms')).setValue(l[5]);
+    if (l[6] && col('Synonymes')) plantes.getRange(nP, col('Synonymes')).setValue(l[6]);
     fiches.getRange(nF, 1, 1, 2).setValues([[l[0], l[1]]]);
   });
   return creees;

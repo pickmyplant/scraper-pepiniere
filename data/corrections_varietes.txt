@@ -2,7 +2,7 @@
 # Format : ID | motifs | décision. Motifs : expressions régulières sur le nom nettoyé (sans accents ni majuscules), séparées par « ; ».
 # Décisions : Nom  = nom retenu (synonyme ou orthographe de référence)
 #             =ET  = espèce type (pas une variété) ; =ERR:raison = autre plante, à vérifier ; =SUPPR:raison = ligne à supprimer
-#             motif « lien:texte » = offre reconnue par un bout de son lien (pour =SUPPR)
+#             motif « lien:texte » = offre reconnue par un bout de son lien (toute décision : =SUPPR, >P123:Nom, Nom, =ET ; prioritaire)
 #             >P123 ou >P123:Nom = offre à déplacer vers une autre fiche
 # ID « * » = toutes les plantes.
 *|extra;kalmoes;vari[e ]+e?s?;assorti.*;surprise.*;mysteres?.*;plants?;graines?;greffe;fruits?;forme;en;on;pour;son;h;i;a2;cm;ans;pieds?;deux pieds;2pp;p\d+ 2pp;coupe;select|=ET
@@ -602,3 +602,168 @@ P390|doyenne du comice|Doyenné du Comice
 P387|plate jaune|Plate jaune
 P387|j h hale|J.H. Hale
 P387|fertile de septembre|Fertile de Septembre
+
+# 21/11/2026 : contrôle des 30 plantes les plus proposées (corrections/CONTROLE-2026-11-21-A1_resume.txt).
+# Épicéa du Colorado : les Picea glauca (épinette blanche) vont vers la nouvelle fiche P613 (cultivar lu dans le lien).
+P463|lien:picea-glauca-conica-blue;lien:epinette-blanche-conica-blue;lien:epinette-blanche-naine-picea-glauca-conica-blue|>P613:Conica Blue
+P463|lien:picea-glauca-conica-perfecta;lien:epinette-blanche-conica-perfecta;lien:epinette-blanche-naine-picea-glauca-conica-perfecta|>P613:Perfecta
+P463|lien:picea-glauca-conica-december;lien:epinette-blanche-conica-december;lien:epinette-blanche-naine-picea-glauca-conica-december|>P613:December
+P463|lien:picea-glauca-biesenthaler;lien:epinette-blanche-biesenthaler;lien:epinette-blanche-naine-picea-glauca-biesenthaler|>P613:Biesenthaler Frühling
+P463|lien:picea-glauca-cecilia;lien:epinette-blanche-cecilia;lien:epinette-blanche-naine-picea-glauca-cecilia|>P613:Cecilia
+P463|lien:picea-glauca-cy-s-wonder;lien:epinette-blanche-cy-s-wonder;lien:epinette-blanche-naine-picea-glauca-cy-s-wonder|>P613:Cy's Wonder
+P463|lien:picea-glauca-dendrofarma-gold;lien:epinette-blanche-dendrofarma-gold;lien:epinette-blanche-naine-picea-glauca-dendrofarma-gold|>P613:Dendrofarma Gold
+P463|lien:picea-glauca-echiniformis;lien:epinette-blanche-echiniformis;lien:epinette-blanche-naine-picea-glauca-echiniformis|>P613:Echiniformis
+P463|lien:picea-glauca-laurin;lien:epinette-blanche-laurin;lien:epinette-blanche-naine-picea-glauca-laurin|>P613:Laurin
+P463|lien:picea-glauca-piccolo;lien:epinette-blanche-piccolo;lien:epinette-blanche-naine-picea-glauca-piccolo|>P613:Piccolo
+P463|lien:picea-glauca-zuckerhut;lien:epinette-blanche-zuckerhut;lien:epinette-blanche-naine-picea-glauca-zuckerhut|>P613:Zuckerhut
+P463|lien:picea-glauca-sun-on-the-sky;lien:epinette-blanche-sun-on-the-sky;lien:epinette-blanche-naine-picea-glauca-sun-on-the-sky|>P613:Sun on the Sky
+P463|lien:picea-glauca-rainbow;lien:epinette-blanche-rainbow;lien:epinette-blanche-naine-picea-glauca-rainbow|>P613:Rainbow's End
+P463|lien:picea-glauca-daisy;lien:epinette-blanche-daisy;lien:epinette-blanche-naine-picea-glauca-daisy|>P613:Daisy's White
+P463|lien:picea-glauca-jalako;lien:epinette-blanche-jalako;lien:epinette-blanche-naine-picea-glauca-jalako|>P613:Jalako Gold
+P463|lien:picea-glauca-alberta-globe;lien:epinette-blanche-alberta-globe;lien:epinette-blanche-naine-picea-glauca-alberta-globe|>P613:Alberta Globe
+P463|lien:picea-glauca-blue-globe;lien:epinette-blanche-blue-globe;lien:epinette-blanche-naine-picea-glauca-blue-globe|>P613:Blue Globe
+P463|lien:picea-glauca-sander;lien:epinette-blanche-sander;lien:epinette-blanche-naine-picea-glauca-sander|>P613:Sanders Blue
+P463|lien:picea-glauca-perfecta;lien:epinette-blanche-perfecta;lien:epinette-blanche-naine-picea-glauca-perfecta|>P613:Perfecta
+P463|lien:picea-glauca-december;lien:epinette-blanche-december;lien:epinette-blanche-naine-picea-glauca-december|>P613:December
+P463|lien:truffaut.com/picea-glauca-globosa|Glauca Globosa
+P463|lien:epinette-blanche-globosa;lien:epinette-blanche-naine-picea-glauca-globosa|>P613:Globosa
+P463|lien:picea-glauca-pendula;lien:epinette-blanche-pendula;lien:epinette-blanche-naine-picea-glauca-pendula|>P613:Pendula
+P463|lien:picea-glauca-conica;lien:epinette-blanche-conica;lien:epinette-blanche-naine-picea-glauca-conica|>P613:Conica
+P463|lien:alberta-conica-picea-glauca;lien:small-christmas-tree;lien:products/petit-sapin-de-noel|>P613:Conica
+P463|lien:sapinette-blanche-epinette-blanche-conica|>P613:Conica
+# Autres espèces reconnues par le lien
+P296|lien:dahlia|=SUPPR:bulbe de dahlia, pas une lavande
+P296|lien:lavandin-essence-purple|>P297:Essence Purple
+P058|lien:cordyline-banksii-electric-flash|>P622:Electric Flash
+P058|lien:cordyline-banksii-electric-pink|>P622:Electric Pink
+P058|lien:cordyline-indivisa|>P623:-
+P471|lien:glandulosa-alba-plena|>P621:Alba Plena
+P471|lien:glandulosa-rosea-plena|>P621:Rosea Plena
+P471|lien:prunus-glandulosa|>P621
+P471|lien:prunus-serrulata|>P614:-
+P386|lien:prunus-serrulata-royal-burgundy|>P614:Royal Burgundy
+P386|lien:prunus-royal-flame|=SUPPR:cerisier à fleurs, pas un abricotier
+P464|lien:pinus-cembra|=SUPPR:autre espèce (Pinus cembra)
+P468|lien:if-du-japon|=SUPPR:autre espèce (Taxus cuspidata)
+P109|lien:olivier-de-boheme-en-espalier|>P133:-
+P592|lien:jardinerie.fr/p/olivier-de-boheme|>P133:-
+# Variété fausse : le lien (et la page) citent une autre variété
+P470|lien:pommier-sur-tige-3-varietes-en-1|=ET:3 variétés greffées (Jonagored, Golden Delicious, Elstar)
+P480|lien:dissectum-garnet|Garnet
+P064|lien:lilipop-pink|Lillypop Pink
+P064|lien:sunset-dream|Sunset Dream
+P064|lien:gaura-lindheimeri-elurra|Elurra
+P133|lien:elaeagnus-ebbingei-gilt-edge|Gilt Edge
+P226|lien:figuier-marseillaise|Marseillaise
+P226|lien:figuier-pastillere|Pastillère
+P109|lien:olivier-lucques|Lucques
+P468|lien:taxus-baccata-black-tower|Black Tower
+# Orthographes unifiées
+P480|osakasuki;ozakazuki|Osakazuki
+P480|uneo yama|Ueno Yama
+P480|summer gold( erable du japon)?|Summergold
+P480|twombly( s red sentinel)?( erable du japon)?|Twombly's Red Sentinel
+P480|(dissectum )?inaba?e? ?shidare( erable du japon)?|Inaba Shidare
+P575|sibilla|Sybilla
+P095|parfianca|Parfianka
+P095|malisi|Malissi
+P195|purpurescens|Purpurascens
+P195|herman mussel|Hermann Mussel
+P195|grosse fontaene|Grosse Fontäne
+P246|muscat blue|Muscat Bleu
+P246|boskoop glorie|Boskoop Glory
+P246|isabelle|Isabella
+P470|belle fille des salins|Belle Fille de Salins
+P064|lill?[iy]pop pink|Lillypop Pink
+P064|corrie;corrie s gold;corries s gold|Corrie's Gold
+P064|steffi dark|Steffi Dark Rose
+P295|(miss|mrs) jessopp? s upright;mrs jessopp?|Miss Jessopp's Upright
+P433|marie bregeon|Marie Brégeon
+P433|pierrick bregeon;brepo( pierrick bregeon)?;brepo extra|Pierrick Brégeon
+P386|peche de nancy|Pêche de Nancy
+P462|midnight fearther|Midnight Feather
+P084|tito poggy|Tito Poggi
+P471|hedelfinguens|Hedelfingen
+P471|noir de meched|Noire de Meched
+P116|rotund|Rotundifolia
+P109|manzanille|Manzanillo
+
+# 21/11/2026 : contrôle des plantes 31 à 60 (corrections/CONTROLE-2026-11-21-A2_resume.txt).
+P301|lien:pittosporum-tenuifolium;lien:pittosporum-tenuifolum;lien:pittosporum-de-nouvelle-zelande|>P615
+P301|lien:pittosporum-heterophyllum|=SUPPR:autre espèce (Pittosporum heterophyllum)
+P044|lien:yucca-gloriosa|>P616
+P044|lien:yucca-aloifolia|=SUPPR:autre espèce (Yucca aloifolia)
+P118|lien:erica-carnea|>P119
+P328|lien:salvia-greggi|>P327
+P328|lien:salvia-elegans|=SUPPR:autre espèce (Salvia elegans, sauge ananas)
+P168|lien:carex-muskingumensis|>P167
+P168|lien:carex-riparia|>P170
+P168|lien:carex-brunnea;lien:carex-ornithopoda;lien:carex-oshimensis|=SUPPR:autre espèce de laîche (pas de fiche)
+P243|lien:trachelospermum-asiaticum|=SUPPR:autre espèce (Trachelospermum asiaticum)
+P223|lien:cupressus-leylandii|=SUPPR:autre plante (cyprès de Leyland)
+P302|lien:citrus-aurantifolia|>P367:-
+P302|lien:citrus-hystrix|>P620:-
+P302|lien:citrus-lumia|>P601:Lumia
+P303|lien:eremorange|>P601:Eremorange
+P303|lien:citrange|=ERR:porte-greffe citrange (Citrus × Poncirus), autre plante
+P303|lien:oranger-corrugata|>P222:Corrugata
+P433|lien:pinus-mugo-nana-balcanica|>P464:Nana Balcanica Aurea
+P112|lien:pieris-pink-passion|Pink Passion
+P570|herbstgru(ss)? (v|vom) ?bresserhof|Herbstgruß vom Bresserhof
+P461|ellwood;elwood|Ellwoodii
+P507|korsor|Korsør
+P111|maigrum|Maigrün
+P123|geish girl|Geisha Girl
+P123|falconet charlet|Falconnet Charlet
+
+# 21/11/2026 : contrôle des plantes 61 à 90 (corrections/CONTROLE-2026-11-21-A3_resume.txt).
+P556|lien:milan-gros-des-vertus|>P617:Gros des Vertus
+P556|lien:milan-de-pontoise|>P617:De Pontoise
+P556|lien:milan-norma|>P617:Norma
+P556|lien:milan-alaska|>P617:Alaska
+P556|lien:milan-bloemendaalse|>P617:Bloemendaalse Gele
+P556|lien:milan-capriccio|>P617:Capriccio
+P556|lien:winterkoning|>P617:Winterkoning
+P556|lien:milan-manon|>P617:Manon
+P556|lien:milan-smaragd|>P617:Smaragd
+P556|lien:milan-vorbote|>P617:Vorbote
+P556|lien:milan-hatif-daubervilliers|>P617:Hâtif d'Aubervilliers
+P556|lien:milan-roi-des-milans|>P617:Roi des Milans
+P556|lien:milan-serpentine|>P617:Serpentine
+P556|lien:taler|>P617:Taler
+P556|lien:chou-de-milan|>P617:-
+P556|tete de pierre( hyb)? f1|Tête de Pierre HF1
+P556|quintal d|Quintal d'Alsace
+P606|bigarreau noir|>P471:Bigarreau Noir
+P606|bigarreau (.+)|>P471:\1
+P606|geant d( hedelfingen)?|>P471:Hedelfingen
+P606|coeur de pigeon;sunburst;rainier;stark gold;reverchon;early rivers;schneider;tardif de vignola|>P471
+P606|lien:cerisier-bigarreau-tardif-de-vignola|>P471:Tardif de Vignola
+P396|lien:alii|>P618:Alii
+P396|amstel king|>P618:Amstel King
+P015|lien:ficus-elastica|>P395
+P015|lien:ficus-microcarpa|>P619
+P015|lien:ficus-altissim;lien:ficus-sagittata|=SUPPR:autre espèce de ficus (pas de fiche)
+P434|lien:picea-pungens-glauca-pendula|>P463:Glauca Pendula
+P434|lien:picea-glauca-pendula|>P613:Pendula
+P327|lien:salvia-verticillata|=SUPPR:autre espèce (Salvia verticillata)
+P406|lien:helianthus-giganteus|=SUPPR:autre espèce (Helianthus giganteus, vivace)
+P096|lien:salvia-lavandulifolia|=SUPPR:autre espèce (Salvia lavandulifolia)
+P209|veritable|=ET
+P052|chicago blues|Chicagoland Blues
+P389|d angers|Angers
+P349|viniglia|Vaniglia
+P438|vilmoriana|Vilmoriniana
+P438|bandai suji|Bandai Sugi
+P438|vilmoriana gold|Vilmorin Gold
+P481|pygmea|Pygmaea
+P327|mirage tm pink|Mirage Pink
+P327|mirage tm white|Mirage White
+P327|mirage tm cherry red|Mirage Cherry Red
+P327|mirage tm burgundy|Mirage Burgundy
+P327|mirage bleu|Mirage Blue
+P325|red cluster|Red Clusters
+P406|sunpot|Sunspot
+P096|purpurescens|Purpurascens
+P096|grete stolzl?e|Grete Stölzle
+P073|gros long d|Gros long d'été
