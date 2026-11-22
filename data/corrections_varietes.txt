@@ -767,3 +767,100 @@ P406|sunpot|Sunspot
 P096|purpurescens|Purpurascens
 P096|grete stolzl?e|Grete Stölzle
 P073|gros long d|Gros long d'été
+
+# 22/11/2026 : contrôle des plantes 91 à 120 (corrections/CONTROLE-2026-11-22-A1_resume.txt).
+# Chou sauvage : choux cultivés rangés dans leur groupe (variété lue dans le lien).
+P537|lien:/chou-de-milan-manon-f1|>P617:Manon
+P537|lien:/graines-chou-de-milan-capriccio-f1|>P617:Capriccio
+P537|lien:/graines-chou-de-bruxelles-igor-f1-bio|>P561:Igor F1
+P537|lien:/graines-chou-de-milan-gros-des-vertus-2|>P617:Gros des Vertus
+P537|lien:/graines-chou-fleur-dhiver-walcheren-winter-5|>P559:Walcheren Winter
+P537|lien:/graines-chou-rave-blanc-lanro-bio|>P562:Lanro
+P537|lien:/graines-chou-cavalier-lancinate-nero-di-toscana-bio|>P557:Nero di Toscana
+P537|lien:/graines-chou-rouge-tardif-langedijker-bewaar-2|>P556:Langedijker Bewaar
+P537|lien:/graines-chou-fleur-synergy-f1|>P559:Synergy F1
+P537|lien:/graines-chou-frise-dhiver-demi-nain-westlandse-winter-bio|>P557:Westlandse Winter
+P537|lien:/graines-chou-brocoli-atlantis-f1|>P560:Atlantis F1
+P537|lien:/graines-chou-de-milan-bloemendaalse-gele-bio|>P617:Bloemendaalse Gele
+P537|lien:/graines-chou-rave-violet-blaro-bio|>P562:Blaro
+P537|lien:/graines-chou-fleur-alpha-6-fortados|>P559:Alpha Fortados
+P537|lien:/chou-fleur-extra-hatif-d-angers-brassica-olearacea.html|>P559:Extra Hâtif d'Angers
+P537|lien:/chou-de-milan-hyb-f1-taler-brassica-oleracea.html|>P617:Taler
+P537|lien:/brassica-oleracea-popof-variegata-chou-d-ornement-p-2786.html|>P558:Popof Variegata
+P537|lien:/chou-creme-chantilly-brassica-oleracea-albo-variegata.html|>P558:Albo-Variegata
+P537|lien:/17012-chou-de-bruxelles-rosny.html|>P561:Rosny
+P537|lien:/17015-chou-de-bruxelles-sanda.html|>P561:Sanda
+P537|lien:/17016-brocoli-calabrais-a-jets-verts.html|>P560:Calabrais à jets verts
+P537|lien:/17041-chou-de-milan-gros-des-vertus.html|>P617:Gros des Vertus
+P537|lien:/17046-chou-rave-blanc-de-vienne.html|>P562:Blanc de Vienne
+P537|lien:/17043-chou-frise-vert-demi-nain.html|>P557:Vert Demi-nain
+P537|lien:/17371-chou-de-milan-taler-hyb-f1.html|>P617:Taler
+P537|lien:/17050-chou-navet-rutabage-jaune-a-collet-vert.html|=SUPPR:autre espèce (rutabaga, Brassica napus)
+P537|lien:/chou-rouge-tardif-langedijker-bewaar-2|>P556:Langedijker Bewaar
+P537|lien:/chou-cavalier-lancinate-nero-di-toscana-bio|>P557:Nero di Toscana
+P537|lien:/chou-rave-blanc-lanro-bio|>P562:Lanro
+P537|lien:/chou-rave-violet-blaro-bio|>P562:Blaro
+P537|lien:/chou-de-milan-bloemendaalse-gele-bio|>P617:Bloemendaalse Gele
+P537|lien:/chou-fleur-dhiver-walcheren-winter-5|>P559:Walcheren Winter
+P537|lien:/chou-fleur-alpha-6-fortados|>P559:Alpha Fortados
+P537|lien:/chou-de-bruxelles-igor-f1-bio|>P561:Igor F1
+P537|lien:/chou-de-milan-capriccio-f1|>P617:Capriccio
+P537|lien:/chou-fleur-synergy-f1|>P559:Synergy F1
+P537|lien:/chou-de-milan-gros-des-vertus-2|>P617:Gros des Vertus
+P537|lien:/chou-frise-demi-nain-westlandse-winter|>P557:Westlandse Winter
+P537|lien:/chou-de-milan-smaragd-ab|>P617:Smaragd
+P537|lien:/chou-brocoli-perpetuel-nine-star-plant|>P560:Nine Star Perennial
+P537|lien:/chou-frise-kale-roter-grunkohl-ab-antigaspi|>P557:Roter Grünkohl
+P537|lien:/chou-cabus-marche-de-copenhague-2-ab|>P556:Marché de Copenhague
+P537|lien:/chou-de-milan-vorbote-3-ab|>P617:Vorbote
+P537|lien:/chou-brocoli-fiolaro-ou-brocoli-sauvage-ab|>P560:Fiolaro
+P537|lien:/chou-cabus-rouge-rodynda-ab|>P556:Rodynda
+P537|lien:/chou-de-bruxelles-red-rubine-ab|>P561:Red Rubine
+P537|lien:/chou-cabus-precoce-de-louviers-ab|>P556:Précoce de Louviers
+P537|lien:/chou-frise-kale-lacinato-ou-chou-palmier-nero-di-toscana-ab|>P557:Nero di Toscana
+P537|lien:/chou-frise-kale-tronchuda-du-portugal-nt|>P557:Tronchuda
+P537|lien:/chou-rave-purple-vienna-ab|>P562:Purple Vienna
+P537|lien:/chou-cabus-filderkraut-ab|>P556:Filderkraut
+P537|lien:/chou-frise-kale-demi-nain-de-westland-ab|>P557:Westlandse Winter
+P537|lien:/chou-cabus-pointu-de-chateaurenard-ab|>P556:Pointu de Châteaurenard
+P537|lien:/chou-rave-dyna-ab|>P562:Dyna
+P537|lien:/chou-cabus-kalibos-ab|>P556:Kalibos
+P537|lien:/chou-fleur-violet-de-sicile-ab|>P559:Violet de Sicile
+P537|lien:/chou-rave-trero-ab|>P562:Trero
+P537|lien:/chou-frise-kale-branchu-du-poitou-ab|>P557:Branchu du Poitou
+P537|lien:/chou-fleur-flora-blanca-ab|>P559:Flora Blanca
+P537|lien:/chou-fleur-tardif-d-angers-ab|>P559:Tardif d'Angers
+P537|lien:/chou-fleur-verde-di-macerata-ab|>P559:Verde di Macerata
+P537|lien:/chou-brocoli-violet-du-cap-ab|>P560:Violet du Cap
+P537|lien:/chou-fleur-romanesco-natalino-ab|>P559:Romanesco Natalino
+P537|lien:/chou-frise-kale-roter-grunkohl-ab|>P557:Roter Grünkohl
+P537|lien:/chou-de-bruxelles-groninger-ab|>P561:Groninger
+P537|lien:/chou-cabus-rouge-tete-noire-3-ab|>P556:Tête Noire
+P537|lien:/chou-brocoli-early-purple-sprouting-ab|>P560:Early Purple Sprouting
+P537|lien:/chou-frise-kale-halbhoher-gruner-krauser-ab|>P557:Halbhoher Grüner Krauser
+P537|lien:/chou-rave-noriko-ab|>P562:Noriko
+P537|lien:/chou-brocoli-vert-calabrese-natalino-ab|>P560:Calabrese Natalino
+P537|lien:/chou-de-milan-gros-des-vertus-4-ab|>P617:Gros des Vertus
+P537|lien:/chou-cabus-coeur-de-boeuf-des-vertus-ab|>P556:Cœur de Bœuf des Vertus
+P537|lien:/chou-de-bruxelles-de-rosny-ab|>P561:Rosny
+P537|lien:/chou-rave-azur-star-ab|>P562:Azur Star
+P537|lien:/chou-rave-delikatess-blauer-ab|>P562:Delikatess Blauer
+P537|lien:/chou-brocoli-rasmus-ab|>P560:Rasmus
+P474|lien:quercus-cerris|>P442
+P027|lien:strelitzia-nicolai;lien:strelitzia-augusta|>P043:-
+P220|lien:capucine-hybride-de-lobb|>P597:-
+P220|naine princess of india|Princess of India
+P220|nanum king theodore|King Theodore
+P413|lien:epipremnum-pinnatum-albo-variegata|>P604
+P221|lien:musa-balbisiana|=SUPPR:autre espèce (Musa balbisiana)
+P020|lien:chlorophytum-cyperus;lien:chlorophytum-maranta;lien:cyperus-calissia-chlorophytum|=SUPPR:assortiment de plusieurs plantes
+P252|lien:dahlia|=SUPPR:bulbe de dahlia, pas une lavande
+P252|lien:lavandula-angustifolia-felice|>P296:Felice
+P456|lien:pinus-mugo-nana-balcanica|>P464:Nana Balcanica Aurea
+P456|lien:pinus-nigra-nana|>P433:Nana
+P306|lien:quercus-ilicifolia|=SUPPR:autre espèce (Quercus ilicifolia)
+P358|lien:agastache-rugosa-alabaster|>P353:Alabaster
+P308|lien:cedrus-deodara|=SUPPR:autre espèce (Cedrus deodara, cèdre de l'Himalaya)
+P202|lien:agave-mediopicta-alba|Mediopicta Alba
+P085|lien:murier-blanc-king-s-white|King's White
+P018|kona koffee|Kona Coffee

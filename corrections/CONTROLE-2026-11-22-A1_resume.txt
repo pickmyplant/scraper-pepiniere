@@ -1,0 +1,21 @@
+Contrôle des plantes 91 à 120 (Offres publié le 22/11/2026, après l'import de CORR-2026-11-21-A3). Corrections : CORR-2026-11-22-A1.
+
+Mal rangés
+- Chou sauvage (P537) : 76 offres de choux cultivés rangées dans leur groupe, variété lue dans le lien : Chou de Milan 14, Chou-fleur 12,
+  Chou kale 12, Chou-rave 11, Chou pommé 10, Brocoli 8, Chou de Bruxelles 7, Chou ornemental 2 ; rutabaga (Brassica napus) supprimé.
+  Restent dans Chou sauvage : chous perpétuels (Daubenton, Thousand Head) et 'Protéor'.
+- Oiseau de paradis : Strelitzia nicolai et « augusta » -> P043 Strelitzia géant.
+- Chêne pédonculé : Quercus cerris 'Variegata' -> P442 Chêne chevelu. Grande capucine : capucine de Lobb -> P597.
+- Pothos : E. pinnatum 'Albo Variegata' -> P604 Pothos dragon (les « pinnatum » Golden Pothos, Marble Queen, Aureum sont des E. aureum : laissés).
+- Lavande papillon : bulbe de dahlia supprimé ; lavande vraie 'Felice' -> P296.
+- Pin de Weymouth : Pinus mugo 'Nana Balcanica Aurea' -> P464, Pinus nigra 'Nana' -> P433.
+- Agastache hybride : A. rugosa 'Alabaster' -> P353.
+- Supprimés (1 offre, pas de fiche) : Musa balbisiana, Quercus ilicifolia, Cedrus deodara ; 3 assortiments de plantes (Plant and Stories) en Plante araignée.
+
+Variétés
+- Mûrier blanc : King's White (était Laevigata) ; Agave d'Amérique : Mediopicta Alba ; Capucine : King Theodore, Princess of India ;
+  Taro : Kona Coffee.
+- Vérifiés sur la page et justes malgré le lien : magnolias Beugnon et Rustica Rubra, lavande Regal Splendour (Plantes Avenue).
+- Laissés : Morus kagayamae (= M. alba), Colocasia antiquorum (= esculenta), Platanus acerifolia (= hispanica), bégonias BIG et Dragon Wing.
+
+Pas de nouvelle fiche nécessaire : chaque offre mal rangée a une fiche existante, sauf trois espèces à une seule offre (supprimées).
