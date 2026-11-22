@@ -10,8 +10,9 @@ le prix « Plante à l'unité » (microdonnées schema.org Offer : prix, disponi
 Frais de port (page /frais-livraison, confirmés au panier le 22/11/2026, livraison à domicile en France métropolitaine) :
 un seul colis depuis Les Sorinières (44), même prix partout (Corse sur devis). Chaque ligne porte le port de ce format
 acheté seul : godet, motte, mini-motte, pot 10 cm, pot 1 L (Turboplant) et 1,5 L : 10 € ; pot 2 L : 11 € ; pot 3 à 5 L :
-12 € ; pot 10 L : 28 € (au-delà de 100 € de commande Écoplant/Turboplant : 10 % du montant). Un panier mélangé paie le
-port du plus gros format (godet + pot 5 L = 12 €). DPD Relais 7,90 € pour les petits formats seulement (non relevé).
+12 € ; pot 10 L : 28 €. Au-delà de 100 € : 10 % du montant au lieu des 10 €, plus le supplément des gros pots, qui
+croît moins vite que leur nombre (2 pots 5 L : 13,50 ; 4 pots 5 L à 119,60 € : 18,97 ; 2 pots 10 L : 39,98 ;
+pot 10 L + godet : 29). DPD Relais 7,90 € pour les petits formats seulement (non relevé).
 """
 import datetime as dt
 import html
@@ -54,9 +55,8 @@ def _port(cont, prix):
     else:
         return "", f"Port du format « {cont or 'inconnu'} » non vérifié au panier"
     if prix > SEUIL_POURCENT:
-        port = max(port, round(prix * 0.10, 2))
-        if cont not in ("Godet", "Motte", "Pot 1 L"):  # 10 % confirmé pour Écoplant/Turboplant seulement
-            note = " ; ".join(x for x in [note, "Port à 10 % du montant au-delà de 100 € (non vérifié pour ce format)"] if x)
+        # 10 % du montant + supplément du format (port seul - 10) : 4 pots 5 L à 119,60 € → 18,97 ; 2 pots 10 L → 39,98
+        port = round(prix * 0.10, 2) + (port - 10)
     return prix_fr(port), note
 
 
