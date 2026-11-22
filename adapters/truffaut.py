@@ -39,6 +39,19 @@ DUREE_CACHE_JOURS = 7
 # Vendeurs marketplace relevés quand même (nom en minuscules contenu dans le nom du vendeur)
 VENDEURS_GARDES = ("arborix", "bloomique")
 PAGE_ARBORIX = BASE + "/vendeurs-marketplace/arborix-plus-vert-moin-cher.html"
+# Port à domicile d'un panier ne contenant que cette offre (confirmé au panier le 22/11/2026, data/frais_port.csv) :
+# Truffaut 7,90 jusqu'à 49,99 €, 4,90 jusqu'à 499,99 €, offert dès 500 € (grands sujets compris) ;
+# marketplace (Arborix, Bloomique) toujours offert, compté à part du seuil Truffaut.
+TRANCHES_PORT = [(50, 7.90), (500, 4.90)]
+
+
+def _port(prix, marketplace):
+    if marketplace:
+        return "0,00"
+    for plafond, port in TRANCHES_PORT:
+        if float(prix) < plafond:
+            return prix_fr(port)
+    return "0,00"
 EXCLUS = re.compile(r"artificiel|housse|cache-pot|poster|tableau|coussin|bougie|peluche|sticker|decor", re.I)
 
 
@@ -215,5 +228,5 @@ class Adaptateur:
         if not prix:
             return [], [(url, "Pas de prix dans les données produit")]
         return [Offre(plante.id, plante.nom_commun, var_col, NOM, url, prix_fr(prix) if en_stock else "", "EUR",
-                      cont, "En stock" if en_stock else "Rupture", "", aujourdhui, "", "À vérifier",
+                      cont, "En stock" if en_stock else "Rupture", _port(prix, bool(note_vendeur)) if en_stock else "", aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h or f or "")], []
