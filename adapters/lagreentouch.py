@@ -10,6 +10,10 @@ ou dans la description ; le pot et la hauteur livrés sont écrits dans la descr
 Variantes : seules les « Sans cache-pot » sont relevées quand elles existent ; « Lot de N » / « N plantes »
 notés en lot. Exclus : compositions (BUNDLE, coffrets), artificielles, accessoires, terrariums,
 et les plantes vendues seulement avec un kit terrarium (étiquette addon-kit).
+Frais de port (politique d'expédition, confirmés au panier le 22/11/2026) : un colis par producteur, barème
+sur ses seuls produits : moins de 35 € → 12,50 ; de 35 à moins de 60 € → 7,50 ; dès 60 € → offert (seuil
+avant la remise « 2e plante »). Chaque ligne porte le port de ce format acheté seul ; le producteur (étiquette
+du catalogue) est cité dans Notes quand le port n'est pas offert. Livraison en France métropolitaine hors Corse.
 """
 import datetime as dt
 import glob
@@ -40,11 +44,36 @@ NB = re.compile(r"\b(?:lot|pack) de (\d+)\b|\b(\d+) (?:plantes|plants|bulbes|pie
 FORMAT_VARIANTE = re.compile(r"Ø\s*(\d+)\s*cm(?:\s*-\s*↕\s*([\d-]+)\s*cm)?", re.I)
 # Artificielles, coffrets et compositions de plusieurs plantes (« Kentia, Strelitzia et Areca », « Baby Paradise - A, B et C »)
 EXCLUS_TITRE = re.compile(r"artificiel|coffret|carte[- ]cadeau|,[^,]*\bet\b", re.I)
+# Barème du port par producteur : (seuil exclu, port) ; au-delà du dernier seuil, offert
+BAREME_PORT = [(35, "12,50"), (60, "7,50")]
+PORT_OFFERT = "0,00"
+SEUIL_OFFERT = 60
+# Étiquettes des producteurs (« Everyplants ğŸŒ¿ » : même étiquette mal encodée sur le site)
+PRODUCTEURS = {"La Green Touch 🌱": "La Green Touch", "Everyplants 🌿": "Everyplants", "Everyplants ğŸŒ¿": "Everyplants",
+               "Green boutiQ": "Green boutiQ", "Garden Basics": "Garden Basics", "Colibri 🌺": "Colibri",
+               "La Maison du cactus 🌵": "La Maison du cactus", "Flowerbulbs 🏵️": "Flowerbulbs"}
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 
 
 def _texte(x):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x or ""))).replace("\xa0", " ").strip()
+
+
+def _port(prix):
+    """Port d'un colis ne contenant que ce format (barème par producteur)."""
+    try:
+        p = float(prix)
+    except (TypeError, ValueError):
+        return ""
+    for seuil, port in BAREME_PORT:
+        if p < seuil:
+            return port
+    return PORT_OFFERT
+
+
+def _producteur(tags):
+    noms = sorted({PRODUCTEURS[t] for t in tags or [] if t in PRODUCTEURS})
+    return noms[0] if len(noms) == 1 else ""
 
 
 def _nb(texte):
@@ -117,7 +146,10 @@ class Adaptateur:
         for f in sorted(glob.glob(os.path.join(config.DOSSIER_CACHE, "index_lgt_*.json")), reverse=True):
             if dt.date.fromisoformat(os.path.basename(f)[10:20]) >= limite:
                 with open(f, encoding="utf-8") as fh:
-                    self.produits = json.load(fh)
+                    produits = json.load(fh)
+                if produits and "tags" not in produits[0]:
+                    continue  # cache d'avant les étiquettes (producteur)
+                self.produits = produits
                 log.info("Index lu depuis le cache %s (%d produits)", f, len(self.produits))
                 return self.produits
         produits = []
@@ -253,8 +285,12 @@ class Adaptateur:
                     notes.append(f"Promotion (prix barré {prix_fr(v['barre'])} €)")
             except (TypeError, ValueError):
                 pass
+            port = _port(v["prix"])
+            if port and port != PORT_OFFERT:
+                prod = _producteur(p["tags"])
+                notes.append(f"port offert dès {SEUIL_OFFERT} € d'achat chez " + (prod or "le même producteur"))
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
-                      "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
+                      "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", port, aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h_v)
             o.tri = taille_contenant(cont_v) * 1000 + (nb or 1) * 10 + float(v["prix"] or 0) / 1000
             lignes.append(o)
