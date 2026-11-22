@@ -7,6 +7,8 @@ prix, prix barré et disponibilité. Les titres sont en nom commun : les fiches 
 le nom latin affiché sous le titre (<span class="product-meta__latin-title">), qui seul valide
 le rapprochement.
 Formats « …, vendu par lot de N » : lots du même format ; non relevés quand le format unitaire existe.
+Colis volumineux : formats pesant 1 000 kg dans products.json (repère du site, confirmé au panier le 22/11/2026) :
+port 11,49 à domicile au lieu de 6,49, inscrit dans Frais de port et dans Notes.
 """
 import datetime as dt
 import glob
@@ -29,6 +31,8 @@ BASE = "https://www.willemsefrance.fr"
 CATALOGUE = BASE + "/products.json?limit=250&page={n}"
 DUREE_CACHE_JOURS = 7
 LATIN = re.compile(r'<span class="product-meta__latin-title[^"]*">(.*?)</span>', re.S)
+PORT_VOLUMINEUX = "11,49"
+SEUIL_VOLUMINEUX_G = 100_000  # les formats volumineux pèsent 1 000 000 g, les autres 0
 LOT_VENTE = re.compile(r",\s*vendu par lot de (\d+)\s*$", re.I)
 # Produits sans plante (accessoires, cache-pots…)
 TYPES_EXCLUS = {"engrais et protection", "entretien du jardin", "pots et contenants pour cultiver vos plantes",
@@ -75,7 +79,10 @@ class Adaptateur:
         for f in sorted(glob.glob(os.path.join(config.DOSSIER_CACHE, "index_wil_*.json")), reverse=True):
             if dt.date.fromisoformat(os.path.basename(f)[10:20]) >= limite:
                 with open(f, encoding="utf-8") as fh:
-                    self.produits = json.load(fh)
+                    produits = json.load(fh)
+                if produits and "volumineux" not in (produits[0]["variantes"] or [{}])[0]:
+                    continue  # cache d'avant le repérage des colis volumineux
+                self.produits = produits
                 log.info("Index lu depuis le cache %s (%d produits)", f, len(self.produits))
                 return self.produits
         produits = []
@@ -88,7 +95,8 @@ class Adaptateur:
                     "handle": p["handle"], "titre": _texte(p.get("title")), "type": p.get("product_type") or "",
                     "texte": M.norm(_texte(p.get("body_html"))),
                     "variantes": [{"titre": v.get("title") or "", "prix": v.get("price"),
-                                   "barre": v.get("compare_at_price"), "dispo": bool(v.get("available"))}
+                                   "barre": v.get("compare_at_price"), "dispo": bool(v.get("available")),
+                                   "volumineux": (v.get("grams") or 0) >= SEUIL_VOLUMINEUX_G}
                                   for v in p.get("variants") or []],
                 })
         f = os.path.join(config.DOSSIER_CACHE, f"index_wil_{dt.date.today().isoformat()}.json")
@@ -206,8 +214,12 @@ class Adaptateur:
                     notes.append(f"Promotion (prix barré {prix_fr(v['barre'])} €)")
             except (TypeError, ValueError):
                 pass
+            port = ""
+            if v.get("volumineux"):
+                port = PORT_VOLUMINEUX
+                notes.append(f"Colis volumineux : port {PORT_VOLUMINEUX} € (domicile seulement)")
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
-                      "EUR", cont, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
+                      "EUR", cont, "En stock" if v["dispo"] else "Rupture", port, aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h or f or "")
             o.tri = taille_contenant(cont) * 1000 + float(v["prix"] or 0)
             lignes.append(o)
