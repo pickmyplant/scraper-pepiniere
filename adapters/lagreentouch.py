@@ -53,6 +53,9 @@ SEUIL_OFFERT = 60
 PRODUCTEURS = {"La Green Touch 🌱": "La Green Touch", "Everyplants 🌿": "Everyplants", "Everyplants ğŸŒ¿": "Everyplants",
                "Green boutiQ": "Green boutiQ", "Garden Basics": "Garden Basics", "Colibri 🌺": "Colibri",
                "La Maison du cactus 🌵": "La Maison du cactus", "Flowerbulbs 🏵️": "Flowerbulbs"}
+# Code de colis (étiquette « lgt-colis-NN ») → producteur, d'après les produits portant les deux étiquettes (22/11/2026)
+COLIS = {"49": "La Maison du cactus", "55": "Everyplants", "56": "La Green Touch", "68": "Green boutiQ",
+         "71": "Garden Basics"}
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 
 
@@ -73,8 +76,16 @@ def _port(prix):
 
 
 def _producteur(tags):
+    """Producteur (« Expédié de ») : étiquette du producteur, sinon celle du colis (« lgt-colis-68x » : un colis par
+    producteur ; code sans producteur connu → « Colis 57 », qui regroupe quand même les plantes d'un même colis)."""
     noms = sorted({PRODUCTEURS[t] for t in tags or [] if t in PRODUCTEURS})
-    return noms[0] if len(noms) == 1 else ""
+    if len(noms) == 1:
+        return noms[0]
+    colis = sorted({t[10:] for t in tags or [] if t.startswith("lgt-colis-")})
+    if len(colis) == 1:
+        c = colis[0]
+        return COLIS.get(c) or COLIS.get(c.rstrip("abcdefghijklmnopqrstuvwxyz")) or f"Colis {c}"
+    return ""
 
 
 def _nb(texte):
@@ -289,7 +300,7 @@ class Adaptateur:
             port = _port(v["prix"])
             if port and port != PORT_OFFERT:
                 prod = _producteur(p["tags"])
-                notes.append(f"port offert dès {SEUIL_OFFERT} € d'achat chez " + (prod or "le même producteur"))
+                notes.append(f"port offert dès {SEUIL_OFFERT} € d'achat chez " + (prod if prod and not prod.startswith("Colis") else "le même producteur"))
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
                       "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", port, aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h_v, expedie_de=_producteur(p["tags"]))
