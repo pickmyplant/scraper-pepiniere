@@ -31,6 +31,26 @@ CATALOGUE = BASE + "/products.json?limit=250&page={n}"
 DUREE_CACHE_JOURS = 7
 TYPES_EXCLUS = {"carte cadeau"}
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
+# Port à domicile selon le seul poids du panier (poids des variantes de products.json), jamais offert, même prix en
+# Corse ; seule option proposée (transporteur non nommé). Confirmé au panier et au paiement le 23/11/2026.
+TRANCHES_PORT = [(500, 7.90), (750, 8.90), (1000, 9.90), (2000, 10.90), (3000, 11.90)]
+
+
+def _port(grammes):
+    """Port d'un panier ne contenant que ce format (poids en grammes)."""
+    if grammes is None:
+        return ""
+    for plafond, port in TRANCHES_PORT:
+        if grammes <= plafond:
+            return prix_fr(port)
+    kg = -(-int(grammes) // 1000)  # kg entamés
+    if kg <= 20:
+        return prix_fr(kg + 8.90)  # 4 kg -> 12,90 ... 20 kg -> 28,90
+    if kg <= 28:
+        return prix_fr(kg + 7.90)  # 20-21 kg -> 28,90 aussi ; 22 kg -> 29,90 ... 28 kg -> 35,90
+    return prix_fr(36.90)
+
+
 HAUTEUR = re.compile(r"hauteur(?: livrée)?\s+(?:entre\s+)?(\d+)\s*(?:et|à|-)\s*(\d+)\s*cm", re.I)
 
 
@@ -59,7 +79,10 @@ class Adaptateur:
         for f in sorted(glob.glob(os.path.join(config.DOSSIER_CACHE, "index_veg_*.json")), reverse=True):
             if dt.date.fromisoformat(os.path.basename(f)[10:20]) >= limite:
                 with open(f, encoding="utf-8") as fh:
-                    self.produits = json.load(fh)
+                    produits = json.load(fh)
+                if any("grammes" not in v for p in produits[:5] for v in p["variantes"]):
+                    continue  # ancien cache sans poids
+                self.produits = produits
                 log.info("Index lu depuis le cache %s (%d produits)", f, len(self.produits))
                 return self.produits
         produits = []
@@ -73,7 +96,8 @@ class Adaptateur:
                 produits.append({
                     "handle": p["handle"], "titre": _texte(p.get("title")), "type": p.get("product_type") or "",
                     "variantes": [{"titre": v.get("title") or "", "prix": v.get("price"),
-                                   "barre": v.get("compare_at_price"), "dispo": bool(v.get("available"))}
+                                   "barre": v.get("compare_at_price"), "dispo": bool(v.get("available")),
+                                   "grammes": v.get("grams")}
                                   for v in p.get("variants") or []],
                 })
         f = os.path.join(config.DOSSIER_CACHE, f"index_veg_{dt.date.today().isoformat()}.json")
@@ -154,6 +178,8 @@ class Adaptateur:
                 notes.append("godet forestier")
             if not cont:
                 notes.append(f"Format non reconnu : « {brut} »" if brut else "Format non indiqué")
+            if v.get("grammes") == 0:
+                notes.append("Poids 0 g sur le site : port à vérifier")
             m = HAUTEUR.search(brut)
             h = f"{m.group(1)}-{m.group(2)} cm" if m else ""
             try:
@@ -162,7 +188,7 @@ class Adaptateur:
             except (TypeError, ValueError):
                 pass
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
-                      "EUR", cont, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
+                      "EUR", cont, "En stock" if v["dispo"] else "Rupture", _port(v.get("grammes")), aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h)
             o.tri = taille_contenant(cont) * 1000 + float(v["prix"] or 0)
             lignes.append(o)
