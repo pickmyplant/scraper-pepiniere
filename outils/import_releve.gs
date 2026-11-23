@@ -31,7 +31,9 @@ var COLONNES = ['ID', 'Plante', 'Variété', 'Pépinière', 'Lien du produit', '
   // Expédié de (R, 20/11/2026) : lieu d'expédition (Plantes Avenue, un port par lieu)
 var COL_PRIX = 5;   // index 0 dans COLONNES
 var COL_DATE = 10;
-var COL_FRAIS = 9;  // colonne J : calculée par une formule ARRAYFORMULA en J1, jamais écrite par le script
+var COL_FRAIS = 9;  // J, voir ci-dessous
+// Frais de port (J) : écrits depuis le relevé (port de l'offre achetée seule) depuis le 23/11/2026 ; J1 = simple
+// en-tête (l'ancienne formule ARRAYFORMULA de J1, qui lisait Pépinières!K, est retirée). Règles complètes : onglet Livraison.
 
 /**
  * Dernière ligne réellement remplie, d'après la colonne A (ID). getLastRow() compte aussi les
@@ -92,6 +94,8 @@ function convertirLigne_(cellules) {
   while (v.length < COLONNES.length) v.push('');
   var prix = String(v[COL_PRIX]).trim();
   if (prix) v[COL_PRIX] = Number(prix.replace(',', '.'));
+  var port = String(v[COL_FRAIS]).trim();
+  if (/^\d+(?:[,.]\d+)?$/.test(port)) v[COL_FRAIS] = Number(port.replace(',', '.'));
   var d = String(v[COL_DATE]).match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
   if (d) v[COL_DATE] = new Date(Number(d[3]), Number(d[2]) - 1, Number(d[1]), 12);  // midi : pas de décalage de fuseau
   return v;
@@ -263,11 +267,8 @@ function importerUn_(id, brancheForcee, ui) {
     if (debut + lignes.length - 1 > offres.getMaxRows()) {
       offres.insertRowsAfter(offres.getMaxRows(), debut + lignes.length - 1 - offres.getMaxRows());
     }
-    // A..I puis K..fin : la colonne J (frais de port) est laissée à la formule de J1.
-    offres.getRange(debut, 1, lignes.length, COL_FRAIS)
-      .setValues(lignes.map(function (l) { return l.slice(0, COL_FRAIS); }));
-    offres.getRange(debut, COL_FRAIS + 2, lignes.length, COLONNES.length - COL_FRAIS - 1)
-      .setValues(lignes.map(function (l) { return l.slice(COL_FRAIS + 1); }));
+    // Toutes les colonnes, frais de port (J) compris.
+    offres.getRange(debut, 1, lignes.length, COLONNES.length).setValues(lignes);
     offres.getRange(debut, COL_DATE + 1, lignes.length, 1).setNumberFormat('dd/MM/yyyy');
     var fin = debut + lignes.length - 1;
 
