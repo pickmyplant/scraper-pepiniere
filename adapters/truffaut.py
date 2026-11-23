@@ -9,7 +9,9 @@ Un seul relevé (préfixe TRU, pépinière « Truffaut ») couvre trois vendeurs
 - Truffaut (« Vendu et expédié par Truffaut ») ;
 - Arborix (marketplace ; son propre site est fermé aux robots, décision du 14/11/2026) ;
 - Bloomique (marketplace ; demande de l'utilisatrice du 14/11/2026).
-Les fiches marketplace portent la note « Vendu par <vendeur> sur Truffaut (marketplace) ». Les autres
+Les fiches marketplace portent la note « Vendu par <vendeur> sur Truffaut (marketplace) » et la pépinière
+« Truffaut - Arborix » ou « Truffaut - Bloomique » (23/11/2026, comme « Botanic - <fournisseur> ») : la BDD leur
+donne leurs propres frais de port (onglet Livraison : offerts), le bouton d'import les remplace avec le relevé TRU. Les autres
 vendeurs marketplace sont écartés (suivis sur leur propre site). Une seule ligne « Non trouvé » par
 plante, et seulement si aucun des trois vendeurs n'a de fiche (remplace les anciens relevés ARX et BLQ).
 L'index ajoute au sitemap les fiches de la page vendeur Arborix (absentes en partie du sitemap).
@@ -162,11 +164,13 @@ class Adaptateur:
     def _analyser(self, plante, url, page, aujourdhui):
         vendeur = re.search(r'offer-seller-name">Vendu par <a[^>]*title="([^"]+)"', page)
         note_vendeur = ""
+        pepiniere = NOM
         if vendeur:
             nom_vendeur = html.unescape(vendeur.group(1))
             if not any(v in nom_vendeur.lower() for v in VENDEURS_GARDES):
                 return [], [(url, f"Vendu par {nom_vendeur} (marketplace) : non relevé")]
             note_vendeur = f"Vendu par {nom_vendeur.split(',')[0]} sur Truffaut (marketplace)"
+            pepiniere = f"{NOM} - " + next(v for v in VENDEURS_GARDES if v in nom_vendeur.lower()).capitalize()
         p = self._produit(page)
         h1 = _texte(" ".join(re.findall(r"<h1[^>]*>(.*?)</h1>", page, re.S)[:1]))
         if not p:
@@ -227,6 +231,6 @@ class Adaptateur:
             notes.append(f"Format non reconnu : « {nom} »")
         if not prix:
             return [], [(url, "Pas de prix dans les données produit")]
-        return [Offre(plante.id, plante.nom_commun, var_col, NOM, url, prix_fr(prix) if en_stock else "", "EUR",
+        return [Offre(plante.id, plante.nom_commun, var_col, pepiniere, url, prix_fr(prix) if en_stock else "", "EUR",
                       cont, "En stock" if en_stock else "Rupture", _port(prix, bool(note_vendeur)) if en_stock else "", aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h or f or "")], []
