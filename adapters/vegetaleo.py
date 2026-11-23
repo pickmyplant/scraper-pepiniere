@@ -32,7 +32,8 @@ DUREE_CACHE_JOURS = 7
 TYPES_EXCLUS = {"carte cadeau"}
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 # Port à domicile selon le seul poids du panier (poids des variantes de products.json), jamais offert, même prix en
-# Corse ; seule option proposée (transporteur non nommé). Confirmé au panier et au paiement le 23/11/2026.
+# Corse ; seule option proposée (transporteur non nommé). Confirmé au panier et au paiement le 23/11/2026,
+# y compris pour les poids aberrants du site (pot 3 L à 0 g → 7,90 ; godet à 1,5 kg → 10,90).
 TRANCHES_PORT = [(500, 7.90), (750, 8.90), (1000, 9.90), (2000, 10.90), (3000, 11.90)]
 
 
@@ -178,8 +179,6 @@ class Adaptateur:
                 notes.append("godet forestier")
             if not cont:
                 notes.append(f"Format non reconnu : « {brut} »" if brut else "Format non indiqué")
-            if v.get("grammes") == 0:
-                notes.append("Poids 0 g sur le site : port à vérifier")
             m = HAUTEUR.search(brut)
             h = f"{m.group(1)}-{m.group(2)} cm" if m else ""
             try:
