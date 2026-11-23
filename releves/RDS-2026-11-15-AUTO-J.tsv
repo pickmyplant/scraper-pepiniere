@@ -1,0 +1,620 @@
+ID	Plante	Variété	Pépinière	Lien du produit	Prix	Devise	Contenant	Disponibilité	Frais de port	Relevé le	Lien affilié	Statut	Notes	Nom latin	Hauteur ou forme
+P001	Grenadille	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/287-passiflora-edulis-edulis.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Passiflora edulis	10-20 cm
+P001	Grenadille	Flavicarpa	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/288-passiflora-edulis-flavicarpa.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Passiflora edulis 'Flavicarpa'	10-20 cm
+P001	Grenadille	Golden Giant	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/621-passiflora-edulis-giant.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Passiflora edulis 'Golden Giant'	10-20 cm
+P002	Barbadine	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/643-passiflora-quadrangularis.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Passiflora quadrangularis	10-20 cm
+P003	Avocatier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Persea americana	
+P004	Bananier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Musa acuminata	
+P005	Manguier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Mangifera indica	
+P006	Corète du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Kerria japonica	
+P007	Pommier du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Malus × floribunda	
+P008	Aglaonema		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aglaonema commutatum	
+P009	Gingembre rouge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alpinia purpurata	
+P010	Gingembre coquillage	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/96-alpinia-zerumbet.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Alpinia zerumbet	5-20 cm
+P010	Gingembre coquillage	Variegata	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/625-alpinia-zerumbet-variegata.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Alpinia zerumbet 'Variegata'	5-20 cm
+P011	Lis araignée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis littoralis	
+P012	Bégonia corallina		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia corallina	
+P013	Balisier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Canna indica	
+P014	Pervenche de Madagascar		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Catharanthus roseus	
+P015	Figuier lyre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ficus lyrata	
+P016	Dieffenbachia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dieffenbachia seguine	
+P017	Cordyline		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cordyline fruticosa	
+P018	Taro		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Colocasia esculenta	
+P019	Croton		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Codiaeum variegatum	
+P020	Plante araignée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chlorophytum comosum	
+P021	Gazania		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Gazania rigens	
+P022	Hédychium blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hedychium coronarium	
+P023	Amaryllis reginae		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hippeastrum reginae	
+P024	Liriope rampant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Liriope spicata	
+P025	Coléus		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Coleus scutellarioides	
+P026	Rhapis		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rhapis excelsa	
+P027	Oiseau de paradis	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/35-strelitzia-reginae.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Strelitzia reginae	10-20 cm
+P028	Syngonium		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Syngonium podophyllum	
+P029	Philodendron Xanadu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Thaumatophyllum xanadu	
+P030	Misère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tradescantia zebrina	
+P031	Zamioculcas		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zamioculcas zamiifolia	
+P032	Gingembre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zingiber officinale	
+P033	Cocotier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cocos nucifera	
+P034	Dragonnier	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-port/126-dracaena-draco.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Dracaena draco	10-20 cm
+P035	Hibiscus de Chine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hibiscus rosa-sinensis	
+P036	Icaquier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chrysobalanus icaco	
+P037	Pandanus		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pandanus tectorius	
+P038	Mimosa résineux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acacia retinodes	
+P039	Frangipanier	Rouge	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/55-plumeria-rubra-rouge.html		EUR	Godet	Rupture		15/11/2026		Actif	Variété trouvée : rouge (absente de l'onglet Fiches) ; Aucun format en stock (réservation possible)	Plumeria rubra 'Rouge'	5-20 cm
+P039	Frangipanier	Blanc	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/56-plumeria-rubra-blanc.html		EUR	Godet	Rupture		15/11/2026		Actif	Variété trouvée : blanc (absente de l'onglet Fiches) ; Aucun format en stock (réservation possible)	Plumeria rubra 'Blanc'	5-20 cm
+P039	Frangipanier	Jaune	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/57-plumeria-rubra-jaune.html		EUR	Godet	Rupture		15/11/2026		Actif	Variété trouvée : jaune (absente de l'onglet Fiches) ; Aucun format en stock (réservation possible)	Plumeria rubra 'Jaune'	5-20 cm
+P039	Frangipanier	Rose	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/58-plumeria-rubra-rose.html		EUR	Godet	Rupture		15/11/2026		Actif	Variété trouvée : rose (absente de l'onglet Fiches) ; Aucun format en stock (réservation possible)	Plumeria rubra 'Rose'	5-20 cm
+P039	Frangipanier	Violet	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/63-plumeria-rubra-violet.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Plumeria rubra 'Violet'	5-20 cm
+P039	Frangipanier	Orange	Rayon de Serre	https://www.rayon-de-serre.fr/leur-parfum/64-plumeria-rubra-orange.html		EUR	Godet	Rupture		15/11/2026		Actif	Variété trouvée : orange (absente de l'onglet Fiches) ; Aucun format en stock (réservation possible)	Plumeria rubra 'Orange'	5-20 cm
+P040	Goyavier fraise		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Psidium cattleyanum	
+P041	Goyavier	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/385-psidium-guajava.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Psidium guajava	5-20 cm
+P042	Palmier chou		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sabal palmetto	
+P043	Strelitzia géant	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/36-strelitzia-nicolai.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Strelitzia nicolai	10-30 cm
+P044	Yucca géant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Yucca gigantea	
+P045	Santoline petit-cyprès		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Santolina chamaecyparissus	
+P046	Capucine naine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum minus	
+P047	Lilas des Indes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lagerstroemia indica	
+P048	Asparagus plumeux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Asparagus setaceus	
+P049	Vipérine stricte		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Echium strictum	
+P050	Laurier jaune des Indes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cascabela thevetia	
+P051	Morelle bleue		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lycianthes rantonnetii	
+P052	Gattilier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Vitex agnus-castus	
+P053	Lilas de Perse	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/85-melia-azedarach.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Melia azedarach	10-30 cm
+P054	Polygala à feuilles de myrte		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Polygala myrtifolia	
+P055	Frangipanier blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Plumeria alba	
+P056	Érythrine crête-de-coq		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Erythrina crista-galli	
+P057	Oiseau de paradis jaune	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/109-caesalpinia-gilliesii.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Erythrostemon gilliesii	10-30 cm
+P058	Cordyline	Purpurea	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/526-cordyline-australis-purpurea.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Variété trouvée : purpurea (absente de l'onglet Fiches)	Cordyline australis 'Purpurea'	10-20 cm
+P059	Lippia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phyla nodiflora	
+P060	Jasmin d'Arabie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Jasminum sambac	
+P061	Wédélia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sphagneticola trilobata	
+P062	Séné pop-corn		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Senna didymobotrya	
+P063	Agapanthe		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agapanthus praecox	
+P064	Gaura		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Oenothera lindheimeri	
+P065	Petit flamboyant	Orange	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/15-caesalpinia-pulcherrima-orange.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Variété trouvée : orange (absente de l'onglet Fiches)	Caesalpinia pulcherrima 'Orange'	5-20 cm
+P065	Petit flamboyant	Rose	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/16-caesalpinia-pulcherrima-rose.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Variété trouvée : rose (absente de l'onglet Fiches)	Caesalpinia pulcherrima 'Rose'	5-20 cm
+P066	Flamboyant	Rouge	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/24-delonix-regia-rouge.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Variété trouvée : rouge (absente de l'onglet Fiches)	Delonix regia 'Rouge'	10-20 cm
+P066	Flamboyant	Flavida	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/627-delonix-regia-flavida.html	18,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Variété trouvée : flavida (absente de l'onglet Fiches)	Delonix regia 'Flavida'	10-20 cm
+P067	Papyrus		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cyperus papyrus	
+P068	Pin de Norfolk		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Araucaria heterophylla	
+P069	Immortelle d'Italie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Helichrysum italicum	
+P070	Belle-de-nuit		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Mirabilis jalapa	
+P071	Kumquat	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/550-fortunella-margarita.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Citrus japonica	10-20 cm
+P072	Verveine citronnelle		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloysia citrodora	
+P073	Poireau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Allium porrum	
+P074	Pavot somnifère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Papaver somniferum	
+P075	Cycas du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cycas revoluta	
+P076	Épiaire de Byzance		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Stachys byzantina	
+P077	Papayer	Sweet sense	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/548-carica-papaya-sweet-sense.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Carica papaya 'Sweet sense'	10-20 cm
+P078	Séné de Noël		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Senna bicapsularis	
+P079	Chêne vert à glands doux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus rotundifolia	
+P080	Ipomée du Caire		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ipomoea cairica	
+P081	Tamaris d'Afrique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tamarix africana	
+P082	Arganier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sideroxylon spinosum	
+P083	Orpin de Nice		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Petrosedum sediforme	
+P084	Laurier-rose		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nerium oleander	
+P085	Mûrier blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Morus alba	
+P086	Palmier nain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chamaerops humilis	
+P087	Canne de Provence		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Arundo donax	
+P088	Persil		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Petroselinum crispum	
+P089	Piment		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Capsicum annuum	
+P090	Caroubier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ceratonia siliqua	
+P091	Oreilles de lapin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Opuntia microdasys	
+P092	Palmier dattier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phoenix dactylifera	
+P093	Géranium des jardins		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pelargonium × hybridum	
+P094	Basilic américain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ocimum americanum	
+P095	Grenadier	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/299-punica-granatum.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Punica granatum	5-20 cm
+P095	Grenadier	Nana	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/480-punica-granatum-nana.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Punica granatum 'Nana'	5-20 cm
+P096	Sauge officinale		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia officinalis	
+P097	Géranium rosat		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pelargonium graveolens	
+P098	Aeonium arborescent		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aeonium arboreum	
+P099	Liane de Madère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anredera cordifolia	
+P100	Aloès de Delaet		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloe × delaetii	
+P101	Griffe de sorcière		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carpobrotus edulis	
+P102	Arroche halime		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Atriplex halimus	
+P103	Palmier royal		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Roystonea regia	
+P104	Liane griffe de chat		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dolichandra unguis-cati	
+P105	Kalanchoé de Daigremont		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Kalanchoe daigremontiana	
+P106	Séné d'Argentine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Senna corymbosa	
+P107	Chêne d'argent		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Grevillea robusta	
+P108	Armoise arborescente		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Artemisia arborescens	
+P109	Olivier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Olea europaea	
+P110	Thé des bois		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Gaultheria procumbens	
+P111	Chèvrefeuille arbustif		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lonicera ligustrina	
+P112	Andromède du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pieris japonica	
+P113	Sapin d'Espagne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Abies pinsapo	
+P114	Muscari d'Arménie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Muscari armeniacum	
+P115	Laurier-sauce		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Laurus nobilis	
+P116	Laurier-cerise		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus laurocerasus	
+P117	Laurier-tin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Viburnum tinus	
+P118	Bruyère de Darley		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Erica × darleyensis	
+P119	Bruyère des neiges		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Erica carnea	
+P120	Mahonia à feuilles de houx		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Berberis aquifolium	
+P121	Fittonia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fittonia albivenis	
+P122	Filaire à feuilles étroites		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phillyrea angustifolia	
+P123	Cognassier du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chaenomeles speciosa	
+P124	Pétasite hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Petasites hybridus	
+P125	Germandrée arbustive		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Teucrium fruticans	
+P126	Argousier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hippophae rhamnoides	
+P127	Osmanthe de Burkwood		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Osmanthus × burkwoodii	
+P128	Prunellier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus spinosa	
+P129	Coronille de Valence		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Coronilla valentina	
+P130	Buis commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Buxus sempervirens	
+P131	Rhododendron de Corée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rhododendron mucronulatum	
+P132	Mimosa d'hiver		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acacia dealbata	
+P133	Chalef d'Ebbinge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Elaeagnus × submacrophylla	
+P134	Arbre de Judée du Yunnan		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cercis glabra	
+P135	Bambou sacré		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nandina domestica	
+P136	Euphorbe characias		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Euphorbia characias	
+P137	Aralia du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fatsia japonica	
+P138	Callitriche des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Callitriche palustris	
+P139	Élodée du Canada		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Elodea canadensis	
+P140	Pesse d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hippuris vulgaris	
+P141	Hottonie des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hottonia palustris	
+P142	Myriophylle verticillé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Myriophyllum verticillatum	
+P143	Potamot crépu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Potamogeton crispus	
+P144	Renoncule aquatique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ranunculus aquatilis	
+P145	Petite lentille d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lemna minor	
+P146	Hydrocharis		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hydrocharis morsus-ranae	
+P147	Stratiote faux-aloès		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Stratiotes aloides	
+P148	Châtaigne d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Trapa natans	
+P149	Azolla		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Azolla caroliniana	
+P150	Jacinthe d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pontederia crassipes	
+P151	Laitue d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pistia stratiotes	
+P152	Salvinie nageante		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvinia natans	
+P153	Aponogeton		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aponogeton distachyos	
+P154	Lotus jaune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nelumbo lutea	
+P155	Lotus sacré		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nelumbo nucifera	
+P156	Nymphéa nain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nymphaea tetragona	
+P157	Nénuphar jaune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nuphar lutea	
+P158	Nymphéa hybride rustique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides rustiques	
+P159	Faux nénuphar		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nymphoides peltata	
+P160	Potamot nageant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Potamogeton natans	
+P161	Acore odorant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acorus calamus	
+P162	Acore graminée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acorus gramineus	
+P163	Plantain d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alisma plantago-aquatica	
+P164	Jonc fleuri		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Butomus umbellatus	
+P165	Populage des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Caltha palustris	
+P166	Laîche raide dorée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carex elata	
+P167	Laîche palmier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carex muskingumensis	
+P168	Laîche du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carex morrowii	
+P169	Laîche pendante		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carex pendula	
+P170	Laîche des rives		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carex riparia	
+P171	Souchet long		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cyperus longus	
+P172	Glycérie aquatique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Glyceria maxima	
+P173	Gunnera		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Gunnera manicata	
+P174	Iris lisse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris laevigata	
+P175	Iris des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris pseudacorus	
+P176	Iris de Sibérie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris sibirica	
+P177	Lysichiton jaune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lysichiton americanus	
+P178	Lysichiton blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lysichiton camtschatcensis	
+P179	Menthe aquatique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Mentha aquatica	
+P180	Trèfle d'eau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Menyanthes trifoliata	
+P181	Myosotis des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Myosotis scorpioides	
+P182	Orontium		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Orontium aquaticum	
+P183	Roseau commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phragmites australis	
+P184	Pontédérie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pontederia cordata	
+P185	Sagittaire du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sagittaria trifolia	
+P186	Thalia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Thalia dealbata	
+P187	Massette à larges feuilles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Typha latifolia	
+P188	Astilbe de Chine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Astilbe chinensis	
+P189	Astilboides		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Astilboides tabularis	
+P190	Actée à grappes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Actaea racemosa	
+P191	Actée simple		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Actaea simplex	
+P192	Euphorbe des marais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Euphorbia palustris	
+P193	Reine-des-prés rouge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Filipendula rubra	
+P194	Osmonde royale		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Osmunda regalis	
+P195	Miscanthus		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Miscanthus sinensis	
+P196	Hosta bleu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hosta sieboldiana	
+P197	Pétasite du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Petasites japonicus	
+P198	Acacia bleuâtre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acacia saligna	
+P199	Marronnier d'Inde		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aesculus hippocastanum	
+P200	Ricinelle		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acalypha wilkesiana	
+P201	Agastache fenouil		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agastache foeniculum	
+P202	Agave d'Amérique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave americana	
+P203	Agave à cou de cygne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave attenuata	
+P204	Sisal		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave sisalana	
+P205	Arbre à soie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Albizia julibrissin	
+P206	Rose trémière hérissée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alcea setosa	
+P207	Aloès de Chabaud		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloe chabaudii	
+P208	Aloès des dunes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloe thraskii	
+P209	Aloès vrai		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloe vera	
+P210	Aloès grimpant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloiampelos ciliaris	
+P211	Aloès arborescent		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloidendron barberae	
+P212	Alstroemère dorée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria aurea	
+P213	Alstroemère ligtu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria ligtu	
+P214	Alternanthère calicot		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alternanthera bettzickiana	
+P215	Alternanthère du Brésil		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alternanthera brasiliana	
+P216	Anthurium		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anthurium andraeanum	
+P217	Aphélandra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aphelandra squarrosa	
+P218	Désespoir des singes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Araucaria araucana	
+P219	Arbousier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Arbutus unedo	
+P220	Grande capucine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum majus	
+P221	Bananier du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Musa basjoo	
+P222	Bigaradier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus × aurantium	
+P223	Cyprès de Provence		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cupressus sempervirens	
+P224	Amandier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus amygdalus	
+P225	Néflier du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Eriobotrya japonica	
+P226	Figuier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ficus carica	
+P227	Mûrier noir		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Morus nigra	
+P228	Arbre de Judée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cercis siliquastrum	
+P229	Jacaranda	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/30-jacaranda-mimosifolia.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Jacaranda mimosifolia	10-20 cm
+P230	Myrte commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Myrtus communis	
+P231	Lentisque		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pistacia lentiscus	
+P232	Nerprun alaterne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rhamnus alaternus	
+P233	Buplèvre ligneux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Bupleurum fruticosum	
+P234	Ciste cotonneux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cistus albidus	
+P235	Ciste à feuilles de sauge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cistus salviifolius	
+P236	Ciste ladanifère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cistus ladanifer	
+P237	Phlomis pourpre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phlomis purpurea	
+P238	Jasmin jaune arbustif		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chrysojasminum fruticans	
+P239	Rose de Damas		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rosa × damascena	
+P240	Plumbago du Cap	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/467-plumbago-auriculata.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Plumbago auriculata	10-20 cm
+P240	Plumbago du Cap	Alba	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fleur/509-plumbago-auriculata-alba.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Plumbago auriculata 'Alba'	10-20 cm
+P241	Romarin d'Australie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Westringia fruticosa	
+P242	Jasmin officinal		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Jasminum officinale	
+P243	Jasmin étoilé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Trachelospermum jasminoides	
+P244	Bougainvillier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Bougainvillea spectabilis	
+P245	Rosier de Banks		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rosa banksiae	
+P246	Vigne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Vitis vinifera	
+P247	Câprier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Capparis spinosa	
+P248	Chèvrefeuille des Baléares		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lonicera implexa	
+P249	Clématite cirrheuse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Clematis cirrhosa	
+P250	Bignone rose		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Podranea ricasoliana	
+P251	Lavande dentée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lavandula dentata	
+P252	Lavande papillon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lavandula stoechas	
+P253	Liseron de Crète		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Convolvulus cneorum	
+P254	Germandrée tomenteuse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Teucrium polium	
+P255	Statice de Perez		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Limonium perezii	
+P256	Acanthe à feuilles molles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acanthus mollis	
+P257	Iris de Florence		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris florentina	
+P258	Iris d'Algérie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris unguicularis	
+P259	Valériane rouge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Valeriana rubra	
+P260	Dietes à grandes fleurs		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dietes grandiflora	
+P261	Sauge d'Afghanistan		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia yangii	
+P262	Alfa		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Macrochloa tenacissima	
+P263	Sparte		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lygeum spartum	
+P264	Stipe géante		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Celtica gigantea	
+P265	Diss		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ampelodesmos mauritanicus	
+P266	Brachypode rameux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brachypodium retusum	
+P267	Muhlenbergie capillaire	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/614-herbe-a-cheveux-roses.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Muhlenbergia capillaris	10-20 cm
+P268	Avoine bleue		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Helictotrichon sempervirens	
+P269	Zoysia du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zoysia japonica	
+P270	Paspalum des plages		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Paspalum vaginatum	
+P271	Serpolet		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Thymus serpyllum	
+P272	Frankénie lisse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Frankenia laevis	
+P273	Achillée à feuilles de criste		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Achillea crithmifolia	
+P274	Liseron de Mauritanie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Convolvulus sabatius	
+P275	Dichondra argenté		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dichondra argentea	
+P276	Germandrée petit-chêne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Teucrium chamaedrys	
+P277	Narcisse papyracé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Narcissus papyraceus	
+P278	Iris d'Espagne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris xiphium	
+P279	Lys des sables		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pancratium maritimum	
+P280	Ail rose		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Allium roseum	
+P281	Sternbergie jaune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sternbergia lutea	
+P282	Nivéole d'été		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Leucojum aestivum	
+P283	Jonc des chaisiers		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Schoenoplectus lacustris	
+P284	Jonc épars		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Juncus effusus	
+P285	Massette naine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Typha minima	
+P286	Véronique des ruisseaux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Veronica beccabunga	
+P287	Arum d'Éthiopie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zantedeschia aethiopica	
+P288	Cornifle nageant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ceratophyllum demersum	
+P289	Potamot pectiné		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Stuckenia pectinata	
+P290	Chara commune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chara vulgaris	
+P291	Renoncule peltée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ranunculus peltatus	
+P292	Nymphéa tropical		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides tropicaux	
+P293	Nymphéa hybride nain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nymphaea Hybrides nains	
+P294	Aglaonema rouge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aglaonema Hybrides à feuillage rouge	
+P295	Romarin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia rosmarinus	
+P296	Lavande vraie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lavandula angustifolia	
+P297	Lavandin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lavandula × intermedia	
+P298	Thym commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Thymus vulgaris	
+P299	Origan		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Origanum vulgare	
+P300	Marjolaine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Origanum majorana	
+P301	Pittospore du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pittosporum tobira	
+P302	Citronnier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus × limon	
+P303	Oranger doux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus × sinensis	
+P304	Thuya de Berbérie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tetraclinis articulata	
+P305	Euphorbe résinifère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Euphorbia resinifera	
+P306	Chêne vert		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus ilex	
+P307	Chêne-liège		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus suber	
+P308	Cèdre de l'Atlas		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cedrus atlantica	
+P309	Pistachier de l'Atlas		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pistacia atlantica	
+P310	Jujubier sauvage		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ziziphus lotus	
+P311	Jujubier	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/276-ziziphus-jujuba.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Ziziphus jujuba	10-30 cm
+P312	Genévrier de Phénicie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Juniperus phoenicea	
+P313	Rétama blanc	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/556-retama-monosperma.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Retama monosperma	10-30 cm
+P314	Euphorbe arborescente		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Euphorbia dendroides	
+P315	Anthyllide barbe-de-Jupiter		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anthyllis barba-jovis	
+P316	Limoniastrum		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Limoniastrum monopetalum	
+P317	Criste marine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Crithmum maritimum	
+P318	Lotier de Crète		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lotus creticus	
+P319	Cinéraire maritime		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Jacobaea maritima	
+P320	Coprosma		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Coprosma repens	
+P321	Arbre de Noël néo-zélandais		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Metrosideros excelsa	
+P322	Orgueil de Madère		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Echium candicans	
+P323	Bignone du Cap		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tecomaria capensis	
+P324	Euryops		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Euryops pectinatus	
+P325	Rince-bouteille		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Melaleuca citrina	
+P326	Sauge du Mexique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia leucantha	
+P327	Sauge de Greg		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia greggii	
+P328	Sauge à petites feuilles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salvia microphylla	
+P329	Tulbaghia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tulbaghia violacea	
+P330	Tritoma	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/579-kniphofia-uvaria-pastel-colors.html	6,00	EUR	Godet	En stock	14,00	15/11/2026		Actif	Prix barré 12,00 € ; Vendu sous : pastel colors	Kniphofia uvaria	10-20 cm
+P331	Brachychiton à feuilles de peuplier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brachychiton populneus	
+P332	Arbre flamme		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brachychiton acerifolius	
+P333	Tipuana		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tipuana tipu	
+P334	Palmier bleu du Mexique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brahea armata	
+P335	Palmier abricot		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Butia odorata	
+P336	Palmier jupon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Washingtonia filifera	
+P337			Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé		
+P338	Leucophyllum		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Leucophyllum frutescens	
+P339	Hespéraloé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hesperaloe parviflora	
+P340	Yucca rostrata		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Yucca rostrata	
+P341	Dasylirion		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dasylirion longissimum	
+P342	Dodonée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dodonaea viscosa	
+P343	Micocoulier de Provence		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Celtis australis	
+P344	Frêne à feuilles étroites		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fraxinus angustifolia	
+P345	Arbre aux perruques		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cotinus coggygria	
+P346	Savonnier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Koelreuteria paniculata	
+P347	Cyprès de l'Arizona		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis arizonica	
+P348	Pistachier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pistacia vera	
+P349	Plaqueminier kaki		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Diospyros kaki	
+P350	Feijoa	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/503-feijoa-sellowiana.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Feijoa sellowiana	10-20 cm
+P351	Faux poivrier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Schinus molle	
+P352	Parkinsonia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Parkinsonia aculeata	
+P353	Agastache rugueuse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agastache rugosa	
+P354	Oiseau de paradis mexicain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Erythrostemon mexicanus	
+P355	Alstroemère hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alstroemeria Hybrides horticoles	
+P357	Capucine hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum Hybrides horticoles	
+P358	Agastache hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agastache Hybrides horticoles	
+P359	Alternanthère ficoïde		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alternanthera ficoidea	
+P360	Arbre aux perruques hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cotinus Hybrides horticoles	
+P361	Amandier-pêcher		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus × persicoides	
+P362	Palmier des Canaries		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phoenix canariensis	
+P363	Palmier de la reine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Syagrus romanzoffiana	
+P364	Pin parasol		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus pinea	
+P365	Pin d'Alep		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus halepensis	
+P366	Prune du Natal		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carissa macrocarpa	
+P367	Limettier mexicain	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-fruit/194-citrus-aurantifolia.html	16,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Citrus × aurantiifolia	5-20 cm
+P368	Misère pourpre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tradescantia pallida	
+P369	Filao		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Casuarina equisetifolia	
+P370	Canéficier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cassia fistula	
+P371	Noyer du Queensland		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Macadamia integrifolia	
+P372	Palmier d'Alexandra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Archontophoenix alexandrae	
+P373	Palmier éventail de Chine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Livistona chinensis	
+P374	Palmier de Chine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Trachycarpus fortunei	
+P375	Kentia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Howea forsteriana	
+P376	Sansevière		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dracaena trifasciata	
+P377	Aspidistra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aspidistra elatior	
+P378	Lomandra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lomandra longifolia	
+P379	Genévrier cade		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Juniperus oxycedrus	
+P380	Frêne à fleurs		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fraxinus ornus	
+P381	Tamaris de France		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tamarix gallica	
+P382	Arroche nummulaire		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Atriplex nummularia	
+P383	Arroche à quatre ailes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Atriplex canescens	
+P384	Obione		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Halimione portulacoides	
+P385	Cyprès de Lambert		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hesperocyparis macrocarpa	
+P386	Abricotier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus armeniaca	
+P387	Pêcher		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus persica	
+P388	Prunier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus domestica	
+P389	Cognassier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cydonia oblonga	
+P390	Poirier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pyrus communis	
+P391	Cédratier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus medica	
+P392	Canne à sucre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Saccharum officinarum	
+P393	Caféier d'Arabie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Coffea arabica	
+P394	Noyer du Queensland à coque rugueuse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Macadamia tetraphylla	
+P395	Caoutchouc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ficus elastica	
+P396	Figuier pleureur		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ficus benjamina	
+P397	Banian		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ficus benghalensis	
+P398	Saguaro		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carnegiea gigantea	
+P399	Pin maritime		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus pinaster	
+P400	Peuplier blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Populus alba	
+P401	Armérie maritime		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Armeria maritima	
+P402	Jonquille		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Narcissus jonquilla	
+P403	Ail triquètre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Allium triquetrum	
+P404	Camomille allemande		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Matricaria chamomilla	
+P405	Lupin à feuilles étroites		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lupinus angustifolius	
+P406	Tournesol		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Helianthus annuus	
+P407	Rosier des chiens		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rosa canina	
+P408	Lierre grimpant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hedera helix	
+P409	Liriope		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Liriope muscari	
+P410	Chrysocephalum		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chrysocephalum apiculatum	
+P411	Violette d'Australie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Viola hederacea	
+P412	Oxalis pourpre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Oxalis triangularis	
+P413	Pothos		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Epipremnum aureum	
+P414	Dragonnier parfumé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dracaena fragrans	
+P415	Palmier mazari		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nannorrhops ritchieana	
+P416	Palmier de Floride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Serenoa repens	
+P417	Palmier à sucre de l'Inde		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Caryota urens	
+P418	Aréca		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chrysalidocarpus lutescens	
+P419	Cycas de l'Inde		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cycas circinalis	
+P420	Kaloupilé	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-feuillage/294-murraya-koenigii.html	20,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Murraya koenigii	5-20 cm
+P421	Badamier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Terminalia catappa	
+P422	Mûrier à papier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Broussonetia papyrifera	
+P423	Fougère de Boston		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Nephrolepis exaltata	
+P424	Fougère bouton		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pellaea rotundifolia	
+P425	Ricin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ricinus communis	
+P426	Oxalis des Bermudes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Oxalis pes-caprae	
+P427	Herbe aux écouvillons pourpres		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cenchrus setaceus	
+P428	Bambou doré		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phyllostachys aurea	
+P429	Tagète des décombres		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tagetes minuta	
+P430	Liseron des champs		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Convolvulus arvensis	
+P431	Rhododendron pontique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rhododendron ponticum	
+P432	Tilleul à petites feuilles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tilia cordata	
+P433	Pin noir		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus nigra	
+P434	Épicéa		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Picea abies	
+P435	Peuplier baumier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Populus balsamifera	
+P436	Bambou noir du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phyllostachys nigra	
+P437	Phellodendron		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phellodendron amurense	
+P438	Cryptomeria		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cryptomeria japonica	
+P439	Katsura		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cercidiphyllum japonicum	
+P440	Sorbier des oiseleurs		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sorbus aucuparia	
+P441	Saule pleureur		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salix babylonica	
+P442	Chêne chevelu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus cerris	
+P443	Sapin de Nikko		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Abies homolepis	
+P444	Ginkgo		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ginkgo biloba	
+P445	Noyer du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Juglans ailantifolia	
+P446	Mélèze du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Larix kaempferi	
+P447	Ostrya		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Ostrya japonica	
+P448	Épicéa de Koyama		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Picea koyamae	
+P449	Érable à feuilles rondes		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer circinatum	
+P450	Pavier de l'Ohio		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aesculus glabra	
+P451	Catalpa	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/638-catalpa-bignonioides.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Catalpa bignonioides	10-20 cm
+P452	Copalme d'Amérique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Liquidambar styraciflua	
+P453	Épinette d'Engelmann		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Picea engelmannii	
+P454	Chêne rouge d'Amérique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus rubra	
+P455	Tilleul américain		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tilia americana	
+P456	Pin de Weymouth		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus strobus	
+P457	Platane d'Occident		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Platanus occidentalis	
+P458	Bouleau merisier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Betula lenta	
+P459	Bouleau gris		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Betula populifolia	
+P460	Pacanier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Carya illinoinensis	
+P461	Cyprès de Lawson		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis lawsoniana	
+P462	Hêtre commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fagus sylvatica	
+P463	Épicéa du Colorado		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Picea pungens	
+P464	Pin mugo		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus mugo	
+P465	Platane commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Platanus × hispanica	
+P466	Peuplier noir		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Populus nigra	
+P467	Laurier sassafras		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sassafras albidum	
+P468	If commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Taxus baccata	
+P469	Thuya géant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Thuja plicata	
+P470	Pommier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Malus domestica	
+P471	Cerisier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus avium	
+P472	Scirpe-jonc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Scirpoides holoschoenus	
+P473	Cytise faux-ébénier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Laburnum anagyroides	
+P474	Chêne pédonculé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus robur	
+P475	Parrotie de Perse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Parrotia persica	
+P476	Manglier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rhizophora mucronata	
+P477	Flamme de forêt		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Butea monosperma	
+P478	Saraca		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Saraca asoca	
+P479	Érable de Nikko		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer maximowiczianum	
+P480	Érable du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer palmatum	
+P481	Faux cyprès hinoki du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chamaecyparis obtusa	
+P482	Nezu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Juniperus rigida	
+P483	Magnolia de Soulange-Bodin		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Magnolia × soulangeana	
+P484	Pin blanc du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus parviflora	
+P485	Cerisier de Yedo		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus × yedoensis	
+P486	Kometsuga		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tsuga diversifolia	
+P487	Faux-orme du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zelkova serrata	
+P488	Kaori blanc		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agathis moorei	
+P489	Mamaku		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sphaeropteris medullaris	
+P490	Fougère arborescente		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dicksonia antarctica	
+P491	Kānuka		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Kunzea ericoides	
+P492	ʻŌhiʻa lehua		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Metrosideros polymorpha	
+P493	Noni	Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/527-morinda-citrifolia.html	14,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Morinda citrifolia	10-20 cm
+P494	Tōtara		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Podocarpus totara	
+P495	Canna hybride à fleurs		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Canna × generalis	
+P496	Loulu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pritchardia remota	
+P497	Anacardier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anacardium occidentale	
+P498	Arbre à pain	Seminifera	Rayon de Serre	https://www.rayon-de-serre.fr/plantes-tropicales/518-artocarpus-altilis.html		EUR	Godet	Rupture		15/11/2026		Actif	Aucun format en stock (réservation possible)	Artocarpus altilis 'Seminifera'	10-30 cm
+P499	Érable champêtre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer campestre	
+P500	Érable de Montpellier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer monspessulanum	
+P501	Érable à feuilles d'obier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Acer opalus	
+P502	Aulne glutineux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Alnus glutinosa	
+P503	Frêne commun		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Fraxinus excelsior	
+P504	Chêne sessile		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Quercus petraea	
+P505	Saule pleureur		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salix × sepulcralis	
+P506	Saule cassant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Salix × fragilis	
+P507	Sureau noir		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Sambucus nigra	
+P508	Tilleul à grandes feuilles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tilia platyphyllos	
+P509	Tilleul argenté		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tilia tomentosa	
+P510	Canna aquatique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Canna Hybrides aquatiques	
+P511	Canna à feuillage		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Canna Hybrides à feuillage	
+P512	Sapin du Colorado		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Abies concolor	
+P513	Sapin rouge de Californie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Abies magnifica	
+P514	Cèdre blanc de Californie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Calocedrus decurrens	
+P515	Mélèze d'Amérique		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Larix laricina	
+P516	Pin tordu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus contorta	
+P517	Pin de Coulter		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus coulteri	
+P518	Pin de Bishop		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus muricata	
+P519	Pin ponderosa		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus ponderosa	
+P520	Pin de Monterey		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pinus radiata	
+P521	Torreya de Californie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Torreya californica	
+P522	Fougère mâle		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Dryopteris filix-mas	
+P523	Rumohra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Rumohra adiantiformis	
+P524	Calamagrostis		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Calamagrostis × acutiflora	
+P525	Molinie bleue		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Molinia caerulea	
+P526	Bégonia à cannes hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides à cannes	
+P527	Bégonia Rex hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides Rex	
+P528	Bégonia semperflorens		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides semperflorens	
+P529	Bégonia tubéreux		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides tubéreux	
+P530	Bégonia elatior		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia Hybrides elatior	
+P531	Palmier des cascades		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Chamaedorea cataractarum	
+P532	Iris des toits		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Iris tectorum	
+P533	Callune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Calluna vulgaris	
+P534	Lachenalia rouge		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lachenalia bulbifera	
+P535	Anémone des bois		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anemonoides nemorosa	
+P536	Pratia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lobelia pedunculata	
+P537	Chou sauvage		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea	
+P538	Immortelle perlée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Anaphalis margaritacea	
+P539	Bégonia rex		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia rex	
+P540	Bégonia decora		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia decora	
+P541	Bégonia xanthina		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia xanthina	
+P542	Bégonia annulata		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia annulata	
+P543	Bégonia grandis		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia grandis	
+P544	Bégonia cucullata		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia cucullata	
+P545	Bégonia boliviensis		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia boliviensis	
+P546	Bégonia de Socotra		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia socotrana	
+P547	Bégonia dregei		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia dregei	
+P548	Bégonia aconitifolia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Begonia aconitifolia	
+P549	Oxalis violette		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Oxalis violacea	
+P550	Souchet dense		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cyperus congestus	
+P551	Verbésine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Verbesina occidentalis	
+P552	Onagre bisannuel		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Oenothera biennis	
+P553	Aucuba du Japon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aucuba japonica	
+P554	Lamier jaune		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lamium galeobdolon	
+P555	Asclépiade tubéreuse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Asclepias tuberosa	
+P556	Chou pommé		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Capitata	
+P557	Chou kale		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Acephala	
+P558	Chou ornemental		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe ornemental	
+P559	Chou-fleur		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Botrytis	
+P560	Brocoli		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Italica	
+P561	Chou de Bruxelles		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gemmifera	
+P562	Chou-rave		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Gongylodes	
+P563	Brocoli chinois		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brassica oleracea groupe Alboglabra	
+P564	Muguet		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Convallaria majalis	
+P565	Alpiste roseau		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Phalaris arundinacea	
+P566	Hydrocotyle de Buenos Aires		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hydrocotyle bonariensis	
+P567	Onagre des plages		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Camissoniopsis cheiranthifolia	
+P568	Cotonnière jaunâtre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pseudognaphalium luteoalbum	
+P569	Tamaris d'Allemagne		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Myricaria germanica	
+P570	Aster buissonnant		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Symphyotrichum dumosum	
+P571	Zostère marine		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Zostera marina	
+P572	Liane de brosse		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Cocculus hirsutus	
+P573	Renouée perfoliée		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Persicaria perfoliata	
+P574	Vigne vierge vraie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Parthenocissus quinquefolia	
+P575	Hortensia		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hydrangea macrophylla	
+P576	Silène maritime		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Silene uniflora	
+P577	Passiflore bleue		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Passiflora caerulea	
+P578	Bananier hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Musa × paradisiaca	
+P579	Hyménocalle hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Hymenocallis Hybrides horticoles	
+P580			Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Bauhinia variegata	
+P581			Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Brachychiton discolor	
+P582		Espèce type	Rayon de Serre	https://www.rayon-de-serre.fr/leur-port/129-brachychiton-rupestris.html	12,00	EUR	Godet	En stock	14,00	15/11/2026		Actif		Brachychiton rupestris	10-30 cm
+P583	Agapanthe hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agapanthus Hybrides	
+P587	Coprosma hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Coprosma Hybrides horticoles	
+P588	Magnolia hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Magnolia Hybrides horticoles	
+P584	Gazania hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Gazania Hybrides horticoles	
+P585	Lilas des Indes hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Lagerstroemia Hybrides horticoles	
+P586	Agave hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave Hybrides horticoles	
+P589	Tamaris de printemps		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tamarix tetrandra	
+P590	Piment habanero		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Capsicum chinense	
+P591	Piment tabasco		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Capsicum frutescens	
+P592	Olivier de Bohême		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Elaeagnus angustifolia	
+P593	Agave de Havard		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave havardiana	
+P594	Agave bleu		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Agave tequilana	
+P595	Aloès arborescent hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Aloidendron Hybrides horticoles	
+P596	Arbousier hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Arbutus Hybrides horticoles	
+P597	Capucine de Lobb		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Tropaeolum lobbianum	
+P598	Figuier de Barbarie		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Opuntia ficus-indica	
+P599	Bougainvillier glabre		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Bougainvillea glabra	
+P600	Citron caviar		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus australasica	
+P601	Agrume hybride		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Citrus Hybrides horticoles	
+P602	Plaqueminier lotier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Diospyros lotus	
+P603	Poirier sauvage		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Pyrus pyraster	
+P604	Pothos dragon		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Epipremnum pinnatum	
+P605	Copalme de Formose		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Liquidambar formosana	
+P606	Griottier		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Prunus cerasus	
+P607	Cytise de Voss		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Laburnum × watereri	
+P608	Herbe aux diamants		Rayon de Serre			EUR				15/11/2026		Actif	Non trouvé	Calamagrostis brachytricha	
