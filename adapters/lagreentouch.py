@@ -13,7 +13,8 @@ et les plantes vendues seulement avec un kit terrarium (étiquette addon-kit).
 Frais de port (politique d'expédition, confirmés au panier le 22/11/2026) : un colis par producteur, barème
 sur ses seuls produits : moins de 35 € → 12,50 ; de 35 à moins de 60 € → 7,50 ; dès 60 € → offert (seuil
 avant la remise « 2e plante »). Chaque ligne porte le port de ce format acheté seul ; le producteur (étiquette
-du catalogue) est cité dans Notes quand le port n'est pas offert. Livraison en France métropolitaine hors Corse.
+du catalogue) est écrit dans « Expédié de » (un port par valeur, comme Plantes Avenue) et cité dans Notes quand le
+port n'est pas offert ; vide si le catalogue ne l'indique pas (le panier, lui, le connaît). Livraison en France métropolitaine hors Corse.
 """
 import datetime as dt
 import glob
@@ -291,7 +292,7 @@ class Adaptateur:
                 notes.append(f"port offert dès {SEUIL_OFFERT} € d'achat chez " + (prod or "le même producteur"))
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
                       "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", port, aujourdhui, "", "À vérifier",
-                      " ; ".join(notes), nom_latin, h_v)
+                      " ; ".join(notes), nom_latin, h_v, expedie_de=_producteur(p["tags"]))
             o.tri = taille_contenant(cont_v) * 1000 + (nb or 1) * 10 + float(v["prix"] or 0) / 1000
             lignes.append(o)
         if not lignes:
@@ -300,7 +301,8 @@ class Adaptateur:
         if not en_stock:
             return [Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, "", "EUR", cont,
                           "Rupture", "", aujourdhui, "", "À vérifier",
-                          " ; ".join(notes_page + ["Aucun format en stock"]), nom_latin, h)], []
+                          " ; ".join(notes_page + ["Aucun format en stock"]), nom_latin, h,
+                          expedie_de=_producteur(p["tags"]))], []
         garde, coupe = repartis(en_stock, config.MAX_LIGNES_PAR_PRODUIT)
         garde.sort(key=lambda o: o.tri)
         if coupe:
