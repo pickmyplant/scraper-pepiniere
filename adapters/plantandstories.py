@@ -35,6 +35,11 @@ SOUS_RAYONS_EXCLUS = {"assortiment", "assortiments", "coffret", "coffrets"}
 CACHE_POT = re.compile(r"cache-pot|panier|pot (?:blanc|gris|noir|terre|beige|rose|vert|bleu)", re.I)
 SANS_CACHE_POT = re.compile(r"sans cache-pot", re.I)
 NB = re.compile(r"\b(?:lot|pack) de (\d+)\b|\b(\d+) (?:plantes|plants|bulbes|pieds|godets|plantes \(lot\))\b", re.I)
+# Port à domicile (France continentale), confirmé au panier le 23/11/2026 : produits Plant and Stories
+# (vendor « plantandstories », UPS) 9,99 jamais offert (relais 7,50, offert dès 100 €) ; produits « direct producteur »
+# (vendor « Everspring », Chronopost) toujours offerts, comptés à part dans un panier mixte.
+PORT_DOMICILE = "9,99"
+VENDEUR_DIRECT = "everspring"
 CULTIVAR = M._CITE  # apostrophe intérieure gardée (« Rambour d'Hiver ») : core/matching.py, 19/11/2026
 
 
@@ -116,7 +121,7 @@ class Adaptateur:
             for p in lot:
                 produits.append({
                     "handle": p["handle"], "titre": _texte(p.get("title")), "type": p.get("product_type") or "",
-                    "tags": p.get("tags") or [], "texte": _texte(p.get("body_html")),
+                    "tags": p.get("tags") or [], "vendeur": p.get("vendor") or "", "texte": _texte(p.get("body_html")),
                     "variantes": [{"titre": v.get("title") or "", "prix": v.get("price"),
                                    "barre": v.get("compare_at_price"), "dispo": bool(v.get("available"))}
                                   for v in p.get("variants") or []],
@@ -220,6 +225,11 @@ class Adaptateur:
             notes_page.append("aussi vendu avec cache-pot")
         else:
             garde_v = [v for v in variantes if not CACHE_POT.search(v["titre"])] or variantes
+        vendeur = p.get("vendeur")  # absent d'un index en cache d'avant le 23/11/2026 : port laissé vide
+        direct = (vendeur or "").lower() == VENDEUR_DIRECT
+        port = "0,00" if direct else (PORT_DOMICILE if vendeur else "")
+        if direct:
+            notes_page.append("Direct producteur : livraison offerte, à domicile seulement, colis séparé")
         lignes = []
         for v in garde_v:
             notes = list(notes_page)
@@ -242,7 +252,7 @@ class Adaptateur:
             except (TypeError, ValueError):
                 pass
             o = Offre(plante.id, plante.nom_commun, variete or "Espèce type", NOM, url, prix_fr(v["prix"]),
-                      "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", "", aujourdhui, "", "À vérifier",
+                      "EUR", cont_v, "En stock" if v["dispo"] else "Rupture", port, aujourdhui, "", "À vérifier",
                       " ; ".join(notes), nom_latin, h)
             o.tri = taille_contenant(cont_v) * 1000 + (nb or 1) * 10 + float(v["prix"] or 0) / 1000
             lignes.append(o)
