@@ -15,10 +15,10 @@ TAILLE_LOT="${TAILLE_LOT:-100}"   # modifiable pour un essai
 PREFIXE="$(grep -m1 '^PREFIXE' "adapters/$PEP.py" | cut -d'"' -f2)"
 DATE="$(date +%F)"
 mkdir -p releves/auto_ok
-python outils/extraire_lot.py P001 P999 > /dev/null || exit 1   # bilan non affiché (liste des numéros libres très longue)
+python outils/extraire_lot.py P001 P999999 > /dev/null || exit 1   # bilan non affiché (liste des numéros libres très longue)
 
 # Découpe en lots de 100 plantes (dans l'ordre de l'export) : data/auto_<PEP>_L<n>.csv ; affiche « n premier dernier »
-LOTS="$(python - "data/plantes_P001-P999.csv" "$PEP" "$TAILLE_LOT" "$PARTIE" "$TOTAL" <<'PY'
+LOTS="$(python - "data/plantes_P001-P999999.csv" "$PEP" "$TAILLE_LOT" "$PARTIE" "$TOTAL" <<'PY'
 import csv, sys
 chemin, pep, taille, partie, total = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5])
 lignes = list(csv.reader(open(chemin, encoding="utf-8")))
