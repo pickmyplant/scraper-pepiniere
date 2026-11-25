@@ -1,0 +1,28 @@
+{
+ "releve": "BAK-2026-11-24-AUTO-L8",
+ "pepiniere": "Bakker",
+ "date": "25/11/2026",
+ "par": "Automatique",
+ "plantes": [
+  "P702",
+  "P703",
+  "P704",
+  "P705",
+  "P706",
+  "P707",
+  "P708",
+  "P709",
+  "P710",
+  "P711",
+  "P712",
+  "P713",
+  "P714",
+  "P715",
+  "P716",
+  "P717"
+ ],
+ "nb_lignes": 81,
+ "fichier": "releves/BAK-2026-11-24-AUTO-L8.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
