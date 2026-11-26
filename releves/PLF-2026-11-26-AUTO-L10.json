@@ -1,0 +1,21 @@
+{
+ "releve": "PLF-2026-11-26-AUTO-L10",
+ "pepiniere": "Planfor",
+ "date": "26/11/2026",
+ "par": "Automatique",
+ "plantes": [
+  "P902",
+  "P903",
+  "P904",
+  "P905",
+  "P906",
+  "P907",
+  "P908",
+  "P909",
+  "P910"
+ ],
+ "nb_lignes": 9,
+ "fichier": "releves/PLF-2026-11-26-AUTO-L10.tsv",
+ "branche": "claude/vibrant-keller-jibr76",
+ "remarques": ""
+}
